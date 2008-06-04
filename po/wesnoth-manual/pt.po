@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.3.7+svn\n"
-"POT-Creation-Date: 2008-03-10 17:57+0100\n"
-"PO-Revision-Date: 2008-03-22 23:43-0000\n"
-"Last-Translator: Knitter <knitter.is@gmail.com>\n"
+"POT-Creation-Date: 2008-05-26 19:15+0200\n"
+"PO-Revision-Date: 2008-06-04 17:52-0000\n"
+"Last-Translator: Sérgio Lopes <knitter.is@gmail.com>\n"
 "Language-Team: none\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,9 +100,26 @@ msgstr ""
 msgid "When Wesnoth first starts it displays an initial background and a column of buttons called the Main Menu. The buttons only work with a mouse. For the impatient, we recommend you: click the \"Language\" button to set your language; then click the \"Tutorial\" button to run the tutorial; and then play the campaign, \"A Tale of Two Brothers\" by clicking the \"Campaign\" button and selecting it from the list provided."
 msgstr ""
 
-# type: Content of: <book><chapter><section><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:97
-msgid "<phrase>Main Menu</phrase>"
+# type: Content of: <book><chapter><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:93
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/main-menu.jpg\"/> </imageobject>"
+msgstr ""
+
+# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
+#: ../../doc/manual/manual.en.xml:98
+#: ../../doc/manual/manual.en.xml:320
+#: ../../doc/manual/manual.en.xml:374
+#: ../../doc/manual/manual.en.xml:387
+#: ../../doc/manual/manual.en.xml:453
+#: ../../doc/manual/manual.en.xml:1016
+#: ../../doc/manual/manual.en.xml:1132
+#: ../../doc/manual/manual.en.xml:1154
+#: ../../doc/manual/manual.en.xml:1176
+#: ../../doc/manual/manual.en.xml:1198
+#: ../../doc/manual/manual.en.xml:1220
+#: ../../doc/manual/manual.en.xml:1242
+#: ../../doc/manual/manual.en.xml:1264
+msgid "</inlinemediaobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><variablelist><varlistentry><term>
@@ -278,9 +295,9 @@ msgstr ""
 msgid "There are several possible options you are provided with when clicking on the \"Multiplayer\" button:"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:319
-msgid "<phrase>Multiplayer dialog</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:315
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/multiplayer.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><section><title>
@@ -328,9 +345,9 @@ msgstr ""
 msgid "The Game Screen"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:373
-msgid "<phrase>Game Screen</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:369
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/game-screen.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><simpara>
@@ -338,9 +355,9 @@ msgstr ""
 msgid "Regardless of whether you are playing a scenario or a campaign, the basic layout of the game screen is the same. The majority of the screen is filled with a map which shows all of the action that takes place in the game. Around the map are various elements which provide useful information about the game and are described in more detail below."
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:386
-msgid "<phrase>Top Panel</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:382
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/top_pane.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><simpara>
@@ -403,9 +420,9 @@ msgstr ""
 msgid "Current hex position (x-coordinate, y-coordinate)"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:452
-msgid "<phrase>Right Panel</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:448
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/right_pane.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><simpara>
@@ -1038,6 +1055,11 @@ msgstr ""
 msgid ":"
 msgstr ""
 
+# type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
+#: ../../doc/manual/manual.en.xml:994
+msgid "<ulink url=\"http://www.wesnoth.org/wiki/CommandMode\">Command mode</ulink>"
+msgstr ""
+
 # type: Content of: <book><chapter><section><simpara>
 #: ../../doc/manual/manual.en.xml:1003
 msgid "Each side is given some amount of gold to begin with, and receives 2 gold pieces per turn, plus 1 more gold piece for every village that side controls. In a campaign, starting gold is the greater of 80% of the gold you ended the previous scenario with, and a minimum amount defined by the scenario, which is typically lower as the difficulty level increases."
@@ -1048,9 +1070,9 @@ msgstr ""
 msgid "Recruiting and Recalling"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1015
-msgid "<phrase>Recruit dialog</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1011
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/recruit.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><simpara>
@@ -1170,9 +1192,9 @@ msgstr ""
 msgid "1"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1131
-msgid "<phrase>images/schedule-dawn.jpg</phrase>"
+# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1127
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-dawn.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
@@ -1195,9 +1217,9 @@ msgstr ""
 msgid "2"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1153
-msgid "<phrase>images/schedule-morning.jpg</phrase>"
+# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1149
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-morning.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
@@ -1230,9 +1252,9 @@ msgstr ""
 msgid "3"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1175
-msgid "<phrase>images/schedule-afternoon.jpg</phrase>"
+# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1171
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-afternoon.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
@@ -1248,9 +1270,9 @@ msgstr ""
 msgid "4"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1197
-msgid "<phrase>images/schedule-dusk.jpg</phrase>"
+# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1193
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-dusk.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
@@ -1265,9 +1287,9 @@ msgstr ""
 msgid "5"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1219
-msgid "<phrase>images/schedule-firstwatch.jpg</phrase>"
+# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1215
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-firstwatch.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
@@ -1282,9 +1304,9 @@ msgstr ""
 msgid "6"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1241
-msgid "<phrase>images/schedule-secondwatch.jpg</phrase>"
+# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1237
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-secondwatch.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
@@ -1297,9 +1319,9 @@ msgstr ""
 msgid "Special"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1263
-msgid "<phrase>images/schedule-underground.jpg</phrase>"
+# type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1259
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/schedule-underground.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
@@ -1348,9 +1370,8 @@ msgid "Intelligent units require 20% less experience than usual to advance (Trol
 msgstr ""
 
 #: ../../doc/manual/manual.en.xml:1320
-#, fuzzy
 msgid "Quick"
-msgstr "Sair"
+msgstr "Rápido"
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: ../../doc/manual/manual.en.xml:1324
@@ -1464,7 +1485,7 @@ msgstr ""
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: ../../doc/manual/manual.en.xml:1470
-msgid "This attack deals double damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (e.g.  turned to stone)."
+msgid "When used offensively, this attack deals double damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (e.g. turned to stone)."
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
@@ -1484,7 +1505,7 @@ msgstr ""
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: ../../doc/manual/manual.en.xml:1494
-msgid "This attack deals double damage to the target. It also causes this unit to take double damage from the target's counterattack."
+msgid "When used offensively, this attack deals double damage to the target. It also causes this unit to take double damage from the target's counterattack."
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
@@ -1510,7 +1531,7 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #: ../../doc/manual/manual.en.xml:1522
 msgid "Magical"
-msgstr ""
+msgstr "Mágico"
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: ../../doc/manual/manual.en.xml:1526
@@ -1530,7 +1551,7 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #: ../../doc/manual/manual.en.xml:1543
 msgid "Plague"
-msgstr ""
+msgstr "Praga"
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: ../../doc/manual/manual.en.xml:1547
@@ -1561,7 +1582,7 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #: ../../doc/manual/manual.en.xml:1580
 msgid "Stone"
-msgstr ""
+msgstr "Pedra"
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: ../../doc/manual/manual.en.xml:1584
@@ -1591,7 +1612,7 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #: ../../doc/manual/manual.en.xml:1613
 msgid "Ambush"
-msgstr ""
+msgstr "Embuscada"
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: ../../doc/manual/manual.en.xml:1617
@@ -1651,7 +1672,7 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #: ../../doc/manual/manual.en.xml:1694
 msgid "Leadership"
-msgstr ""
+msgstr "Liderança"
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: ../../doc/manual/manual.en.xml:1698
@@ -1737,7 +1758,7 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #: ../../doc/manual/manual.en.xml:1801
 msgid "enemy level"
-msgstr ""
+msgstr "nível do inimigo"
 
 # type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #: ../../doc/manual/manual.en.xml:1804
@@ -1752,32 +1773,32 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #: ../../doc/manual/manual.en.xml:1828
 msgid "8"
-msgstr ""
+msgstr "8"
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #: ../../doc/manual/manual.en.xml:1839
 msgid "16"
-msgstr ""
+msgstr "16"
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #: ../../doc/manual/manual.en.xml:1850
 msgid "24"
-msgstr ""
+msgstr "24"
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #: ../../doc/manual/manual.en.xml:1861
 msgid "32"
-msgstr ""
+msgstr "32"
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #: ../../doc/manual/manual.en.xml:1872
 msgid "40"
-msgstr ""
+msgstr "40"
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #: ../../doc/manual/manual.en.xml:1883
 msgid "48"
-msgstr ""
+msgstr "48"
 
 # type: Content of: <book><chapter><section><section><title>
 #: ../../doc/manual/manual.en.xml:1894
@@ -1834,9 +1855,9 @@ msgstr ""
 msgid "On the top of the energy bar shown next to each unit of yours is an orb. This orb is:"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1957
-msgid "<phrase>green orb</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1953
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/orb-green.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
@@ -1844,9 +1865,9 @@ msgstr ""
 msgid "</inlinemediaobject> green if you control the unit and it hasn't moved this turn,"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1965
-msgid "<phrase>yellow orb</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1961
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/orb-yellow.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
@@ -1854,9 +1875,9 @@ msgstr ""
 msgid "</inlinemediaobject> yellow if you control the unit and it has moved this turn, but could still move further or attack,"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1973
-msgid "<phrase>red orb</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1969
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/orb-red.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
@@ -1864,9 +1885,9 @@ msgstr ""
 msgid "</inlinemediaobject> red if you control the unit, but it has used all its movement this turn, or"
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1981
-msgid "<phrase>blue orb</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1977
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/orb-blue.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><itemizedlist><listitem><simpara>
@@ -1874,9 +1895,9 @@ msgstr ""
 msgid "</inlinemediaobject> blue if the unit is an ally you do not control."
 msgstr ""
 
-# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject>
-#: ../../doc/manual/manual.en.xml:1989
-msgid "<phrase>no orb</phrase>"
+# type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
+#: ../../doc/manual/manual.en.xml:1985
+msgid "<inlinemediaobject> <imageobject> <imagedata fileref=\"images/orb-none.jpg\"/> </imageobject>"
 msgstr ""
 
 # type: Content of: <book><chapter><section><section><simpara>
@@ -2078,12 +2099,12 @@ msgstr ""
 # type: Content of: <book><chapter><title>
 #: ../../doc/manual/manual.en.xml:2203
 msgid "Strategy and Tips"
-msgstr ""
+msgstr "Dicas e Estratégia"
 
 # type: Content of: <book><chapter><section><title>
 #: ../../doc/manual/manual.en.xml:2205
 msgid "Basic Strategy"
-msgstr ""
+msgstr "Estratégia Básica"
 
 # type: Content of: <book><chapter><section><simpara>
 #: ../../doc/manual/manual.en.xml:2206
@@ -2233,7 +2254,7 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><title>
 #: ../../doc/manual/manual.en.xml:2349
 msgid "Time of Day"
-msgstr ""
+msgstr "Dica do Dia"
 
 # type: Content of: <book><chapter><section><section><simpara>
 #: ../../doc/manual/manual.en.xml:2350
@@ -2428,12 +2449,7 @@ msgstr ""
 # type: Content of: <book><glossary><title>
 #: ../../doc/manual/manual.en.xml:2593
 msgid "Glossary"
-msgstr ""
-
-# type: Content of: <book><glossary><glossentry>
-#: ../../doc/manual/manual.en.xml:2595
-msgid "<glossterm> ZOC </glossterm>"
-msgstr ""
+msgstr "Glossário"
 
 # type: Content of: <book><glossary><glossentry><glossdef><simpara>
 #: ../../doc/manual/manual.en.xml:2600
