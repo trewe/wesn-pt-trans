@@ -2,8 +2,6 @@
 
 WESNOTH="-dev"
 
-LANG="pt"
-
 filelist="${filelist} `ls -d ../umc`"
 
 for i in $filelist
@@ -20,7 +18,7 @@ for i in $filelist
 
 			mkdir -p $HOME/.wesnoth$WESNOTH/translations/$domain/$lang/LC_MESSAGES/
 
-			msgfmt --statistics -c ../umc/$domain/$j -o $HOME/.wesnoth$WESNOTH/translations/$domain/$lang/LC_MESSAGES/$lang.mo
+			msgfmt --statistics -c ../umc/$domain/$j -o $HOME/.wesnoth$WESNOTH/translations/$domain/$lang/LC_MESSAGES/$domain.mo
 
 		done
 done

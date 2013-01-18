@@ -11,7 +11,7 @@ filelist="${filelist} `ls -d ../wes*`"
 
 for i in $filelist
 	do
-		local domain="`basename $i`"
+		domain="`basename $i`"
 
 		msgfmt --statistics -c $i/$LANG.po -o $HOME/Games/wesnoth$WESNOTH/translations/$LANG/LC_MESSAGES/$domain.mo
 done
