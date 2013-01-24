@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-23 23:23+0200\n"
+"POT-Creation-Date: 2013-01-10 00:49-0500\n"
 "PO-Revision-Date: \n"
-"Last-Translator: trewe <sjr456@yahoo.fr>\n"
+"Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: trewe <sjrs456@yahoo.fr>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -79,48 +79,43 @@ msgstr "Veterano"
 msgid "This is an infinitely long, random, campaign. As you play, it gets increasing difficult in various ways. How many scenarios can you complete?"
 msgstr "Esta é uma campanha infinitamente longa. Assim como jogas, torna-se subsequentemente mais difícil em vários aspectos. Quantos cenários consegues completar?"
 
-#. [about]
-#: Mystery_Campaign/_main.cfg:31
-msgid "Campaign Design"
-msgstr "Projecto de Campanha"
+#. [unit_type]: id=EE_dummy_unit
+#: Mystery_Campaign/_main.cfg:76
+msgid "dummy_unit^Random No Mirror"
+msgstr "Aleatório Sem Facção Espelhada"
 
 #. [about]
-#: Mystery_Campaign/_main.cfg:32
-msgid "WML Contribution"
-msgstr "Contribuição de WML"
+#: Mystery_Campaign/credits.cfg:6
+msgid "Campaign Design"
+msgstr "Projecto de Campanha"
 
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 0: <toplevel>
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 15: [campaign] has icon="items/ball-blue.png", image="", first_scenario=mystery_scenario, difficulties=EASY,NORMAL,HARD, define=CAMPAIGN_MYSTERY, extra_defines=ENABLE_DWARVISH_ARCANISTER,ENABLE_ARMAGEDDON_DRAKE,ENABLE_DEATH_KNIGHT
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 35: [about] has
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 36: title=
 #. [about]
-#: Mystery_Campaign/_main.cfg:35
+#: Mystery_Campaign/credits.cfg:13
+msgid "Current Maintainer"
+msgstr "Mantenhador actual"
+
+# /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 0: <toplevel>
+# /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 15: [campaign] has icon="items/ball-blue.png", image="", first_scenario=mystery_scenario, difficulties=EASY,NORMAL,HARD, define=CAMPAIGN_MYSTERY, extra_defines=ENABLE_DWARVISH_ARCANISTER,ENABLE_ARMAGEDDON_DRAKE,ENABLE_DEATH_KNIGHT
+# /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 35: [about] has
+# /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 36: title=
+#. [about]
+#: Mystery_Campaign/credits.cfg:19
 msgid "Previous Maintainer"
 msgstr "Mantenhador Anterior"
 
 #. [about]
-#: Mystery_Campaign/_main.cfg:36
+#: Mystery_Campaign/credits.cfg:25
+msgid "WML Contribution"
+msgstr "Contribuição de WML"
+
+#. [about]
+#: Mystery_Campaign/credits.cfg:39
 msgid "Translations"
 msgstr "Traduções"
-
-# /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 0: <toplevel>
-# /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 15: [campaign] has icon="items/ball-blue.png", image="", first_scenario=mystery_scenario, difficulties=EASY,NORMAL,HARD, define=CAMPAIGN_MYSTERY, extra_defines=ENABLE_DWARVISH_ARCANISTER,ENABLE_ARMAGEDDON_DRAKE,ENABLE_DEATH_KNIGHT
-# /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 35: [about] has
-# /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/_main.cfg, line 36: title=
-#. [about]
-#: Mystery_Campaign/_main.cfg:39
-msgid "Current Maintainer"
-msgstr "Mantenhador actual"
-
-#. [about]
-#: Mystery_Campaign/_main.cfg:43
-msgid "Miscellaneous"
-msgstr "Diversos"
-
-#. [unit_type]: id=EE_dummy_unit
-#: Mystery_Campaign/_main.cfg:89
-msgid "dummy_unit^Random No Mirror"
-msgstr "Aleatório Sem Facção Espelhada"
 
 #. [era]: id=era_extended
 #: Mystery_Campaign/era.cfg:5
@@ -138,63 +133,62 @@ msgstr "Era Suplementar"
 # \n
 # Vivem ou no meio do deserto ou na tundra do norte (depende das campanhas)
 # \n
-#. [multiplayer_side]: id=aragwaithi, type=EE Aragwaith Flagbearer
+#. [multiplayer_side]: id=aragwaithi, type=random
 #: Mystery_Campaign/factions/aragwaithi.cfg:5
 msgid "Aragwaithi"
 msgstr ""
 
-#. [multiplayer_side]: id=dark_elves, type=EE Dark Elf Captain
+#. [multiplayer_side]: id=dark_elves, type=random
 #: Mystery_Campaign/factions/dark_elves.cfg:5
 msgid "Dark Elves"
 msgstr "Duendes"
 
-#. [multiplayer_side]: id=dark_legion, type=EE Chaos Knight
+#. [multiplayer_side]: id=dark_legion, type=random
 #: Mystery_Campaign/factions/dark_legion.cfg:5
 msgid "Dark Legion"
 msgstr "Legião Maligna"
 
-#. [multiplayer_side]: id=frontiers, type=EE Warrior
+#. [multiplayer_side]: id=frontiers, type=random
 #: Mystery_Campaign/factions/frontiers.cfg:5
 msgid "Frontiers"
 msgstr "Fronteiriços"
 
-#. [multiplayer_side]: id=khalifate, type=EE Muharib
+#. [multiplayer_side]: id=khalifate, type=random
 #: Mystery_Campaign/factions/khalifate.cfg:5
 msgid "Khalifate"
 msgstr "Califado"
 
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/factions_config.cfg, line 0: <toplevel>
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/factions_config.cfg, line 42: {START_FACTION
-#. [multiplayer_side]: id=outlaws, type=Wesfolk Lady
+#. [multiplayer_side]: id=outlaws, type=random
 #: Mystery_Campaign/factions/outlaws.cfg:5
 msgid "Outlaws"
 msgstr "Foragidos"
 
 #. [race]: id=aragwaith
-#: Mystery_Campaign/races/_races.cfg:5
-#: Mystery_Campaign/races/_races.cfg:6
+#: Mystery_Campaign/races/_races.cfg:8
 msgid "race^Aragwaith"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: Mystery_Campaign/races/_races.cfg:5
-#: Mystery_Campaign/races/_races.cfg:6
+#: Mystery_Campaign/races/_races.cfg:9
 msgid "race+male^Aragwaith"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: Mystery_Campaign/races/_races.cfg:7
+#: Mystery_Campaign/races/_races.cfg:10
 msgid "race+female^Aragwaith"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: Mystery_Campaign/races/_races.cfg:8
+#: Mystery_Campaign/races/_races.cfg:11
 msgid "race+plural^Aragwaithi"
 msgstr ""
 
 #. [race]: id=aragwaith
-#: Mystery_Campaign/races/_races.cfg:12
+#: Mystery_Campaign/races/_races.cfg:15
 msgid ""
+"\n"
 "During most of the Golden Age, the humans who inhabited the Great Continent were mostly Wesnothians, divided across various territories such as the Northlands, Elensefar and the kingdom of Wesnoth itself. However, there was once a time of great strife during which a new race of humans started to appear from nowhere. They were the 'Aragwaithi', which meant 'noble' in their native language.\n"
 "\n"
 "It has been since then rumored that they came from the Vast Sea to settle in Wesnoth. They mostly lived as mercenaries in that time, until the Fall. After that, they supposedly moved to the northmost lands of the Continent, were the sands could not reach, and the green could survive.\n"
@@ -202,130 +196,260 @@ msgid ""
 "Albeit being humans, many of their customs and racial features are incredibly different to the standards, to the point it puts them close to elves in terms of their dexterity with bows. Their wisemen have a mastery of magic not to be underestimated in the battlefield, for it has surprised and overseded the best magi often."
 msgstr ""
 
-#. [race]: id=khalifate, description=
-#: Mystery_Campaign/races/_races.cfg:107
-#: Mystery_Campaign/races/_races.cfg:108
+#. [race]: id=aragwaith
+#: Mystery_Campaign/races/_races.cfg:22
+msgid ""
+"Accos,Acton,Actras,Aephus,Andradas,Arus,Ballus,Bellon,Callas,Cathas,Cendras,Cyras,Dandras,Dundarus, Edras,Essras,Fathas,Gallas,Hadrion,Hektor,Herdreidon,Hestus,Indus,Kahas,Korus,Lathas,Lostrus,Malthras,Netheras,Orion, Oros,Ossas,Pallas,Paris,Ramolus,Rustarus,Sarpedon,Sordas,Sundaras,Tartarus,Teolas,Torus,Typhon,Xerus,Abel,Aleron,Aldon, Altair,Alumit,Amaion,Amarandius,Ambrosios,Amdis,Andros,Ashling,Athan,Bakarnios,Belario,Beval,Bian,Blain,Braeden,Brandeis ,Brendan,Brone,Bronwen,Carden,Cian,Corbin,Damalis,Damian,Danton,Daray,Delano,Donn,Dunkan,Eamen,Gustaff,Heath,Heathcliff, Ingrum,Jareth,Kaevan,Karayan,Kern,Kieran,Lucinius,Marlin,Nelos,Parris,Ravenios,Rune,Savan,Sumnor,Tainn,Tariq,Tristram, Vega,Wynn,Lestat,Louis,Armand,Amadeo,Santiago,Marius,Magnus,David,Enkil,Mael,Santino,Vittorio,Thorne,Avicus,Laurentios, Daniel,Khayman,Tarquin,Quinn,Vladimir,Vlad,Ansel,Anwar,Arden,Ashe,Ashford,Ashlin,Bairdios,Barnabas,Bentley,Brishen, Connor,Crevan,Dante,Flynne,Gavin,Hewitt,Holt,Jacy,Jolon,Kasch,Lucyan,\n"
+"Morgyn, Pembrokios,Quillian,Quinn,Riordin,Rowan,Sylvain,Taban,Teague,Wendell"
+msgstr ""
+"Accos,Acton,Actras,Aephus,Andradas,Arus,Ballus,Bellon,Callas,Cathas,Cendras,Cyras,Dandras,Dundarus, Edras,Essras,Fathas,Gallas,Hadrion,Hektor,Herdreidon,Hestus,Indus,Kahas,Korus,Lathas,Lostrus,Malthras,Netheras,Orion, Oros,Ossas,Pallas,Paris,Ramolus,Rustarus,Sarpedon,Sordas,Sundaras,Tartarus,Teolas,Torus,Typhon,Xerus,Abel,Aleron,Aldon, Altair,Alumit,Amaion,Amarandius,Ambrosios,Amdis,Andros,Ashling,Athan,Bakarnios,Belario,Beval,Bian,Blain,Braeden,Brandeis ,Brendan,Brone,Bronwen,Carden,Cian,Corbin,Damalis,Damian,Danton,Daray,Delano,Donn,Dunkan,Eamen,Gustaff,Heath,Heathcliff, Ingrum,Jareth,Kaevan,Karayan,Kern,Kieran,Lucinius,Marlin,Nelos,Parris,Ravenios,Rune,Savan,Sumnor,Tainn,Tariq,Tristram, Vega,Wynn,Lestat,Louis,Armand,Amadeo,Santiago,Marius,Magnus,David,Enkil,Mael,Santino,Vittorio,Thorne,Avicus,Laurentios, Daniel,Khayman,Tarquin,Quinn,Vladimir,Vlad,Ansel,Anwar,Arden,Ashe,Ashford,Ashlin,Bairdios,Barnabas,Bentley,Brishen, Connor,Crevan,Dante,Flynne,Gavin,Hewitt,Holt,Jacy,Jolon,Kasch,Lucyan,\n"
+"Morgyn, Pembrokios,Quillian,Quinn,Riordin,Rowan,Sylvain,Taban,Teague,Wendell"
+
+#. [race]: id=aragwaith
+#: Mystery_Campaign/races/_races.cfg:24
+msgid ""
+"Aislinnë,Alana,Alaura,Aleta,Alethëa,Alma,Amaris,Amaryllis,Amaya,Ambrosine,Araxie,Ariana,Autumne, Badria,Blythe,Brenna,Busana,Cascata,Celine,Ceridwën,Chandra,Damaryssa,Denisha,Devinë,Erĕla,Fala,Fanya,Hazélle,Isadora, Iva,Javana,Jenessa,Jora,Jordynë,Jovana,Kamalia,Kalyca,Kavindra,Kestrel,Kynthia,Laqueta,Layla,Leandra,Leigh,Livana,Naida, Neesha,Nevada,Oleta,Parkyr,Philomina,Pyralis,Rayne,Risa,Rosalia,Salena,Seda,Shahar,Shea,Silva,Silvana,Tabitha,Tacita, Tara,Tatiana,Tayce,Vala,Valonia,Vesta,Vidonia,Waneta,Wyntir,Yepa,Yolanda,Yoninah,Zyta,Adara,Adena,Adrianne,Alarice, Alvita,Amara,Ambika,Antonia,Araceli,Balandria,Basha,Beryl,Bryn,Callia,Caryssa,Cassandra,Casondrah,Chatha,Ciara,Cynara, Cytheria,Dabria,Darcei,Deandra,Deirdre,Delores,Desdomna,Devi,Drucilla,Duvessa,Fantine,Fuscienne,Gabi,Gallia,Hanna,Hedda, Jerica,Jetta,Joby,Kacila,Kala,Kallie,Keelia,Killian,Kory,Lilith,Lucretia,Lysha,Mercedes,Mia,Maura,Perdita,Quella,Riona, Safiya,Salina,Severin,Sidonia,Sirena,Solita,Tempest,Thea,Treva,Trista,\n"
+"Vala,Winta, Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,Alera,Arila,Aia,Atha,Ashe,Aru,Amasela,Aoshe, Amelara,Alura,Elena,Esure,Ena,Ethe,Eme,Eïra,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,Erë,Emi,Eshi,Enemura,Sela, Sara,Sula,Salura,Sana,Semisha,Soshire,Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,Sithame,Ola, Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia, Famori,Irena,Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,Imia,Iralura,Isanare,Ihama,Iri, Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,Masohe,Mushena,Malesa,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,Mesa, Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila ,Thama,Therasa,Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,Norale,Nethala,Nisha,Nemene, Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,Nahasa,Nila,Nuralena,\n"
+"Nema,Lisa,Lara,Loe, Lasama,Lemeshe,Lathia,Leshara,Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,Lania,Larie, Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha ,Vana,Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,Shena,Shira,Shamane,Shefia"
+msgstr ""
+"Aislinnë,Alana,Alaura,Aleta,Alethëa,Alma,Amaris,Amaryllis,Amaya,Ambrosine,Araxie,Ariana,Autumne, Badria,Blythe,Brenna,Busana,Cascata,Celine,Ceridwën,Chandra,Damaryssa,Denisha,Devinë,Erĕla,Fala,Fanya,Hazélle,Isadora, Iva,Javana,Jenessa,Jora,Jordynë,Jovana,Kamalia,Kalyca,Kavindra,Kestrel,Kynthia,Laqueta,Layla,Leandra,Leigh,Livana,Naida, Neesha,Nevada,Oleta,Parkyr,Philomina,Pyralis,Rayne,Risa,Rosalia,Salena,Seda,Shahar,Shea,Silva,Silvana,Tabitha,Tacita, Tara,Tatiana,Tayce,Vala,Valonia,Vesta,Vidonia,Waneta,Wyntir,Yepa,Yolanda,Yoninah,Zyta,Adara,Adena,Adrianne,Alarice, Alvita,Amara,Ambika,Antonia,Araceli,Balandria,Basha,Beryl,Bryn,Callia,Caryssa,Cassandra,Casondrah,Chatha,Ciara,Cynara, Cytheria,Dabria,Darcei,Deandra,Deirdre,Delores,Desdomna,Devi,Drucilla,Duvessa,Fantine,Fuscienne,Gabi,Gallia,Hanna,Hedda, Jerica,Jetta,Joby,Kacila,Kala,Kallie,Keelia,Killian,Kory,Lilith,Lucretia,Lysha,Mercedes,Mia,Maura,Perdita,Quella,Riona, Safiya,Salina,Severin,Sidonia,Sirena,Solita,Tempest,Thea,Treva,Trista,\n"
+"Vala,Winta, Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,Alera,Arila,Aia,Atha,Ashe,Aru,Amasela,Aoshe, Amelara,Alura,Elena,Esure,Ena,Ethe,Eme,Eïra,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,Erë,Emi,Eshi,Enemura,Sela, Sara,Sula,Salura,Sana,Semisha,Soshire,Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,Sithame,Ola, Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia, Famori,Irena,Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,Imia,Iralura,Isanare,Ihama,Iri, Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,Masohe,Mushena,Malesa,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,Mesa, Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila ,Thama,Therasa,Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,Norale,Nethala,Nisha,Nemene, Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,Nahasa,Nila,Nuralena,\n"
+"Nema,Lisa,Lara,Loe, Lasama,Lemeshe,Lathia,Leshara,Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,Lania,Larie, Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha ,Vana,Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,Shena,Shira,Shamane,Shefia"
+
+#. [race]: id=khalifate
+#: Mystery_Campaign/races/_races.cfg:117
 msgid "race^Khalifate Human"
 msgstr "Humano do Califado"
 
-#. [race]: id=khalifate, description=
-#: Mystery_Campaign/races/_races.cfg:107
-#: Mystery_Campaign/races/_races.cfg:108
+#. [race]: id=khalifate
+#: Mystery_Campaign/races/_races.cfg:118
 msgid "race+male^Khalifate Human"
 msgstr "Humano do Califado"
 
-#. [race]: id=khalifate, description=
-#: Mystery_Campaign/races/_races.cfg:109
+#. [race]: id=khalifate
+#: Mystery_Campaign/races/_races.cfg:119
 msgid "race+female^Khalifate Human"
 msgstr "Humana do Califado"
 
-#. [race]: id=khalifate, description=
-#: Mystery_Campaign/races/_races.cfg:110
+#. [race]: id=khalifate
+#: Mystery_Campaign/races/_races.cfg:120
 msgid "race+plural^Khalifate"
 msgstr "Humanos do Califado"
 
-#. [race]: id=khalifate, description=
-#: Mystery_Campaign/races/_races.cfg:114
-msgid "Aban,Abbas,Abbud,Abdul-Ädl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,Abdul-Aziz,Abdul-Badi,Abdul-Baith,Abdul-Baqi,Abdul-Bari,Abdul-Barr,Abdul-Basir,Abdul-Basit,Abdul-Fattah,Abdul-Ghaffar,Abdul-Ghafur,Abdul-Ghani,Abdul-Hadi,Abdul-Hafiz,Abdul-Hakam,Abdul-Hakim,Abdul-Halim,Abdul-Hamid,Abdul-Haqq,Abdul-Hasib,Abdul-Hayy,Abdul-Jabbar,Abdul-Jalil,Abdul-Karim,Abdul-Khabir,Abdul-Khaliq,Abdul-Latif,Abdul-Malik,Abdul-Majid,Abdul-Matin,Abdul-Mubdi,Abdul-Mughni,Abdul-Muhaimin,Abdul-Muhsi,Abdul-Muhyi,Abdul-Mußid,Abdul-Mußizz,Abdul-Mujib,Abdul-Mumin,Abdul-Muqaddim,Abdul-Muqtadir,Abdul-Musawwir,Abdul-Mutaßal,Abdul-Nafi,Abdul-Nasser,Abdul-Nasir,Abdul-Nur,Abdul-Qadir,Abdul-Qahhar,Abdul-Qawi,Abdul-Qayyum,Abdul-Quddus,Abdul-Rafi,Abdul-Rahim,Abdul-Rahman,Abdul-Rashid,Abdul-Rauf,Abdul-Razzaq,Abdul-Shakur,Abdul-Tawwab,Abdul-Wadud,Abdul-Wahhab,Abdul-Wahid,Abdul-Wajid,Abdul-Wakil,Abdul-Wali,Abdul-Waliy,Abdul-Warith,Abdul-Zahir,Abdullah,Abid,Abidin,Abu Bakr,Aby al-Khayr,Adil,Adham,Adib,Adli,Adnan,Afif,Ahmad,Ajib,Akif,Akil,Akram,Ala,Ala al-Din,Al Abbas,Aladdin,al-Bara,al-Hakam,al-Harith,Alhasan,Alhusain,Ali,Alim,Almahdi,al-Safi,Altaf,Altair,al-Tayyib,al-Tijani,al-Tufail,Amid,Amid,Amin,Amir,Amir,Amjad,Ammar,Amro,Anas,Anis,Antarah,Anwar,Aqil,Arfan,Arif,Arif,Asad,Asad,Asadel,Ashraf,Asif,Asim,Aswad,Ata,Ata Allah,Ata al-Rahman,Athil,Athir,Atif,Awad,Awf,Aws,Awwab,Ayham,Ayman,Ayser,Ayyub,Aza,Azab,Azhar,Azim,Aziz,Azzam,Badi,Badi al-Zaman,Badr,Badr al-Din,Badri,Baha,Bahiyy al-Din,Bahij,Bahir,Bakr,Bakri,Baligh,Bandar,Barakah,Barir,Bashshar,Basil,Basim,Bassam,Bayezid,Bayhas,Bilal,Bishr,Boulos,Budail,Burhan,Bushr,Butrus,Dabir,Dani,Darwish,Daud,Dhakir,Dhakiy,Dhakwan,Dhul Fiqar,Dirar,Diya,Diya al-Din,Duqaq,Fadi,Fadil,Fadl,Fadl Allah,Fahd,Fahad,Fahmi,Faisal,Faiz,Fakhir,Fakhr al-Din,Fakhri,Fakih,Falah,Falih,Faraj,Farhan,Farid,Fariq,Fariq,Faris,Faruq,Fath,Fathi,Fatih,Fatin,Fawwaz,Fawzan,Fawzi,Fayyad,Ferran,Fida,Fikri,Firas,Fuad,Fudail,Gamal,Ghayth,Ghali,Ghalib,Ghanim,Ghassan,Ghawth,Ghazwan,Ghiyath,Habbab,Habib,Haddad,Hadi,Hafiz,Hakem,Hakim,Halim,Hamal,Hamas,Hamdan,Hamdi,Hamid,Hamim,Hamzah,Hana,Hanai,Hanbal,Hani,Hanif,Hannad,Haris,Harith,Harun,Hashim,Hassan,Hatim,Haydar,Haytham,Hayyan,Hazim,Hilal,Hilmi,Hisham,Hud,Hudad,Hudhafah,Hudhayfah,Humam,Hussein,Husam,Husam al-Din,Ibrahim,Id,Idris,Ihsan,Ihtisham,Ikrimah,Ilias,Imad,Imad al-Din,Imran,Imtiyaz,Inam,Iqbal,Irfan,Isa,Isam,Ishaq,Ismail,Iyad,Iyas,Izz al-Din,Jabbar,Jabr,Jabir,Jad Allah,Jafar,Jal,Jalal,Jalal al-Din,Jalil,Jamal,Jamal al-Din,Jamil,Jarir,Jasim,Jaul,Jaun,Jawad,Jawdah,Jawhar,Jibran,Jibril,Jubair,Jul,Jumah,Junayd,Juwain,Kadar,Kadin,Kadir,Kahil,Kaliq,Kamal,Kamil,Karam,Kardal,Karif,Karim,Kasib,Kasim,Katib,Kazim,Khalaf,Khaldun,Khalid,Khalil,Khalil al-Allah,Khalis,Khatib,Khair al-Din,Khairi,Khoury,Khulus,Khuzaymah,Kutaiba,Labib,Lablab,Latif,Layth,LuayLubayd,Luqman,Lut,Lutfi,Mad,Madani,Mahbub,Mahdi,Mahfuz,Mahir,Mahjub,Mahmud,Mahrus,Maimun,Majd,Majdy,Majd al-Din,Majid,Makin,Malik,Mamduh,Mamun,Main,Mandhur,Mansur,Marghub,Marid,Maruf,Marwan,Marzuq,Mashal,Mashhur,Masrur,Masud,Masun,Maysarah,Mazhar,Mazin,Mehmed,Mihran,Mihyar,Mikail,Miqdad,Misbah,Mishal,Miyaz,Muadh,Muawiyah,Muayyad,Mubarak,Mubin,Mudar,Muddaththir,Mufid,Muflih,Muhab,Muhayr,Muhammad,Muhanna,Muhannad,Muhib,Muhibb,Muhsin,Muhtadi,Muhyi al-Din,Muin,Muizz,Mujab,Mujahid,Mukarram,Mukhlis,Mukhtar,Mulham,Mulhim,Mummar,Mumin,Mumtaz,Munahid,Mundhir,Munib,Munif,Munir,Munis,Munjid,Munsif,Muntasir,Murad,Murid,Murshid,Murtada,Musa,Musab,Musaid,Mushtaq,Muslih,Muslim,Mutafa,Muta,Mutasim,Mutawalli,Mutazz,Muthanna,Muti,Muwaffaq,Muyassar,Muzaffar,Mussammil,Nabhan,Nabighah,Nabih,Nabil,Nadhir,Nadim,Nadir,Nafi,Nahid,Nail,Naim,Naji,Najib,Najid,Najjar,Najm al-Din,Naaman,Namir,Nashah,Nashat,Nashwan,Nasib,Nasih,Nasim,Nasir,Nasir al-Din,Nasr,Nasri,Nasuh,Nawaf,Nawfal,Nayif,Nazih,Nazim,Nazmi,Nibras,Nidal,Nijad,Nimr,Nizar,Nuaym,Nuh,Nuhayd,Numair,Numan,Nur al-Din,Nuri,Nusrah,Nusrat,Omar,Orhan,Osman,Qasim,Qays,Qudamah,Qusay,Qatadah,Qutaybah,Qutb,Qutuz,Rabah,Rabi,Radi,Rafi,Rafid,Rafiq,Raghib,Rahman,Raid,Raif,Rais,Rajaa,Rajab,Raji,Rajih,Rakin,Rami,Ramih,Ramiz,Ramzi,Rani,Rashad,Rashid,Rasil,Rasin,Rasmi,Rasul,Ratib,Rauf,Rayhan,Rayyan,Razin,Ridha,Ridwan,Rihab,Riyad,Rizq,Ruhi,Rushd,Rushdi,Ruwayd,Saad,Saadah,Sab,Sabih,Sabir,Sabri,Sad,Sad al-Din,Sadad,Sadid,Sadiq,Sadun,Said,Safi,Safiy,Safiy al-Din,Safuh,Safwah,Safwat,Safwan,Sahib,Sahir,Sahl,Saib,Saif,Saif al-Din,Sajid,Sajjad,Sakhr,Salah,Salah al-Din,Salamah,Salih,Salim,Salman,Sami,Samih,Samir,Samman,Saqr,Sariyah,Sati,Saud,Sayyid,Shaban,Shadi,Shadin,Shafi,Shafiq,Shahid,Shahin,Shahir,Shakib,Shakir,Shams al-Din,Shamal,Shamil,Shamim,Sharaf,Sharif,Shawqi,Shihab,Shihab al-Din,Shihad,Shuayb,Shukri,Shumayl,Siddiq,Sinan,Siraj,Siraj al-Din,Sofian,Subhi,Sufyan,Suhayb,Suhayl,Suhaym,Sulaiman,Sumrah,Suraqah,Suud,Tahir,Tahsin,Taym Allah,Taj,Taj al-Din,Talal,Talib,Tamim,Tamir,Tamam,Tammam,Taqiy,Tarif,Tariq,Taslim,Tawfiq,Tawhid,Taymullah,Taysir,Tayyib,Thabit,Thamir,Thaqib,Thawab,Thawban,Ubaidah,Ubaid,Ubayy,Udayl,Uday,Umar,Umarah,Umair,aUrwah,Usaym,Usama,Utbah,Uthal,Uthman,Waddah,Wadi,Wadid,Wafiq,Wahab,Wahhab,Wahid,Wail,Wajdi,Wajid,Wajih,Wakil,Walid,Walif,Waliy Allah,Waliy al-Din,Waqar,Waqqas,Ward,Wasif,Wasil,Wasim,Wazir,Yahya,Yaman,Yaqub,Yasar,Yasin,Yasir,Yazan,Yazid,Yunus,Yushua,Yusri,Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,Ziyad,Zubayr,Zuhayr"
-msgstr "Aban,Abbas,Abbud,Abdul-Ädl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,Abdul-Aziz,Abdul-Badi,Abdul-Baith,Abdul-Baqi,Abdul-Bari,Abdul-Barr,Abdul-Basir,Abdul-Basit,Abdul-Fattah,Abdul-Ghaffar,Abdul-Ghafur,Abdul-Ghani,Abdul-Hadi,Abdul-Hafiz,Abdul-Hakam,Abdul-Hakim,Abdul-Halim,Abdul-Hamid,Abdul-Haqq,Abdul-Hasib,Abdul-Hayy,Abdul-Jabbar,Abdul-Jalil,Abdul-Karim,Abdul-Khabir,Abdul-Khaliq,Abdul-Latif,Abdul-Malik,Abdul-Majid,Abdul-Matin,Abdul-Mubdi,Abdul-Mughni,Abdul-Muhaimin,Abdul-Muhsi,Abdul-Muhyi,Abdul-Mußid,Abdul-Mußizz,Abdul-Mujib,Abdul-Mumin,Abdul-Muqaddim,Abdul-Muqtadir,Abdul-Musawwir,Abdul-Mutaßal,Abdul-Nafi,Abdul-Nasser,Abdul-Nasir,Abdul-Nur,Abdul-Qadir,Abdul-Qahhar,Abdul-Qawi,Abdul-Qayyum,Abdul-Quddus,Abdul-Rafi,Abdul-Rahim,Abdul-Rahman,Abdul-Rashid,Abdul-Rauf,Abdul-Razzaq,Abdul-Shakur,Abdul-Tawwab,Abdul-Wadud,Abdul-Wahhab,Abdul-Wahid,Abdul-Wajid,Abdul-Wakil,Abdul-Wali,Abdul-Waliy,Abdul-Warith,Abdul-Zahir,Abdullah,Abid,Abidin,Abu Bakr,Aby al-Khayr,Adil,Adham,Adib,Adli,Adnan,Afif,Ahmad,Ajib,Akif,Akil,Akram,Ala,Ala al-Din,Al Abbas,Aladdin,al-Bara,al-Hakam,al-Harith,Alhasan,Alhusain,Ali,Alim,Almahdi,al-Safi,Altaf,Altair,al-Tayyib,al-Tijani,al-Tufail,Amid,Amid,Amin,Amir,Amir,Amjad,Ammar,Amro,Anas,Anis,Antarah,Anwar,Aqil,Arfan,Arif,Arif,Asad,Asad,Asadel,Ashraf,Asif,Asim,Aswad,Ata,Ata Allah,Ata al-Rahman,Athil,Athir,Atif,Awad,Awf,Aws,Awwab,Ayham,Ayman,Ayser,Ayyub,Aza,Azab,Azhar,Azim,Aziz,Azzam,Badi,Badi al-Zaman,Badr,Badr al-Din,Badri,Baha,Bahiyy al-Din,Bahij,Bahir,Bakr,Bakri,Baligh,Bandar,Barakah,Barir,Bashshar,Basil,Basim,Bassam,Bayezid,Bayhas,Bilal,Bishr,Boulos,Budail,Burhan,Bushr,Butrus,Dabir,Dani,Darwish,Daud,Dhakir,Dhakiy,Dhakwan,Dhul Fiqar,Dirar,Diya,Diya al-Din,Duqaq,Fadi,Fadil,Fadl,Fadl Allah,Fahd,Fahad,Fahmi,Faisal,Faiz,Fakhir,Fakhr al-Din,Fakhri,Fakih,Falah,Falih,Faraj,Farhan,Farid,Fariq,Fariq,Faris,Faruq,Fath,Fathi,Fatih,Fatin,Fawwaz,Fawzan,Fawzi,Fayyad,Ferran,Fida,Fikri,Firas,Fuad,Fudail,Gamal,Ghayth,Ghali,Ghalib,Ghanim,Ghassan,Ghawth,Ghazwan,Ghiyath,Habbab,Habib,Haddad,Hadi,Hafiz,Hakem,Hakim,Halim,Hamal,Hamas,Hamdan,Hamdi,Hamid,Hamim,Hamzah,Hana,Hanai,Hanbal,Hani,Hanif,Hannad,Haris,Harith,Harun,Hashim,Hassan,Hatim,Haydar,Haytham,Hayyan,Hazim,Hilal,Hilmi,Hisham,Hud,Hudad,Hudhafah,Hudhayfah,Humam,Hussein,Husam,Husam al-Din,Ibrahim,Id,Idris,Ihsan,Ihtisham,Ikrimah,Ilias,Imad,Imad al-Din,Imran,Imtiyaz,Inam,Iqbal,Irfan,Isa,Isam,Ishaq,Ismail,Iyad,Iyas,Izz al-Din,Jabbar,Jabr,Jabir,Jad Allah,Jafar,Jal,Jalal,Jalal al-Din,Jalil,Jamal,Jamal al-Din,Jamil,Jarir,Jasim,Jaul,Jaun,Jawad,Jawdah,Jawhar,Jibran,Jibril,Jubair,Jul,Jumah,Junayd,Juwain,Kadar,Kadin,Kadir,Kahil,Kaliq,Kamal,Kamil,Karam,Kardal,Karif,Karim,Kasib,Kasim,Katib,Kazim,Khalaf,Khaldun,Khalid,Khalil,Khalil al-Allah,Khalis,Khatib,Khair al-Din,Khairi,Khoury,Khulus,Khuzaymah,Kutaiba,Labib,Lablab,Latif,Layth,LuayLubayd,Luqman,Lut,Lutfi,Mad,Madani,Mahbub,Mahdi,Mahfuz,Mahir,Mahjub,Mahmud,Mahrus,Maimun,Majd,Majdy,Majd al-Din,Majid,Makin,Malik,Mamduh,Mamun,Main,Mandhur,Mansur,Marghub,Marid,Maruf,Marwan,Marzuq,Mashal,Mashhur,Masrur,Masud,Masun,Maysarah,Mazhar,Mazin,Mehmed,Mihran,Mihyar,Mikail,Miqdad,Misbah,Mishal,Miyaz,Muadh,Muawiyah,Muayyad,Mubarak,Mubin,Mudar,Muddaththir,Mufid,Muflih,Muhab,Muhayr,Muhammad,Muhanna,Muhannad,Muhib,Muhibb,Muhsin,Muhtadi,Muhyi al-Din,Muin,Muizz,Mujab,Mujahid,Mukarram,Mukhlis,Mukhtar,Mulham,Mulhim,Mummar,Mumin,Mumtaz,Munahid,Mundhir,Munib,Munif,Munir,Munis,Munjid,Munsif,Muntasir,Murad,Murid,Murshid,Murtada,Musa,Musab,Musaid,Mushtaq,Muslih,Muslim,Mutafa,Muta,Mutasim,Mutawalli,Mutazz,Muthanna,Muti,Muwaffaq,Muyassar,Muzaffar,Mussammil,Nabhan,Nabighah,Nabih,Nabil,Nadhir,Nadim,Nadir,Nafi,Nahid,Nail,Naim,Naji,Najib,Najid,Najjar,Najm al-Din,Naaman,Namir,Nashah,Nashat,Nashwan,Nasib,Nasih,Nasim,Nasir,Nasir al-Din,Nasr,Nasri,Nasuh,Nawaf,Nawfal,Nayif,Nazih,Nazim,Nazmi,Nibras,Nidal,Nijad,Nimr,Nizar,Nuaym,Nuh,Nuhayd,Numair,Numan,Nur al-Din,Nuri,Nusrah,Nusrat,Omar,Orhan,Osman,Qasim,Qays,Qudamah,Qusay,Qatadah,Qutaybah,Qutb,Qutuz,Rabah,Rabi,Radi,Rafi,Rafid,Rafiq,Raghib,Rahman,Raid,Raif,Rais,Rajaa,Rajab,Raji,Rajih,Rakin,Rami,Ramih,Ramiz,Ramzi,Rani,Rashad,Rashid,Rasil,Rasin,Rasmi,Rasul,Ratib,Rauf,Rayhan,Rayyan,Razin,Ridha,Ridwan,Rihab,Riyad,Rizq,Ruhi,Rushd,Rushdi,Ruwayd,Saad,Saadah,Sab,Sabih,Sabir,Sabri,Sad,Sad al-Din,Sadad,Sadid,Sadiq,Sadun,Said,Safi,Safiy,Safiy al-Din,Safuh,Safwah,Safwat,Safwan,Sahib,Sahir,Sahl,Saib,Saif,Saif al-Din,Sajid,Sajjad,Sakhr,Salah,Salah al-Din,Salamah,Salih,Salim,Salman,Sami,Samih,Samir,Samman,Saqr,Sariyah,Sati,Saud,Sayyid,Shaban,Shadi,Shadin,Shafi,Shafiq,Shahid,Shahin,Shahir,Shakib,Shakir,Shams al-Din,Shamal,Shamil,Shamim,Sharaf,Sharif,Shawqi,Shihab,Shihab al-Din,Shihad,Shuayb,Shukri,Shumayl,Siddiq,Sinan,Siraj,Siraj al-Din,Sofian,Subhi,Sufyan,Suhayb,Suhayl,Suhaym,Sulaiman,Sumrah,Suraqah,Suud,Tahir,Tahsin,Taym Allah,Taj,Taj al-Din,Talal,Talib,Tamim,Tamir,Tamam,Tammam,Taqiy,Tarif,Tariq,Taslim,Tawfiq,Tawhid,Taymullah,Taysir,Tayyib,Thabit,Thamir,Thaqib,Thawab,Thawban,Ubaidah,Ubaid,Ubayy,Udayl,Uday,Umar,Umarah,Umair,aUrwah,Usaym,Usama,Utbah,Uthal,Uthman,Waddah,Wadi,Wadid,Wafiq,Wahab,Wahhab,Wahid,Wail,Wajdi,Wajid,Wajih,Wakil,Walid,Walif,Waliy Allah,Waliy al-Din,Waqar,Waqqas,Ward,Wasif,Wasil,Wasim,Wazir,Yahya,Yaman,Yaqub,Yasar,Yasin,Yasir,Yazan,Yazid,Yunus,Yushua,Yusri,Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,Ziyad,Zubayr,Zuhayr"
+#. [race]: id=khalifate
+#: Mystery_Campaign/races/_races.cfg:122
+msgid ""
+"\n"
+"The humans of the Khalifate are regular ones, proud and sturdy, but have not had much contact with the people of Wesnoth.\n"
+"\n"
+"<header>text='Geography'</header>\n"
+"Few is known to the cartographers of Wesnoth south of the Aethenwoods and only one known living, an Elf named Eliel, have ever travelled towards the Khalifate and come back. He spout about forests so thick that the sun cannot reach the ground, waste deserts greater than the ocean and mountains that touch the sky. Nobody believed him.\n"
+"\n"
+"<header>text='Society'</header>\n"
+"The Khalifate are a semi-nomadic folk who occasionally found trading cities at the cost or send caravans through the desert for contacting their neighbours, but mostly hale in various small tribes scattered across the country only unified together by the Khalif of Tyrkyeh.\n"
+"\n"
+"<header>text='Legends'</header>\n"
+"In the beliefs of those nomads the world is ruled by two primordial forces in perpetual war and perfect symbiosis: Light and Darkness. While night and death are to be feared, they are not evil and neither faction can, or should, ever triumph. Every member of the Khalifate choose their following path joining one of the forces.\n"
+"\n"
+"Legends passed down through many generations do speak of a time when there was a great evil. The name of this evil has been forgotten, for the older generations were reluctant to utter it. The evil was motivated by neither chaos nor death, but rather the complete annihilation of all. Both forces of the world united to defeat this evil, splitting it into two components much like they themselves were divided.  One half was a cold, lifeless, and listless force that bore a strong resemblance to death. The other half was passionate and full of life, but lacked direction and was much weakened without the cold logic of the other half. The enemy was now split into components that fit within the understanding of the world; it was of this world, and could not carry out its original mission.\n"
+"\n"
+"Eventually, one day a faction will arouse victorious and annihilate the other and itself in the process."
+msgstr ""
 
-#. [race]: id=falcon, description=
-#: Mystery_Campaign/races/_races.cfg:119
-#: Mystery_Campaign/races/_races.cfg:120
+#. [race]: id=khalifate
+#: Mystery_Campaign/races/_races.cfg:141
+msgid ""
+"Aban,Abbas,Abbud,Abdul-Ädl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,Abdul-Aziz,Abdul-Badi,Abdul-Baith,Abdul-Baqi,Abdul-Bari,Abdul-Barr,Abdul-Basir,Abdul-Basit,Abdul-Fattah,Abdul-Ghaffar,Abdul-Ghafur,Abdul-Ghani,Abdul-Hadi,Abdul-Hafiz,Abdul-Hakam,Abdul-Hakim,Abdul-Halim,Abdul-Hamid,Abdul-Haqq,Abdul-Hasib,Abdul-Hayy,Abdul-Jabbar,Abdul-Jalil,Abdul-Karim,Abdul-Khabir,Abdul-Khaliq,Abdul-Latif,Abdul-Malik,Abdul-Majid,Abdul-Matin,Abdul-Mubdi,Abdul-Mughni,Abdul-Muhaimin,Abdul-Muhsi,Abdul-Muhyi,Abdul-Mußid,Abdul-Mußizz,Abdul-Mujib,Abdul-Mumin,Abdul-Muqaddim,Abdul-Muqtadir,Abdul-Musawwir,Abdul-Mutaßal,Abdul-Nafi,Abdul-Nasser,Abdul-Nasir,Abdul-Nur,Abdul-Qadir,Abdul-Qahhar,Abdul-Qawi,Abdul-Qayyum,Abdul-Quddus,Abdul-Rafi,Abdul-Rahim,Abdul-Rahman,Abdul-Rashid,Abdul-Rauf,Abdul-Razzaq,Abdul-Shakur,Abdul-Tawwab,Abdul-Wadud,Abdul-Wahhab,Abdul-Wahid,Abdul-Wajid,Abdul-Wakil,Abdul-Wali,Abdul-Waliy,Abdul-Warith,Abdul-Zahir,Abdullah,Abid,Abidin,Abu Bakr,Aby al-Khayr,Adil,Adham,Adib,Adli,Adnan,Afif,Ahmad,Ajib,\n"
+"Akif,Akil,Akram,Ala,Ala al-Din,Al Abbas,Aladdin,al-Bara,al-Hakam,al-Harith,Alhasan,Alhusain,Ali,Alim,Almahdi,al-Safi,Altaf,Altair,al-Tayyib,al-Tijani,al-Tufail,Amid,Amid,Amin,Amir,Amir,Amjad,Ammar,Amro,Anas,Anis,Antarah,Anwar,Aqil,Arfan,Arif,Arif,Asad,Asad,Asadel,Ashraf,Asif,Asim,Aswad,Ata,Ata Allah,Ata al-Rahman,Athil,Athir,Atif,Awad,Awf,Aws,Awwab,Ayham,Ayman,Ayser,Ayyub,Aza,Azab,Azhar,Azim,Aziz,Azzam,Badi,Badi al-Zaman,Badr,Badr al-Din,Badri,Baha,Bahiyy al-Din,Bahij,Bahir,Bakr,Bakri,Baligh,Bandar,Barakah,Barir,Bashshar,Basil,Basim,Bassam,Bayezid,Bayhas,Bilal,Bishr,Boulos,Budail,Burhan,Bushr,Butrus,Dabir,Dani,Darwish,Daud,Dhakir,Dhakiy,Dhakwan,Dhul Fiqar,Dirar,Diya,Diya al-Din,Duqaq,Fadi,Fadil,Fadl,Fadl Allah,Fahd,Fahad,Fahmi,Faisal,Faiz,Fakhir,Fakhr al-Din,Fakhri,Fakih,Falah,Falih,Faraj,Farhan,Farid,Fariq,Fariq,Faris,Faruq,Fath,Fathi,Fatih,Fatin,Fawwaz,Fawzan,Fawzi,Fayyad,Ferran,Fida,Fikri,Firas,Fuad,Fudail,Gamal,Ghayth,Ghali,Ghalib,Ghanim,Ghassan,Ghawth,Ghazwan,Ghiyath,Habbab,Habib,Haddad,Hadi,Hafiz,Hakem,\n"
+" Hakim,Halim,Hamal,Hamas,Hamdan,Hamdi,Hamid,Hamim,Hamzah,Hana,Hanai,Hanbal,Hani,Hanif,Hannad,Haris,Harith,Harun,Hashim,Hassan,Hatim,Haydar,Haytham,Hayyan,Hazim,Hilal,Hilmi,Hisham,Hud,Hudad,Hudhafah,Hudhayfah,Humam,Hussein,Husam,Husam al-Din,Ibrahim,Id,Idris,Ihsan,Ihtisham,Ikrimah,Ilias,Imad,Imad al-Din,Imran,Imtiyaz,Inam,Iqbal,Irfan,Isa,Isam,Ishaq,Ismail,Iyad,Iyas,Izz al-Din,Jabbar,Jabr,Jabir,Jad Allah,Jafar,Jal,Jalal,Jalal al-Din,Jalil,Jamal,Jamal al-Din,Jamil,Jarir,Jasim,Jaul,Jaun,Jawad,Jawdah,Jawhar,Jibran,Jibril,Jubair,Jul,Jumah,Junayd,Juwain,Kadar,Kadin,Kadir,Kahil,Kaliq,Kamal,Kamil,Karam,Kardal,Karif,Karim,Kasib,Kasim,Katib,Kazim,Khalaf,Khaldun,Khalid,Khalil,Khalil al-Allah,Khalis,Khatib,Khair al-Din,Khairi,Khoury,Khulus,Khuzaymah,Kutaiba,Labib,Lablab,Latif,Layth,LuayLubayd,Luqman,Lut,Lutfi,Mad,Madani,Mahbub,Mahdi,Mahfuz,Mahir,Mahjub,Mahmud,Mahrus,Maimun,Majd,Majdy,Majd al-Din,Majid,Makin,Malik,Mamduh,Mamun,Main,Mandhur,Mansur,Marghub,Marid,Maruf,Marwan,Marzuq,Mashal,Mashhur,Masrur,Masud,Masun,Maysarah,\n"
+" Mazhar,Mazin,Mehmed,Mihran,Mihyar,Mikail,Miqdad,Misbah,Mishal,Miyaz,Muadh,Muawiyah,Muayyad,Mubarak,Mubin,Mudar,Muddaththir,Mufid,Muflih,Muhab,Muhayr,Muhammad,Muhanna,Muhannad,Muhib,Muhibb,Muhsin,Muhtadi,Muhyi al-Din,Muin,Muizz,Mujab,Mujahid,Mukarram,Mukhlis,Mukhtar,Mulham,Mulhim,Mummar,Mumin,Mumtaz,Munahid,Mundhir,Munib,Munif,Munir,Munis,Munjid,Munsif,Muntasir,Murad,Murid,Murshid,Murtada,Musa,Musab,Musaid,Mushtaq,Muslih,Muslim,Mutafa,Muta,Mutasim,Mutawalli,Mutazz,Muthanna,Muti,Muwaffaq,Muyassar,Muzaffar,Mussammil,Nabhan,Nabighah,Nabih,Nabil,Nadhir,Nadim,Nadir,Nafi,Nahid,Nail,Naim,Naji,Najib,Najid,Najjar,Najm al-Din,Naaman,Namir,Nashah,Nashat,Nashwan,Nasib,Nasih,Nasim,Nasir,Nasir al-Din,Nasr,Nasri,Nasuh,Nawaf,Nawfal,Nayif,Nazih,Nazim,Nazmi,Nibras,Nidal,Nijad,Nimr,Nizar,Nuaym,Nuh,Nuhayd,Numair,Numan,Nur al-Din,Nuri,Nusrah,Nusrat,Omar,Orhan,Osman,Qasim,Qays,Qudamah,Qusay,Qatadah,Qutaybah,Qutb,Qutuz,Rabah,Rabi,Radi,Rafi, Rafid,Rafiq,Raghib,Rahman,Raid,Raif,Rais,Rajaa,Rajab,Raji,Rajih,Rakin,Rami,Ramih,Ramiz,\n"
+"Ramzi,Rani,Rashad,Rashid,Rasil,Rasin,Rasmi,Rasul,Ratib,Rauf,Rayhan,Rayyan,Razin,Ridha,Ridwan,Rihab,Riyad,Rizq,Ruhi,Rushd,Rushdi,Ruwayd,Saad,Saadah,Sab,Sabih,Sabir,Sabri,Sad,Sad al-Din,Sadad,Sadid,Sadiq,Sadun,Said,Safi,Safiy,Safiy al-Din,Safuh,Safwah,Safwat,Safwan,Sahib,Sahir,Sahl,Saib,Saif,Saif al-Din,Sajid,Sajjad,Sakhr,Salah,Salah al-Din,Salamah,Salih,Salim,Salman,Sami,Samih,Samir,Samman,Saqr,Sariyah,Sati,Saud,Sayyid,Shaban,Shadi,Shadin,Shafi,Shafiq,Shahid,Shahin,Shahir,Shakib,Shakir,Shams al-Din,Shamal,Shamil,Shamim,Sharaf,Sharif,Shawqi,Shihab,Shihab al-Din,Shihad,Shuayb,Shukri,Shumayl,Siddiq,Sinan,Siraj,Siraj al-Din,Sofian,Subhi,Sufyan,Suhayb,Suhayl,Suhaym,Sulaiman,Sumrah,Suraqah,Suud,Tahir,Tahsin,Taym Allah,Taj,Taj al-Din,Talal,Talib,Tamim,Tamir,Tamam,Tammam,Taqiy,Tarif,Tariq,Taslim,Tawfiq,Tawhid,Taymullah,Taysir,Tayyib,Thabit,Thamir,Thaqib,Thawab,Thawban,Ubaidah,Ubaid,Ubayy,Udayl,Uday,Umar,Umarah,Umair,aUrwah,Usaym, Usama,Utbah,Uthal,Uthman,Waddah,Wadi,Wadid,Wafiq,Wahab,Wahhab,Wahid,Wail,Wajdi,Wajid,\n"
+"Wajih,Wakil,Walid,Walif,Waliy Allah,Waliy al-Din,Waqar,Waqqas,Ward,Wasif,Wasil,Wasim,Wazir,Yahya,Yaman,Yaqub,Yasar,Yasin,Yasir,Yazan,Yazid,Yunus,Yushua,Yusri,Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,Ziyad,Zubayr,Zuhayr"
+msgstr ""
+"Aban,Abbas,Abbud,Abdul-Ädl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,Abdul-Aziz,Abdul-Badi,Abdul-Baith,Abdul-Baqi,Abdul-Bari,Abdul-Barr,Abdul-Basir,Abdul-Basit,Abdul-Fattah,Abdul-Ghaffar,Abdul-Ghafur,Abdul-Ghani,Abdul-Hadi,Abdul-Hafiz,Abdul-Hakam,Abdul-Hakim,Abdul-Halim,Abdul-Hamid,Abdul-Haqq,Abdul-Hasib,Abdul-Hayy,Abdul-Jabbar,Abdul-Jalil,Abdul-Karim,Abdul-Khabir,Abdul-Khaliq,Abdul-Latif,Abdul-Malik,Abdul-Majid,Abdul-Matin,Abdul-Mubdi,Abdul-Mughni,Abdul-Muhaimin,Abdul-Muhsi,Abdul-Muhyi,Abdul-Mußid,Abdul-Mußizz,Abdul-Mujib,Abdul-Mumin,Abdul-Muqaddim,Abdul-Muqtadir,Abdul-Musawwir,Abdul-Mutaßal,Abdul-Nafi,Abdul-Nasser,Abdul-Nasir,Abdul-Nur,Abdul-Qadir,Abdul-Qahhar,Abdul-Qawi,Abdul-Qayyum,Abdul-Quddus,Abdul-Rafi,Abdul-Rahim,Abdul-Rahman,Abdul-Rashid,Abdul-Rauf,Abdul-Razzaq,Abdul-Shakur,Abdul-Tawwab,Abdul-Wadud,Abdul-Wahhab,Abdul-Wahid,Abdul-Wajid,Abdul-Wakil,Abdul-Wali,Abdul-Waliy,Abdul-Warith,Abdul-Zahir,Abdullah,Abid,Abidin,Abu Bakr,Aby al-Khayr,Adil,Adham,Adib,Adli,Adnan,Afif,Ahmad,Ajib,\n"
+"Akif,Akil,Akram,Ala,Ala al-Din,Al Abbas,Aladdin,al-Bara,al-Hakam,al-Harith,Alhasan,Alhusain,Ali,Alim,Almahdi,al-Safi,Altaf,Altair,al-Tayyib,al-Tijani,al-Tufail,Amid,Amid,Amin,Amir,Amir,Amjad,Ammar,Amro,Anas,Anis,Antarah,Anwar,Aqil,Arfan,Arif,Arif,Asad,Asad,Asadel,Ashraf,Asif,Asim,Aswad,Ata,Ata Allah,Ata al-Rahman,Athil,Athir,Atif,Awad,Awf,Aws,Awwab,Ayham,Ayman,Ayser,Ayyub,Aza,Azab,Azhar,Azim,Aziz,Azzam,Badi,Badi al-Zaman,Badr,Badr al-Din,Badri,Baha,Bahiyy al-Din,Bahij,Bahir,Bakr,Bakri,Baligh,Bandar,Barakah,Barir,Bashshar,Basil,Basim,Bassam,Bayezid,Bayhas,Bilal,Bishr,Boulos,Budail,Burhan,Bushr,Butrus,Dabir,Dani,Darwish,Daud,Dhakir,Dhakiy,Dhakwan,Dhul Fiqar,Dirar,Diya,Diya al-Din,Duqaq,Fadi,Fadil,Fadl,Fadl Allah,Fahd,Fahad,Fahmi,Faisal,Faiz,Fakhir,Fakhr al-Din,Fakhri,Fakih,Falah,Falih,Faraj,Farhan,Farid,Fariq,Fariq,Faris,Faruq,Fath,Fathi,Fatih,Fatin,Fawwaz,Fawzan,Fawzi,Fayyad,Ferran,Fida,Fikri,Firas,Fuad,Fudail,Gamal,Ghayth,Ghali,Ghalib,Ghanim,Ghassan,Ghawth,Ghazwan,Ghiyath,Habbab,Habib,Haddad,Hadi,Hafiz,Hakem,\n"
+" Hakim,Halim,Hamal,Hamas,Hamdan,Hamdi,Hamid,Hamim,Hamzah,Hana,Hanai,Hanbal,Hani,Hanif,Hannad,Haris,Harith,Harun,Hashim,Hassan,Hatim,Haydar,Haytham,Hayyan,Hazim,Hilal,Hilmi,Hisham,Hud,Hudad,Hudhafah,Hudhayfah,Humam,Hussein,Husam,Husam al-Din,Ibrahim,Id,Idris,Ihsan,Ihtisham,Ikrimah,Ilias,Imad,Imad al-Din,Imran,Imtiyaz,Inam,Iqbal,Irfan,Isa,Isam,Ishaq,Ismail,Iyad,Iyas,Izz al-Din,Jabbar,Jabr,Jabir,Jad Allah,Jafar,Jal,Jalal,Jalal al-Din,Jalil,Jamal,Jamal al-Din,Jamil,Jarir,Jasim,Jaul,Jaun,Jawad,Jawdah,Jawhar,Jibran,Jibril,Jubair,Jul,Jumah,Junayd,Juwain,Kadar,Kadin,Kadir,Kahil,Kaliq,Kamal,Kamil,Karam,Kardal,Karif,Karim,Kasib,Kasim,Katib,Kazim,Khalaf,Khaldun,Khalid,Khalil,Khalil al-Allah,Khalis,Khatib,Khair al-Din,Khairi,Khoury,Khulus,Khuzaymah,Kutaiba,Labib,Lablab,Latif,Layth,LuayLubayd,Luqman,Lut,Lutfi,Mad,Madani,Mahbub,Mahdi,Mahfuz,Mahir,Mahjub,Mahmud,Mahrus,Maimun,Majd,Majdy,Majd al-Din,Majid,Makin,Malik,Mamduh,Mamun,Main,Mandhur,Mansur,Marghub,Marid,Maruf,Marwan,Marzuq,Mashal,Mashhur,Masrur,Masud,Masun,Maysarah,\n"
+" Mazhar,Mazin,Mehmed,Mihran,Mihyar,Mikail,Miqdad,Misbah,Mishal,Miyaz,Muadh,Muawiyah,Muayyad,Mubarak,Mubin,Mudar,Muddaththir,Mufid,Muflih,Muhab,Muhayr,Muhammad,Muhanna,Muhannad,Muhib,Muhibb,Muhsin,Muhtadi,Muhyi al-Din,Muin,Muizz,Mujab,Mujahid,Mukarram,Mukhlis,Mukhtar,Mulham,Mulhim,Mummar,Mumin,Mumtaz,Munahid,Mundhir,Munib,Munif,Munir,Munis,Munjid,Munsif,Muntasir,Murad,Murid,Murshid,Murtada,Musa,Musab,Musaid,Mushtaq,Muslih,Muslim,Mutafa,Muta,Mutasim,Mutawalli,Mutazz,Muthanna,Muti,Muwaffaq,Muyassar,Muzaffar,Mussammil,Nabhan,Nabighah,Nabih,Nabil,Nadhir,Nadim,Nadir,Nafi,Nahid,Nail,Naim,Naji,Najib,Najid,Najjar,Najm al-Din,Naaman,Namir,Nashah,Nashat,Nashwan,Nasib,Nasih,Nasim,Nasir,Nasir al-Din,Nasr,Nasri,Nasuh,Nawaf,Nawfal,Nayif,Nazih,Nazim,Nazmi,Nibras,Nidal,Nijad,Nimr,Nizar,Nuaym,Nuh,Nuhayd,Numair,Numan,Nur al-Din,Nuri,Nusrah,Nusrat,Omar,Orhan,Osman,Qasim,Qays,Qudamah,Qusay,Qatadah,Qutaybah,Qutb,Qutuz,Rabah,Rabi,Radi,Rafi, Rafid,Rafiq,Raghib,Rahman,Raid,Raif,Rais,Rajaa,Rajab,Raji,Rajih,Rakin,Rami,Ramih,Ramiz,\n"
+"Ramzi,Rani,Rashad,Rashid,Rasil,Rasin,Rasmi,Rasul,Ratib,Rauf,Rayhan,Rayyan,Razin,Ridha,Ridwan,Rihab,Riyad,Rizq,Ruhi,Rushd,Rushdi,Ruwayd,Saad,Saadah,Sab,Sabih,Sabir,Sabri,Sad,Sad al-Din,Sadad,Sadid,Sadiq,Sadun,Said,Safi,Safiy,Safiy al-Din,Safuh,Safwah,Safwat,Safwan,Sahib,Sahir,Sahl,Saib,Saif,Saif al-Din,Sajid,Sajjad,Sakhr,Salah,Salah al-Din,Salamah,Salih,Salim,Salman,Sami,Samih,Samir,Samman,Saqr,Sariyah,Sati,Saud,Sayyid,Shaban,Shadi,Shadin,Shafi,Shafiq,Shahid,Shahin,Shahir,Shakib,Shakir,Shams al-Din,Shamal,Shamil,Shamim,Sharaf,Sharif,Shawqi,Shihab,Shihab al-Din,Shihad,Shuayb,Shukri,Shumayl,Siddiq,Sinan,Siraj,Siraj al-Din,Sofian,Subhi,Sufyan,Suhayb,Suhayl,Suhaym,Sulaiman,Sumrah,Suraqah,Suud,Tahir,Tahsin,Taym Allah,Taj,Taj al-Din,Talal,Talib,Tamim,Tamir,Tamam,Tammam,Taqiy,Tarif,Tariq,Taslim,Tawfiq,Tawhid,Taymullah,Taysir,Tayyib,Thabit,Thamir,Thaqib,Thawab,Thawban,Ubaidah,Ubaid,Ubayy,Udayl,Uday,Umar,Umarah,Umair,aUrwah,Usaym, Usama,Utbah,Uthal,Uthman,Waddah,Wadi,Wadid,Wafiq,Wahab,Wahhab,Wahid,Wail,Wajdi,Wajid,\n"
+"Wajih,Wakil,Walid,Walif,Waliy Allah,Waliy al-Din,Waqar,Waqqas,Ward,Wasif,Wasil,Wasim,Wazir,Yahya,Yaman,Yaqub,Yasar,Yasin,Yasir,Yazan,Yazid,Yunus,Yushua,Yusri,Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,Ziyad,Zubayr,Zuhayr"
+
+#. [race]: id=khalifate
+#: Mystery_Campaign/races/_races.cfg:147
+msgid "Adonia,Aida,Aisha,Alissar,Anath,Asherah,Ashtoreth,Ba'alat,Batanah,Batnoam,Betsda,Cassandra,Cybil,Derketo,Dido,Hadda,Hesata,Ishtar,Jezebel,Junot,Skylla,Maherra,Melita,Myletta,Nikkal,Pidraya,Rahmaya,Salaya,Sefina,Shahar,Tanis,Tanith,Ummanath,Ummashtart,Yara,Acenath,Ain,Akila,Anippe,Aziza,Bahiti,Bastet,Bennu,Chione,Dalila,Dendera,Eboni,Eshe,Fukayana,Habibah,Halima,Haqika,Hasina,Hathor,Heqet,Ife,Jamila,Jendaya,Kakra,Kanika,Kesi,Khepri,Kissa,Lapis,Layla,Lotus,Mafuane,Maibe,Mandisa,Meht Urt,Mert Ekert,Meskhenet,Nathifa,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
+msgstr "Adonia,Aida,Aisha,Alissar,Anath,Asherah,Ashtoreth,Ba'alat,Batanah,Batnoam,Betsda,Cassandra,Cybil,Derketo,Dido,Hadda,Hesata,Ishtar,Jezebel,Junot,Skylla,Maherra,Melita,Myletta,Nikkal,Pidraya,Rahmaya,Salaya,Sefina,Shahar,Tanis,Tanith,Ummanath,Ummashtart,Yara,Acenath,Ain,Akila,Anippe,Aziza,Bahiti,Bastet,Bennu,Chione,Dalila,Dendera,Eboni,Eshe,Fukayana,Habibah,Halima,Haqika,Hasina,Hathor,Heqet,Ife,Jamila,Jendaya,Kakra,Kanika,Kesi,Khepri,Kissa,Lapis,Layla,Lotus,Mafuane,Maibe,Mandisa,Meht Urt,Mert Ekert,Meskhenet,Nathifa,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
+
+#. [race]: id=falcon
+#: Mystery_Campaign/races/_races.cfg:152
 msgid "race^Falcon"
 msgstr "Falcão"
 
-#. [race]: id=falcon, description=
-#: Mystery_Campaign/races/_races.cfg:119
-#: Mystery_Campaign/races/_races.cfg:120
+#. [race]: id=falcon
+#: Mystery_Campaign/races/_races.cfg:153
 msgid "race+male^Falcon"
 msgstr "Falcão"
 
-#. [race]: id=falcon, description=
-#: Mystery_Campaign/races/_races.cfg:121
+#. [race]: id=falcon
+#: Mystery_Campaign/races/_races.cfg:154
 msgid "race+female^Falcon"
 msgstr "Falcoa"
 
-#. [race]: id=falcon, description=
-#: Mystery_Campaign/races/_races.cfg:122
+#. [race]: id=falcon
+#: Mystery_Campaign/races/_races.cfg:155
 msgid "race+plural^Falcons"
 msgstr "Falcões"
 
-#. [race]: id=darkelf, description=
-#: Mystery_Campaign/races/_races.cfg:389
-#: Mystery_Campaign/races/_races.cfg:390
+#. [race]: id=falcon
+#: Mystery_Campaign/races/_races.cfg:157
+msgid ""
+"\n"
+"Falcons have thin tapered wings, which enable them to fly at high speed and to change direction rapidly making them effective hunters, being able to see their target long before any other unit and diving bold fast to crush their foes.\n"
+"\n"
+"Although not the only ones, the Khalifate have a widespread fame for taming those beasts and hunting with trained captive birds, what in case of war comes handily since they can finish off certainly any wounded in a single hit."
+msgstr ""
+
+#. [race]: id=darkelf
+#: Mystery_Campaign/races/_races.cfg:426
 msgid "race^Dark Elf"
 msgstr "Duende"
 
-#. [race]: id=darkelf, description=
-#: Mystery_Campaign/races/_races.cfg:389
-#: Mystery_Campaign/races/_races.cfg:390
+#. [race]: id=darkelf
+#: Mystery_Campaign/races/_races.cfg:427
 msgid "race+male^Dark Elf"
 msgstr "Duende"
 
-#. [race]: id=darkelf, description=
-#: Mystery_Campaign/races/_races.cfg:391
+#. [race]: id=darkelf
+#: Mystery_Campaign/races/_races.cfg:428
 msgid "race+female^Dark Elf"
 msgstr "Duende"
 
-#. [race]: id=darkelf, description=
-#: Mystery_Campaign/races/_races.cfg:392
+#. [race]: id=darkelf
+#: Mystery_Campaign/races/_races.cfg:429
 msgid "race+plural^Dark Elves"
 msgstr "Duendes"
 
-#. [race]: id=demon, description=
-#: Mystery_Campaign/races/_races.cfg:571
-#: Mystery_Campaign/races/_races.cfg:572
+#. [race]: id=darkelf
+#: Mystery_Campaign/races/_races.cfg:431
+msgid ""
+"\n"
+"Deep underground evil spreads. In the form of Elves, yet not so. A race that is called the Dark Elves by many, old wives tales most say. And in every legend a grain of truth can be found.\n"
+"\n"
+"The Dark Elves have lived in the silent blackness for eons, adapting to a world into which they were cast. They added to their knowledge of the arcane arts, the dark ones. And through this they have wrought a thriving underground society full of armies, cities, and a ruling queen.\n"
+"\n"
+"They live in shadows, content to be ignored by the world of light above them, in fact, it is not even sure if they know it.\n"
+"Only the Dwarves, and some more obscure cave creatures, have knowledge of them, by sending scouting parties deep into the caves in search of gold, shiny stones, sturdy metals. Quickly droved, but few returned to their great halls unscathed. Those that did spout incoherent babble, and amongst their words were always talk of strange Clerics of the Night, torturing their chosen victims to death, only to restore them back to life.\n"
+"\n"
+"<header>text='History'</header>\n"
+"Long after the Fall, when the suns dried out the marches and the forests diminished, every man or beast was on his own. The Trolls budded deeper into the ancients mountains, the dwarves retreated themselves into long forgotten reigns, the orcs hided into muddy holes and undead roamed the known lands.\n"
+"\n"
+"While the elfes, well, slowly they had gain an affinity with the vast deserts that spread out in this new era. Even forgetting most of their ancestors memories or misinterpreting them, they lived in peace despite lacking the skills or civilisation's acknowledgements of their foregoing being known afterwards as 'the Quenoth Elfs'.\n"
+"\n"
+"But not all stayed at the surface and fought a desperate fight against destiny, some elfes, overcoming their own fear of darkness and the underground, fled deep inside the mountains of Irdya. In the beginning, life was treacherous and dangerous into the depths, and many civilians have perished to the unknown foes of the underworld. But with time, strength was born and those elfs forged a labyrinthine tunnels, a waste empire, whose centre was the magnificent elfish capital of Valinor, carved directly out the rocks with the natural elfish craftsmanship.\n"
+"\n"
+"<header>text='Society'</header>\n"
+"They divide into separate houses, and thus were their lords were chosen, each of it commanded by a noble and guided by a cleric.\n"
+"\n"
+"They tend to lurking the ever deeps waiting for prey or training fiercely with the cold steel in hand to prepare themselves to any upset that may come enjoying mocking whoever fell captive to them.\n"
+"\n"
+"Studied both the arcane as natural arts, Dark Elfs are versatile mages and powerful too.\n"
+"\n"
+"Tamed wild animals of the caves too such as lizards and bats, who prove their valour in any battle they enter, serving especially as quick scouts that turn around their enemies, annoying them and distracting them preparing the real assault of the warriors.\n"
+"\n"
+"When affronted in their home caves, they are surely a fierce enemy that is not a light tread. Especially with the dwarves they had developed a 'special' relationship, and those races will certainly fight until dead when ever they see.\n"
+"\n"
+"But outside, against the land dwellers, they quickly will perish especially if not on the covers of the night."
+msgstr ""
+
+#. [race]: id=demon
+#: Mystery_Campaign/races/_races.cfg:638
 msgid "race^Daemon"
 msgstr "Demónio"
 
-#. [race]: id=demon, description=
-#: Mystery_Campaign/races/_races.cfg:571
-#: Mystery_Campaign/races/_races.cfg:572
+#. [race]: id=demon
+#: Mystery_Campaign/races/_races.cfg:639
 msgid "race+male^Daemon"
 msgstr "Demónio"
 
-#. [race]: id=demon, description=
-#: Mystery_Campaign/races/_races.cfg:573
+#. [race]: id=demon
+#: Mystery_Campaign/races/_races.cfg:640
 msgid "race+female^Daemon"
 msgstr "Demónia"
 
-#. [race]: id=demon, description=
-#: Mystery_Campaign/races/_races.cfg:574
+#. [race]: id=demon
+#: Mystery_Campaign/races/_races.cfg:641
 msgid "race+plural^Daemons"
 msgstr "Demónios"
 
-#. [race]: id=demon, description=
-#: Mystery_Campaign/races/_races.cfg:579
-msgid "Abalam,Abbadon,Abigor,Adramalech,Agaliarept,Agares,Aim,Akvan,Aldebaran,Alocer,Amducious,Amdusias,Amon,Ananiel,Andhaka,Andras,Andrealphus,Andromalius,Antares,Apep,Araqiel,Arioch,Armaros,Asael,Asag,Asb'el,Asmodeus,Astaroth,Azazel,Baal,Baalberith,Balam,Balberith,Babeal,Baphomet,Baraqel,Barbas,Barbatos,Batariel,Bathin,Beball,Beelzebub,Behamoth,Behemoth,Beleth,Belial,Beliel,Belzebuth,Beowulf,Berith,Beur,Bezaliel,Bifrons,Botis,Buer,Bune,Caim,Camal,Carniveau,Cerberus,Chamos,Chazaqiel,Corson,Daalberith,Dagon,Daniel,Dantalion,Decarabia,Demogorgon,Dumah,Eligos,Eurynomous,Fomalhaut,Flauros,Flereous,Focalor,Foras,Forcas,Forneus,Furcas,Furfur,Gaap,Gader'el,Glasya-Labolas,Gusion,Haagenti,Humbaba,Iblis,Ipos,Jutas,Juvart,Kabhanda,Karo,Kasadya,Kasdaye,Kimaris,Kobal,Kokabiel,Legion,Lempo,Leonard,Leraje,Lix Tetrax,Lucifer,Lucifuge Rofocale,Malphas,Malthus,Mammon,Marchocias,Maricha,Mastema,Melchom,Mephisto,Mephistopholes,Mesphito,Merihim,Moloch,Morax,Mulciber,Murmur,Naberius,Nebiros,Neqa'el,Nergal,Nisroch,Oeillet,Olivier,Orcus,Orias,Ornias,Orobas,Ose,Oulotep,Pan,Paimon,Pazuzu,Penemue,Phlegathon,Phenex,Pinem'e,Pithius,Piru,Pluto,Procell,Pruflas,Purson,Pytho,Pyhton,Rahab,Rahovart,Ramiel,Raum,Razakel,Regent,Regulus,Rimmon,Rhotomago,Ronove,Ronwe,Rosier,Sabnock,Saleos,Samael,Samigina,Samyaza,Sariel,Satan,Satanachia,Satariel,Seir,Shaitan,Shamsiel,Shax,Shezmu,Sidragasum,Sitri,Sonnillon,Soufflet,Stolas,Surgat,Tabaet,Tamiel,Tannin,Teeraal,Temeluchus,Thammuz,Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
-msgstr "Abalam,Abbadon,Abigor,Adramalech,Agaliarept,Agares,Aim,Akvan,Aldebaran,Alocer,Amducious,Amdusias,Amon,Ananiel,Andhaka,Andras,Andrealphus,Andromalius,Antares,Apep,Araqiel,Arioch,Armaros,Asael,Asag,Asb'el,Asmodeus,Astaroth,Azazel,Baal,Baalberith,Balam,Balberith,Babeal,Baphomet,Baraqel,Barbas,Barbatos,Batariel,Bathin,Beball,Beelzebub,Behamoth,Behemoth,Beleth,Belial,Beliel,Belzebuth,Beowulf,Berith,Beur,Bezaliel,Bifrons,Botis,Buer,Bune,Caim,Camal,Carniveau,Cerberus,Chamos,Chazaqiel,Corson,Daalberith,Dagon,Daniel,Dantalion,Decarabia,Demogorgon,Dumah,Eligos,Eurynomous,Fomalhaut,Flauros,Flereous,Focalor,Foras,Forcas,Forneus,Furcas,Furfur,Gaap,Gader'el,Glasya-Labolas,Gusion,Haagenti,Humbaba,Iblis,Ipos,Jutas,Juvart,Kabhanda,Karo,Kasadya,Kasdaye,Kimaris,Kobal,Kokabiel,Legion,Lempo,Leonard,Leraje,Lix Tetrax,Lucifer,Lucifuge Rofocale,Malphas,Malthus,Mammon,Marchocias,Maricha,Mastema,Melchom,Mephisto,Mephistopholes,Mesphito,Merihim,Moloch,Morax,Mulciber,Murmur,Naberius,Nebiros,Neqa'el,Nergal,Nisroch,Oeillet,Olivier,Orcus,Orias,Ornias,Orobas,Ose,Oulotep,Pan,Paimon,Pazuzu,Penemue,Phlegathon,Phenex,Pinem'e,Pithius,Piru,Pluto,Procell,Pruflas,Purson,Pytho,Pyhton,Rahab,Rahovart,Ramiel,Raum,Razakel,Regent,Regulus,Rimmon,Rhotomago,Ronove,Ronwe,Rosier,Sabnock,Saleos,Samael,Samigina,Samyaza,Sariel,Satan,Satanachia,Satariel,Seir,Shaitan,Shamsiel,Shax,Shezmu,Sidragasum,Sitri,Sonnillon,Soufflet,Stolas,Surgat,Tabaet,Tamiel,Tannin,Teeraal,Temeluchus,Thammuz,Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
+#. [race]: id=demon
+#: Mystery_Campaign/races/_races.cfg:643
+msgid ""
+"\n"
+"Daemons are powerful nature spirits of fire, beings of the same nature as both mortals and gods, similar to ghosts, echoic heroes, spirit guides or forces of nature and are by nature good and benevolent.\n"
+"\n"
+"However, since they may be conjured and controlled they are widely believed evil and malevolent in modern cultures.\n"
+"\n"
+"It is usually not recommended to anger them since they have a great sense of Honor."
+msgstr ""
 
-#. [race]: id=demon, description=
-#: Mystery_Campaign/races/_races.cfg:580
+#. [race]: id=demon
+#: Mystery_Campaign/races/_races.cfg:653
+msgid ""
+"Abalam,Abbadon,Abigor,Adramalech,Agaliarept,Agares,Aim,Akvan,Aldebaran,Alocer,Amducious,Amdusias,Amon,Ananiel,Andhaka,Andras,Andrealphus,Andromalius,Antares,Apep,Araqiel,Arioch,Armaros,Asael,Asag,Asb'el,Asmodeus,Astaroth,Azazel,Baal,Baalberith,Balam,Balberith,Babeal,Baphomet,Baraqel,Barbas,Barbatos,Batariel,Bathin,Beball,Beelzebub,Behamoth,Behemoth,Beleth,Belial,Beliel,Belzebuth,Beowulf,Berith,Beur,Bezaliel,Bifrons,Botis,Buer,Bune,Caim,Camal,Carniveau,Cerberus,Chamos,Chazaqiel,Corson,Daalberith,Dagon,Daniel,Dantalion,Decarabia,Demogorgon,Dumah,Eligos,Eurynomous,Fomalhaut,Flauros,Flereous,Focalor,Foras,Forcas,Forneus,Furcas,Furfur,Gaap,Gader'el,Glasya-Labolas,Gusion,Haagenti,Humbaba,Iblis,Ipos,Jutas,Juvart,Kabhanda,Karo,Kasadya,Kasdaye,Kimaris,Kobal,Kokabiel,Legion,Lempo,Leonard,Leraje,Lix Tetrax,Lucifer,Lucifuge Rofocale,Malphas,Malthus,Mammon,Marchocias,Maricha,Mastema,Melchom,Mephisto,Mephistopholes,Mesphito,Merihim,Moloch,Morax,Mulciber,Murmur,Naberius,Nebiros,Neqa'el,Nergal,Nisroch,\n"
+"Oeillet,Olivier,Orcus,Orias,Ornias,Orobas,Ose,Oulotep,Pan,Paimon,Pazuzu,Penemue,Phlegathon,Phenex,Pinem'e,Pithius,Piru,Pluto,Procell,Pruflas,Purson,Pytho,Pyhton,Rahab,Rahovart,Ramiel,Raum,Razakel,Regent,Regulus,Rimmon,Rhotomago,Ronove,Ronwe,Rosier,Sabnock,Saleos,Samael,Samigina,Samyaza,Sariel,Satan,Satanachia,Satariel,Seir,Shaitan,Shamsiel,Shax,Shezmu,Sidragasum,Sitri,Sonnillon,Soufflet,Stolas,Surgat,Tabaet,Tamiel,Tannin,Teeraal,Temeluchus,Thammuz,Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
+msgstr ""
+"Abalam,Abbadon,Abigor,Adramalech,Agaliarept,Agares,Aim,Akvan,Aldebaran,Alocer,Amducious,Amdusias,Amon,Ananiel,Andhaka,Andras,Andrealphus,Andromalius,Antares,Apep,Araqiel,Arioch,Armaros,Asael,Asag,Asb'el,Asmodeus,Astaroth,Azazel,Baal,Baalberith,Balam,Balberith,Babeal,Baphomet,Baraqel,Barbas,Barbatos,Batariel,Bathin,Beball,Beelzebub,Behamoth,Behemoth,Beleth,Belial,Beliel,Belzebuth,Beowulf,Berith,Beur,Bezaliel,Bifrons,Botis,Buer,Bune,Caim,Camal,Carniveau,Cerberus,Chamos,Chazaqiel,Corson,Daalberith,Dagon,Daniel,Dantalion,Decarabia,Demogorgon,Dumah,Eligos,Eurynomous,Fomalhaut,Flauros,Flereous,Focalor,Foras,Forcas,Forneus,Furcas,Furfur,Gaap,Gader'el,Glasya-Labolas,Gusion,Haagenti,Humbaba,Iblis,Ipos,Jutas,Juvart,Kabhanda,Karo,Kasadya,Kasdaye,Kimaris,Kobal,Kokabiel,Legion,Lempo,Leonard,Leraje,Lix Tetrax,Lucifer,Lucifuge Rofocale,Malphas,Malthus,Mammon,Marchocias,Maricha,Mastema,Melchom,Mephisto,Mephistopholes,Mesphito,Merihim,Moloch,Morax,Mulciber,Murmur,Naberius,Nebiros,Neqa'el,Nergal,Nisroch,\n"
+"Oeillet,Olivier,Orcus,Orias,Ornias,Orobas,Ose,Oulotep,Pan,Paimon,Pazuzu,Penemue,Phlegathon,Phenex,Pinem'e,Pithius,Piru,Pluto,Procell,Pruflas,Purson,Pytho,Pyhton,Rahab,Rahovart,Ramiel,Raum,Razakel,Regent,Regulus,Rimmon,Rhotomago,Ronove,Ronwe,Rosier,Sabnock,Saleos,Samael,Samigina,Samyaza,Sariel,Satan,Satanachia,Satariel,Seir,Shaitan,Shamsiel,Shax,Shezmu,Sidragasum,Sitri,Sonnillon,Soufflet,Stolas,Surgat,Tabaet,Tamiel,Tannin,Teeraal,Temeluchus,Thammuz,Turiel,Urobach,Valac,Valefar,Vapula,Vassago,Verrine,Vine,Vual,Xaphan,Yeqon,Yeter'el,Yomiel,Zagan,Zaqiel,Zepar"
+
+#. [race]: id=demon
+#: Mystery_Campaign/races/_races.cfg:655
 msgid "Agiel,Agrat-bat-mahlaht,Ammit,Amy,Arkel,Ashtaroth,Astarte,Astoreth,Barbelo,Belphegore,Bruja,Delepitore,Eisheth Zenunil,Empusa,Euryale,Gordh,Gremory,Gresil,Hecate,Ixtara,Kindite,Lamashtu,Lamia,Leviathan,Lilim,Lilin,Lilith,Lilitu,Lusana,Mara,Medusa,Melchiresa,Melusine,Mercedes,Naamah,Neuralger,Onoskelis,Prosperpine,Rangda,Rusalka,Satana,Sheol,Selene,Sonnielion,Stheno,Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 msgstr "Agiel,Agrat-bat-mahlaht,Ammit,Amy,Arkel,Ashtaroth,Astarte,Astoreth,Barbelo,Belphegore,Bruja,Delepitore,Eisheth Zenunil,Empusa,Euryale,Gordh,Gremory,Gresil,Hecate,Ixtara,Kindite,Lamashtu,Lamia,Leviathan,Lilim,Lilin,Lilith,Lilitu,Lusana,Mara,Medusa,Melchiresa,Melusine,Mercedes,Naamah,Neuralger,Onoskelis,Prosperpine,Rangda,Rusalka,Satana,Sheol,Selene,Sonnielion,Stheno,Sycorax,Taweret,Tzitzimime,Unsere,Uzza,Verrier,Vepar,Xena,Ziusudra"
 
-#. [race]: id=bear, description=
-#: Mystery_Campaign/races/_races.cfg:677
-#: Mystery_Campaign/races/_races.cfg:678
+#. [race]: id=bear
+#: Mystery_Campaign/races/_races.cfg:752
 msgid "race^Bear"
 msgstr "Urso"
 
-#. [race]: id=bear, description=
-#: Mystery_Campaign/races/_races.cfg:677
-#: Mystery_Campaign/races/_races.cfg:678
+#. [race]: id=bear
+#: Mystery_Campaign/races/_races.cfg:753
 msgid "race+male^Bear"
 msgstr "Urso"
 
-#. [race]: id=bear, description=
-#: Mystery_Campaign/races/_races.cfg:679
+#. [race]: id=bear
+#: Mystery_Campaign/races/_races.cfg:754
 msgid "race+female^Bear"
 msgstr "Ursa"
 
-#. [race]: id=bear, description=
-#: Mystery_Campaign/races/_races.cfg:680
+#. [race]: id=bear
+#: Mystery_Campaign/races/_races.cfg:755
 msgid "race+plural^Bears"
 msgstr "Ursos"
+
+#. [race]: id=bear
+#: Mystery_Campaign/races/_races.cfg:757
+msgid ""
+"\n"
+"Bears are generally bulky and robust animals with stocky legs, shaggy hair and strong claws. They are typically solitary and diurnal, living on almost every part of the Great Continent in the wilderness.\n"
+"\n"
+"They are aided by an excellent sense of smell, and despite their heavy build and awkward gait, they can run quickly and are adept climbers and swimmers; digging, smashing, tearing and catching prey with their sharp claws.\n"
+"\n"
+"They are physically powerful and are likely capable of fatally attacking any soldier, but, for the most part, are shy, easily frightened and will avoid settlements. Although injuries caused by bears are definitely not a light wound, their danger is often vastly exaggerated, in part by the human imagination. However, when a mother feels her cubs are threatened, she will behave ferociously.\n"
+"\n"
+"It is recommended to give all bears a wide berth because they are behaviourally unpredictable."
+msgstr ""
+
+#. [race]: id=frontiers, description=
+#: Mystery_Campaign/races/_races.cfg:825
+msgid ""
+"Abi,Agnar,Aki,Alfarin,Alfgær,Alrik,Alvi,Amndi,Andvett,Arngær, Arngrim,Asbjørn,Asgær,Audun,Bardi,Bergfinn,Bjør,Bjalki,Bkarni,Bjørn,Bolverk, Brand,Broddi,Byrnjolf,Æd,Ildgrim,Elgfrothi,Eyjolf,Finn,Finnvid,Folkbjørn,Fridgær ,Galti,Gæirmund,Gærhelm,Geitir,Gorm,Gretter,Griøtgard,Gudmund,Gunbjørn,Gunnlaug, Gylfi,Gyrd,Hæfnir,Hælgi,Hakland,Hallbjørn,Halvdan,Haaming,Hardrefil,Hauk,Heriolf ,Herjolf,Hiorvar,Hjørvarth,Holmfast,Hrafnkel,Hrædar,Hrosskell,Iarl,Iarlabank, Iarund,Ingimar,Ingjald,Iogæir,Irenmund,Ivar,Jarnskeggi,Jorund,Kabbi,Bætilfast, Kætilmund,Ketilbiørn,Kollskegg,Leiknir,Lifstæn,Lyting,Meldun,Mursi,Naddod, Northri,Ønung,Ørlyg,Orokia,Otrygg,Ragnar,Ragnfast,Raudebjørn,Sæbbi,Sævil,Sigurd, Sigvaldi,Skallagrim,Skardi,Skjaldulf,Skørri,Snæbjørn,Spiallbudi,Styrbjørn, Styrmir,Sumarlid,Svertin,Svipday,Thangbrand,Thialfi,Thjodolf,Thorald,Thorstar, Thrand,Tjørvi,Tryggvi,Ulfrik,Ulvkil,Valgard,Valthjof,Vandrad,Vigi,Waltheof, Yngvar,Abban,Aibhne,Aiden,Ailill,Allen,Artan,Bærrfhionn,Bevan,Bowen,Bræden,\n"
+"Bretach, Brogan, Buadhach,Cadeyrn,Calbhach,Caradog,Carden,Cearbhall,Coalan,Cuan,Daigh,Daimhin, Deverell,Dubhaltach,Eadoin,Eben,Eoghan,Eunan,Faolan,Fhæn Darach,Gahareet,Gavin,Irial,Jodoc,Kedehern,Koun,Laøre,Lorcan,Lughaidh, Lugobelinos,Lugovalos,Maol Mhurire,Maponos,Marcan,Morann,Morcant,Murchadh,Nuadha,Olcan,Osan,Peredur,Piran, Ruadhan,Ruarc,Scøthin,Sioda,Siollan,Teutorigos,Tighearnach,Tiobraide,Torcan, Triston,Tuathal,Tuireann,Ultan,Yure,Hodor,Eric,Zaldor"
+msgstr ""
+"Abi,Agnar,Aki,Alfarin,Alfgær,Alrik,Alvi,Amndi,Andvett,Arngær, Arngrim,Asbjørn,Asgær,Audun,Bardi,Bergfinn,Bjør,Bjalki,Bkarni,Bjørn,Bolverk, Brand,Broddi,Byrnjolf,Æd,Ildgrim,Elgfrothi,Eyjolf,Finn,Finnvid,Folkbjørn,Fridgær ,Galti,Gæirmund,Gærhelm,Geitir,Gorm,Gretter,Griøtgard,Gudmund,Gunbjørn,Gunnlaug, Gylfi,Gyrd,Hæfnir,Hælgi,Hakland,Hallbjørn,Halvdan,Haaming,Hardrefil,Hauk,Heriolf ,Herjolf,Hiorvar,Hjørvarth,Holmfast,Hrafnkel,Hrædar,Hrosskell,Iarl,Iarlabank, Iarund,Ingimar,Ingjald,Iogæir,Irenmund,Ivar,Jarnskeggi,Jorund,Kabbi,Bætilfast, Kætilmund,Ketilbiørn,Kollskegg,Leiknir,Lifstæn,Lyting,Meldun,Mursi,Naddod, Northri,Ønung,Ørlyg,Orokia,Otrygg,Ragnar,Ragnfast,Raudebjørn,Sæbbi,Sævil,Sigurd, Sigvaldi,Skallagrim,Skardi,Skjaldulf,Skørri,Snæbjørn,Spiallbudi,Styrbjørn, Styrmir,Sumarlid,Svertin,Svipday,Thangbrand,Thialfi,Thjodolf,Thorald,Thorstar, Thrand,Tjørvi,Tryggvi,Ulfrik,Ulvkil,Valgard,Valthjof,Vandrad,Vigi,Waltheof, Yngvar,Abban,Aibhne,Aiden,Ailill,Allen,Artan,Bærrfhionn,Bevan,Bowen,Bræden,\n"
+"Bretach, Brogan, Buadhach,Cadeyrn,Calbhach,Caradog,Carden,Cearbhall,Coalan,Cuan,Daigh,Daimhin, Deverell,Dubhaltach,Eadoin,Eben,Eoghan,Eunan,Faolan,Fhæn Darach,Gahareet,Gavin,Irial,Jodoc,Kedehern,Koun,Laøre,Lorcan,Lughaidh, Lugobelinos,Lugovalos,Maol Mhurire,Maponos,Marcan,Morann,Morcant,Murchadh,Nuadha,Olcan,Osan,Peredur,Piran, Ruadhan,Ruarc,Scøthin,Sioda,Siollan,Teutorigos,Tighearnach,Tiobraide,Torcan, Triston,Tuathal,Tuireann,Ultan,Yure,Hodor,Eric,Zaldor"
+
+#. [race]: id=frontiers, description=
+#: Mystery_Campaign/races/_races.cfg:827
+msgid "Alfhildr,Alfsigr,Arnbjorg,Astridr,Asrithr,Bergdis,Bergthora, Borghild,Bothildr,Brunhilde,Brynhilde,Brynhildr,Dægny,Eir,Eydis,Frea,Freya, Freyja,Frigg,Fritha,Gard,GerdGrid,Gunnhildr,Gunnvør,Guthlaug,Guthrun,Heidrun, Idunnr,Ingebørg,Ingibjørg,Ingigerdr,Ingigerthr,Ingridr,Ingvildr,Ithunnr,Jorunnr, Kelda,Ketilridr,Nanna,Ragnbjørg,Ragnfridr,Ragnheidur,Saga,Sif,Signe,Signy, Sigridr,sigrithr,Sigrun,Siv,Skuld,Thora,Thorberta,Thorbjørg,Thorfridr,Thorfrithr ,Thornhildr,Tofa,Tyra,Urd,Urthr,Valkyrie,Verdanda,Verthandi,Vigdis,Ædeen,Ænder, Ardara,Avalbane,Betony,Blathnaid,Bronach,Bryher,Cartimandua,Ceara,Cinnia,Ciar, Cliodhna,Crøbh Dearg,Damhnait,Deabhail,Dunfhlaith,Edda,Eddana,Fachtna,Fhina,Fianait,Gormlæth, Grian,Innogen,Kendra,Iseult,Laøse,Liadan,Liobhan,Moncha,Muireann,Nantosülta, Naøhm,Nuala,Orlæth,Rælin,Rathnait,Reannon,Rhiannon,Ronat,Saorla,Sarnait, Scothnait,Seanna,Taillte,Trista,Tuilaith,Uæne,Ula,Vanora,Zæla"
+msgstr "Alfhildr,Alfsigr,Arnbjorg,Astridr,Asrithr,Bergdis,Bergthora, Borghild,Bothildr,Brunhilde,Brynhilde,Brynhildr,Dægny,Eir,Eydis,Frea,Freya, Freyja,Frigg,Fritha,Gard,GerdGrid,Gunnhildr,Gunnvør,Guthlaug,Guthrun,Heidrun, Idunnr,Ingebørg,Ingibjørg,Ingigerdr,Ingigerthr,Ingridr,Ingvildr,Ithunnr,Jorunnr, Kelda,Ketilridr,Nanna,Ragnbjørg,Ragnfridr,Ragnheidur,Saga,Sif,Signe,Signy, Sigridr,sigrithr,Sigrun,Siv,Skuld,Thora,Thorberta,Thorbjørg,Thorfridr,Thorfrithr ,Thornhildr,Tofa,Tyra,Urd,Urthr,Valkyrie,Verdanda,Verthandi,Vigdis,Ædeen,Ænder, Ardara,Avalbane,Betony,Blathnaid,Bronach,Bryher,Cartimandua,Ceara,Cinnia,Ciar, Cliodhna,Crøbh Dearg,Damhnait,Deabhail,Dunfhlaith,Edda,Eddana,Fachtna,Fhina,Fianait,Gormlæth, Grian,Innogen,Kendra,Iseult,Laøse,Liadan,Liobhan,Moncha,Muireann,Nantosülta, Naøhm,Nuala,Orlæth,Rælin,Rathnait,Reannon,Rhiannon,Ronat,Saorla,Sarnait, Scothnait,Seanna,Taillte,Trista,Tuilaith,Uæne,Ula,Vanora,Zæla"
 
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 0: <toplevel>
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 3: [scenario] has map_generation=default, next_scenario=null, turns=-1
@@ -349,22 +473,22 @@ msgstr "Pretendente"
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 23: [side] has side=2, no_leader=yes, team_name=baddies, gold=0
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 27: user_team_name=
 #. [side]: id=p2
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:43
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:44
 msgid "Opponent"
 msgstr "Adversário"
 
 #. [side]: id=p3
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:58
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:60
 msgid "Allies"
 msgstr "Aliados"
 
 #. [message]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:174
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:177
 msgid "Greetings, $leader.language_name $leader.name|, welcome to scenario <span foreground='green'><big>$scenario_number|</big></span>"
 msgstr "Saudações, $leader.language_name $leader.name|, bem-vindo ao cenário <span foreground='green'><big>$scenario_number|</big></span>"
 
 #. [message]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:175
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:178
 msgid ""
 "\n"
 "I have <span foreground='yellow'>$gold|</span> gold, and my army of <b>$enemy|</b> consists of the following types of units: <i>$side_2.recruits|</i>."
@@ -373,7 +497,7 @@ msgstr ""
 "Tenho <span foreground='yellow'>$gold|</span> em ouro, e o meu exercito dos <b>$enemy|</b> consiste das seguintes unidades: <i>$side_2.recruits|</i>."
 
 #. [message]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:177
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:180
 msgid ""
 "\n"
 "To complete the scenario, you must defeat me, or force me to surrender!"
@@ -382,12 +506,12 @@ msgstr ""
 "Para completares o cenário, terás de derrotar-me ou forçar-me a rendição!"
 
 #. [message]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:194
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:197
 msgid "I have came with my faction of <b>$ally|</b> and the following recruits: <i>$side_3.recruits|</i> to help $leader.name with his battle against the fools $enemy|!"
 msgstr "Vim com a minha facção dos <b>$ally|</b> e os seguintes recrutas: <i>$side_3.recruits|</i> para ajudar $leader.name na sua batalha contra estes malignos $enemy|!"
 
 #. [objectives]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:199
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:202
 msgid "<span color='light blue'>Scenario <b>$scenario_number|</b> against <b>$enemy|</b></span>"
 msgstr "<span color='light blue'>Cenário <b>$scenario_number|</b> contra <b>$enemy|</b></span>"
 
@@ -398,7 +522,7 @@ msgstr "<span color='light blue'>Cenário <b>$scenario_number|</b> contra <b>$en
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 113: [objective] has condition=win
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 114: description=
 #. [objective]: condition=win
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:201
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:204
 msgid "Defeat the enemy leader"
 msgstr "Derrota o líder inimigo"
 
@@ -409,7 +533,7 @@ msgstr "Derrota o líder inimigo"
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 117: [objective] has condition=win
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 118: description=
 #. [objective]: condition=win
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:205
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:208
 msgid "The enemy leader surrenders"
 msgstr "O líder inimigo rende-se"
 
@@ -420,27 +544,27 @@ msgstr "O líder inimigo rende-se"
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 121: [objective] has condition=lose
 # /home/trewe/.wesnoth-dev/data/add-ons/Mystery_Campaign/scenarios/mystery_scenario.cfg, line 122: description=
 #. [objective]: condition=lose
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:209
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:212
 msgid "Death of your leader before scenario 12"
 msgstr "Morte do teu líder antes do cenário 12"
 
 #. [objectives]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:217
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:220
 msgid "Recruitment list"
 msgstr "Lista de recrutas"
 
 #. [note]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:219
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:222
 msgid "Your recruits: <i>$side_1.recruits|</i>"
 msgstr "Os teus recrutas: <i>$side_1.recruits|</i>"
 
 #. [note]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:222
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:225
 msgid "Enemy recruits: <i>$side_2.recruits|</i>"
 msgstr "Os recrutas inimigos: <i>$side_2.recruits|</i>"
 
 #. [endlevel]
-#: Mystery_Campaign/scenarios/mystery_scenario.cfg:269
+#: Mystery_Campaign/scenarios/mystery_scenario.cfg:272
 msgid "Defeated"
 msgstr "Derrota"
 
@@ -470,9 +594,7 @@ msgid "The Aragwaithi are a noble people, fragile in body, but their training ma
 msgstr ""
 
 #. [unit_type]: id=EE Aragwaith Captain, race=aragwaith, description=
-#. [unit_type]: id=EE Dark Elf Captain, race=darkelf
 #: Mystery_Campaign/units/aragwaithi/Aragwaith_Captain.cfg:5
-#: Mystery_Campaign/units/dark_elves/Captain.cfg:5
 msgid "Aragwaithi^Captain"
 msgstr "Capitão"
 
@@ -662,9 +784,7 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=EE Aragwaith Swordsman, race=aragwaith
-#. [unit_type]: id=EE Swordsman, race=human
 #: Mystery_Campaign/units/aragwaithi/Aragwaith_Swordsman.cfg:5
-#: Mystery_Campaign/units/frontiers/L1_Swordsman.cfg:5
 msgid "Aragwaithi^Swordsman"
 msgstr "Espadachim"
 
@@ -694,21 +814,30 @@ msgid "Aragwaithi+female^Wizard"
 msgstr "Feiticeira"
 
 #. [unit_type]: id=EE Dark Elf Captain, race=darkelf
+#: Mystery_Campaign/units/dark_elves/Captain.cfg:5
+#: Mystery_Campaign/units/dark_elves/l2_Captain.cfg:5
+msgid "Dark Elf Captain"
+msgstr "Capitão Duende"
+
+#. [unit_type]: id=EE Dark Elf Captain, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Captain.cfg:21
+#: Mystery_Campaign/units/dark_elves/l2_Captain.cfg:21
 msgid "These Elves have been an example to their fellow soldiers, and have gained the rank of Captain. Although they can never become Lords, they still strive to do their best to defend the Matron Mother with their swords and short spears."
 msgstr ""
 
-# «Clérica» é sem-senso e nem seguer existe; «» soa mal; que tal «madre»? Ou «Torturadora» (pode ser spoiler...)
+# «Clérica» é sem-senso e nem seguer existe; que tal «madre»? Ou «Torturadora» (pode ser spoiler...)
 # \n
 # Aprendiz (de que?); Bruxa (demasiado vulgar); Maliciosa (...); Maceira (que luta com maças); Sádica (tirado da descrição); Sádista (sinónimo); Sarda (outro sinónimo - arcaico);
 #. [unit_type]: id=EE Dark Elf Cleric, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Cleric.cfg:5
+#: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:5
 #, fuzzy
 msgid "female^Dark Elf Cleric"
 msgstr "Torturadora/Sádica/Sadista/Sarda/Bruxa/Aprendiz/Maliciosa/Colérica/Madre/... Duende"
 
 #. [unit_type]: id=EE Dark Elf Cleric, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Cleric.cfg:22
+#: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:22
 msgid "A Cleric is adapt at both their magical abilities and the use of their maces, as the Dwarves have found out. They have the cure ability, a tool they use for their sadistic pleasure. Terribly seductive, they are both feared and admired for their beauty and cruelty."
 msgstr ""
 
@@ -716,46 +845,57 @@ msgstr ""
 #: Mystery_Campaign/units/dark_elves/Cleric.cfg:35
 #: Mystery_Campaign/units/dark_elves/Enchantress.cfg:31
 #: Mystery_Campaign/units/dark_elves/Sorceress.cfg:34
+#: Mystery_Campaign/units/dark_elves/l1_Enchantress.cfg:31
+#: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:34
+#: Mystery_Campaign/units/dark_elves/l3_Cleric.cfg:35
 msgid "magic torture"
 msgstr "tortura mágica"
 
 #. [unit_type]: id=EE Dark Elf Corsair, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Corsair.cfg:5
+#: Mystery_Campaign/units/dark_elves/l3_Corsair.cfg:5
 msgid "Dark Elf Corsair"
 msgstr "Corsário Duende"
 
 #. [unit_type]: id=EE Dark Elf Corsair, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Corsair.cfg:18
+#: Mystery_Campaign/units/dark_elves/l3_Corsair.cfg:18
 msgid "No single being can stand before a Dark Elf Corsair. If you every see one, run. With they're razor sharp swords, they can splice and dice a dwarves beard."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Enchantress, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Enchantress.cfg:5
+#: Mystery_Campaign/units/dark_elves/l1_Enchantress.cfg:5
 msgid "female^Dark Elf Enchantress"
 msgstr "Encantadora Duende"
 
 #. [unit_type]: id=EE Dark Elf Enchantress, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Enchantress.cfg:18
+#: Mystery_Campaign/units/dark_elves/l1_Enchantress.cfg:18
 msgid "The women of the Dark Elves often join the Order of the Clerics at a very young age. They start of as an Enchantress, with limited physical and magical abilities, and have just began practicing their torture techniques. Through the guiding of the Clerics, someday they will become a mighty Sorceress."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Fighter, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Fighter.cfg:5
+#: Mystery_Campaign/units/dark_elves/l1_Fighter.cfg:5
 msgid "Dark Elf Fighter"
 msgstr "Combatente Duende"
 
 #. [unit_type]: id=EE Dark Elf Fighter, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Fighter.cfg:17
+#: Mystery_Campaign/units/dark_elves/l1_Fighter.cfg:17
 msgid "The initiates in their House army, many Fighters die because of lack of training. Dark Elves believe that only the best should have the honor of fighting for the Matron Mother."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf High Lord, race=darkelf
 #: Mystery_Campaign/units/dark_elves/High_Lord.cfg:5
+#: Mystery_Campaign/units/dark_elves/l3_High_Lord.cfg:5
 msgid "Dark Elf High Lord"
 msgstr "Duque Duende"
 
 #. [unit_type]: id=EE Dark Elf High Lord, race=darkelf
 #: Mystery_Campaign/units/dark_elves/High_Lord.cfg:21
+#: Mystery_Campaign/units/dark_elves/l3_High_Lord.cfg:21
 msgid "When in his castle, the High Lord watches his slaves, feeds the lizards, and other duties. They wear simple purple robes, and keep their hair combed. However, when on the battlefield, they are as bold and daring as anyone. After years of experience, they know every trick of their trade. Their men follow them fearlessly, confident that through their Lords guidance, none can stand before them."
 msgstr ""
 
@@ -763,6 +903,9 @@ msgstr ""
 #: Mystery_Campaign/units/dark_elves/High_Lord.cfg:35
 #: Mystery_Campaign/units/dark_elves/Lord.cfg:34
 #: Mystery_Campaign/units/dark_elves/Noble.cfg:34
+#: Mystery_Campaign/units/dark_elves/l1_Noble.cfg:35
+#: Mystery_Campaign/units/dark_elves/l2_Lord.cfg:35
+#: Mystery_Campaign/units/dark_elves/l3_High_Lord.cfg:36
 #: Mystery_Campaign/units/dark_legion/L2_Doom_Guard.cfg:35
 #: Mystery_Campaign/units/dark_legion/L3_Hell_Guardian.cfg:36
 msgid "shield"
@@ -770,140 +913,163 @@ msgstr "escudo"
 
 #. [unit_type]: id=EE Dark Elf Hunter, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Hunter.cfg:5
+#: Mystery_Campaign/units/dark_elves/l1_Hunter.cfg:5
 msgid "Dark Elf Hunter"
 msgstr "Caçador Duende"
 
 #. [unit_type]: id=EE Dark Elf Hunter, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Hunter.cfg:21
+#: Mystery_Campaign/units/dark_elves/l1_Hunter.cfg:21
 msgid "Lurking in the ever dark depths of the caves, the Hunters move around with out a sound, except for the twang of their crossbows."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Lizard Master, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Lizard_Master.cfg:5
+#: Mystery_Campaign/units/dark_elves/l2_Lizard_Master.cfg:5
 msgid "Lizard Master"
 msgstr "Mestre de Répteis"
 
 #. [unit_type]: id=EE Dark Elf Lizard Master, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Lizard_Master.cfg:19
+#: Mystery_Campaign/units/dark_elves/l2_Lizard_Master.cfg:19
 msgid "Though the Lizards are not as fast as horses, they are much more powerful. Many an Dwarf has been cut in two by it's strong jaws. It would be well to recruit several of these powerful units."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Lizard Rider, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Lizard_Rider.cfg:5
+#: Mystery_Campaign/units/dark_elves/l1_Lizard_Rider.cfg:5
 msgid "Lizard Rider"
 msgstr "Montador de Répteis"
 
 #. [unit_type]: id=EE Dark Elf Lizard Rider, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Lizard_Rider.cfg:18
+#: Mystery_Campaign/units/dark_elves/l1_Lizard_Rider.cfg:18
 msgid "From childhood, they have been training with their beast, feeding it, healing it, and sleeping with it. It is their duty to scout ahead into the unknown, to go where no Dark Elf has gone before. Some day, they will become Master of the Lizard."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Lord, race=darkelf
-#. [unit_type]: id=EE Lord, race=human
 #: Mystery_Campaign/units/dark_elves/Lord.cfg:5
-#: Mystery_Campaign/units/frontiers/L3_Lord.cfg:5
+#: Mystery_Campaign/units/dark_elves/l2_Lord.cfg:5
 msgid "Dark Elf Lord"
 msgstr "Conde Duende"
 
 #. [unit_type]: id=EE Dark Elf Lord, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Lord.cfg:20
+#: Mystery_Campaign/units/dark_elves/l2_Lord.cfg:20
 msgid "Highly decorated, These men have gained the title of Lord through their cunning, their prowess, bravery, and strength. They command their provinces, lead their men in battle, and hold the law with an iron grip. They lead as an example to the life of a warrior in the realm of the Dark Elves."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Marshal, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Marshal.cfg:5
+#: Mystery_Campaign/units/dark_elves/l3_Marshal.cfg:5
 msgid "Dark Elf Marshal"
 msgstr "Marechal Duende"
 
 #. [unit_type]: id=EE Dark Elf Marshal, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Marshal.cfg:22
+#: Mystery_Campaign/units/dark_elves/l3_Marshal.cfg:22
 msgid "These Elves have proven themselves on and off the battle field with their character and demeanor. They have earned for themselves the rank of Marshal. Although they can never become Lords, they still strive to do their best to defend the Matron Mother with their swords and short spears."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Noble, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Noble.cfg:5
+#: Mystery_Campaign/units/dark_elves/l1_Noble.cfg:5
 msgid "Dark Elf Noble"
 msgstr "Duende Nobre"
 
 #. [unit_type]: id=EE Dark Elf Noble, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Noble.cfg:20
+#: Mystery_Campaign/units/dark_elves/l1_Noble.cfg:20
 msgid "The young Lords are rash and brave. They have spent their entire childhood training with the sword, and have been taught from the best Marshals battlefield tactics. They have highly decorative shields that they use in battle to attack and encourage their troops."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Shadow, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Shadow.cfg:5
+#: Mystery_Campaign/units/dark_elves/l3_Shadow.cfg:5
 msgid "Dark Elf Shadow"
 msgstr "Sombra Duende"
 
 #. [unit_type]: id=EE Dark Elf Shadow, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Shadow.cfg:21
+#: Mystery_Campaign/units/dark_elves/l3_Shadow.cfg:21
 msgid "Staying hidden safe in the shadows of the caves, they will hit you when you least expect it. Despite their frailty, they can inflict great damage either by thrusting their daggers in the back of their target or by shooting fast a lot of bolts from their crossbow."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Sorcerer, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Sorcerer.cfg:5
+#: Mystery_Campaign/units/dark_elves/l2_Sorcerer.cfg:5
 msgid "Dark Elf Sorcerer"
 msgstr "Feiticeiro Duende"
 
 #. [unit_type]: id=EE Dark Elf Sorcerer, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Sorcerer.cfg:19
+#: Mystery_Campaign/units/dark_elves/l2_Sorcerer.cfg:19
 msgid "Sorcerers are Wizards that have gone deeper into the studying of the arcane arts. Their research consumes them in a quest for more power, leading them down a path toward the dark arts practiced by the Necromancers and Lichs. Their mighty cold blast can freeze any foe that dares to cross their path."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Sorceress, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Sorceress.cfg:5
+#: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:5
 msgid "female^Dark Elf Sorceress"
 msgstr "Feiticeira Duende"
 
 #. [unit_type]: id=EE Dark Elf Sorceress, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Sorceress.cfg:21
+#: Mystery_Campaign/units/dark_elves/l2_Sorceress.cfg:21
 msgid "The women of the Dark Elves often join the Order of the Clerics at a very young age. These have gained the rank of Sorceress, and have nearly mastered the art of healing, torturing, and healing their captives again and again. Very soon, they will become Clerics, the terribly seductive sadistic torturers."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Stalker, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Stalker.cfg:5
+#: Mystery_Campaign/units/dark_elves/l3_Stalker.cfg:5
 msgid "Dark Elf Stalker"
 msgstr "Trucidador Duende"
 
 #. [unit_type]: id=EE Dark Elf Stalker, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Stalker.cfg:22
+#: Mystery_Campaign/units/dark_elves/l3_Stalker.cfg:22
 msgid "Cunning, agile warriors, the Stalkers are powerful in both the use of their daggers and crossbows. They are completely hidden in the caves, only the thud of a dead body tells you they are near."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Warlock, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Warlock.cfg:5
+#: Mystery_Campaign/units/dark_elves/l3_Warlock.cfg:5
 msgid "Dark Elf Warlock"
 msgstr "Mago da Guerra"
 
 #. [unit_type]: id=EE Dark Elf Warlock, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Warlock.cfg:19
+#: Mystery_Campaign/units/dark_elves/l3_Warlock.cfg:19
 msgid "The best of their kind, these Warlocks have immense power, rivaling even that of the Arch Mage. They have discovered the secrets of the dark arts, and have the power to drain life from their opponents with a single touch, and add it to their own."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Warrior, race=darkelf
-#. [unit_type]: id=EE Warrior, race=human
 #: Mystery_Campaign/units/dark_elves/Warrior.cfg:5
-#: Mystery_Campaign/units/frontiers/L2_Warrior.cfg:5
+#: Mystery_Campaign/units/dark_elves/l2_Warrior.cfg:5
 msgid "Dark Elf Warrior"
 msgstr "Guerreiro Duende"
 
 #. [unit_type]: id=EE Dark Elf Warrior, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Warrior.cfg:17
+#: Mystery_Campaign/units/dark_elves/l2_Warrior.cfg:17
 msgid "These Warriors have devoted themselves totally to mastering the use of dual weapons. With their balanced blades, they can shave a Dwarf. Only few become Corsairs."
 msgstr ""
 
 #. [unit_type]: id=EE Dark Elf Wizard, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Wizard.cfg:5
+#: Mystery_Campaign/units/dark_elves/l1_Wizard.cfg:5
 msgid "Dark Elf Wizard"
 msgstr "Feiticeiro Duende"
 
 #. [unit_type]: id=EE Dark Elf Wizard, race=darkelf
 #: Mystery_Campaign/units/dark_elves/Wizard.cfg:19
+#: Mystery_Campaign/units/dark_elves/l1_Wizard.cfg:19
 msgid "Some Dark Elves prefer studying the arcane arts over close-combat. Usually they are left to the lesser duties of the House, such as upkeep, watching the slaves, and other such things. However, in time of conflict, they can do great damage, even though they lack any training in close-combat."
 msgstr ""
 
 #. [unit_type]: id=EE Goblin Warbanner, race=goblin, description=
 #: Mystery_Campaign/units/dark_elves/goblin_warbanner.cfg:5
+#: Mystery_Campaign/units/dark_elves/l2_goblin_warbanner.cfg:5
 msgid "Goblin Warbanner"
 msgstr "Estandarte da Guerra Gnomo"
 
@@ -1387,27 +1553,32 @@ msgstr "Emboscadores elfos patrulham as florestas; são treinados para evitar in
 msgid "female^Elvish Trapper"
 msgstr "Emboscadora Elfa"
 
-#. [unit_type]: id=EE Bowrider, race=human
+#. [unit_type]: id=EE Bowrider, race=frontiers
 #: Mystery_Campaign/units/frontiers/L1_Bowrider.cfg:5
 msgid "Bowrider"
 msgstr "Arqueiro Montado"
 
-#. [unit_type]: id=EE Bowrider, race=human
+#. [unit_type]: id=EE Bowrider, race=frontiers
 #: Mystery_Campaign/units/frontiers/L1_Bowrider.cfg:19
 msgid "The combination of bow and horseback is rare, with most accompished archers preferring to fight on foot and most accomplished riders preferring to fight with the sword. The few recruited as bowriders are typically found on border patrols, where speed is of the essence. They are best used for hit-and-run attacks against raiders with no ranged weapons, but their size means they rarely hold their own in a straight fight against archers on foot."
 msgstr "A combinação do arco com a cavalaria é raro, pois a maioria dos arqueiros prefere lutar a pé e os cavaleiros melhores preferem a espada. Os poucos arqueiros montados são normalmente encontrados nas patrulhas fronteiriças, onde velocidade é a essência. São melhor usados para ataques repentinos contra saqueadores sem armas à distancia; porém a sua pequena estatura leva-os a serem péssimos para manter a sua posição."
 
-#. [unit_type]: id=EE Raider, race=human
+#. [unit_type]: id=EE Raider, race=frontiers
 #: Mystery_Campaign/units/frontiers/L1_Raider.cfg:5
 msgid "Raider"
 msgstr "Ladrilhador"
 
-#. [unit_type]: id=EE Raider, race=human
+#. [unit_type]: id=EE Raider, race=frontiers
 #: Mystery_Campaign/units/frontiers/L1_Raider.cfg:22
 msgid "Only the best axeman are called Raiders. They are rumored to catch wild horses singlehandedly... and by foot. These rumors are not too far from the truth. The Raider's extreme quickness is of great use in battle, for he can reach the front before the opponent and capture the good defensive terrain. He also carried with him a net for entangling the enemy, both to slow him down in battle and, if the other opponents flee, to capture him as a slave."
 msgstr "Só os melhores com o machado são chamados de Ladrilhadores. É contado que são capazes de capturar cavalos selvagens a mão... e a pé. E estes rumores nem são assim tão falsos. A agilidade extrema dos ladrilhadores pode a vir muito útil em combate, pois podem atingir a frente de batalha e capturar uma boa posição defensiva antes do adversário. Também transportam uma pequena rede para lançar aos seus oponentes, tanto para atrasar-os ou, se quiserem fugir, capturar-os como escravos."
 
-#. [unit_type]: id=EE Swordsman, race=human
+#. [unit_type]: id=EE Swordsman, race=frontiers
+#: Mystery_Campaign/units/frontiers/L1_Swordsman.cfg:5
+msgid "Swordsman"
+msgstr "Espadachim"
+
+#. [unit_type]: id=EE Swordsman, race=frontiers
 #: Mystery_Campaign/units/frontiers/L1_Swordsman.cfg:19
 msgid "Nobles are unused to fighting off horseback, and so are particularly vulnerable should they have to venture across mountains or underground. With neither leadership skills nor good fighting skills, any noble would be well advised to get some decent fighting experience on horseback first."
 msgstr ""
@@ -1432,12 +1603,12 @@ msgstr "abraço de urso"
 msgid " Many creatures of the world of Wesnoth are partly animated through magic. They perceive the world with more than simply their reason and instinct and are consequently less affected by this sort of mental attack."
 msgstr "Muitas criaturas fantásticas do mundo de Wesnoth são parcialmente animados por magia. Pressintam o seu redor com algo mais do que os seus simples sentidos e instintos, e consequentemente serão menos afectados por este tipo de ataque mental."
 
-#. [unit_type]: id=EE Cunning Woman, race=human
+#. [unit_type]: id=EE Cunning Woman, race=frontiers
 #: Mystery_Campaign/units/frontiers/L1_cunning_woman.cfg:8
 msgid "Cunning Woman"
 msgstr "Mulher Raposeira"
 
-#. [unit_type]: id=EE Cunning Woman, race=human
+#. [unit_type]: id=EE Cunning Woman, race=frontiers
 #: Mystery_Campaign/units/frontiers/L1_cunning_woman.cfg:29
 msgid "Injury and illness are common parts of the lives of the nomads. To battle these constant foes live an odd breed of women known as Cunning Womens. Though dogged and somewhat crazy they are effective healers and the curse of a Cunning Woman is not a light threat."
 msgstr ""
@@ -1452,22 +1623,22 @@ msgstr "Urso"
 msgid "Adult bears are known for going their own way; most bears would sooner flee a melee than throw themselves at risk. Some, though, for whatever reason, choose not to run. These bears are a terrifying sight to behold. An adult bear is a mass of muscle, claw, fur, and fury of almost unrivalled proportions: even the most skilled of warriors will not look lightly on the bulk of an angry, advancing bear."
 msgstr ""
 
-#. [unit_type]: id=EE Bowknight, race=human
+#. [unit_type]: id=EE Bowknight, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Bowknight.cfg:5
 msgid "Bowknight"
 msgstr "Cavalaria das Estepes"
 
-#. [unit_type]: id=EE Bowknight, race=human
+#. [unit_type]: id=EE Bowknight, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Bowknight.cfg:19
 msgid "Rare though archers on horseback are, rarer still are experienced archers of this kind. The few archers who prove themselves in combat are given the title of bowknights, and their rarity often means that they are underestimated by their opponents. They are fearsome masters of hit-and-run attacks, but they can often overrun larger forces with hails of arrows before their opponents even have the chance the strike back. However, they remain vulnerable to return fire from archers, and prefer to leave them to charging units."
 msgstr ""
 
-#. [unit_type]: id=EE Cataphract, race=human
+#. [unit_type]: id=EE Cataphract, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Cataphract.cfg:5
 msgid "Cataphract"
 msgstr "Catarata"
 
-#. [unit_type]: id=EE Cataphract, race=human
+#. [unit_type]: id=EE Cataphract, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Cataphract.cfg:25
 msgid "Without infantry to back up border patrols, cavalrymen often have trouble holding off organised attacks. Some veterans therefore choose to protect themselves with heavy armour covering themselves and their horses. Their armour even serves as some protection against arrows and spears that horses and normally so vulnerable to, and their weapons deal the most fearsome damage. However, the armour weighs them down, and on hillsides they become easy targets."
 msgstr ""
@@ -1475,83 +1646,94 @@ msgstr ""
 # Bridão é um cavaleiro que cavalga com as redeas soltas; em oposição ao ginete (com redeas muito restritas).
 # \n
 # Também fora usado para os nobres que decidiram viver fora do seu luxo do qual eram natural (muitas vezes com vagantes, ou até ladrões).
-#. [unit_type]: id=EE Holibar, race=human
+#. [unit_type]: id=EE Holibar, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Holibar.cfg:5
 msgid "Holibar"
 msgstr "Bridão"
 
-#. [unit_type]: id=EE Holibar, race=human
+#. [unit_type]: id=EE Holibar, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Holibar.cfg:24
 msgid "On border patrols, sometimes even the mobility of dragoons has its limitations, for speed alone does not get a unit through a tight gap in enemy lines. Therefore, some experienced cavalrymen choose to forego the armour their comrades wear in order to maximise agility. They can break through enemy ranks to attack units regular riders cannot reach, and they can often escape enemies when other units are forced to stand and fight. In a quality rare to mounted human forces, their agility also enables them to use buildings and trees to their advantage, though not to the same extent as elvish riders. However, they do not have the resilience of their armoured counterparts, and an ill-timed dash through enemy lines can easily cost a holibar's life."
 msgstr ""
 
-#. [unit_type]: id=EE Marauder, race=human
+#. [unit_type]: id=EE Marauder, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Pillager.cfg:5
 msgid "Marauder"
 msgstr "Saqueador"
 
-#. [unit_type]: id=EE Marauder, race=human
+#. [unit_type]: id=EE Marauder, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Pillager.cfg:22
 msgid "Marauders wield their torches out of necessity, recognizing that some enemies are easier to burn than to slice in twain, but the Pillagers embrace their role as arsonists. They revel in the seizing of what they can from the houses of their foes, and the burning of what they cannot."
 msgstr ""
 
-#. [unit_type]: id=EE Warrior, race=human
+#. [unit_type]: id=EE Warrior, race=frontiers
+#: Mystery_Campaign/units/frontiers/L2_Warrior.cfg:5
+msgid "Warrior"
+msgstr "Guerreiro"
+
+#. [unit_type]: id=EE Warrior, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Warrior.cfg:21
 msgid "Noble commanders are not at their strongest when fighting off horseback, but sometimes journeys through mountains or caves make this necessary. Lacking the advantage of fighting from horseback and missing the speed and agility they are used to above ground, they are vulnerable in combat. However, their commanding skills are undiminished, and combined with soldiers suited to the terrain, they remain a force to be reckoned with."
 msgstr ""
 
-#. [unit_type]: id=EE Witch, race=human
+#. [unit_type]: id=EE Witch, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Witch.cfg:5
 msgid "Witch"
 msgstr "Bruxa"
 
-#. [unit_type]: id=EE Witch, race=human
+#. [unit_type]: id=EE Witch, race=frontiers
 #: Mystery_Campaign/units/frontiers/L2_Witch.cfg:27
 msgid "Injury and illness are common parts of the lives of the nomads. To battle these constant foes live an odd breed of men known as witch doctors. Though dogged and somewhat crazy they are effective healers and the curse of a witch is not a light threat."
 msgstr ""
 
 # Um Marialva é um Don-Juan, sedutor de Mulheres.
-#. [unit_type]: id=EE Coutillier, race=human
+#. [unit_type]: id=EE Coutillier, race=frontiers
 #: Mystery_Campaign/units/frontiers/L3_Coutillier.cfg:5
 msgid "Coutillier"
 msgstr "Marialva"
 
-#. [unit_type]: id=EE Coutillier, race=human
+#. [unit_type]: id=EE Coutillier, race=frontiers
 #: Mystery_Campaign/units/frontiers/L3_Coutillier.cfg:20
 msgid "Coutilliers are the most agile of cavalary. Like holibars, they are skilled to dart through gaps in enemy ranks to strike where the enemy is weakest. However, one of their biggest strengths is that they can sieze villages inaccessible to fellow troops, and hold them just as effectively as ground troops thanks to their superb manaouverability in even the narrowest streets. They are also effective holding lines, albeit not quite as effectively as Cavaliers. But one easy mistake is to dash behind enemy lines into a position they cannot hold, and consequently some Coutilliers die of their own arrogance."
 msgstr ""
 
-#. [unit_type]: id=EE Elite Bowknight, race=human
+#. [unit_type]: id=EE Elite Bowknight, race=frontiers
 #: Mystery_Campaign/units/frontiers/L3_Elite_Bowknight.cfg:5
 msgid "Elite Bowknight"
 msgstr "Cavalaria de Elite das Estepes"
 
-#. [unit_type]: id=EE Elite Bowknight, race=human
+#. [unit_type]: id=EE Elite Bowknight, race=frontiers
 #: Mystery_Campaign/units/frontiers/L3_Elite_Bowknight.cfg:20
 msgid "The most experienced archers on horseback are given the titles of Elite Bowknights, and they are an extremely rare occurrence. The few that exist are often assigned to support the most daring raiding parties into the most inhospitable of enemy territory, where they can ride from point to point supporting fellow soldiers with hails of arrows. They are just as vulnerable to return fire as other mounted units, so Elite Bowknights usually rely on shooting down ebeny archers befor they have a chance to return fire."
 msgstr ""
 
-#. [unit_type]: id=EE Lord, race=human
+#. [unit_type]: id=EE Lord, race=frontiers
+#: Mystery_Campaign/units/frontiers/L3_Lord.cfg:5
+#, fuzzy
+msgid "Lord"
+msgstr "Lorde"
+
+#. [unit_type]: id=EE Lord, race=frontiers
 #: Mystery_Campaign/units/frontiers/L3_Lord.cfg:21
 msgid "A mounted Lord, even off horseback, are a valuable asset to a side. They remain formidable warriors, albeit not quite such good fighters as they are on horseback, and they remain great tactical commanders of other troops."
 msgstr ""
 
-#. [unit_type]: id=EE Mounted Marksman, race=human
+#. [unit_type]: id=EE Mounted Marksman, race=frontiers
 #: Mystery_Campaign/units/frontiers/L3_Mounted_Marksman.cfg:5
 msgid "Mounted Marksman"
 msgstr "Atirador Montado"
 
-#. [unit_type]: id=EE Mounted Marksman, race=human
+#. [unit_type]: id=EE Mounted Marksman, race=frontiers
 #: Mystery_Campaign/units/frontiers/L3_Mounted_Marksman.cfg:20
 msgid "One perpetual problem faced by Bowriders and Bowknights is that certain enemies position themselves in strong defensive positions, and an enemy archer in cover can be very difficult to take down. To counter this, some experienced bowknights concentrate their efforts on sharpshooting. They are not quite so good at hit-and-run attacks on open ground that Elite Bowknights excel at, but they are very effective at taking out heavily fortified enemies that are so often the bane of border patrols."
 msgstr ""
 
-#. [unit_type]: id=EE Scorcher, race=human
+#. [unit_type]: id=EE Scorcher, race=frontiers
 #: Mystery_Campaign/units/frontiers/L3_Scorcher.cfg:5
 msgid "Scorcher"
 msgstr "Pilhador"
 
-#. [unit_type]: id=EE Scorcher, race=human
+#. [unit_type]: id=EE Scorcher, race=frontiers
 #: Mystery_Campaign/units/frontiers/L3_Scorcher.cfg:23
 msgid "Some of the most powerful and experienced Marauders choose not to take on the responsibilities of being a Marauder Lord, and instead choose to be the first to land and plunge into battle. They wield a torch in battle, and, as a symbol of their status in Marauder society, are always given the right to burn away the first civilized building during raids. Their strength and fury in battle is a constant source of tales throughtout the land, and even the most skilled warriors can not stand in their way for long."
 msgstr ""
@@ -1560,6 +1742,42 @@ msgstr ""
 #: Mystery_Campaign/units/humans/Wesfolk_Outcast.cfg:6
 msgid "female^Outcast"
 msgstr "Pária"
+
+#. [unit_type]: id=EE Falcon, race=falcon
+#: Mystery_Campaign/units/khalifate/l0_Falcon.cfg:5
+msgid "Falcon"
+msgstr "Falcão"
+
+#. [unit_type]: id=EE Batal, race=khalifate
+#. [unit_type]: id=EE Falcon, race=falcon
+#. [unit_type]: id=EE Faris, race=khalifate
+#. [unit_type]: id=EE Ghazi, race=khalifate
+#. [unit_type]: id=EE Hadaf, race=khalifate
+#. [unit_type]: id=EE Khalid, race=khalifate
+#. [unit_type]: id=EE Mudafi, race=khalifate
+#. [unit_type]: id=EE Mufariq, race=khalifate
+#. [unit_type]: id=EE Muharib, race=khalifate
+#. [unit_type]: id=EE Qanas, race=khalifate
+#. [unit_type]: id=EE Rasikh, race=khalifate
+#. [unit_type]: id=EE Shuja, race=khalifate
+#. [unit_type]: id=EE Tineen, race=khalifate
+#. [unit_type]: id=EE_Qatif_al_nar, race=khalifate
+#: Mystery_Campaign/units/khalifate/l0_Falcon.cfg:21
+#: Mystery_Campaign/units/khalifate/l2_Faris.cfg:19
+#: Mystery_Campaign/units/khalifate/l2_Ghazi.cfg:19
+#: Mystery_Campaign/units/khalifate/l2_Mudafi.cfg:19
+#: Mystery_Campaign/units/khalifate/l2_Muharib.cfg:18
+#: Mystery_Campaign/units/khalifate/l2_Qanas.cfg:19
+#: Mystery_Campaign/units/khalifate/l2_Qatif-al-nar.cfg:23
+#: Mystery_Campaign/units/khalifate/l3_Batal.cfg:19
+#: Mystery_Campaign/units/khalifate/l3_Hadaf.cfg:20
+#: Mystery_Campaign/units/khalifate/l3_Mufariq.cfg:20
+#: Mystery_Campaign/units/khalifate/l3_Rasikh.cfg:20
+#: Mystery_Campaign/units/khalifate/l3_Shuja.cfg:19
+#: Mystery_Campaign/units/khalifate/l3_Tineen.cfg:24
+#: Mystery_Campaign/units/khalifate/l4_Khalid.cfg:20
+msgid "There is currently no description available for this unit."
+msgstr "Não existe neste momento uma descrição para esta unidade."
 
 # that is arab/persian...
 # \n
@@ -1574,257 +1792,219 @@ msgstr "Pária"
 # Currently a mix (mostly transcription)
 # \n
 #. [unit_type]: id=EE Arif, race=khalifate
-#: Mystery_Campaign/units/khalifate/Arif.cfg:5
+#: Mystery_Campaign/units/khalifate/l1_Arif.cfg:5
 msgid "Arif"
 msgstr "Tarife"
 
 #. [unit_type]: id=EE Arif, race=khalifate
-#: Mystery_Campaign/units/khalifate/Arif.cfg:18
+#: Mystery_Campaign/units/khalifate/l1_Arif.cfg:18
 msgid "The Arif form the backbone of any Khalifate foot advance. They are often sent against fortified enemy positions where their valor and skill with a sword allows them to assault seemingly inpenetrable defenses."
 msgstr "Os Tarifes formam a espinha dorsal de qualquer exército califado. São frequentemente enviados contra posições inimigas onde a sua bravura e habilidade com a espada permite-lhes assaltarem defesas aparentemente impenetraveis."
 
-#. [unit_type]: id=EE Batal, race=khalifate
-#: Mystery_Campaign/units/khalifate/Batal.cfg:5
-msgid "Batal"
-msgstr "Batel"
-
-#. [unit_type]: id=EE Batal, race=khalifate
-#. [unit_type]: id=EE Falcon, race=falcon
-#. [unit_type]: id=EE Faris, race=khalifate
-#. [unit_type]: id=EE Ghazi, race=khalifate
-#. [unit_type]: id=EE Hadaf, race=khalifate
-#. [unit_type]: id=EE Khalid, race=khalifate
-#. [unit_type]: id=EE Mudafi, race=khalifate
-#. [unit_type]: id=EE Mufariq, race=khalifate
-#. [unit_type]: id=EE Muharib, race=khalifate
-#. [unit_type]: id=EE Qanas, race=khalifate
-#. [unit_type]: id=EE Rasikh, race=khalifate
-#. [unit_type]: id=EE Shuja, race=khalifate
-#. [unit_type]: id=EE Tabib, race=khalifate
-#. [unit_type]: id=EE Tineen, race=khalifate
-#. [unit_type]: id=EE_Qatif_al_nar, race=khalifate
-#: Mystery_Campaign/units/khalifate/Batal.cfg:19
-#: Mystery_Campaign/units/khalifate/Falcon.cfg:20
-#: Mystery_Campaign/units/khalifate/Faris.cfg:19
-#: Mystery_Campaign/units/khalifate/Ghazi.cfg:19
-#: Mystery_Campaign/units/khalifate/Hadaf.cfg:20
-#: Mystery_Campaign/units/khalifate/Khalid.cfg:20
-#: Mystery_Campaign/units/khalifate/Mudafi.cfg:19
-#: Mystery_Campaign/units/khalifate/Mufariq.cfg:20
-#: Mystery_Campaign/units/khalifate/Muharib.cfg:18
-#: Mystery_Campaign/units/khalifate/Qanas.cfg:19
-#: Mystery_Campaign/units/khalifate/Qatif-al-nar.cfg:23
-#: Mystery_Campaign/units/khalifate/Rasikh.cfg:20
-#: Mystery_Campaign/units/khalifate/Shuja.cfg:19
-#: Mystery_Campaign/units/khalifate/Tabib.cfg:24
-#: Mystery_Campaign/units/khalifate/Tineen.cfg:24
-msgid "There is currently no description available for this unit."
-msgstr "Não existe neste momento uma descrição para esta unidade."
-
-#. [attack]: type=pierce
-#: Mystery_Campaign/units/khalifate/Batal.cfg:32
-#: Mystery_Campaign/units/khalifate/Jawal.cfg:33
-#: Mystery_Campaign/units/khalifate/Jundi.cfg:31
-#: Mystery_Campaign/units/khalifate/Muharib.cfg:31
-#: Mystery_Campaign/units/khalifate/Rami.cfg:32
-#: Mystery_Campaign/units/khalifate/Saree.cfg:32
-msgid "composite bow"
-msgstr "Arco de Caça"
-
 #. [unit_type]: id=EE Elder Falcon, race=falcon
-#: Mystery_Campaign/units/khalifate/Elder_Falcon.cfg:5
+#: Mystery_Campaign/units/khalifate/l1_Elder_Falcon.cfg:5
 msgid "Elder Falcon"
 msgstr "Falcão Antigo"
 
 #. [unit_type]: id=EE Elder Falcon, race=falcon
-#: Mystery_Campaign/units/khalifate/Elder_Falcon.cfg:21
+#: Mystery_Campaign/units/khalifate/l1_Elder_Falcon.cfg:22
 msgid "These falcons have been through many perils and somehow managed to survive them. Their dives can be so fast that stories abound of them taking a foe’s head clean off."
 msgstr "Estes falcões conheceram muitos perigos e de alguma forma conseguiram sobreviver-as. Os seus mergulhos podem ser tão rápidos que abundam histórias deles de em como decapitam o adversário num só golpe."
 
-#. [unit_type]: id=EE Falcon, race=falcon
-#: Mystery_Campaign/units/khalifate/Falcon.cfg:5
-msgid "Falcon"
-msgstr "Falcão"
-
-#. [unit_type]: id=EE Faris, race=khalifate
-#: Mystery_Campaign/units/khalifate/Faris.cfg:5
-msgid "Faris"
-msgstr "Falis"
-
-#. [unit_type]: id=EE Ghazi, race=khalifate
-#: Mystery_Campaign/units/khalifate/Ghazi.cfg:5
-msgid "Ghazi"
-msgstr "Jazi"
-
-#. [attack]: type=impact
-#: Mystery_Campaign/units/khalifate/Ghazi.cfg:36
-#: Mystery_Campaign/units/khalifate/Khalid.cfg:37
-#: Mystery_Campaign/units/khalifate/Shuja.cfg:36
-msgid "shield bash"
-msgstr "pancada do escudo"
-
-#. [unit_type]: id=EE Hadaf, race=khalifate
-#: Mystery_Campaign/units/khalifate/Hadaf.cfg:5
-msgid "Hadaf"
-msgstr "Abafe"
-
 #. [unit_type]: id=EE Hakim, race=khalifate
-#: Mystery_Campaign/units/khalifate/Hakim.cfg:5
+#: Mystery_Campaign/units/khalifate/l1_Hakim.cfg:5
 msgid "Hakim"
 msgstr "Aquim"
 
 #. [unit_type]: id=EE Hakim, race=khalifate
-#: Mystery_Campaign/units/khalifate/Hakim.cfg:22
+#: Mystery_Campaign/units/khalifate/l1_Hakim.cfg:35
 msgid "Hakim use their knowledge of ancient medicine and herbal concoctions to quickly bring the Khalifate soldiers back to the front lines."
 msgstr "Os Aquins usam o seu conhecimento de medicina antiga e misturas de ervas para trazer rapidamente os soldados do califado de volta para a frente de batalha."
 
-#. [unit_type]: id=EE Jawal, race=khalifate
-#: Mystery_Campaign/units/khalifate/Jawal.cfg:5
-msgid "Jawal"
-msgstr "Faval"
-
-#. [unit_type]: id=EE Jawal, race=khalifate
-#: Mystery_Campaign/units/khalifate/Jawal.cfg:20
-msgid "Jawal are excellent horsemen and few can shoot as well from horseback as they. They love to circle and harass enemies from afar while using their superior speed to avoid heavy counter attack.."
-msgstr "Os Favais são excelentes cavaleiros e poucos sabem atirar montados à cavalo tão bem como eles. Adoram circundar e perseguir os inimigos à distância, enquanto usam a sua velocidade superior para evitar um contra-ataque pesado ..."
-
 #. [unit_type]: id=EE Jundi, race=khalifate
-#: Mystery_Campaign/units/khalifate/Jundi.cfg:5
+#: Mystery_Campaign/units/khalifate/l1_Jundi.cfg:5
 msgid "Jundi"
 msgstr "Jundi"
 
 #. [unit_type]: id=EE Jundi, race=khalifate
 #. [unit_type]: id=EE Mighwar, race=khalifate
 #. [unit_type]: id=EE Monawish, race=khalifate
-#: Mystery_Campaign/units/khalifate/Jundi.cfg:18
-#: Mystery_Campaign/units/khalifate/Mighwar.cfg:22
-#: Mystery_Campaign/units/khalifate/Monawish.cfg:21
+#: Mystery_Campaign/units/khalifate/l1_Jundi.cfg:18
+#: Mystery_Campaign/units/khalifate/l2_Monawish.cfg:21
+#: Mystery_Campaign/units/khalifate/l3_Mighwar.cfg:22
 msgid "The Khalifate uses these Hillmen as their foot force. They are versatile and excel in hilly terrain."
 msgstr "O califado usa estes homens como força terrestre. São versáteis e destacam-se em terreno montanhoso."
 
+#. [attack]: type=pierce
+#: Mystery_Campaign/units/khalifate/l1_Jundi.cfg:31
+#: Mystery_Campaign/units/khalifate/l1_Rami.cfg:32
+#: Mystery_Campaign/units/khalifate/l2_Muharib.cfg:31
+#: Mystery_Campaign/units/khalifate/l2_Saree.cfg:32
+#: Mystery_Campaign/units/khalifate/l3_Batal.cfg:32
+#: Mystery_Campaign/units/khalifate/l3_Jawal.cfg:33
+msgid "composite bow"
+msgstr "Arco de Caça"
+
 #. [unit_type]: id=EE Khaiyal, race=khalifate
-#: Mystery_Campaign/units/khalifate/Khaiyal.cfg:5
+#: Mystery_Campaign/units/khalifate/l1_Khaiyal.cfg:5
 msgid "Khaiyal"
 msgstr "Faial"
 
 #. [unit_type]: id=EE Khaiyal, race=khalifate
-#: Mystery_Campaign/units/khalifate/Khaiyal.cfg:27
+#: Mystery_Campaign/units/khalifate/l1_Khaiyal.cfg:27
 msgid "The Khaiyal wear truly heavy armor, and thus close with a single high impact lance charge in order to save their poor horses’ stamina before switching over to their trusty maces."
 msgstr "O Faial veste pesadas armaduras desgastantes, e assim munido com uma carga de grande impacto única, a fim de não desgastar toda a resistência dos seus pobres cavalos antes de passar às suas clavas de confiança."
 
-# thats Calif... not really khalid...
-#. [unit_type]: id=EE Khalid, race=khalifate
-#: Mystery_Campaign/units/khalifate/Khalid.cfg:5
-msgid "Khalid"
-msgstr "Califa"
-
-#. [unit_type]: id=EE Mighwar, race=khalifate
-#: Mystery_Campaign/units/khalifate/Mighwar.cfg:5
-msgid "Mighwar"
-msgstr "Maivar"
-
-#. [unit_type]: id=EE Monawish, race=khalifate
-#: Mystery_Campaign/units/khalifate/Monawish.cfg:5
-msgid "Monawish"
-msgstr "Monchique"
-
-#. [unit_type]: id=EE Mudafi, race=khalifate
-#: Mystery_Campaign/units/khalifate/Mudafi.cfg:5
-msgid "Mudafi"
-msgstr "Mudafi"
-
-# sounds awfull...
-#. [unit_type]: id=EE Mufariq, race=khalifate
-#: Mystery_Campaign/units/khalifate/Mufariq.cfg:5
-msgid "Mufariq"
-msgstr "Mubarique"
-
-# questionable...
-#. [unit_type]: id=EE Muharib, race=khalifate
-#: Mystery_Campaign/units/khalifate/Muharib.cfg:5
-msgid "Muharib"
-msgstr "Moçárabe"
-
 # same name as the attack... good?
 #. [unit_type]: id=EE Naffat, race=khalifate
-#: Mystery_Campaign/units/khalifate/Naffat.cfg:5
+#: Mystery_Campaign/units/khalifate/l1_Naffat.cfg:5
 msgid "Naffat"
 msgstr "Nafta"
 
 #. [unit_type]: id=EE Naffat, race=khalifate
-#: Mystery_Campaign/units/khalifate/Naffat.cfg:23
+#: Mystery_Campaign/units/khalifate/l1_Naffat.cfg:23
 msgid "Naffat frequently use burning arrows to set fire to enemy fortifications and generally sow terror amongst the enemy. Such tactics may also have other uses in a land of many strange wonders..."
 msgstr "Naftas frequentemente usam flechas de fogo para incendiar as fortificações do inimigo e, geralmente, semeiam o terror entre estes. Esta táctica também pode ter outros usos numa terra de muitas maravilhas estranhas ..."
 
 #. [attack]: type=fire
-#: Mystery_Campaign/units/khalifate/Naffat.cfg:28
-#: Mystery_Campaign/units/khalifate/Qatif-al-nar.cfg:28
-#: Mystery_Campaign/units/khalifate/Tineen.cfg:29
+#: Mystery_Campaign/units/khalifate/l1_Naffat.cfg:28
+#: Mystery_Campaign/units/khalifate/l2_Qatif-al-nar.cfg:28
+#: Mystery_Campaign/units/khalifate/l3_Tineen.cfg:29
 msgid "naphtha attack"
 msgstr "ataque nafta"
 
 #. [attack]: type=fire
-#: Mystery_Campaign/units/khalifate/Naffat.cfg:37
-#: Mystery_Campaign/units/khalifate/Qatif-al-nar.cfg:37
-#: Mystery_Campaign/units/khalifate/Tineen.cfg:38
+#: Mystery_Campaign/units/khalifate/l1_Naffat.cfg:37
+#: Mystery_Campaign/units/khalifate/l2_Qatif-al-nar.cfg:37
+#: Mystery_Campaign/units/khalifate/l3_Tineen.cfg:38
 msgid "fire arrow"
 msgstr "flecha ardente"
 
-#. [unit_type]: id=EE Qanas, race=khalifate
-#: Mystery_Campaign/units/khalifate/Qanas.cfg:5
-msgid "Qanas"
-msgstr "Ganas"
-
-#. [unit_type]: id=EE_Qatif_al_nar, race=khalifate
-#: Mystery_Campaign/units/khalifate/Qatif-al-nar.cfg:5
-msgid "Qatif-al-nar"
-msgstr "Quatif-al-mar"
-
 # Remi? Brami?
 #. [unit_type]: id=EE Rami, race=khalifate
-#: Mystery_Campaign/units/khalifate/Rami.cfg:5
+#: Mystery_Campaign/units/khalifate/l1_Rami.cfg:5
 msgid "Rami"
 msgstr "Rami"
 
 #. [unit_type]: id=EE Rami, race=khalifate
-#: Mystery_Campaign/units/khalifate/Rami.cfg:19
+#: Mystery_Campaign/units/khalifate/l1_Rami.cfg:19
 msgid "Rami are excellent horsemen and few can shoot as well from horseback as they. They love to circle and harass enemies from afar while using their superior speed to avoid heavy counter attack.."
 msgstr "Os Rami são excelentes cavaleiros e poucos sabem atirar montados à cavalo tão bem como eles. Adoram circundar e perseguir os inimigos à distância, enquanto usam a sua velocidade superior para evitar um contra-ataque pesado ..."
 
-#. [unit_type]: id=EE Rasikh, race=khalifate
-#: Mystery_Campaign/units/khalifate/Rasikh.cfg:5
-msgid "Rasikh"
-msgstr "Rasique"
+#. [unit_type]: id=EE Faris, race=khalifate
+#: Mystery_Campaign/units/khalifate/l2_Faris.cfg:5
+msgid "Faris"
+msgstr "Falis"
+
+#. [unit_type]: id=EE Ghazi, race=khalifate
+#: Mystery_Campaign/units/khalifate/l2_Ghazi.cfg:5
+msgid "Ghazi"
+msgstr "Jazi"
+
+#. [attack]: type=impact
+#: Mystery_Campaign/units/khalifate/l2_Ghazi.cfg:36
+#: Mystery_Campaign/units/khalifate/l3_Shuja.cfg:36
+#: Mystery_Campaign/units/khalifate/l4_Khalid.cfg:37
+msgid "shield bash"
+msgstr "pancada do escudo"
+
+#. [unit_type]: id=EE Monawish, race=khalifate
+#: Mystery_Campaign/units/khalifate/l2_Monawish.cfg:5
+msgid "Monawish"
+msgstr "Monchique"
+
+#. [unit_type]: id=EE Mudafi, race=khalifate
+#: Mystery_Campaign/units/khalifate/l2_Mudafi.cfg:5
+msgid "Mudafi"
+msgstr "Mudafi"
+
+# questionable...
+#. [unit_type]: id=EE Muharib, race=khalifate
+#: Mystery_Campaign/units/khalifate/l2_Muharib.cfg:5
+msgid "Muharib"
+msgstr "Moçárabe"
+
+#. [unit_type]: id=EE Qanas, race=khalifate
+#: Mystery_Campaign/units/khalifate/l2_Qanas.cfg:5
+msgid "Qanas"
+msgstr "Ganas"
+
+#. [unit_type]: id=EE_Qatif_al_nar, race=khalifate
+#: Mystery_Campaign/units/khalifate/l2_Qatif-al-nar.cfg:5
+msgid "Qatif-al-nar"
+msgstr "Quatif-al-mar"
 
 # i or open e ?
 # \n
 # Sarai? Sarei?
 #. [unit_type]: id=EE Saree, race=khalifate
-#: Mystery_Campaign/units/khalifate/Saree.cfg:5
+#: Mystery_Campaign/units/khalifate/l2_Saree.cfg:5
 msgid "Saree"
 msgstr "Sare"
 
 #. [unit_type]: id=EE Saree, race=khalifate
-#: Mystery_Campaign/units/khalifate/Saree.cfg:19
+#: Mystery_Campaign/units/khalifate/l2_Saree.cfg:19
 msgid "Saree are excellent horsemen and few can shoot as well from horseback as they. They love to circle and harass enemies from afar while using their superior speed to avoid heavy counter attack.."
 msgstr "Os Sare são excelentes cavaleiros e poucos sabem atirar montados à cavalo tão bem como eles. Adoram circundar e perseguir os inimigos à distância, enquanto usam a sua velocidade superior para evitar um contra-ataque pesado ..."
 
-#. [unit_type]: id=EE Shuja, race=khalifate
-#: Mystery_Campaign/units/khalifate/Shuja.cfg:5
-msgid "Shuja"
-msgstr "Suja"
-
 # Sahib?
 #. [unit_type]: id=EE Tabib, race=khalifate
-#: Mystery_Campaign/units/khalifate/Tabib.cfg:5
+#: Mystery_Campaign/units/khalifate/l2_Tabib.cfg:5
 msgid "Tabib"
 msgstr "Tabique"
 
+#. [unit_type]: id=EE Batal, race=khalifate
+#: Mystery_Campaign/units/khalifate/l3_Batal.cfg:5
+msgid "Batal"
+msgstr "Batel"
+
+#. [unit_type]: id=EE Hadaf, race=khalifate
+#: Mystery_Campaign/units/khalifate/l3_Hadaf.cfg:5
+msgid "Hadaf"
+msgstr "Abafe"
+
+#. [unit_type]: id=EE Jawal, race=khalifate
+#: Mystery_Campaign/units/khalifate/l3_Jawal.cfg:5
+msgid "Jawal"
+msgstr "Faval"
+
+#. [unit_type]: id=EE Jawal, race=khalifate
+#: Mystery_Campaign/units/khalifate/l3_Jawal.cfg:20
+msgid "Jawal are excellent horsemen and few can shoot as well from horseback as they. They love to circle and harass enemies from afar while using their superior speed to avoid heavy counter attack.."
+msgstr "Os Favais são excelentes cavaleiros e poucos sabem atirar montados à cavalo tão bem como eles. Adoram circundar e perseguir os inimigos à distância, enquanto usam a sua velocidade superior para evitar um contra-ataque pesado ..."
+
+#. [unit_type]: id=EE Mighwar, race=khalifate
+#: Mystery_Campaign/units/khalifate/l3_Mighwar.cfg:5
+msgid "Mighwar"
+msgstr "Maivar"
+
+# sounds awfull...
+#. [unit_type]: id=EE Mufariq, race=khalifate
+#: Mystery_Campaign/units/khalifate/l3_Mufariq.cfg:5
+msgid "Mufariq"
+msgstr "Mubarique"
+
+#. [unit_type]: id=EE Rasikh, race=khalifate
+#: Mystery_Campaign/units/khalifate/l3_Rasikh.cfg:5
+msgid "Rasikh"
+msgstr "Rasique"
+
+#. [unit_type]: id=EE Shuja, race=khalifate
+#: Mystery_Campaign/units/khalifate/l3_Shuja.cfg:5
+msgid "Shuja"
+msgstr "Suja"
+
 # Not sure about this...
 #. [unit_type]: id=EE Tineen, race=khalifate
-#: Mystery_Campaign/units/khalifate/Tineen.cfg:5
+#: Mystery_Campaign/units/khalifate/l3_Tineen.cfg:5
 msgid "Tineen"
 msgstr "Atinente"
+
+# thats Calif... not really khalid...
+#. [unit_type]: id=EE Khalid, race=khalifate
+#: Mystery_Campaign/units/khalifate/l4_Khalid.cfg:5
+msgid "Khalid"
+msgstr "Califa"
 
 #. [unit_type]: id=Cockatrice, race=monster
 #: Mystery_Campaign/units/nagas/Cockatrice.cfg:5
@@ -1936,15 +2116,45 @@ msgstr "Moderado"
 msgid "Excessive"
 msgstr "Excessivo"
 
+#. [damage]: id=EE_vigilance
+#: Mystery_Campaign/utils/abilities.cfg:6
+#: Mystery_Campaign/utils/abilities.cfg:7
+msgid "vigilance"
+msgstr "vigilância"
+
+#. [damage]: id=EE_vigilance
+#: Mystery_Campaign/utils/abilities.cfg:8
+#: Mystery_Campaign/utils/abilities.cfg:10
+msgid ""
+"Vigilance:\n"
+"When this attack is used the attacker takes 50% less damage."
+msgstr ""
+"Vigilância:\n"
+"Quando este ataque for usado o atacante sofrerá 50% menos dano."
+
+#. [damage]: id=EE_evade
+#: Mystery_Campaign/utils/abilities.cfg:20
+#: Mystery_Campaign/utils/abilities.cfg:21
+msgid "evade"
+msgstr "evasão"
+
+#. [damage]: id=EE_evade
+#: Mystery_Campaign/utils/abilities.cfg:22
+#: Mystery_Campaign/utils/abilities.cfg:24
+msgid ""
+"Evade:\n"
+"This unit can evade enemy attack and takes one third less damage while using this weapon."
+msgstr ""
+
 #. [damage]: id=charge
-#: Mystery_Campaign/utils/abilities.cfg:26
-#: Mystery_Campaign/utils/abilities.cfg:29
+#: Mystery_Campaign/utils/abilities.cfg:54
+#: Mystery_Campaign/utils/abilities.cfg:57
 msgid "counter-attack"
 msgstr "contra-ataque"
 
 #. [damage]: id=charge
-#: Mystery_Campaign/utils/abilities.cfg:27
-#: Mystery_Campaign/utils/abilities.cfg:30
+#: Mystery_Campaign/utils/abilities.cfg:55
+#: Mystery_Campaign/utils/abilities.cfg:58
 msgid ""
 "Counter-attacks:\n"
 "When used defensively, this attack deals double damage to the target."
@@ -1952,19 +2162,19 @@ msgstr ""
 "Contra-ataque:\n"
 "Quando usado defensivamente, o ataque causa duplo dano ao alvo."
 
-#: Mystery_Campaign/utils/abilities.cfg:39
+#: Mystery_Campaign/utils/abilities.cfg:67
 msgid "This unit counter-attacks effectively income hits, causing vaste damage on the unprotected target"
 msgstr "Esta unidade contra-ataca efectivamente golpes causando vasto dano no alvo desprotegido"
 
 #. [attacks]: id=attack_only
-#: Mystery_Campaign/utils/abilities.cfg:206
-#: Mystery_Campaign/utils/abilities.cfg:207
+#: Mystery_Campaign/utils/abilities.cfg:234
+#: Mystery_Campaign/utils/abilities.cfg:235
 msgid "attack only"
 msgstr "somente ataque"
 
 #. [attacks]: id=attack_only
-#: Mystery_Campaign/utils/abilities.cfg:208
-#: Mystery_Campaign/utils/abilities.cfg:210
+#: Mystery_Campaign/utils/abilities.cfg:236
+#: Mystery_Campaign/utils/abilities.cfg:238
 msgid ""
 "Attack only:\n"
 "This weapon will never be used on defense."
@@ -1972,11 +2182,11 @@ msgstr ""
 "Somente Ataque:\n"
 "Esta arma nunca irá ser utilizado na defesa."
 
-#: Mystery_Campaign/utils/abilities.cfg:228
+#: Mystery_Campaign/utils/abilities.cfg:256
 msgid "protection"
 msgstr "protecção"
 
-#: Mystery_Campaign/utils/abilities.cfg:229
+#: Mystery_Campaign/utils/abilities.cfg:257
 msgid ""
 "Protection:\n"
 "Adjacent units will receive a +20% bonus to all resistances (up to a maximum of 50%)."
@@ -1984,15 +2194,15 @@ msgstr ""
 "Protecção: \n"
 "Unidades adjacentes desse lado recebem um bónus de 20% para todas as resistências (até um máximo de 50%)."
 
-#: Mystery_Campaign/utils/abilities.cfg:239
+#: Mystery_Campaign/utils/abilities.cfg:267
 msgid "This unit can protect those units around them, granting them extra resistances."
 msgstr "Esta unidade consegue proteger aquelas a sua volta, conferindo-lhas um pequeno bónus de resistência."
 
-#: Mystery_Campaign/utils/abilities.cfg:246
+#: Mystery_Campaign/utils/abilities.cfg:274
 msgid "terror"
 msgstr "Terror"
 
-#: Mystery_Campaign/utils/abilities.cfg:247
+#: Mystery_Campaign/utils/abilities.cfg:275
 msgid ""
 "Terror:\n"
 "This unit can frighten enemy units that are next to it, making them fight worse.\n"
@@ -2004,23 +2214,23 @@ msgstr ""
 "\n"
 "Unidades adjacentes um nível inferior a esta irão infligir menos dano. Quando uma unidade dum nível menor e inimiga estiver adjacente iniciar o combate, inflige menos 25% de dano multiplicado pela diferença de nível entre ela e a com a com esta habilidade."
 
-#: Mystery_Campaign/utils/abilities.cfg:292
+#: Mystery_Campaign/utils/abilities.cfg:320
 msgid " The terror skill of this unit scare ennemy units next to it so they deal less damage in combat, though this only applies to units of lower level."
 msgstr "A habilidade de terror intimida unidades adjacentes para fazerem menos dano em combate, porém isto só se aplica a unidades de menor nível."
 
-#: Mystery_Campaign/utils/abilities.cfg:295
+#: Mystery_Campaign/utils/abilities.cfg:323
 msgid "This unit darkens it surrounding area, negating the lawful units their day bonus and removing the malus for the chaotic units"
 msgstr "Esta unidade obscurece a sua área ao redor, negando o bónus das unidades diurnas e removendo a penalidade das nocturnas."
 
-#: Mystery_Campaign/utils/abilities.cfg:303
+#: Mystery_Campaign/utils/abilities.cfg:331
 msgid "darkens"
 msgstr "assombrar"
 
-#: Mystery_Campaign/utils/abilities.cfg:304
+#: Mystery_Campaign/utils/abilities.cfg:332
 msgid "female^darkens"
 msgstr "assombrar"
 
-#: Mystery_Campaign/utils/abilities.cfg:305
+#: Mystery_Campaign/utils/abilities.cfg:333
 msgid ""
 "Darkens:\n"
 "This unit deluminates the surrounding area, making chaotic units fight better, and lawful units fight worse.\n"
@@ -2032,13 +2242,13 @@ msgstr ""
 "\n"
 "Qualquer unidade adjacente a esta irá lutar de dia como se fosse crepúsculo."
 
-#: Mystery_Campaign/utils/abilities.cfg:317
-#: Mystery_Campaign/utils/abilities.cfg:322
+#: Mystery_Campaign/utils/abilities.cfg:345
+#: Mystery_Campaign/utils/abilities.cfg:350
 msgid "cavestalk"
 msgstr "caçador de caverna"
 
-#: Mystery_Campaign/utils/abilities.cfg:318
-#: Mystery_Campaign/utils/abilities.cfg:323
+#: Mystery_Campaign/utils/abilities.cfg:346
+#: Mystery_Campaign/utils/abilities.cfg:351
 msgid ""
 "Cavestalk:\n"
 "This unit can hide in caves, and remain undetected by its enemies.\n"
@@ -2050,7 +2260,7 @@ msgstr ""
 "\n"
 "Unidades inimigas não podem ver ou atacar esta unidade quando está em cavernas, com excepção de qualquer turno imediatamente após esta unidade ter atacado ou se há unidades inimigas próximas a esta unidade."
 
-#: Mystery_Campaign/utils/abilities.cfg:337
+#: Mystery_Campaign/utils/abilities.cfg:365
 msgid " In underground terrain (except lit underground), this unit's ambush skill renders it invisible to enemies unless it is immediately adjacent or has revealed itself by attacking."
 msgstr "Em terreno subterrâneo (excepto subterrâneo iluminado), a habilidade desta unidade de emboscar torna-a invisível aos seus inimigos a menos que seja imediatamente adjacente ou se tem revelado ao atacar."
 
@@ -2080,10 +2290,8 @@ msgstr ""
 "\n"
 "Mas as defesas não pode cair abaixo de 20%."
 
-#. [then]
 #: Mystery_Campaign/utils/curse.cfg:62
 #: Mystery_Campaign/utils/curse.cfg:100
-#: Mystery_Campaign/utils/weapon_drop.cfg:650
 msgid "cursed"
 msgstr "amaldiçoado"
 
@@ -2092,40 +2300,23 @@ msgstr "amaldiçoado"
 msgid "female^cursed"
 msgstr "amaldiçoada"
 
+#: Mystery_Campaign/utils/curse.cfg:222
+msgid "cursed: This unit is cursed. It gets a 20% defense penalty on every terrain."
+msgstr "maldito: Esta unidade esta amaldiçoada. Recebe uma penalidade e defesa por 20% em cada terreno."
+
 #. [message]
 #: Mystery_Campaign/utils/utils.cfg:235
 msgid "Oh, it's hopeless! I surrender!"
 msgstr "Oh, não há hipótese! Rendo-me!"
 
-#. [option]: speaker=unit
-#: Mystery_Campaign/utils/weapon_drop.cfg:608
-msgid "<b>Yes</b>"
-msgstr "<b>Sim</b>"
+#~ msgid "Miscellaneous"
+#~ msgstr "Diversos"
 
-#. [option]: speaker=unit
-#: Mystery_Campaign/utils/weapon_drop.cfg:695
-msgid "<b>No</b>"
-msgstr "<b>Não</b>"
+#~ msgid "<b>Yes</b>"
+#~ msgstr "<b>Sim</b>"
 
-#. Frontiers male names
-msgid "Abi,Agnar,Aki,Alfarin,Alfgær,Alrik,Alvi,Amndi,Andvett,Arngær,Arngrim,Asbjørn,Asgær,Audun,Bardi,Bergfinn,Bjør,Bjalki,Bkarni,Bjørn,Bolverk,Brand,Broddi,Byrnjolf,Æd,Ildgrim,Elgfrothi,Eyjolf,Finn,Finnvid,Folkbjørn,Fridgær,Galti,Gæirmund,Gærhelm,Geitir,Gorm,Gretter,Griøtgard,Gudmund,Gunbjørn,Gunnlaug,Gylfi,Gyrd,Hæfnir,Hælgi,Hakland,Hallbjørn,Halvdan,Haaming,Hardrefil,Hauk,Heriolf,Herjolf,Hiorvar,Hjørvarth,Holmfast,Hrafnkel,Hrædar,Hrosskell,Iarl,Iarlabank,Iarund,Ingimar,Ingjald,Iogæir,Irenmund,Ivar,Jarnskeggi,Jorund,Kabbi,Bætilfast,Kætilmund,Ketilbiørn,Kollskegg,Leiknir,Lifstæn,Lyting,Meldun,Mursi,Naddod,Northri,Ønung,Ørlyg,Orokia,Otrygg,Ragnar,Ragnfast,Raudebjørn,Sæbbi,Sævil,Sigurd,Sigvaldi,Skallagrim,Skardi,Skjaldulf,Skørri,Snæbjørn,Spiallbudi,Styrbjørn,Styrmir,Sumarlid,Svertin,Svipday,Thangbrand,Thialfi,Thjodolf,Thorald,Thorstar,Thrand,Tjørvi,Tryggvi,Ulfrik,Ulvkil,Valgard,Valthjof,Vandrad,Vigi,Waltheof,Yngvar,Abban,Aibhne,Aiden,Ailill,Allen,Artan,Bærrfhionn,Bevan,Bowen,Bræden,Bretach,Brogan,Buadhach,Cadeyrn,Calbhach,Caradog,Carden,Cearbhall,Coalan,Cuan,Daigh,Daimhin,Deverell,Dubhaltach,Eadoin,Eben,Eoghan,Eunan,Faolan,Fhæn Darach,Gahareet,Gavin,Irial,Jodoc,Kedehern,Koun,Laøre,Lorcan,Lughaidh,Lugobelinos,Lugovalos,Maol Mhurire,Maponos,Marcan,Morann,Morcant,Murchadh,Nuadha,Olcan,Osan,Peredur,Piran,Ruadhan,Ruarc,Scøthin,Sioda,Siollan,Teutorigos,Tighearnach,Tiobraide,Torcan,Triston,Tuathal,Tuireann,Ultan,Yure,Hodor,Eric,Zaldor"
-msgstr "Abi,Agnar,Aki,Alfarin,Alfgær,Alrik,Alvi,Amndi,Andvett,Arngær,Arngrim,Asbjørn,Asgær,Audun,Bardi,Bergfinn,Bjør,Bjalki,Bkarni,Bjørn,Bolverk,Brand,Broddi,Byrnjolf,Æd,Ildgrim,Elgfrothi,Eyjolf,Finn,Finnvid,Folkbjørn,Fridgær,Galti,Gæirmund,Gærhelm,Geitir,Gorm,Gretter,Griøtgard,Gudmund,Gunbjørn,Gunnlaug,Gylfi,Gyrd,Hæfnir,Hælgi,Hakland,Hallbjørn,Halvdan,Haaming,Hardrefil,Hauk,Heriolf,Herjolf,Hiorvar,Hjørvarth,Holmfast,Hrafnkel,Hrædar,Hrosskell,Iarl,Iarlabank,Iarund,Ingimar,Ingjald,Iogæir,Irenmund,Ivar,Jarnskeggi,Jorund,Kabbi,Bætilfast,Kætilmund,Ketilbiørn,Kollskegg,Leiknir,Lifstæn,Lyting,Meldun,Mursi,Naddod,Northri,Ønung,Ørlyg,Orokia,Otrygg,Ragnar,Ragnfast,Raudebjørn,Sæbbi,Sævil,Sigurd,Sigvaldi,Skallagrim,Skardi,Skjaldulf,Skørri,Snæbjørn,Spiallbudi,Styrbjørn,Styrmir,Sumarlid,Svertin,Svipday,Thangbrand,Thialfi,Thjodolf,Thorald,Thorstar,Thrand,Tjørvi,Tryggvi,Ulfrik,Ulvkil,Valgard,Valthjof,Vandrad,Vigi,Waltheof,Yngvar,Abban,Aibhne,Aiden,Ailill,Allen,Artan,Bærrfhionn,Bevan,Bowen,Bræden,Bretach,Brogan,Buadhach,Cadeyrn,Calbhach,Caradog,Carden,Cearbhall,Coalan,Cuan,Daigh,Daimhin,Deverell,Dubhaltach,Eadoin,Eben,Eoghan,Eunan,Faolan,Fhæn Darach,Gahareet,Gavin,Irial,Jodoc,Kedehern,Koun,Laøre,Lorcan,Lughaidh,Lugobelinos,Lugovalos,Maol Mhurire,Maponos,Marcan,Morann,Morcant,Murchadh,Nuadha,Olcan,Osan,Peredur,Piran,Ruadhan,Ruarc,Scøthin,Sioda,Siollan,Teutorigos,Tighearnach,Tiobraide,Torcan,Triston,Tuathal,Tuireann,Ultan,Yure,Hodor,Eric,Zaldor"
-
-#. Frontiers female names
-msgid "Alfhildr,Alfsigr,Arnbjorg,Astridr,Asrithr,Bergdis,Bergthora,Borghild,Bothildr,Brunhilde,Brynhilde,Brynhildr,Dægny,Eir,Eydis,Frea,Freya,Freyja,Frigg,Fritha,Gard,GerdGrid,Gunnhildr,Gunnvør,Guthlaug,Guthrun,Heidrun,Idunnr,Ingebørg,Ingibjørg,Ingigerdr,Ingigerthr,Ingridr,Ingvildr,Ithunnr,Jorunnr,Kelda,Ketilridr,Nanna,Ragnbjørg,Ragnfridr,Ragnheidur,Saga,Sif,Signe,Signy,Sigridr,sigrithr,Sigrun,Siv,Skuld,Thora,Thorberta,Thorbjørg,Thorfridr,Thorfrithr,Thornhildr,Tofa,Tyra,Urd,Urthr,Valkyrie,Verdanda,Verthandi,Vigdis,Ædeen,Ænder,Ardara,Avalbane,Betony,Blathnaid,Bronach,Bryher,Cartimandua,Ceara,Cinnia,Ciar,Cliodhna,Crøbh Dearg,Damhnait,Deabhail,Dunfhlaith,Edda,Eddana,Fachtna,Fhina,Fianait,Gormlæth,Grian,Innogen,Kendra,Iseult,Laøse,Liadan,Liobhan,Moncha,Muireann,Nantosülta,Naøhm,Nuala,Orlæth,Rælin,Rathnait,Reannon,Rhiannon,Ronat,Saorla,Sarnait,Scothnait,Seanna,Taillte,Trista,Tuilaith,Uæne,Ula,Vanora,Zæla"
-msgstr "Alfhildr,Alfsigr,Arnbjorg,Astridr,Asrithr,Bergdis,Bergthora,Borghild,Bothildr,Brunhilde,Brynhilde,Brynhildr,Dægny,Eir,Eydis,Frea,Freya,Freyja,Frigg,Fritha,Gard,GerdGrid,Gunnhildr,Gunnvør,Guthlaug,Guthrun,Heidrun,Idunnr,Ingebørg,Ingibjørg,Ingigerdr,Ingigerthr,Ingridr,Ingvildr,Ithunnr,Jorunnr,Kelda,Ketilridr,Nanna,Ragnbjørg,Ragnfridr,Ragnheidur,Saga,Sif,Signe,Signy,Sigridr,sigrithr,Sigrun,Siv,Skuld,Thora,Thorberta,Thorbjørg,Thorfridr,Thorfrithr,Thornhildr,Tofa,Tyra,Urd,Urthr,Valkyrie,Verdanda,Verthandi,Vigdis,Ædeen,Ænder,Ardara,Avalbane,Betony,Blathnaid,Bronach,Bryher,Cartimandua,Ceara,Cinnia,Ciar,Cliodhna,Crøbh Dearg,Damhnait,Deabhail,Dunfhlaith,Edda,Eddana,Fachtna,Fhina,Fianait,Gormlæth,Grian,Innogen,Kendra,Iseult,Laøse,Liadan,Liobhan,Moncha,Muireann,Nantosülta,Naøhm,Nuala,Orlæth,Rælin,Rathnait,Reannon,Rhiannon,Ronat,Saorla,Sarnait,Scothnait,Seanna,Taillte,Trista,Tuilaith,Uæne,Ula,Vanora,Zæla"
-
-#. Khalifate female names
-msgid "Adonia,Aida,Aisha,Alissar,Anath,Asherah,Ashtoreth,Ba'alat,Batanah,Batnoam,Betsda,Cassandra,Cybil,Derketo,Dido,Hadda,Hesata,Ishtar,Jezebel,Junot,Skylla,Maherra,Melita,Myletta,Nikkal,Pidraya,Rahmaya,Salaya,Sefina,Shahar,Tanis,Tanith,Ummanath,Ummashtart,Yara,Acenath,Ain,Akila,Anippe,Aziza,Bahiti,Bastet,Bennu,Chione,Dalila,Dendera,Eboni,Eshe,Fukayana,Habibah,Halima,Haqika,Hasina,Hathor,Heqet,Ife,Jamila,Jendaya,Kakra,Kanika,Kesi,Khepri,Kissa,Lapis,Layla,Lotus,Mafuane,Maibe,Mandisa,Meht Urt,Mert Ekert,Meskhenet,Nathifa,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
-msgstr "Adonia,Aida,Aisha,Alissar,Anath,Asherah,Ashtoreth,Ba'alat,Batanah,Batnoam,Betsda,Cassandra,Cybil,Derketo,Dido,Hadda,Hesata,Ishtar,Jezebel,Junot,Skylla,Maherra,Melita,Myletta,Nikkal,Pidraya,Rahmaya,Salaya,Sefina,Shahar,Tanis,Tanith,Ummanath,Ummashtart,Yara,Acenath,Ain,Akila,Anippe,Aziza,Bahiti,Bastet,Bennu,Chione,Dalila,Dendera,Eboni,Eshe,Fukayana,Habibah,Halima,Haqika,Hasina,Hathor,Heqet,Ife,Jamila,Jendaya,Kakra,Kanika,Kesi,Khepri,Kissa,Lapis,Layla,Lotus,Mafuane,Maibe,Mandisa,Meht Urt,Mert Ekert,Meskhenet,Nathifa,Shune,Shai,Shena,Shalia,Shasi,Shava,Shura"
-
-#. Aragwaithi male names
-msgid "Accos,Acton,Actras,Aephus,Andradas,Arus,Ballus,Bellon,Callas,Cathas,Cendras,Cyras,Dandras,Dundarus,Edras,Essras,Fathas,Gallas,Hadrion,Hektor,Herdreidon,Hestus,Indus,Kahas,Korus,Lathas,Lostrus,Malthras,Netheras,Orion,Oros,Ossas,Pallas,Paris,Ramolus,Rustarus,Sarpedon,Sordas,Sundaras,Tartarus,Teolas,Torus,Typhon,Xerus,Abel,Aleron,Aldon,Altair,Alumit,Amaion,Amarandius,Ambrosios,Amdis,Andros,Ashling,Athan,Bakarnios,Belario,Beval,Bian,Blain,Braeden,Brandeis,Brendan,Brone,Bronwen,Carden,Cian,Corbin,Damalis,Damian,Danton,Daray,Delano,Donn,Dunkan,Eamen,Gustaff,Heath,Heathcliff,Ingrum,Jareth,Kaevan,Karayan,Kern,Kieran,Lucinius,Marlin,Nelos,Parris,Ravenios,Rune,Savan,Sumnor,Tainn,Tariq,Tristram,Vega,Wynn,Lestat,Louis,Armand,Amadeo,Santiago,Marius,Magnus,David,Enkil,Mael,Santino,Vittorio,Thorne,Avicus,Laurentios,Daniel,Khayman,Tarquin,Quinn,Vladimir,Vlad,Ansel,Anwar,Arden,Ashe,Ashford,Ashlin,Bairdios,Barnabas,Bentley,Brishen,Connor,Crevan,Dante,Flynne,Gavin,Hewitt,Holt,Jacy,Jolon,Kasch,Lucyan,Morgyn,Pembrokios,Quillian,Quinn,Riordin,Rowan,Sylvain,Taban,Teague,Wendell"
-msgstr "Accos,Acton,Actras,Aephus,Andradas,Arus,Ballus,Bellon,Callas,Cathas,Cendras,Cyras,Dandras,Dundarus,Edras,Essras,Fathas,Gallas,Hadrion,Hektor,Herdreidon,Hestus,Indus,Kahas,Korus,Lathas,Lostrus,Malthras,Netheras,Orion,Oros,Ossas,Pallas,Paris,Ramolus,Rustarus,Sarpedon,Sordas,Sundaras,Tartarus,Teolas,Torus,Typhon,Xerus,Abel,Aleron,Aldon,Altair,Alumit,Amaion,Amarandius,Ambrosios,Amdis,Andros,Ashling,Athan,Bakarnios,Belario,Beval,Bian,Blain,Braeden,Brandeis,Brendan,Brone,Bronwen,Carden,Cian,Corbin,Damalis,Damian,Danton,Daray,Delano,Donn,Dunkan,Eamen,Gustaff,Heath,Heathcliff,Ingrum,Jareth,Kaevan,Karayan,Kern,Kieran,Lucinius,Marlin,Nelos,Parris,Ravenios,Rune,Savan,Sumnor,Tainn,Tariq,Tristram,Vega,Wynn,Lestat,Louis,Armand,Amadeo,Santiago,Marius,Magnus,David,Enkil,Mael,Santino,Vittorio,Thorne,Avicus,Laurentios,Daniel,Khayman,Tarquin,Quinn,Vladimir,Vlad,Ansel,Anwar,Arden,Ashe,Ashford,Ashlin,Bairdios,Barnabas,Bentley,Brishen,Connor,Crevan,Dante,Flynne,Gavin,Hewitt,Holt,Jacy,Jolon,Kasch,Lucyan,Morgyn,Pembrokios,Quillian,Quinn,Riordin,Rowan,Sylvain,Taban,Teague,Wendell"
-
-#. Aragwaithi female names
-msgid "Aislinnë,Alana,Alaura,Aleta,Alethëa,Alma,Amaris,Amaryllis,Amaya,Ambrosine,Araxie,Ariana,Autumne,Badria,Blythe,Brenna,Busana,Cascata,Celine,Ceridwën,Chandra,Damaryssa,Denisha,Devinë,Erĕla,Fala,Fanya,Hazélle,Isadora,Iva,Javana,Jenessa,Jora,Jordynë,Jovana,Kamalia,Kalyca,Kavindra,Kestrel,Kynthia,Laqueta,Layla,Leandra,Leigh,Livana,Naida,Neesha,Nevada,Oleta,Parkyr,Philomina,Pyralis,Rayne,Risa,Rosalia,Salena,Seda,Shahar,Shea,Silva,Silvana,Tabitha,Tacita,Tara,Tatiana,Tayce,Vala,Valonia,Vesta,Vidonia,Waneta,Wyntir,Yepa,Yolanda,Yoninah,Zyta,Adara,Adena,Adrianne,Alarice,Alvita,Amara,Ambika,Antonia,Araceli,Balandria,Basha,Beryl,Bryn,Callia,Caryssa,Cassandra,Casondrah,Chatha,Ciara,Cynara,Cytheria,Dabria,Darcei,Deandra,Deirdre,Delores,Desdomna,Devi,Drucilla,Duvessa,Fantine,Fuscienne,Gabi,Gallia,Hanna,Hedda,Jerica,Jetta,Joby,Kacila,Kala,Kallie,Keelia,Killian,Kory,Lilith,Lucretia,Lysha,Mercedes,Mia,Maura,Perdita,Quella,Riona,Safiya,Salina,Severin,Sidonia,Sirena,Solita,Tempest,Thea,Treva,Trista,Vala,Winta,Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,Alera,Arila,Aia,Atha,Ashe,Aru,Amasela,Aoshe,Amelara,Alura,Elena,Esure,Ena,Ethe,Eme,Eïra,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,Erë,Emi,Eshi,Enemura,Sela,Sara,Sula,Salura,Sana,Semisha,Soshire,Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,Sithame,Ola,Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia,Famori,Irena,Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,Imia,Iralura,Isanare,Ihama,Iri,Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,Masohe,Mushena,Malesa,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,Mesa,Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila,Thama,Therasa,Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,Norale,Nethala,Nisha,Nemene,Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,Nahasa,Nila,Nuralena,Nema,Lisa,Lara,Loe,Lasama,Lemeshe,Lathia,Leshara,Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,Lania,Larie,Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha,Vana,Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,Shena,Shira,Shamane,Shefia"
-msgstr "Aislinnë,Alana,Alaura,Aleta,Alethëa,Alma,Amaris,Amaryllis,Amaya,Ambrosine,Araxie,Ariana,Autumne,Badria,Blythe,Brenna,Busana,Cascata,Celine,Ceridwën,Chandra,Damaryssa,Denisha,Devinë,Erĕla,Fala,Fanya,Hazélle,Isadora,Iva,Javana,Jenessa,Jora,Jordynë,Jovana,Kamalia,Kalyca,Kavindra,Kestrel,Kynthia,Laqueta,Layla,Leandra,Leigh,Livana,Naida,Neesha,Nevada,Oleta,Parkyr,Philomina,Pyralis,Rayne,Risa,Rosalia,Salena,Seda,Shahar,Shea,Silva,Silvana,Tabitha,Tacita,Tara,Tatiana,Tayce,Vala,Valonia,Vesta,Vidonia,Waneta,Wyntir,Yepa,Yolanda,Yoninah,Zyta,Adara,Adena,Adrianne,Alarice,Alvita,Amara,Ambika,Antonia,Araceli,Balandria,Basha,Beryl,Bryn,Callia,Caryssa,Cassandra,Casondrah,Chatha,Ciara,Cynara,Cytheria,Dabria,Darcei,Deandra,Deirdre,Delores,Desdomna,Devi,Drucilla,Duvessa,Fantine,Fuscienne,Gabi,Gallia,Hanna,Hedda,Jerica,Jetta,Joby,Kacila,Kala,Kallie,Keelia,Killian,Kory,Lilith,Lucretia,Lysha,Mercedes,Mia,Maura,Perdita,Quella,Riona,Safiya,Salina,Severin,Sidonia,Sirena,Solita,Tempest,Thea,Treva,Trista,Vala,Winta,Ana,Arala,Ala,Asare,Ashara,Athesa,Ama,Averana,Atharuna,Amoshe,Ahurena,Alera,Arila,Aia,Atha,Ashe,Aru,Amasela,Aoshe,Amelara,Alura,Elena,Esure,Ena,Ethe,Eme,Eïra,Ela,Efara,Evina,Eshe,Ethara,Esaora,Eumane,Ehuva,Erë,Emi,Eshi,Enemura,Sela,Sara,Sula,Salura,Sana,Semisha,Soshire,Sife,Saletha,Sitheri,Surei,Somile,Sahama,Salarema,Sea,Severa,Suthe,Sithame,Ola,Omana,Osheura,Olena,Onethe,Ovenatha,Fira,Fesha,Fena,Felai,Foma,Furava,Fusatha,Fala,Famia,Fesea,Fenoma,Fihama,Fama,Fia,Famori,Irena,Ima,Ishama,Iolara,Imaha,Inithe,Imana,Isora,Ilameshe,Ila,Ishe,Ithoe,Ivie,Imia,Iralura,Isanare,Ihama,Iri,Ithania,Isavora,Ila,Mana,Mia,Mara,Mura,Masohe,Mushena,Malesa,Minaru,Minare,Monia,Mesere,Mulasha,Mathe,Minashema,Mesa,Mirana,Mifa,Mivareshana,Une,Uara,Ushala,Uhima,Uthe,Unaluthe,Thesa,Thema,Thirala,Thoshe,Thofara,Thami,Thise,Therama,Thila,Thama,Therasa,Thurana,Thalia,Therana,Thomena,Thosa,Thene,Thime,Thamele,Theshia,Nai,Nama,Norale,Nethala,Nisha,Nemene,Nefe,Navaru,Nula,Nusina,Naria,Nosua,Naomi,Nahasa,Nila,Nuralena,Nema,Lisa,Lara,Loe,Lasama,Lemeshe,Lathia,Leshara,Laisa,Line,Lenesa,Loma,Lura,Lesamia,Lehara,Lana,Lashe,Larena,Lotha,Limia,Lania,Larie,Lafana,Lerava,Love,Rama,Runa,Rashe,Ria,Rovena,Riva,Rufa,Rithia,Raina,Rava,Rashama,Rei,Rosha,Vena,Via,Velara,Veruna,Visha,Vana,Vele,Veshere,Vanesa,Vithia,Hana,Haru,Heshia,Hia,Holaria,Hasha,Hena,Shara,Shena,Shira,Shamane,Shefia"
+#~ msgid "<b>No</b>"
+#~ msgstr "<b>Não</b>"
 
 #~ msgid "Josh Parsons/jp30"
 #~ msgstr "Josh Parsons/jp30"

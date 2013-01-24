@@ -2,10 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Eliador-1.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-22 19:59-0500\n"
-"PO-Revision-Date: 2012-11-28 21:23+0100\n"
-"Last-Translator: trewe <sjr456@yahoo.fr>\n"
+"POT-Creation-Date: 2012-12-31 09:53-0500\n"
+"PO-Revision-Date: 2013-01-22 21:33+0100\n"
+"Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: \n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,60 +16,66 @@ msgstr ""
 #. [campaign]: id=campaign_eliador
 #. [scenario]: id=eliador-battle, (id=Anna, (id=Ardella, (id=Zeke, (id=Ardella, (id=Ardella, (id=Zeke
 #. [scenario]: id=eliador-home
-#: Eliador/_main.cfg:11
+#: Eliador/_main.cfg:13
 #: Eliador/scenarios/01_eliador-home.cfg:54
 #: Eliador/scenarios/03_eliador-battle.cfg:5
 msgid "Invasion of Eliador"
 msgstr "Invasão de Eliador"
 
 #. [campaign]: id=campaign_eliador
-#: Eliador/_main.cfg:12
+#: Eliador/_main.cfg:15
 msgid "IOE"
 msgstr "IDE"
 
 #. [campaign]: id=campaign_eliador
-#: Eliador/_main.cfg:13
+#: Eliador/_main.cfg:16
 msgid "A peaceful island is about to be invaded by unknadded foes travelling towards the eastern shore. It is up to a family of outlaws to warn the island's inhabitants before it's too late.\n"
-""
 msgstr "Uma ilha tranquila está prestes a ser invadida por terríveis invasores que estão a viajar ao oeste. Cabe a uma família de foragidos avisar toda a população da ilha antes que seja demasiado tarde.\n"
-""
-
-#. [campaign]: id=campaign_eliador
-#: Eliador/_main.cfg:15
-msgid ""
-"(Intermediate level, RPG/Puzzle, Total of 12 scenarios)"
-msgstr ""
-"(Nível Intermediário, RPG/Puzzle, Total de 12 cenários)"
 
 #. [campaign]: id=campaign_eliador
 #: Eliador/_main.cfg:19
-msgid "*"
-msgstr "*"
+msgid "(Intermediate level, RPG/Puzzle, Total of 12 scenarios)"
+msgstr "(Nível Intermediário, RPG/Puzzle, Total de 12 cenários)"
 
 #. [campaign]: id=campaign_eliador
-#: Eliador/_main.cfg:20
+#: Eliador/_main.cfg:24
 msgid "Skirmisher"
 msgstr "Escaramuça"
 
 #. [campaign]: id=campaign_eliador
-#: Eliador/_main.cfg:20
+#: Eliador/_main.cfg:24
 msgid "(Easy)"
 msgstr "(Fácil)"
 
 #. [campaign]: id=campaign_eliador
-#: Eliador/_main.cfg:22
+#: Eliador/_main.cfg:26
 msgid "(Challenging)"
 msgstr "(Desafio)"
 
 #. [campaign]: id=campaign_eliador
-#: Eliador/_main.cfg:22
+#: Eliador/_main.cfg:26
 msgid "Nightmare"
 msgstr "Pesadelo"
 
 #. [about]
-#: Eliador/_main.cfg:25
+#: Eliador/credits.cfg:6
 msgid "Campaign Design"
 msgstr "Projecto da Campanha"
+
+#. [about]
+#: Eliador/credits.cfg:13
+msgid "Artwork and Graphic Design"
+msgstr "trabalho artístico e Projecto Gráfico"
+
+#. [about]
+#: Eliador/credits.cfg:20
+msgid "Translations"
+msgstr "Traduções"
+
+#. [about]
+#: Eliador/credits.cfg:26
+msgid "Campaign Maintenance"
+msgstr "Manutenção da Campanha"
 
 #. [part]
 #: Eliador/scenarios/01_eliador-home.cfg:66
@@ -235,6 +242,11 @@ msgstr "Quem é esse Bill, mãe?"
 #: Eliador/scenarios/01_eliador-home.cfg:253
 msgid "Later. I fear that we have no time. We have to warn all habitants of the isle, great danger is aproaching up!"
 msgstr "Mais tarde. Temo que não haverá muito tempo. Temos de avisar todos os habitantes da ilha, um grande perigo aproxima-se!"
+
+#. [objectives]
+#: Eliador/scenarios/01_eliador-home.cfg:271
+msgid "<small>Next scenario:</small>"
+msgstr "<small>Próximo cenário:</small>"
 
 #. [objective]: condition=win
 #: Eliador/scenarios/01_eliador-home.cfg:273
@@ -1651,12 +1663,14 @@ msgid "Outlaws"
 msgstr "Foragidos"
 
 #. [variation]: race=human, description=
-#: Eliador/utils/utils.cfg:383
+#: Eliador/utils/utils.cfg:385
 msgid "Mounted Ardella"
 msgstr "Ardella Montada"
 
 #. [attack]: type=pierce
-#: Eliador/utils/utils.cfg:423
+#: Eliador/utils/utils.cfg:425
 msgid "fangs"
 msgstr "presas"
 
+#~ msgid "*"
+#~ msgstr "*"

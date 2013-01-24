@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-13 04:20+0200\n"
-"PO-Revision-Date: 2012-11-26 23:09+0100\n"
-"Last-Translator: trewe <sjr456@yahoo.fr>\n"
+"POT-Creation-Date: 2012-12-31 09:51-0500\n"
+"PO-Revision-Date: 2013-01-22 22:15+0100\n"
+"Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: none\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -23,49 +23,79 @@ msgid "Saving Elensefar"
 msgstr "O Resgate de Elensefar"
 
 #. [campaign]: id=saving_elensefar
-#: Saving_Elensefar/_main.cfg:19
+#: Saving_Elensefar/_main.cfg:20
 msgid "SE"
 msgstr "RE"
 
 #. [campaign]: id=saving_elensefar
-#: Saving_Elensefar/_main.cfg:20
+#: Saving_Elensefar/_main.cfg:21
 msgid "Meneldur, elvish mariner of Elensefar, is driven to sea by the same orcs who attacked the city. He must gather an army willing to fight for him to regain Elensefar, his adopted homeland.\n"
 msgstr "Meneldur, Marinheiro Elfo de Elensefar, é expulso para o mar pelos mesmo orcs que atacaram a sua cidade. Precisa agora de formar um exército para lutar pela posse de Elensefar, a sua terra natal por adopção.\n"
 
 #. [campaign]: id=saving_elensefar
-#: Saving_Elensefar/_main.cfg:22
+#: Saving_Elensefar/_main.cfg:24
 msgid "Expert level, 4 - 22 scenarios (depending of branches taken)"
 msgstr "Nível Veterano, 4-22 cenários (dependendo do curso da campanha)"
 
 #. [campaign]: id=saving_elensefar
-#: Saving_Elensefar/_main.cfg:25
+#: Saving_Elensefar/_main.cfg:26
+msgid "Expected campaign length: ~12 scenarios (if you took longer something got wrong)"
+msgstr "Duração da campanha esperada: ~12 cenários (se tiveres demorado mais alguma coisa correu mal)"
+
+#. [campaign]: id=saving_elensefar
+#: Saving_Elensefar/_main.cfg:36
 msgid "(easiest)"
 msgstr "(mais fácil)"
 
 #. [campaign]: id=saving_elensefar
-#: Saving_Elensefar/_main.cfg:25
+#: Saving_Elensefar/_main.cfg:36
 msgid "Mariner"
 msgstr "Marinheiro"
 
 #. [campaign]: id=saving_elensefar
-#: Saving_Elensefar/_main.cfg:26
+#: Saving_Elensefar/_main.cfg:37
 msgid "Navigator"
 msgstr "Navegador"
 
 #. [campaign]: id=saving_elensefar
-#: Saving_Elensefar/_main.cfg:27
+#: Saving_Elensefar/_main.cfg:38
 msgid "(hardest)"
 msgstr "(Difícil)"
 
 #. [campaign]: id=saving_elensefar
-#: Saving_Elensefar/_main.cfg:27
+#: Saving_Elensefar/_main.cfg:38
 msgid "Admiral"
 msgstr "Almirante"
 
 #. [editor_group]: id=set
-#: Saving_Elensefar/_main.cfg:60
+#: Saving_Elensefar/_main.cfg:70
 msgid "Saving Elensefar Terrain"
 msgstr "Terreno de \"O Resgate de Elensefar\""
+
+#. [about]
+#: Saving_Elensefar/credits.cfg:6
+msgid "Campaign Design"
+msgstr "Projecto da Campanha"
+
+#. [about]
+#: Saving_Elensefar/credits.cfg:14
+msgid "WML Contribution"
+msgstr "Contribuição de WML"
+
+#. [about]
+#: Saving_Elensefar/credits.cfg:40
+msgid "Artwork and Graphic Design"
+msgstr "trabalho artístico e Projecto Gráfico"
+
+#. [about]
+#: Saving_Elensefar/credits.cfg:57
+msgid "Translations"
+msgstr "Traduções"
+
+#. [about]
+#: Saving_Elensefar/credits.cfg:86
+msgid "Campaign Maintenance"
+msgstr "Manutenção da Campanha"
 
 #. [scenario]: id=sea_voyage_-1
 #: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:6
@@ -73,59 +103,59 @@ msgid "Escaping the Orcs"
 msgstr "Escapando aos Orcs"
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:19
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:18
 msgid "<b>Warning:</b> This campaign functions differently from most others in a number of ways. You cannot recruit anyone in most scenarios, and in those you can what you can recruit is always different - what is on your recruit list does not carry over fron scenario to scenario. Also, moving from scenario to scenario is handled differently, with the help of an interactive bigmap."
 msgstr "<b>Atenção:</b> Esta campanha funciona de maneira diferente das outras em vários aspectos. Não poderás recrutar nenhuma unidade na maioria dos cenários e, nos que puderes, o recrutamento será sempre diferente - a lista de unidades recrutáveis muda de cenário para cenário. Além disso, a transição entre cenários ocorre de maneira distinta, com a ajuda de um mapa geral interactivo."
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:25
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:24
 msgid "In this campaign you will play with multiple leaders each with his own recruits and recalls (but they all share gold), also upkeep and income is handled differently. You will have no income at all apart from early-finish-bonus; and your troops demand upkeep at start of scenario and after finishing the battle (independently of unit level) depending of how long you are traveling (the longer you take finish the campaign the more)."
 msgstr "Nesta campanha irás jogar com múltiplos líderes cada um com os seus próprios recrutas e convocatórias (mas todos partilham o ouro), e também rendimento e manutenção diferem algo. Basicamente não terás rendimento, à excepção do ouro bónus pelo fim dos turnos, e as tuas tropas pedem o seu soldo no inicio de cada cenário e depois das tuas batalhas vitoriosas (independentemente do seu nível) dependendo o quão longo demorares (o quanto mais a tua viagem durar mais pedem)."
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:31
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:30
 msgid "Because of this, this campaign is inadvisable for players new to Wesnoth who want to gain an understanding of how the game normally works. However, it will prove an interesting experience for those who have played normal campaigns before."
 msgstr "Por este motivo, esta campanha não é recomendável para jogadores novos que queiram entender o sistema de jogo. Entretanto, será uma experiência interessante para aqueles que já tenham jogado campanhas normais anteriormente."
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:38
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:37
 msgid "This is the story of the time when Elensefar was a province in the vast kingdom of Wesnoth. It is the story of a time of great forgetfulness, when much of what was once known had been forgotten, but also of great knowledge. It is the story of Meneldur the Mariner, who used the newfound knowledge to resurrect some of the old. But, it is, most of all, the story of the voyage of his ship, and what he encountered while traveling the high seas..."
 msgstr "Esta é a história do tempo em que Elensefar era uma província no vasto reino de Wesnoth. É a história de um tempo de grande distracção, quando muito do que se sabia acabou esquecido, mas também tempo de grande conhecimento. É a história de Meneldur, o Marinheiro, que usou os novos conhecimentos para trazer à tona antigos saberes. Mas, acima de tudo, é a história da jornada da sua embarcação, e do que encontrou enquanto viajou pelo alto-mar..."
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:43
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:42
 msgid "Before the tale begins, it is important to know that none of the seafaring men or elves, including Meneldur, were willing to travel far out of sight of the coast. Instead, they remained near land, and sailed only north and south, for they dimly remembered tales from Haldric's day, of dragons, and sea serpents, and snake-men, who lurked on the islands that lay to the west of the continent."
 msgstr "Antes que o conto comece, é importante saber que nenhum dos homens e elfos tripulantes, incluindo Meneldur, estavam dispostos em viajar para longe da costa. Pelo contrário, permaneceram perto do litoral e viajaram apenas para norte e para sul, pois tinham a vaga lembrança de histórias do tempo de Haldric, de dragões, serpentes-do-mar e de homens-cobra que espreitavam nas ilhas ocidentais."
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:48
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:47
 msgid "Meneldur was born in the northlands, in Wesmere, but was outcast from the elvish lands because of a conflict with the High Council. Thus, although an elf, Meneldur had pledged his loyalty to Elensefar, and thus to Wesnoth (but, significantly, not to Weldyn)."
 msgstr "Meneldur era nativo de Wesmere, das terras setentrionais, mas havia sido expulso das terras elfas por causa de um conflito com o Alto Conselho. Assim, ainda que um elfo, Meneldur tinha jurado lealdade à Elensefar, e consequentemente à Wesnoth (mas, principalmente, não à Weldyn)."
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:53
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:52
 msgid "Meneldur gathered around himself a crew of true Elensians; stout spearmen, and ruthless men of the saber. He also brought many of the archer from his elvish house out of the northlands, to sail with him on his ship."
 msgstr "Meneldur juntou uma tripulação de legítimos Elesianos, de vigorosos milícias a impiedosos espadachins. Também trouxe muitos dos arqueiros da sua nação elfo das terras do norte para viajarem com ele na sua nau."
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:58
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:57
 msgid "Now our story begins. On a night about 10 years after he first came to Elensefar, Meneldur returned to Elensefar from a trading voyage to the Bay of Pearls. When Meneldur had landed in Elensefar, he went to the castle to recieve directions from the Lord of Elensefar as to where his new voyage was to wend. He was to travel south to the Elven peninsula, and trade with the southern elves."
 msgstr "E assim começa a nossa história. Certa noite, após cerca de 10 anos desde que chegou a Elensefar, Meneldur retornou de uma viagem comercial até a Baía das Pérolas. Quando aportou na cidade, Meneldur foi até o castelo para receber direcções do Senhor de Elensefar acerca do destino da sua próxima viagem. A orientação era de viajar no sentido sul, na direcção da Península dos Elfos, e efectuar transições comerciais com os elfos meridionais."
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:63
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:62
 msgid "After the meeting, as Meneldur and his men headed back to their ship, they noticed a strange sound. A harsh sound. The sound of orcs! Elensefar was under attack, with no provocation. The city had been quickly overrun, before most of the people had even noticed."
 msgstr "Após a reunião, enquanto Meneldur e os seus homens retornavam ao navio, um som diferente foi percebido. Um som áspero, o barulho de orcs! Elensefar estava sob ataque, aparentemente sem motivo. A cidade havia sido rapidamente invadida mesmo antes que a maioria dos habitantes o percebesse."
 
 #. [part]
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:68
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:67
 msgid "Meneldur had only one option left - get back on his boat and flee. But there were already orcs blocking his path to the harbor..."
 msgstr "Para Meneldur restava uma única opção – voltar ao seu barco e partir. Mas orcs já bloqueavam o seu caminho para o porto..."
 
 #. [message]: id=The_Explorer
 #. [message]: speaker=narrator
 #. [unit]: type=Sailor, id=Madru
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:94
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:93
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:132
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:143
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:480
@@ -145,24 +175,24 @@ msgstr "Madru"
 
 #. [side]: type=Orcish Crossbowman
 #. [side]: type=Orcish Warrior
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:166
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:185
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:204
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:165
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:184
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:203
 msgid "Orcish Pillagers"
 msgstr "saqueadores orcs"
 
 #. [objective]: condition=win
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:226
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:225
 msgid "Move Meneldur and Madru to the Explorer (southwest of the map)"
 msgstr "Mova Meneldur e Madru para o Explorador (a sudoeste do mapa)"
 
 #. [objective]: condition=win
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:231
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:230
 msgid "Move Meneldur to the Explorer (southwest of the map)"
 msgstr "Mova Meneldur para o Explorador (a sudoeste do mapa)"
 
 #. [objective]: condition=lose
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:236
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:235
 #: Saving_Elensefar/scenarios/02_A_Naval_Engagement.cfg:134
 #: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:133
 #: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:172
@@ -187,7 +217,7 @@ msgid "Death of Meneldur"
 msgstr "Morte de Meneldur"
 
 #. [objective]: condition=lose
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:240
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:239
 #: Saving_Elensefar/scenarios/02_A_Naval_Engagement.cfg:138
 #: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:137
 #: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:176
@@ -212,18 +242,18 @@ msgid "Death of Madru"
 msgstr "Morte de Madru"
 
 #. [message]: id=Meneldur
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:258
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:257
 msgid "Orcs! Orcs are attacking! There are too many, we can't fight them off, we have to reach the ship!"
 msgstr "Orcs! Orcs estão a atacar! São demasiados, não podemos enfrentar-os! Temos de chegar ao navio!"
 
 #. [message]: id=Madru
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:262
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:261
 msgid "Aye aye, Cap'n. All men to the ship, quick as you can!"
 msgstr "Sim senhor, capitão. Para o navio, homens, o mais rápido que puderem!"
 
 #. [message]: speaker=narrator
 #. [side]: type=Elvish Mariner, id=Meneldur
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:306
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:305
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:696
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:705
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:714
@@ -238,18 +268,18 @@ msgstr "Meneldur"
 
 #. [message]: id=Meneldur
 #. [message]: speaker=narrator
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:307
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:345
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:306
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:344
 msgid "Now, we go out to sea. I expect our city is doomed..."
 msgstr "Para o alto-mar, agora. Penso que a nossa cidade está condenada..."
 
 #. [message]: id=Meneldur
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:323
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:322
 msgid "I'm on the ship now, hurry Madru we have to set sails."
 msgstr "Já estou no barco, depressa Madru, temos de levantar ferro."
 
 #. [message]: id=Madru
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:329
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:328
 msgid "I reached the port, why are you taking so long Cap'n?"
 msgstr "Choquei ao porto, o que estás a demorar, Capitão?"
 
@@ -551,32 +581,32 @@ msgid "Should never have trusted the fool."
 msgstr "Rapaz estúpido. Nunca deveria tê-lo seguido."
 
 #. [message]: id=Meneldur
-#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:321
+#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:323
 msgid "Well, we've cleared the orcs away. Come on, now you have to hold up your end of the bargain."
 msgstr "Bem, expulsamos os orcs. Vamos, agora terás de cumprir a tua parte do tratado."
 
 #. [message]: id=Ah-Reblak
-#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:325
+#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:327
 msgid "Well, the orcs will probably be back soon... I think that we are going to end up dying here, no matter what you do. We have held up extraordinarily long already."
 msgstr "Bem, os orcs provavelmente voltarão em pouco tempo... Penso que vão acabar por morrer aqui, não importa o que seja feito. Já resistimos por um tempo extraordinariamente longo."
 
 #. [message]: id=Black the Red
-#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:329
+#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:331
 msgid "That's true. I think it would be best if we could get enough ships to get off of this island. The one I went out on was our last, and we can't make more."
 msgstr "É verdade. Penso que seria melhor se pudéssemos conseguir navios suficientes para sair de vez desta ilha. Aquele no qual deportei era o último, e não podemos fazer mais nenhum."
 
 #. [message]: id=Meneldur
-#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:333
+#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:335
 msgid "Well, I am a shipbuilder. I could help you build more ships, and then you could bring all of your people back east with us."
 msgstr "Bem, sou um construtor naval. Poderia ajudar-vos a fazer mais barcos e então poderiam trazer todo o vosso povo de volta ao leste connosco."
 
 #. [message]: id=Black the Red
-#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:337
+#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:339
 msgid "That sounds good."
 msgstr "Parece-me uma boa ideia."
 
 #. [message]: id=Madru
-#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:341
+#: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:343
 msgid "Then it is agreed. But after that, you have to help us fight the orcs!"
 msgstr "Então estamos de acordo. Mas depois disso terás de ajudar-nos a lutar contra os orcs!"
 
@@ -846,7 +876,7 @@ msgid "I'm sure we will have time to discuss that later. But for now, we must he
 msgstr "Tenho a certeza que teremos tempo para discutir isso mais tarde. Mas, por enquanto, precisamos de ajudar os habitantes a reconstruir a cidade."
 
 #. [message]: speaker=unit
-#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:1400
+#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:1401
 msgid "The villagers are joining us!"
 msgstr "Os aldeões estão a juntar-se a nós!"
 
@@ -1945,13 +1975,13 @@ msgid "The Swampland"
 msgstr "Os pântanos"
 
 #. [message]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:337
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:310
 msgid "You win!"
 msgstr "Ganhou!"
 
 #. [message]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:338
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:362
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:311
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:335
 msgid ""
 "You: $side_1_units.length\n"
 "Othello: $side_2_units.length"
@@ -1960,147 +1990,147 @@ msgstr ""
 "Othello: $side_2_units.length"
 
 #. [message]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:361
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:334
 msgid "You lost."
 msgstr "Perdeu."
 
 #. [side]: id=Othello, type=Necromancer
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:416
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:389
 msgid "Othello"
 msgstr "Othello"
 
 #. [side]: id=Othello, type=Necromancer
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:422
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:395
 msgid "Crazy Horse"
 msgstr "Velho Maluco"
 
 #. [objectives]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:451
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:424
 msgid "Play a game of Reversi with Othello"
 msgstr "Jogue um jogo de Reversi com Othello"
 
 #. [objective]: condition=win
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:453
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:426
 msgid "Capture more units than Othello does"
 msgstr "Captura mais unidades que Othello"
 
 #. [objective]: condition=lose
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:457
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:430
 msgid "Othello finish with more units"
 msgstr "Othello termina com mais unidades"
 
 #. [objective]: condition=lose
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:462
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:435
 msgid "You lose <b>both</b> Madru and Black the Red"
 msgstr "Perde <b>tanto</b> Madru como Black, o Ruivo"
 
 #. [objective]: condition=lose
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:468
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:441
 msgid "You lose <b>either</b> Madru or Black the Red"
 msgstr "Perde <b>ou</b> Madru ou Black, o Ruivo"
 
 #. [objectives]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:472
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:445
 msgid "<b>How to Play</b>"
 msgstr "<b>Como Jogar</b>"
 
 #. [note]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:474
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:447
 msgid "A move is valid if Othello's units will be between two of yours. To place a unit on the board:"
 msgstr "A jogada é válida se as unidades de Othello estarão entre duas das vossas. Para colocar uma unidade no tabuleiro:"
 
 #. [note]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:477
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:450
 msgid "(1) Move Meneldur to a ruined castle at the bottom to select the column"
 msgstr "(1) Mova Meneldur a um castelo em ruínas na parte inferior para seleccionar a coluna"
 
 #. [note]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:480
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:453
 msgid "(2) Move Meneldur again to a ruined castle now at the left to select the row"
 msgstr "(2) Mova Meneldur novamente para um castelo em ruínas agora à esquerda para seleccionar a linha"
 
 #. [note]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:483
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:456
 msgid "(3) If the move is valid an unit will be recalled at the given place"
 msgstr "(3) Se a jogada é válida uma unidade será convocada no local dado"
 
 #. [note]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:486
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:459
 msgid "(4) And any enemy units standing between two of yours will swap side."
 msgstr "(4) E qualquer unidade inimiga entre duas das vossa trocará de lado."
 
 #. [note]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:489
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:462
 msgid "(5) The game continues until the board is full, or neither leader could do a move."
 msgstr "(5) O jogo continua até que o tabuleiro estiver cheio, ou nenhum líder pode fazer um movimento."
 
 #. [message]: id=Meneldur
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:539
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:512
 msgid "What is this, a mage walks clad in black? Explain yourself! Are you of the red mages, or the white?"
 msgstr "O que é isso, um mago que anda por aí vestido de negro? Explique-se! É da casta dos magos vermelhos ou dos brancos?"
 
 #. [message]: id=Othello
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:543
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:516
 msgid "What? Do you mean to tell me that the great lich Jevyan does not reign on that continent, or that his mages no longer wear the robes of the necromancer?!?"
 msgstr "O quê? Está a tentar dizer-me que o grande Lich Jevyan não reina naquele continente ou que os magos dele já não usam mais as roupas de necromante?!?"
 
 #. [message]: id=Madru
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:551
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:524
 msgid "What? Why do you speak of those old tales as if they were real? And I suppose you think you are a real necromancer too."
 msgstr "O quê? Porque fala daquelas velhas lendas como se fossem realidade? E suponho que pensas ser um necromante verdadeiro, também."
 
 #. [message]: id=Black the Red
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:555
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:528
 msgid "Why do you say he's not a necromancer? I've seen them before, haven't you?"
 msgstr "Porque diz que ele não é um necromante? Vi necromantes antes, e tu?"
 
 #. [message]: id=Meneldur
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:559
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:532
 msgid "Are you saying undead exist?"
 msgstr "Está a dizer que os morto-vivos existem?"
 
 #. [message]: id=Black the Red
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:563
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:536
 msgid "Yes. And this guy looks real enough. I think we should treat him like an actual enemy."
 msgstr "Sim. E este homem aqui parece-me o real bastante. Acho que devíamos tratar-o como um inimigo."
 
 #. [message]: id=Othello
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:567
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:540
 msgid "Yes, you should! Now, prepare to die!"
 msgstr "Sim, devia! Agora, prepare-se para morrer!"
 
 #. [message]: id=Madru
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:571
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:544
 msgid "Whatever. We will see if he actually can raise anything, and if we come out of here."
 msgstr "Seja como for. Veremos se pode mesmo conjurar qualquer coisa, e se saímos daqui."
 
 #. [message]: id=Othello
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:586
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:559
 msgid "Impressive. You were able to storm my game. May I join you on your quest?"
 msgstr "Impressionante. Foi capaz de investir no meu jogo. Posso acompanhar-vos na vossa missão?"
 
 #. [message]: id=Meneldur
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:590
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:563
 msgid "Err"
 msgstr "Err"
 
 #. [message]: id=Black the Red
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:594
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:567
 msgid "Sure, we need any willing hand"
 msgstr "Claro, precisamos de qualquer mão disposta"
 
 #. [message]: id=Meneldur
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:600
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:573
 msgid "That was a weird battle..."
 msgstr "Essa foi uma batalha estranha..."
 
 #. [message]: id=Madru
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:604
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:577
 msgid "... in the magic castle."
 msgstr "... no castelo mágico."
 
 #. [message]: id=Black the Red
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:608
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:581
 msgid "Look, we have gain more soldiers for our quest. Wy did you complain?"
 msgstr "Olha, temos ganho mais soldados para a nossa busca. Porque se queixam?"
 
@@ -2866,13 +2896,13 @@ msgid "Black Galleon"
 msgstr "Galeão Negro"
 
 #. [unit_type]: id=Black Galleon, race=mechanical
-#: Saving_Elensefar/units/Black_Galleon.cfg:35
+#: Saving_Elensefar/units/Black_Galleon.cfg:47
 msgid "The Explorer is the craft of Meneldur the Mariner. Crafted with Elvish skill, it moves faster in the water than most vessels, but is structurally weaker, and will be sunk easier than a man-made ship."
 msgstr "O Explorador é a arte de Meneldur o Marinheiro. Elaborado com habilidade elfo, move-se mais rápido na água do que a maioria dos navios, mas é estruturalmente fraca, e será mais fácil de afundar do que um navio feito pelo homem."
 
 #. [attack]: type=pierce
-#: Saving_Elensefar/units/Black_Galleon.cfg:38
-#: Saving_Elensefar/units/War_Galleon.cfg:36
+#: Saving_Elensefar/units/Black_Galleon.cfg:50
+#: Saving_Elensefar/units/War_Galleon.cfg:49
 msgid "ballista"
 msgstr "balista"
 
@@ -3007,7 +3037,7 @@ msgid "War Galleon"
 msgstr "Galeão de Guerra"
 
 #. [unit_type]: id=War Galleon, race=mechanical
-#: Saving_Elensefar/units/War_Galleon.cfg:33
+#: Saving_Elensefar/units/War_Galleon.cfg:46
 msgid "The Royal Navy of Wesnoth owns a powerful fleet of deadly war galleons. Their task is to hunt down pirates - or whoever they choose to call pirates - and destroy them. "
 msgstr "A Marinha Real de Wesnoth tem uma poderosa frota de mortíferos galeões de guerra. A sua função é de caçar piratas - ou qualquer um que definam como piratas - e destruir-os."
 
@@ -3017,17 +3047,17 @@ msgid "Elvish Horse Archer"
 msgstr "Arqueiro Montado Elfo"
 
 #. [advancement]: id=gd_extra_meelee
-#: Saving_Elensefar/units/horse_archer.cfg:24
-msgid "Swordsmastery: add extra damage to sword,  Max XP +20%"
-msgstr "Treino com a espada: mais dano da espada, XP Máx. +20%"
+#: Saving_Elensefar/units/horse_archer.cfg:25
+msgid "Swordsmastery: add extra damage to sword, Cures Poison, Max XP +20%"
+msgstr "Treino com a espada: mais dano da espada, cura veneno, XP Máx. +20%"
 
 #. [advancement]: id=ml_extra_ranged
-#: Saving_Elensefar/units/horse_archer.cfg:40
-msgid "Marksmanship: add marksman to bow, add +1 damage,  MAX XP +20%"
-msgstr "Treino de tiro: adiciona precisão ao arco, mais 1 ponto de dano e XP Máx. +20%"
+#: Saving_Elensefar/units/horse_archer.cfg:53
+msgid "Marksmanship: add marksman to bow, add +1 damage, Cures Poison, MAX XP +20%"
+msgstr "Treino de tiro: adiciona precisão ao arco, mais 1 ponto de dano, cura veneno e XP Máx. +20%"
 
 #. [advancement]: id=amla_default
-#: Saving_Elensefar/units/horse_archer.cfg:63
+#: Saving_Elensefar/units/horse_archer.cfg:88
 msgid "Max HP bonus +4, full healing, Max XP +25%"
 msgstr "Mais 4 pontos de vida, cura e experiência +25%"
 
