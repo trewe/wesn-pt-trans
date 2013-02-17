@@ -2,19 +2,19 @@
 
 WESNOTH="-dev"
 
-filelist="${filelist} `ls -d ../umc`"
+filelist="${filelist} `ls -d ../umc/wes*`"
 
 for i in $filelist
 	do
 
-		tmp="`ls ../umc/$i`"
-
 		domain="`basename $i`"
 
-		lang="`basename $tmp .po`"
+		tmp="`ls ../umc/$domain`"
 
 		for j in $tmp
 			do
+
+			lang="`basename $j .po`"
 
 			mkdir -p $HOME/.wesnoth$WESNOTH/translations/$domain/$lang/LC_MESSAGES/
 
