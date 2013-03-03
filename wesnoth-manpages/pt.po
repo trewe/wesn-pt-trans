@@ -1,19 +1,20 @@
 # Portuguese translations for Battle for Wesnoth package
 # Copyright (C) 2006 Wesnoth development team.
 # Automatically generated, 2006.
-#
+# trewe <sjrs456@yahoo.fr>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.3-svn\n"
 "POT-Creation-Date: 2012-08-18 09:40+0300\n"
-"PO-Revision-Date: 2013-01-16 15:28+0100\n"
+"PO-Revision-Date: 2013-03-02 22:07+0100\n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
-"Language-Team: none\n"
-"Language: \n"
+"Language-Team: wesn-pt-trans\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 # type: TH
 #. type: TH
@@ -120,7 +121,12 @@ msgstr "B<-c, --campaign \\ [E<lt>campanhaE<gt>]>"
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:54
 msgid "goes directly to the campaign with id E<lt>id_campaignE<gt>. A selection menu will appear if no id was specified.  B<Note:> When using this switch please ensure that you specify the data directory path as the final argument aswell, otherwise the game will take the campaign/scenario id as the data dir."
-msgstr "vai directamente para a campanha com base nos parâmetros. Podes escolher a campanha duma lista se não especificaste nenhuma. B<Nota:> Ao usar esta opção por favor, verifique se especificaste o caminho do directório de dados como o argumento final, caso contrário o jogo vai tomar a ID da campanha / cenário como os dados padrão."
+msgstr ""
+"vai directamente para a campanha com base nos parâmetros. Podes escolher a "
+"campanha duma lista se não especificaste nenhuma.  B<Nota:> Ao usar esta "
+"opção por favor, verifique se especificaste o caminho do directório de dados "
+"como o argumento final, caso contrário o jogo vai tomar a ID da campanha / "
+"cenário como os dados padrão."
 
 #. type: TP
 #: ../../doc/man/wesnoth.6:54
@@ -155,7 +161,10 @@ msgstr "B<--config-dir>I<\\ name>"
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:67
 msgid "sets the user configuration directory to I<name> under $HOME or \"My Documents\\eMy Games\" for windows.  You can also specify an absolute path for the configuration directory outside the $HOME or \"My Documents\\eMy Games\""
-msgstr "define o directório I<nome> do utilizador em $HOME ou \"Os meus Documentos\\Os Meus Jogos\" em Windows. Também podes especificar o caminho absoluto para as configurações fora de $HOME ou \"Os meus Documentos\\Os Meus Jogos\"."
+msgstr ""
+"define o directório I<nome> do utilizador em $HOME ou \"Os meus Documentos\\Os "
+"Meus Jogos\" em Windows.  Também podes especificar o caminho absoluto para "
+"as configurações fora de $HOME ou \"Os meus Documentos\\Os Meus Jogos\"."
 
 # type: TP
 #. type: TP
@@ -204,7 +213,9 @@ msgstr "B<-e,\\ --editor>I<\\ file>"
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:83
 msgid "start the in-game map editor directly. If I<file> is specified, equivalent to B<-l --load>"
-msgstr "inicia o editor de mapas  directamente. Se o I<ficheiro> for especificado é equivalente a B<-l --load>"
+msgstr ""
+"inicia o editor de mapas directamente. Se o I<ficheiro> for especificado é "
+"equivalente a B<-l --load>"
 
 # type: TP
 #. type: TP
@@ -297,7 +308,11 @@ msgstr "B<--log->I<nível>B<=>I<domínio1>B<,>I<domínio2>B<,>I<...>"
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:126
 msgid "sets the severity level of the log domains.  B<all> can be used to match any log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ B<debug>.  By default the B<error> level is used."
-msgstr "Ajusta o nível de severidade dos domínios de log.  B<all> (tudo) pode ser usado para qualquer domínio de log. Níveis disponíveis: B<error> (erro),\\ B<warning> (aviso),\\ B<info> (informação),\\ B<debug> (depuração). O nível padrão é B<error>."
+msgstr ""
+"Ajusta o nível de severidade dos domínios de log.  B<all> (tudo) pode ser "
+"usado para qualquer domínio de log. Níveis disponíveis: B<error> (erro),\\ "
+"B<warning> (aviso),\\ B<info> (informação),\\ B<debug> (depuração).  O nível "
+"padrão é B<error>."
 
 #. type: TP
 #: ../../doc/man/wesnoth.6:126
@@ -410,7 +425,15 @@ msgstr "B<-p, --preprocess E<lt>ficheiro base/pastaE<gt> E<lt>directório alveja
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:169
 msgid "preprocesses a specified file/folder. For each file(s) a plain .cfg file and a processed .cfg file will be written in specified target directory. If a folder is specified, it will be preprocessed recursively based on the known preprocessor rules. The common macroses from the \"data/core/macros\" directory will be preprocessed before the specified resources.  Example: B<-p ~/wesnoth/data/campaigns/tutorial ~/result.> For details regarding the preprocessor visit: http://wiki.wesnoth.org/PreprocessorRef#Command-line_preprocessor"
-msgstr "processa um ficheiro/directório especifico. Para cada ficheiro será escrito um documento .cfg simples e um processado no directório indicado. Se uma pasta for indicada, será processada de acordo com as regras de processamento conhecidos. Os macros comuns em \"data/core/macros\" serão processados antes de qualquer outro recurso. Por exemplo: B<-p ~/wesnoth/data/campaigns/tutorial ~/result >. Para mais detalhes em como funciona o processador visita \"http://wiki.wesnoth.org/PrepocessorRef#Command-line_prepocessor\"."
+msgstr ""
+"processa um ficheiro/directório especifico. Para cada ficheiro será escrito "
+"um documento .cfg simples e um processado no directório indicado. Se uma "
+"pasta for indicada, será processada de acordo com as regras de processamento "
+"conhecidos. Os macros comuns em \"data/core/macros\" serão processados antes "
+"de qualquer outro recurso. Por exemplo: B<-p "
+"~/wesnoth/data/campaigns/tutorial ~/result >. Para mais detalhes em como "
+"funciona o processador visita \"http://wiki.wesnoth.org/PrepocessorRef"
+"#Command-line_prepocessor\"."
 
 #. type: TP
 #: ../../doc/man/wesnoth.6:170
@@ -432,7 +455,9 @@ msgstr "B<--preprocess-input-macros E<lt>source fileE<gt>>"
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:179
 msgid "used only by the '--preprocess' command.  Specifies a file that contains [preproc_define]s to be included before preprocessing."
-msgstr "usado apenas pelo comando \"--prepocess\". Especifica o ficheiro que contem [definições_predefinidas] para serem incluídos antes de carregar o jogo."
+msgstr ""
+"usado apenas pelo comando \"--prepocess\". Especifica o ficheiro que contem "
+"[definições_predefinidas] para serem incluídos antes de carregar o jogo."
 
 #. type: TP
 #: ../../doc/man/wesnoth.6:179
@@ -443,7 +468,11 @@ msgstr "B<--preprocess-output-macros [E<lt>target fileE<gt>]>"
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:185
 msgid "used only by the '--preprocess' command.  Will output all preprocessed macros in the target file. If the file is not specified the output will be file '_MACROS_.cfg' in the target directory of preprocess's command.  This switch should be typed before the --preprocess command."
-msgstr "apenas usado pelo comando \"--prepocess\". Irá imprimir todas as macros lidas no ficheiro alvo. Se o ficheiro não for indicado será escrito um com o nome _MACROS_.cfg no directório processado. Isto deve ser indicado antes do comando \"--prepocess\"."
+msgstr ""
+"apenas usado pelo comando \"--prepocess\". Irá imprimir todas as macros lidas "
+"no ficheiro alvo. Se o ficheiro não for indicado será escrito um com o nome "
+"_MACROS_.cfg no directório processado. Isto deve ser indicado antes do "
+"comando \"--prepocess\"."
 
 # type: TP
 #. type: TP
@@ -1136,7 +1165,9 @@ msgstr "B<replay_save_path>"
 #. type: Plain text
 #: ../../doc/man/wesnothd.6:153
 msgid "The directory where the server stores game replays. (Don't forget the trailing /!) Defaults to `' which means the directory wesnothd was started in."
-msgstr "O directório onde o servidor armazena as revisões dos jogos. (não esqueças o \"/\" final!) O padrão é `' que é donde wesnothd fora lançado."
+msgstr ""
+"O directório onde o servidor armazena as revisões dos jogos. (não esqueças o "
+"\"/\" final!) O padrão é `' que é donde wesnothd fora lançado."
 
 # type: TP
 #. type: TP
@@ -1186,7 +1217,10 @@ msgstr "B<versions_accepted>"
 #. type: Plain text
 #: ../../doc/man/wesnothd.6:166
 msgid "A comma separated list of version strings to be accepted by the server. B<*> and B<?> from wildcard patterns are supported.  (defaults to the corresponding wesnoth version)"
-msgstr "Uma lista, separada por vírgulas de strings de versão que serão aceitas pelo servidor. B<*>e B<?> podem ser usados como jóqueres. (o padrão é a versão desta instalação do wesnoth)"
+msgstr ""
+"Uma lista, separada por vírgulas de strings de versão que serão aceitas pelo "
+"servidor. B<*>e B<?> podem ser usados como jóqueres.  (o padrão é a versão "
+"desta instalação do wesnoth)"
 
 # type: Plain text
 #. type: Plain text
@@ -1289,13 +1323,21 @@ msgstr "B<tempo>"
 #. type: Plain text
 #: ../../doc/man/wesnothd.6:207
 msgid "The time length definition.  The format is: %d[%s[%d%s[...]]] where %s is s (seconds), m (minutes), h (hours), D (days), M (months) or Y (years) and %d is a number.  If no time modifier is given minutes (m) are assumed.  Example: B<time=\"1D12h30m\"> results in a ban time of 1 day, 12 hours and 30 minutes."
-msgstr "A definição do tempo limite. O formato é:  %d[%s[%d%s[...]]] onde s são os segundos, m os minutos, h as horas, D os dias, M os meses ou Y os anos e %d é um valor numérico. Se nenhum tempo for referido serão assumidos minutos. Por exemplo: B<time=\"1D12h30m\"> resulta num tempo de expulsão de 1 dia, 12 horas e 30 minutos."
+msgstr ""
+"A definição do tempo limite.  O formato é:  %d[%s[%d%s[...]]] onde s são os "
+"segundos, m os minutos, h as horas, D os dias, M os meses ou Y os anos e %d "
+"é um valor numérico.  Se nenhum tempo for referido serão assumidos minutos. "
+"Por exemplo: B<time=\"1D12h30m\"> resulta num tempo de expulsão de 1 dia, 12 "
+"horas e 30 minutos."
 
 # type: Plain text
 #. type: Plain text
 #: ../../doc/man/wesnothd.6:213
 msgid "B<[proxy]> A tag to tell the server to act as a proxy and forward the connected client's requests to the specified server.  Accepts the same keys as B<[redirect]>."
-msgstr "B<[proxy]> Uma etiqueta que diz ao servidor para agir como proxy, e enviar as requisições dos clientes conectados para um outro servidor especificado. Aceita as mesmas chaves que B<[redirect]>."
+msgstr ""
+"B<[proxy]> Uma etiqueta que diz ao servidor para agir como proxy, e enviar "
+"as requisições dos clientes conectados para um outro servidor especificado. "
+" Aceita as mesmas chaves que B<[redirect]>."
 
 # type: Plain text
 #. type: Plain text
@@ -1474,10 +1516,14 @@ msgstr "O estado de saída normal é 0 se o servidor for correctamente fechado. 
 #. type: Plain text
 #: ../../doc/man/wesnothd.6:274
 msgid "Written by David White E<lt>davidnwhite@verizon.netE<gt>.  Edited by Nils Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt>, Soliton E<lt>soliton.de@gmail.comE<gt> and Thomas Baumhauer E<lt>thomas.baumhauer@gmail.comE<gt>.  This manual page was originally written by Cyril Bouthors E<lt>cyril@bouthors.orgE<gt>."
-msgstr "Escrito por David White E<lt>davidnwhite@verizon.netE<gt>. Editado por Nils Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt> e Soliton E<lt>soliton.de@gmail.comE<gt> e Thomas Baumhauer E<lt>thomas.baumhauer@gmail.comE<gt>. Esta página de manual foi originalmente escrita por Cyril Bouthors E<lt>cyril@bouthors.orgE<gt>."
+msgstr ""
+"Escrito por David White E<lt>davidnwhite@verizon.netE<gt>.  Editado por Nils "
+"Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt> e "
+"Soliton E<lt>soliton.de@gmail.comE<gt> e Thomas Baumhauer "
+"E<lt>thomas.baumhauer@gmail.comE<gt>.  Esta página de manual foi "
+"originalmente escrita por Cyril Bouthors E<lt>cyril@bouthors.orgE<gt>."
 
 #. type: Plain text
 #: ../../doc/man/wesnothd.6:286
 msgid "B<wesnoth>(6)."
 msgstr "B<wesnoth>(6)."
-
