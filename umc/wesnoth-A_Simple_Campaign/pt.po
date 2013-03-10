@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: A_Simple_Campaign-1.10\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-05 12:16+0100\n"
-"PO-Revision-Date: 2012-12-27 14:07+0100\n"
-"Last-Translator: trewe <sjr456@yahoo.fr>\n"
+"PO-Revision-Date: 2013-03-09 23:14+0100\n"
+"Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: \n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "Modelo"
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:59
 msgid "foo"
-msgstr ""
+msgstr "foo"
 
 #. [side]: type=Dwarvish Fighter, id=His Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:65
@@ -57,7 +57,7 @@ msgstr "A sua Incredibilidade"
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:84
 msgid "bar"
-msgstr ""
+msgstr "bar"
 
 #. [side]: type=Elvish Fighter, id=Lord Awesomeness
 #: A_Simple_Campaign/scenarios/01_Template.cfg:89
@@ -67,12 +67,12 @@ msgstr "Lorde Incrível"
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:110
 msgid "Welcome, future UMC developer. This is a stub of a campaign, intended to make life easier in creating a campaign, since the by far most difficult part is the very start. This campaign contains about the bare minimum that's needed for a campaign and some helpful comments."
-msgstr ""
+msgstr "Bem-vindo, futuro autor. Este é um esboço de uma campanha, com a intenção de facilitar a vida na criação de uma campanha, pois a parte mais difícil é o inicio. Esta campanha contém o mínimo necessário para uma campanha correr e alguns comentários para ajudar."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:116
 msgid "There is a site in the wesnoth wiki related to this add-on, which also tells you where to look for this add-on's files so you can actually read this message in the code instead of reading it on the screen: http://wiki.wesnoth.org/BuildingCampaignsTutorial/FirstCampaign"
-msgstr ""
+msgstr "Existe uma página na wiki de Wesnoth relacionada com este extra, que também explica onde encontrar os ficheiros dos extras para que possas ler esta mensagem no código-fonte em vez de ler-a no ecrã: http://wiki.wesnoth.org/BuildingCampaignsTutorial/FirstCampaign"
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:119
@@ -87,12 +87,12 @@ msgstr "Porém, não vou actualizar aquela página e provavelmente também ningu
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:130
 msgid "The files of this add-on, describing what happens in it, are in your userdata directory, explanation where this directory is here: http://wiki.wesnoth.org/EditingWesnoth"
-msgstr ""
+msgstr "Os ficheiros deste extra, que descrevem o que acontece, estão no teu directório do utilizador, mais explicações podes encontrar em: http://wiki.wesnoth.org/EditingWesnoth"
 
 #. [chat]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:133
 msgid "Where are the files of this add-on ? read here: http://wiki.wesnoth.org/EditingWesnoth"
-msgstr ""
+msgstr "Onde estão os ficheiros deste extra? Leia mais em: http://wiki.wesnoth.org/EditingWesnoth"
 
 #. [objectives]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:139
@@ -117,17 +117,17 @@ msgstr "Olá, sou uma unidade especifica da campanha e apareci mesmo agora."
 #. [message]: speaker=unit
 #: A_Simple_Campaign/scenarios/01_Template.cfg:178
 msgid "I'm a unit on side 1 and have just moved to the hex with coordinates $x1,$y1."
-msgstr ""
+msgstr "Sou uma unidade da equipa 1 e acabo de mover-me para o hexágono com as coordenadas $x1,$y1."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/scenarios/01_Template.cfg:184
 msgid "Let's play some custom sound..."
-msgstr ""
+msgstr "Vamos reproduzir alguns sons..."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:193
 msgid "This is the macro from macros/. Soon follows another macro. The code from this event is a bit more adanced wml. You don't need to understand it if you've just started to code wml."
-msgstr ""
+msgstr "Este é um macro de macros/. Em breve sequirá outro. O código deste evento é WML algo mais avançado. Porém não precisas de perceber tudo se mal acabaste de começar a aprender a língua."
 
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:200
@@ -137,7 +137,7 @@ msgstr "dois vezes três é $twotimesthree|."
 #. [event]
 #: A_Simple_Campaign/scenarios/01_Template.cfg:202
 msgid "Since the variable twotimesthree is cleared now, you can no longer query it: $twotimesthree| You should always clear your variables once that you no longer need them."
-msgstr ""
+msgstr "Como a variável twotimesthree foi limpa, já não podes mais invocar-a: $twotimesthree| Deves sempre limpar as tuas variáveis quando não os necessitares mais."
 
 #. [terrain_type]: id=asc-custom-terrain
 #: A_Simple_Campaign/terrain/terrain-definitions.cfg:8
@@ -152,7 +152,7 @@ msgstr "alguma unidade própria"
 #. [unit_type]: id=Custom Unit, race=human
 #: A_Simple_Campaign/units/Custom_Unit.cfg:18
 msgid "This is a custom unit in ASC demonstrating how to create such units."
-msgstr ""
+msgstr "Esta é uma unidade própria de UCS para demonstrar como criar unidades."
 
 #. [attack]: type=impact
 #: A_Simple_Campaign/units/Custom_Unit.cfg:28
@@ -162,15 +162,15 @@ msgstr "espada"
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:8
 msgid "This is the macro from utils/. Let's calculate a bit and return the result. This macro is a bit more advanced, you don't need to care about it at the beginning."
-msgstr ""
+msgstr "Este é um macro de utils/. Vamos calcular um bocado e retornar o resultado. Este macro é ligeiramente mais complicada, mas não precisas de preocupa-te sobre ele no inicio."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:17
 msgid "Variable with name two has been set to $two|."
-msgstr ""
+msgstr "Uma variável com o nome dois fora definida para $two|."
 
 #. [message]: speaker=narrator
 #: A_Simple_Campaign/utils/another_macro_file.cfg:26
 msgid "Variable with name two has been multiplied by 3 to value $two|."
-msgstr ""
+msgstr "Uma variável com o valor dois fora multiplicada por três e tem agora o valor $two|."
 
