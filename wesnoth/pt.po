@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.1-svn\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2013-03-09 08:51+0100\n"
-"PO-Revision-Date: 2013-03-10 11:19+0100\n"
+"PO-Revision-Date: 2013-03-14 16:57+0100\n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: wesn-pt-trans\n"
 "Language: pt\n"
@@ -452,13 +452,12 @@ msgstr "IA Padrão (RCA)"
 msgid "Multiplayer_AI^Experimental AI"
 msgstr "IA Experimental"
 
-#
 # File: data/ai/dev/akihara_recruitment.cfg, line: 6
 # File: data/ai/dev/testing_recruiting.cfg, line: 5
 #. [ai]: id=ai_akihara
 #. [ai]: id=testing_ai_recruitment
 msgid "Experimental Recruitment AI"
-msgstr ""
+msgstr "Recrutamento da IA experimental"
 
 #
 # File: data/ai/dev/formula_ai.cfg, line: 4
@@ -477,7 +476,6 @@ msgstr ""
 msgid "Idle AI"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/ais/mai_protect_unit_engine.lua, line: 4636
 #. [lua]: init
 msgid "Enemy unit weight: The (negative) weight given to each enemy unit that can reach a potential target location.  Default: 100"
@@ -533,7 +531,6 @@ msgstr ""
 msgid "Enemy unit weight  (default: 100)"
 msgstr "Unidade inimiga à vista!"
 
-#
 # File: data/ai/micro_ais/ais/mai_protect_unit_engine.lua, line: 4670
 #. [lua]: init
 msgid "My unit weight  (default: 1)"
@@ -816,7 +813,7 @@ msgstr ""
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 199
 #. [message]: speaker=narrator
 msgid "Question for the Player"
-msgstr ""
+msgstr "Uma questão ao jogador"
 
 #
 # File: data/ai/micro_ais/scenarios/animals.cfg, line: 367
@@ -878,11 +875,10 @@ msgid ""
 "Translation: Those Ogres are mean!  We better stay away from them and their young."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/bottleneck-defense.cfg, line: 5
 #. [test]: id=bottleneck-defense
 msgid "Bottleneck Defense"
-msgstr ""
+msgstr "Defesa ao Assalto do desfiladeiro"
 
 # File: data/ai/micro_ais/scenarios/bottleneck-defense.cfg, line: 38
 #. [side]: type=Orcish Leader, id=Big Bad Orc
@@ -945,7 +941,6 @@ msgstr "Conquista a passagem"
 msgid "Defeat all humans"
 msgstr "Derrota todos os humanos"
 
-#
 # File: data/ai/micro_ais/scenarios/bottleneck-defense.cfg, line: 121
 #. [objective]: condition=lose
 msgid "Death of Big Bad Orc"
@@ -976,11 +971,10 @@ msgstr "Dragão"
 msgid "Rowck"
 msgstr "Rowck"
 
-#
 # File: data/ai/micro_ais/scenarios/dragon.cfg, line: 33
 #. [side]: type=Dread Bat, id=Dreadful Bat
 msgid "Dreadful Bat"
-msgstr ""
+msgstr "Morcego Medonho"
 
 #
 # File: data/themes/default.cfg, line: 147
@@ -1062,7 +1056,7 @@ msgstr "Morte do líder dos morcegos"
 # File: data/ai/micro_ais/scenarios/dragon.cfg, line: 142
 #. [event]
 msgid "I'm out of here."
-msgstr ""
+msgstr "Estou farto disto."
 
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 17
 # File: data/ai/micro_ais/scenarios/scenario-micro_ai.cfg, line: 56
@@ -1087,30 +1081,26 @@ msgstr "Grifos"
 msgid "Another Bad Orc"
 msgstr "Outro orc malvado"
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 95
 #. [unit]: type=Dwarvish Guardsman, id=guardian1
 msgid "Guardian 1"
-msgstr ""
+msgstr "Guardião 1"
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 99
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 110
 #. [variables]
 msgid "ai_special=guardian"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 106
 #. [unit]: type=Dwarvish Guardsman, id=guardian2
 msgid "Guardian 2"
-msgstr ""
+msgstr "Guardião 2"
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 119
 #. [unit]: type=Giant Rat, id=coward1
 msgid "Coward 1"
-msgstr ""
+msgstr "Covarde 1"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 125
@@ -1118,11 +1108,10 @@ msgstr ""
 msgid "coward r=5"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 142
 #. [unit]: type=Giant Rat, id=coward2
 msgid "Coward 2"
-msgstr ""
+msgstr "Covarde 2"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 148
@@ -1132,11 +1121,10 @@ msgid ""
 "    s=24 5"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 167
 #. [unit]: type=Giant Rat, id=coward3
 msgid "Coward 3"
-msgstr ""
+msgstr "Covarde 3"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 173
@@ -1146,11 +1134,10 @@ msgid ""
 " s=24,5 a=24,15"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 193
 #. [unit]: type=Giant Rat, id=coward4
 msgid "Coward 4"
-msgstr ""
+msgstr "Covarde 4"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 199
@@ -1255,19 +1242,16 @@ msgstr "localização guardada"
 # File: src/multiplayer_connect.cpp, line: 1029
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 332
 #. [event]
-#, fuzzy
 msgid "Station 1"
-msgstr "Facção"
+msgstr "Primeiro entreposto"
 
-#
 # File: src/multiplayer_connect.cpp, line: 1029
 # File: src/multiplayer_connect.cpp, line: 1029
 # File: src/multiplayer_connect.cpp, line: 1029
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 333
 #. [event]
-#, fuzzy
 msgid "Station 2"
-msgstr "Facção"
+msgstr "Segundo entreposto"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 351
@@ -1283,13 +1267,12 @@ msgstr ""
 msgid "This is the built-in WML guardian coded using 'ai_special=guardian'.  These guardians attack if there is an enemy within their movement range, otherwise they do nothing (except maybe retreating to a village for healing)."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 362
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 368
 #. [command]
 #. [set_menu_item]: id=m02_return
 msgid "Return Guardian"
-msgstr ""
+msgstr "Guardião Retornado"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 368
@@ -1303,15 +1286,13 @@ msgid ""
 "- If you end up next to an enemy on the way back, attack after the move."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 378
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 384
 #. [command]
 #. [set_menu_item]: id=m03_home
 msgid "Home Guard"
-msgstr ""
+msgstr "Guardião Hospedado"
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 384
 #. [command]
 msgid ""
@@ -1319,13 +1300,12 @@ msgid ""
 "This also demonstrates how to combine candidate actions from Formula AI and Lua AI in one side.  The home guard is written in Formula AI, while the return and stationed guardians and the cowards are written in Lua AI.  In addition the non-guardian units of the side follow the default AI behavior."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 390
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 396
 #. [command]
 #. [set_menu_item]: id=m04_stationed
 msgid "Stationed Guardian"
-msgstr ""
+msgstr "Guardião Estacionado"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 396
@@ -1358,11 +1338,10 @@ msgid ""
 "- Both 'seek' and 'avoid' may consist of only one coordinate ('x' or 'y'), in which case not a single hex, but a line of hexes is sought or avoided."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 426
 #. [event]: id=Kraa profile profile}
 msgid "Kraahhh!!!!"
-msgstr ""
+msgstr "Kraahhh!!!!"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 429
@@ -1396,11 +1375,10 @@ msgstr "Derrota os líderes inimigos"
 msgid "Move Kraa to the signpost"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 448
 #. [objective]: condition=lose
 msgid "Death of Kraa"
-msgstr ""
+msgstr "Morte de Kraa"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 452
@@ -1414,23 +1392,20 @@ msgstr ""
 msgid "Gryphons of the High Plains, it is time to return to said plains.  Follow me."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/healer_support.cfg, line: 5
 #. [test]: id=healer_support
 msgid "Healer Support"
-msgstr ""
+msgstr "Suporte de Curandeiros"
 
-#
 # File: data/ai/micro_ais/scenarios/healer_support.cfg, line: 21
 #. [side]: id=Rebels1, type=Elvish Ranger
 msgid "Rebels 1"
-msgstr ""
+msgstr "Rebeldes 1"
 
-#
 # File: data/ai/micro_ais/scenarios/healer_support.cfg, line: 37
 #. [side]: id=Rebels2, type=Elvish Marksman
 msgid "Rebels 2"
-msgstr ""
+msgstr "Rebeldes 2"
 
 #
 # File: data/ai/micro_ais/scenarios/healer_support.cfg, line: 83
@@ -1588,11 +1563,10 @@ msgstr "Limpa todas as ordens"
 msgid "Move Pekzs to the signpost"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/lurkers.cfg, line: 470
 #. [objective]: condition=lose
 msgid "Death of Pekzs"
-msgstr ""
+msgstr "Morte de Pekzs"
 
 #
 # File: data/ai/micro_ais/scenarios/lurkers.cfg, line: 474
@@ -1822,11 +1796,10 @@ msgstr ""
 msgid "Move Gertburt to the signpost"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 219
 #. [objective]: condition=lose
 msgid "Death of Gertburt"
-msgstr ""
+msgstr "Morte de Gertburt"
 
 #
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 234
@@ -2011,17 +1984,15 @@ msgstr ""
 msgid "Micro AI Tests"
 msgstr "Testes das micro IA"
 
-#
 # File: data/ai/micro_ais/scenarios/scenario-micro_ai.cfg, line: 18
 #. [side]: id=Grnk, type=Goblin Spearman
 msgid "Grnk the Frail"
-msgstr ""
+msgstr "Grnk o fracote"
 
-#
 # File: data/ai/micro_ais/scenarios/scenario-micro_ai.cfg, line: 26
 #. [side]: id=Grnk, type=Goblin Spearman
 msgid "Grnk"
-msgstr ""
+msgstr "Grnk"
 
 # File: src/reports.cpp, line: 637
 # File: src/reports.cpp, line: 656
@@ -2313,23 +2284,20 @@ msgstr ""
 msgid "Watch the bats move around and fight them if you want"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/swarm.cfg, line: 150
 #. [objective]: condition=win
 msgid "Defeat all bats"
-msgstr ""
+msgstr "Derrota todos os morcegos"
 
-#
 # File: data/ai/micro_ais/scenarios/swarm.cfg, line: 158
 #. [objective]: condition=lose
 msgid "Death of all gryphons"
-msgstr ""
+msgstr "Morte de todos os grifos"
 
-#
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 55
 #. [side]
 msgid "More Wolves"
-msgstr ""
+msgstr "Mais lobos"
 
 #
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 121
@@ -2383,11 +2351,10 @@ msgstr ""
 msgid "Watch the wolves move around and fight each other"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 230
 #. [objective]: condition=win
 msgid "No wolves left on one side"
-msgstr ""
+msgstr "Sem lobos vivos em qualquer equipa"
 
 #
 # File: data/ai/scenarios/ai_arena_small/0001-healing.cfg, line: 17
@@ -2451,7 +2418,7 @@ msgstr ""
 # File: data/ai/scenarios/scenario-AI_Arena_small.cfg, line: 65
 #. [set_menu_item]: id=repeat_test
 msgid "Repeat last test"
-msgstr ""
+msgstr "Repetir último teste"
 
 # File: src/statistics_dialog.cpp, line: 170
 # File: src/statistics_dialog.cpp, line: 170
@@ -2464,7 +2431,7 @@ msgstr "Selecciona outra IA"
 # File: data/ai/scenarios/scenario-AI_Arena_small.cfg, line: 91
 #. [set_menu_item]: id=select_test
 msgid "Select another test"
-msgstr ""
+msgstr "Seleccionar outro teste"
 
 # File: data/ai/scenarios/scenario-AI_Arena_small.cfg, line: 109
 # File: data/ai/scenarios/scenario-test_move_to_targets.cfg, line: 36
