@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.1-svn\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2013-03-09 08:51+0100\n"
-"PO-Revision-Date: 2013-03-14 16:57+0100\n"
+"PO-Revision-Date: 2013-03-16 20:41+0100\n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: wesn-pt-trans\n"
 "Language: pt\n"
@@ -308,7 +308,6 @@ msgstr ""
 msgid "Joystick: number of the scroll Y-axis"
 msgstr ""
 
-#
 # File: data/advanced_preferences.cfg, line: 219
 # File: data/advanced_preferences.cfg, line: 219
 # File: data/advanced_preferences.cfg, line: 219
@@ -465,7 +464,6 @@ msgstr "Recrutamento da IA experimental"
 msgid "Formula AI dev"
 msgstr ""
 
-#
 # File: data/ai/dev/formula_ai_poisoning.cfg, line: 5
 #. [ai]: id=default_ai_poisoning
 msgid "Default AI with poisoning formula"
@@ -474,7 +472,7 @@ msgstr ""
 # File: data/ai/dev/idle_ai.cfg, line: 4
 #. [ai]: id=ai_idle
 msgid "Idle AI"
-msgstr ""
+msgstr "IA ociosa"
 
 # File: data/ai/micro_ais/ais/mai_protect_unit_engine.lua, line: 4636
 #. [lua]: init
@@ -542,7 +540,6 @@ msgstr ""
 msgid "Goal distance weight  (default: 3)"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/ais/mai_protect_unit_engine.lua, line: 4686
 #. [lua]: init
 msgid "Terrain defense weight  (default: 0.1)"
@@ -845,13 +842,12 @@ msgstr ""
 msgid "Watch the animals do their things"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/animals.cfg, line: 395
 # File: data/ai/micro_ais/scenarios/swarm.cfg, line: 154
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 234
 #. [objective]: condition=win
 msgid "Use right-click option"
-msgstr ""
+msgstr "Usa o botão direito do rato"
 
 # File: data/ai/micro_ais/scenarios/animals.cfg, line: 399
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 238
@@ -998,19 +994,16 @@ msgstr "Morcego Medonho"
 msgid "End Scenario"
 msgstr "Terminar Cenário"
 
-#
 # File: data/ai/micro_ais/scenarios/dragon.cfg, line: 51
 #. [event]
 msgid "Rowck's Home"
-msgstr ""
+msgstr "O lar de Rowck"
 
-#
 # File: data/ai/micro_ais/scenarios/dragon.cfg, line: 84
 #. [event]: (id=Dreadful Bat) profile profile}
 msgid "Be careful to stay out of the way of that dragon.  He's a mean one."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/dragon.cfg, line: 87
 #. [event]: (id=Dreadful Bat) profile profile}
 msgid ""
@@ -1025,11 +1018,10 @@ msgid ""
 "Note: The Hunter AI is coded as a Micro AI.  A Micro AI can be added and adapted to the need of a scenario easily using only WML and the [micro_ai] tag.  Check out the <span color='#00A000'>Micro AI wiki page</span> at http://wiki.wesnoth.org/Micro_AIs for more information."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/dragon.cfg, line: 99
 #. [objectives]
 msgid "Move the bats around to explore how Rowck reacts"
-msgstr ""
+msgstr "Mova os morcegos para perceber em como Rowck reage"
 
 # File: src/playcampaign.cpp, line: 232
 # File: src/playcampaign.cpp, line: 282
@@ -1042,11 +1034,10 @@ msgstr ""
 msgid "Defeat Rowck"
 msgstr "Derrota Rowck"
 
-#
 # File: data/ai/micro_ais/scenarios/dragon.cfg, line: 105
 #. [objective]: condition=win
 msgid "Move the lead bat to the signpost"
-msgstr ""
+msgstr "Mova o morcego líder para o posto de sinalização"
 
 # File: data/ai/micro_ais/scenarios/dragon.cfg, line: 109
 #. [objective]: condition=lose
@@ -1090,7 +1081,7 @@ msgstr "Guardião 1"
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 110
 #. [variables]
 msgid "ai_special=guardian"
-msgstr ""
+msgstr "ai_special=guardian"
 
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 106
 #. [unit]: type=Dwarvish Guardsman, id=guardian2
@@ -1147,11 +1138,10 @@ msgid ""
 "    s=32,--"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 214
 #. [event]
 msgid "Move gryphons here to see different coward reactions"
-msgstr ""
+msgstr "Mova os grifos para aqui para ver as diferentes reacções dos cobardes"
 
 #
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 223
@@ -1343,7 +1333,6 @@ msgstr ""
 msgid "Kraahhh!!!!"
 msgstr "Kraahhh!!!!"
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 429
 #. [event]: id=Kraa profile profile}
 msgid ""
@@ -1354,11 +1343,10 @@ msgid ""
 "Another note: Most of the Guardian AIs are coded as Micro AIs.  A Micro AI can be added and adapted to the need of a scenario easily using only WML and the [micro_ai] tag.  Check out the <span color='#00A000'>Micro AI wiki page</span> at http://wiki.wesnoth.org/Micro_AIs for more information."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 438
 #. [objectives]
 msgid "Move the Gryphons around to explore how the guardians react"
-msgstr ""
+msgstr "Mova os grifos para perceber em como os guardiões reagem."
 
 # File: src/multiplayer_connect.cpp, line: 1725
 # File: src/multiplayer_connect.cpp, line: 1725
@@ -1369,18 +1357,16 @@ msgstr ""
 msgid "Defeat all enemy units"
 msgstr "Derrota os líderes inimigos"
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 444
 #. [objective]: condition=win
 msgid "Move Kraa to the signpost"
-msgstr ""
+msgstr "Mova Kraa para o posto de sinalização"
 
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 448
 #. [objective]: condition=lose
 msgid "Death of Kraa"
 msgstr "Morte de Kraa"
 
-#
 # File: data/ai/micro_ais/scenarios/guardians.cfg, line: 452
 #. [note]
 msgid "Check out the right-click menu options for information on each guardian type"
@@ -1553,15 +1539,13 @@ msgstr ""
 # File: data/core/macros/ai_controller.cfg, line: 474
 # File: data/ai/micro_ais/scenarios/lurkers.cfg, line: 462
 #. [objective]: condition=win
-#, fuzzy
 msgid "Defeat all lurkers"
-msgstr "Limpa todas as ordens"
+msgstr "Derrota todos os espreitadores"
 
-#
 # File: data/ai/micro_ais/scenarios/lurkers.cfg, line: 466
 #. [objective]: condition=win
 msgid "Move Pekzs to the signpost"
-msgstr ""
+msgstr "Mova Pekz para o posto de sinalização"
 
 # File: data/ai/micro_ais/scenarios/lurkers.cfg, line: 470
 #. [objective]: condition=lose
@@ -1652,11 +1636,10 @@ msgstr ""
 msgid "Defeat the messenger"
 msgstr "Derrota o mensageiro"
 
-#
 # File: data/ai/micro_ais/scenarios/messenger-escort.cfg, line: 156
 #. [objective]: condition=lose
 msgid "Messenger gets to the signpost"
-msgstr ""
+msgstr "O mensageiro chega ao posto de sinalização"
 
 # File: data/ai/micro_ais/scenarios/messenger-escort.cfg, line: 160
 #. [objective]: condition=lose
@@ -1741,13 +1724,11 @@ msgstr ""
 msgid "Patrol Waypoint 4"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 175
 #. [event]
 msgid "Urudin retreats here"
-msgstr ""
+msgstr "Urudrin retira-se para aqui"
 
-#
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 183
 #. [event]: id=Konrad profile profile}
 msgid ""
@@ -1758,7 +1739,6 @@ msgid ""
 "All of this is implemented by use of the same [micro_ai] tag."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 190
 #. [event]: id=Konrad profile profile}
 msgid ""
@@ -1767,7 +1747,6 @@ msgid ""
 "This is an AI separate from the Patrols of Side 2."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 195
 #. [event]: id=Konrad profile profile}
 msgid ""
@@ -1784,34 +1763,30 @@ msgid ""
 "The Patrol AI controlling all Side 2 units is coded as a Micro AI.  A Micro AI can be added and adapted to the need of a scenario easily using only WML and the [micro_ai] tag.  Check out the <span color='#00A000'>Micro AI wiki page</span> at http://wiki.wesnoth.org/Micro_AIs for more information."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 209
 #. [objectives]
 msgid "Watch the patrols, attack them etc."
-msgstr ""
+msgstr "Observa as patrulhas, ataca-as, etc."
 
-#
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 215
 #. [objective]: condition=win
 msgid "Move Gertburt to the signpost"
-msgstr ""
+msgstr "Mova Gertburt para o posto de sinalização"
 
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 219
 #. [objective]: condition=lose
 msgid "Death of Gertburt"
 msgstr "Morte de Gertburt"
 
-#
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 234
 #. [event]
 msgid "Well, that was fun!  I'll just hang out here now and watch those two guys walk and walk and ..."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/patrols.cfg, line: 275
 #. [event]
 msgid "Let's go home, chaps."
-msgstr ""
+msgstr "Vamos para casa, camaradas."
 
 # File: data/ai/micro_ais/scenarios/protect-unit.cfg, line: 5
 # File: data/ai/micro_ais/scenarios/scenario-micro_ai.cfg, line: 62
@@ -1844,11 +1819,10 @@ msgstr "Koorzhar"
 msgid "Move Rossauba here"
 msgstr "Mova Rossabauba para aqui"
 
-#
 # File: data/ai/micro_ais/scenarios/protect-unit.cfg, line: 128
 #. [event]: id=Koorzhar profile profile}
 msgid "There's that traitor wizard.  Let's get him."
-msgstr ""
+msgstr "Lá está o feiticeiro traidor. Capturam-o."
 
 #
 # File: data/ai/micro_ais/scenarios/protect-unit.cfg, line: 130
@@ -1856,11 +1830,10 @@ msgstr ""
 msgid "Men, you know the deal.  We must protect Rossauba under all circumstances.  Even my survival is not as important."
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/protect-unit.cfg, line: 131
 #. [event]: id=Koorzhar profile profile}
 msgid "That's very kind of you, but ..."
-msgstr ""
+msgstr "É muito gentil da tua parte, mas..."
 
 #
 # File: data/ai/micro_ais/scenarios/protect-unit.cfg, line: 132
@@ -1895,19 +1868,17 @@ msgstr ""
 msgid "<span font='16'>I'll play Koorzhar's side (to see how Langzhar's units protect Rossauba)</span>"
 msgstr ""
 
-#
 # File: data/ai/micro_ais/scenarios/protect-unit.cfg, line: 168
 #. [objectives]
 msgid "Protect Rossauba while moving him to the signpost"
-msgstr ""
+msgstr "Proteja Rossauba enquanto o moves para o posto de sinalização "
 
-#
 # File: data/ai/micro_ais/scenarios/protect-unit.cfg, line: 170
 # File: data/ai/micro_ais/scenarios/protect-unit.cfg, line: 190
 #. [objective]: condition=lose
 #. [objective]: condition=win
 msgid "Rossauba makes it to the signpost"
-msgstr ""
+msgstr "Rossauba chega ao posto de sinalização"
 
 # File: data/ai/micro_ais/scenarios/protect-unit.cfg, line: 174
 #. [objective]: condition=lose
@@ -2016,7 +1987,7 @@ msgstr ""
 # File: data/ai/micro_ais/scenarios/scenario-micro_ai.cfg, line: 65
 #. [event]
 msgid "HttT: The Elves Besieged"
-msgstr ""
+msgstr "HdT: Os elfos sitiados"
 
 #
 # File: data/ai/micro_ais/scenarios/scenario-micro_ai.cfg, line: 68
@@ -2252,20 +2223,18 @@ msgstr "Morcegos"
 # File: data/ai/micro_ais/scenarios/swarm.cfg, line: 92
 #. [set_menu_item]: id=m02_new_gryphon
 msgid "Place Side 1 Gryphon"
-msgstr ""
+msgstr "Coloca grifo equipa 1"
 
-#
 # File: data/ai/micro_ais/scenarios/swarm.cfg, line: 103
 #. [set_menu_item]: id=m03_new_bat
 msgid "Place Side 2 Bat"
-msgstr ""
+msgstr "Coloca morcego equipa 2"
 
-#
 # File: data/ai/micro_ais/scenarios/swarm.cfg, line: 114
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 154
 #. [set_menu_item]: id=m05_kill_unit
 msgid "Kill Unit under Cursor"
-msgstr ""
+msgstr "Mata unidade debaixo do cursor"
 
 #
 # File: data/ai/micro_ais/scenarios/swarm.cfg, line: 139
@@ -2299,25 +2268,21 @@ msgstr "Morte de todos os grifos"
 msgid "More Wolves"
 msgstr "Mais lobos"
 
-#
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 121
 #. [set_menu_item]: id=m02_new_peasant
 msgid "Place Side 1 Peasant"
-msgstr ""
+msgstr "Coloca camponês equipa 1"
 
-#
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 132
 #. [set_menu_item]: id=m03_new_wolf2
 msgid "Place Side 2 Wolf"
-msgstr ""
+msgstr "Coloca lobo equipa 2"
 
-#
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 143
 #. [set_menu_item]: id=m04_new_wolf3
 msgid "Place Side 3 Wolf"
-msgstr ""
+msgstr "Coloca lobo equipa 3"
 
-#
 # File: data/ai/micro_ais/scenarios/wolves.cfg, line: 191
 #. [event]
 msgid ""
@@ -2413,7 +2378,7 @@ msgstr ""
 # File: data/ai/scenarios/scenario-AI_Arena_small.cfg, line: 8
 #. [test]: id=ai_arena_small
 msgid "Small ai arena"
-msgstr ""
+msgstr "Pequena arena da IA"
 
 # File: data/ai/scenarios/scenario-AI_Arena_small.cfg, line: 65
 #. [set_menu_item]: id=repeat_test
@@ -7218,8 +7183,8 @@ msgstr "Não tens nenhum Extra instalado."
 # File: src/addon/manager_ui.cpp, line: 965
 msgid "Are you sure you want to remove the following installed add-on?"
 msgid_plural "Are you sure you want to remove the following installed add-ons?"
-msgstr[0] "Tens a certeza que desejas remover o extra '$addon|'?"
-msgstr[1] "Tens a certeza que desejas remover os extras '$addon|'?"
+msgstr[0] "Tens a certeza que desejas remover o extra instalado?"
+msgstr[1] "Tens a certeza que desejas remover os extras instalados?"
 
 #
 # File: src/addon/manager_ui.cpp, line: 991
