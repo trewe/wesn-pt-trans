@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wesnoth-Troubled_Times\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 21:06-0400\n"
+"POT-Creation-Date: 2013-03-10 19:16+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: \n"
@@ -15,23 +15,23 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #. [message]: speaker=narrator
-#: Troubled_Times/macros/misc.cfg:16
+#: Troubled_Times/macros/misc.cfg:15
 msgid "End of Game"
 msgstr "Ende des Spiels"
 
 #. [message]: speaker=narrator
-#: Troubled_Times/macros/misc.cfg:17
+#: Troubled_Times/macros/misc.cfg:16
 msgid "Our great warriors weren't so great this time. You lost!"
 msgstr "Unsere Mächtigen Krieger waren es nicht diesmal. Sie haben verloren!"
 
 #. [message]: speaker=second_unit
-#: Troubled_Times/macros/misc.cfg:31
 #: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:149
+#: Troubled_Times/macros/misc.cfg:30
 msgid "Elves"
 msgstr "Elfen"
 
 #. [message]: speaker=unit
-#: Troubled_Times/macros/misc.cfg:105
+#: Troubled_Times/macros/misc.cfg:104
 msgid "I feel that every elf leader is suddenly moving a bit faster."
 msgstr ""
 "Ich fülle dass Jeder Elfen Anführer plötzlich ein bisschen schneller bewegt."
@@ -51,8 +51,8 @@ msgstr "Meuchelmörder"
 msgid "Grunt"
 msgstr "Grunzer"
 
-#. [message]: type=Elvish High Lord
 #. [unit]: type=Elvish High Lord
+#. [message]: type=Elvish High Lord
 #: Troubled_Times/scenarios/01_attack_to_the_elf_city.cfg:96
 #: Troubled_Times/scenarios/01_attack_to_the_elf_city.cfg:117
 msgid "Qinthalash's father"
@@ -93,20 +93,20 @@ msgid "Kill all orcish assassins"
 msgstr "Töte alle Orkmeuchler"
 
 #. [objective]: condition=lose
+#: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:111
+#: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:172
+#: Troubled_Times/scenarios/03_tarqensis.cfg:212
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:163
 #: Troubled_Times/scenarios/01_attack_to_the_elf_city.cfg:238
 #: Troubled_Times/scenarios/02_the_castle.cfg:102
 #: Troubled_Times/scenarios/02_the_castle.cfg:148
-#: Troubled_Times/scenarios/03_tarqensis.cfg:212
+#: Troubled_Times/scenarios/07_to_highlands.cfg:67
+#: Troubled_Times/scenarios/05_on_the_top_of_the_mountain.cfg:110
+#: Troubled_Times/scenarios/08_highlands.cfg:102
+#: Troubled_Times/scenarios/10_the_maul_of_elementus.cfg:138
 #: Troubled_Times/scenarios/04_the_mountain.cfg:121
 #: Troubled_Times/scenarios/04_the_mountain.cfg:196
-#: Troubled_Times/scenarios/05_on_the_top_of_the_mountain.cfg:110
 #: Troubled_Times/scenarios/06_the_siege_of_tarqensis.cfg:188
-#: Troubled_Times/scenarios/07_to_highlands.cfg:67
-#: Troubled_Times/scenarios/08_highlands.cfg:102
-#: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:111
-#: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:172
-#: Troubled_Times/scenarios/10_the_maul_of_elementus.cfg:138
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:163
 msgid "Death of an elf leader"
 msgstr "Tod eines Elfen Anführers"
 
@@ -302,23 +302,23 @@ msgid "Troubled Times - The mountain"
 msgstr "Schwierige Zeiten - das Gebirge"
 
 #. [side]: type=Ancient Wose
-#: Troubled_Times/scenarios/04_the_mountain.cfg:41
 #: Troubled_Times/scenarios/05_on_the_top_of_the_mountain.cfg:40
+#: Troubled_Times/scenarios/04_the_mountain.cfg:41
 msgid "Wose"
 msgstr "Waldschrat"
 
 #. [side]: type=Ancient Wose
-#: Troubled_Times/scenarios/04_the_mountain.cfg:47
 #: Troubled_Times/scenarios/05_on_the_top_of_the_mountain.cfg:46
+#: Troubled_Times/scenarios/04_the_mountain.cfg:47
 msgid "Ancient Wose"
 msgstr "Alter Waldschrat"
 
-#. [side]: type=Drake Enforcer
-#. [side]: type=Drake Warrior
 #. [side]: type=Sky Drake
-#: Troubled_Times/scenarios/04_the_mountain.cfg:63
+#. [side]: type=Drake Warrior
+#. [side]: type=Drake Enforcer
 #: Troubled_Times/scenarios/05_on_the_top_of_the_mountain.cfg:62
 #: Troubled_Times/scenarios/05_on_the_top_of_the_mountain.cfg:85
+#: Troubled_Times/scenarios/04_the_mountain.cfg:63
 msgid "Drakes"
 msgstr "Draken"
 
@@ -379,8 +379,8 @@ msgid "Did you hear that we are getting lots of reinforcements soon?"
 msgstr "Wisst ihr schon dass wir bald viel Verstärkung kriegen?"
 
 #. [message]: type=Qinthalash
-#: Troubled_Times/scenarios/04_the_mountain.cfg:279
 #: Troubled_Times/scenarios/05_on_the_top_of_the_mountain.cfg:132
+#: Troubled_Times/scenarios/04_the_mountain.cfg:279
 msgid "Oh no! The Ancient Wose has died.."
 msgstr "Oh nein! Der Alte Waldschrat ist gestorben..."
 
@@ -439,8 +439,8 @@ msgstr "Schwierige Zeiten - die Belagerung von Tarq'ensis"
 msgid "High Elves"
 msgstr "Hoch Elfen"
 
-#. [side]: type=Orcish Sovereign
 #. [side]: type=Orcish Warlord
+#. [side]: type=Orcish Sovereign
 #: Troubled_Times/scenarios/06_the_siege_of_tarqensis.cfg:67
 #: Troubled_Times/scenarios/06_the_siege_of_tarqensis.cfg:86
 msgid "Besieging Orcs"
@@ -663,9 +663,9 @@ msgstr ""
 msgid "Troubled Times - The Maul of Elementus"
 msgstr "Schwere Zeiten - Der Hammer der Elemente"
 
-#. [side]: type=Goblin Rouser
-#. [side]: type=Troll Shaman
 #. [side]: type=Troll Warrior
+#. [side]: type=Troll Shaman
+#. [side]: type=Goblin Rouser
 #: Troubled_Times/scenarios/10_the_maul_of_elementus.cfg:53
 #: Troubled_Times/scenarios/10_the_maul_of_elementus.cfg:72
 #: Troubled_Times/scenarios/10_the_maul_of_elementus.cfg:91
@@ -727,55 +727,8 @@ msgstr "Ihr habt meine Arbeit von Jahren zerstört."
 msgid "Now we only need to destory the stone"
 msgstr "Nun müssen wir nur noch den Felsen zerstören"
 
-#~ msgid "Orcs"
-#~ msgstr "Orks"
-
-#~ msgid "Goblins"
-#~ msgstr "Kobolde"
-
-#~ msgid "Undead"
-#~ msgstr "Untote"
-
-#~ msgid "Evil"
-#~ msgstr "Das Böse"
-
-#~ msgid "Saurians"
-#~ msgstr "Saurianer"
-
-#~ msgid "New leader takes command"
-#~ msgstr "Ein neuer Anführer übernimmt das Kommando"
-
 #~ msgid " has been choosen as new leader."
 #~ msgstr "wurde als neuer Führer gewählt."
 
-#~ msgid "Troubled Times"
-#~ msgstr "Schwierige Zeiten"
-
-#~ msgid "Death of a leader"
-#~ msgstr "Tod eines Anführers"
-
-#~ msgid "Death of the Ancient Wose"
-#~ msgstr "Tod des Alten Waldschrat"
-
-#~ msgid "Find what is in the caves"
-#~ msgstr "Finde heraus was in den Höhlen ist"
-
-#~ msgid "Maybe it would be a good idea to ask my leader to visit here..."
-#~ msgstr ""
-#~ "Vielleicht wäre es eine gute Idee meinen Anführer zu fragen hierher "
-#~ "zukommen..."
-
-#~ msgid ""
-#~ "You can use your experience points to buy upgraded stats.\n"
-#~ "\n"
-#~ "~Experience: $xp4shop|"
-#~ msgstr ""
-#~ "Sie können ihre Erfahrung punkte benutzen um aufzurüsten.\n"
-#~ "\n"
-#~ "~Erfahrung: $xp4shop|"
-
-#~ msgid "Done"
-#~ msgstr "Fertig"
-
-#~ msgid "You don't have enough experience points available!"
-#~ msgstr "Sie haben nicht genügend Erfahrung punkte!"
+#~ msgid "New leader takes command"
+#~ msgstr "Ein neuer Anführer übernimmt das Kommando"
