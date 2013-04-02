@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 21:06-0400\n"
+"POT-Creation-Date: 2012-10-13 04:18+0200\n"
 "PO-Revision-Date: 2013-03-10 00:04+0100\n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: \n"
@@ -14,18 +14,18 @@ msgstr ""
 "X-Poedit-Country: SPAIN\n"
 
 #. [message]: speaker=narrator
-#: Troubled_Times/macros/misc.cfg:16
+#: Troubled_Times/macros/misc.cfg:15
 msgid "End of Game"
 msgstr "Fin de Xogo"
 
 #. [message]: speaker=narrator
-#: Troubled_Times/macros/misc.cfg:17
+#: Troubled_Times/macros/misc.cfg:16
 msgid "Our great warriors weren't so great this time. You lost!"
 msgstr ""
 "Os nosos grandes guerreiros non eran tan grandes neste momento. Perdeu!"
 
 #. [message]: speaker=second_unit
-#: Troubled_Times/macros/misc.cfg:31
+#: Troubled_Times/macros/misc.cfg:30
 #: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:149
 msgid "Elves"
 msgstr "elfos"
@@ -106,7 +106,7 @@ msgstr "Mate todos os asasinos orc"
 #: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:111
 #: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:172
 #: Troubled_Times/scenarios/10_the_maul_of_elementus.cfg:138
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:163
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:171
 msgid "Death of an elf leader"
 msgstr "A morte dun líder elfo"
 
@@ -692,45 +692,56 @@ msgstr "Me ha. Agora podemos ir destruír a roca e os orcos"
 msgid "Troubled Times - The Last Battle"
 msgstr "Tempos Difíciles - A Última Batalla"
 
+#. [side]: type=Orcish Warlord
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:42
+msgid "Orcs"
+msgstr "Orcos"
+
+#. [side]: type=Goblin Rouser
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:61
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:80
+msgid "Goblins"
+msgstr "Trasnos"
+
+#. [side]: type=Revenant
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:99
+msgid "Undead"
+msgstr "Non mortos"
+
+#. [side]: type=Necromancer
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:118
+msgid "Evil"
+msgstr "Mal"
+
+#. [side]: type=Saurian Flanker
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:138
+msgid "Saurians"
+msgstr "Saurios"
+
 #. [objective]: condition=win
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:155
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:163
 msgid "Defeat all enemy leaders"
 msgstr "Derrota tódolos líderes inimigos"
 
 #. [objective]: condition=win
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:159
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:167
 msgid "Destroy the Rock"
 msgstr "Destrúa a roca"
 
 #. [message]: speaker=unit
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:215
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:223
 msgid "the rock is destroyed, now we just need to kill the enemies"
 msgstr "a roca é destruída, agora só temos que matar os inimigos"
 
 #. [message]
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:219
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:227
 msgid "You demolished my work of years."
 msgstr "Vostede demolido o meu traballo de anos."
 
 #. [message]
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:241
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:249
 msgid "Now we only need to destory the stone"
 msgstr "Agora só precisamos destruír a pedra"
-
-#~ msgid "Orcs"
-#~ msgstr "Orcos"
-
-#~ msgid "Goblins"
-#~ msgstr "Trasnos"
-
-#~ msgid "Undead"
-#~ msgstr "Non mortos"
-
-#~ msgid "Evil"
-#~ msgstr "Mal"
-
-#~ msgid "Saurians"
-#~ msgstr "Saurios"
 
 #~ msgid "New leader takes command"
 #~ msgstr "Novo líder asume o comando"

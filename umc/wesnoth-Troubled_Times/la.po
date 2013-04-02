@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-04 21:06-0400\n"
+"POT-Creation-Date: 2012-10-13 04:18+0200\n"
 "PO-Revision-Date: 2013-01-22 22:17+0100\n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: \n"
@@ -13,17 +13,17 @@ msgstr ""
 "X-Poedit-Language: Latin\n"
 
 #. [message]: speaker=narrator
-#: Troubled_Times/macros/misc.cfg:16
+#: Troubled_Times/macros/misc.cfg:15
 msgid "End of Game"
 msgstr "Finem Ludi"
 
 #. [message]: speaker=narrator
-#: Troubled_Times/macros/misc.cfg:17
+#: Troubled_Times/macros/misc.cfg:16
 msgid "Our great warriors weren't so great this time. You lost!"
 msgstr "Hoc non tantum magni militibus. Te periit"
 
 #. [message]: speaker=second_unit
-#: Troubled_Times/macros/misc.cfg:31
+#: Troubled_Times/macros/misc.cfg:30
 #: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:149
 msgid "Elves"
 msgstr "Dryades"
@@ -103,7 +103,7 @@ msgstr "Occidere omnes sicariorum orcorum"
 #: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:111
 #: Troubled_Times/scenarios/09_to_dwarven_caves.cfg:172
 #: Troubled_Times/scenarios/10_the_maul_of_elementus.cfg:138
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:163
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:171
 msgid "Death of an elf leader"
 msgstr "Mors dryadalis dux"
 
@@ -685,45 +685,56 @@ msgstr "Ego. Nunc potest destruere de petram et Orci"
 msgid "Troubled Times - The Last Battle"
 msgstr "Tempora Turbata - Ultimo Bello"
 
+#. [side]: type=Orcish Warlord
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:42
+msgid "Orcs"
+msgstr "Orces"
+
+#. [side]: type=Goblin Rouser
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:61
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:80
+msgid "Goblins"
+msgstr "Orcules"
+
+#. [side]: type=Revenant
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:99
+msgid "Undead"
+msgstr "Inmortus"
+
+#. [side]: type=Necromancer
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:118
+msgid "Evil"
+msgstr "Mali"
+
+#. [side]: type=Saurian Flanker
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:138
+msgid "Saurians"
+msgstr "Lacertae"
+
 #. [objective]: condition=win
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:155
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:163
 msgid "Defeat all enemy leaders"
 msgstr "Omnes duces hostium vincere"
 
 #. [objective]: condition=win
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:159
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:167
 msgid "Destroy the Rock"
 msgstr "Perdere Petra"
 
 #. [message]: speaker=unit
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:215
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:223
 msgid "the rock is destroyed, now we just need to kill the enemies"
 msgstr "petra contrita est nunc eget justo hostes occidere"
 
 #. [message]
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:219
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:227
 msgid "You demolished my work of years."
 msgstr "Te subvertit opus annorum."
 
 #. [message]
-#: Troubled_Times/scenarios/11_the_last_battle.cfg:241
+#: Troubled_Times/scenarios/11_the_last_battle.cfg:249
 msgid "Now we only need to destory the stone"
 msgstr "Nunc tantum opus destruere lapidem"
-
-#~ msgid "Orcs"
-#~ msgstr "Orces"
-
-#~ msgid "Goblins"
-#~ msgstr "Orcules"
-
-#~ msgid "Undead"
-#~ msgstr "Inmortus"
-
-#~ msgid "Evil"
-#~ msgstr "Mali"
-
-#~ msgid "Saurians"
-#~ msgstr "Lacertae"
 
 #~ msgid "New leader takes command"
 #~ msgstr "Novum dux accipit imperium"
