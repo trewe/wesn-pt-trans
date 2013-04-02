@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2013-03-16 23:53+0100\n"
+"POT-Creation-Date: 2013-03-24 13:24+0100\n"
 "PO-Revision-Date: 2012-10-29 18:41-0300\n"
 "Last-Translator: gilberto dos santos alves <gsavix@gmail.com>\n"
 "Language-Team: Portuguese - Brasil\n"
@@ -179,7 +179,6 @@ msgstr ""
 #. [advanced_preference]: type=boolean
 #: data/advanced_preferences.cfg:164
 #, fuzzy
-#| msgid "Compressed saves"
 msgid "Compress savegames using bzip2"
 msgstr "Comprimir Jogos Salvo"
 
@@ -293,14 +292,12 @@ msgstr "Controle: Deadzone do Acelerador (Thruster)"
 #. [ai]: id=ai_default_rca
 #: data/ai/ais/ai_default_rca.cfg:5
 #, fuzzy
-#| msgid "Multiplayer_AI^RCA AI"
 msgid "Multiplayer_AI^Default AI (RCA)"
 msgstr "RCA AI"
 
 #. [ai]: id=experimental_ai
 #: data/ai/ais/ai_generic-rush.cfg:7
 #, fuzzy
-#| msgid "Multiplayer_AI^RCA AI"
 msgid "Multiplayer_AI^Experimental AI"
 msgstr "RCA AI"
 
@@ -381,8 +378,6 @@ msgstr ""
 #. [lua]: init
 #: data/ai/micro_ais/ais/mai_protect_unit_engine.lua:6079
 #, fuzzy
-#| msgid "Enemy unit sighted!"
-#| msgid_plural "$enemies enemy units sighted!"
 msgid "Enemy unit weight  (default: 100)"
 msgstr "Unidade inimiga à vista!"
 
@@ -490,7 +485,6 @@ msgstr ""
 #. [event]
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:226
 #, fuzzy
-#| msgid "Move leader here"
 msgid "Move Konrad here"
 msgstr "Mover líder aqui."
 
@@ -649,7 +643,6 @@ msgstr ""
 #. [side]
 #: data/ai/micro_ais/scenarios/animals.cfg:136
 #, fuzzy
-#| msgid "help"
 msgid "Whelps"
 msgstr "ajuda"
 
@@ -660,7 +653,6 @@ msgstr "ajuda"
 #: data/ai/micro_ais/scenarios/swarm.cfg:67
 #: data/ai/micro_ais/scenarios/wolves.cfg:96
 #, fuzzy
-#| msgid "End Scenario"
 msgid "End scenario"
 msgstr "Terminar o Cenário"
 
@@ -826,7 +818,6 @@ msgstr ""
 #. [objectives]
 #: data/ai/micro_ais/scenarios/bottleneck-defense.cfg:115
 #, fuzzy
-#| msgid "Save the Map As"
 msgid "Take the pass"
 msgstr "Salvar o Mapa como"
 
@@ -921,7 +912,6 @@ msgstr ""
 #. [objective]: condition=win
 #: data/ai/micro_ais/scenarios/dragon.cfg:101
 #, fuzzy
-#| msgid "Defeat"
 msgid "Defeat Rowck"
 msgstr "Derrota"
 
@@ -1097,21 +1087,18 @@ msgstr ""
 #. [event]
 #: data/ai/micro_ais/scenarios/guardians.cfg:331
 #, fuzzy
-#| msgid "Invalid location"
 msgid "Guarded Location"
 msgstr "Local inválido"
 
 #. [event]
 #: data/ai/micro_ais/scenarios/guardians.cfg:332
 #, fuzzy
-#| msgid "Faction"
 msgid "Station 1"
 msgstr "Facção"
 
 #. [event]
 #: data/ai/micro_ais/scenarios/guardians.cfg:333
 #, fuzzy
-#| msgid "Faction"
 msgid "Station 2"
 msgstr "Facção"
 
@@ -1259,7 +1246,6 @@ msgstr ""
 #: data/ai/micro_ais/scenarios/guardians.cfg:440
 #: data/ai/micro_ais/scenarios/patrols.cfg:211
 #, fuzzy
-#| msgid "Defeat enemy leader(s)"
 msgid "Defeat all enemy units"
 msgstr "Derrote o(s) lídere(s) inimigo(s)"
 
@@ -1424,7 +1410,6 @@ msgstr ""
 #: data/ai/micro_ais/scenarios/messenger-escort.cfg:140
 #: data/ai/micro_ais/scenarios/patrols.cfg:195
 #, fuzzy
-#| msgid "Notes:"
 msgid "Notes"
 msgstr "Notas:"
 
@@ -1450,7 +1435,6 @@ msgstr ""
 #. [objective]: condition=win
 #: data/ai/micro_ais/scenarios/lurkers.cfg:462
 #, fuzzy
-#| msgid "Clear all orders"
 msgid "Defeat all lurkers"
 msgstr "Cancelar todas as ordens"
 
@@ -1493,7 +1477,6 @@ msgstr ""
 #: data/ai/micro_ais/scenarios/messenger-escort.cfg:72
 #: data/ai/micro_ais/scenarios/scenario-micro_ai.cfg:71
 #, fuzzy
-#| msgid "Message:"
 msgid "Messenger"
 msgstr "Mensagem:"
 
@@ -1515,7 +1498,6 @@ msgstr ""
 #. [event]
 #: data/ai/micro_ais/scenarios/messenger-escort.cfg:129
 #, fuzzy
-#| msgid "Move leader here"
 msgid "AI moves Messenger here"
 msgstr "Mover líder aqui."
 
@@ -1742,7 +1724,6 @@ msgstr ""
 #. [event]
 #: data/ai/micro_ais/scenarios/protect-unit.cfg:121
 #, fuzzy
-#| msgid "Move leader here"
 msgid "Move Rossauba here"
 msgstr "Mover líder aqui."
 
@@ -1857,7 +1838,6 @@ msgstr ""
 #: data/ai/micro_ais/scenarios/recruiting.cfg:5
 #: data/ai/micro_ais/scenarios/scenario-micro_ai.cfg:77
 #, fuzzy
-#| msgid "Recruit"
 msgid "Recruiting"
 msgstr "Recrutar"
 
@@ -1912,7 +1892,6 @@ msgstr ""
 #: data/ai/micro_ais/scenarios/scenario-micro_ai.cfg:50
 #: data/ai/micro_ais/scenarios/swarm.cfg:5
 #, fuzzy
-#| msgid "Swarm: "
 msgid "Swarm"
 msgstr "Enxame: "
 
@@ -2364,7 +2343,6 @@ msgstr "Cenário remoto"
 #. [set_menu_item]: id=select_test
 #: data/ai/scenarios/scenario-AI_Arena_small.cfg:91
 #, fuzzy
-#| msgid "Select an add-on to update:"
 msgid "Select another test"
 msgstr "Selecione o Extra para atualização:"
 
@@ -2425,7 +2403,6 @@ msgstr ""
 #. [text_input]
 #: data/ai/scenarios/scenario-AI_Arena_small.cfg:213
 #, fuzzy
-#| msgid "Invalid location"
 msgid "AI Location:"
 msgstr "Local inválido"
 
@@ -2767,7 +2744,6 @@ msgstr "Tradução para o Russo"
 #. [about]
 #: data/core/about.cfg:2656
 #, fuzzy
-#| msgid "Galician Translation"
 msgid "Scottish Gaelic Translation"
 msgstr "Tradução para o Galício"
 
@@ -4647,8 +4623,8 @@ msgstr ""
 msgid ""
 "<i>― Royal Compendium of Battle Terminology: Volume II (reprinted 221YW)</i>"
 msgstr ""
-"<i>― Compêndio Real da Terminlogia de Batalha: Volume II (reimpressão "
-"221dW)</i>"
+"<i>― Compêndio Real da Terminlogia de Batalha: Volume II (reimpressão 221dW)"
+"</i>"
 
 #. [tip]
 #: data/hardwired/tips.cfg:48
@@ -5136,10 +5112,10 @@ msgid ""
 msgstr ""
 "A habilidade <i>lentidão</i> é extremamente poderosa porque tem efeitos em "
 "vários pontos. Inimigos mortos-vivos ganham metade do benefício de sua "
-"habilidade <i>drenar</i>, o bônus da <i>carga</i> ou <i>golpe por trás</i> "
-"é cancelado e a habilidade <i>frenesí</i> é enfraquecida. Inimigos velozes "
-"tem dificuldade para escapar e inimigos lentos são quase imobilizados. "
-"Unidades amigas sofrem menos dano de retaliação, então é mais fácil curá-las."
+"habilidade <i>drenar</i>, o bônus da <i>carga</i> ou <i>golpe por trás</i> é "
+"cancelado e a habilidade <i>frenesí</i> é enfraquecida. Inimigos velozes tem "
+"dificuldade para escapar e inimigos lentos são quase imobilizados. Unidades "
+"amigas sofrem menos dano de retaliação, então é mais fácil curá-las."
 
 #. [tip]
 #: data/hardwired/tips.cfg:208
@@ -5527,7 +5503,6 @@ msgstr "Você não tem um líder com quem convocar."
 
 #: src/actions/create.cpp:608
 #, fuzzy
-#| msgid "None of your leaders is able to recall that unit."
 msgid "None of your leaders are able to recall that unit."
 msgstr "Nenhum de seus líderes é capaz de convocar esta unidade."
 
@@ -5551,7 +5526,6 @@ msgstr "Você não tem um líder com quem recrutar"
 
 #: src/actions/create.cpp:744
 #, fuzzy
-#| msgid "None of your leaders is able to recall that unit."
 msgid "None of your leaders are able to recruit that unit."
 msgstr "Nenhum de seus líderes é capaz de convocar esta unidade."
 
@@ -5571,7 +5545,6 @@ msgstr ""
 
 #: src/actions/heal.cpp:257
 #, fuzzy
-#| msgid "female^slowed"
 msgid "female^cured"
 msgstr "lenta"
 
@@ -5617,44 +5590,36 @@ msgstr "(aperte $hotkey para continuar o movimento)"
 
 #: src/addon/client.cpp:66
 #, fuzzy
-#| msgid "Connecting to Server..."
 msgid "Connecting to $server_address|..."
 msgstr "Conectando ao servidor..."
 
 #: src/addon/client.cpp:78
 #, fuzzy
-#| msgid "Requesting list of add-ons"
 msgid "Downloading list of add-ons..."
 msgstr "Requisitando a lista de extras"
 
 #: src/addon/client.cpp:92
 #, fuzzy
-#| msgid "Requesting terms"
 msgid "Requesting distribution terms..."
 msgstr "Solicitando os termos"
 
 #: src/addon/client.cpp:141
 #, fuzzy
-#| msgid "Downloading add-on: $addon_title|..."
 msgid "Sending add-on <i>$addon_title</i>..."
 msgstr "Baixando o extra: $addon_title|..."
 
 #: src/addon/client.cpp:175
 #, fuzzy
-#| msgid "Downloading add-on: $addon_title|..."
 msgid "Removing add-on <i>$addon_title</i> from the server..."
 msgstr "Baixando o extra: $addon_title|..."
 
 #: src/addon/client.cpp:199
 #, fuzzy
-#| msgid "Downloading add-on: $addon_title|..."
 msgid "Downloading add-on <i>$addon_title</i>..."
 msgstr "Baixando o extra: $addon_title|..."
 
 #: src/addon/client.cpp:213
 #, fuzzy
-#| msgid ""
-#| "The add-on has an invalid file or directory name and cannot be installed."
 msgid ""
 "The add-on <i>$addon_title</i> has an invalid file or directory name and "
 "cannot be installed."
@@ -5664,7 +5629,6 @@ msgstr ""
 
 #: src/addon/client.cpp:301 src/addon/manager_ui.cpp:683
 #, fuzzy
-#| msgid "Add-on Installed"
 msgid "Add-ons Manager"
 msgstr "Extra instalado"
 
@@ -5698,7 +5662,6 @@ msgstr "Campanha MP"
 
 #: src/addon/info.cpp:163
 #, fuzzy
-#| msgid "addon_type^MP faction"
 msgid "addon_type^MP modification"
 msgstr "Facção MP"
 
@@ -5720,7 +5683,6 @@ msgstr "B"
 
 #: src/addon/manager_ui.cpp:98
 #, fuzzy
-#| msgid "Add-on Installed"
 msgid "addon_state^Not installed"
 msgstr "Extra instalado"
 
@@ -5730,7 +5692,6 @@ msgstr ""
 
 #: src/addon/manager_ui.cpp:105
 #, fuzzy
-#| msgid "Add-on Installed"
 msgid "addon_state^Installed"
 msgstr "Extra instalado"
 
@@ -5764,18 +5725,11 @@ msgstr ""
 
 #: src/addon/manager_ui.cpp:116
 #, fuzzy
-#| msgid "addon_type^(unknown)"
 msgid "addon_state^Unknown"
 msgstr "(desconhecido)"
 
 #: src/addon/manager_ui.cpp:149
 #, fuzzy
-#| msgid ""
-#| "The selected add-on has the following dependency. Do you want to install "
-#| "it?"
-#| msgid_plural ""
-#| "The selected add-on has the following dependencies. Do you want to "
-#| "install them?"
 msgid ""
 "The selected add-on has the following dependency, which is not currently "
 "installed or available from the server. Do you wish to continue?"
@@ -5788,7 +5742,6 @@ msgstr[1] ""
 
 #: src/addon/manager_ui.cpp:158
 #, fuzzy
-#| msgid "Install dependencies"
 msgid "Broken Dependencies"
 msgstr "Instalar dependências"
 
@@ -5816,18 +5769,11 @@ msgstr "Tipo"
 
 #: src/addon/manager_ui.cpp:205
 #, fuzzy
-#| msgid "Install dependencies"
 msgid "Install Dependencies"
 msgstr "Instalar dependências"
 
 #: src/addon/manager_ui.cpp:206
 #, fuzzy
-#| msgid ""
-#| "The selected add-on has the following dependency. Do you want to install "
-#| "it?"
-#| msgid_plural ""
-#| "The selected add-on has the following dependencies. Do you want to "
-#| "install them?"
 msgid ""
 "The selected add-on has the following dependency, which is not currently "
 "installed. Do you wish to install it before continuing?"
@@ -5842,7 +5788,6 @@ msgstr[1] ""
 #: src/addon/manager_ui.cpp:329 src/addon/manager_ui.cpp:334
 #: src/addon/manager_ui.cpp:816
 #, fuzzy
-#| msgid "The server responded with an error: \""
 msgid "The server responded with an error:"
 msgstr "O servidor respondeu com um erro: \""
 
@@ -5858,7 +5803,6 @@ msgstr[1] ""
 
 #: src/addon/manager_ui.cpp:257
 #, fuzzy
-#| msgid "Installation failed"
 msgid "Dependencies Installation Failed"
 msgstr "A instalação falhou"
 
@@ -5878,7 +5822,6 @@ msgstr ""
 
 #: src/addon/manager_ui.cpp:292
 #, fuzzy
-#| msgid "Do you want to continue?"
 msgid "Do you really wish to continue?"
 msgstr "Você quer continuar?"
 
@@ -5908,13 +5851,11 @@ msgstr "Termos"
 
 #: src/addon/manager_ui.cpp:516
 #, fuzzy
-#| msgid "New version"
 msgid "New Version"
 msgstr "Nova Versão"
 
 #: src/addon/manager_ui.cpp:516
 #, fuzzy
-#| msgid "Old version"
 msgid "Old Version"
 msgstr "Antiga Versão"
 
@@ -5924,13 +5865,11 @@ msgstr "Downloads"
 
 #: src/addon/manager_ui.cpp:643
 #, fuzzy
-#| msgid "Publish add-on: "
 msgid "Publish: $addon_title"
 msgstr "Publicar extra: "
 
 #: src/addon/manager_ui.cpp:652
 #, fuzzy
-#| msgid "Delete add-on: "
 msgid "Delete: $addon_title"
 msgstr "Apagar extra: "
 
@@ -5940,7 +5879,6 @@ msgstr "Não há extras disponíveis para pegar deste servidor."
 
 #: src/addon/manager_ui.cpp:680
 #, fuzzy
-#| msgid "There are no add-ons available for download from this server."
 msgid "There are no add-ons matching the specified criteria on this server."
 msgstr "Não há extras disponíveis para pegar deste servidor."
 
@@ -5955,13 +5893,11 @@ msgstr "Descrição"
 
 #: src/addon/manager_ui.cpp:717
 #, fuzzy
-#| msgid "Update all"
 msgid "Update All"
 msgstr "Atualizar Tudo"
 
 #: src/addon/manager_ui.cpp:724
 #, fuzzy
-#| msgid "Whiteboard Options"
 msgid "filter^Options"
 msgstr "Opções do Quadro-Branco"
 
@@ -5980,13 +5916,11 @@ msgstr "O extra  '$addon_title|' foi instalado."
 
 #: src/addon/manager_ui.cpp:831
 #, fuzzy
-#| msgid "The add-on '$addon_title|' has been successfully installed."
 msgid "The add-on '$addon_title|' has been successfully updated."
 msgstr "O extra  '$addon_title|' foi instalado."
 
 #: src/addon/manager_ui.cpp:836
 #, fuzzy
-#| msgid "Add-on Installed"
 msgid "Add-ons Installed"
 msgstr "Extra instalado"
 
@@ -5997,7 +5931,6 @@ msgstr "Extra apagado"
 
 #: src/addon/manager_ui.cpp:837
 #, fuzzy
-#| msgid "All add-ons updated successfully."
 msgid "All add-ons installed successfully."
 msgstr "Todos os extras foram atualizados com sucesso."
 
@@ -6007,22 +5940,16 @@ msgstr "Todos os extras foram atualizados com sucesso."
 
 #: src/addon/manager_ui.cpp:841
 #, fuzzy
-#| msgid "Installation failed"
 msgid "Installation Failed"
 msgstr "A instalação falhou"
 
 #: src/addon/manager_ui.cpp:841
 #, fuzzy
-#| msgid "Update failed"
 msgid "Update Failed"
 msgstr "Falha na Atualização"
 
 #: src/addon/manager_ui.cpp:843
 #, fuzzy
-#| msgid ""
-#| "The following add-on could not be downloaded or updated successfully:"
-#| msgid_plural ""
-#| "The following add-ons could not be downloaded or updated successfully:"
 msgid "The following add-on could not be downloaded or installed successfully:"
 msgid_plural ""
 "The following add-ons could not be downloaded or installed successfully:"
@@ -6031,7 +5958,6 @@ msgstr[1] "Os seguintes extras tiveram erros e não puderam ser carregados:"
 
 #: src/addon/manager_ui.cpp:885 src/addon/manager_ui.cpp:895
 #, fuzzy
-#| msgid "An error occurred while communicating with the server."
 msgid "An error occurred while downloading the add-ons list from the server."
 msgstr "Erro ao se comunicar com o servidor."
 
@@ -6272,7 +6198,6 @@ msgstr ""
 
 #: src/dialogs.cpp:620
 #, fuzzy
-#| msgid "Difficulty: "
 msgid "Change difficulty"
 msgstr "Dificuldade: "
 
@@ -6592,7 +6517,6 @@ msgstr "Você realmente quer mandá-lo embora?"
 #. TRANSLATORS: this string ends with a space
 #: src/menu_events.cpp:104
 #, fuzzy
-#| msgid "My lord, this unit is loyal and requires no upkeep! "
 msgid "This unit is loyal and requires no upkeep. "
 msgstr "Senhor, esta unidade é leal e não necessita nenhuma manutenção!"
 
@@ -6603,14 +6527,12 @@ msgstr "Você realmente quer mandá-la embora?"
 #. TRANSLATORS: this string ends with a space
 #: src/menu_events.cpp:108
 #, fuzzy
-#| msgid "My lord, this unit is an experienced one, having advanced levels! "
 msgid "This unit is an experienced one, having advanced levels. "
 msgstr "Senhor, esta unidade é experiente, e já passou alguns níveis! "
 
 #. TRANSLATORS: this string ends with a space
 #: src/menu_events.cpp:113
 #, fuzzy
-#| msgid "My lord, this unit is close to advancing a level! "
 msgid "This unit is close to advancing a level. "
 msgstr "Senhor, esta unidade está bem perto de passar de nível! "
 
@@ -6717,9 +6639,6 @@ msgstr ""
 
 #: src/menu_events.cpp:517
 #, fuzzy
-#| msgid ""
-#| "scenario settings^Gold Per\n"
-#| "Village"
 msgid ""
 "scenario settings^Support Per\n"
 "Village"
@@ -7540,7 +7459,6 @@ msgstr "Escolha a arma:"
 
 #: src/mp_depcheck.cpp:459
 #, fuzzy
-#| msgid "Install dependencies"
 msgid "Failed to resolve dependencies"
 msgstr "Instalar dependências"
 
@@ -7550,7 +7468,6 @@ msgstr ""
 
 #: src/mp_depcheck.cpp:541 src/mp_depcheck.cpp:664
 #, fuzzy
-#| msgid "No eras found."
 msgid "No compatible eras found."
 msgstr "Nenhuma Era encontrada."
 
@@ -7560,7 +7477,6 @@ msgstr ""
 
 #: src/mp_depcheck.cpp:610 src/mp_depcheck.cpp:701
 #, fuzzy
-#| msgid "No multiplayer sides found"
 msgid "No compatible scenarios found."
 msgstr "Sem lados multijogadores."
 
@@ -7590,9 +7506,6 @@ msgstr "Lendo do servidor..."
 
 #: src/multiplayer.cpp:178
 #, fuzzy
-#| msgid ""
-#| "The server requires version '$version1' while you are using version "
-#| "'$version2'"
 msgid ""
 "The server accepts versions '$version1' while you are using version "
 "'$version2'"
@@ -7860,7 +7773,6 @@ msgstr "Embaralhar times"
 
 #: src/multiplayer_create.cpp:100
 #, fuzzy
-#| msgid "Settings..."
 msgid "Options..."
 msgstr "Configurações..."
 
@@ -7914,7 +7826,6 @@ msgstr "Quantidade de receita que cada vila gera por turno"
 
 #: src/multiplayer_create.cpp:227
 #, fuzzy
-#| msgid "The maximum number of turns the game can last"
 msgid "The number of unit levels each village can support"
 msgstr "Número máximo de turnos do jogo"
 
@@ -8021,7 +7932,6 @@ msgstr "Ouro das Vilas: "
 
 #: src/multiplayer_create.cpp:515
 #, fuzzy
-#| msgid "Village gold: "
 msgid "Village support: "
 msgstr "Ouro das Vilas: "
 
@@ -8232,13 +8142,11 @@ msgstr "Salvo-automaticamente"
 
 #: src/play_controller.cpp:1142
 #, fuzzy
-#| msgid "Back to turn "
 msgid "Back to Turn "
 msgstr "Voltar ao turno "
 
 #: src/play_controller.cpp:1153
 #, fuzzy
-#| msgid "Back to turn "
 msgid "Back to Start"
 msgstr "Voltar ao turno "
 
@@ -8562,7 +8470,6 @@ msgstr "Defesa:"
 
 #: src/reports.cpp:558
 #, fuzzy
-#| msgid "Version: "
 msgid "vision: "
 msgstr "Versão: "
 
@@ -8584,7 +8491,6 @@ msgstr "Dano base: "
 
 #: src/reports.cpp:684 src/reports.cpp:718 src/reports.cpp:728
 #, fuzzy
-#| msgid "Weapon special: "
 msgid "With specials: "
 msgstr "Efeitos das Armas:"
 
@@ -8606,7 +8512,6 @@ msgstr "Ataques: "
 
 #: src/reports.cpp:703
 #, fuzzy
-#| msgid "Turn bonus: "
 msgid "Max swarm bonus: "
 msgstr "Bnus por Turno: "
 
@@ -8620,7 +8525,6 @@ msgstr "Ataques base: "
 
 #: src/reports.cpp:711
 #, fuzzy
-#| msgid "Weapon special: "
 msgid "Specials: "
 msgstr "Efeitos das Armas:"
 
@@ -8658,7 +8562,6 @@ msgstr "Nenhuma"
 
 #: src/reports.cpp:1076
 #, fuzzy
-#| msgid "Lawful units: "
 msgid "Lawful  units: "
 msgstr "Unidades Ordeiras: "
 
@@ -8690,7 +8593,6 @@ msgstr ""
 
 #: src/savegame.cpp:674
 #, fuzzy
-#| msgid "This save is from a version too old to be loaded."
 msgid ""
 "This save is from an old, unsupported version ($version_number|) and cannot "
 "be loaded."
@@ -8699,9 +8601,6 @@ msgstr ""
 
 #: src/savegame.cpp:683
 #, fuzzy
-#| msgid ""
-#| "This save is from a different version of the game. Do you want to try to "
-#| "load it?"
 msgid ""
 "This save is from a different version of the game ($version_number|). Do you "
 "wish to try to load it?"
@@ -8727,7 +8626,6 @@ msgstr "Sobreescrever?"
 
 #: src/savegame.cpp:900
 #, fuzzy
-#| msgid "Save names should not end on '.gz'. Please choose a different name."
 msgid ""
 "Save names should not end on '.gz' or '.bz2'. Please remove the extension."
 msgstr ""
@@ -8769,7 +8667,6 @@ msgstr "Caracteres inesperados no começo da linha"
 
 #: src/serialization/parser.cpp:146
 #, fuzzy
-#| msgid "Missing closing tag for tag $tag at $pos"
 msgid "Missing closing tag for tag [$tag] at $pos"
 msgstr "Falta fechar a tag $tag na posição $pos"
 
@@ -8799,7 +8696,6 @@ msgstr "Tag de fechamento inesperada"
 
 #: src/serialization/parser.cpp:209
 #, fuzzy
-#| msgid "Found invalid closing tag $tag2 for tag $tag1 (opened at $pos)"
 msgid "Found invalid closing tag [/$tag2] for tag [$tag1] (opened at $pos)"
 msgstr ""
 "Encontrou tag de fechamento $tag2 inválida para a tag $tag1 (aberta na "
@@ -8929,13 +8825,11 @@ msgstr "Cenário remoto"
 
 #: src/statistics_dialog.cpp:226 src/statistics_dialog.cpp:304
 #, fuzzy
-#| msgid "Campaign Design"
 msgid "Campaign"
 msgstr "Designer de Campanha"
 
 #: src/statistics_dialog.cpp:226 src/statistics_dialog.cpp:304
 #, fuzzy
-#| msgid "End Scenario"
 msgid "Scenario"
 msgstr "Terminar o Cenário"
 

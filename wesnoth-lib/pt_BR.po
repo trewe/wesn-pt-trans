@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.9.5-CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2013-03-16 23:53+0100\n"
+"POT-Creation-Date: 2013-03-24 13:24+0100\n"
 "PO-Revision-Date: 2013-03-10 03:55-0300\n"
 "Last-Translator: Gilberto dos Santos Alves <gsavix@gmail.com>\n"
 "Language-Team: Portuguese/Brazil\n"
@@ -262,7 +262,6 @@ msgstr "Moinho de Vento"
 #. [terrain_type]: id=campfire
 #: data/core/terrain.cfg:409
 #, fuzzy
-#| msgid "Campaign"
 msgid "Campfire"
 msgstr "Campanha"
 
@@ -333,21 +332,18 @@ msgstr "Floresta Tropical"
 #. [terrain_type]: id=rainforest
 #: data/core/terrain.cfg:497
 #, fuzzy
-#| msgid "Pine Forest"
 msgid "Rainforest"
 msgstr "Pinheiros"
 
 #. [terrain_type]: id=palm_desert_forest
 #: data/core/terrain.cfg:509
 #, fuzzy
-#| msgid "Pine Forest"
 msgid "Palm Forest"
 msgstr "Pinheiros"
 
 #. [terrain_type]: id=palm_forest
 #: data/core/terrain.cfg:521
 #, fuzzy
-#| msgid "Pine Forest"
 msgid "Dense Palm Forest"
 msgstr "Pinheiros"
 
@@ -530,28 +526,24 @@ msgstr "Morros com Floresta Mista Nevosa"
 #. [terrain_type]: id=forest_tropical_hills
 #: data/core/terrain.cfg:856
 #, fuzzy
-#| msgid "Tropical Forest"
 msgid "Tropical Forested Hills"
 msgstr "Floresta Tropical"
 
 #. [terrain_type]: id=forest_palm_desert_hills
 #: data/core/terrain.cfg:867
 #, fuzzy
-#| msgid "Forested Hills"
 msgid "Palm Forested Hills"
 msgstr "Morros com Floresta"
 
 #. [terrain_type]: id=forest_palm_hills
 #: data/core/terrain.cfg:878
 #, fuzzy
-#| msgid "Forested Hills"
 msgid "Dense Palm Forested Hills"
 msgstr "Morros com Floresta"
 
 #. [terrain_type]: id=savanna_hills
 #: data/core/terrain.cfg:889
 #, fuzzy
-#| msgid "Forested Hills"
 msgid "Savanna Forested Hills"
 msgstr "Morros com Floresta"
 
@@ -927,7 +919,6 @@ msgstr "Vila Pantanosa"
 #. [terrain_type]: id=mermen-village
 #: data/core/terrain.cfg:1607
 #, fuzzy
-#| msgid "Swamp Merfolk Village"
 msgid "Merfolk Village"
 msgstr "Vila Aquática"
 
@@ -1195,7 +1186,6 @@ msgstr "Ponte do Abismo de Caverna"
 #: data/core/terrain.cfg:2159 data/core/terrain.cfg:2170
 #: data/core/terrain.cfg:2181
 #, fuzzy
-#| msgid "Rotting Bridge"
 msgid "Hanging Bridge"
 msgstr "Ponte Apodrecendo"
 
@@ -1205,7 +1195,6 @@ msgstr "Ponte Apodrecendo"
 #: data/core/terrain.cfg:2195 data/core/terrain.cfg:2205
 #: data/core/terrain.cfg:2215
 #, fuzzy
-#| msgid "Cave Chasm Bridge"
 msgid "Stone Chasm Bridge"
 msgstr "Ponte do Abismo de Caverna"
 
@@ -1215,7 +1204,6 @@ msgstr "Ponte do Abismo de Caverna"
 #: data/core/terrain.cfg:2227 data/core/terrain.cfg:2237
 #: data/core/terrain.cfg:2247
 #, fuzzy
-#| msgid "Bridge"
 msgid "Plank Bridge"
 msgstr "Ponte"
 
@@ -1273,7 +1261,7 @@ msgstr ""
 #: data/gui/default/widget/window_default.cfg:140
 #: data/gui/default/window/addon_filter_options.cfg:314
 #: data/gui/default/window/chat_log.cfg:121
-#: data/gui/default/window/gamestate_inspector.cfg:339
+#: data/gui/default/window/gamestate_inspector.cfg:254
 #: data/gui/default/window/lobby_main.cfg:619
 #: data/gui/default/window/lobby_player_info.cfg:200
 #: data/gui/default/window/message.cfg:135 src/construct_dialog.cpp:136
@@ -1363,7 +1351,6 @@ msgstr "Cancelar"
 #. [label]
 #: data/gui/default/window/addon_description.cfg:88
 #, fuzzy
-#| msgid "Type"
 msgid "Type:"
 msgstr "Tipo"
 
@@ -1380,7 +1367,6 @@ msgstr "Versão:"
 #. [label]
 #: data/gui/default/window/addon_description.cfg:180
 #, fuzzy
-#| msgid "Status"
 msgid "Status:"
 msgstr "Status"
 
@@ -1472,7 +1458,6 @@ msgstr ""
 #. [label]
 #: data/gui/default/window/addon_filter_options.cfg:156
 #, fuzzy
-#| msgid "Multiplayer Options"
 msgid "Filter Options"
 msgstr "Opções de Multijogador"
 
@@ -1484,21 +1469,18 @@ msgstr ""
 #. [label]
 #: data/gui/default/window/addon_filter_options.cfg:205
 #, fuzzy
-#| msgid "Translations:"
 msgid "Installation status:"
 msgstr "Traduções:"
 
 #. [label]
 #: data/gui/default/window/addon_filter_options.cfg:248
 #, fuzzy
-#| msgid "Add-ons"
 msgid "Add-on types:"
 msgstr "Add-ons"
 
 #. [button]: id=toggle_all_displayed_types
 #: data/gui/default/window/addon_filter_options.cfg:261
 #, fuzzy
-#| msgid "Toggle Ellipses"
 msgid "Toggle All"
 msgstr "Alternar Elipses"
 
@@ -1524,7 +1506,6 @@ msgstr "Remover"
 #. [label]
 #: data/gui/default/window/campaign_dialog.cfg:55
 #, fuzzy
-#| msgid "Play a campaign"
 msgid "Play a Campaign"
 msgstr "Jogar uma campanha"
 
@@ -1672,7 +1653,6 @@ msgstr "Apenas time"
 #. [toggle_button]: id=immutable_toggle
 #: data/gui/default/window/editor_edit_label.cfg:112
 #, fuzzy
-#| msgid "Impassable"
 msgid "Immutable"
 msgstr "Impassável"
 
@@ -1729,7 +1709,6 @@ msgstr "Altura:"
 #. [button]: id=ok
 #: data/gui/default/window/editor_new_map.cfg:115
 #, fuzzy
-#| msgid "Create Game"
 msgid "Create"
 msgstr "Criar Jogo"
 
@@ -1762,7 +1741,6 @@ msgstr "Velha altura:"
 #. [label]
 #: data/gui/default/window/editor_resize_map.cfg:154
 #, fuzzy
-#| msgid "Expand / shrink direction"
 msgid "Expand/shrink direction:"
 msgstr "Expandir / encolher direção"
 
@@ -1774,7 +1752,6 @@ msgstr "Copiar fronteira de terreno"
 #. [button]: id=ok
 #: data/gui/default/window/editor_resize_map.cfg:274
 #, fuzzy
-#| msgid "Resize Map"
 msgid "Resize"
 msgstr "Redimensionar Mapa"
 
@@ -1872,7 +1849,6 @@ msgstr "Chamar pilha"
 
 #. [label]
 #: data/gui/default/window/formula_debugger.cfg:94
-#: data/gui/default/window/gamestate_inspector.cfg:276
 msgid "Actions"
 msgstr "Ações"
 
@@ -1927,7 +1903,6 @@ msgstr "Você realmente quer apagar este jogo?"
 #: data/gui/default/window/game_delete.cfg:80
 #: data/gui/default/window/mp_host_game_prompt.cfg:79
 #, fuzzy
-#| msgid "Do not show lobby joins"
 msgid "Do not show again"
 msgstr "Não Mostrar Entrada na sala de espera"
 
@@ -1975,7 +1950,6 @@ msgstr "Apagar"
 #. [toggle_button]: id=change_difficulty
 #: data/gui/default/window/game_load.cfg:383
 #, fuzzy
-#| msgid "Difficulty"
 msgid "Change difficulty"
 msgstr "Dificuldade"
 
@@ -2034,36 +2008,27 @@ msgid "Save already exists. Do you want to overwrite it?"
 msgstr "Arquivo já existente. Deseja sobrescrevê-lo?"
 
 #. [label]
-#: data/gui/default/window/gamestate_inspector.cfg:46
+#: data/gui/default/window/gamestate_inspector.cfg:45
 msgid "Gamestate Inspector"
 msgstr "Inspeciona Sit. Jogo"
 
-#. [label]
-#: data/gui/default/window/gamestate_inspector.cfg:100
-msgid "Types"
-msgstr "Tipos"
-
-#. [label]
-#: data/gui/default/window/gamestate_inspector.cfg:111
-msgid "Content"
-msgstr "Conteúdo"
-
-#. [label]
-#: data/gui/default/window/gamestate_inspector.cfg:122
-msgid "Inspection window"
-msgstr "Janela de inspeção"
-
 #. [label]: id=typename
 #. [label]: id=unit_type
-#: data/gui/default/window/gamestate_inspector.cfg:153
+#: data/gui/default/window/gamestate_inspector.cfg:102
 #: data/gui/default/window/unit_create.cfg:131
 msgid "Type"
 msgstr "Tipo"
 
 #. [label]: id=name
-#: data/gui/default/window/gamestate_inspector.cfg:214
-msgid "Variable"
-msgstr "Variável"
+#: data/gui/default/window/gamestate_inspector.cfg:164
+msgid "Items"
+msgstr ""
+
+#. [label]
+#: data/gui/default/window/gamestate_inspector.cfg:223
+#, fuzzy
+msgid "Contents"
+msgstr "Conteúdo"
 
 #. [grid]
 #. [label]
@@ -2453,7 +2418,6 @@ msgstr "Tempo inicial aleatório"
 #. [label]
 #: data/gui/default/window/mp_create_game_choose_mods.cfg:54
 #, fuzzy
-#| msgid "Choose Resolution"
 msgid "Choose Modifications"
 msgstr "Escolher a resolução"
 
@@ -2490,7 +2454,6 @@ msgstr ""
 #: data/gui/default/window/mp_depcheck_select_new.cfg:40
 #: data/gui/default/window/mp_depcheck_select_new.cfg:59
 #, fuzzy
-#| msgid "User interface sounds"
 msgid "User interaction required"
 msgstr "Sons de Interface do Usuário"
 
@@ -3044,7 +3007,6 @@ msgstr ""
 
 #: src/game_preferences_display.cpp:369
 #, fuzzy
-#| msgid "Delete auto-saves on SP/MP victory or MP defeat"
 msgid ""
 "Deletes previous auto-saves on victory in all modes and defeat in multiplayer"
 msgstr "Apagar jogos salvos após vitória em SJ/MJ ou derrota em MJ"
@@ -3059,13 +3021,11 @@ msgstr "Ordena a lista de jogadores na sala de espera por grupos de jogadores"
 
 #: src/game_preferences_display.cpp:377
 #, fuzzy
-#| msgid "Show icons in front of the player names in the lobby."
 msgid "Show icons in front of the player names in the lobby"
 msgstr "Mostra ícones na frente dos nomes dos jogadores na sala de espera."
 
 #: src/game_preferences_display.cpp:380
 #, fuzzy
-#| msgid "Uncheck to delete the saved password (on exit)."
 msgid "Uncheck to delete the saved password (on exit)"
 msgstr "Desmarcar para deletar a senha salva (na saída)."
 
@@ -3083,7 +3043,6 @@ msgstr "Mostra mensagens sobre todos os jogadores entrando na sala de espera"
 
 #: src/game_preferences_display.cpp:390
 #, fuzzy
-#| msgid "Find and set path to MP server to host LAN games."
 msgid "Find and set path to MP server to host LAN games"
 msgstr ""
 "Achar e escolher caminho para servidor multijogador para hospedar jogos em "
@@ -3399,21 +3358,20 @@ msgstr ""
 msgid "addon_state^Unknown"
 msgstr ""
 
-#: src/gui/dialogs/addon/filter_options.cpp:142
+#: src/gui/dialogs/addon/filter_options.cpp:182
 msgid "addons_view^Not Installed"
 msgstr ""
 
-#: src/gui/dialogs/addon/filter_options.cpp:144
+#: src/gui/dialogs/addon/filter_options.cpp:184
 msgid "addons_view^Upgradable"
 msgstr ""
 
-#: src/gui/dialogs/addon/filter_options.cpp:146
+#: src/gui/dialogs/addon/filter_options.cpp:186
 msgid "addons_view^Installed"
 msgstr ""
 
-#: src/gui/dialogs/addon/filter_options.cpp:148
+#: src/gui/dialogs/addon/filter_options.cpp:188
 #, fuzzy
-#| msgid "Uninstall Add-ons"
 msgid "addons_view^All Add-ons"
 msgstr "Desinstalar Complementos"
 
@@ -3581,7 +3539,6 @@ msgstr "Falha ao exibir uma caixa de diálogo, que não cabe na tela."
 
 #: src/hotkey_preferences_display.cpp:148
 #, fuzzy
-#| msgid "Hotkeys"
 msgid "Hotkeys Reset"
 msgstr "Teclas de Atalho"
 
@@ -3595,7 +3552,6 @@ msgstr "Configuração de tecla de atalho"
 
 #: src/hotkey_preferences_display.cpp:170
 #, fuzzy
-#| msgid "Default"
 msgid "Defaults"
 msgstr "padrão"
 
@@ -3605,19 +3561,16 @@ msgstr ""
 
 #: src/hotkey_preferences_display.cpp:217
 #, fuzzy
-#| msgid "Prefs section^General"
 msgid "Prefs section^Game"
 msgstr "Geral"
 
 #: src/hotkey_preferences_display.cpp:219
 #, fuzzy
-#| msgid "Prefs section^Sound"
 msgid "Prefs section^Editor"
 msgstr "Som"
 
 #: src/hotkey_preferences_display.cpp:246
 #, fuzzy
-#| msgid "Hotkeys"
 msgid "Add Hotkey"
 msgstr "Teclas de Atalho"
 
@@ -3657,19 +3610,16 @@ msgstr ""
 
 #: src/hotkey_preferences_display.cpp:659
 #, fuzzy
-#| msgid "Clear Hotkey"
 msgid "Reassign Hotkey"
 msgstr "Limpar tecla de atalho"
 
 #: src/hotkeys.cpp:62
 #, fuzzy
-#| msgid "Flip Clipboard Horizontally"
 msgid "Scroll Viewport Horizontally"
 msgstr "Inverter Quadro Horizontalmente"
 
 #: src/hotkeys.cpp:63
 #, fuzzy
-#| msgid "Flip Clipboard Vertically"
 msgid "Scroll Viewport Vertically"
 msgstr "Inverter Quadro Verticalmente"
 
@@ -3823,7 +3773,6 @@ msgstr "Continuar Jogo em Rede"
 
 #: src/hotkeys.cpp:111
 #, fuzzy
-#| msgid "Start Editor"
 msgid "Quit Editor"
 msgstr "Iniciar Editor"
 
@@ -3886,21 +3835,18 @@ msgstr "Pular Animação"
 #. TRANSLATORS: whiteboard menu entry: toggle planning mode
 #: src/hotkeys.cpp:128
 #, fuzzy
-#| msgid "Toggle Planning Mode"
 msgid "whiteboard^Planning Mode"
 msgstr "Habilitar/Desabilitar Modo de Planejamento"
 
 #. TRANSLATORS: whiteboard menu entry: execute planned action
 #: src/hotkeys.cpp:130
 #, fuzzy
-#| msgid "Execute All Actions"
 msgid "whiteboard^Execute Action"
 msgstr "Executar todas as ações"
 
 #. TRANSLATORS: whiteboard menu entry: execute all planned actions
 #: src/hotkeys.cpp:132
 #, fuzzy
-#| msgid "Execute All Actions"
 msgid "whiteboard^Execute All Actions"
 msgstr "Executar todas as ações"
 
@@ -3912,21 +3858,18 @@ msgstr "quadro branco Ação Deletar"
 #. TRANSLATORS: whiteboard menu entry: move planned action up queue
 #: src/hotkeys.cpp:136
 #, fuzzy
-#| msgid "Move Action Up Queue"
 msgid "whiteboard^Move Action Up"
 msgstr "Mover Ação para cima da Fila"
 
 #. TRANSLATORS: whiteboard menu entry: move planned action down queue
 #: src/hotkeys.cpp:138
 #, fuzzy
-#| msgid "Move Action Down Queue"
 msgid "whiteboard^Move Action Down"
 msgstr "Mover Ação para Baixo da Fila"
 
 #. TRANSLATORS: whiteboard menu entry: plan as though the chosen unit were dead
 #: src/hotkeys.cpp:140
 #, fuzzy
-#| msgid "Suppose Dead"
 msgid "whiteboard^Suppose Dead"
 msgstr "Supor Morte"
 
@@ -3968,13 +3911,11 @@ msgstr "Informação do Mapa"
 
 #: src/hotkeys.cpp:154
 #, fuzzy
-#| msgid "Next Side"
 msgid "Add New Side"
 msgstr "Próximo time"
 
 #: src/hotkeys.cpp:155
 #, fuzzy
-#| msgid "Switch Map"
 msgid "Switch Side"
 msgstr "Trocar Mapa"
 
@@ -4012,25 +3953,21 @@ msgstr "Ferramenta de Seleção"
 
 #: src/hotkeys.cpp:164
 #, fuzzy
-#| msgid "Set Starting Positions Tool"
 msgid "Starting Positions Tool"
 msgstr "Colocar Posições Iniciais"
 
 #: src/hotkeys.cpp:165
 #, fuzzy
-#| msgid "Fill Tool"
 msgid "Label Tool"
 msgstr "Balde"
 
 #: src/hotkeys.cpp:166
 #, fuzzy
-#| msgid "Paint Tool"
 msgid "Unit Tool"
 msgstr "Pincel"
 
 #: src/hotkeys.cpp:167
 #, fuzzy
-#| msgid "Village gold"
 msgid "Village Tool"
 msgstr "Ouro por Aldeia"
 
@@ -4136,19 +4073,16 @@ msgstr "Atualizar Automaticamente Transições de Terreno"
 
 #: src/hotkeys.cpp:196
 #, fuzzy
-#| msgid "Auto-update Terrain Transitions"
 msgid "Auto-update Terrain Transitions: Yes"
 msgstr "Atualizar Automaticamente Transições de Terreno"
 
 #: src/hotkeys.cpp:197
 #, fuzzy
-#| msgid "Auto-update Terrain Transitions"
 msgid "Auto-update Terrain Transitions: No"
 msgstr "Atualizar Automaticamente Transições de Terreno"
 
 #: src/hotkeys.cpp:198
 #, fuzzy
-#| msgid "Auto-update Terrain Transitions"
 msgid "Auto-update Terrain Transitions: Partial"
 msgstr "Atualizar Automaticamente Transições de Terreno"
 
@@ -4274,7 +4208,6 @@ msgstr ""
 
 #: src/hotkeys.cpp:377
 #, fuzzy
-#| msgid "Height:"
 msgid "Right"
 msgstr "Altura:"
 
@@ -4304,13 +4237,11 @@ msgstr ""
 
 #: src/hotkeys.cpp:398
 #, fuzzy
-#| msgid "Unknown era"
 msgid "Unknown"
 msgstr "Era desconhecida"
 
 #: src/hotkeys.cpp:401
 #, fuzzy
-#| msgid "Hut"
 msgid "Hat"
 msgstr "Cabana"
 
@@ -4374,7 +4305,6 @@ msgstr "Estradas entre castelos"
 
 #: src/mapgen_dialog.cpp:257
 #, fuzzy
-#| msgid "Show floating labels"
 msgid "Show labels"
 msgstr "Mostrar nomes flutuantes"
 
@@ -4472,6 +4402,15 @@ msgid ""
 msgstr ""
 "A chave '$deprecated_key' foi renomeada para '$key'. Suporte para "
 "'$deprecated_key' será removido na versão $removal_version."
+
+#~ msgid "Types"
+#~ msgstr "Tipos"
+
+#~ msgid "Inspection window"
+#~ msgstr "Janela de inspeção"
+
+#~ msgid "Variable"
+#~ msgstr "Variável"
 
 #~ msgid "Update Add-ons"
 #~ msgstr "Atualizar Complementos"
