@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.1-svn\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2013-03-24 13:24+0100\n"
-"PO-Revision-Date: 2013-03-10 11:23+0100\n"
+"PO-Revision-Date: 2013-04-12 14:43+0100\n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: wesn-pt-trans\n"
 "Language: pt\n"
@@ -26,7 +26,9 @@ msgstr ""
 #. [terrain_type]: id=deep_water
 #. [terrain_type]: id=deep_water_gray
 #. [terrain_type]: id=deep_water_tropical
-#: data/core/terrain.cfg:18 data/core/terrain.cfg:29 data/core/terrain.cfg:39
+#: data/core/terrain.cfg:18
+#: data/core/terrain.cfg:29
+#: data/core/terrain.cfg:39
 msgid "Deep Water"
 msgstr "Águas Profundas"
 
@@ -58,7 +60,9 @@ msgstr "Águas Profundas tropicais"
 #. [terrain_type]: id=gray_tropical_water
 #. [terrain_type]: id=shallow_water
 #. [terrain_type]: id=tropical_water
-#: data/core/terrain.cfg:50 data/core/terrain.cfg:61 data/core/terrain.cfg:71
+#: data/core/terrain.cfg:50
+#: data/core/terrain.cfg:61
+#: data/core/terrain.cfg:71
 msgid "Shallow Water"
 msgstr "Águas Rasas"
 
@@ -97,7 +101,8 @@ msgstr "Vau"
 #. [terrain_type]: id=gray_reef
 #. [terrain_type]: id=reef
 #. [terrain_type]: id=tropical_reef
-#: data/core/terrain.cfg:92 data/core/terrain.cfg:103
+#: data/core/terrain.cfg:92
+#: data/core/terrain.cfg:103
 #: data/core/terrain.cfg:112
 msgid "Coastal Reef"
 msgstr "Recife Costeiro"
@@ -121,7 +126,8 @@ msgstr "Recife Costeiro tropical"
 # File: data/core/terrain.cfg, line: 134
 #. [terrain_type]: id=quagmire
 #. [terrain_type]: id=swamp_water
-#: data/core/terrain.cfg:125 data/core/terrain.cfg:134
+#: data/core/terrain.cfg:125
+#: data/core/terrain.cfg:134
 msgid "Swamp"
 msgstr "Pântano"
 
@@ -141,8 +147,10 @@ msgstr "charco lamacento"
 #. [terrain_type]: id=grassland
 #. [terrain_type]: id=leaf_litter
 #. [terrain_type]: id=savanna
-#: data/core/terrain.cfg:152 data/core/terrain.cfg:163
-#: data/core/terrain.cfg:174 data/core/terrain.cfg:184
+#: data/core/terrain.cfg:152
+#: data/core/terrain.cfg:163
+#: data/core/terrain.cfg:174
+#: data/core/terrain.cfg:184
 msgid "Grassland"
 msgstr "Planície"
 
@@ -181,7 +189,8 @@ msgstr "folhedo"
 #. [terrain_type]: id=dirt
 #. [terrain_type]: id=dirt_dark
 #. [terrain_type]: id=dirt_dry
-#: data/core/terrain.cfg:196 data/core/terrain.cfg:206
+#: data/core/terrain.cfg:196
+#: data/core/terrain.cfg:206
 #: data/core/terrain.cfg:216
 msgid "Dirt"
 msgstr "Terra Seca"
@@ -218,8 +227,10 @@ msgstr "Terra Seca"
 #. [terrain_type]: id=road
 #. [terrain_type]: id=road_clean
 #. [terrain_type]: id=stone_path
-#: data/core/terrain.cfg:226 data/core/terrain.cfg:236
-#: data/core/terrain.cfg:246 data/core/terrain.cfg:946
+#: data/core/terrain.cfg:226
+#: data/core/terrain.cfg:236
+#: data/core/terrain.cfg:246
+#: data/core/terrain.cfg:946
 #: data/core/terrain.cfg:956
 msgid "Road"
 msgstr "Estrada"
@@ -405,7 +416,8 @@ msgstr "Florescimento dos lírios de água"
 # File: data/core/terrain.cfg, line: 472
 #. [terrain_type]: id=great_tree
 #. [terrain_type]: id=great_tree_dead
-#: data/core/terrain.cfg:460 data/core/terrain.cfg:461
+#: data/core/terrain.cfg:460
+#: data/core/terrain.cfg:461
 #: data/core/terrain.cfg:472
 msgid "Great Tree"
 msgstr "Grande Árvore"
@@ -450,14 +462,22 @@ msgstr "Grande Árvore Morta"
 #. [terrain_type]: id=savanna_forest
 #. [terrain_type]: id=snow_forest
 #. [terrain_type]: id=tropical_forest
-#: data/core/terrain.cfg:484 data/core/terrain.cfg:496
-#: data/core/terrain.cfg:508 data/core/terrain.cfg:520
-#: data/core/terrain.cfg:532 data/core/terrain.cfg:544
-#: data/core/terrain.cfg:556 data/core/terrain.cfg:568
-#: data/core/terrain.cfg:580 data/core/terrain.cfg:592
-#: data/core/terrain.cfg:604 data/core/terrain.cfg:616
-#: data/core/terrain.cfg:628 data/core/terrain.cfg:640
-#: data/core/terrain.cfg:652 data/core/terrain.cfg:2311
+#: data/core/terrain.cfg:484
+#: data/core/terrain.cfg:496
+#: data/core/terrain.cfg:508
+#: data/core/terrain.cfg:520
+#: data/core/terrain.cfg:532
+#: data/core/terrain.cfg:544
+#: data/core/terrain.cfg:556
+#: data/core/terrain.cfg:568
+#: data/core/terrain.cfg:580
+#: data/core/terrain.cfg:592
+#: data/core/terrain.cfg:604
+#: data/core/terrain.cfg:616
+#: data/core/terrain.cfg:628
+#: data/core/terrain.cfg:640
+#: data/core/terrain.cfg:652
+#: data/core/terrain.cfg:2311
 msgid "Forest"
 msgstr "Floresta"
 
@@ -601,14 +621,22 @@ msgstr "Floresta mista gelada"
 #. [terrain_type]: id=mixed_forest_winter_snow_hills
 #. [terrain_type]: id=savanna_hills
 #. [terrain_type]: id=snow_hills
-#: data/core/terrain.cfg:668 data/core/terrain.cfg:677
-#: data/core/terrain.cfg:697 data/core/terrain.cfg:745
-#: data/core/terrain.cfg:756 data/core/terrain.cfg:767
-#: data/core/terrain.cfg:778 data/core/terrain.cfg:789
-#: data/core/terrain.cfg:800 data/core/terrain.cfg:811
-#: data/core/terrain.cfg:822 data/core/terrain.cfg:833
-#: data/core/terrain.cfg:844 data/core/terrain.cfg:855
-#: data/core/terrain.cfg:866 data/core/terrain.cfg:877
+#: data/core/terrain.cfg:668
+#: data/core/terrain.cfg:677
+#: data/core/terrain.cfg:697
+#: data/core/terrain.cfg:745
+#: data/core/terrain.cfg:756
+#: data/core/terrain.cfg:767
+#: data/core/terrain.cfg:778
+#: data/core/terrain.cfg:789
+#: data/core/terrain.cfg:800
+#: data/core/terrain.cfg:811
+#: data/core/terrain.cfg:822
+#: data/core/terrain.cfg:833
+#: data/core/terrain.cfg:844
+#: data/core/terrain.cfg:855
+#: data/core/terrain.cfg:866
+#: data/core/terrain.cfg:877
 #: data/core/terrain.cfg:888
 msgid "Hills"
 msgstr "Colinas"
@@ -654,9 +682,12 @@ msgstr "Colinas Geladas"
 #. [terrain_type]: id=desert_mountains
 #. [terrain_type]: id=mountains
 #. [terrain_type]: id=snow_mountains
-#: data/core/terrain.cfg:712 data/core/terrain.cfg:720
-#: data/core/terrain.cfg:730 data/core/terrain.cfg:1112
-#: data/core/terrain.cfg:1122 data/core/terrain.cfg:1132
+#: data/core/terrain.cfg:712
+#: data/core/terrain.cfg:720
+#: data/core/terrain.cfg:730
+#: data/core/terrain.cfg:1112
+#: data/core/terrain.cfg:1122
+#: data/core/terrain.cfg:1132
 msgid "Mountains"
 msgstr "Montanhas"
 
@@ -805,7 +836,8 @@ msgstr "Raio de luz"
 # File: data/core/terrain.cfg, line: 936
 #. [terrain_type]: id=cave
 #. [terrain_type]: id=cave_earthy
-#: data/core/terrain.cfg:927 data/core/terrain.cfg:936
+#: data/core/terrain.cfg:927
+#: data/core/terrain.cfg:936
 msgid "Cave"
 msgstr "Caverna"
 
@@ -842,7 +874,8 @@ msgstr "Trilha na Caverna"
 # File: data/core/terrain.cfg, line: 975
 #. [terrain_type]: id=fungus
 #. [terrain_type]: id=fungus_beam
-#: data/core/terrain.cfg:966 data/core/terrain.cfg:975
+#: data/core/terrain.cfg:966
+#: data/core/terrain.cfg:975
 msgid "Mushroom Grove"
 msgstr "Caverna de cogumelos"
 
@@ -867,7 +900,8 @@ msgstr "Cavernas Rochosas"
 #. [terrain_type]: id=mine_rails
 #. [terrain_type]: id=mine_railsdiag1
 #. [terrain_type]: id=mine_railsdiag2
-#: data/core/terrain.cfg:999 data/core/terrain.cfg:1011
+#: data/core/terrain.cfg:999
+#: data/core/terrain.cfg:1011
 #: data/core/terrain.cfg:1023
 msgid "Mine Rail"
 msgstr "mina ferroviária"
@@ -881,8 +915,10 @@ msgstr "mina ferroviária"
 #. [terrain_type]: id=canyon
 #. [terrain_type]: id=chasm_earthy
 #. [terrain_type]: id=lava_chasm
-#: data/core/terrain.cfg:1040 data/core/terrain.cfg:1051
-#: data/core/terrain.cfg:1062 data/core/terrain.cfg:1073
+#: data/core/terrain.cfg:1040
+#: data/core/terrain.cfg:1051
+#: data/core/terrain.cfg:1062
+#: data/core/terrain.cfg:1073
 msgid "Chasm"
 msgstr "Desfiladeiro"
 
@@ -958,8 +994,10 @@ msgstr "Montanhas Impassíveis geladas"
 #. [terrain_type]: id=cavewall_earthy
 #. [terrain_type]: id=cavewall_earthy_hewn
 #. [terrain_type]: id=cavewall_hewn
-#: data/core/terrain.cfg:1143 data/core/terrain.cfg:1154
-#: data/core/terrain.cfg:1165 data/core/terrain.cfg:1176
+#: data/core/terrain.cfg:1143
+#: data/core/terrain.cfg:1154
+#: data/core/terrain.cfg:1165
+#: data/core/terrain.cfg:1176
 msgid "Cave Wall"
 msgstr "Parede de Caverna"
 
@@ -996,7 +1034,8 @@ msgstr "Parede de Caverna terrosa Reforçada"
 # File: data/core/terrain.cfg, line: 1197
 #. [terrain_type]: id=wall_stone
 #. [terrain_type]: id=wall_stone_lit
-#: data/core/terrain.cfg:1187 data/core/terrain.cfg:1197
+#: data/core/terrain.cfg:1187
+#: data/core/terrain.cfg:1197
 msgid "Stone Wall"
 msgstr "Parede de pedra"
 
@@ -1028,7 +1067,8 @@ msgstr "Sobreposição impassível"
 #. [terrain_type]: id=off_map
 #. [terrain_type]: id=off_map2
 #. [terrain_type]: id=void
-#: data/core/terrain.cfg:1230 data/core/terrain.cfg:2262
+#: data/core/terrain.cfg:1230
+#: data/core/terrain.cfg:2262
 #: data/core/terrain.cfg:2272
 msgid "Void"
 msgstr "Vácuo"
@@ -1094,21 +1134,36 @@ msgstr "Vácuo"
 #. [terrain_type]: id=village
 #. [terrain_type]: id=village_overlay
 #. [terrain_type]: id=windmill_village
-#: data/core/terrain.cfg:1245 data/core/terrain.cfg:1258
-#: data/core/terrain.cfg:1271 data/core/terrain.cfg:1286
-#: data/core/terrain.cfg:1299 data/core/terrain.cfg:1314
-#: data/core/terrain.cfg:1327 data/core/terrain.cfg:1342
-#: data/core/terrain.cfg:1355 data/core/terrain.cfg:1368
-#: data/core/terrain.cfg:1381 data/core/terrain.cfg:1394
-#: data/core/terrain.cfg:1407 data/core/terrain.cfg:1420
-#: data/core/terrain.cfg:1433 data/core/terrain.cfg:1446
-#: data/core/terrain.cfg:1459 data/core/terrain.cfg:1472
-#: data/core/terrain.cfg:1485 data/core/terrain.cfg:1500
-#: data/core/terrain.cfg:1513 data/core/terrain.cfg:1526
-#: data/core/terrain.cfg:1539 data/core/terrain.cfg:1552
-#: data/core/terrain.cfg:1565 data/core/terrain.cfg:1578
-#: data/core/terrain.cfg:1593 data/core/terrain.cfg:1606
-#: data/core/terrain.cfg:1621 data/core/terrain.cfg:2325
+#: data/core/terrain.cfg:1245
+#: data/core/terrain.cfg:1258
+#: data/core/terrain.cfg:1271
+#: data/core/terrain.cfg:1286
+#: data/core/terrain.cfg:1299
+#: data/core/terrain.cfg:1314
+#: data/core/terrain.cfg:1327
+#: data/core/terrain.cfg:1342
+#: data/core/terrain.cfg:1355
+#: data/core/terrain.cfg:1368
+#: data/core/terrain.cfg:1381
+#: data/core/terrain.cfg:1394
+#: data/core/terrain.cfg:1407
+#: data/core/terrain.cfg:1420
+#: data/core/terrain.cfg:1433
+#: data/core/terrain.cfg:1446
+#: data/core/terrain.cfg:1459
+#: data/core/terrain.cfg:1472
+#: data/core/terrain.cfg:1485
+#: data/core/terrain.cfg:1500
+#: data/core/terrain.cfg:1513
+#: data/core/terrain.cfg:1526
+#: data/core/terrain.cfg:1539
+#: data/core/terrain.cfg:1552
+#: data/core/terrain.cfg:1565
+#: data/core/terrain.cfg:1578
+#: data/core/terrain.cfg:1593
+#: data/core/terrain.cfg:1606
+#: data/core/terrain.cfg:1621
+#: data/core/terrain.cfg:2325
 msgid "Village"
 msgstr "Aldeias"
 
@@ -1321,7 +1376,8 @@ msgstr "Sobreposição de Aldeia"
 # File: data/core/terrain.cfg, line: 1649
 #. [terrain_type]: id=encampment
 #. [terrain_type]: id=encampment_snow
-#: data/core/terrain.cfg:1637 data/core/terrain.cfg:1638
+#: data/core/terrain.cfg:1637
+#: data/core/terrain.cfg:1638
 #: data/core/terrain.cfg:1649
 msgid "Encampment"
 msgstr "Acampamento"
@@ -1350,10 +1406,14 @@ msgstr "Acampamento gelado"
 #. [terrain_type]: id=sand_castle
 #. [terrain_type]: id=snow_castle
 #. [terrain_type]: id=snow_orcish_fort
-#: data/core/terrain.cfg:1661 data/core/terrain.cfg:1673
-#: data/core/terrain.cfg:1685 data/core/terrain.cfg:1696
-#: data/core/terrain.cfg:1707 data/core/terrain.cfg:1719
-#: data/core/terrain.cfg:1769 data/core/terrain.cfg:1979
+#: data/core/terrain.cfg:1661
+#: data/core/terrain.cfg:1673
+#: data/core/terrain.cfg:1685
+#: data/core/terrain.cfg:1696
+#: data/core/terrain.cfg:1707
+#: data/core/terrain.cfg:1719
+#: data/core/terrain.cfg:1769
+#: data/core/terrain.cfg:1979
 msgid "Castle"
 msgstr "Castelo"
 
@@ -1408,8 +1468,10 @@ msgstr "Castelo Anão"
 #. [terrain_type]: id=sand_castle_ruin
 #. [terrain_type]: id=sunkenruin
 #. [terrain_type]: id=swampruin
-#: data/core/terrain.cfg:1731 data/core/terrain.cfg:1743
-#: data/core/terrain.cfg:1756 data/core/terrain.cfg:1781
+#: data/core/terrain.cfg:1731
+#: data/core/terrain.cfg:1743
+#: data/core/terrain.cfg:1756
+#: data/core/terrain.cfg:1781
 msgid "Ruined Castle"
 msgstr "Castelo em Ruínas"
 
@@ -1455,7 +1517,8 @@ msgstr "Castelo do Deserto em ruínas"
 #. [terrain_type]: id=encampment_keep
 #. [terrain_type]: id=encampment_keep_tall
 #. [terrain_type]: id=encampment_snow_keep
-#: data/core/terrain.cfg:1797 data/core/terrain.cfg:1809
+#: data/core/terrain.cfg:1797
+#: data/core/terrain.cfg:1809
 #: data/core/terrain.cfg:1822
 msgid "Encampment Keep"
 msgstr "Torre de acampamento"
@@ -1491,10 +1554,14 @@ msgstr "Torre de acampamento gelado"
 #. [terrain_type]: id=orcish_keep
 #. [terrain_type]: id=snow_keep
 #. [terrain_type]: id=snow_orcish_keep
-#: data/core/terrain.cfg:1835 data/core/terrain.cfg:1848
-#: data/core/terrain.cfg:1861 data/core/terrain.cfg:1874
-#: data/core/terrain.cfg:1887 data/core/terrain.cfg:1900
-#: data/core/terrain.cfg:1952 data/core/terrain.cfg:1991
+#: data/core/terrain.cfg:1835
+#: data/core/terrain.cfg:1848
+#: data/core/terrain.cfg:1861
+#: data/core/terrain.cfg:1874
+#: data/core/terrain.cfg:1887
+#: data/core/terrain.cfg:1900
+#: data/core/terrain.cfg:1952
+#: data/core/terrain.cfg:1991
 msgid "Keep"
 msgstr "Torre"
 
@@ -1549,8 +1616,10 @@ msgstr "Torre do castelo dos anões"
 #. [terrain_type]: id=ruined_keep
 #. [terrain_type]: id=sunken_keep
 #. [terrain_type]: id=swamp_keep
-#: data/core/terrain.cfg:1913 data/core/terrain.cfg:1926
-#: data/core/terrain.cfg:1939 data/core/terrain.cfg:1965
+#: data/core/terrain.cfg:1913
+#: data/core/terrain.cfg:1926
+#: data/core/terrain.cfg:1939
+#: data/core/terrain.cfg:1965
 msgid "Ruined Keep"
 msgstr "Torre em ruínas"
 
@@ -1628,12 +1697,18 @@ msgstr "Sobreposição de Torre"
 #. [terrain_type]: id=stone_bridge
 #. [terrain_type]: id=stone_bridgediag1
 #. [terrain_type]: id=stone_bridgediag2
-#: data/core/terrain.cfg:2009 data/core/terrain.cfg:2021
-#: data/core/terrain.cfg:2033 data/core/terrain.cfg:2045
-#: data/core/terrain.cfg:2057 data/core/terrain.cfg:2069
-#: data/core/terrain.cfg:2083 data/core/terrain.cfg:2095
-#: data/core/terrain.cfg:2107 data/core/terrain.cfg:2121
-#: data/core/terrain.cfg:2132 data/core/terrain.cfg:2144
+#: data/core/terrain.cfg:2009
+#: data/core/terrain.cfg:2021
+#: data/core/terrain.cfg:2033
+#: data/core/terrain.cfg:2045
+#: data/core/terrain.cfg:2057
+#: data/core/terrain.cfg:2069
+#: data/core/terrain.cfg:2083
+#: data/core/terrain.cfg:2095
+#: data/core/terrain.cfg:2107
+#: data/core/terrain.cfg:2121
+#: data/core/terrain.cfg:2132
+#: data/core/terrain.cfg:2144
 msgid "Bridge"
 msgstr "Ponte"
 
@@ -1644,7 +1719,8 @@ msgstr "Ponte"
 #. [terrain_type]: id=bridge
 #. [terrain_type]: id=bridgediag1
 #. [terrain_type]: id=bridgediag2
-#: data/core/terrain.cfg:2010 data/core/terrain.cfg:2022
+#: data/core/terrain.cfg:2010
+#: data/core/terrain.cfg:2022
 #: data/core/terrain.cfg:2034
 msgid "Wooden Bridge"
 msgstr "Ponte de Madeira"
@@ -1656,7 +1732,8 @@ msgstr "Ponte de Madeira"
 #. [terrain_type]: id=rotbridge
 #. [terrain_type]: id=rotbridgediag1
 #. [terrain_type]: id=rotbridgediag2
-#: data/core/terrain.cfg:2046 data/core/terrain.cfg:2058
+#: data/core/terrain.cfg:2046
+#: data/core/terrain.cfg:2058
 #: data/core/terrain.cfg:2070
 msgid "Rotting Bridge"
 msgstr "Ponte Apodrecida"
@@ -1668,7 +1745,8 @@ msgstr "Ponte Apodrecida"
 #. [terrain_type]: id=stone_bridge
 #. [terrain_type]: id=stone_bridgediag1
 #. [terrain_type]: id=stone_bridgediag2
-#: data/core/terrain.cfg:2084 data/core/terrain.cfg:2096
+#: data/core/terrain.cfg:2084
+#: data/core/terrain.cfg:2096
 #: data/core/terrain.cfg:2108
 msgid "Basic Stone Bridge"
 msgstr "Ponte em pedra básica"
@@ -1680,7 +1758,8 @@ msgstr "Ponte em pedra básica"
 #. [terrain_type]: id=bridgechasm
 #. [terrain_type]: id=bridgechasmdiag1
 #. [terrain_type]: id=bridgechasmdiag2
-#: data/core/terrain.cfg:2122 data/core/terrain.cfg:2133
+#: data/core/terrain.cfg:2122
+#: data/core/terrain.cfg:2133
 #: data/core/terrain.cfg:2145
 msgid "Cave Chasm Bridge"
 msgstr "Ponte sobre desfiladeiro de caverna"
@@ -1692,7 +1771,8 @@ msgstr "Ponte sobre desfiladeiro de caverna"
 #. [terrain_type]: id=hangingbridge
 #. [terrain_type]: id=hangingbridgediag1
 #. [terrain_type]: id=hangingbridgediag2
-#: data/core/terrain.cfg:2159 data/core/terrain.cfg:2170
+#: data/core/terrain.cfg:2159
+#: data/core/terrain.cfg:2170
 #: data/core/terrain.cfg:2181
 msgid "Hanging Bridge"
 msgstr "Ponte Suspensa"
@@ -1704,7 +1784,8 @@ msgstr "Ponte Suspensa"
 #. [terrain_type]: id=stonechasmbridge
 #. [terrain_type]: id=stonechasmbridgediag1
 #. [terrain_type]: id=stonechasmbridgediag2
-#: data/core/terrain.cfg:2195 data/core/terrain.cfg:2205
+#: data/core/terrain.cfg:2195
+#: data/core/terrain.cfg:2205
 #: data/core/terrain.cfg:2215
 msgid "Stone Chasm Bridge"
 msgstr "Ponte rochosa sobre desfiladeiro"
@@ -1716,7 +1797,8 @@ msgstr "Ponte rochosa sobre desfiladeiro"
 #. [terrain_type]: id=plankbridge
 #. [terrain_type]: id=plankbridgediag1
 #. [terrain_type]: id=plankbridgediag2
-#: data/core/terrain.cfg:2227 data/core/terrain.cfg:2237
+#: data/core/terrain.cfg:2227
+#: data/core/terrain.cfg:2237
 #: data/core/terrain.cfg:2247
 msgid "Plank Bridge"
 msgstr "Ponte de prancha"
@@ -1740,7 +1822,8 @@ msgstr "Fronteira de Mapa Falsa e Experimental"
 # File: data/gui/default/window/mp_create_game.cfg, line: 479
 #. [terrain_type]: id=shroud
 #. [toggle_button]: id=shroud
-#: data/core/terrain.cfg:2282 data/gui/default/window/mp_create_game.cfg:479
+#: data/core/terrain.cfg:2282
+#: data/gui/default/window/mp_create_game.cfg:479
 msgid "Shroud"
 msgstr "Sombra"
 
@@ -1807,7 +1890,8 @@ msgstr "Ferrovia"
 #: data/gui/default/window/gamestate_inspector.cfg:254
 #: data/gui/default/window/lobby_main.cfg:619
 #: data/gui/default/window/lobby_player_info.cfg:200
-#: data/gui/default/window/message.cfg:135 src/construct_dialog.cpp:136
+#: data/gui/default/window/message.cfg:135
+#: src/construct_dialog.cpp:136
 #: src/mapgen_dialog.cpp:111
 msgid "Close"
 msgstr "Fechar"
@@ -1859,7 +1943,8 @@ msgstr "Eliminar Extras"
 #. [button]: id=help
 #. [button]: id=show_help
 #: data/gui/default/window/addon_connect.cfg:188
-#: data/gui/default/window/title_screen.cfg:179 src/hotkeys.cpp:210
+#: data/gui/default/window/title_screen.cfg:179
+#: src/hotkeys.cpp:210
 msgid "Help"
 msgstr "Ajuda"
 
@@ -1943,8 +2028,10 @@ msgstr "Ligar"
 #: data/gui/default/window/simple_item_selector.cfg:158
 #: data/gui/default/window/unit_attack.cfg:210
 #: data/gui/default/window/unit_create.cfg:210
-#: data/gui/default/window/unit_create.cfg:211 src/construct_dialog.cpp:130
-#: src/construct_dialog.cpp:133 src/hotkeys.cpp:68
+#: data/gui/default/window/unit_create.cfg:211
+#: src/construct_dialog.cpp:130
+#: src/construct_dialog.cpp:133
+#: src/hotkeys.cpp:68
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -2107,8 +2194,7 @@ msgstr "Opções do Filtro"
 #. [label]
 #: data/gui/default/window/addon_filter_options.cfg:170
 msgid "Add-ons matching the following criteria will be displayed."
-msgstr ""
-"Os extras que estão em conformidade com o filtro seguinte irão ser mostrados."
+msgstr "Os extras que estão em conformidade com o filtro seguinte irão ser mostrados."
 
 #
 # File: data/gui/default/window/addon_filter_options.cfg, line: 205
@@ -2222,8 +2308,10 @@ msgstr "Jogar uma Campanha"
 #: data/gui/default/window/unit_create.cfg:198
 #: data/gui/default/window/unit_create.cfg:199
 #: data/gui/default/window/wml_message.cfg:485
-#: data/gui/default/window/wml_message.cfg:714 src/construct_dialog.cpp:122
-#: src/construct_dialog.cpp:129 src/gui/dialogs/message.cpp:163
+#: data/gui/default/window/wml_message.cfg:714
+#: src/construct_dialog.cpp:122
+#: src/construct_dialog.cpp:129
+#: src/gui/dialogs/message.cpp:163
 #: src/gui/dialogs/message.cpp:170
 msgid "OK"
 msgstr "Confirmar"
@@ -2444,7 +2532,8 @@ msgstr "Gerar"
 # File: src/hotkeys.cpp, line: 147
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
-#: data/gui/default/window/editor_new_map.cfg:35 src/hotkeys.cpp:147
+#: data/gui/default/window/editor_new_map.cfg:35
+#: src/hotkeys.cpp:147
 msgid "New Map"
 msgstr "Novo Mapa"
 
@@ -2453,7 +2542,8 @@ msgstr "Novo Mapa"
 # File: src/mapgen_dialog.cpp, line: 122
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
-#: data/gui/default/window/editor_new_map.cfg:54 src/mapgen_dialog.cpp:122
+#: data/gui/default/window/editor_new_map.cfg:54
+#: src/mapgen_dialog.cpp:122
 msgid "Width:"
 msgstr "Largura:"
 
@@ -2462,7 +2552,8 @@ msgstr "Largura:"
 # File: src/mapgen_dialog.cpp, line: 123
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
-#: data/gui/default/window/editor_new_map.cfg:81 src/mapgen_dialog.cpp:123
+#: data/gui/default/window/editor_new_map.cfg:81
+#: src/mapgen_dialog.cpp:123
 msgid "Height:"
 msgstr "Altura:"
 
@@ -2478,7 +2569,8 @@ msgstr "Criar"
 # File: src/hotkeys.cpp, line: 186
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
-#: data/gui/default/window/editor_resize_map.cfg:35 src/hotkeys.cpp:186
+#: data/gui/default/window/editor_resize_map.cfg:35
+#: src/hotkeys.cpp:186
 msgid "Resize Map"
 msgstr "Redimensionar Mapa"
 
@@ -2550,7 +2642,8 @@ msgstr "Que jogador deve começar aqui?"
 # File: src/hotkeys.cpp, line: 145
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
-#: data/gui/default/window/editor_settings.cfg:35 src/hotkeys.cpp:145
+#: data/gui/default/window/editor_settings.cfg:35
+#: src/hotkeys.cpp:145
 msgid "Editor Settings"
 msgstr "Definições do Editor"
 
@@ -2618,7 +2711,8 @@ msgstr "Aplicar"
 # File: src/filechooser.cpp, line: 82
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
-#: data/gui/default/window/folder_create.cfg:43 src/filechooser.cpp:82
+#: data/gui/default/window/folder_create.cfg:43
+#: src/filechooser.cpp:82
 msgid "New Folder"
 msgstr "Nova Pasta"
 
@@ -2718,7 +2812,8 @@ msgstr "Rota da execução"
 #. [grid]
 #: data/gui/default/window/formula_debugger.cfg:234
 #: data/gui/default/window/lobby_main.cfg:660
-#: data/gui/default/window/title_screen.cfg:265 src/hotkeys.cpp:827
+#: data/gui/default/window/title_screen.cfg:265
+#: src/hotkeys.cpp:827
 #: src/hotkeys.cpp:1173
 msgid "Quit"
 msgstr "Sair"
@@ -2772,7 +2867,8 @@ msgstr "Não mostrar novamente"
 #: data/gui/default/window/game_save_overwrite.cfg:97
 #: data/gui/default/window/mp_depcheck_confirm_change.cfg:130
 #: data/gui/default/window/mp_host_game_prompt.cfg:105
-#: src/construct_dialog.cpp:125 src/gui/dialogs/message.cpp:177
+#: src/construct_dialog.cpp:125
+#: src/gui/dialogs/message.cpp:177
 msgid "Yes"
 msgstr "Sim"
 
@@ -2793,7 +2889,8 @@ msgstr "Sim"
 #: data/gui/default/window/game_save_overwrite.cfg:111
 #: data/gui/default/window/mp_depcheck_confirm_change.cfg:144
 #: data/gui/default/window/mp_host_game_prompt.cfg:118
-#: src/construct_dialog.cpp:126 src/gui/dialogs/message.cpp:179
+#: src/construct_dialog.cpp:126
+#: src/gui/dialogs/message.cpp:179
 msgid "No"
 msgstr "Não"
 
@@ -2804,7 +2901,8 @@ msgstr "Não"
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/default/window/game_load.cfg:50
-#: src/gui/dialogs/mp_create_game.cpp:100 src/hotkeys.cpp:91
+#: src/gui/dialogs/mp_create_game.cpp:100
+#: src/hotkeys.cpp:91
 msgid "Load Game"
 msgstr "Continuar uma Partida"
 
@@ -2868,7 +2966,8 @@ msgstr "Cancela qualquer ordem pendente na partida guardada"
 #. [label]: id=lblTitle
 #: data/gui/default/window/game_save.cfg:42
 #: data/gui/default/window/game_save_message.cfg:42
-#: data/gui/default/window/game_save_oos.cfg:42 src/hotkeys.cpp:88
+#: data/gui/default/window/game_save_oos.cfg:42
+#: src/hotkeys.cpp:88
 msgid "Save Game"
 msgstr "Gravar o Jogo"
 
@@ -2884,7 +2983,8 @@ msgstr "ignorar Todos"
 # File: src/hotkeys.cpp, line: 110
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=quit_game
-#: data/gui/default/window/game_save_oos.cfg:162 src/hotkeys.cpp:110
+#: data/gui/default/window/game_save_oos.cfg:162
+#: src/hotkeys.cpp:110
 msgid "Quit Game"
 msgstr "Sair do Jogo"
 
@@ -2922,15 +3022,14 @@ msgstr "Tipo"
 #. [label]: id=name
 #: data/gui/default/window/gamestate_inspector.cfg:164
 msgid "Items"
-msgstr ""
+msgstr "Itens"
 
 #
 # File: data/gui/default/window/gamestate_inspector.cfg, line: 111
 #. [label]
 #: data/gui/default/window/gamestate_inspector.cfg:223
-#, fuzzy
 msgid "Contents"
-msgstr "Conteúdo"
+msgstr "Conteúdos"
 
 #
 # File: data/gui/default/window/language_selection.cfg, line: 41
@@ -3163,7 +3262,8 @@ msgstr "Enviar"
 #. [grid]
 #: data/gui/default/window/lobby_main.cfg:666
 #: data/gui/default/window/title_screen.cfg:263
-#: src/game_preferences_display.cpp:64 src/hotkeys.cpp:104
+#: src/game_preferences_display.cpp:64
+#: src/hotkeys.cpp:104
 msgid "Preferences"
 msgstr "Preferências"
 
@@ -3492,10 +3592,8 @@ msgstr "Activa as modificações que queiras ter activas durante a tua partida."
 # File: data/gui/default/window/mp_create_game_set_password.cfg, line: 61
 #. [scroll_label]: id=message
 #: data/gui/default/window/mp_create_game_set_password.cfg:61
-msgid ""
-"Set the password that people wanting to join your game as players must enter."
-msgstr ""
-"Configurar a senha que os jogadores que querem entrar na partida devem usar."
+msgid "Set the password that people wanting to join your game as players must enter."
+msgstr "Configurar a senha que os jogadores que querem entrar na partida devem usar."
 
 #
 # File: data/gui/default/window/mp_create_game_set_password.cfg, line: 90
@@ -3544,14 +3642,8 @@ msgstr "Hospedar jogo em rede"
 # File: data/gui/default/window/mp_host_game_prompt.cfg, line: 58
 #. [label]
 #: data/gui/default/window/mp_host_game_prompt.cfg:58
-msgid ""
-"A local server instance has to be started in order to host a networked game. "
-"The server will run as a background process until all users have "
-"disconnected. Do you wish to continue?"
-msgstr ""
-"Um servidor local terá de ser iniciado para permitir um jogo em rede. O "
-"servidor irá correr em processo de fundo até que todos os utilizadores "
-"tenham saído. Queres continuar?"
+msgid "A local server instance has to be started in order to host a networked game. The server will run as a background process until all users have disconnected. Do you wish to continue?"
+msgstr "Um servidor local terá de ser iniciado para permitir um jogo em rede. O servidor irá correr em processo de fundo até que todos os utilizadores tenham saído. Queres continuar?"
 
 #
 # File: data/gui/default/window/mp_login.cfg, line: 8
@@ -3608,19 +3700,15 @@ msgstr "Jogo em Rede"
 #. [text_box]: id=user_name
 #: data/gui/default/window/mp_method_selection.cfg:87
 msgid ""
-"You may login to the official multiplayer server with your forum username "
-"and password.\n"
-"Note that registration is not required to join the server: you need to "
-"supply a password only if you wish to use a registered username.\n"
+"You may login to the official multiplayer server with your forum username and password.\n"
+"Note that registration is not required to join the server: you need to supply a password only if you wish to use a registered username.\n"
 "\n"
 "The Battle for Wesnoth forum can be found at http://forums.wesnoth.org/"
 msgstr ""
 "Podes entrar no servidor oficial com o teu nome e senha registado no fórum.\n"
-"Nota que não é preciso registo para ligar ao servidor: só terás que incluir "
-"uma senha se quiseres usar a tua conta registada.\n"
+"Nota que não é preciso registo para ligar ao servidor: só terás que incluir uma senha se quiseres usar a tua conta registada.\n"
 "\n"
-"O fórum para Battle for Wesnoth pode ser encontrado em http://www.wesnoth."
-"org/forum/"
+"O fórum para Battle for Wesnoth pode ser encontrado em http://www.wesnoth.org/forum/"
 
 #
 # File: data/gui/default/window/mp_method_selection.cfg, line: 146
@@ -3662,8 +3750,7 @@ msgstr "Jogo local"
 #. [column]
 #: data/gui/default/window/mp_method_selection.cfg:177
 msgid "Play a multiplayer game with the AI or humans sharing the same machine"
-msgstr ""
-"Jogue uma partida solitária contra a IA ou amigos a partilhar o computador"
+msgstr "Jogue uma partida solitária contra a IA ou amigos a partilhar o computador"
 
 #
 # File: data/gui/default/window/mp_server_list.cfg, line: 124
@@ -3735,12 +3822,8 @@ msgstr "Começar uma nova campanha"
 # File: data/gui/default/window/title_screen.cfg, line: 258
 #. [grid]
 #: data/gui/default/window/title_screen.cfg:258
-msgid ""
-"Play multiplayer (hotseat, LAN, or Internet), or a single scenario against "
-"the AI"
-msgstr ""
-"Jogo em Rede (hotseat, LAN ou Internet), ou um único cenário contra o "
-"computador"
+msgid "Play multiplayer (hotseat, LAN, or Internet), or a single scenario against the AI"
+msgstr "Jogo em Rede (hotseat, LAN ou Internet), ou um único cenário contra o computador"
 
 #
 # File: data/gui/default/window/title_screen.cfg, line: 259
@@ -3838,7 +3921,8 @@ msgstr "Atacar Inimigo"
 # File: src/hotkeys.cpp, line: 102
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
-#: data/gui/default/window/unit_create.cfg:45 src/hotkeys.cpp:102
+#: data/gui/default/window/unit_create.cfg:45
+#: src/hotkeys.cpp:102
 msgid "Create Unit (Debug!)"
 msgstr "Criar Unidade (Modo de Depuração!)"
 
@@ -4163,8 +4247,10 @@ msgstr "Animar Mapa"
 # File: src/game_preferences_display.cpp, line: 218
 # File: src/game_preferences_display.cpp, line: 219
 # File: src/game_preferences_display.cpp, line: 220
-#: src/game_preferences_display.cpp:217 src/game_preferences_display.cpp:218
-#: src/game_preferences_display.cpp:219 src/game_preferences_display.cpp:220
+#: src/game_preferences_display.cpp:217
+#: src/game_preferences_display.cpp:218
+#: src/game_preferences_display.cpp:219
+#: src/game_preferences_display.cpp:220
 msgid "Volume:"
 msgstr "Volume:"
 
@@ -4243,14 +4329,16 @@ msgstr "Taxa de amostragem definida pelo usuário"
 #
 # File: src/game_preferences_display.cpp, line: 292
 # File: src/game_preferences_display.cpp, line: 296
-#: src/game_preferences_display.cpp:292 src/game_preferences_display.cpp:296
+#: src/game_preferences_display.cpp:292
+#: src/game_preferences_display.cpp:296
 msgid "Change the buffer size"
 msgstr "Muda o tamanho do buffer"
 
 #
 # File: src/game_preferences_display.cpp, line: 294
 # File: src/game_preferences_display.cpp, line: 887
-#: src/game_preferences_display.cpp:294 src/game_preferences_display.cpp:887
+#: src/game_preferences_display.cpp:294
+#: src/game_preferences_display.cpp:887
 msgid "Buffer size: "
 msgstr "Tamanho do Buffer: "
 
@@ -4263,7 +4351,8 @@ msgstr "Muda a velocidade de translação do mapa"
 #
 # File: src/game_preferences_display.cpp, line: 306
 # File: src/game_preferences_display.cpp, line: 308
-#: src/game_preferences_display.cpp:306 src/game_preferences_display.cpp:308
+#: src/game_preferences_display.cpp:306
+#: src/game_preferences_display.cpp:308
 msgid "Set the amount of chat lines shown"
 msgstr "Configura o número de linhas de chat mostradas"
 
@@ -4336,20 +4425,14 @@ msgstr "Ver uma unidade aliada interrompe o movimento da sua unidade"
 #
 # File: src/game_preferences_display.cpp, line: 366
 #: src/game_preferences_display.cpp:366
-msgid ""
-"Saves replays of games on victory in all modes and defeat in multiplayer"
-msgstr ""
-"Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou "
-"derrota MP"
+msgid "Saves replays of games on victory in all modes and defeat in multiplayer"
+msgstr "Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou derrota MP"
 
 #
 # File: src/game_preferences_display.cpp, line: 369
 #: src/game_preferences_display.cpp:369
-msgid ""
-"Deletes previous auto-saves on victory in all modes and defeat in multiplayer"
-msgstr ""
-"Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou "
-"derrota MP"
+msgid "Deletes previous auto-saves on victory in all modes and defeat in multiplayer"
+msgstr "Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou derrota MP"
 
 #
 # File: src/game_preferences_display.cpp, line: 371
@@ -4439,9 +4522,7 @@ msgstr "insera um nome"
 # File: src/game_preferences_display.cpp, line: 401
 #: src/game_preferences_display.cpp:401
 msgid "Show text above a unit when it is hit to display damage inflicted"
-msgstr ""
-"Mostra uma mensagem com o dano sofrido sobre uma unidade atingida por um "
-"golpe"
+msgstr "Mostra uma mensagem com o dano sofrido sobre uma unidade atingida por um golpe"
 
 #
 # File: src/game_preferences_display.cpp, line: 403
@@ -4482,12 +4563,8 @@ msgstr "Toca um som no início do seu turno"
 #
 # File: src/game_preferences_display.cpp, line: 419
 #: src/game_preferences_display.cpp:419
-msgid ""
-"Show a colored circle around the base of each unit to show which side it is "
-"on"
-msgstr ""
-"Mostra um círculo colorido à volta da base de cada unidade para mostrar de "
-"que lado é que ela está"
+msgid "Show a colored circle around the base of each unit to show which side it is on"
+msgstr "Mostra um círculo colorido à volta da base de cada unidade para mostrar de que lado é que ela está"
 
 #
 # File: src/game_preferences_display.cpp, line: 422
@@ -4516,7 +4593,8 @@ msgstr "Velocidade: "
 #
 # File: src/game_preferences_display.cpp, line: 756
 # File: src/game_preferences_display.cpp, line: 758
-#: src/game_preferences_display.cpp:756 src/game_preferences_display.cpp:758
+#: src/game_preferences_display.cpp:756
+#: src/game_preferences_display.cpp:758
 msgid "Maximum auto-saves: "
 msgstr "Número Máximo de Partidas Salvas Automaticamente: "
 
@@ -4535,7 +4613,8 @@ msgstr "Linhas de Chat: "
 #
 # File: src/game_preferences_display.cpp, line: 961
 # File: src/game_preferences_display.cpp, line: 969
-#: src/game_preferences_display.cpp:961 src/game_preferences_display.cpp:969
+#: src/game_preferences_display.cpp:961
+#: src/game_preferences_display.cpp:969
 msgid "Invalid username"
 msgstr "Nome inválido"
 
@@ -4623,8 +4702,7 @@ msgstr "Nenhum tema conhecido. Tenta mudar de dentro duma partida."
 # File: src/game_preferences_display.cpp, line: 1342
 #: src/game_preferences_display.cpp:1342
 msgid "Find $filename server binary to host networked games"
-msgstr ""
-"Encontra o ficheiro $filename binário de servidor para hospedar jogos em rede"
+msgstr "Encontra o ficheiro $filename binário de servidor para hospedar jogos em rede"
 
 #
 # File: src/gui/auxiliary/canvas.cpp, line: 610
@@ -4643,8 +4721,10 @@ msgstr "Rectângulo não cabe no ecrã."
 # File: src/gui/auxiliary/canvas.cpp, line: 887
 # File: src/gui/auxiliary/canvas.cpp, line: 892
 # File: src/gui/auxiliary/canvas.cpp, line: 898
-#: src/gui/auxiliary/canvas.cpp:882 src/gui/auxiliary/canvas.cpp:887
-#: src/gui/auxiliary/canvas.cpp:892 src/gui/auxiliary/canvas.cpp:898
+#: src/gui/auxiliary/canvas.cpp:882
+#: src/gui/auxiliary/canvas.cpp:887
+#: src/gui/auxiliary/canvas.cpp:892
+#: src/gui/auxiliary/canvas.cpp:898
 msgid "Circle doesn't fit on canvas."
 msgstr "Círculo não cabe no ecrã."
 
@@ -4653,8 +4733,10 @@ msgstr "Círculo não cabe no ecrã."
 # File: src/gui/auxiliary/canvas.cpp, line: 1091
 # File: src/gui/auxiliary/canvas.cpp, line: 1101
 # File: src/gui/auxiliary/canvas.cpp, line: 1108
-#: src/gui/auxiliary/canvas.cpp:1084 src/gui/auxiliary/canvas.cpp:1091
-#: src/gui/auxiliary/canvas.cpp:1101 src/gui/auxiliary/canvas.cpp:1108
+#: src/gui/auxiliary/canvas.cpp:1084
+#: src/gui/auxiliary/canvas.cpp:1091
+#: src/gui/auxiliary/canvas.cpp:1101
+#: src/gui/auxiliary/canvas.cpp:1108
 msgid "Image doesn't fit on canvas."
 msgstr "Imagem não cabe no ecrã."
 
@@ -4710,8 +4792,7 @@ msgstr "O grupo vinculado '$id' tem múltiplas definições."
 # File: src/gui/auxiliary/window_builder.cpp, line: 420
 #: src/gui/auxiliary/window_builder.cpp:421
 msgid "Linked '$id' group needs a 'fixed_width' or 'fixed_height' key."
-msgstr ""
-"O grupo vinculado '$id' precisa de uma chave 'fixed_width' ou 'fixed_height'."
+msgstr "O grupo vinculado '$id' precisa de uma chave 'fixed_width' ou 'fixed_height'."
 
 #
 # File: src/gui/auxiliary/window_builder.cpp, line: 533
@@ -4756,10 +4837,8 @@ msgstr "Uma \"list_definition\" deve conter uma coluna."
 #: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:67
 #: src/gui/auxiliary/window_builder/listbox.cpp:84
 #: src/gui/auxiliary/window_builder/multi_page.cpp:61
-msgid ""
-"'list_data' must have the same number of columns as the 'list_definition'."
-msgstr ""
-"'lista_data' tem de ter o mesmo número de colunas que a 'list_definition'."
+msgid "'list_data' must have the same number of columns as the 'list_definition'."
+msgstr "'lista_data' tem de ter o mesmo número de colunas que a 'list_definition'."
 
 #
 # File: src/gui/auxiliary/window_builder/multi_page.cpp, line: 39
@@ -4912,7 +4991,8 @@ msgstr "Todos os Extras"
 # File: src/hotkeys.cpp, line: 1130
 #: src/gui/dialogs/addon_list.cpp:257
 #: src/gui/dialogs/network_transmission.cpp:55
-#: src/gui/dialogs/network_transmission.cpp:57 src/hotkeys.cpp:1130
+#: src/gui/dialogs/network_transmission.cpp:57
+#: src/hotkeys.cpp:1130
 msgid "unit_byte^B"
 msgstr "B"
 
@@ -4991,12 +5071,8 @@ msgstr "Observadores não permitidos"
 #
 # File: src/gui/dialogs/lobby_main.cpp, line: 1106
 #: src/gui/dialogs/lobby_main.cpp:1108
-msgid ""
-"Whisper session with $name started. If you don’t want to receive messages "
-"from this user, type /ignore $name\n"
-msgstr ""
-"Sessão discreta com $name iniciada. Se não quiser receber mensagens deste "
-"usuário, escreve /ignore $name\n"
+msgid "Whisper session with $name started. If you don’t want to receive messages from this user, type /ignore $name\n"
+msgstr "Sessão discreta com $name iniciada. Se não quiser receber mensagens deste usuário, escreve /ignore $name\n"
 
 #
 # File: src/gui/dialogs/lobby_main.cpp, line: 1112
@@ -5037,7 +5113,8 @@ msgstr "Senha: "
 #
 # File: src/gui/dialogs/message.cpp, line: 190
 # File: src/gui/dialogs/transient_message.cpp, line: 62
-#: src/gui/dialogs/message.cpp:191 src/gui/dialogs/transient_message.cpp:62
+#: src/gui/dialogs/message.cpp:191
+#: src/gui/dialogs/transient_message.cpp:62
 msgid "Error"
 msgstr "Erro"
 
@@ -5116,10 +5193,8 @@ msgstr "Campo obrigatório '$id' não foi definido."
 #
 # File: src/gui/widgets/settings.cpp, line: 433
 #: src/gui/widgets/settings.cpp:434
-msgid ""
-"Widget definition '$definition' doesn't contain the definition for '$id'."
-msgstr ""
-"A definição do campo '$definition' não contém uma referencia para '$id'."
+msgid "Widget definition '$definition' doesn't contain the definition for '$id'."
+msgstr "A definição do campo '$definition' não contém uma referencia para '$id'."
 
 #
 # File: src/gui/widgets/settings.cpp, line: 500
@@ -5149,7 +5224,8 @@ msgstr "Demitir precisa dum botão de \"Demitir\" ou \"Confirmar\"."
 # File: src/gui/widgets/window.cpp, line: 1034
 # File: src/gui/widgets/window.cpp, line: 1074
 # File: src/tests/gui/test_gui2.cpp, line: 433
-#: src/gui/widgets/window.cpp:1037 src/gui/widgets/window.cpp:1077
+#: src/gui/widgets/window.cpp:1037
+#: src/gui/widgets/window.cpp:1077
 #: src/tests/gui/test_gui2.cpp:433
 msgid "Failed to show a dialog, which doesn't fit on the screen."
 msgstr "Falha na mostra de um diálogo, que não cabe no monitor."
@@ -5234,22 +5310,14 @@ msgstr "Aviso"
 #
 # File: src/hotkey_preferences_display.cpp, line: 639
 #: src/hotkey_preferences_display.cpp:639
-msgid ""
-"Screenshot hotkeys should be combined with the Control, Alt or Meta "
-"modifiers to avoid problems."
-msgstr ""
-"Atalhos para criar uma imagem do monitor deve ser combinado com Cntrl, Alt "
-"ou similar modificadores para minimizar problemas"
+msgid "Screenshot hotkeys should be combined with the Control, Alt or Meta modifiers to avoid problems."
+msgstr "Atalhos para criar uma imagem do monitor deve ser combinado com Cntrl, Alt ou similar modificadores para minimizar problemas"
 
 #
 # File: src/hotkey_preferences_display.cpp, line: 654
 #: src/hotkey_preferences_display.cpp:654
-msgid ""
-"\"$hotkey_sequence|\" is in use by \"$old_hotkey_action|\". Do you wish to "
-"reassign it to \"$new_hotkey_action|\"?"
-msgstr ""
-"\"$hotkey_sequence|\" já é usado por \"$old_hotkey_action|\". Desejas repor-"
-"o para \"$new_hotkey_action|\"?"
+msgid "\"$hotkey_sequence|\" is in use by \"$old_hotkey_action|\". Do you wish to reassign it to \"$new_hotkey_action|\"?"
+msgstr "\"$hotkey_sequence|\" já é usado por \"$old_hotkey_action|\". Desejas repor-o para \"$new_hotkey_action|\"?"
 
 #
 # File: src/hotkey_preferences_display.cpp, line: 659
@@ -5356,7 +5424,8 @@ msgstr "Alternar Ecrã Cheio?"
 #
 # File: src/hotkeys.cpp, line: 83
 # File: src/hotkeys.cpp, line: 1124
-#: src/hotkeys.cpp:83 src/hotkeys.cpp:1124
+#: src/hotkeys.cpp:83
+#: src/hotkeys.cpp:1124
 msgid "Screenshot"
 msgstr "Fotografia"
 
@@ -5393,7 +5462,8 @@ msgstr "Guardar uma Revisão"
 #
 # File: src/hotkeys.cpp, line: 90
 # File: src/hotkeys.cpp, line: 149
-#: src/hotkeys.cpp:90 src/hotkeys.cpp:149
+#: src/hotkeys.cpp:90
+#: src/hotkeys.cpp:149
 msgid "Save Map"
 msgstr "Gravar Mapa"
 
@@ -6091,7 +6161,8 @@ msgstr "Mostra as dicas"
 #
 # File: src/hotkeys.cpp, line: 362
 # File: src/hotkeys.cpp, line: 365
-#: src/hotkeys.cpp:362 src/hotkeys.cpp:365
+#: src/hotkeys.cpp:362
+#: src/hotkeys.cpp:365
 msgid "Button"
 msgstr "Botão"
 
@@ -6103,7 +6174,8 @@ msgstr "Rato"
 
 # File: src/hotkeys.cpp, line: 365
 # File: src/hotkeys.cpp, line: 401
-#: src/hotkeys.cpp:365 src/hotkeys.cpp:401
+#: src/hotkeys.cpp:365
+#: src/hotkeys.cpp:401
 msgid "Joystick"
 msgstr ""
 
@@ -6179,7 +6251,8 @@ msgstr "Choupana"
 #
 # File: src/hotkeys.cpp, line: 828
 # File: src/hotkeys.cpp, line: 1174
-#: src/hotkeys.cpp:828 src/hotkeys.cpp:1174
+#: src/hotkeys.cpp:828
+#: src/hotkeys.cpp:1174
 msgid "Do you really want to quit?"
 msgstr "Tens a certeza de que queres sair?"
 
@@ -6192,7 +6265,8 @@ msgstr "Capturar Mapa"
 #
 # File: src/hotkeys.cpp, line: 1131
 # File: src/hotkeys.cpp, line: 1133
-#: src/hotkeys.cpp:1131 src/hotkeys.cpp:1133
+#: src/hotkeys.cpp:1131
+#: src/hotkeys.cpp:1133
 msgid "Screenshot done"
 msgstr "Fotografia do ecrã tirada"
 
@@ -6300,15 +6374,10 @@ msgstr "O tamanho do texto é menor que 1."
 #
 # File: src/preferences_display.cpp, line: 128
 # File: src/preferences_display.cpp, line: 184
-#: src/preferences_display.cpp:128 src/preferences_display.cpp:184
-msgid ""
-"The video mode could not be changed. Your window manager must be set to 16 "
-"bits per pixel to run the game in windowed mode. Your display must support "
-"1024x768x16 to run the game full screen."
-msgstr ""
-"O modo de vídeo não pode ser alterado. O seu gestor de janelas deve estar "
-"num modo de 16 bits por pixel para correr o jogo dentro de uma janela. O seu "
-"ecrã deve suportar 1024x768x16 para correr o jogo em todo o ecrã."
+#: src/preferences_display.cpp:128
+#: src/preferences_display.cpp:184
+msgid "The video mode could not be changed. Your window manager must be set to 16 bits per pixel to run the game in windowed mode. Your display must support 1024x768x16 to run the game full screen."
+msgstr "O modo de vídeo não pode ser alterado. O seu gestor de janelas deve estar num modo de 16 bits por pixel para correr o jogo dentro de uma janela. O seu ecrã deve suportar 1024x768x16 para correr o jogo em todo o ecrã."
 
 #
 # File: src/preferences_display.cpp, line: 327
@@ -6331,12 +6400,8 @@ msgstr "Escolha a Resolução"
 #
 # File: src/terrain_translation.cpp, line: 715
 #: src/terrain_translation.cpp:715
-msgid ""
-"A terrain with a string with more than 4 characters has been found, the "
-"affected terrain is :"
-msgstr ""
-"Um terreno com código com mais de 4 caracteres foi encontrado, o terreno "
-"afectado é :"
+msgid "A terrain with a string with more than 4 characters has been found, the affected terrain is :"
+msgstr "Um terreno com código com mais de 4 caracteres foi encontrado, o terreno afectado é :"
 
 #
 # File: src/text.cpp, line: 735
@@ -6363,12 +6428,8 @@ msgstr "Quando reportar um erro por favor inclui a seguinte mensagem de erro:"
 #
 # File: src/wml_exception.cpp, line: 97
 #: src/wml_exception.cpp:97
-msgid ""
-"In section '[$section|]' where '$primary_key| = $primary_value' the "
-"mandatory key '$key|' isn't set."
-msgstr ""
-"Na secção  '[$section|]' onde '$primary_key| = $primary_value' a chave "
-"obrigatória '$key|' não é definida."
+msgid "In section '[$section|]' where '$primary_key| = $primary_value' the mandatory key '$key|' isn't set."
+msgstr "Na secção  '[$section|]' onde '$primary_key| = $primary_value' a chave obrigatória '$key|' não é definida."
 
 #
 # File: src/wml_exception.cpp, line: 100
@@ -6379,227 +6440,170 @@ msgstr "Na secção  '[$section|]' a chave obrigatória '$key|' não é definida
 #
 # File: src/wml_exception.cpp, line: 116
 #: src/wml_exception.cpp:116
-msgid ""
-"The key '$key' is deprecated and support will be removed in version "
-"$removal_version."
-msgstr ""
-"A chave  '$key' está em desuso e o seu suporte será removido na versão "
-"$removal_version."
+msgid "The key '$key' is deprecated and support will be removed in version $removal_version."
+msgstr "A chave  '$key' está em desuso e o seu suporte será removido na versão $removal_version."
 
 #
 # File: src/wml_exception.cpp, line: 135
 #: src/wml_exception.cpp:135
-msgid ""
-"The key '$deprecated_key' has been renamed to '$key'. Support for "
-"'$deprecated_key' will be removed in version $removal_version."
-msgstr ""
-"A chave '$deprecated_key' foi renomeada para '$key'. Suporte para "
-"'$deprecated_key' será removido na versão $removal_version."
+msgid "The key '$deprecated_key' has been renamed to '$key'. Support for '$deprecated_key' will be removed in version $removal_version."
+msgstr "A chave '$deprecated_key' foi renomeada para '$key'. Suporte para '$deprecated_key' será removido na versão $removal_version."
 
 #
 # File: data/gui/default/window/gamestate_inspector.cfg, line: 100
 #~ msgid "Types"
 #~ msgstr "Tipos"
-
 #
 # File: data/gui/default/window/gamestate_inspector.cfg, line: 122
 #~ msgid "Inspection window"
 #~ msgstr "Janela de inspecção"
-
 #
 # File: data/gui/default/window/gamestate_inspector.cfg, line: 214
 #~ msgid "Variable"
 #~ msgstr "Variável"
-
 #
 #~ msgid "Use new lobby interface"
 #~ msgstr "Usar a nova interface da Sala"
-
 #
 #~ msgid "Use New Lobby Interface"
 #~ msgstr "Usar a nova interface da Sala de espera"
-
 #
 #~ msgid "Reset Defaults"
 #~ msgstr "Restabelecer padrões"
-
 #
 #~ msgid "Update Add-ons"
 #~ msgstr "Actualizar Extras"
-
 #
 #~ msgid "Create New Map"
 #~ msgstr "Criar novo mapa"
-
 #
 #~ msgid "Don’t ask me again!"
 #~ msgstr "Não me pergunte novamente!"
-
 #
 #~ msgid "x"
 #~ msgstr "x"
-
 #
 #~ msgid "OOS error"
 #~ msgstr "erro OOS"
-
 #
 #~ msgid "Create game"
 #~ msgstr "Criar jogo"
-
 #
 #~ msgid "Save replay on SP/MP victory or MP defeat"
 #~ msgstr "Guardar Replay após uma vitória em SJ/MJ ou derrota em MJ"
-
 #
 #~ msgid "Save Replay on SP/MP Victory or MP Defeat"
 #~ msgstr "Guardar Replay após uma vitória em SJ/MJ ou derrota em MJ"
-
 #
 #~ msgid "Delete Auto-Saves on SP/MP Victory or MP Defeat"
 #~ msgstr ""
 #~ "Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou "
 #~ "derrota MP"
-
 #
 #~ msgid "Execute Planned Action"
 #~ msgstr "Executa a acção planeada"
-
 #
 #~ msgid "Delete Planned Action"
 #~ msgstr "Remover acção planeada"
-
 #
 #~ msgid "Change Hotkey"
 #~ msgstr "Mudar o Atalho"
-
 #
 #~ msgid "This hotkey is already in use."
 #~ msgstr "Este atalho já é usado."
-
 #
 #~ msgid "Aquatic Village"
 #~ msgstr "Aldeia Aquática"
-
 #
 #~ msgid "Shallow Merfolk Village"
 #~ msgstr "Aldeia aquática oceânica"
-
 #
 #~ msgid "Sunken Keep"
 #~ msgstr "Torre inundada"
-
 #
 #~ msgid "Swamp Keep"
 #~ msgstr "Torre pantanosa"
-
 #
 #~ msgid "Resize map"
 #~ msgstr "Redimensionar Mapa"
-
 #
 #~ msgid "Add to friends list"
 #~ msgstr "Adicionar à lista de amigos"
-
 #
 #~ msgid "Add to ignores list"
 #~ msgstr "Adicionar à lista de ignorados"
-
 #
 #~ msgid "Send a private message"
 #~ msgstr "Enviar uma mensagem privada"
-
 #
 #~ msgid "Name: "
 #~ msgstr "Nome:"
-
 #
 #~ msgid "Reverse Time Graphics"
 #~ msgstr "Inverter Gráficos do Tempo"
-
 #
 #~ msgid "Show Unit Idle Animations"
 #~ msgstr "Mostrar Animações de Unidades não Activas"
-
 #
 #~ msgid "Music Volume:"
 #~ msgstr "Volume da Música"
-
 #
 #~ msgid "UI Sound Volume:"
 #~ msgstr "Volume do Interface:"
-
 #
 #~ msgid "Bell Volume:"
 #~ msgstr "Volume do Alerta:"
-
 #
 #~ msgid ""
 #~ "Should the map view scroll to a unit when an action or move is animated."
 #~ msgstr ""
 #~ "Deve ser o mapa centralizado na unidade quando é animado uma acção ou "
 #~ "movimento."
-
 #
 #~ msgid "Choose whether the sun moves left-to-right or right-to-left"
 #~ msgstr "Escolhe se o sol se move da esquerda para a direita ou vice-versa"
-
 #
 #~ msgid "Saved preference:"
 #~ msgstr "Preferência de guardeamento:"
-
 #
 #~ msgid "Add waypoint"
 #~ msgstr "Adicionar ponto de ida"
-
 #
 #~ msgid "Stop"
 #~ msgstr "Parar"
-
 #
 #~ msgid "Play"
 #~ msgstr "Jogar"
-
 #
 #~ msgid "Reset"
 #~ msgstr "Repor"
-
 #
 #~ msgid "Close Window"
 #~ msgstr "Fechar Janela"
-
 #
 #~ msgid "Generate name"
 #~ msgstr "Gerar nome"
-
 #
 #~ msgid "Screenshot failed"
 #~ msgstr "Foto falhada"
-
 #
 #~ msgid "Mushroom Grove Lit"
 #~ msgstr "Caverna de Cogumelos Iluminada"
-
 #
 #~ msgid "User-Command#2"
 #~ msgstr "Comando-Personalizado#2"
-
 #
 #~ msgid "User-Command#3"
 #~ msgstr "Comando-Personalizado#3"
-
 #
 #~ msgid "Wall"
 #~ msgstr "Muro"
-
 #
 #~ msgid "None"
 #~ msgstr "Nada"
-
 #
 #~ msgid "Upload statistics"
 #~ msgstr "Enviar Estatísticas"
-
 #
 #, fuzzy
 #~ msgid "Delay Shroud Updates on Start"
@@ -6613,15 +6617,12 @@ msgstr ""
 #
 #~ msgid "Adjust Gamma"
 #~ msgstr "Correcção Gama"
-
 #
 #~ msgid "Gamma:"
 #~ msgstr "Gamma:"
-
 #
 #~ msgid "Change the brightness of the display"
 #~ msgstr "Muda o brilho da imagem."
-
 #
 #, fuzzy
 #~ msgid "Change username"
@@ -6635,55 +6636,42 @@ msgstr ""
 #
 #~ msgid "Your modifications to the map will be lost. Continue?"
 #~ msgstr "As suas modificações perder-se-ão. Deseja continuar?"
-
 #
 #~ msgid "Generate New Map"
 #~ msgstr "Gerar Novo Mapa"
-
 #
 #~ msgid "Random Generator Settings"
 #~ msgstr "Definições do Gerador Aleatório"
-
 #
 #~ msgid "Map creation failed."
 #~ msgstr "A criação do mapa falhou."
-
 #
 #~ msgid "X-Axis"
 #~ msgstr "Eixo X"
-
 #
 #~ msgid "Y-Axis"
 #~ msgstr "Eixo Y"
-
 #
 #~ msgid "Flip around (this may change the dimensions of the map):"
 #~ msgstr "Rodar (isto pode mudar as dimensões do mapa):"
-
 #
 #~ msgid "Set Terrain"
 #~ msgstr "Definir Terreno"
-
 #
 #~ msgid "Save As"
 #~ msgstr "Gravar Como"
-
 #
 #~ msgid "Set Player's keep"
 #~ msgstr "Definir Fortaleza do Jogador"
-
 #
 #~ msgid "Flood Fill"
 #~ msgstr "Preencher"
-
 #
 #~ msgid "Flip Map"
 #~ msgstr "Inverter Mapa"
-
 #
 #~ msgid "Draw Terrain"
 #~ msgstr "Desenhar Terreno"
-
 #
 #, fuzzy
 #~ msgid "Delay transition updates"
@@ -6692,7 +6680,6 @@ msgstr ""
 #
 #~ msgid "Save Hotkeys"
 #~ msgstr "Gravar Atalhos"
-
 #
 #, fuzzy
 #~ msgid "Advanced Mode"
