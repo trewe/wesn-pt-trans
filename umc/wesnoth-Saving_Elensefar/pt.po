@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-10 19:15+0000\n"
+"POT-Creation-Date: 2012-12-14 07:14-0500\n"
 "PO-Revision-Date: 2013-03-09 23:58+0100\n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: none\n"
@@ -28,7 +28,7 @@ msgid "SE"
 msgstr "RE"
 
 #. [campaign]: id=saving_elensefar
-#: Saving_Elensefar/_main.cfg:22
+#: Saving_Elensefar/_main.cfg:21
 msgid ""
 "Meneldur, elvish mariner of Elensefar, is driven to sea by the same orcs who "
 "attacked the city. He must gather an army willing to fight for him to regain "
@@ -258,8 +258,9 @@ msgstr ""
 "orcs já bloqueavam o seu caminho para o porto..."
 
 #. [message]: id=The_Explorer
-#. [unit]: type=Sailor, id=Madru
 #. [message]: speaker=narrator
+#. [unit]: type=Sailor, id=Madru
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:93
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:132
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:143
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:480
@@ -271,15 +272,14 @@ msgstr ""
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:750
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:795
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:804
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:93
 #: Saving_Elensefar/utils/gold_carryover.cfg:50
 #: Saving_Elensefar/utils/gold_carryover.cfg:72
 #: Saving_Elensefar/utils/gold_carryover.cfg:116
 msgid "Madru"
 msgstr "Madru"
 
-#. [side]: type=Orcish Warrior
 #. [side]: type=Orcish Crossbowman
+#. [side]: type=Orcish Warrior
 #: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:165
 #: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:184
 #: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:203
@@ -297,52 +297,52 @@ msgid "Move Meneldur to the Explorer (southwest of the map)"
 msgstr "Mova Meneldur para o Explorador (a sudoeste do mapa)"
 
 #. [objective]: condition=lose
-#: Saving_Elensefar/scenarios/i3-1_Theft.cfg:57
-#: Saving_Elensefar/scenarios/i16_Goblins.cfg:43
-#: Saving_Elensefar/scenarios/i6_Traitors.cfg:46
-#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:172
 #: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:235
-#: Saving_Elensefar/scenarios/i11_Off_the_Peninsula.cfg:60
-#: Saving_Elensefar/scenarios/i4_Back_to_the_Ship.cfg:80
-#: Saving_Elensefar/scenarios/i10_A_Kings_Demand.cfg:67
-#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:294
-#: Saving_Elensefar/scenarios/i13_The_Ruined_Port.cfg:99
-#: Saving_Elensefar/scenarios/i9_Wesnothian_Forces.cfg:46
-#: Saving_Elensefar/scenarios/i18_Cave_illien.cfg:102
-#: Saving_Elensefar/scenarios/i12_The_Desert_Island.cfg:49
 #: Saving_Elensefar/scenarios/02_A_Naval_Engagement.cfg:134
-#: Saving_Elensefar/scenarios/i7_Deadly_Alliance.cfg:66
-#: Saving_Elensefar/scenarios/r_Sea_Battle.cfg:89
-#: Saving_Elensefar/scenarios/i8_Frozen_Lands.cfg:72
-#: Saving_Elensefar/scenarios/i2_Orc_Mountain.cfg:46
 #: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:133
-#: Saving_Elensefar/scenarios/i5_Fire_Island.cfg:231
+#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:172
+#: Saving_Elensefar/scenarios/i10_A_Kings_Demand.cfg:67
+#: Saving_Elensefar/scenarios/i11_Off_the_Peninsula.cfg:60
+#: Saving_Elensefar/scenarios/i12_The_Desert_Island.cfg:49
+#: Saving_Elensefar/scenarios/i13_The_Ruined_Port.cfg:99
+#: Saving_Elensefar/scenarios/i16_Goblins.cfg:43
+#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:294
+#: Saving_Elensefar/scenarios/i18_Cave_illien.cfg:102
 #: Saving_Elensefar/scenarios/i19_Unknown_Horizons.cfg:50
+#: Saving_Elensefar/scenarios/i2_Orc_Mountain.cfg:46
+#: Saving_Elensefar/scenarios/i3-1_Theft.cfg:57
+#: Saving_Elensefar/scenarios/i4_Back_to_the_Ship.cfg:80
+#: Saving_Elensefar/scenarios/i5_Fire_Island.cfg:231
+#: Saving_Elensefar/scenarios/i6_Traitors.cfg:46
+#: Saving_Elensefar/scenarios/i7_Deadly_Alliance.cfg:66
+#: Saving_Elensefar/scenarios/i8_Frozen_Lands.cfg:72
+#: Saving_Elensefar/scenarios/i9_Wesnothian_Forces.cfg:46
+#: Saving_Elensefar/scenarios/r_Sea_Battle.cfg:89
 msgid "Death of Meneldur"
 msgstr "Morte de Meneldur"
 
 #. [objective]: condition=lose
-#: Saving_Elensefar/scenarios/i3-1_Theft.cfg:61
-#: Saving_Elensefar/scenarios/i16_Goblins.cfg:47
-#: Saving_Elensefar/scenarios/i6_Traitors.cfg:50
-#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:176
 #: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:239
-#: Saving_Elensefar/scenarios/i11_Off_the_Peninsula.cfg:64
-#: Saving_Elensefar/scenarios/i4_Back_to_the_Ship.cfg:84
-#: Saving_Elensefar/scenarios/i10_A_Kings_Demand.cfg:71
-#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:298
-#: Saving_Elensefar/scenarios/i13_The_Ruined_Port.cfg:103
-#: Saving_Elensefar/scenarios/i9_Wesnothian_Forces.cfg:50
-#: Saving_Elensefar/scenarios/i18_Cave_illien.cfg:106
-#: Saving_Elensefar/scenarios/i12_The_Desert_Island.cfg:53
 #: Saving_Elensefar/scenarios/02_A_Naval_Engagement.cfg:138
-#: Saving_Elensefar/scenarios/i7_Deadly_Alliance.cfg:70
-#: Saving_Elensefar/scenarios/r_Sea_Battle.cfg:93
-#: Saving_Elensefar/scenarios/i8_Frozen_Lands.cfg:76
-#: Saving_Elensefar/scenarios/i2_Orc_Mountain.cfg:50
 #: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:137
-#: Saving_Elensefar/scenarios/i5_Fire_Island.cfg:235
+#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:176
+#: Saving_Elensefar/scenarios/i10_A_Kings_Demand.cfg:71
+#: Saving_Elensefar/scenarios/i11_Off_the_Peninsula.cfg:64
+#: Saving_Elensefar/scenarios/i12_The_Desert_Island.cfg:53
+#: Saving_Elensefar/scenarios/i13_The_Ruined_Port.cfg:103
+#: Saving_Elensefar/scenarios/i16_Goblins.cfg:47
+#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:298
+#: Saving_Elensefar/scenarios/i18_Cave_illien.cfg:106
 #: Saving_Elensefar/scenarios/i19_Unknown_Horizons.cfg:54
+#: Saving_Elensefar/scenarios/i2_Orc_Mountain.cfg:50
+#: Saving_Elensefar/scenarios/i3-1_Theft.cfg:61
+#: Saving_Elensefar/scenarios/i4_Back_to_the_Ship.cfg:84
+#: Saving_Elensefar/scenarios/i5_Fire_Island.cfg:235
+#: Saving_Elensefar/scenarios/i6_Traitors.cfg:50
+#: Saving_Elensefar/scenarios/i7_Deadly_Alliance.cfg:70
+#: Saving_Elensefar/scenarios/i8_Frozen_Lands.cfg:76
+#: Saving_Elensefar/scenarios/i9_Wesnothian_Forces.cfg:50
+#: Saving_Elensefar/scenarios/r_Sea_Battle.cfg:93
 msgid "Death of Madru"
 msgstr "Morte de Madru"
 
@@ -362,6 +362,7 @@ msgstr "Sim senhor, capitão. Para o navio, homens, o mais rápido que puderem!"
 
 #. [message]: speaker=narrator
 #. [side]: type=Elvish Mariner, id=Meneldur
+#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:305
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:696
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:705
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:714
@@ -370,13 +371,12 @@ msgstr "Sim senhor, capitão. Para o navio, homens, o mais rápido que puderem!"
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:759
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:786
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:822
-#: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:305
 #: Saving_Elensefar/utils/utils.cfg:247
 msgid "Meneldur"
 msgstr "Meneldur"
 
-#. [message]: speaker=narrator
 #. [message]: id=Meneldur
+#. [message]: speaker=narrator
 #: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:306
 #: Saving_Elensefar/scenarios/01_Escaping_the_Orcs.cfg:344
 msgid "Now, we go out to sea. I expect our city is doomed..."
@@ -403,11 +403,11 @@ msgid "Elensefar's Loyals"
 msgstr "Leais à Elensefar"
 
 #. [side]: id=Black the Red, type=SE Shadow Mage
+#: Saving_Elensefar/scenarios/02_A_Naval_Engagement.cfg:28
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:564
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:768
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:777
 #: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:813
-#: Saving_Elensefar/scenarios/02_A_Naval_Engagement.cfg:28
 msgid "Black the Red"
 msgstr "Black, o Ruivo"
 
@@ -422,41 +422,41 @@ msgid "Aldran"
 msgstr "Aldran"
 
 #. [objective]: condition=win
-#: Saving_Elensefar/scenarios/i3-1_Theft.cfg:53
-#: Saving_Elensefar/scenarios/i16_Goblins.cfg:39
-#: Saving_Elensefar/scenarios/i6_Traitors.cfg:42
-#: Saving_Elensefar/scenarios/i11_Off_the_Peninsula.cfg:56
-#: Saving_Elensefar/scenarios/i9_Wesnothian_Forces.cfg:42
-#: Saving_Elensefar/scenarios/i12_The_Desert_Island.cfg:45
 #: Saving_Elensefar/scenarios/02_A_Naval_Engagement.cfg:130
-#: Saving_Elensefar/scenarios/r_Sea_Battle.cfg:85
-#: Saving_Elensefar/scenarios/i8_Frozen_Lands.cfg:68
-#: Saving_Elensefar/scenarios/i2_Orc_Mountain.cfg:42
+#: Saving_Elensefar/scenarios/i11_Off_the_Peninsula.cfg:56
+#: Saving_Elensefar/scenarios/i12_The_Desert_Island.cfg:45
+#: Saving_Elensefar/scenarios/i16_Goblins.cfg:39
 #: Saving_Elensefar/scenarios/i19_Unknown_Horizons.cfg:46
+#: Saving_Elensefar/scenarios/i2_Orc_Mountain.cfg:42
+#: Saving_Elensefar/scenarios/i3-1_Theft.cfg:53
+#: Saving_Elensefar/scenarios/i6_Traitors.cfg:42
+#: Saving_Elensefar/scenarios/i8_Frozen_Lands.cfg:68
+#: Saving_Elensefar/scenarios/i9_Wesnothian_Forces.cfg:42
+#: Saving_Elensefar/scenarios/r_Sea_Battle.cfg:85
 msgid "Defeat enemy leader"
 msgstr "Derrota o líder inimigo"
 
 #. [objective]: condition=lose
-#: Saving_Elensefar/scenarios/i3-1_Theft.cfg:65
-#: Saving_Elensefar/scenarios/i16_Goblins.cfg:51
-#: Saving_Elensefar/scenarios/i6_Traitors.cfg:54
-#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:180
-#: Saving_Elensefar/scenarios/i11_Off_the_Peninsula.cfg:68
-#: Saving_Elensefar/scenarios/i4_Back_to_the_Ship.cfg:88
-#: Saving_Elensefar/scenarios/i10_A_Kings_Demand.cfg:75
-#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:302
-#: Saving_Elensefar/scenarios/i13_The_Ruined_Port.cfg:107
-#: Saving_Elensefar/scenarios/i9_Wesnothian_Forces.cfg:54
-#: Saving_Elensefar/scenarios/i18_Cave_illien.cfg:110
-#: Saving_Elensefar/scenarios/i12_The_Desert_Island.cfg:57
 #: Saving_Elensefar/scenarios/02_A_Naval_Engagement.cfg:142
-#: Saving_Elensefar/scenarios/i7_Deadly_Alliance.cfg:74
-#: Saving_Elensefar/scenarios/r_Sea_Battle.cfg:97
-#: Saving_Elensefar/scenarios/i8_Frozen_Lands.cfg:80
-#: Saving_Elensefar/scenarios/i2_Orc_Mountain.cfg:54
 #: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:141
-#: Saving_Elensefar/scenarios/i5_Fire_Island.cfg:239
+#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:180
+#: Saving_Elensefar/scenarios/i10_A_Kings_Demand.cfg:75
+#: Saving_Elensefar/scenarios/i11_Off_the_Peninsula.cfg:68
+#: Saving_Elensefar/scenarios/i12_The_Desert_Island.cfg:57
+#: Saving_Elensefar/scenarios/i13_The_Ruined_Port.cfg:107
+#: Saving_Elensefar/scenarios/i16_Goblins.cfg:51
+#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:302
+#: Saving_Elensefar/scenarios/i18_Cave_illien.cfg:110
 #: Saving_Elensefar/scenarios/i19_Unknown_Horizons.cfg:58
+#: Saving_Elensefar/scenarios/i2_Orc_Mountain.cfg:54
+#: Saving_Elensefar/scenarios/i3-1_Theft.cfg:65
+#: Saving_Elensefar/scenarios/i4_Back_to_the_Ship.cfg:88
+#: Saving_Elensefar/scenarios/i5_Fire_Island.cfg:239
+#: Saving_Elensefar/scenarios/i6_Traitors.cfg:54
+#: Saving_Elensefar/scenarios/i7_Deadly_Alliance.cfg:74
+#: Saving_Elensefar/scenarios/i8_Frozen_Lands.cfg:80
+#: Saving_Elensefar/scenarios/i9_Wesnothian_Forces.cfg:54
+#: Saving_Elensefar/scenarios/r_Sea_Battle.cfg:97
 msgid "Death of Black the Red"
 msgstr "Morte de Black, o Ruivo"
 
@@ -649,8 +649,8 @@ msgstr "Ah-Reblak"
 msgid "Bahtak"
 msgstr "Bahtak"
 
-#. [side]: id=Bahtak, type=Orcish Warlord
 #. [side]: id=Ahtanuk, type=Orcish Warlord
+#. [side]: id=Bahtak, type=Orcish Warlord
 #: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:85
 #: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:112
 msgid "Revolting Orcs"
@@ -662,16 +662,16 @@ msgid "Ahtanuk"
 msgstr "Ahtanuk"
 
 #. [objective]: condition=win
-#: Saving_Elensefar/scenarios/i4_Back_to_the_Ship.cfg:76
-#: Saving_Elensefar/scenarios/i10_A_Kings_Demand.cfg:63
-#: Saving_Elensefar/scenarios/i7_Deadly_Alliance.cfg:62
 #: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:129
+#: Saving_Elensefar/scenarios/i10_A_Kings_Demand.cfg:63
+#: Saving_Elensefar/scenarios/i4_Back_to_the_Ship.cfg:76
+#: Saving_Elensefar/scenarios/i7_Deadly_Alliance.cfg:62
 msgid "Defeat enemy leaders"
 msgstr "Derrota os líderes inimigos"
 
 #. [objective]: condition=lose
-#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:184
 #: Saving_Elensefar/scenarios/03_Blackmore_the_Black.cfg:145
+#: Saving_Elensefar/scenarios/04_Saving_Elensefar.cfg:184
 msgid "Death of Ah-Reblak"
 msgstr "Morte de Ah-Reblak"
 
@@ -1282,8 +1282,8 @@ msgid "Chasers"
 msgstr "Caçadores"
 
 #. [unit]: id=The_Explorer, type=Black Galleon
-#: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:347
 #: Saving_Elensefar/scenarios/f1-Attacked_at_Sea.cfg:97
+#: Saving_Elensefar/scenarios/r_The_High_Seas.cfg:347
 msgid "The Explorer"
 msgstr "O Explorador"
 
@@ -2107,8 +2107,8 @@ msgstr "velhos tolos"
 msgid "Sakdur"
 msgstr "Sakdur"
 
-#. [side]: id=Sakdur, type=Orcish Crossbowman
 #. [side]: id=Asknak, type=Orcish Slayer
+#. [side]: id=Sakdur, type=Orcish Crossbowman
 #: Saving_Elensefar/scenarios/i13_The_Ruined_Port.cfg:62
 #: Saving_Elensefar/scenarios/i13_The_Ruined_Port.cfg:74
 msgid "Young Fouls"
@@ -2439,8 +2439,8 @@ msgid "invisibility"
 msgstr "invisibilidade"
 
 #. [hides]: id=invisibility
-#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:173
-#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:177
+#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:170
+#: Saving_Elensefar/scenarios/i17_Saurian_Trap.cfg:174
 msgid ""
 "Invisibility:\n"
 "This unit is invisible by its enemies.\n"
@@ -2698,8 +2698,8 @@ msgid "You win!"
 msgstr "Ganhou!"
 
 #. [message]
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:312
-#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:336
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:311
+#: Saving_Elensefar/scenarios/i1_The_Swampland.cfg:335
 msgid ""
 "You: $side_1_units.length\n"
 "Othello: $side_2_units.length"
@@ -3240,8 +3240,8 @@ msgstr ""
 msgid "Its a deal."
 msgstr "Está terminado."
 
-#. [side]: id=Kalandur, type=Elvish Champion
 #. [scenario]: id=sea_voyage_6
+#. [side]: id=Kalandur, type=Elvish Champion
 #: Saving_Elensefar/scenarios/i6_Traitors.cfg:6
 #: Saving_Elensefar/scenarios/i6_Traitors.cfg:25
 msgid "Traitors"
@@ -4004,8 +4004,8 @@ msgstr ""
 #. [attack]: type=impact
 #: Saving_Elensefar/units/Elvish_Admiral.cfg:35
 #: Saving_Elensefar/units/Elvish_Mariner.cfg:31
-#: Saving_Elensefar/units/Initiate.cfg:25
 #: Saving_Elensefar/units/Elvish_Navigator.cfg:27
+#: Saving_Elensefar/units/Initiate.cfg:25
 msgid "staff"
 msgstr "bastão"
 
@@ -4191,7 +4191,7 @@ msgid "blitz"
 msgstr "relâmpago"
 
 #. [blitz]: id=blitz
-#: Saving_Elensefar/utils/abilities.cfg:28
+#: Saving_Elensefar/utils/abilities.cfg:27
 msgid ""
 "Blitz:\n"
 "Allies that start their turn adjacent to this unit are granted Skirmisher "
@@ -4205,7 +4205,7 @@ msgstr ""
 msgid "battle tutor"
 msgstr "Mestre de batalha"
 
-#: Saving_Elensefar/utils/abilities.cfg:122
+#: Saving_Elensefar/utils/abilities.cfg:121
 msgid ""
 "Battle Tutor:\n"
 "This unit's ability to teach battle skills gives each adjacent allied unit a "
@@ -4223,7 +4223,7 @@ msgstr "+ $second_unit.level| XP"
 msgid "Battle Tutor"
 msgstr "Mestre de batalha"
 
-#: Saving_Elensefar/utils/abilities.cfg:191
+#: Saving_Elensefar/utils/abilities.cfg:190
 msgid ""
 "Battle Tutor:\n"
 "This unit's ability to teach battle skills gives each adjacent allied unit a "
@@ -4241,7 +4241,7 @@ msgstr "+ $hits| XP"
 msgid "charm"
 msgstr "encanto"
 
-#: Saving_Elensefar/utils/abilities.cfg:405
+#: Saving_Elensefar/utils/abilities.cfg:402
 msgid ""
 "Charm:\n"
 "This unit charms its opponents, whenever it hits on attack the defender "
