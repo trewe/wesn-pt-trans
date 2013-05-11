@@ -95,8 +95,7 @@ msgstr "Vau"
 #. [terrain_type]: id=gray_reef
 #. [terrain_type]: id=reef
 #. [terrain_type]: id=tropical_reef
-#: data/core/terrain.cfg:92 data/core/terrain.cfg:103
-#: data/core/terrain.cfg:112
+#: data/core/terrain.cfg:92 data/core/terrain.cfg:103 data/core/terrain.cfg:112
 msgid "Coastal Reef"
 msgstr "Recife Costeiro"
 
@@ -3196,7 +3195,7 @@ msgstr "Revisão rápida"
 #. [label]
 #: data/gui/default/window/lobby_player_info.cfg:38
 msgid "Player Info — "
-msgstr "Info de Jogador - "
+msgstr "Info de Jogador — "
 
 #
 # File: data/gui/default/window/lobby_player_info.cfg, line: 70
@@ -3648,7 +3647,7 @@ msgstr "Ligar a um servidor diferente"
 #. [column]
 #: data/gui/default/window/mp_method_selection.cfg:167
 msgid "Host a game using dedicated server ‘wesnothd’"
-msgstr "Hospeda um jogo usando um servidor dedicado (\"wesnothd\")"
+msgstr "Hospeda um jogo usando um servidor dedicado (“wesnothd”)"
 
 #
 # File: data/gui/default/window/mp_method_selection.cfg, line: 176
@@ -4580,8 +4579,7 @@ msgstr "(lista vazia)"
 #
 # File: src/game_preferences_display.cpp, line: 1242
 # File: src/hotkey_preferences_display.cpp, line: 215
-#: src/game_preferences_display.cpp:1241
-#: src/hotkey_preferences_display.cpp:214
+#: src/game_preferences_display.cpp:1241 src/hotkey_preferences_display.cpp:214
 msgid "Prefs section^General"
 msgstr "Geral"
 
@@ -4755,7 +4753,7 @@ msgstr "Nenhuma lista definida."
 #: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:50
 #: src/gui/auxiliary/window_builder/listbox.cpp:64
 msgid "A 'list_definition' should contain one row."
-msgstr "Uma \"list_definition\" deve conter uma coluna."
+msgstr "Uma “list_definition” deve conter uma coluna."
 
 #
 # File: src/gui/auxiliary/window_builder/horizontal_listbox.cpp, line: 67
@@ -5151,7 +5149,7 @@ msgstr "Identificação construtiva desconhecida do nó da árvore."
 # File: src/gui/widgets/window.cpp, line: 1009
 #: src/gui/widgets/window.cpp:1035
 msgid "Click dismiss needs a 'click_dismiss' or 'ok' button."
-msgstr "Demitir precisa dum botão de \"Demitir\" ou \"Confirmar\"."
+msgstr "Demitir precisa dum botão de “Demitir” ou “Confirmar”."
 
 #
 # File: src/gui/widgets/window.cpp, line: 1034
@@ -5256,8 +5254,8 @@ msgid ""
 "\"$hotkey_sequence|\" is in use by \"$old_hotkey_action|\". Do you wish to "
 "reassign it to \"$new_hotkey_action|\"?"
 msgstr ""
-"\"$hotkey_sequence|\" já é usado por \"$old_hotkey_action|\". Desejas repor-"
-"o para \"$new_hotkey_action|\"?"
+"“$hotkey_sequence|” já é usado por “$old_hotkey_action|”. Desejas repor-o "
+"para “$new_hotkey_action|”?"
 
 #
 # File: src/hotkey_preferences_display.cpp, line: 659
