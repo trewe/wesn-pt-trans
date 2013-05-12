@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.1-svn\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2013-05-05 10:54+0200\n"
-"PO-Revision-Date: 2013-05-07 15:28+0100\n"
+"PO-Revision-Date: 2013-05-12 12:47+0100\n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: wesn-pt-trans\n"
 "Language: pt\n"
@@ -3961,7 +3961,7 @@ msgstr "Mostrar Grelha"
 # jogo finalizado?
 # jogo para rever?
 # partida visivel?
-# revisto? -- actually I like that
+# revisto?—- actually I like that
 # File: src/game_preferences_display.cpp, line: 177
 #: src/game_preferences_display.cpp:176
 msgid "Save replays at the end of scenarios"
@@ -5824,6 +5824,8 @@ msgid ""
 "Left mouse button sets the village ownership to the current side, right "
 "clears. Not implemented yet."
 msgstr ""
+"O botão esquerdo do rato muda o controlo das aldeias para a equipa actual, o "
+"direito limpa. Ainda não implementado."
 
 #
 # File: src/hotkeys.cpp, line: 167
@@ -5838,7 +5840,7 @@ msgstr "Pode recrutar"
 
 #: src/hotkeys.cpp:176
 msgid "Toggle the recruit attribute of a unit."
-msgstr ""
+msgstr "Permite mudar se a unidade pode recrutar"
 
 #: src/hotkeys.cpp:177
 msgid "Can be renamed"
@@ -5846,7 +5848,7 @@ msgstr "Pode ser renomeado"
 
 #: src/hotkeys.cpp:177
 msgid "Toggle the unit being renameable."
-msgstr ""
+msgstr "Permite que a unidade seja renomeada"
 
 #
 # File: src/hotkeys.cpp, line: 168
@@ -5862,23 +5864,23 @@ msgstr "Desenho por defeito"
 
 #: src/hotkeys.cpp:182
 msgid "Single Tile"
-msgstr ""
+msgstr "Hexágono Único"
 
 #: src/hotkeys.cpp:183
 msgid "Radius One"
-msgstr ""
+msgstr "De rádio um"
 
 #: src/hotkeys.cpp:184
 msgid "Radius Two"
-msgstr ""
+msgstr "De rádio dois"
 
 #: src/hotkeys.cpp:185
 msgid "Brush NW-SE"
-msgstr ""
+msgstr "Linha Noroeste-Sudeste"
 
 #: src/hotkeys.cpp:186
 msgid "Brush SW-NE"
-msgstr ""
+msgstr "Linha Sudoeste-Nordeste"
 
 #
 # File: src/hotkeys.cpp, line: 170
@@ -5896,6 +5898,8 @@ msgstr "Copiar"
 msgid ""
 "Left mouse button pastes from the clipboard, right brings up a context menu."
 msgstr ""
+"O botão esquerdo do rato copia da área de transferência, o direito traz à "
+"toa um menu de contexto."
 
 #
 # File: src/hotkeys.cpp, line: 172
@@ -6017,12 +6021,10 @@ msgstr "Actualizar Ecrã"
 msgid "Update Terrain Transitions"
 msgstr "Actualizar transições de terreno"
 
-#
 # File: src/hotkeys.cpp, line: 192
 #: src/hotkeys.cpp:211
-#, fuzzy
 msgid "Toggle Terrain Transition Update"
-msgstr "Actualizar transições de terreno"
+msgstr "Ligar actualização das transições de terreno"
 
 #
 # File: src/hotkeys.cpp, line: 194
@@ -6194,7 +6196,7 @@ msgstr "Mostra as dicas"
 
 #: src/hotkeys.cpp:246
 msgid "Unrecognized Command"
-msgstr ""
+msgstr "Comando não reconhecido"
 
 #
 # File: src/hotkeys.cpp, line: 362
@@ -6213,7 +6215,7 @@ msgstr "Rato"
 # File: src/hotkeys.cpp, line: 401
 #: src/hotkeys.cpp:382 src/hotkeys.cpp:418
 msgid "Joystick"
-msgstr ""
+msgstr "Suporte a Controlo Joystick"
 
 #
 # File: src/hotkeys.cpp, line: 371
@@ -6503,305 +6505,3 @@ msgid ""
 msgstr ""
 "A chave '$deprecated_key' foi renomeada para '$key'. Suporte para "
 "'$deprecated_key' será removido na versão $removal_version."
-
-#
-# File: src/hotkeys.cpp, line: 196
-#~ msgid "Auto-update Terrain Transitions: Yes"
-#~ msgstr "Auto-actualizar transições de terreno: Sim"
-
-#
-# File: data/gui/default/window/gamestate_inspector.cfg, line: 100
-#~ msgid "Types"
-#~ msgstr "Tipos"
-
-#
-# File: data/gui/default/window/gamestate_inspector.cfg, line: 122
-#~ msgid "Inspection window"
-#~ msgstr "Janela de inspecção"
-
-#
-# File: data/gui/default/window/gamestate_inspector.cfg, line: 214
-#~ msgid "Variable"
-#~ msgstr "Variável"
-
-#
-#~ msgid "Use new lobby interface"
-#~ msgstr "Usar a nova interface da Sala"
-
-#
-#~ msgid "Use New Lobby Interface"
-#~ msgstr "Usar a nova interface da Sala de espera"
-
-#
-#~ msgid "Reset Defaults"
-#~ msgstr "Restabelecer padrões"
-
-#
-#~ msgid "Update Add-ons"
-#~ msgstr "Actualizar Extras"
-
-#
-#~ msgid "Create New Map"
-#~ msgstr "Criar novo mapa"
-
-#
-#~ msgid "Don’t ask me again!"
-#~ msgstr "Não me pergunte novamente!"
-
-#
-#~ msgid "x"
-#~ msgstr "x"
-
-#
-#~ msgid "OOS error"
-#~ msgstr "erro OOS"
-
-#
-#~ msgid "Create game"
-#~ msgstr "Criar jogo"
-
-#
-#~ msgid "Save replay on SP/MP victory or MP defeat"
-#~ msgstr "Guardar Replay após uma vitória em SJ/MJ ou derrota em MJ"
-
-#
-#~ msgid "Save Replay on SP/MP Victory or MP Defeat"
-#~ msgstr "Guardar Replay após uma vitória em SJ/MJ ou derrota em MJ"
-
-#
-#~ msgid "Delete Auto-Saves on SP/MP Victory or MP Defeat"
-#~ msgstr ""
-#~ "Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou "
-#~ "derrota MP"
-
-#
-#~ msgid "Execute Planned Action"
-#~ msgstr "Executa a acção planeada"
-
-#
-#~ msgid "Delete Planned Action"
-#~ msgstr "Remover acção planeada"
-
-#
-#~ msgid "Change Hotkey"
-#~ msgstr "Mudar o Atalho"
-
-#
-#~ msgid "This hotkey is already in use."
-#~ msgstr "Este atalho já é usado."
-
-#
-#~ msgid "Aquatic Village"
-#~ msgstr "Aldeia Aquática"
-
-#
-#~ msgid "Shallow Merfolk Village"
-#~ msgstr "Aldeia aquática oceânica"
-
-#
-#~ msgid "Sunken Keep"
-#~ msgstr "Torre inundada"
-
-#
-#~ msgid "Swamp Keep"
-#~ msgstr "Torre pantanosa"
-
-#
-#~ msgid "Resize map"
-#~ msgstr "Redimensionar Mapa"
-
-#
-#~ msgid "Add to friends list"
-#~ msgstr "Adicionar à lista de amigos"
-
-#
-#~ msgid "Add to ignores list"
-#~ msgstr "Adicionar à lista de ignorados"
-
-#
-#~ msgid "Send a private message"
-#~ msgstr "Enviar uma mensagem privada"
-
-#
-#~ msgid "Name: "
-#~ msgstr "Nome:"
-
-#
-#~ msgid "Reverse Time Graphics"
-#~ msgstr "Inverter Gráficos do Tempo"
-
-#
-#~ msgid "Show Unit Idle Animations"
-#~ msgstr "Mostrar Animações de Unidades não Activas"
-
-#
-#~ msgid "Music Volume:"
-#~ msgstr "Volume da Música"
-
-#
-#~ msgid "UI Sound Volume:"
-#~ msgstr "Volume do Interface:"
-
-#
-#~ msgid "Bell Volume:"
-#~ msgstr "Volume do Alerta:"
-
-#
-#~ msgid ""
-#~ "Should the map view scroll to a unit when an action or move is animated."
-#~ msgstr ""
-#~ "Deve ser o mapa centralizado na unidade quando é animado uma acção ou "
-#~ "movimento."
-
-#
-#~ msgid "Choose whether the sun moves left-to-right or right-to-left"
-#~ msgstr "Escolhe se o sol se move da esquerda para a direita ou vice-versa"
-
-#
-#~ msgid "Saved preference:"
-#~ msgstr "Preferência de guardeamento:"
-
-#
-#~ msgid "Add waypoint"
-#~ msgstr "Adicionar ponto de ida"
-
-#
-#~ msgid "Stop"
-#~ msgstr "Parar"
-
-#
-#~ msgid "Play"
-#~ msgstr "Jogar"
-
-#
-#~ msgid "Reset"
-#~ msgstr "Repor"
-
-#
-#~ msgid "Close Window"
-#~ msgstr "Fechar Janela"
-
-#
-#~ msgid "Generate name"
-#~ msgstr "Gerar nome"
-
-#
-#~ msgid "Screenshot failed"
-#~ msgstr "Foto falhada"
-
-#
-#~ msgid "Mushroom Grove Lit"
-#~ msgstr "Caverna de Cogumelos Iluminada"
-
-#
-#~ msgid "User-Command#2"
-#~ msgstr "Comando-Personalizado#2"
-
-#
-#~ msgid "User-Command#3"
-#~ msgstr "Comando-Personalizado#3"
-
-#
-#~ msgid "Wall"
-#~ msgstr "Muro"
-
-#
-#~ msgid "None"
-#~ msgstr "Nada"
-
-#
-#~ msgid "Upload statistics"
-#~ msgstr "Enviar Estatísticas"
-
-#
-#, fuzzy
-#~ msgid "Delay Shroud Updates on Start"
-#~ msgstr "Adiar Actualizações da Sombra"
-
-#
-#, fuzzy
-#~ msgid "Save The Map"
-#~ msgstr "Gravar Mapa"
-
-#
-#~ msgid "Adjust Gamma"
-#~ msgstr "Correcção Gama"
-
-#
-#~ msgid "Gamma:"
-#~ msgstr "Gamma:"
-
-#
-#~ msgid "Change the brightness of the display"
-#~ msgstr "Muda o brilho da imagem."
-
-#
-#, fuzzy
-#~ msgid "No scrollbar defined."
-#~ msgstr "A criação do mapa falhou."
-
-#
-#~ msgid "Your modifications to the map will be lost. Continue?"
-#~ msgstr "As suas modificações perder-se-ão. Deseja continuar?"
-
-#
-#~ msgid "Generate New Map"
-#~ msgstr "Gerar Novo Mapa"
-
-#
-#~ msgid "Random Generator Settings"
-#~ msgstr "Definições do Gerador Aleatório"
-
-#
-#~ msgid "Map creation failed."
-#~ msgstr "A criação do mapa falhou."
-
-#
-#~ msgid "X-Axis"
-#~ msgstr "Eixo X"
-
-#
-#~ msgid "Y-Axis"
-#~ msgstr "Eixo Y"
-
-#
-#~ msgid "Flip around (this may change the dimensions of the map):"
-#~ msgstr "Rodar (isto pode mudar as dimensões do mapa):"
-
-#
-#~ msgid "Set Terrain"
-#~ msgstr "Definir Terreno"
-
-#
-#~ msgid "Save As"
-#~ msgstr "Gravar Como"
-
-#
-#~ msgid "Set Player's keep"
-#~ msgstr "Definir Fortaleza do Jogador"
-
-#
-#~ msgid "Flood Fill"
-#~ msgstr "Preencher"
-
-#
-#~ msgid "Flip Map"
-#~ msgstr "Inverter Mapa"
-
-#
-#~ msgid "Draw Terrain"
-#~ msgstr "Desenhar Terreno"
-
-#
-#, fuzzy
-#~ msgid "Delay transition updates"
-#~ msgstr "Adiar Actualizações da Sombra"
-
-#
-#~ msgid "Save Hotkeys"
-#~ msgstr "Gravar Atalhos"
-
-#
-#, fuzzy
-#~ msgid "Advanced Mode"
-#~ msgstr "Avançados"
