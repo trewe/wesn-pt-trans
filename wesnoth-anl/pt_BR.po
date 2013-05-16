@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2013-03-24 13:24+0100\n"
-"PO-Revision-Date: 2007-11-15 01:50+0900\n"
-"Last-Translator: Claudio Terra <cbterra@gmail.com>\n"
+"PO-Revision-Date: 2013-05-16 15:19+0100\n"
+"Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: Portuguese - Brasil\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. [multiplayer]: id=multiplayer_A_New_Land
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:4
@@ -25,7 +25,6 @@ msgstr "4p — Uma Nova Terra"
 
 #. [multiplayer]: id=multiplayer_A_New_Land
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:6
-#, fuzzy
 msgid ""
 "This 4p survival scenario allows you to construct buildings and terraform "
 "the land. Use map settings. The recommended starting gold is 100."
@@ -111,16 +110,17 @@ msgid ""
 "One of your peasants has happened upon some spiders’ nests in the north and "
 "south."
 msgstr ""
+"Um dos nossos camponeses tropeçou sobre alguns ninhos de aranha à norte e "
+"sul."
 
 #. [message]: type=Peasant
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:591
-#, fuzzy
 msgid ""
 "I swear I saw somebody trapped in the spider’s web. Maybe we should rescue "
 "him?"
 msgstr ""
-"Eu juro que eu vi alguem preso na teia da aranha. Talvez nós devessemos "
-"resgatá-los ?"
+"Eu juro que eu vi alguém preso na teia da aranha. Talvez nós devêssemos "
+"resgatá-los?"
 
 #. [message]: speaker=narrator
 #: data/multiplayer/scenarios/4p_A_New_Land.cfg:613
@@ -389,32 +389,29 @@ msgstr ""
 
 #. [set_variable]
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:249
-#, fuzzy
 msgid ""
 "<span color='green'>$player_name</span>\n"
 "Share knowledge of agriculture"
 msgstr ""
-"$player_name\n"
+"<span color='green'>$player_name</span>\n"
 "Divida seu conhecimento de agricultura"
 
 #. [set_variable]
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:256
-#, fuzzy
 msgid ""
 "<span color='green'>$player_name</span>\n"
 "Share knowledge of mining"
 msgstr ""
-"$player_name\n"
+"<span color='green'>$player_name</span>\n"
 "Divida seu conhecimento de mineração"
 
 #. [set_variable]
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:263
-#, fuzzy
 msgid ""
 "<span color='green'>$player_name</span>\n"
 "Share knowledge of warfare"
 msgstr ""
-"$player_name\n"
+"<span color='green'>$player_name</span>\n"
 "Divida seu conhecimento sobre Arte de Guerra"
 
 #. [message]: speaker=unit
@@ -437,12 +434,11 @@ msgstr "Nada"
 
 #. [option]: speaker=unit
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:314
-#, fuzzy
 msgid ""
 "<span color='green'>Donate Funds</span>\n"
 "Give 20 gold to another player"
 msgstr ""
-"Fundos de Doações\n"
+"<span color='green'>Fundos de Doações</span>\n"
 "Dar 20 peças de ouro para outro jogador"
 
 #. [message]: speaker=unit
@@ -458,12 +454,11 @@ msgstr "Voltar"
 
 #. [option]: speaker=unit
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:358
-#, fuzzy
 msgid ""
 "<span color='green'>Share Knowledge</span>\n"
 "Help an ally with their research"
 msgstr ""
-"Dividir Conhecimento\n"
+"<span color='green'>Dividir Conhecimento</span>\n"
 "Ajude um aliado com suas pesquisas"
 
 #. [message]: speaker=unit
@@ -473,31 +468,29 @@ msgstr "Com quem você irá dividir conhecimento?"
 
 #. [option]: speaker=unit
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:415
-#, fuzzy
 msgid ""
 "<span color='green'>Negotiate with the Dwarves</span>\n"
 "Lets you recruit a Dwarvish unit\n"
 "Negotiation Progress: $player_$side_number|.leader_option_1.progress|/"
 "$player_$side_number|.leader_option_1.target"
 msgstr ""
-"Negociar com os Anões\n"
+"<span color='green'>Negociar com os Anões</span>\n"
 "Recrute uma unidade Anã\n"
-"Progresso de Negociação: $player_$side_number|.leader_option_1."
-"progress|$player_$side_number|.leader_option_1.target"
+"Progresso de Negociação: $player_$side_number|.leader_option_1.progress|"
+"$player_$side_number|.leader_option_1.target"
 
 #. [option]: speaker=unit
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:470
-#, fuzzy
 msgid ""
 "<span color='green'>Negotiate with the Elves</span>\n"
 "Lets you recruit an Elvish unit\n"
 "Negotiation Progress: $player_$side_number|.leader_option_2.progress|/"
 "$player_$side_number|.leader_option_2.target"
 msgstr ""
-"Negociar com os Elfos\n"
+"<span color='green'>Negociar com os Elfos</span>\n"
 "Recrute uma unidade Élfica\n"
-"Progresso de Negociação: $player_$side_number|.leader_option_2."
-"progress|$player_$side_number|.leader_option_2.target"
+"Progresso de Negociação: $player_$side_number|.leader_option_2.progress|"
+"$player_$side_number|.leader_option_2.target"
 
 #. [message]: speaker=narrator
 #: data/multiplayer/scenarios/ANL_utils/ANL_leader_options.cfg:538
@@ -576,62 +569,59 @@ msgstr "Continuar como antes"
 
 #. [option]: speaker=unit
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:165
-#, fuzzy
 msgid ""
 "<span color='green'>Agriculture</span>\n"
 "Farmers produce +1 gold\n"
-"Study Progress: $player_$side_number|.farming.progress|/"
-"$player_$side_number|.farming.target"
+"Study Progress: $player_$side_number|.farming.progress|/$player_"
+"$side_number|.farming.target"
 msgstr ""
-"Agricultura\n"
+"<span color='green'>Agricultura</span>\n"
 "Fazendeiros produzem +1 de ouro\n"
-"Progresso de Estudos: $player_$side_number|.farming.progress|/"
-"$player_$side_number|.farming.target"
+"Progresso de Estudos: $player_$side_number|.farming.progress|/$player_"
+"$side_number|.farming.target"
 
 #. [command]
 #. [research]
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:169
 #: data/multiplayer/scenarios/ANL_utils/ANL_special_macros.cfg:102
 msgid "agriculture"
-msgstr ""
+msgstr "agricultura"
 
 #. [option]: speaker=unit
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:176
-#, fuzzy
 msgid ""
 "<span color='green'>Mining</span>\n"
 "Miners produce +1 gold\n"
 "Study Progress: $player_$side_number|.mining.progress|/$player_$side_number|."
 "mining.target"
 msgstr ""
-"Mineração\n"
+"<span color='green'>Mineração</span>\n"
 "Mineradores produzem +1 de ouro\n"
-"Progresso de Estudos: $player_$side_number|.mining.progress|/"
-"$player_$side_number|.mining.target"
+"Progresso de Estudos: $player_$side_number|.mining.progress|/$player_"
+"$side_number|.mining.target"
 
 #. [command]
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:180
 msgid "mining"
-msgstr ""
+msgstr "mineração"
 
 #. [option]: speaker=unit
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:187
-#, fuzzy
 msgid ""
 "<span color='green'>Warfare</span>\n"
 "Allows you to recruit a new type of unit\n"
-"Study Progress: $player_$side_number|.warfare.progress|/"
-"$player_$side_number|.warfare.target"
+"Study Progress: $player_$side_number|.warfare.progress|/$player_"
+"$side_number|.warfare.target"
 msgstr ""
-"Arte de Guerra\n"
+"<span color='green'>Arte de Guerra</span>\n"
 "Permite você recrutar um novo tipo de unidade\n"
-"Progresso de Estudos: $player_$side_number|.warfare.progress|/"
-"$player_$side_number|.warfare.target"
+"Progresso de Estudos: $player_$side_number|.warfare.progress|/$player_"
+"$side_number|.warfare.target"
 
 #. [command]
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:198
 msgid "warfare"
-msgstr ""
+msgstr "Arte de Guerra"
 
 #. [message]: speaker=narrator
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:247
@@ -639,8 +629,8 @@ msgid ""
 "$player_$side_number|.name|’s farms now produce $player_$side_number|."
 "farming.gold gold."
 msgstr ""
-"As fazendas de $player_$side_number|.name| produzem agora "
-"$player_$side_number|.farming.gold peças de ouro."
+"As fazendas de $player_$side_number|.name| produzem agora $player_"
+"$side_number|.farming.gold peças de ouro."
 
 #. [message]: speaker=narrator
 #: data/multiplayer/scenarios/ANL_utils/ANL_research_options.cfg:279
