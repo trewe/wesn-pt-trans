@@ -294,8 +294,8 @@ msgstr "B<--gunzip>I<\\ infile.gz>"
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:96
 msgid ""
-"decompresses a file which should be in gzip format and stores it without the "
-".gz suffix. The I<infile.gz> will be removed."
+"decompresses a file which should be in gzip format and stores it without "
+"the .gz suffix. The I<infile.gz> will be removed."
 msgstr ""
 "descomprime um arquivo que possa estar em formato gzip e armazena-o sem o "
 "sufixo .gz. O arquivo I<infile.gz> é então removido."
@@ -365,8 +365,8 @@ msgstr "B<--log->I<nível>B<=>I<domínio1>B<,>I<domínio2>B<,>I<...>"
 #: ../../doc/man/wesnoth.6:126
 msgid ""
 "sets the severity level of the log domains.  B<all> can be used to match any "
-"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ B<debug>. "
-" By default the B<error> level is used."
+"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ "
+"B<debug>.  By default the B<error> level is used."
 msgstr ""
 "Ajusta o nível de severidade dos domínios de log.  B<all> (tudo) pode ser "
 "usado para casar com qualquer domínio de log. Níveis disponíveis: B<error> "
@@ -495,8 +495,7 @@ msgstr "imprime o nome do diretório de dados do jogo, e sai."
 #. type: TP
 #: ../../doc/man/wesnoth.6:159
 #, no-wrap
-msgid ""
-"B<-p, --preprocess E<lt>source file/folderE<gt> E<lt>target directoryE<gt>>"
+msgid "B<-p, --preprocess E<lt>source file/folderE<gt> E<lt>target directoryE<gt>>"
 msgstr ""
 
 #. type: Plain text
@@ -1013,8 +1012,8 @@ msgstr ""
 #. type: Plain text
 #: ../../doc/man/wesnothd.6:36
 msgid ""
-"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] "
-"[\\|B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
+"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] [\\|"
+"B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
 msgstr ""
 "B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<caminho>\\|] [\\|B<-p> I<porta>\\|] "
 "[\\|B<-t> I<número>\\|] [\\|B<-T> I<número>\\|]"
@@ -1080,9 +1079,9 @@ msgstr "explica o que as opções de linha de comando fazem."
 #: ../../doc/man/wesnothd.6:72
 msgid ""
 "sets the severity level of the log domains.  B<all> can be used to match any "
-"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ B<debug>. "
-" By default the B<error> level is used and the B<info> level for the "
-"B<server> domain."
+"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ "
+"B<debug>.  By default the B<error> level is used and the B<info> level for "
+"the B<server> domain."
 msgstr ""
 "Ajusta o nível de severidade dos dompinios de log.  B<all> (todos) pode ser "
 "usado para casar com qualquer domínio de log. Níveis disponíveis: B<error> "
@@ -1319,9 +1318,9 @@ msgid ""
 "from wesnoth).  If not specified defaults to the compile-time path (default: "
 "B</var/run/socket/wesnothd/socket>)."
 msgstr ""
-"O caminho para o fifo que exibe os comandos do servidor (o mesmo que /query "
-"... do wesnoth).  Se não especificado, o padrão é o caminho da compilação "
-"(padrão: B</var/run/socket/wesnothd/socket>)."
+"O caminho para o fifo que exibe os comandos do servidor (o mesmo que /"
+"query ... do wesnoth).  Se não especificado, o padrão é o caminho da "
+"compilação (padrão: B</var/run/socket/wesnothd/socket>)."
 
 # type: TP
 #. type: TP
@@ -1643,9 +1642,9 @@ msgstr ""
 #: ../../doc/man/wesnothd.6:221
 msgid ""
 "B<[user_handler]> Configures the user handler. Available keys vary depending "
-"on which user handler is set with the B<user_handler> key. If no B<"
-"[user_handler]> section is present in the configuration the server will run "
-"without any nick registration service."
+"on which user handler is set with the B<user_handler> key. If no "
+"B<[user_handler]> section is present in the configuration the server will "
+"run without any nick registration service."
 msgstr ""
 
 # type: TP

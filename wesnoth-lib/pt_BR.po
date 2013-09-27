@@ -2764,6 +2764,76 @@ msgstr "Conectar"
 # File: data/gui/default/window/addon_uninstall_list.cfg, line: 174
 # File: data/gui/default/window/campaign_dialog.cfg, line: 439
 # File: data/gui/default/window/campaign_difficulty.cfg, line: 192
+# File: data/gui/default/window/data_manage.cfg, line: 361
+# File: data/gui/default/window/edit_label.cfg, line: 154
+# File: data/gui/default/window/edit_text.cfg, line: 130
+# File: data/gui/default/window/editor_edit_label.cfg, line: 191
+# File: data/gui/default/window/editor_generate_map.cfg, line: 107
+# File: data/gui/default/window/editor_new_map.cfg, line: 125
+# File: data/gui/default/window/editor_resize_map.cfg, line: 284
+# File: data/gui/default/window/editor_set_starting_position.cfg, line: 175
+# File: data/gui/default/window/editor_settings.cfg, line: 241
+# File: data/gui/default/window/folder_create.cfg, line: 134
+# File: data/gui/default/window/game_load.cfg, line: 477
+# File: data/gui/default/window/game_save.cfg, line: 135
+# File: data/gui/default/window/language_selection.cfg, line: 141
+# File: data/gui/default/window/message.cfg, line: 149
+# File: data/gui/default/window/mp_change_control.cfg, line: 160
+# File: data/gui/default/window/mp_cmd_wrapper.cfg, line: 470
+# File: data/gui/default/window/mp_connect.cfg, line: 176
+# File: data/gui/default/window/mp_create_game.cfg, line: 559
+# File: data/gui/default/window/mp_create_game_choose_mods.cfg, line: 202
+# File: data/gui/default/window/mp_depcheck_select_new.cfg, line: 146
+# File: data/gui/default/window/mp_login.cfg, line: 274
+# File: data/gui/default/window/mp_method_selection.cfg, line: 225
+# File: data/gui/default/window/mp_server_list.cfg, line: 231
+# File: data/gui/default/window/network_transmission.cfg, line: 114
+# File: data/gui/default/window/simple_item_selector.cfg, line: 158
+# File: data/gui/default/window/unit_attack.cfg, line: 210
+# File: data/gui/default/window/unit_create.cfg, line: 210
+# File: data/gui/default/window/unit_create.cfg, line: 211
+# File: src/construct_dialog.cpp, line: 129
+# File: src/construct_dialog.cpp, line: 132
+# File: src/hotkeys.cpp, line: 68
+# File: data/gui/default/window/addon_connect.cfg, line: 217
+# File: data/gui/default/window/addon_uninstall_list.cfg, line: 174
+# File: data/gui/default/window/campaign_dialog.cfg, line: 439
+# File: data/gui/default/window/campaign_difficulty.cfg, line: 192
+# File: data/gui/default/window/data_manage.cfg, line: 361
+# File: data/gui/default/window/edit_label.cfg, line: 154
+# File: data/gui/default/window/edit_text.cfg, line: 130
+# File: data/gui/default/window/editor_edit_label.cfg, line: 191
+# File: data/gui/default/window/editor_generate_map.cfg, line: 107
+# File: data/gui/default/window/editor_new_map.cfg, line: 125
+# File: data/gui/default/window/editor_resize_map.cfg, line: 284
+# File: data/gui/default/window/editor_set_starting_position.cfg, line: 175
+# File: data/gui/default/window/editor_settings.cfg, line: 241
+# File: data/gui/default/window/folder_create.cfg, line: 134
+# File: data/gui/default/window/game_load.cfg, line: 477
+# File: data/gui/default/window/game_save.cfg, line: 135
+# File: data/gui/default/window/language_selection.cfg, line: 141
+# File: data/gui/default/window/message.cfg, line: 149
+# File: data/gui/default/window/mp_change_control.cfg, line: 160
+# File: data/gui/default/window/mp_cmd_wrapper.cfg, line: 470
+# File: data/gui/default/window/mp_connect.cfg, line: 176
+# File: data/gui/default/window/mp_create_game.cfg, line: 559
+# File: data/gui/default/window/mp_create_game_choose_mods.cfg, line: 202
+# File: data/gui/default/window/mp_depcheck_select_new.cfg, line: 146
+# File: data/gui/default/window/mp_login.cfg, line: 274
+# File: data/gui/default/window/mp_method_selection.cfg, line: 225
+# File: data/gui/default/window/mp_server_list.cfg, line: 231
+# File: data/gui/default/window/network_transmission.cfg, line: 114
+# File: data/gui/default/window/simple_item_selector.cfg, line: 158
+# File: data/gui/default/window/unit_attack.cfg, line: 210
+# File: data/gui/default/window/unit_create.cfg, line: 210
+# File: data/gui/default/window/unit_create.cfg, line: 211
+# File: src/construct_dialog.cpp, line: 129
+# File: src/construct_dialog.cpp, line: 132
+# File: src/hotkeys.cpp, line: 68
+# File: data/gui/default/window/addon_connect.cfg, line: 217
+# File: data/gui/default/window/addon_uninstall_list.cfg, line: 174
+# File: data/gui/default/window/campaign_dialog.cfg, line: 439
+# File: data/gui/default/window/campaign_difficulty.cfg, line: 192
 # File: data/gui/default/window/custom_tod.cfg, line: 397
 # File: data/gui/default/window/data_manage.cfg, line: 361
 # File: data/gui/default/window/edit_label.cfg, line: 154
@@ -9138,6 +9208,9 @@ msgstr "pt_BR,pt"
 # File: src/marked-up_text.cpp, line: 443
 # File: src/marked-up_text.cpp, line: 443
 # File: src/marked-up_text.cpp, line: 443
+# File: src/marked-up_text.cpp, line: 443
+# File: src/marked-up_text.cpp, line: 443
+#: src/marked-up_text.cpp:443
 msgid "The maximum text width is less than 1."
 msgstr "O tamanho máximo de largura de texto é menor que 1."
 
@@ -9267,3 +9340,55 @@ msgid ""
 msgstr ""
 "A chave '$deprecated_key' foi renomeada para '$key'. Suporte para "
 "'$deprecated_key' será removido na versão $removal_version."
+
+#
+# File: data/gui/default/window/editor_settings.cfg, line: 35
+# File: src/hotkeys.cpp, line: 149
+# File: data/gui/default/window/editor_settings.cfg, line: 35
+# File: src/hotkeys.cpp, line: 149
+# File: data/gui/default/window/editor_settings.cfg, line: 35
+# File: src/hotkeys.cpp, line: 149
+#~ msgid "Editor Settings"
+#~ msgstr "Preferências do Editor"
+
+#
+# File: data/gui/default/window/editor_settings.cfg, line: 53
+# File: data/gui/default/window/editor_settings.cfg, line: 53
+# File: data/gui/default/window/editor_settings.cfg, line: 53
+#~ msgid "Time of day lighting preset:"
+#~ msgstr "Horário diurno programado:"
+
+#
+# File: data/gui/default/window/editor_settings.cfg, line: 104
+# File: data/gui/default/window/editor_settings.cfg, line: 104
+# File: data/gui/default/window/editor_settings.cfg, line: 104
+#~ msgid "Custom lighting settings"
+#~ msgstr "Configurações personalizadas de iluminação"
+
+#
+# File: data/gui/default/window/editor_settings.cfg, line: 114
+# File: data/gui/default/window/editor_settings.cfg, line: 114
+# File: data/gui/default/window/editor_settings.cfg, line: 114
+#~ msgid "Automatically update map view"
+#~ msgstr "Atualizar visualização de mapa automaticamente"
+
+#
+#
+#
+# File: data/gui/default/window/editor_settings.cfg, line: 231
+#~ msgid "Allow multiple maps to be open simultaneously"
+#~ msgstr "Permitir que múltiplos mapas sejam abertos simultaneamente"
+
+#
+#
+#
+# File: src/game_preferences_display.cpp, line: 392
+#~ msgid "Add this username to your friends list"
+#~ msgstr "Adiciona este nome à sua lista de amigos"
+
+#
+#
+#
+# File: src/game_preferences_display.cpp, line: 393
+#~ msgid "Add this username to your ignores list"
+#~ msgstr "Adiciona este nome à sua lista de ignorados"
