@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2014-01-04 20:07+0100\n"
-"PO-Revision-Date: 2013-12-07 14:46+0100\n"
+"PO-Revision-Date: 2014-01-05 23:14+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -18,12 +18,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#
 #. [terrain_type]: id=tri_trash
 msgid "Trash"
 msgstr ""
 
-#
 #. [terrain_type]: id=tri_bones
 msgid "Remains"
 msgstr ""
@@ -103,11 +101,9 @@ msgstr "Recife Costeiro"
 msgid "Gray Coastal Reef"
 msgstr "Recife Costeiro Turvo"
 
-#
 #. [terrain_type]: id=medium_reef
-#, fuzzy
 msgid "Medium Coastal Reef"
-msgstr "Recife Costeiro"
+msgstr "Recife Costeiro Turvo"
 
 #
 #. [terrain_type]: id=tropical_reef
@@ -121,7 +117,6 @@ msgstr "Recife Costeiro tropical"
 msgid "Swamp"
 msgstr "Pântano"
 
-#
 #. [terrain_type]: id=swamp_water_reed
 #, fuzzy
 msgid "Swamp Water Reed"
@@ -490,11 +485,9 @@ msgstr "Colinas Geladas"
 msgid "Mountains"
 msgstr "Montanhas"
 
-#
 #. [terrain_type]: id=regular_mountains
-#, fuzzy
 msgid "Regular Mountains"
-msgstr "Montanhas Impassíveis regulares"
+msgstr "Montanhas Regulares"
 
 #
 #. [terrain_type]: id=desert_mountains
@@ -1197,10 +1190,9 @@ msgstr "Sombra"
 msgid "Fog"
 msgstr "Nevoeiro"
 
-#
 #. [terrain_type]: id=fungus
 msgid "Fungus"
-msgstr ""
+msgstr "Floresta de Cogumelos"
 
 #
 #. [terrain_type]: id=fungus
@@ -1238,9 +1230,7 @@ msgid ""
 "Most units receive 20 to 40% defense in caves, whereas dwarves have 50%."
 msgstr ""
 
-#
 #. [terrain_type]: id=sand
-#, fuzzy
 msgid "Sands"
 msgstr "Areia"
 
@@ -1266,8 +1256,8 @@ msgid ""
 "slowed down. Cavalry have enough trouble navigating the terrain that any "
 "defensive aid lent by cover is negated.\n"
 "\n"
-"Most units have about 50% defense in hills, whereas cavalry are limited to 40"
-"%. Dwarves enjoy 60% defense in hills."
+"Most units have about 50% defense in hills, whereas cavalry are limited to "
+"40%. Dwarves enjoy 60% defense in hills."
 msgstr ""
 
 #
@@ -1534,32 +1524,25 @@ msgstr "Descrição:"
 msgid "No description available."
 msgstr "Descrição não disponível."
 
-#
 #. [label]
 msgid "Website:"
-msgstr ""
+msgstr "Página Web:"
 
-#
 #. [label]: id=url_none
 msgid "url^None"
-msgstr ""
+msgstr "Nenhuma"
 
-#
 #. [button]: id=url_copy
-#, fuzzy
 msgid "url^Copy"
-msgstr "Copiar"
+msgstr "Copiar URL"
 
-#
 #. [button]: id=url_copy
-#, fuzzy
 msgid "Copy this URL to clipboard"
 msgstr "Copia este caminho para a área de transferência"
 
-#
 #. [button]: id=url_go
 msgid "url^Go"
-msgstr ""
+msgstr "Ir"
 
 #
 #. [button]: id=url_go
@@ -1606,7 +1589,6 @@ msgstr "Cenários"
 msgid "addons_of_type^MP factions"
 msgstr "Facções MJ"
 
-#
 #. [row]
 #, fuzzy
 msgid "addons_of_type^SP/MP Campaigns"
@@ -1927,47 +1909,37 @@ msgstr "Visível no Nevoeiro"
 msgid "Visible in shroud"
 msgstr "Visível na Sombra"
 
-#
 #. [label]: id=title
 #, fuzzy
 msgid "Edit Scenario Settings"
 msgstr "Objectivos do Cenário"
 
-#
 #. [label]
 msgid "Identifier:"
 msgstr ""
 
-#
 #. [label]
-#, fuzzy
 msgid "Experience modifier:"
-msgstr "Modificador de experiência"
+msgstr "Modificador de Experiência: "
 
-#
 #. [label]
-#, fuzzy
 msgid "Turns:"
-msgstr "Turno"
+msgstr "Turnos: "
 
 #
 #. [toggle_button]: id=victory_when_enemies_defeated
 msgid "Declare victory once all enemies are defeated"
 msgstr ""
 
-#
 #. [toggle_button]: id=random_start_time
-#, fuzzy
 msgid "Random starting time"
 msgstr "Tempo inicial aleatório"
 
-#
 #. [label]: id=title
 #, fuzzy
 msgid "Side Setup"
 msgstr "lado $side"
 
-#
 #. [label]
 #, fuzzy
 msgid "Number:"
@@ -1978,7 +1950,6 @@ msgstr "Número de Montes:"
 msgid "Team identifier:"
 msgstr ""
 
-#
 #. [label]
 #, fuzzy
 msgid "Team name:"
@@ -1990,7 +1961,6 @@ msgstr "Só para a própria equipa"
 msgid "Share map"
 msgstr "Animar Mapa"
 
-#
 #. [toggle_button]: id=no_leader
 #, fuzzy
 msgid "No leader"
@@ -2001,7 +1971,6 @@ msgstr "Líder"
 msgid "Fog of war"
 msgstr "Nevoeiro de guerra"
 
-#
 #. [toggle_button]: id=share_view
 msgid "Share view"
 msgstr ""
@@ -2012,10 +1981,9 @@ msgstr ""
 msgid "Hide in status table"
 msgstr "Tabela de Estado"
 
-#
 #. [label]
 msgid "Gold:"
-msgstr ""
+msgstr "Ouro:"
 
 #
 #. [label]
@@ -2023,10 +1991,9 @@ msgstr ""
 msgid "Gold per village:"
 msgstr "Ouro por aldeia"
 
-#
 #. [label]
 msgid "Income:"
-msgstr ""
+msgstr "Rendimento:"
 
 #
 #. [label]
@@ -2034,12 +2001,10 @@ msgstr ""
 msgid "Support per village:"
 msgstr "Ouro por aldeia"
 
-#
 #. [label]
 msgid "Controller:"
-msgstr ""
+msgstr "Controlador:"
 
-#
 #. [row]
 msgid "controller^Human"
 msgstr ""
@@ -2772,10 +2737,9 @@ msgstr ""
 msgid "Password:"
 msgstr "Senha:"
 
-#
 #. [label]
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"
 
 #
 #. [label]
