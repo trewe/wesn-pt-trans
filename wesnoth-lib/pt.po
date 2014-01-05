@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2013-11-16 09:29+0100\n"
+"POT-Creation-Date: 2014-01-04 20:07+0100\n"
 "PO-Revision-Date: 2013-12-07 14:46+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -18,8 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
+#
+#. [terrain_type]: id=tri_trash
+msgid "Trash"
+msgstr ""
+
+#
+#. [terrain_type]: id=tri_bones
+msgid "Remains"
+msgstr ""
+
+#
 #. [terrain_type]: id=deep_water
 #. [terrain_type]: id=deep_water_gray
+#. [terrain_type]: id=deep_water_medium
 #. [terrain_type]: id=deep_water_tropical
 msgid "Deep Water"
 msgstr "Águas Profundas"
@@ -30,7 +42,7 @@ msgid "Gray Deep Water"
 msgstr "Águas Profundas Turvas"
 
 #
-#. [terrain_type]: id=deep_water
+#. [terrain_type]: id=deep_water_medium
 msgid "Medium Deep Water"
 msgstr "Águas Profundas Médias"
 
@@ -41,6 +53,7 @@ msgstr "Águas Profundas tropicais"
 
 #
 #. [terrain_type]: id=gray_tropical_water
+#. [terrain_type]: id=medium_shallow_water
 #. [terrain_type]: id=shallow_water
 #. [terrain_type]: id=tropical_water
 msgid "Shallow Water"
@@ -52,7 +65,7 @@ msgid "Gray Shallow Water"
 msgstr "Águas Rasas Turvas"
 
 #
-#. [terrain_type]: id=shallow_water
+#. [terrain_type]: id=medium_shallow_water
 msgid "Medium Shallow Water"
 msgstr "Águas Rasas médias"
 
@@ -67,7 +80,19 @@ msgid "Ford"
 msgstr "Vau"
 
 #
+#. [terrain_type]: id=ford
+msgid ""
+"When a river happens to be extremely shallow, passing over it is a trivial "
+"matter for land based units. Moreover, any creature best adapted to swimming "
+"has full mobility even at such places in the river. As far as gameplay is "
+"concerned, a river ford is treated as either grassland or shallow water, "
+"choosing whichever one offers the best defensive and movement bonuses for "
+"the unit on it."
+msgstr ""
+
+#
 #. [terrain_type]: id=gray_reef
+#. [terrain_type]: id=medium_reef
 #. [terrain_type]: id=reef
 #. [terrain_type]: id=tropical_reef
 msgid "Coastal Reef"
@@ -79,6 +104,12 @@ msgid "Gray Coastal Reef"
 msgstr "Recife Costeiro Turvo"
 
 #
+#. [terrain_type]: id=medium_reef
+#, fuzzy
+msgid "Medium Coastal Reef"
+msgstr "Recife Costeiro"
+
+#
 #. [terrain_type]: id=tropical_reef
 msgid "Tropical Coastal Reef"
 msgstr "Recife Costeiro tropical"
@@ -86,8 +117,15 @@ msgstr "Recife Costeiro tropical"
 #
 #. [terrain_type]: id=quagmire
 #. [terrain_type]: id=swamp_water
+#. [terrain_type]: id=swamp_water_reed
 msgid "Swamp"
 msgstr "Pântano"
+
+#
+#. [terrain_type]: id=swamp_water_reed
+#, fuzzy
+msgid "Swamp Water Reed"
+msgstr "Castelo humano no pântano"
 
 #
 #. [terrain_type]: id=quagmire
@@ -159,6 +197,14 @@ msgid "Regular Cobbles"
 msgstr "Pedras Regulares"
 
 #
+#. [terrain_type]: id=road
+msgid ""
+"<italic>text='Roads'</italic> are beaten paths of dirt, formed by many "
+"travelers passing over them. As far as gameplay is concerned, roads behave "
+"as flat terrain."
+msgstr ""
+
+#
 #. [terrain_type]: id=road_clean
 msgid "Clean Gray Cobbles"
 msgstr "Pedras Cinzentas Limpas"
@@ -189,14 +235,35 @@ msgid "Desert Sands"
 msgstr "Areias desérticas"
 
 #
+#. [terrain_type]: id=desert
+msgid ""
+"<italic>text='Deserts'</italic> have a somewhat different composition than "
+"small sand pits or beaches, however for gameplay purposes they are "
+"identical. See <ref>dst='terrain_sand' text='sand'</ref>."
+msgstr ""
+
+#
 #. [terrain_type]: id=sand
+#. [terrain_type]: id=sand_beach
 msgid "Sand"
 msgstr "Areia"
 
 #
-#. [terrain_type]: id=sand
+#. [terrain_type]: id=sand_beach
 msgid "Beach Sands"
 msgstr "Areias de praia"
+
+#
+#. [terrain_type]: id=sand
+#. [terrain_type]: id=sand_beach
+msgid ""
+"The instability of <italic>text='sand'</italic> makes it harder for most "
+"units to cross, and leaves them wide open to attack. In contrast, the wide "
+"feet or snakelike bodies of the reptilian races make sand much easier for "
+"them to navigate.\n"
+"\n"
+"Most units receive 20 to 40% defense in sand."
+msgstr ""
 
 #
 #. [terrain_type]: id=oasis
@@ -385,28 +452,15 @@ msgid "Snowy Mixed Forest"
 msgstr "Floresta mista gelada"
 
 #
-#. [terrain_type]: id=deciduous_forest_fall_hills
-#. [terrain_type]: id=deciduous_forest_summer_hills
-#. [terrain_type]: id=deciduous_forest_winter_hills
-#. [terrain_type]: id=deciduous_forest_winter_snow_hills
-#. [terrain_type]: id=forest_palm_desert_hills
-#. [terrain_type]: id=forest_palm_hills
-#. [terrain_type]: id=forest_tropical_hills
-#. [terrain_type]: id=forested_hills
-#. [terrain_type]: id=forested_snow_hills
 #. [terrain_type]: id=hills
 #. [terrain_type]: id=hills_dry
-#. [terrain_type]: id=mixed_forest_fall_hills
-#. [terrain_type]: id=mixed_forest_summer_hills
-#. [terrain_type]: id=mixed_forest_winter_hills
-#. [terrain_type]: id=mixed_forest_winter_snow_hills
-#. [terrain_type]: id=savanna_hills
+#. [terrain_type]: id=hills_regular
 #. [terrain_type]: id=snow_hills
 msgid "Hills"
 msgstr "Colinas"
 
 #
-#. [terrain_type]: id=hills
+#. [terrain_type]: id=hills_regular
 msgid "Regular Hills"
 msgstr "Colinas Regulares"
 
@@ -431,9 +485,16 @@ msgstr "Colinas Geladas"
 #. [terrain_type]: id=clouddesert
 #. [terrain_type]: id=desert_mountains
 #. [terrain_type]: id=mountains
+#. [terrain_type]: id=regular_mountains
 #. [terrain_type]: id=snow_mountains
 msgid "Mountains"
 msgstr "Montanhas"
+
+#
+#. [terrain_type]: id=regular_mountains
+#, fuzzy
+msgid "Regular Mountains"
+msgstr "Montanhas Impassíveis regulares"
 
 #
 #. [terrain_type]: id=desert_mountains
@@ -444,76 +505,6 @@ msgstr "Montanhas Secas"
 #. [terrain_type]: id=snow_mountains
 msgid "Snowy Mountains"
 msgstr "Montanhas Geladas"
-
-#
-#. [terrain_type]: id=forested_hills
-msgid "Forested Hills"
-msgstr "Colinas florestadas"
-
-#
-#. [terrain_type]: id=forested_snow_hills
-msgid "Forested Snow Hills"
-msgstr "Colinas geladas florestadas"
-
-#
-#. [terrain_type]: id=deciduous_forest_summer_hills
-msgid "Summer Deciduous Forested Hills"
-msgstr "Colinas florestadas decídua de Verão"
-
-#
-#. [terrain_type]: id=deciduous_forest_fall_hills
-msgid "Fall Deciduous Forested Hills"
-msgstr "Colinas florestadas decídua de Outono"
-
-#
-#. [terrain_type]: id=deciduous_forest_winter_hills
-msgid "Winter Deciduous Forested Hills"
-msgstr "Colinas florestadas decídua de Inverno"
-
-#
-#. [terrain_type]: id=deciduous_forest_winter_snow_hills
-msgid "Snowy Deciduous Forested Hills"
-msgstr "Colinas florestadas decídua em Neve"
-
-#
-#. [terrain_type]: id=mixed_forest_summer_hills
-msgid "Summer Mixed Forested Hills"
-msgstr "Colinas de Verão de floresta mista"
-
-#
-#. [terrain_type]: id=mixed_forest_fall_hills
-msgid "Fall Mixed Forested Hills"
-msgstr "Colinas de Outono de floresta mista"
-
-#
-#. [terrain_type]: id=mixed_forest_winter_hills
-msgid "Winter Mixed Forested Hills"
-msgstr "Colinas de Inverno de floresta mista"
-
-#
-#. [terrain_type]: id=mixed_forest_winter_snow_hills
-msgid "Snowy Mixed Forested Hills"
-msgstr "Colinas geladas de floresta mista"
-
-#
-#. [terrain_type]: id=forest_tropical_hills
-msgid "Tropical Forested Hills"
-msgstr "Colinas de Floresta Tropical"
-
-#
-#. [terrain_type]: id=forest_palm_desert_hills
-msgid "Palm Forested Hills"
-msgstr "Colinas de Floresta de Palmeiras"
-
-#
-#. [terrain_type]: id=forest_palm_hills
-msgid "Dense Palm Forested Hills"
-msgstr "Colinas de Floresta Densa de Palmeiras"
-
-#
-#. [terrain_type]: id=savanna_hills
-msgid "Savanna Forested Hills"
-msgstr "Colinas de Floresta das estepes"
 
 #
 #. [terrain_type]
@@ -538,11 +529,12 @@ msgstr "Raio de luz"
 #
 #. [terrain_type]: id=cave
 #. [terrain_type]: id=cave_earthy
+#. [terrain_type]: id=cave_floor
 msgid "Cave"
 msgstr "Caverna"
 
 #
-#. [terrain_type]: id=cave
+#. [terrain_type]: id=cave_floor
 msgid "Cave Floor"
 msgstr "Fundo de caverna"
 
@@ -562,8 +554,8 @@ msgid "Cave Path"
 msgstr "Trilha na Caverna"
 
 #
-#. [terrain_type]: id=fungus
 #. [terrain_type]: id=fungus_beam
+#. [terrain_type]: id=fungus_grove
 msgid "Mushroom Grove"
 msgstr "Caverna de cogumelos"
 
@@ -576,6 +568,22 @@ msgstr "Caverna de cogumelos iluminada"
 #. [terrain_type]: id=rocky_cave
 msgid "Rockbound Cave"
 msgstr "Cavernas Rochosas"
+
+#
+#. [terrain_type]: id=rocky_cave
+msgid ""
+"<italic>text='Rockbound cave'</italic> terrain is formed by the action of "
+"water and wind, carrying erosive particles that carve the rock. It resembles "
+"a scraggy underground cavern which reduces efficiency of most units, but "
+"shoulders defense. Dwarves and trolls, who are main settlers of caves, have "
+"a relatively easy time navigating this terrain. Dwarves, who by dint of "
+"their small size have the full advantage of navigation in such topography. "
+"Occasionally caves are <ref>dst='terrain_illuminated_cave' "
+"text='illuminated'</ref>\n"
+"\n"
+"Most units have about 50% defense in rocky caves, whereas cavalry are "
+"limited to 40%. Dwarves enjoy 60% defense in rockbound caves."
+msgstr ""
 
 #
 #. [terrain_type]: id=mine_rails
@@ -616,6 +624,18 @@ msgstr "Desfiladeiro de lava"
 #. [terrain_type]: id=lava
 msgid "Lava"
 msgstr "Lava"
+
+#
+#. [terrain_type]: id=lava
+msgid ""
+"The dangers inherent in trying to walk on <italic>text='lava'</italic> are "
+"fairly obvious. As far as movement is concerned, lava is equivalent to "
+"<ref>dst='terrain_unwalkable' text='unwalkable'</ref> terrain, and can only "
+"be crossed by those units capable of flying a considerable distance above "
+"it. The molten magma also produces a substantial glow, illuminating the area "
+"immediately above it. This provides an attack bonus for lawful units and "
+"removes the attack bonus from chaotic units."
+msgstr ""
 
 #
 #. [terrain_type]: id=volcano
@@ -868,6 +888,20 @@ msgid "Merfolk Village"
 msgstr "Aldeia aquática"
 
 #
+#. [terrain_type]: id=mermen-village
+msgid ""
+"<italic>text='Submerged villages'</italic> are the homes of merfolk and "
+"nagas. While water-dwelling creatures are at home here, land-dwellers have a "
+"hard time navigating and defending these villages. However, like any "
+"village, the facilites are available to all creatures which allow units to "
+"tend to their wounds. Any unit stationed in a village can heal eight "
+"hitpoints each turn, or be cured of poison.\n"
+"\n"
+"Merfolk and nagas have 60% defense in submerged villages, whereas land based "
+"units usually have a low defense."
+msgstr ""
+
+#
 #. [terrain_type]: id=village_overlay
 msgid "Village Overlay"
 msgstr "Sobreposição de Aldeia"
@@ -888,6 +922,7 @@ msgstr "Acampamento gelado"
 #. [terrain_type]: id=castle_overlay
 #. [terrain_type]: id=dwarven_castle
 #. [terrain_type]: id=elven_castle
+#. [terrain_type]: id=human_castle
 #. [terrain_type]: id=orcish_fort
 #. [terrain_type]: id=sand_castle
 #. [terrain_type]: id=snow_castle
@@ -906,7 +941,7 @@ msgid "Snowy Orcish Castle"
 msgstr "Castelo orc gelado"
 
 #
-#. [terrain_type]: id=castle
+#. [terrain_type]: id=human_castle
 msgid "Human Castle"
 msgstr "Castelo humano"
 
@@ -1084,6 +1119,22 @@ msgid "Wooden Bridge"
 msgstr "Ponte de Madeira"
 
 #
+#. [terrain_type]: id=bridge
+msgid ""
+"To those capable of building one, the ability to lay a "
+"<italic>text='bridge'</italic> offers a liberation from the fickle nature of "
+"waterways, whose fords come and go with the rise and fall of the waterline. "
+"This is to say nothing of the luxury of dry feet, the loss of which is no "
+"laughing matter in the cold months of the year.\n"
+"\n"
+"For those who go by land or sea, a bridge is the best of both worlds — for "
+"gameplay purposes, it is treated either as grassland or the underlying "
+"water, whichever offers the best movement and defensive bonuses for the unit "
+"occupying the bridge hex. Note that a swimming unit and a land unit are not "
+"capable of occupying a bridge hex at the same time."
+msgstr ""
+
+#
 #. [terrain_type]: id=rotbridge
 #. [terrain_type]: id=rotbridgediag1
 #. [terrain_type]: id=rotbridgediag2
@@ -1147,9 +1198,181 @@ msgid "Fog"
 msgstr "Nevoeiro"
 
 #
+#. [terrain_type]: id=fungus
+msgid "Fungus"
+msgstr ""
+
+#
+#. [terrain_type]: id=fungus
+msgid ""
+"<italic>text='Mushroom groves'</italic> are vast underground forests of "
+"giant mushrooms,\n"
+"which thrive in the damp darkness. Most units have trouble negotiating the "
+"spongy floor of smaller fungi, but they have plenty of cover behind the "
+"larger stalks. Mounted units, however, become completely mired and lack "
+"proper freedom of movement in combat. Undead units have a natural affinity "
+"for decay and function quite well in mushroom forests.\n"
+"\n"
+"Most units receive 50% to 60% defense in mushroom groves, whereas cavalry "
+"receive only 20%."
+msgstr ""
+
+#
+#. [terrain_type]: id=cave
+msgid ""
+"<italic>text='Cave'</italic> terrain represents any underground cavern with "
+"enough room for a unit to pass.\n"
+"Most units are wholly unfamiliar with the terrain, and thus are both slowed "
+"down and hindered in defense. Dwarves and trolls, who make their homes in "
+"caves, both have a relatively easy time navigating this terrain, especially "
+"dwarves, who by dint of their small size can navigate many obstacles that "
+"other races cannot. Occasionally caves are "
+"<ref>dst='terrain_illuminated_cave' text='illuminated'</ref>.\n"
+"\n"
+"Rare patches of the underground world are illuminated by light from the "
+"surface shining down into the gloomy darkness. This provides an attack bonus "
+"for lawful units and removes the attack bonus from chaotic units. In all "
+"other regards this terrain is functionally identical to normal "
+"<ref>dst='terrain_cave' text='cave terrains'</ref>.\n"
+"\n"
+"Most units receive 20 to 40% defense in caves, whereas dwarves have 50%."
+msgstr ""
+
+#
+#. [terrain_type]: id=sand
+#, fuzzy
+msgid "Sands"
+msgstr "Areia"
+
+#
+#. [terrain_type]: id=reef
+msgid ""
+"<italic>text='Coastal reefs'</italic> are shallows formed by stone, coral "
+"and sand.\n"
+"This provides most land units with a more steady footing and defensive "
+"positions than wading in shallow water normally would and also grants most "
+"water-dwelling races an exceptionally high defense.\n"
+"\n"
+"Mermen and Naga both receive 70% defense on coastal reefs."
+msgstr ""
+
+#
+#. [terrain_type]: id=hills
+msgid ""
+"<italic>text='Hills'</italic> represent any reasonably rough terrain,\n"
+"with enough dips and rises in the ground to provide some cover. Hills are "
+"difficult for most troops to navigate. Dwarves, trolls, and orcs have enough "
+"familiarity with the terrain that they can pass through it without being "
+"slowed down. Cavalry have enough trouble navigating the terrain that any "
+"defensive aid lent by cover is negated.\n"
+"\n"
+"Most units have about 50% defense in hills, whereas cavalry are limited to 40"
+"%. Dwarves enjoy 60% defense in hills."
+msgstr ""
+
+#
+#. [terrain_type]: id=swamp_water
+msgid ""
+"<italic>text='Swamps'</italic> represent any sort of wetlands.\n"
+"Swamps slow down nearly everyone, and inhibit their ability to defend "
+"themselves. An exception to this is any race bodily skilled in navigating "
+"water; these receive both full movement and a defensive bonus. Those that "
+"make their living in the wetlands are also adept at using this terrain for "
+"cover.\n"
+"\n"
+"Most units make do with 30% defense in swamps. Mermen, naga, and saurians "
+"all generally enjoy 60%."
+msgstr ""
+
+#
+#. [terrain_type]: id=shallow_water
+msgid ""
+"<italic>text='Shallow water'</italic> represents any body of water deep "
+"enough to come up to roughly a man’s waist. This is enough to slow down "
+"nearly anyone and leave them wide open to attack. Dwarves, given that the "
+"water reaches up almost to their heads, have an extremely hard time of this. "
+"The exception is any race whose bodies naturally lend themselves to "
+"swimming, for which they receive a considerable defensive bonus and full "
+"movement.\n"
+"\n"
+"Most units make do with 20 to 30% defense in shallow water, whereas both "
+"naga and mermen enjoy 60%."
+msgstr ""
+
+#
+#. [terrain_type]: id=castle
+msgid ""
+"<italic>text='Castles'</italic> are any sort of permanent fortification.\n"
+"Nearly all units receive a considerable bonus to their defense by being "
+"stationed in a castle, and most units receive full movement in a castle. "
+"Stationing units in a castle represents its defensive capability. Without a "
+"unit in each wall hex, an enemy can simply sneak into the castle "
+"unchallenged, gaining the same defensive bonus as everyone inside.\n"
+"\n"
+"Most units have about 60% defense in a castle."
+msgstr ""
+
+#
+#. [terrain_type]: id=mountains
+msgid ""
+"<italic>text='Mountains'</italic> are steep enough that units often have to "
+"climb over obstacles to move. By this nature, they provide a considerable "
+"defensive bonus for most troops, but they also severely impede any passage "
+"through them. Most cavalary simply cannot enter mountainous terrain; "
+"however, elvish cavalry is an exception to this, as are the goblin wolf "
+"riders. Both dwarves and trolls re native to mountainous terrain, and have a "
+"very easiy time getting around.\n"
+"\n"
+"Most units receive about 60% defense in mountains, whereas Dwarves enjoy 70%."
+msgstr ""
+
+#
+#. [terrain_type]: id=deep_water
+msgid ""
+"<italic>text='Deep water'</italic> represents any body of water deep enough "
+"to cover a man’s head.\n"
+"Most units cannot enter deep water: it is the domain of units which can "
+"either fly, or are exceptionally strong swimmers.\n"
+"\n"
+"Mermen and naga both receive 50% defense in deep water, with full movement."
+msgstr ""
+
+#
 #. [terrain_type]: id=flat
 msgid "Flat"
 msgstr "Planície"
+
+#
+#. [terrain_type]: id=flat
+msgid ""
+"<italic>text='Grassland'</italic> represents open plains, whether "
+"cultivated, cut back for grazing, or wild.\n"
+"Being open ground, grassland is both very easy to move across, but is also "
+"difficult to defend oneself in. Typically, those units that perform best on "
+"grassland are either cavalry, or very agile units which take advantage of "
+"the open space.\n"
+"\n"
+"Most units have defense of 30 to 40% on grassland."
+msgstr ""
+
+#
+#. [terrain_type]: id=forest
+msgid ""
+"<italic>text='Forests'</italic> represent any woodland with significant "
+"undergrowth, enough to hinder passage. Though they slow nearly everyone "
+"down, forests do offer better defense to most units than open ground. "
+"Cavalry, however, have so much trouble navigating them that any benefit "
+"gained by stealth is negated. Elves are an exception to this general rule "
+"for forests. Not only do they possess full movement in forests, but they "
+"also gain a considerable defensive bonus. Dwarves are another exception to "
+"this rule; though they are able to plow through the forests without much "
+"loss of speed, their utter unfamiliarity with the terrain causes them to "
+"receive no defensive bonus.\n"
+"\n"
+"Most units have 50% defense in forests, but cavalry are limited to 30%. "
+"Elves, on the other hand, enjoy 60 to 70% defense, even their mounted units. "
+"Dwarves generally receive only 30% defense in forests."
+msgstr ""
 
 #
 #. [terrain_type]: id=frozen
@@ -1157,9 +1380,46 @@ msgid "Frozen"
 msgstr "Congelado"
 
 #
+#. [terrain_type]: id=frozen
+msgid ""
+"<italic>text='Frozen'</italic> terrain represents any flat area that is "
+"covered by snow or ice.\n"
+"Most units are slowed down on it, and have a harder time defending "
+"themselves. Note that swimming units, even those who can breathe underwater, "
+"cannot swim underneath ice.\n"
+"\n"
+"Most units have 20 to 40% defense in frozen terrain."
+msgstr ""
+
+#
+#. [terrain_type]: id=village
+msgid ""
+"<italic>text='Villages'</italic> represent any group of buildings, human or "
+"otherwise.\n"
+"Almost all units, even cavalry, have an easy time navigating villages, and "
+"most units gain a defensive bonus from being stationed in a village. "
+"Villages allow units the resources to clean and tend to their wounds, which "
+"allows any unit stationed therein to heal eight hitpoints each turn, or to "
+"be cured of poison.\n"
+"\n"
+"Most units have 50 to 60% defense in villages, whereas cavalry receive only "
+"40%."
+msgstr ""
+
+#
 #. [terrain_type]: id=impassable
 msgid "Impassable"
 msgstr "Intransmissível"
+
+#
+#. [terrain_type]: id=impassable
+msgid ""
+"Obstacles that not even the most determined traveler may overcome include "
+"solid walls of stone and mountains so tall and steep that they are "
+"constantly wreathed in cloud. Even flying creatures cannot navigate the "
+"jagged peaks at such rarified heights, and not even the fiercest troll can "
+"smash through thick walls of stone."
+msgstr ""
 
 #
 #. [terrain_type]: id=unwalkable
@@ -1167,9 +1427,24 @@ msgid "Unwalkable"
 msgstr "Impassível"
 
 #
+#. [terrain_type]: id=unwalkable
+msgid ""
+"<italic>text='Unwalkable terrain'</italic> covers any chasm or gorge which, "
+"as the name implies, cannot be crossed simply by walking. Chasms are noted "
+"for sheer walls which would take days to traverse. As far as gameplay is "
+"concerned, only units capable of flying can cross this terrain."
+msgstr ""
+
+#
 #. [terrain_type]: id=rails
 msgid "Rails"
 msgstr "Ferrovia"
+
+#
+#. [terrain_type]: id=rails
+msgid ""
+"<italic>text='Rails'</italic> are used to transport ore. By Dwarfs. Mostly."
+msgstr ""
 
 #
 #. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -1203,7 +1478,6 @@ msgid "Remove Add-ons"
 msgstr "Eliminar Extras"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=help
 #. [button]: id=show_help
 msgid "Help"
@@ -1227,8 +1501,8 @@ msgstr "Tipo:"
 
 #
 #. [label]
-msgid "Author:"
-msgstr "Autor:"
+msgid "Status:"
+msgstr "Estado:"
 
 #
 #. [label]
@@ -1237,13 +1511,13 @@ msgstr "Versão:"
 
 #
 #. [label]
-msgid "Status:"
-msgstr "Estado:"
+msgid "Size:"
+msgstr "Tamanho:"
 
 #
 #. [label]
-msgid "Size:"
-msgstr "Tamanho:"
+msgid "Author:"
+msgstr "Autor:"
 
 #
 #. [label]
@@ -1259,6 +1533,38 @@ msgstr "Descrição:"
 #. [scroll_label]: id=description
 msgid "No description available."
 msgstr "Descrição não disponível."
+
+#
+#. [label]
+msgid "Website:"
+msgstr ""
+
+#
+#. [label]: id=url_none
+msgid "url^None"
+msgstr ""
+
+#
+#. [button]: id=url_copy
+#, fuzzy
+msgid "url^Copy"
+msgstr "Copiar"
+
+#
+#. [button]: id=url_copy
+#, fuzzy
+msgid "Copy this URL to clipboard"
+msgstr "Copia este caminho para a área de transferência"
+
+#
+#. [button]: id=url_go
+msgid "url^Go"
+msgstr ""
+
+#
+#. [button]: id=url_go
+msgid "Visit this URL with a web browser"
+msgstr ""
 
 #
 #. [label]
@@ -1302,6 +1608,12 @@ msgstr "Facções MJ"
 
 #
 #. [row]
+#, fuzzy
+msgid "addons_of_type^SP/MP Campaigns"
+msgstr "Campanhas MJ"
+
+#
+#. [row]
 msgid "addons_of_type^MP campaigns"
 msgstr "Campanhas MJ"
 
@@ -1335,6 +1647,7 @@ msgstr "Desconhecido"
 msgid "addons_of_type^MP modifications"
 msgstr "Modificações MJ"
 
+#
 #. [label]
 msgid "Options"
 msgstr "Opções"
@@ -1360,26 +1673,32 @@ msgstr "Tipos de Extras:"
 msgid "Toggle All"
 msgstr "Activar Todos"
 
+#
 #. [label]
 msgid "Add-ons will be sorted as follows when no column is selected:"
 msgstr "Indica como os extras devem ser ordenados por padrão:"
 
+#
 #. [row]
 msgid "sort^By name"
 msgstr "Por nome"
 
+#
 #. [row]
 msgid "sort^By last updated"
 msgstr "Pela última data de modificação"
 
+#
 #. [row]
 msgid "sort^By first upload"
 msgstr "Pela primeira data de modificação"
 
+#
 #. [row]
 msgid "sort^Ascending"
 msgstr "Ascendente"
 
+#
 #. [row]
 msgid "sort^Descending"
 msgstr "Descendente"
@@ -1440,6 +1759,7 @@ msgstr "Último"
 msgid "Previous"
 msgstr "Anterior"
 
+#
 #. [button]: id=previous_page
 msgid "Previous page"
 msgstr "Página anterior"
@@ -1451,6 +1771,7 @@ msgstr "Página anterior"
 msgid "Next"
 msgstr "Próximo"
 
+#
 #. [button]: id=next_page
 msgid "Next page"
 msgstr "Próxima página"
@@ -1460,6 +1781,7 @@ msgstr "Próxima página"
 msgid "Filter:"
 msgstr "Filtro:"
 
+#
 #. [label]
 msgid "Custom Time of Day Schedule"
 msgstr "Definição do Tempo de dia personalizado"
@@ -1474,6 +1796,7 @@ msgstr "Nome:"
 msgid "ID:"
 msgstr "ID:"
 
+#
 #. [label]
 msgid "Metadata:"
 msgstr "Dados gerais:"
@@ -1605,6 +1928,143 @@ msgid "Visible in shroud"
 msgstr "Visível na Sombra"
 
 #
+#. [label]: id=title
+#, fuzzy
+msgid "Edit Scenario Settings"
+msgstr "Objectivos do Cenário"
+
+#
+#. [label]
+msgid "Identifier:"
+msgstr ""
+
+#
+#. [label]
+#, fuzzy
+msgid "Experience modifier:"
+msgstr "Modificador de experiência"
+
+#
+#. [label]
+#, fuzzy
+msgid "Turns:"
+msgstr "Turno"
+
+#
+#. [toggle_button]: id=victory_when_enemies_defeated
+msgid "Declare victory once all enemies are defeated"
+msgstr ""
+
+#
+#. [toggle_button]: id=random_start_time
+#, fuzzy
+msgid "Random starting time"
+msgstr "Tempo inicial aleatório"
+
+#
+#. [label]: id=title
+#, fuzzy
+msgid "Side Setup"
+msgstr "lado $side"
+
+#
+#. [label]
+#, fuzzy
+msgid "Number:"
+msgstr "Número de Montes:"
+
+#
+#. [label]
+msgid "Team identifier:"
+msgstr ""
+
+#
+#. [label]
+#, fuzzy
+msgid "Team name:"
+msgstr "Só para a própria equipa"
+
+#
+#. [toggle_button]: id=share_maps
+#, fuzzy
+msgid "Share map"
+msgstr "Animar Mapa"
+
+#
+#. [toggle_button]: id=no_leader
+#, fuzzy
+msgid "No leader"
+msgstr "Líder"
+
+#
+#. [toggle_button]: id=fog
+msgid "Fog of war"
+msgstr "Nevoeiro de guerra"
+
+#
+#. [toggle_button]: id=share_view
+msgid "Share view"
+msgstr ""
+
+#
+#. [toggle_button]: id=hidden
+#, fuzzy
+msgid "Hide in status table"
+msgstr "Tabela de Estado"
+
+#
+#. [label]
+msgid "Gold:"
+msgstr ""
+
+#
+#. [label]
+#, fuzzy
+msgid "Gold per village:"
+msgstr "Ouro por aldeia"
+
+#
+#. [label]
+msgid "Income:"
+msgstr ""
+
+#
+#. [label]
+#, fuzzy
+msgid "Support per village:"
+msgstr "Ouro por aldeia"
+
+#
+#. [label]
+msgid "Controller:"
+msgstr ""
+
+#
+#. [row]
+msgid "controller^Human"
+msgstr ""
+
+#
+#. [row]
+msgid "controller^Human/AI"
+msgstr ""
+
+#
+#. [row]
+msgid "controller^AI only"
+msgstr ""
+
+#
+#. [row]
+msgid "controller^None"
+msgstr ""
+
+#
+#. [row]
+msgid "controller^Player number:"
+msgstr ""
+
+#
 #. [label]
 msgid "Generate Random Map"
 msgstr "Gerar Mapa Aleatório"
@@ -1625,7 +2085,6 @@ msgid "Generate"
 msgstr "Gerar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 msgid "New Map"
 msgstr "Novo Mapa"
@@ -1648,7 +2107,6 @@ msgid "Create"
 msgstr "Criar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 msgid "Resize Map"
 msgstr "Redimensionar Mapa"
@@ -1755,7 +2213,6 @@ msgid "Execution trace"
 msgstr "Rota da execução"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #. [button]: id=quit
 #. [grid]
@@ -1831,52 +2288,62 @@ msgstr "Cancelar ordens"
 msgid "Cancel any pending unit movements in the saved game"
 msgstr "Cancela qualquer ordem pendente na partida guardada"
 
+#
 #. [button]: id=copy_
 msgid "filesystem^Copy"
 msgstr "Copiar"
 
+#
 #. [button]: id=copy_
 msgid "Copy this path to clipboard"
 msgstr "Copia este caminho para a área de transferência"
 
+#
 #. [button]: id=browse_
 msgid "filesystem^Browse"
 msgstr "Navegar"
 
+#
 #. [button]: id=browse_
 msgid "Browse this location using a file manager"
 msgstr "Abre esta localização com um navegador de ficheiros"
 
+#
 #. [label]: id=title
 msgid "Game Paths"
 msgstr "Caminho dos Ficheiros"
 
+#
 #. [grid]
 msgid "Game data:"
 msgstr "Dados do jogo:"
 
+#
 #. [grid]
 msgid "Configuration:"
 msgstr "Confirmações:"
 
+#
 #. [grid]
 msgid "User data:"
 msgstr "Dados do Utilizador:"
 
+#
 #. [grid]
 msgid "Saved games:"
 msgstr "Partidas gravadas:"
 
+#
 #. [grid]
 msgid "Add-ons:"
 msgstr "Extras:"
 
+#
 #. [grid]
 msgid "Cache:"
 msgstr "Cache:"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 msgid "Save Game"
 msgstr "Gravar o Jogo"
@@ -1887,7 +2354,6 @@ msgid "Ignore all"
 msgstr "ignorar Todos"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=quit_game
 msgid "Quit Game"
 msgstr "Sair do Jogo"
@@ -2280,11 +2746,6 @@ msgid "Village gold"
 msgstr "Ouro por aldeia"
 
 #
-#. [toggle_button]: id=fog
-msgid "Fog of war"
-msgstr "Nevoeiro de guerra"
-
-#
 #. [toggle_button]: id=random_start_time
 msgid "Random start time"
 msgstr "Tempo inicial aleatório"
@@ -2313,8 +2774,8 @@ msgstr "Senha:"
 
 #
 #. [label]
-msgid "Confirmation requested"
-msgstr "Confirmação requerida"
+msgid "Confirm"
+msgstr ""
 
 #
 #. [label]
@@ -2323,6 +2784,11 @@ msgstr "Desejas gravar as tuas alterações?"
 
 #
 #. [label]
+#, fuzzy
+msgid "User Interaction Required"
+msgstr "Nível de interactividade do usuário necessária."
+
+#
 #. [label]: id=message
 msgid "User interaction required"
 msgstr "Nível de interactividade do usuário necessária."
@@ -2545,7 +3011,6 @@ msgid "Attack enemy"
 msgstr "Atacar Inimigo"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 msgid "Create Unit (Debug!)"
 msgstr "Criar Unidade (Modo de Depuração!)"
@@ -2705,10 +3170,6 @@ msgid "Show team colors"
 msgstr "Mostrar Cores das Equipas"
 
 #
-msgid "Show color cursors"
-msgstr "Mostrar Cursor a Cores"
-
-#
 msgid "Show haloing effects"
 msgstr "Usar Efeitos de Halo"
 
@@ -2724,6 +3185,7 @@ msgstr "Tema"
 msgid "Hotkeys"
 msgstr "Atalhos"
 
+#
 msgid "Paths"
 msgstr "Caminhos"
 
@@ -2937,6 +3399,7 @@ msgstr "Mostra e edita sua lista de amigos e ignorados"
 msgid "Back to the multiplayer options"
 msgstr "Volta ao ecrã de opções dos Jogos em Rede"
 
+#
 msgid ""
 "Add this username to your friends list (add optional notes, e.g., "
 "'player_name notes on friend')"
@@ -2944,6 +3407,7 @@ msgstr ""
 "Adiciona este nome de usuário a tua lista de amigos (podes também incluir "
 "notas extras sobre este)"
 
+#
 msgid ""
 "Add this username to your ignores list (add optional reason, e.g., "
 "'player_name reason ignored')"
@@ -2998,10 +3462,6 @@ msgstr ""
 "que lado é que ela está"
 
 #
-msgid "Use colored mouse cursors (may be slower)"
-msgstr "Usa cursores do rato coloridos (pode ser mais lento)"
-
-#
 msgid "Use graphical special effects (may be slower)"
 msgstr "Usa efeitos gráficos especiais (pode ser mais lento)"
 
@@ -3009,6 +3469,7 @@ msgstr "Usa efeitos gráficos especiais (pode ser mais lento)"
 msgid "View and configure keyboard shortcuts"
 msgstr "Ver e configurar atalhos de teclado"
 
+#
 msgid "View game file paths"
 msgstr "Ver caminhos de directórios"
 
@@ -3471,776 +3932,6 @@ msgid "Failed to show a dialog, which doesn't fit on the screen."
 msgstr "Falha na mostra de um diálogo, que não cabe no monitor."
 
 #
-msgid "Hotkeys Reset"
-msgstr "Restabelecer Atalhos"
-
-#
-msgid "All hotkeys have been reset to their default values."
-msgstr "Todos os atalhos com o seu valor predefinido."
-
-#
-msgid "Hotkey Settings"
-msgstr "Definições de Atalhos"
-
-#
-msgid "Defaults"
-msgstr "Predefinições"
-
-#
-msgid "Reset all bindings to the default values"
-msgstr "Voltar todos os atalhos para os valores padrões"
-
-#
-msgid "Prefs section^Game"
-msgstr "O Jogo"
-
-#
-msgid "Prefs section^Editor"
-msgstr "O Editor"
-
-#
-msgid "Add Hotkey"
-msgstr "Definir Atalho"
-
-#
-msgid "Clear Hotkey"
-msgstr "Apagar o Atalho"
-
-#
-msgid "Action"
-msgstr "Acção"
-
-#
-msgid "Binding"
-msgstr "Atalho"
-
-#
-msgid "Press desired hotkey (Esc cancels)"
-msgstr "Prima o atalho desejado (ESC cancela)"
-
-#
-msgid "Warning"
-msgstr "Aviso"
-
-#
-msgid ""
-"Screenshot hotkeys should be combined with the Control, Alt or Meta "
-"modifiers to avoid problems."
-msgstr ""
-"Atalhos para criar uma imagem do monitor deve ser combinado com Cntrl, Alt "
-"ou similar modificadores para minimizar problemas"
-
-#
-msgid ""
-"\"$hotkey_sequence|\" is in use by \"$old_hotkey_action|\". Do you wish to "
-"reassign it to \"$new_hotkey_action|\"?"
-msgstr ""
-"“$hotkey_sequence|” já é usado por “$old_hotkey_action|”. Desejas repor-o "
-"para “$new_hotkey_action|”?"
-
-#
-msgid "Reassign Hotkey"
-msgstr "Reconfigurar Atalhos"
-
-msgid "cancel"
-msgstr "Cancelar"
-
-#
-msgid "Left Mouse Click"
-msgstr "Clique com o botão Esquerdo do Rato"
-
-#
-msgid "Right Mouse Click"
-msgstr "Clique com o botão Direito do Rato"
-
-#
-msgid "Animate Map"
-msgstr "Animar Mapa"
-
-#
-msgid "Next Unit"
-msgstr "Próxima unidade"
-
-#
-msgid "Previous Unit"
-msgstr "Anterior unidade"
-
-#
-msgid "Hold Position"
-msgstr "Manter Posição"
-
-#
-msgid "End Unit Turn"
-msgstr "Terminar o Turno da Unidade"
-
-#
-msgid "Leader"
-msgstr "Líder"
-
-#
-msgid "Undo"
-msgstr "Desfazer"
-
-#
-msgid "Redo"
-msgstr "Refazer"
-
-#
-msgid "Zoom In"
-msgstr "Ampliar"
-
-#
-msgid "Zoom Out"
-msgstr "Reduzir"
-
-#
-msgid "Default Zoom"
-msgstr "Ampliação normal"
-
-#
-msgid "Toggle Full Screen"
-msgstr "Alternar Ecrã Cheio?"
-
-#
-msgid "Screenshot"
-msgstr "Fotografia"
-
-#
-msgid "Map Screenshot"
-msgstr "Foto do Mapa"
-
-#
-msgid "Accelerated"
-msgstr "Acelerado"
-
-#
-msgid "Unit Description"
-msgstr "Descrição da Unidade"
-
-#
-msgid "Rename Unit"
-msgstr "Renomear a Unidade"
-
-#
-msgid "Delete Unit"
-msgstr "Remover Unidade"
-
-#
-msgid "Save Replay"
-msgstr "Guardar uma Revisão"
-
-#
-msgid "Save Map"
-msgstr "Gravar Mapa"
-
-#
-msgid "Recruit"
-msgstr "Recrutar"
-
-#
-msgid "Repeat Recruit"
-msgstr "Repetir Recrutamento"
-
-#
-msgid "Recall"
-msgstr "Convocar"
-
-#
-msgid "End Turn"
-msgstr "Terminar Turno"
-
-#
-msgid "Toggle Ellipses"
-msgstr "Alternar Elipses"
-
-#
-msgid "Toggle Grid"
-msgstr "Alternar Visualização da Grelha"
-
-#
-msgid "Mouse Scrolling"
-msgstr "Rolar com o rato"
-
-#
-msgid "Status Table"
-msgstr "Tabela de Estado"
-
-#
-msgid "Mute"
-msgstr "Mudo"
-
-#
-msgid "Speak"
-msgstr "Falar"
-
-#
-msgid "Change Side (Debug!)"
-msgstr "Mudar de Equipa (Modo de Depuração!)"
-
-#
-msgid "Kill Unit (Debug!)"
-msgstr "Matar Unidade (Modo de Depuração!)"
-
-#
-msgid "Scenario Objectives"
-msgstr "Objectivos do Cenário"
-
-#
-msgid "Unit List"
-msgstr "Lista de Unidades"
-
-#
-msgid "Statistics"
-msgstr "Estatísticas"
-
-#
-msgid "Pause Network Game"
-msgstr "Pausar jogo em rede"
-
-#
-msgid "Continue Network Game"
-msgstr "Continuar jogo em rede"
-
-#
-msgid "Quit Editor"
-msgstr "Sair do Editor"
-
-#
-msgid "Set Team Label"
-msgstr "Definir legenda da equipa"
-
-#
-msgid "Set Label"
-msgstr "Definir Legenda"
-
-#
-msgid "Clear Labels"
-msgstr "Limpar legendas"
-
-#
-msgid "Show Enemy Moves"
-msgstr "Mostrar Movimentos Inimigos"
-
-#
-msgid "Best Possible Enemy Moves"
-msgstr "Melhores Movimentos Inimigos Possíveis"
-
-#
-msgid "Play Replay"
-msgstr "Ver uma Revisão"
-
-#
-msgid "Reset Replay"
-msgstr "Repor uma Revisão"
-
-#
-msgid "Stop Replay"
-msgstr "Parar uma Revisão"
-
-#
-msgid "Next Turn"
-msgstr "Próximo Turno"
-
-#
-msgid "Next Side"
-msgstr "Próxima equipa"
-
-#
-msgid "Full Map"
-msgstr "Mapa Completo"
-
-#
-msgid "Each Team"
-msgstr "Cada equipa"
-
-#
-msgid "Team 1"
-msgstr "Equipa 1"
-
-#
-msgid "Skip Animation"
-msgstr "Saltar animação"
-
-#
-#. TRANSLATORS: whiteboard menu entry: toggle planning mode
-msgid "whiteboard^Planning Mode"
-msgstr "O Modo de Planificação"
-
-#
-#. TRANSLATORS: whiteboard menu entry: execute planned action
-msgid "whiteboard^Execute Action"
-msgstr "Executa Acções"
-
-#
-#. TRANSLATORS: whiteboard menu entry: execute all planned actions
-msgid "whiteboard^Execute All Actions"
-msgstr "Executa todas as acções"
-
-#
-#. TRANSLATORS: whiteboard menu entry: delete planned action
-msgid "whiteboard^Delete Action"
-msgstr "Apagar Acção"
-
-#
-#. TRANSLATORS: whiteboard menu entry: move planned action up queue
-msgid "whiteboard^Move Action Up"
-msgstr "Mova acção para a frente na fila"
-
-#
-#. TRANSLATORS: whiteboard menu entry: move planned action down queue
-msgid "whiteboard^Move Action Down"
-msgstr "Mova acção para trás na fila"
-
-#
-#. TRANSLATORS: whiteboard menu entry: plan as though the chosen unit were dead
-msgid "whiteboard^Suppose Dead"
-msgstr "Supõe morto"
-
-#
-msgid "Quit to Desktop"
-msgstr "Sair Completamente"
-
-#
-msgid "Close Map"
-msgstr "Fechar Mapa"
-
-#
-msgid "Switch Map"
-msgstr "Trocar Mapa"
-
-#
-msgid "Switch Area"
-msgstr "Trocar de Área"
-
-msgid "Custom Time of Day Creator"
-msgstr "Criar Tempo de Dia personalizado"
-
-#
-msgid "Partial Undo"
-msgstr "Desfazer parcialmente"
-
-#
-msgid "Load Map"
-msgstr "Carregar Mapa"
-
-#
-msgid "Save Map As"
-msgstr "Gravar Mapa como"
-
-#
-msgid "Save All Maps"
-msgstr "Gravar todos os Mapas"
-
-#
-msgid "Revert All Changes"
-msgstr "Reverter todas as mudanças"
-
-#
-msgid "Map Information"
-msgstr "Informação do Mapa"
-
-#
-msgid "Add New Side"
-msgstr "Adicionar nova equipa"
-
-#
-msgid "Switch Side"
-msgstr "Alternar Equipa"
-
-#
-msgid "Swap Foreground/Background Palette Item"
-msgstr "Item para trocar o terreno de fundo e sobreposto"
-
-#
-msgid "Change Palette Group"
-msgstr "Mudar Grupo de Desenho"
-
-#
-msgid "Scroll Palette Left"
-msgstr "Rolar para a esquerda"
-
-#
-msgid "Scroll Palette Right"
-msgstr "Rolar para a direita"
-
-#
-msgid "Switch Time of Day"
-msgstr "Trocar Tempo de Dia"
-
-#
-msgid "Next Tool"
-msgstr "Próxima ferramenta"
-
-#
-msgid "Paint Tool"
-msgstr "Ferramenta de desenho"
-
-msgid ""
-"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
-"paint base layer only. Ctrl+click to sample terrain under cursor."
-msgstr ""
-"Usa os botões do rato para desenhar o terreno de fundo e sobreposto. Prima "
-"Shift para desenhares apenas o terreno base. Clicando num terreno com a "
-"tecla Ctrl premida selecciona este como base."
-
-#
-msgid "Fill Tool"
-msgstr "Ferramenta de encher"
-
-msgid ""
-"Left mouse button selects or deselects, right brings up a context menu. Hold "
-"Shift for magic-wand selection of tiles with same terrain."
-msgstr ""
-"O botão esquerdo selecciona/desselecciona, o dreito traz a toa o menu de "
-"contexto. Prima Shift para seleccionares todo os hexágonos com o mesmo tipo "
-"de terreno."
-
-#
-msgid "Selection Tool"
-msgstr "Ferramenta de selecção"
-
-msgid ""
-"Left mouse button displays player selection, right clears. Number keys "
-"scroll to the starting position, alt+number sets respective starting "
-"position under cursor, delete clears."
-msgstr ""
-"O botão esquerdo do rato define a posição inicial da equipa, o direito limpa "
-"esta. Podes rolar a tela até a posição inicial das diversas equipas ao "
-"premir as teclas numéricas correspondentes. Carregando Alt+<número> define a "
-"posição inicial da equipa respectiva na posião actual do cursor, a tecla Del "
-"limpa-a."
-
-#
-msgid "Starting Positions Tool"
-msgstr "Ferramenta de definição de posições iniciais"
-
-#
-msgid "Label Tool"
-msgstr "Ferramenta de legendas"
-
-msgid "Left mouse button sets or drags a label, right clears."
-msgstr "O botão esquerdo define ou arrasta uma legenda, o direito limpa-a."
-
-#
-msgid ""
-"Left mouse button sets a new unit or moves a unit via drag and drop, right "
-"brings up a context menu. Needs a defined side."
-msgstr ""
-"O botão esquerdo do rato cria ou move uma unidade por arrastamento, o "
-"direito traz a toa um menu de acção. Tens de definir uma equipa primeiro."
-
-#
-msgid "Unit Tool"
-msgstr "Ferramenta de unidades"
-
-#
-msgid "Item Tool"
-msgstr "Ferramenta Item"
-
-msgid ""
-"Left mouse button sets a new item or moves it via drag and drop, right "
-"clears. Not implemented yet."
-msgstr ""
-"O botão esquerdo cria um novo item ou move um existente, o direito elimina. "
-"Ainda não implementado."
-
-msgid ""
-"Left mouse button sets or drags a sound source, right clears. Not "
-"implemented yet."
-msgstr ""
-"O botão direito define um som de fundo ou modifica um existente, o direito "
-"elimina. Ainda não implementado."
-
-msgid "Soundsource Tool"
-msgstr "Ferramenta de som"
-
-#
-msgid ""
-"Left mouse button sets the village ownership to the current side, right "
-"clears. Needs a defined side."
-msgstr ""
-"O botão esquerdo do rato muda o controlo das aldeias para a equipa actual, o "
-"direito limpa. Tens de definir uma equipa primeiro."
-
-#
-msgid "Village Tool"
-msgstr "Ferramenta de aldeia"
-
-#
-msgid "Canrecruit"
-msgstr "Pode recrutar"
-
-#
-msgid "Toggle the recruit attribute of a unit."
-msgstr "Permite mudar se a unidade pode recrutar"
-
-#
-msgid "Can be renamed"
-msgstr "Pode ser renomeado"
-
-#
-msgid "Toggle the unit being renameable."
-msgstr "Permite que a unidade seja renomeada"
-
-#
-msgid "Change Unit ID"
-msgstr "Mudar ID da unidade"
-
-#
-msgid "Loyal"
-msgstr "Leal"
-
-msgid "Toggle Minimap color coding"
-msgstr "Alterna codificação de cor do mini-mapa."
-
-#
-msgid "Next Brush"
-msgstr "Próximo desenho"
-
-#
-msgid "Default Brush"
-msgstr "Desenho por defeito"
-
-#
-msgid "Single Tile"
-msgstr "Hexágono Único"
-
-#
-msgid "Radius One"
-msgstr "De rádio um"
-
-#
-msgid "Radius Two"
-msgstr "De rádio dois"
-
-#
-msgid "Brush NW-SE"
-msgstr "Linha Noroeste-Sudeste"
-
-#
-msgid "Brush SW-NE"
-msgstr "Linha Sudoeste-Nordeste"
-
-#
-msgid "Cut"
-msgstr "Cortar"
-
-#
-msgid "Copy"
-msgstr "Copiar"
-
-#
-msgid ""
-"Left mouse button pastes from the clipboard, right brings up a context menu."
-msgstr ""
-"O botão esquerdo do rato copia da área de transferência, o direito traz à "
-"toa um menu de contexto."
-
-#
-msgid "Paste"
-msgstr "Colar"
-
-#
-msgid "Export Selected Coordinates to System Clipboard"
-msgstr "Exportar coordenadas seleccionadas para a área de transferência"
-
-#
-msgid "Select All"
-msgstr "Seleccionar Todos"
-
-#
-msgid "Select Inverse"
-msgstr "Seleccionar o inverso"
-
-#
-msgid "Select None"
-msgstr "Seleccionar Nada"
-
-#
-msgid "Rotate Clipboard Clockwise"
-msgstr "Rodar Selecção no sentido do relógio"
-
-#
-msgid "Rotate Clipboard Counter-Clockwise"
-msgstr "Rodar Selecção contra o sentido do relógio"
-
-#
-msgid "Flip Clipboard Horizontally"
-msgstr "Espelhar Selecção Horizontalmente"
-
-#
-msgid "Flip Clipboard Vertically"
-msgstr "Espelhar Selecção Verticalmente"
-
-#
-msgid "Rotate Selection"
-msgstr "Rodar Selecção"
-
-#
-msgid "Flip Selection"
-msgstr "Inverter selecção"
-
-#
-msgid "Fill Selection"
-msgstr "Preencher Selecção"
-
-#
-msgid "Generate Tiles In Selection"
-msgstr "Gerar terreno na selecção"
-
-#
-msgid "Randomize Tiles In Selection"
-msgstr "Terreno na selecção aleatório"
-
-#
-msgid "Rotate Map"
-msgstr "Rodar Mapa"
-
-#
-msgid "Generate Map"
-msgstr "Gerar Mapa"
-
-#
-msgid "Apply a Mask"
-msgstr "Aplicar máscara"
-
-#
-msgid "Create Mask"
-msgstr "Criar Máscara"
-
-#
-msgid "Refresh Display"
-msgstr "Actualizar Ecrã"
-
-#
-msgid "Update Terrain Transitions"
-msgstr "Actualizar transições de terreno"
-
-#
-msgid "Toggle Terrain Transition Update"
-msgstr "Ligar actualização das transições de terreno"
-
-#
-msgid "Auto-update Terrain Transitions"
-msgstr "Auto-actualizar transições de terreno"
-
-#
-msgid "Auto-update Terrain Transitions: No"
-msgstr "Auto-actualizar transições de terreno: Não"
-
-#
-msgid "Auto-update Terrain Transitions: Partial"
-msgstr "Auto-actualizar transições de terreno: Parcial"
-
-#
-msgid "Refresh Image Cache"
-msgstr "Actualizar a Cache de Imagens"
-
-#
-msgid "Draw Hex Coordinates"
-msgstr "Desenhar coordenadas dos hexágonos"
-
-#
-msgid "Draw Terrain Codes"
-msgstr "Desenhar código do Terreno"
-
-#
-msgid "Define (Time) Area"
-msgstr "Definir Área (Tempo)"
-
-#
-msgid "Delay Shroud Updates"
-msgstr "Adiar Actualizações da Sombra"
-
-#
-msgid "Update Shroud Now"
-msgstr "Actualizar a Sombra Agora"
-
-#
-msgid "Continue Move"
-msgstr "Continuar Movimento"
-
-#
-msgid "Find Label or Unit"
-msgstr "Procurar Etiqueta ou Unidade"
-
-#
-msgid "Speak to Ally"
-msgstr "Falar com um Aliado"
-
-#
-msgid "Speak to All"
-msgstr "Falar com Todos"
-
-#
-msgid "View Chat Log"
-msgstr "Ver Registo da Conversa"
-
-#
-msgid "Change Language"
-msgstr "Modificar o Idioma"
-
-#
-msgid "Enter User Command"
-msgstr "Introduzir comando"
-
-#
-msgid "Custom Command"
-msgstr "Comando Próprio"
-
-#
-msgid "Run Formula"
-msgstr "Executar Fórmula"
-
-#
-msgid "Clear Messages"
-msgstr "Apagar mensagens"
-
-#
-msgid "Refresh WML"
-msgstr "Actualizar WML"
-
-#
-msgid "Next Tip of the Day"
-msgstr "Próxima dica do dia"
-
-#
-msgid "Previous Tip of the Day"
-msgstr "Anterior dica do dia"
-
-#
-msgid "Start Tutorial"
-msgstr "Iniciar o Tutorial"
-
-#
-msgid "Start Campaign"
-msgstr "Começar uma Campanha"
-
-#
-msgid "Start Multiplayer Game"
-msgstr "Começar um jogo em rede"
-
-#
-msgid "Manage Add-ons"
-msgstr "Actualizar Extras"
-
-#
-msgid "Start Editor"
-msgstr "Iniciar o editor de mapa"
-
-#
-msgid "Show Credits"
-msgstr "Mostra os créditos"
-
-#
-msgid "Show Helptip"
-msgstr "Mostra as dicas"
-
-#
-msgid "Unrecognized Command"
-msgstr "Comando não reconhecido"
-
-#
 msgid "Button"
 msgstr "Botão"
 
@@ -4300,15 +3991,69 @@ msgid "Hat"
 msgstr "Choupana"
 
 #
-msgid "Do you really want to quit?"
-msgstr "Tens a certeza de que queres sair?"
+msgid "Hotkeys Reset"
+msgstr "Restabelecer Atalhos"
 
 #
-msgid "Map-Screenshot"
-msgstr "Capturar Mapa"
+msgid "All hotkeys have been reset to their default values."
+msgstr "Todos os atalhos com o seu valor predefinido."
 
-msgid "Screenshot Done"
-msgstr "Fotografia do ecrã tirada"
+#
+msgid "Hotkey Settings"
+msgstr "Definições de Atalhos"
+
+#
+msgid "Defaults"
+msgstr "Predefinições"
+
+#
+msgid "Reset all bindings to the default values"
+msgstr "Voltar todos os atalhos para os valores padrões"
+
+#
+#, fuzzy
+msgid "Prefs section^Title Screen"
+msgstr "O Editor"
+
+#
+msgid "Prefs section^Game"
+msgstr "O Jogo"
+
+#
+msgid "Prefs section^Editor"
+msgstr "O Editor"
+
+#
+msgid "Add Hotkey"
+msgstr "Definir Atalho"
+
+#
+msgid "Clear Hotkey"
+msgstr "Apagar o Atalho"
+
+#
+msgid "Action"
+msgstr "Acção"
+
+#
+msgid "Binding"
+msgstr "Atalho"
+
+#
+msgid "Press desired hotkey (Esc cancels)"
+msgstr "Prima o atalho desejado (ESC cancela)"
+
+#
+msgid ""
+"\"$hotkey_sequence|\" is in use by \"$old_hotkey_action|\". Do you wish to "
+"reassign it to \"$new_hotkey_action|\"?"
+msgstr ""
+"“$hotkey_sequence|” já é usado por “$old_hotkey_action|”. Desejas repor-o "
+"para “$new_hotkey_action|”?"
+
+#
+msgid "Reassign Hotkey"
+msgstr "Reconfigurar Atalhos"
 
 #
 # any portuguese image localization is fine (and as last even galician)
@@ -4342,10 +4087,6 @@ msgstr ""
 #
 msgid "There are no alternative video modes available"
 msgstr "Não estão disponíveis modos de vídeo alternativos"
-
-#
-msgid " (widescreen)"
-msgstr " (ecrã largo)"
 
 #
 msgid "Choose Resolution"

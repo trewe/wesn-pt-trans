@@ -6,10 +6,9 @@
 #
 msgid ""
 msgstr ""
-
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2013-11-16 09:29+0100\n"
+"POT-Creation-Date: 2014-01-04 20:07+0100\n"
 "PO-Revision-Date: 2011-02-05 22:45-0300\n"
 "Last-Translator: Diego Inácio Goergen <thegoergen@gmail.com>\n"
 "Language-Team: Portuguese/Brazil\n"
@@ -18,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
 #
 #. [brush]: id=brush-1
 msgid "Single Hex"
@@ -120,6 +120,11 @@ msgid "special"
 msgstr "especial"
 
 #
+#. [editor_times]: id=empty
+msgid "None"
+msgstr ""
+
+#
 #. [editor_times]: id=test
 msgid "Test"
 msgstr ""
@@ -165,46 +170,6 @@ msgid "After the Fall"
 msgstr ""
 
 #
-#. [editor_tool_hint]: id=editor-tool-fill
-#. [editor_tool_hint]: id=editor-tool-paint
-msgid ""
-"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
-"paint base layer only. Ctrl+click to sample terrain under cursor."
-msgstr ""
-
-"Use o botão esquerdo/direito do mouse para desenhar o terreno da frente/de "
-"fundo. Segure Shift para pintar apenas a camada base.·Ctrl+click·para pegar "
-"uma amostra do terreno sob o cursor."
-#
-#. [editor_tool_hint]: id=editor-tool-select
-msgid ""
-"Left mouse button selects, right deselects. Hold Shift for magic-wand "
-"selection of tiles with same terrain."
-msgstr ""
-
-"O botão esquerdo do mouse seleciona, o direito deseleciona. Segure Shift "
-"para seleção 'varinha mágica' de ladrilhos com o mesmo terreno."
-#
-#. [editor_tool_hint]: id=editor-tool-starting-position
-msgid ""
-"Left mouse button displays player selection, right clears. Number keys "
-"scroll to the starting position, alt+number sets respective starting "
-"position under cursor, delete clears."
-msgstr ""
-
-"O botão esquerdo do mouse mostra a seleção do jogador, o direito limpa. "
-"Teclas numéricas rolam para a posição inicial, alt+número ajusta a posição "
-"inicial para o ponto embaixo do cursor, a tecla delete a remove."
-#
-#. [editor_tool_hint]: id=editor-paste
-msgid ""
-"Click to paste, zoom out for more accuracy when pasting large areas. Use the "
-"edit menu to transform the clipboard (rotate, mirror)."
-msgstr ""
-
-"Clique para colar; afaste para ter maior exatidão quando colar grandes "
-"áreas. Use o menu editar para transformar a prancheta (rodar, espelhar)."
-#
 #. [menu]: id=menu-editor-file, type=turbo
 msgid "File"
 msgstr "Arquivo"
@@ -227,6 +192,16 @@ msgstr "Janela"
 #
 #. [menu]: id=menu-editor-areas
 msgid "Areas"
+msgstr ""
+
+#
+#. [menu]: id=menu-editor-local-time
+msgid "Assign Local Time"
+msgstr ""
+
+#
+#. [menu]: id=menu-editor-local-schedule
+msgid "Assign Local Time Schedule"
 msgstr ""
 
 #
@@ -260,18 +235,7 @@ msgid "Assign Time Schedule"
 msgstr ""
 
 #
-#. [label]: id=terrain-icon
-msgid "terrain"
-msgstr ""
-
-#
-#. [action]: id=flip_map_button_editor, type=checkbox
-#, fuzzy
-msgid "Not implemented yet."
-msgstr "Ação não implementada"
-
-#
-msgid "ID: "
+msgid "Identifier: "
 msgstr ""
 
 #
@@ -291,6 +255,10 @@ msgid "Cost: "
 msgstr ""
 
 #
+msgid "Recruit: "
+msgstr ""
+
+#
 msgid "Fatal error"
 msgstr "Erro fatal"
 
@@ -303,17 +271,17 @@ msgid ""
 "Do you really want to quit? Changes in the map since the last save will be "
 "lost."
 msgstr ""
-
 "Você realmente deseja sair? Mudanças feitas no mapa desde o último "
 "salvamento serão perdidas."
+
 #
 msgid ""
 "Do you really want to quit? The following maps were modified and all changes "
 "since the last save will be lost:"
 msgstr ""
-
 "Você realmente deseja sair? Os mapas seguintes foram modificados e todas as "
 "mudanças desde o último salvamento serão perdidas:"
+
 #
 msgid "Quit"
 msgstr "Sair"
@@ -343,12 +311,18 @@ msgid "(New Map)"
 msgstr "(Novo Mapa)"
 
 #
-msgid "Choose a Map to Open"
+#, fuzzy
+msgid "Choose a File to Open"
 msgstr "Escolha um mapa para carregar"
 
 #
 #, fuzzy
-msgid "(New Area)"
+msgid "(New Scenario)"
+msgstr "(Novo Mapa)"
+
+#
+#, fuzzy
+msgid "(Unnamed Area)"
 msgstr "(Novo Mapa)"
 
 #
@@ -363,6 +337,14 @@ msgstr "Escolha uma máscara para aplicar"
 #
 msgid "Error loading mask"
 msgstr "Erro carregando a máscara"
+
+#
+msgid "ID"
+msgstr ""
+
+#
+msgid "Rename Area"
+msgstr ""
 
 #
 msgid "Choose Target Map"
@@ -381,6 +363,11 @@ msgid "The file already exists. Do you want to overwrite it?"
 msgstr "O mapa já existe. Você quer sobrescrevê-lo?"
 
 #
+#, fuzzy
+msgid "Save the Scenario As"
+msgstr "Salvar o mapa como"
+
+#
 msgid "No random map generators found."
 msgstr "Nenhum gerador de mapas aleatórios encontrado."
 
@@ -396,12 +383,22 @@ msgstr "Mudanças não salvas"
 msgid ""
 "Do you want to discard all changes you made to the map since the last save?"
 msgstr ""
-
 "Você quer descartar todas as mudanças feitas no mapa desde o último "
 "salvamento?"
+
+#
+#, fuzzy
+msgid "This scenario is already open."
+msgstr "Esse mapa já está aberto."
+
 #
 msgid "This map is already open."
 msgstr "Esse mapa já está aberto."
+
+#
+#, fuzzy
+msgid "Scenario saved."
+msgstr "Mapa salvo."
 
 #
 msgid "Map saved."
@@ -420,9 +417,9 @@ msgid ""
 "Loaded referenced map file:\n"
 "$new"
 msgstr ""
-
 "Arquivo de mapa referência carregado:\n"
 "$new"
+
 #
 msgid "Player"
 msgstr "Jogador"
@@ -436,16 +433,22 @@ msgid "File not found"
 msgstr "Arquivo não encontrado"
 
 #
+#, fuzzy
+msgid "Empty file"
+msgstr "Arquivo de mapa vazio"
+
+#
 msgid ""
 "The map file looks like a scenario, but the map_data value does not point to "
 "an existing file"
 msgstr ""
-
 "O arquivo de mapa parece um cenário, mas o valor map_data aponta para um "
 "arquivo não-existente"
+
 #
-msgid "Empty map file"
-msgstr "Arquivo de mapa vazio"
+#, fuzzy
+msgid "Could not save the scenario: $msg"
+msgstr "Não foi possível salvar o mapa: $msg"
 
 #
 msgid "Could not save into scenario"
@@ -489,4 +492,3 @@ msgstr "Nenhum"
 #
 msgid "Player $player_number"
 msgstr ""
-
