@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-01-04 20:07+0100\n"
+"POT-Creation-Date: 2014-02-16 13:54+0100\n"
 "PO-Revision-Date: 2012-10-29 18:41-0300\n"
 "Last-Translator: gilberto dos santos alves <gsavix@gmail.com>\n"
 "Language-Team: Portuguese - Brasil\n"
@@ -205,7 +205,7 @@ msgstr "Usar formato horário de 12 horas"
 #
 #. [advanced_preference]: type=boolean
 #, fuzzy
-msgid "Confirm loading of saves from a different version"
+msgid "Confirm loading saves from a different version"
 msgstr "Confirmar ao carregar jogos salvos de outra versão"
 
 #
@@ -1351,8 +1351,9 @@ msgstr ""
 #
 #. [else]
 #. [then]
-msgid "(side $temp_i|)"
-msgstr "(lado $temp_i|)"
+#, fuzzy
+msgid "Side $temp_i"
+msgstr "lado $temp_i"
 
 #
 #. [else]
@@ -1361,7 +1362,8 @@ msgstr "lado $temp_i"
 
 #
 #. [command]
-msgid "$side_i_leader.name (side $temp_i|)"
+#, fuzzy
+msgid "side $temp_i ($side_i_leader.name|)"
 msgstr "$side_i_leader.name (labo $temp_i|)"
 
 #
@@ -1416,6 +1418,13 @@ msgstr "Cancelar ordens de objetivo"
 
 #
 #. [revoke_behavior_orders]
+#. [revoke_objective_orders]
+#. [then]
+msgid "none set."
+msgstr "nada."
+
+#
+#. [revoke_behavior_orders]
 msgid "Clear behavior orders"
 msgstr "Cancelar ordens de comportamento"
 
@@ -1423,11 +1432,6 @@ msgstr "Cancelar ordens de comportamento"
 #. [revoke_all_orders]
 msgid "Clear all orders"
 msgstr "Cancelar todas as ordens"
-
-#
-#. [then]
-msgid "none set."
-msgstr "nada."
 
 #
 #. [do]
@@ -2875,8 +2879,8 @@ msgid ""
 "Day: −25% Damage\n"
 "Night: −25% Damage"
 msgstr ""
-"Unidades de liminar só atingem sua força total durante períodos de penumbra."
-"\n"
+"Unidades de liminar só atingem sua força total durante períodos de "
+"penumbra.\n"
 "\n"
 "Dia: −25% Dano\n"
 "Noite: −25% Dano"
@@ -2950,11 +2954,11 @@ msgstr "$name|ham,$name|tom,$name,$name|filde"
 #
 #. [language]
 msgid ""
-"$name|ham,$name|ton,$name|wood,$name Forest,$forest|wood,$forest|ham,"
-"$forest|ton"
+"$name|ham,$name|ton,$name|wood,$name Forest,$forest|wood,$forest|ham,$forest|"
+"ton"
 msgstr ""
-"$name|ham,$name|tom,$name|wood,Bosque $name,$forest|wood,$forest|ham,"
-"$forest|tom"
+"$name|ham,$name|tom,$name|wood,Bosque $name,$forest|wood,$forest|ham,$forest|"
+"tom"
 
 #
 #. [language]
@@ -2971,8 +2975,8 @@ msgstr "$mountain|monte,$mountain|clife,$mountain|burgo,$mountain|ham"
 msgid ""
 "$name|ham,$name|bury,$name|ton,$name|mont,$name|mont,$name|cliff,$name|cliff"
 msgstr ""
-"$name|ham,$name|burgo,$name|tom,$name|monte,$name|monte,$name|clife,"
-"$name|clife"
+"$name|ham,$name|burgo,$name|tom,$name|monte,$name|monte,$name|clife,$name|"
+"clife"
 
 #
 #. [language]
@@ -3049,6 +3053,273 @@ msgstr ""
 #. [fonts]
 msgid "DejaVu Sans,Andagii,Droid Sans Japanese,Droid Sans Fallback,Junicode"
 msgstr "DejaVu Sans,Andagii,Droid Sans Japanese,Droid Sans Fallback,Junicode"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [lua]: set_status
+msgid "female^poisoned"
+msgstr "envenenada"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [lua]: set_status
+msgid "female^slowed"
+msgstr "lenta"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [lua]: set_status
+msgid "slowed"
+msgstr "lento"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [lua]: set_status
+msgid "female^petrified"
+msgstr "petrificada"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [lua]: set_status
+msgid "petrified"
+msgstr "petrificado"
+
+#
+#. [lua]: set_status
+msgid "female^unhealable"
+msgstr "incurável"
+
+#
+#. [lua]: set_status
+msgid "unhealable"
+msgstr "incurável"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [lua]: generate_objectives
+msgid "Victory:"
+msgstr "Vitória:"
+
+#
+#. [lua]: generate_objectives
+msgid "Defeat:"
+msgstr "Derrota:"
+
+#
+#. [lua]: generate_objectives
+msgid "(%d turns left)"
+msgstr "(%d turnos restando)"
+
+#
+#. [lua]: generate_objectives
+msgid "(this turn left)"
+msgstr "(resta um turno)"
+
+#
+#. [lua]: generate_objectives
+msgid "%d%% of gold carried over to the next scenario."
+msgstr "%d%% de ouro transferido ao próximo cenário."
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [lua]: id=helptip_large, id=tooltip_large, id=the_list, id=the_label, id=the_icon, id=ok, id=cancel, id=flip, id=the_image
+msgid "OK"
+msgstr "OK"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [lua]: id=helptip_large, id=tooltip_large, id=the_list, id=the_label, id=the_icon, id=ok, id=cancel, id=flip, id=the_image
+msgid "Cancel"
+msgstr "Cancelar"
+
+#
+msgid "very long"
+msgstr "muito longe"
+
+#
+msgid "electrical"
+msgstr "elétrico"
+
+#
+#. [menu]: id=menu-main
+msgid "Menu"
+msgstr "Menu"
+
+#
+#. [menu]: id=menu-autosaves
+#, fuzzy
+msgid "Back to..."
+msgstr "Voltar ao turno "
+
+#
+#. [menu]: id=actions-menu
+msgid "Actions"
+msgstr "Ações"
+
+#
+#. [action]: id=button-endturn
+#. [menu]: id=button-endturn
+msgid "End Turn"
+msgstr "Terminar Turno"
+
+#
+#. [action]: id=button-endturn
+#. [menu]: id=button-endturn
+msgid "End Scenario"
+msgstr "Terminar o Cenário"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]: id=label-hp
+#. [label]: id=selected-label-hp
+msgid "HP"
+msgstr "HP"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]: id=label-xp
+#. [label]: id=selected-label-xp
+msgid "XP"
+msgstr "XP"
+
+#
+#. [label]: id=label-mp
+msgid "MP"
+msgstr "MJ"
+
+#
+#. [label]: id=label-def
+msgid "def"
+msgstr ""
+
+#
+#. [label]: id=gold-icon
+msgid "gold"
+msgstr "ouro"
+
+#
+#. [label]: id=villages-icon
+msgid "villages"
+msgstr "vilas"
+
+#
+#. [label]: id=units-icon
+msgid "units"
+msgstr "unidades"
+
+#
+#. [label]: id=upkeep-icon
+msgid "upkeep"
+msgstr "manutenção"
+
+#
+#. [label]: id=income-icon
+msgid "income"
+msgstr "receita"
+
+#
+#. [unit_level]: id=unit-level
+#, fuzzy
+msgid "statuspanel^lvl"
+msgstr "nível"
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
+#. [label]: id=replay-label
+msgid "Replay"
+msgstr "Replay"
+
+#
+#. [action]: id=button-playreplay, type=image
+msgid "Play"
+msgstr "Reproduzir"
+
+#
+#. [action]: id=button-playreplay, type=image
+msgid "continuous replay"
+msgstr "replay contínuo"
+
+#
+#. [action]: id=button-stopreplay, type=image
+msgid "Stop"
+msgstr "Parar"
+
+#
+#. [action]: id=button-stopreplay, type=image
+msgid "pause at end of turn"
+msgstr "pausa no fim do turno"
+
+#
+#. [action]: id=button-resetreplay, type=image
+msgid "Reset"
+msgstr "Reinicia"
+
+#
+#. [action]: id=button-resetreplay, type=image
+msgid "reset to beginning"
+msgstr "reinicia"
+
+#
+#. [action]: id=button-nextturn, type=image
+msgid "Next Turn"
+msgstr "Próximo Turno"
+
+#
+#. [action]: id=button-nextturn, type=image
+msgid "play turn"
+msgstr "executar turno"
+
+#
+#. [action]: id=button-nextside, type=image
+msgid "Next Side"
+msgstr "Próximo Time"
+
+#
+#. [action]: id=button-nextside, type=image
+msgid "play side turn"
+msgstr "executa o turno do time"
+
+#
+#. [menu]: id=show-what
+msgid "Point of view"
+msgstr "Ponto de vista"
+
+#
+#. [action]: id=skip-animation, type=checkbox
+#, fuzzy
+msgid "Skip animation"
+msgstr "Pular animação"
+
+#
+#. [action]: id=end-turn
+#, fuzzy
+msgid ""
+"End\n"
+"Turn"
+msgstr "Terminar Turno"
+
+#
+#. [action]: id=flip_map_button_editor, type=checkbox
+msgid "Not implemented yet."
+msgstr ""
+
+#
+#. [selected_unit_level]: id=selected-unit-level
+#. [unit_level]: id=unit-level
+msgid "statuspanel^level"
+msgstr "nível"
+
+#
+#. [selected_unit_moves]: id=selected-unit-moves
+#. [unit_moves]: id=unit-moves
+msgid "statuspanel^moves"
+msgstr "movimentos"
+
+#
+#. [selected_unit_defense]: id=selected-unit-defense
+#. [unit_defense]: id=unit-defense
+msgid "statuspanel^terrain def."
+msgstr "def. do terreno"
 
 #
 #. [tip]
@@ -3241,8 +3512,8 @@ msgstr ""
 msgid ""
 "<i>― Royal Compendium of Battle Terminology: Volume II (reprinted 221YW)</i>"
 msgstr ""
-"<i>― Compêndio Real da Terminlogia de Batalha: Volume II (reimpressão 221dW)"
-"</i>"
+"<i>― Compêndio Real da Terminlogia de Batalha: Volume II (reimpressão "
+"221dW)</i>"
 
 #
 #. [tip]
@@ -3836,270 +4107,6 @@ msgstr ""
 "Unidades de característica <i>Feral</i>, como Morcegos e animais selvagens, "
 "irão evitar vilas. Mesmo que ocupem uma vila, não receberão nenhum bonus "
 "defensivo dela, mas ainda serão curados."
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [lua]: set_status
-msgid "female^poisoned"
-msgstr "envenenada"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [lua]: set_status
-msgid "female^slowed"
-msgstr "lenta"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [lua]: set_status
-msgid "slowed"
-msgstr "lento"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [lua]: set_status
-msgid "female^petrified"
-msgstr "petrificada"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [lua]: set_status
-msgid "petrified"
-msgstr "petrificado"
-
-#
-#. [lua]: set_status
-msgid "female^unhealable"
-msgstr "incurável"
-
-#
-#. [lua]: set_status
-msgid "unhealable"
-msgstr "incurável"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [lua]: generate_objectives
-msgid "Victory:"
-msgstr "Vitória:"
-
-#
-#. [lua]: generate_objectives
-msgid "Defeat:"
-msgstr "Derrota:"
-
-#
-#. [lua]: generate_objectives
-msgid "(%d turns left)"
-msgstr "(%d turnos restando)"
-
-#
-#. [lua]: generate_objectives
-msgid "(this turn left)"
-msgstr "(resta um turno)"
-
-#
-#. [lua]: generate_objectives
-msgid "%d%% of gold carried over to the next scenario."
-msgstr "%d%% de ouro transferido ao próximo cenário."
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [lua]: id=helptip_large, id=tooltip_large, id=the_list, id=the_label, id=the_icon, id=ok, id=cancel, id=flip, id=the_image
-msgid "OK"
-msgstr "OK"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [lua]: id=helptip_large, id=tooltip_large, id=the_list, id=the_label, id=the_icon, id=ok, id=cancel, id=flip, id=the_image
-msgid "Cancel"
-msgstr "Cancelar"
-
-#
-msgid "very long"
-msgstr "muito longe"
-
-#
-msgid "electrical"
-msgstr "elétrico"
-
-#
-#. [menu]: id=menu-main
-msgid "Menu"
-msgstr "Menu"
-
-#
-#. [menu]: id=actions-menu
-msgid "Actions"
-msgstr "Ações"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [action]: id=button-endturn
-#. [menu]: id=button-endturn
-msgid "End Turn"
-msgstr "Terminar Turno"
-
-#
-#. [action]: id=button-endturn
-#. [menu]: id=button-endturn
-msgid "End Scenario"
-msgstr "Terminar o Cenário"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [label]: id=label-hp
-#. [label]: id=selected-label-hp
-msgid "HP"
-msgstr "HP"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [label]: id=label-xp
-#. [label]: id=selected-label-xp
-msgid "XP"
-msgstr "XP"
-
-#
-#. [label]: id=label-mp
-msgid "MP"
-msgstr "MJ"
-
-#
-#. [label]: id=label-def
-msgid "def"
-msgstr ""
-
-#
-#. [label]: id=gold-icon
-msgid "gold"
-msgstr "ouro"
-
-#
-#. [label]: id=villages-icon
-msgid "villages"
-msgstr "vilas"
-
-#
-#. [label]: id=units-icon
-msgid "units"
-msgstr "unidades"
-
-#
-#. [label]: id=upkeep-icon
-msgid "upkeep"
-msgstr "manutenção"
-
-#
-#. [label]: id=income-icon
-msgid "income"
-msgstr "receita"
-
-#
-#. [unit_level]: id=unit-level
-#, fuzzy
-msgid "statuspanel^lvl"
-msgstr "nível"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [label]: id=replay-label
-msgid "Replay"
-msgstr "Replay"
-
-#
-#. [action]: id=button-playreplay, type=image
-msgid "Play"
-msgstr "Reproduzir"
-
-#
-#. [action]: id=button-playreplay, type=image
-msgid "continuous replay"
-msgstr "replay contínuo"
-
-#
-#. [action]: id=button-stopreplay, type=image
-msgid "Stop"
-msgstr "Parar"
-
-#
-#. [action]: id=button-stopreplay, type=image
-msgid "pause at end of turn"
-msgstr "pausa no fim do turno"
-
-#
-#. [action]: id=button-resetreplay, type=image
-msgid "Reset"
-msgstr "Reinicia"
-
-#
-#. [action]: id=button-resetreplay, type=image
-msgid "reset to beginning"
-msgstr "reinicia"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [action]: id=button-nextturn, type=image
-msgid "Next Turn"
-msgstr "Próximo Turno"
-
-#
-#. [action]: id=button-nextturn, type=image
-msgid "play turn"
-msgstr "executar turno"
-
-#
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
-#. [action]: id=button-nextside, type=image
-msgid "Next Side"
-msgstr "Próximo Time"
-
-#
-#. [action]: id=button-nextside, type=image
-msgid "play side turn"
-msgstr "executa o turno do time"
-
-#
-#. [menu]: id=show-what
-msgid "Point of view"
-msgstr "Ponto de vista"
-
-#
-#. [action]: id=skip-animation, type=checkbox
-#, fuzzy
-msgid "Skip animation"
-msgstr "Pular animação"
-
-#
-#. [action]: id=end-turn
-#, fuzzy
-msgid ""
-"End\n"
-"Turn"
-msgstr "Terminar Turno"
-
-#
-#. [action]: id=flip_map_button_editor, type=checkbox
-msgid "Not implemented yet."
-msgstr ""
-
-#
-#. [selected_unit_level]: id=selected-unit-level
-#. [unit_level]: id=unit-level
-msgid "statuspanel^level"
-msgstr "nível"
-
-#
-#. [selected_unit_moves]: id=selected-unit-moves
-#. [unit_moves]: id=unit-moves
-msgid "statuspanel^moves"
-msgstr "movimentos"
-
-#
-#. [selected_unit_defense]: id=selected-unit-defense
-#. [unit_defense]: id=unit-defense
-msgid "statuspanel^terrain def."
-msgstr "def. do terreno"
 
 #
 msgid "Close"
@@ -4941,7 +4948,8 @@ msgid "%b %d"
 msgstr "%b %d"
 
 #
-msgid "%b %d %y"
+#, fuzzy
+msgid "%b %d %Y"
 msgstr "%b %d %y"
 
 #
@@ -4949,12 +4957,9 @@ msgid "Invalid color range: "
 msgstr "Faixa de cor inválida: "
 
 #
-msgid "Error loading game configuration files: '"
+#, fuzzy
+msgid "Error loading game configuration files. The game will now exit."
 msgstr "Erro carregando arquivo de configuração do jogo: '"
-
-#
-msgid "' (The game will now exit)"
-msgstr "' (O programa vai terminar agora)"
 
 #
 msgid "The following add-on had errors and could not be loaded:"
@@ -4963,8 +4968,11 @@ msgstr[0] "O seguintes extra teve erro e não pode ser carregado:"
 msgstr[1] "Os seguintes extras tiveram erros e não puderam ser carregados:"
 
 #
-msgid "ERROR DETAILS:"
-msgstr "DETALHES DO ERRO:"
+msgid "Please report this to the author or maintainer of this add-on."
+msgid_plural ""
+"Please report this to the respective authors or maintainers of these add-ons."
+msgstr[0] ""
+msgstr[1] ""
 
 #
 msgid "The Battle for Wesnoth"
@@ -5143,839 +5151,16 @@ msgid "Screenshot Done"
 msgstr ""
 
 #
-#, fuzzy
-msgid "cancel"
-msgstr "Cancelar"
-
-#
-#, fuzzy
-msgid "Select Hex"
-msgstr "Cenário remoto"
-
-#
-msgid "Deselect Hex"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Move/Attack"
-msgstr "Atacante"
-
-#
-msgid "Select/Move/Attack"
-msgstr ""
-
-#
-msgid "Animate Map"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Next Unit"
-msgstr "Próximo Turno"
-
-#
-msgid "Previous Unit"
-msgstr ""
-
-#
-msgid "Hold Position"
-msgstr ""
-
-#
-#, fuzzy
-msgid "End Unit Turn"
-msgstr "Terminar Turno"
-
-#
-msgid "Leader"
-msgstr "Líder"
-
-#
-msgid "Undo"
-msgstr ""
-
-#
-msgid "Redo"
-msgstr ""
-
-#
-msgid "Zoom In"
-msgstr ""
-
-#
-msgid "Zoom Out"
-msgstr ""
-
-#
-msgid "Default Zoom"
-msgstr ""
-
-#
-msgid "Toggle Full Screen"
-msgstr ""
-
-#
-msgid "Map Screenshot"
-msgstr ""
-
-#
-msgid "Accelerated"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Terrain Description"
-msgstr "Descrição"
-
-#
-#, fuzzy
-msgid "Unit Description"
-msgstr "Descrição"
-
-#
-#, fuzzy
-msgid "Rename Unit"
-msgstr "Avançar a Unidade"
-
-#
-#, fuzzy
-msgid "Delete Unit"
-msgstr "Apagar extra: "
-
-#
-msgid "Save Game"
-msgstr "Salvar o Jogo"
-
-#
-msgid "Save Replay"
-msgstr "Salvar Replay"
-
-#
-#, fuzzy
-msgid "Save Map"
-msgstr "Dividir mapas"
-
-#
-#, fuzzy
-msgid "Repeat Recruit"
-msgstr "Recrutar"
-
-#
-msgid "Toggle Ellipses"
-msgstr ""
-
-#
-msgid "Toggle Grid"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Mouse Scrolling"
-msgstr "Rolagem com Mouse"
-
-#
-#, fuzzy
-msgid "Status Table"
-msgstr "Status"
-
-#
-msgid "Mute"
-msgstr ""
-
-#
-msgid "Speak"
-msgstr ""
-
-#
-msgid "Create Unit (Debug!)"
-msgstr "Criar Unidade (Debug!)"
-
-#
-#, fuzzy
-msgid "Change Side (Debug!)"
-msgstr "Criar Unidade (Debug!)"
-
-#
-#, fuzzy
-msgid "Kill Unit (Debug!)"
-msgstr "Criar Unidade (Debug!)"
-
-#
-msgid "Preferences"
-msgstr "Preferências"
-
-#
-#, fuzzy
-msgid "Scenario Objectives"
-msgstr "Configurações de Cenário"
-
-#
-msgid "Statistics"
-msgstr "Estatísticas"
-
-#
-#, fuzzy
-msgid "Pause Network Game"
-msgstr "Jogador Remoto"
-
-#
-#, fuzzy
-msgid "Continue Network Game"
-msgstr "Confirmar"
-
-#
-#, fuzzy
-msgid "Quit Game"
-msgstr "Sair do jogo."
-
-#
-msgid "Quit Editor"
-msgstr ""
-
-#
-msgid "Set Team Label"
-msgstr ""
-
-#
-msgid "Set Label"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Clear Labels"
-msgstr "Cancelar todas as ordens"
-
-#
-msgid "Show Enemy Moves"
-msgstr ""
-
-#
-msgid "Best Possible Enemy Moves"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Play Replay"
-msgstr "Salvar Replay"
-
-#
-#, fuzzy
-msgid "Reset Replay"
-msgstr "Salvar Replay"
-
-#
-#, fuzzy
-msgid "Stop Replay"
-msgstr "Salvar Replay"
-
-#
-msgid "Full Map"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Each Team"
-msgstr "Time"
-
-#
-#, fuzzy
-msgid "Team 1"
-msgstr "Time"
-
-#
-#, fuzzy
-msgid "Skip Animation"
-msgstr "Pular animação"
-
-#
-#. TRANSLATORS: whiteboard menu entry: toggle planning mode
-msgid "whiteboard^Planning Mode"
-msgstr ""
-
-#
-#. TRANSLATORS: whiteboard menu entry: execute planned action
-#, fuzzy
-msgid "whiteboard^Execute Action"
-msgstr "Opções do Quadro-Branco"
-
-#
-#. TRANSLATORS: whiteboard menu entry: execute all planned actions
-#, fuzzy
-msgid "whiteboard^Execute All Actions"
-msgstr "Opções do Quadro-Branco"
-
-#
-#. TRANSLATORS: whiteboard menu entry: delete planned action
-#, fuzzy
-msgid "whiteboard^Delete Action"
-msgstr "Opções do Quadro-Branco"
-
-#
-#. TRANSLATORS: whiteboard menu entry: move planned action up queue
-#, fuzzy
-msgid "whiteboard^Move Action Up"
-msgstr "Opções do Quadro-Branco"
-
-#
-#. TRANSLATORS: whiteboard menu entry: move planned action down queue
-#, fuzzy
-msgid "whiteboard^Move Action Down"
-msgstr "Opções do Quadro-Branco"
-
-#
-#. TRANSLATORS: whiteboard menu entry: plan as though the chosen unit were dead
-msgid "whiteboard^Suppose Dead"
-msgstr ""
-
-#
-msgid "Quit to Desktop"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Close Map"
-msgstr "Fechar"
-
-#
-#, fuzzy
-msgid "Switch Time of Day"
-msgstr "Período do dia"
-
-#
-#, fuzzy
-msgid "Switch Map"
-msgstr "Dividir mapas"
-
-#
-msgid "Assign Local Time"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Custom Time of Day Creator"
-msgstr "Período do dia"
-
-#
-msgid "Partial Undo"
-msgstr ""
-
-#
-msgid "New Map"
-msgstr ""
-
-#
-#, fuzzy
-msgid "New Scenario"
-msgstr "Terminar o Cenário"
-
-#
-#, fuzzy
-msgid "Load Map"
-msgstr "Continuar um Jogo"
-
-#
-#, fuzzy
-msgid "Save Map As"
-msgstr "Salvar o Mapa como"
-
-#
-#, fuzzy
-msgid "Save Scenario As"
-msgstr "Cenário remoto"
-
-#
-#, fuzzy
-msgid "Save All Maps"
-msgstr "Salvar o Mapa como"
-
-#
-msgid "Revert All Changes"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Map Information"
-msgstr "Pular animação"
-
-#
-msgid "Clear Selected Item Set"
-msgstr ""
-
-#
-msgid "Swap Foreground/Background Palette Item"
-msgstr ""
-
-#
-msgid "Change Palette Group"
-msgstr ""
-
-#
-msgid "Scroll Palette Left"
-msgstr ""
-
-#
-msgid "Scroll Palette Right"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Add New Side"
-msgstr "Próximo Time"
-
-#
-#, fuzzy
-msgid "Next Tool"
-msgstr "Próximo Turno"
-
-#
-msgid "Paint Tool"
-msgstr ""
-
-#
-msgid ""
-"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
-"paint base layer only. Ctrl+click to sample terrain under cursor."
-msgstr ""
-
-#
-msgid "Fill Tool"
-msgstr ""
-
-#
-msgid ""
-"Left mouse button selects or deselects, right brings up a context menu. Hold "
-"Shift for magic-wand selection of tiles with same terrain."
-msgstr ""
-
-#
-msgid "Selection Tool"
-msgstr ""
-
-#
-msgid ""
-"Left mouse button displays player selection, right clears. Number keys "
-"scroll to the starting position, alt+number sets respective starting "
-"position under cursor, delete clears."
-msgstr ""
-
-#
-#, fuzzy
-msgid "Starting Positions Tool"
-msgstr "Posição Inicial:"
-
-#
-msgid "Label Tool"
-msgstr ""
-
-#
-msgid "Left mouse button sets or drags a label, right clears."
-msgstr ""
-
-#
-msgid ""
-"Left mouse button sets a new unit or moves a unit via drag and drop, right "
-"brings up a context menu. Needs a defined side."
-msgstr ""
-
-#
-msgid "Unit Tool"
-msgstr ""
-
-#
-msgid "Item Tool"
-msgstr ""
-
-#
-msgid ""
-"Left mouse button sets a new item or moves it via drag and drop, right "
-"clears. Not implemented yet."
-msgstr ""
-
-#
-msgid ""
-"Left mouse button sets or drags a sound source, right clears. Not "
-"implemented yet."
-msgstr ""
-
-#
-msgid "Sound Source Tool"
-msgstr ""
-
-#
-msgid ""
-"Left mouse button sets the village ownership to the current side, right "
-"clears. Needs a defined side."
-msgstr ""
-
-#
-#, fuzzy
-msgid "Village Tool"
-msgstr "Ouro das Vilas: "
-
-#
-#, fuzzy
-msgid "Can Recruit"
-msgstr "Recrutar"
-
-#
-msgid "Toggle the recruit attribute of a unit."
-msgstr ""
-
-#
-msgid "Can be Renamed"
-msgstr ""
-
-#
-msgid "Toggle the unit being renameable."
-msgstr ""
-
-#
-msgid "Assign Recruit List"
-msgstr ""
-
-#
-msgid "Assign the selected unit set as recruit list to the unit."
-msgstr ""
-
-#
-#, fuzzy
-msgid "Change Unit ID"
-msgstr "Avançar a Unidade"
-
-#
-msgid "Loyal"
-msgstr ""
-
-#
-msgid "Toggle Minimap Unit Coding"
-msgstr ""
-
-#
-msgid "Toggle Minimap Terrain Coding"
-msgstr ""
-
-#
-msgid "Toggle Minimap Unit Drawing"
-msgstr ""
-
-#
-msgid "Toggle Minimap Village Drawing"
-msgstr ""
-
-#
-msgid "Toggle Minimap Terrain Drawing"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Next Brush"
-msgstr "Próximo Turno"
-
-#
-msgid "Default Brush"
-msgstr ""
-
-#
-msgid "Single Tile"
-msgstr ""
-
-#
-msgid "Radius One"
-msgstr ""
-
-#
-msgid "Radius Two"
-msgstr ""
-
-#
-msgid "Brush NW-SE"
-msgstr ""
-
-#
-msgid "Brush SW-NE"
-msgstr ""
-
-#
-msgid "Cut"
-msgstr ""
-
-#
-msgid "Copy"
-msgstr ""
-
-#
-msgid ""
-"Left mouse button pastes from the clipboard, right brings up a context menu."
-msgstr ""
-
-#
-msgid "Paste"
-msgstr ""
-
-#
-msgid "Export Selected Coordinates to System Clipboard"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Select All"
-msgstr "Selecionar unidade:"
-
-#
-#, fuzzy
-msgid "Select Inverse"
-msgstr "Cenário remoto"
-
-#
-#, fuzzy
-msgid "Select None"
-msgstr "Selecionar unidade:"
-
-#
-msgid "Rotate Clipboard Clockwise"
-msgstr ""
-
-#
-msgid "Rotate Clipboard Counter-Clockwise"
-msgstr ""
-
-#
-msgid "Flip Clipboard Horizontally"
-msgstr ""
-
-#
-msgid "Flip Clipboard Vertically"
-msgstr ""
-
-#
-msgid "Rotate Selection"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Flip Selection"
-msgstr "Local inválido"
-
-#
-msgid "Fill Selection"
-msgstr ""
-
-#
-msgid "Generate Tiles in Selection"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Randomize Tiles in Selection"
-msgstr "Período do dia em que inicia o jogo aleatório"
-
-#
-msgid "Resize Map"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Rotate Map"
-msgstr "Dividir mapas"
-
-#
-#, fuzzy
-msgid "Generate Map"
-msgstr "Regenerar"
-
-#
-msgid "Apply a Mask"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Create Mask"
-msgstr "Criar jogo"
-
-#
-#, fuzzy
-msgid "Refresh Display"
-msgstr "Atualizar interface gráfica."
-
-#
-#, fuzzy
-msgid "Update Terrain Transitions"
-msgstr "Tradução para o Latin"
-
-#
-msgid "Toggle Terrain Transition Update"
-msgstr ""
-
-#
-msgid "Auto-update Terrain Transitions"
-msgstr ""
-
-#
-msgid "Auto-update Terrain Transitions: No"
-msgstr ""
-
-#
-msgid "Auto-update Terrain Transitions: Partial"
-msgstr ""
-
-#
-msgid "Refresh Image Cache"
-msgstr ""
-
-#
-msgid "Draw Hex Coordinates"
-msgstr ""
-
-#
-msgid "Draw Terrain Codes"
-msgstr ""
-
-#
-msgid "Save Selection to Area"
-msgstr ""
-
-#
-msgid "Rename Selected Area"
-msgstr ""
-
-#
-msgid "Remove Selected Area"
-msgstr ""
-
-#
-msgid "Add New Area"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Edit Scenario"
-msgstr "Terminar o Cenário"
-
-#
-#, fuzzy
-msgid "Edit Side"
-msgstr "Próximo Time"
-
-#
-#, fuzzy
-msgid "Remove Side"
-msgstr "Próximo Time"
-
-#
-msgid "Delay Shroud Updates"
-msgstr ""
-
-#
-msgid "Update Shroud Now"
-msgstr ""
-
-#
-msgid "Continue Move"
-msgstr ""
-
-#
-msgid "Find Label or Unit"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Speak to Ally"
-msgstr "Atualizar Tudo"
-
-#
-#, fuzzy
-msgid "Speak to All"
-msgstr "Atualizar Tudo"
-
-#
-msgid "Help"
-msgstr ""
-
-#
-msgid "View Chat Log"
-msgstr ""
-
-#
-msgid "Enter User Command"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Custom Command"
-msgstr "Comando:"
-
-#
-msgid "Run Formula"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Clear Messages"
-msgstr "Tempo máximo de mensagem no chat"
-
-#
-msgid "Change Language"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Refresh WML"
-msgstr "Atualizar interface gráfica."
-
-#
-#, fuzzy
-msgid "Next Tip of the Day"
-msgstr "Período do dia"
-
-#
-msgid "Previous Tip of the Day"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Start Tutorial"
-msgstr "Tutorial"
-
-#
-#, fuzzy
-msgid "Start Campaign"
-msgstr "Designer de Campanha"
-
-#
-#, fuzzy
-msgid "Start Multiplayer Game"
-msgstr "Multijogador"
-
-#
-msgid "Manage Add-ons"
-msgstr ""
-
-#
-msgid "Start Editor"
-msgstr ""
-
-#
-#, fuzzy
-msgid "Show Credits"
-msgstr "Mostrar o replay"
-
-#
-#, fuzzy
-msgid "Show Helptip"
-msgstr "Mostrar o replay"
-
-#
-msgid "Unrecognized Command"
-msgstr ""
-
-#
 msgid "The End"
 msgstr "Fim"
 
 #
 msgid "System default language"
 msgstr "Idioma padrão do sistema"
+
+#
+msgid "Leader"
+msgstr "Líder"
 
 #
 msgid "Team"
@@ -6131,6 +5316,10 @@ msgid "Starting game"
 msgstr "Iniciando o jogo"
 
 #
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#
 msgid "Save the Map As"
 msgstr "Salvar o Mapa como"
 
@@ -6220,12 +5409,21 @@ msgstr ""
 
 #
 #, fuzzy
+msgid "Rename Unit"
+msgstr "Avançar a Unidade"
+
+#
+#, fuzzy
 msgid "Name:"
 msgstr "Nome:"
 
 #
 msgid "Race"
 msgstr "Raça"
+
+#
+msgid "Create Unit (Debug!)"
+msgstr "Criar Unidade (Debug!)"
 
 #
 msgid "Gender: "
@@ -6256,8 +5454,8 @@ msgid ""
 "Available commands list and command-specific help. Use \"help all\" to "
 "include currently unavailable commands."
 msgstr ""
-"Lista de comandos disponíveis e ajuda específica dos comandos. Use \"help "
-"all\" para incluir comandos atualmente indisponíveis."
+"Lista de comandos disponíveis e ajuda específica dos comandos. Use \"help all"
+"\" para incluir comandos atualmente indisponíveis."
 
 #
 msgid "do not translate the 'all'^[all|<command>]"
@@ -7374,6 +6572,31 @@ msgstr ""
 
 #
 #, fuzzy
+msgid "Scenarios"
+msgstr "Terminar o Cenário"
+
+#
+#, fuzzy
+msgid "Campaigns"
+msgstr "Designer de Campanha"
+
+#
+#, fuzzy
+msgid "User Maps"
+msgstr "Fechar"
+
+#
+#, fuzzy
+msgid "User Scenarios"
+msgstr "Terminar o Cenário"
+
+#
+#, fuzzy
+msgid "Random Maps"
+msgstr "Aleatório"
+
+#
+#, fuzzy
 msgid "No games found."
 msgstr "Nenhuma Era encontrada."
 
@@ -7484,6 +6707,10 @@ msgstr "Entrar no jogo"
 #
 msgid "Quick replays"
 msgstr "Replays Rápidos"
+
+#
+msgid "Preferences"
+msgstr "Preferências"
 
 #
 msgid "Apply filter"
@@ -7915,8 +7142,8 @@ msgstr "envenenado: "
 #
 msgid ""
 "This unit is poisoned. It will lose 8 HP every turn until it can seek a cure "
-"to the poison in a village or from a friendly unit with the ‘cures’ ability."
-"\n"
+"to the poison in a village or from a friendly unit with the ‘cures’ "
+"ability.\n"
 "\n"
 "Units cannot be killed by poison alone. The poison will not reduce it below "
 "1 HP."
@@ -8126,7 +7353,8 @@ msgstr ""
 "lo?"
 
 #
-msgid "This is not a multiplayer save"
+#, fuzzy
+msgid "This is not a multiplayer save."
 msgstr "Este não é um jogo salvo de multijogadores"
 
 #
@@ -8154,12 +7382,17 @@ msgid "Saved"
 msgstr "Salvo"
 
 #
-msgid "The game has been saved"
+#, fuzzy
+msgid "The game has been saved."
 msgstr "O jogo foi salvo"
 
 #
 msgid "Could not write to file"
 msgstr "Não foi possível escrever no arquivo"
+
+#
+msgid "Save Replay"
+msgstr "Salvar Replay"
 
 #
 msgid "replay"
@@ -8171,13 +7404,25 @@ msgstr ""
 "Não pude salvar o jogo automaticamente. Por favor salve o jogo manualmente."
 
 #
+msgid "Save Game"
+msgstr "Salvar o Jogo"
+
+#
 msgid "Unexpected characters at line start"
 msgstr "Caracteres inesperados no começo da linha"
 
 #
 #, fuzzy
-msgid "Missing closing tag for tag [$tag] at $pos"
+msgid "Missing closing tag for tag [$tag]"
 msgstr "Falta fechar a tag $tag na posição $pos"
+
+#
+msgid "expected at $pos"
+msgstr ""
+
+#
+msgid "opened at $pos"
+msgstr ""
 
 #
 msgid "Unterminated [element] tag"
@@ -8205,10 +7450,15 @@ msgstr "Tag de fechamento inesperada"
 
 #
 #, fuzzy
-msgid "Found invalid closing tag [/$tag2] for tag [$tag1] (opened at $pos)"
+msgid "Found invalid closing tag [/$tag2] for tag [$tag1]"
 msgstr ""
 "Encontrou tag de fechamento $tag2 inválida para a tag $tag1 (aberta na "
 "posição $pos)"
+
+#
+#, fuzzy
+msgid "closed at $pos"
+msgstr "Fechar"
 
 #
 msgid "Empty variable name"
@@ -8223,12 +7473,13 @@ msgid "Unterminated quoted string"
 msgstr "Texto entre aspas não terminado"
 
 #
-msgid "$error, value '$value', previous '$previous_value' at $pos"
-msgstr "$error, value '$value', previous '$previous_value' at $pos"
+msgid "at $pos"
+msgstr ""
 
 #
-msgid "$error, value '$value' at $pos"
-msgstr "$error, '$value' em $pos"
+#, fuzzy
+msgid "Value: '$value' Previous: '$previous_value'"
+msgstr "$error, value '$value', previous '$previous_value' at $pos"
 
 #
 msgid "prefix_milli^m"

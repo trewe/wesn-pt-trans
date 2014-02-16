@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-01-04 20:07+0100\n"
+"POT-Creation-Date: 2014-02-16 13:54+0100\n"
 "PO-Revision-Date: 2012-04-18 21:16-0300\n"
 "Last-Translator: Romero Gonçalves <romerotg@gmail.com>\n"
 "Language-Team: none\n"
@@ -785,7 +785,9 @@ msgstr "Morte de Grüü"
 
 #
 #. [note]
-msgid "You may also ask Grüü to move to any hex by right-clicking on that hex."
+msgid ""
+"In this scenario, you may ask Grüü to move to any hex by right-clicking on "
+"that hex."
 msgstr ""
 
 #
@@ -922,6 +924,13 @@ msgstr "Derrotar todos os inimigos"
 #. [objective]: condition=lose
 msgid "Death of a Shaman"
 msgstr "Morte de um Xamã"
+
+#
+#. [note]
+msgid ""
+"Except for the shamans, the Barag Gór defenders will not follow you into the "
+"next scenario"
+msgstr ""
 
 #
 #. [side]: type=Elvish Marshal, id=Etheliel
@@ -1137,7 +1146,6 @@ msgstr "Nós vamos lá e matamos todos eles. O que você acha?"
 
 #
 #. [message]: speaker=Kapou'e
-#. [message]: speaker=Shan Taum
 msgid "..."
 msgstr "..."
 
@@ -1464,7 +1472,7 @@ msgid "Harman"
 msgstr "Harman"
 
 #
-#. [unit]: type=Orcish Warrior, id=Affman
+#. [unit]: type=Orcish Warrior, type=Orcish Grunt, id=Affman
 msgid "Affman"
 msgstr "Affman"
 
@@ -2661,9 +2669,10 @@ msgstr ""
 
 #
 #. [message]: speaker=Thelarion
+#, fuzzy
 msgid ""
-"This has taken too much time, we should send all of our troops and send "
-"these creatures back to hell."
+"This isn’t working. Mobilize all our troops and send these creatures back to "
+"hell."
 msgstr ""
 "Isso está demorando demais, nós devemos mandar todas as nossas tropas e "
 "enviar essas criaturas de volta para o inferno."
@@ -3049,14 +3058,6 @@ msgid "No matter. Horde smash!"
 msgstr "Não importa. A Horda arrebenta!"
 
 #
-#. [message]: speaker=Arthain
-msgid ""
-"The orcs are making headway. The city must not fall — call the reserves!"
-msgstr ""
-"Os orcs estão fazendo progressos. A cidade não deve cair — chamem as "
-"reservas!"
-
-#
 #. [scenario]: id=13_The_Dwarvish_Stand
 msgid "The Dwarvish Stand"
 msgstr "A Resistência Anã"
@@ -3369,13 +3370,15 @@ msgstr ""
 
 #
 #. [message]: speaker=Flar'Tar
-msgid "Yeah, sure."
-msgstr "Sim, claro."
+#. [message]: speaker=second_unit
+#, fuzzy
+msgid "Yes, Chief."
+msgstr "Sim, Chefe?"
 
 #
 #. [message]: speaker=Al'Brock
-msgid "Whatever."
-msgstr "Que seja."
+msgid "Understood."
+msgstr ""
 
 #
 #. [message]: speaker=Grüü
@@ -3553,12 +3556,6 @@ msgstr "Seria melhor nós olharmos."
 #. [message]: speaker=Kapou'e
 msgid "You had better go look."
 msgstr "Seria melhor você olhar."
-
-#
-#. [message]: speaker=second_unit
-#, fuzzy
-msgid "Yes, Chief."
-msgstr "Sim, Chefe?"
 
 #
 #. [message]: speaker=narrator
@@ -3952,6 +3949,11 @@ msgstr ""
 "seu povo está a beira do extermínio total!"
 
 #
+#. [message]: speaker=Shan Taum
+msgid "LIES! THESE ARE ALL LIES!"
+msgstr "MENTIRA! É TUDO MENTIRA!"
+
+#
 #. [message]: speaker=Kapou'e
 msgid ""
 "Tell you what, you ungrateful backstabbing traitor, if you surrender right "
@@ -3962,8 +3964,11 @@ msgstr ""
 
 #
 #. [message]: speaker=Shan Taum
-msgid "LIES! THESE ARE ALL LIES!"
-msgstr "MENTIRA! É TUDO MENTIRA!"
+#, fuzzy
+msgid "How dare you accuse me of being a traitor, you turdlicker!"
+msgstr ""
+"Como você ousa me acusar de ser um traidor, seu lambedor de bosta! Orga, "
+"mate essa criança para mim. Eu vou estar em minha fortaleza."
 
 #
 #. [message]: speaker=Kapou'e
@@ -3972,9 +3977,8 @@ msgstr "Certo... Então o que vai ser, decapitação ou tortura?"
 
 #
 #. [message]: speaker=Shan Taum
-msgid ""
-"How dare you accuse me of being a traitor, you turdlicker! Orga, kill this "
-"kid for me. I’ll be in my keep."
+#, fuzzy
+msgid "Orga, kill this kid for me. I’ll be in my keep."
 msgstr ""
 "Como você ousa me acusar de ser um traidor, seu lambedor de bosta! Orga, "
 "mate essa criança para mim. Eu vou estar em minha fortaleza."

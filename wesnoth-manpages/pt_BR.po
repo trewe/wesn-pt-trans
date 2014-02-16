@@ -5,7 +5,6 @@
 #
 msgid ""
 msgstr ""
-
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-16 09:28+0100\n"
@@ -17,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
 #
 # type: TH
 #. type: TH
@@ -56,8 +56,8 @@ msgstr "NOME"
 #. type: Plain text
 msgid "wesnoth - Battle for Wesnoth, a turn-based fantasy strategy game"
 msgstr ""
-
 "wesnoth - Battle for Wesnoth, um jogo de fantasia e estratégia em turnos"
+
 #
 # type: SH
 #. type: SH
@@ -83,9 +83,9 @@ msgstr "DESCRIÇÃO"
 #. type: Plain text
 msgid "Battle for B<Wesnoth> is a turn-based fantasy strategy game."
 msgstr ""
-
 "Battle for B<Wesnoth> é um jogo de estratégia em turnos em um mundo de "
 "fantasia."
+
 #
 # type: Plain text
 #. type: Plain text
@@ -99,7 +99,6 @@ msgid ""
 "Wesnoth's large community of online players. Create your own custom units, "
 "scenarios or campaigns, and share them with others."
 msgstr ""
-
 "Escolha um conjunto balanceado de tropas para destruir todos os líderes "
 "inimigos, gerenciando seus recursos de ouro e aldeias. Todas as unidades têm "
 "seus pontos fortes e fracos; para vencer, você precisará saber utilizar suas "
@@ -109,6 +108,7 @@ msgstr ""
 "computador, ou entre para a grande comunidade de jogadores online de "
 "wesnoth. Crie unidades, cenários ou campanhas personalizados, e compartillhe-"
 "os com outras pessoas."
+
 #
 # type: SH
 #. type: SH
@@ -188,9 +188,9 @@ msgid ""
 "for the configuration directory outside the $HOME or \"My Documents\\eMy "
 "Games\""
 msgstr ""
-
 "Ajusta a pasta de configurações de usuário para I<name> em $HOME (ou \"My "
 "Documents\\eMy Games\" no windows)."
+
 #
 # type: TP
 #. type: TP
@@ -231,10 +231,10 @@ msgid ""
 "enables additional command mode options in-game (see the wiki page at http://"
 "www.wesnoth.org/wiki/CommandMode for more information about command mode)."
 msgstr ""
-
 "Habilita opções de modo de comando adicionais dentro do jogo (veja a wiki em "
 "http://www.wesnoth.org/wiki/CommandMode para mais informações sobre o modo "
 "de comando)."
+
 #
 # type: TP
 #. type: TP
@@ -250,9 +250,9 @@ msgid ""
 "start the in-game map editor directly. If I<file> is specified, equivalent "
 "to B<-l --load>"
 msgstr ""
-
 "começa o editor de mapa dentro-do-jogo diretamente. se I<arquivo> é "
 "especificado, fica equivalente a B<-e --load>"
+
 #
 # type: TP
 #. type: TP
@@ -267,9 +267,9 @@ msgid ""
 "displays the number of frames per second the game is currently running at, "
 "in a corner of the screen."
 msgstr ""
-
 "exibe o número de quadros (frames) por segundo atual do jogo em um canto da "
 "tela."
+
 #
 # type: TP
 #. type: TP
@@ -297,9 +297,9 @@ msgid ""
 "decompresses a file which should be in gzip format and stores it without "
 "the .gz suffix. The I<infile.gz> will be removed."
 msgstr ""
-
 "descomprime um arquivo que possa estar em formato gzip e armazena-o sem o "
 "sufixo .gz. O arquivo I<infile.gz> é então removido."
+
 #
 # type: TP
 #. type: TP
@@ -314,9 +314,9 @@ msgid ""
 "compresses a file in gzip format, stores it as I<infile>.gz and removes "
 "I<infile>."
 msgstr ""
-
 "comprime um arquivo em formato gzip, guarda como I<infile>.gz e remove o "
 "I<infile>."
+
 #
 # type: TP
 #. type: TP
@@ -330,8 +330,8 @@ msgstr "B<-h, --help>"
 msgid ""
 "displays a summary of command line options to standard output, and exits."
 msgstr ""
-
 "exibe um resumo das opções de linha de comando para a saída padrão, e sai."
+
 #
 # type: TP
 #. type: TP
@@ -348,11 +348,11 @@ msgid ""
 "from I<file> open. If it is a directory, the editor will start with a load "
 "map dialog opened there."
 msgstr ""
-
 "Abre o jogo gravado I<arquivo> da pasta de jogos gravados padrão.  se a "
 "opção B<-e> ou o B<--editor> também foi usada, inicia o editor com o mapa de "
 "I<arquivo> aberto. se for uma pasta, o editor vai iniciar com um diálogo "
 "abrir-mapa."
+
 #
 # type: TP
 #. type: TP
@@ -368,11 +368,11 @@ msgid ""
 "log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ "
 "B<debug>.  By default the B<error> level is used."
 msgstr ""
-
 "Ajusta o nível de severidade dos domínios de log.  B<all> (tudo) pode ser "
 "usado para casar com qualquer domínio de log. Níveis disponíveis: B<error> "
 "(erro),\\ B<warning> (aviso),\\ B<info> (informação),\\ B<debug> "
 "(depuração).  O nível padrão é o B<error>."
+
 #
 # type: TP
 #. type: TP
@@ -401,9 +401,9 @@ msgid ""
 "the number of frames per second the game can show, the value should be "
 "between the 1 and 1000, the default is B<50>."
 msgstr ""
-
 "número de quadros por segundo que o jogo pode exibir, este valor deve ser "
 "entre 1 e 1000, o padrão é B<50>."
+
 #
 # type: TP
 #. type: TP
@@ -419,10 +419,10 @@ msgid ""
 "together with B<--multiplayer> as explained below. Only these additional "
 "options can follow B<--multiplayer>."
 msgstr ""
-
 "executa um jogo multijogador. Há opções extras que podem ser usadas "
 "juntamente com B<--multiplayer> conforme explicado abaixo. Apenas estas "
 "opções dicionais podem vir depois de B<--multiplayer>."
+
 #
 # type: TP
 #. type: TP
@@ -437,9 +437,9 @@ msgid ""
 "runs the game without any delays for graphic benchmarking. This is "
 "automatically enabled by B<--nogui>."
 msgstr ""
-
 "executa o jogo sem atrasos para benchmark de gráficos. É selecionado "
 "automaticamente pela opção B<--nogui>."
+
 #
 # type: TP
 #. type: TP
@@ -580,9 +580,9 @@ msgid ""
 "connects to the specified host if any, otherwise connect to the first server "
 "in preferences. Example: B<--server server.wesnoth.org>"
 msgstr ""
-
 "conecta a máquina especificada se existir, caso contrário, conecta ao "
 "primeiro servidor das preferências. Exemplo: B<--server server.wesnoth.org>"
+
 #
 #. type: TP
 #, no-wrap
@@ -700,11 +700,11 @@ msgid ""
 "has to be replaced by a side number. It usually is 1 or 2 but depends on the "
 "number of players possible in the chosen scenario."
 msgstr ""
-
 "As opções específicas para times em modo multijogador estão marcadas com "
 "E<lt>númeroE<gt>. E<lt>númeroE<gt> deve ser substituido pelo número de um "
 "time. Normalmente esse número é 1 ou 2, mas isso depende do número de "
 "jogadores permitidos no cenário escolhido."
+
 #
 # type: TP
 #. type: TP
@@ -718,9 +718,9 @@ msgstr "B<--ai_config>I<número>B<=>I<valor>"
 msgid ""
 "selects a configuration file to load for the AI controller for this side."
 msgstr ""
-
 "seleciona um arquivo de configuração para carregar para o controlador de IA "
 "para este time."
+
 #
 # type: TP
 #. type: TP
@@ -735,9 +735,9 @@ msgid ""
 "selects a non-standard algorithm to be used by the AI controller for this "
 "side. Available values: B<idle_ai> and B<sample_ai>."
 msgstr ""
-
 "escolhe um algoritmo não padrão para ser usado pelo controlador de IA para "
 "este time. Valores possíveis: \"idle_ai\" e \"sample_ai\"."
+
 #
 # type: TP
 #. type: TP
@@ -767,10 +767,10 @@ msgid ""
 "The era is chosen by an id. Eras are described in the B<data/multiplayer/"
 "eras.cfg> file."
 msgstr ""
-
 "use esta opção para jogar na era selecionada, ao invés da era B<Padrão>. "
 "Você escolhe a era pelo identificador (id). As eras disponíveis estão "
 "descritas no arquivo B<data/multiplayer/era.cfg>."
+
 #
 # type: TP
 #. type: TP
@@ -786,10 +786,10 @@ msgid ""
 "which requires the user to click OK.  This is also used for scriptable "
 "benchmarking."
 msgstr ""
-
 "sai do jogo quando o cenário terminar, sem mostrar uma tela de vitória/"
 "derrota que requer que o usuário aperte OK. Isto pode ser usado para scripts "
 "de benchmark."
+
 #
 #. type: TP
 #, no-wrap
@@ -829,9 +829,9 @@ msgid ""
 "runs the game without the GUI. Must appear before B<--multiplayer> to have "
 "the desired effect."
 msgstr ""
-
 "executa o jogo sem a GUI. Deve ser usado antes de B<--multiplayer> para ter "
 "o efeito desejado."
+
 #
 # type: TP
 #. type: TP
@@ -847,10 +847,10 @@ msgid ""
 "options used with B<--controller> and B<--algorithm>.  It should only be "
 "useful for people designing their own AI. (not yet documented completely)"
 msgstr ""
-
 "configura parâmetros extras para este time. Esta opção depende das opções "
 "usadas com B<--controller> e B<--algorithm.> Ela só tem utilidade para "
 "pessoas criando suas próprias IA. (não está completamente documentado ainda)"
+
 #
 # type: TP
 #. type: TP
@@ -865,9 +865,9 @@ msgid ""
 "selects a multiplayer scenario by id. The default scenario id is "
 "B<multiplayer_The_Freelands>."
 msgstr ""
-
 "seleciona um cenário multijogador pelo id. O id do cenário padrão é "
 "B<multiplayer_The_Freelands>."
+
 #
 # type: TP
 #. type: TP
@@ -882,10 +882,10 @@ msgid ""
 "selects a faction of the current era for this side. The faction is chosen by "
 "an id. Factions are described in the data/multiplayer.cfg file."
 msgstr ""
-
 "seleciona uma facção da era atual para este time. A facção é escolhida por "
 "um número de identificação (id). As facções estão descritas no arquivo data/"
 "multiplayer.cfg."
+
 #
 # type: TP
 #. type: TP
@@ -933,9 +933,9 @@ msgid ""
 "Edited by Nils Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon."
 "netE<gt> and Soliton E<lt>soliton.de@gmail.comE<gt>."
 msgstr ""
-
 "Editado por Nils Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon."
 "netE<gt> e Soliton E<lt>soliton@sonnenkinder.orgE<gt>."
+
 #
 # type: Plain text
 #. type: Plain text
@@ -943,9 +943,9 @@ msgid ""
 "This manual page was originally written by Cyril Bouthors "
 "E<lt>cyril@bouthors.orgE<gt>."
 msgstr ""
-
 "Esta página de manual foi escrita originalmente por Cyril bouthors "
 "E<lt>cyril@bouthors.orgE<gt>."
+
 #
 # type: Plain text
 #. type: Plain text
@@ -965,8 +965,8 @@ msgstr "COPYRIGHT"
 #, fuzzy
 msgid "Copyright \\(co 2003-2013 David White E<lt>davidnwhite@verizon.netE<gt>"
 msgstr ""
-
 "Copyright \\(co 2003-2009 David White E<lt>davidnwhite@verizon.netE<gt>"
+
 #
 # type: Plain text
 #. type: Plain text
@@ -975,11 +975,11 @@ msgid ""
 "published by the Free Software Foundation.  There is NO warranty; not even "
 "for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
 msgstr ""
-
 "Este programa é Free Software; este programa esta licensiado sob a GPL "
 "versão 2, conforme publicada pela Free Software Foundation. NÃO há QUALQUER "
 "garantia para o programa; nem mesmo a garantia de COMERCIALIZAÇÃO, e as de "
 "ADEQUAÇÃO A QUALQUER PROPÓSITO."
+
 #
 # type: SH
 #. type: SH
@@ -1020,8 +1020,8 @@ msgstr "Deamon de rede para jogos multijogadores de Battle for Wesnoth"
 #. type: Plain text
 msgid "wesnothd - Battle for B<Wesnoth> multiplayer network daemon"
 msgstr ""
-
 "wesnothd - deamon de rede para jogos multijogadores de Battle for B<Wesnoth>"
+
 #
 # type: Plain text
 #. type: Plain text
@@ -1029,9 +1029,9 @@ msgid ""
 "B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] [\\|"
 "B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
 msgstr ""
-
 "B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<caminho>\\|] [\\|B<-p> I<porta>\\|] "
 "[\\|B<-t> I<número>\\|] [\\|B<-T> I<número>\\|]"
+
 #
 # type: Plain text
 #. type: Plain text
@@ -1046,10 +1046,10 @@ msgid ""
 "wiki/ServerAdministration on what commands the server accepts via the "
 "wesnoth client (/query ...) or the fifo."
 msgstr ""
-
 "Gerencia jogos multijogadores de Battle for Wesnoth. Veja http://www.wesnoth."
 "org/wiki/ServerAdministration para saber que comandos o servidor aceita via "
 "o clitente wesnoth (/query) ou via fifo."
+
 #
 # type: TP
 #. type: TP
@@ -1065,10 +1065,10 @@ msgid ""
 "B<SERVER CONFIG> below for the syntax. You can reload the config with "
 "sending SIGHUP to the server process."
 msgstr ""
-
 "diz a wesnothd onde achar o arquivo de configuração a ser usado. Veja a "
 "seção B<CONFIGURAÇÃO DO SERVIDOR> abaixo para a sintaxe. Você pode "
 "recarregar a configuração enviando SIGHUP para o processo do servidor."
+
 #
 # type: TP
 #. type: TP
@@ -1097,12 +1097,12 @@ msgid ""
 "B<debug>.  By default the B<error> level is used and the B<info> level for "
 "the B<server> domain."
 msgstr ""
-
 "Ajusta o nível de severidade dos dompinios de log.  B<all> (todos) pode ser "
 "usado para casar com qualquer domínio de log. Níveis disponíveis: B<error> "
 "(erro),\\ B<warning> (aviso),\\ B<info> (informação),\\ B<debug> "
 "(depuração).  Por padrão, o nível B<error> é usado e o nível B<info> para o "
 "domínio do B<servidor>."
+
 #
 # type: TP
 #. type: TP
@@ -1117,9 +1117,9 @@ msgid ""
 "binds the server to the specified port. If no port is specified, port "
 "B<15000> will be used."
 msgstr ""
-
 "conecta o servidor à porta escolhida. Se nenhuma porta for escolhida, a "
 "porta B<15000> será usada."
+
 #
 # type: TP
 #. type: TP
@@ -1134,9 +1134,9 @@ msgid ""
 "sets the maximum number of waiting worker threads for network I/O to n "
 "(default: B<5>,\\ max:\\ B<30>)."
 msgstr ""
-
 "muda para n a quantidade máxima de threads de trabalho em espera para E/S de "
 "rede (padrão: B<5>,\\ max:\\ B<30>)."
+
 #
 # type: TP
 #. type: TP
@@ -1151,9 +1151,9 @@ msgid ""
 "sets the maximum number of worker threads that will be created.  If set to "
 "B<0> there will be no limit (default: B<0>)."
 msgstr ""
-
 "configura o número máximo de threads de trabalho que serão criadas. Se "
 "ajustado para B<0>, não haverá limites (padrão: B<0>)."
+
 #
 # type: TP
 #. type: TP
@@ -1240,10 +1240,10 @@ msgid ""
 "they come from the fifo.  Set it to B<yes> to allow remote shutdown via a /"
 "query by an administrator."
 msgstr ""
-
 "se ajustado para B<no> (o padrão), pedidos de desligar e reiniciar serão "
 "ignorados, a menos que venham do fifo.  Coloque como B<yes> para permitir "
 "desligamento remoto via um /query de um administrador."
+
 #
 # type: TP
 #. type: TP
@@ -1258,10 +1258,10 @@ msgid ""
 "Full or relative path to a (gzip compressed) file that the server can read "
 "and write.  Bans will be saved to this file and read again on server start."
 msgstr ""
-
 "caminho completo ou relativo para um arquivo (comprimido com gzip) que o "
 "servior possa ler e escrever.  Bans serão gravados para o arquivo e lidos de "
 "novo ao ligar o servidor."
+
 #
 # type: TP
 #. type: TP
@@ -1276,9 +1276,9 @@ msgid ""
 "Determines whether the rooms file should be read and written to in "
 "compressed form. Defaults to B<yes>."
 msgstr ""
-
 "Determina quando o arquivo 'rooms' pode ser lido e escrito em forma "
 "compacta. O padrão é B<yes>."
+
 #
 # type: TP
 #. type: TP
@@ -1293,9 +1293,9 @@ msgid ""
 "The number of allowed connections from the same IP. B<0> means infinite. "
 "(default: B<5>)"
 msgstr ""
-
 "O número de conexões permitidas do mesmo IP. B<0> para infinito. (padrão: "
 "B<5>)"
+
 #
 # type: TP
 #. type: TP
@@ -1312,11 +1312,11 @@ msgid ""
 "(used if nothing is specified) are: B<*admin*,*admln*,*server*,ai,ai?,"
 "computer,human,network,player>."
 msgstr ""
-
 "Nomes/apelidos que não são aceitos pelo servidor. B<*> e B<?> podem ser "
 "usados como coringas. Veja B<glob>(7) para mais detalhes. Os valores padrão "
 "(usados se nada for especificado) são: B<*admin*,*admln*,*server*,ai,ai?,"
 "computer,human,network,player>."
+
 #
 # type: TP
 #. type: TP
@@ -1332,10 +1332,10 @@ msgid ""
 "from wesnoth).  If not specified defaults to the compile-time path (default: "
 "B</var/run/socket/wesnothd/socket>)."
 msgstr ""
-
 "O caminho para o fifo que exibe os comandos do servidor (o mesmo que /"
 "query ... do wesnoth).  Se não especificado, o padrão é o caminho da "
 "compilação (padrão: B</var/run/socket/wesnothd/socket>)."
+
 #
 # type: TP
 #. type: TP
@@ -1349,9 +1349,9 @@ msgstr "B<max_messages>"
 msgid ""
 "The number of allowed messages in B<messages_time_period>. (default: B<4>)"
 msgstr ""
-
 "O número de mensagens permitidas no período de B<messages_time_period>. "
 "(padrão: B<4>)"
+
 #
 # type: TP
 #. type: TP
@@ -1366,9 +1366,9 @@ msgid ""
 "The time period (in seconds) message flooding is detected in. (default: "
 "B<10> seconds)"
 msgstr ""
-
 "O período de tempo (em segundos) de flood (inundação) de mensagens é "
 "detectado em (padrão: B<10> segundos)"
+
 #
 # type: TP
 #. type: TP
@@ -1398,11 +1398,11 @@ msgid ""
 "respectively to everyone, registered users, admin users or disables new room "
 "creation. Default value is B<everyone>."
 msgstr ""
-
 "Determina quem pode criar novas 'rooms' n o servidor. Available values are "
 "B<everyone>, B<registered>, B<admin> and B<nobody>, and give the permission "
 "respectively to everyone, registered users, admin users or disables new room "
 "creation. Default value is B<everyone>."
+
 #
 # type: TP
 #. type: TP
@@ -1416,9 +1416,9 @@ msgstr "B<passwd>"
 msgid ""
 "The password used to gain admin privileges (via B</query admin >I<password>)."
 msgstr ""
-
 "A senha usada para ganhar privilégios admnistrativos. (via B</query "
 "admin>I<senha>)."
+
 #
 #. type: TP
 #, no-wrap
@@ -1432,9 +1432,9 @@ msgid ""
 "trailing /!) Defaults to `' which means the directory wesnothd was started "
 "in."
 msgstr ""
-
 "O diretório onde o servidor armazena replays de jogos. (não esqueça a / "
 "final!) O padrão é `' que é a pasta onde o wesnothd começou."
+
 #
 # type: TP
 #. type: TP
@@ -1450,10 +1450,10 @@ msgid ""
 "B<restart> command. (Can only be issued via the fifo. See the "
 "B<allow_remote_shutdown> setting.)"
 msgstr ""
-
 "O comando que o servidor usa para começar um novo processo de servidor via o "
 "comando B<restart>. (Só pode ser dado no fifo. Veja a configuração "
 "B<allow_remote_shutdown>.)"
+
 #
 # type: TP
 #. type: TP
@@ -1469,10 +1469,10 @@ msgid ""
 "server startup and written to later. If empty or not set, rooms are not "
 "loaded and not saved."
 msgstr ""
-
 "Caminho para um arquivo onde as informações de 'room' devem ser guardadas. "
 "Este arquivo é lido quando o servidor começa e escrito depois. Se em branco "
 "ou não definidas, 'rooms' não são carregadas nem salvas."
+
 #
 #. type: TP
 #, no-wrap
@@ -1485,9 +1485,9 @@ msgid ""
 "Defines whether the server will automatically save replays of games. "
 "(default: B<false>)"
 msgstr ""
-
 "Define se o servidor vai gravar automaticamente os replays dos jogos. "
 "(padrão: B<false>)"
+
 #
 # type: TP
 #. type: TP
@@ -1503,10 +1503,10 @@ msgid ""
 "and B<?> from wildcard patterns are supported.  (defaults to the "
 "corresponding wesnoth version)"
 msgstr ""
-
 "Uma lista, separada por vírgulas de strings de versão que serão aceitas pelo "
 "servidor. B<*>e B<?> podem ser usados para formar coringas. (padrão é a "
 "versão desta instalação do wesnoth)"
+
 #
 # type: Plain text
 #. type: Plain text
@@ -1531,12 +1531,12 @@ msgid ""
 "anything real you are insane). The default value is B<forum>. You must also "
 "add a B<[user_handler]> section, see below."
 msgstr ""
-
 "O nome do The name of the user handler to use. Currently available user "
 "handlers are B<forum> (to connect wesnothd to a phpbb forum database) and "
 "B<sample> (a sample implementation of the user handler interface, if you use "
 "this on anything real you are insane). The default value is B<forum>. You "
 "must also add a B<[user_handler]> section, see below."
+
 #
 # type: SS
 #. type: SS
@@ -1551,9 +1551,9 @@ msgid ""
 "B<[redirect]> A tag to specify a server to redirect certain client versions "
 "to."
 msgstr ""
-
 "B<[redirect]> Uma tag para especificar um servidor ao qual redirecionar "
 "certas versões de clientes."
+
 #
 # type: TP
 #. type: TP
@@ -1594,9 +1594,9 @@ msgid ""
 "A comma separated list of versions to redirect. Behaves the same way as "
 "B<versions_accepted> in regard to wildcard patterns."
 msgstr ""
-
 "Uma lista separada por vírgulas de versões para redirecionar. Se comporta do "
 "mesmo modo que B<versions_accepted> em relação a coringas."
+
 #
 # type: Plain text
 #. type: Plain text
@@ -1604,9 +1604,9 @@ msgid ""
 "B<[ban_time]> A tag to define convenient keywords for temporary ban time "
 "lengths."
 msgstr ""
-
 "B<[ban_time]> Uma etiqueta para definir palavras-chave convenientes para "
 "intervalos de tempo de banimento temporários."
+
 #
 # type: TP
 #. type: TP
@@ -1647,10 +1647,10 @@ msgid ""
 "connected client's requests to the specified server.  Accepts the same keys "
 "as B<[redirect]>."
 msgstr ""
-
 "B<[proxy]> Uma etiqueta que diz ao servidor para agir como proxy, e enviar "
 "as requisições dos clientes conectados para um outro servidor especificado. "
 "Aceita as mesmas chaves que B<[redirect]>."
+
 #
 # type: Plain text
 #. type: Plain text
@@ -1673,8 +1673,8 @@ msgstr "B<db_host>"
 #. type: Plain text
 msgid "(for user_handler=forum) The hostname of the database server"
 msgstr ""
-
 "(para user_handler=forum) o nome da máquina do servidor de banco de dados"
+
 #
 # type: TP
 #. type: TP
@@ -1702,9 +1702,9 @@ msgid ""
 "(for user_handler=forum) The name of the user under which to log into the "
 "database"
 msgstr ""
-
 "(para user_handler=forum) O nome do usuário com o qual se registrar no banco "
 "de dados"
+
 #
 # type: TP
 #. type: TP
@@ -1766,9 +1766,9 @@ msgid ""
 "(for user_handler=sample) The time after which a registered nick expires (in "
 "days)."
 msgstr ""
-
 "(para user_handler=sample) O tempo após o qual um apelido registrado expira "
 "(em dias)."
+
 #
 # type: Plain text
 #. type: Plain text
@@ -1776,10 +1776,10 @@ msgid ""
 "B<[mail]> Configures an SMTP server through which the user handler can send "
 "mail. Currently only used by the sample user handler."
 msgstr ""
-
 "B<[mail]> configura um servidor de SMTP através do qual o controlador de "
 "usuários pode mandar e-mails. Atualmente usado apenas pelo controlador de "
 "usuário de exemplo."
+
 #
 # type: TP
 #. type: TP
@@ -1862,16 +1862,15 @@ msgid ""
 "baumhauer@gmail.comE<gt>.  This manual page was originally written by Cyril "
 "Bouthors E<lt>cyril@bouthors.orgE<gt>."
 msgstr ""
-
 "Escrito por David White E<lt>davidnwhite@verizon.netE<gt>. Editado por Nils "
 "Kneuper E<lt>crazy-ivanovic@gmx.netE<gt>, ott E<lt>ott@gaon.netE<gt> e "
 "Soliton E<lt>soliton.de@gmail.comE<gt> e Thomas Baumhauer E<lt>thomas."
 "baumhauer@gmail.comE<gt>. Esta página de manual foi originalmente escrita "
 "por Cyril Bouthors E<lt>cyril@bouthors.orgE<gt>."
+
 #
 # type: TH
 #. type: Plain text
 #, fuzzy
 msgid "B<wesnoth>(6)."
 msgstr "wesnoth"
-
