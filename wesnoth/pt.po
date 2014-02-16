@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
 "POT-Creation-Date: 2014-02-16 13:54+0100\n"
-"PO-Revision-Date: 2014-01-06 13:27+0100\n"
+"PO-Revision-Date: 2014-02-16 14:22+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -190,9 +190,7 @@ msgstr ""
 msgid "Use 12-hour clock format"
 msgstr "Usa relógio de formato de 12 horas"
 
-#
 #. [advanced_preference]: type=boolean
-#, fuzzy
 msgid "Confirm loading saves from a different version"
 msgstr "Confirmar ao carregar uma partida gravada de outra versão"
 
@@ -236,7 +234,6 @@ msgstr ""
 "Usar cursor do rato colorido, o que pode ser mais lento e até destruir o "
 "jogo (usa pela tua própria conta)"
 
-#
 #. [advanced_preference]: type=boolean
 msgid "Joystick support"
 msgstr ""
@@ -327,7 +324,6 @@ msgstr ""
 msgid "Joystick: number of the thrust axis"
 msgstr ""
 
-#
 #. [advanced_preference]: type=int
 msgid "Joystick: deadzone of the thruster"
 msgstr ""
@@ -1318,23 +1314,19 @@ msgstr ""
 "foca-te em derrotar $ai_controller.side_$ally_side|_current_settings."
 "focus_on_enemy.side_description|."
 
-#
 #. [else]
 #. [then]
-#, fuzzy
 msgid "Side $temp_i"
-msgstr "side $temp_i"
+msgstr "Equipa $temp_i"
 
 #
 #. [else]
 msgid "side $temp_i"
 msgstr "side $temp_i"
 
-#
 #. [command]
-#, fuzzy
 msgid "side $temp_i ($side_i_leader.name|)"
-msgstr "$side_i_leader.name (side $temp_i|)"
+msgstr "Equipa $temp_i ($side_i_leader.name|)"
 
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
@@ -3185,11 +3177,9 @@ msgstr "eléctrico"
 msgid "Menu"
 msgstr "Menu"
 
-#
 #. [menu]: id=menu-autosaves
-#, fuzzy
 msgid "Back to..."
-msgstr "Voltar ao turno "
+msgstr "Voltar ao turno …"
 
 #
 #. [menu]: id=actions-menu
@@ -4937,19 +4927,17 @@ msgstr "%A, %I:%M %p"
 msgid "%b %d"
 msgstr "%b %d"
 
-#
-#, fuzzy
 msgid "%b %d %Y"
-msgstr "%b %d %y"
+msgstr "%d, %b %Y"
 
 #
 msgid "Invalid color range: "
 msgstr "Faixa de cor inválida: "
 
-#
-#, fuzzy
 msgid "Error loading game configuration files. The game will now exit."
-msgstr "Erro ao carregar ficheiro de configuração do jogo: '"
+msgstr ""
+"Erro ao carregar ficheiro de configuração do jogo. O Programa irá terminar "
+"agora."
 
 #
 msgid "The following add-on had errors and could not be loaded:"
@@ -4957,12 +4945,11 @@ msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] "O seguintes extra teve erro e não pode ser carregado:"
 msgstr[1] "O seguintes extras tiveram erros e não podem ser carregados:"
 
-#
 msgid "Please report this to the author or maintainer of this add-on."
 msgid_plural ""
 "Please report this to the respective authors or maintainers of these add-ons."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Por favor reporta isto ao responsável por este extra."
+msgstr[1] "Por favor reporta isto aos responsáveis por estes extras."
 
 #
 msgid "The Battle for Wesnoth"
@@ -6531,30 +6518,20 @@ msgstr "Carregar Partida..."
 msgid "Activate"
 msgstr "Activar"
 
-#
-#, fuzzy
 msgid "Scenarios"
-msgstr "Cenário"
+msgstr "Cenários"
 
-#
-#, fuzzy
 msgid "Campaigns"
-msgstr "Campanha"
+msgstr "Campanhas"
 
-#
-#, fuzzy
 msgid "User Maps"
-msgstr "Fechar Mapa"
+msgstr "Mapas da comunidade"
 
-#
-#, fuzzy
 msgid "User Scenarios"
-msgstr "Novo cenário"
+msgstr "Cenários da comunidade"
 
-#
-#, fuzzy
 msgid "Random Maps"
-msgstr "Aleatório"
+msgstr "Mapas Aleatórios"
 
 #
 msgid "No games found."
@@ -7291,10 +7268,8 @@ msgstr ""
 "Esta partida guardada é duma versão ($version_number|) diferente do jogo. "
 "Queres tentar carregá-la?"
 
-#
-#, fuzzy
 msgid "This is not a multiplayer save."
-msgstr "Esta não é uma partida guardado em rede"
+msgstr "Isto não é uma partida guardada em rede"
 
 #
 msgid "The game could not be saved: "
@@ -7319,10 +7294,8 @@ msgstr ""
 msgid "Saved"
 msgstr "Guardado"
 
-#
-#, fuzzy
 msgid "The game has been saved."
-msgstr "A partida foi gravada"
+msgstr "A partida foi gravada."
 
 #
 msgid "Could not write to file"
@@ -7350,18 +7323,14 @@ msgstr "Guardar a Partida"
 msgid "Unexpected characters at line start"
 msgstr "Caracteres inesperados no começo da linha"
 
-#
-#, fuzzy
 msgid "Missing closing tag for tag [$tag]"
-msgstr "Falta fechar a tag [$tag] na posição $pos"
+msgstr "Tag de clausura não fechada [$tag]"
 
-#
 msgid "expected at $pos"
-msgstr ""
+msgstr "esperado em $pos"
 
-#
 msgid "opened at $pos"
-msgstr ""
+msgstr "aberto em $pos"
 
 #
 msgid "Unterminated [element] tag"
@@ -7387,17 +7356,11 @@ msgstr "Tag de clausura não terminada"
 msgid "Unexpected closing tag"
 msgstr "Tag de clausura inesperada"
 
-#
-#, fuzzy
 msgid "Found invalid closing tag [/$tag2] for tag [$tag1]"
-msgstr ""
-"Encontrado tag de clausura [/$tag2] inválida para a tag [$tag1] (aberta na "
-"posição $pos)"
+msgstr "Encontrado tag de clausura [/$tag2] inválida para a tag [$tag1]"
 
-#
-#, fuzzy
 msgid "closed at $pos"
-msgstr "Alçapão fechado"
+msgstr "Fechada em $pos"
 
 #
 msgid "Empty variable name"
@@ -7411,14 +7374,11 @@ msgstr "Caracteres inesperados após o nome da variável (esperado , ou =)"
 msgid "Unterminated quoted string"
 msgstr "Texto entre aspas não terminado"
 
-#
 msgid "at $pos"
-msgstr ""
+msgstr "situando-se em $pos"
 
-#
-#, fuzzy
 msgid "Value: '$value' Previous: '$previous_value'"
-msgstr "$error, value '$value', antes '$previous_value' em $pos"
+msgstr "Valor: '$value' Antes: '$previous_value'"
 
 #
 msgid "prefix_milli^m"
