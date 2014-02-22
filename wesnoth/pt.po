@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
-"Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
-"POT-Creation-Date: 2014-02-16 13:54+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2014-02-22 14:39+0100\n"
 "PO-Revision-Date: 2014-02-21 \n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 "Country: PORTUGAL\n"
-
 #
 #. [advanced_preference]: type=combo
 #. Associated save_compression_short^ entries need to be as short as
@@ -26,92 +25,74 @@ msgstr ""
 #. much.
 msgid "Compress saved games"
 msgstr "Comprimir partidas guardadas"
-
 #
 #. [option]: type=combo
 msgid "save_compression^Gzip"
 msgstr "Gzip"
-
 #
 #. [option]: type=combo
 msgid "save_compression_short^gzip"
 msgstr "gzip"
-
 #
 #. [option]: type=combo
 msgid "save_compression_desc^Default compression, faster"
 msgstr "Compressão predefinida, mais rápida"
-
 #
 #. [option]: type=combo
 msgid "save_compression^Bzip2"
 msgstr "Bzip2"
-
 #
 #. [option]: type=combo
 msgid "save_compression_short^bzip2"
 msgstr "bzip2"
-
 #
 #. [option]: type=combo
 msgid "save_compression_desc^Best compression, slower"
 msgstr "Melhor compressão, porém mais lenta"
-
 #
 #. [option]: type=combo
 msgid "save_compression^No"
 msgstr "Nenhuma"
-
 #
 #. [option]: type=combo
 msgid "save_compression_short^no"
 msgstr "nenhuma"
-
 #
 #. [option]: type=combo
 msgid "save_compression_desc^Large plain text files"
 msgstr "Ficheiros de texto simples grandes"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Confirm deleting saves"
 msgstr "Confirmar eliminação da partida guardada"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Mouse scrolling"
 msgstr "Deslocamento com o rato"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Middle-click scrolling"
 msgstr "Deslocamento com o botão do meio do rato"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Keep scrolling when mouse leaves window"
 msgstr "Manter o deslocamento quando o rato deixa a janela"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Local time of day area lighting"
 msgstr "Hora Local do dia da iluminação da área"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Show titlescreen animation"
 msgstr "Mostrar Animação do Ecrã Principal"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Show combat"
 msgstr "Mostrar Combate"
-
 #
 #. [advanced_preference]: type=int
 msgid "Ping timeout"
 msgstr "Ping - tempo esgotado"
-
 #
 #. [advanced_preference]: type=int
 msgid ""
@@ -120,49 +101,40 @@ msgid ""
 msgstr ""
 "Número de segundos para aguardar a resposta do ping antes de o tempo "
 "esgotar. Defina para 0 para Desativar."
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Accept whispers from friends only"
 msgstr "Só aceitar sussurros de amigos"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Auto-open whisper windows in lobby"
 msgstr "Abrir automaticamente as janelas dos sussurros na Sala"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Group players in lobby"
 msgstr "Agrupar jogadores na Sala"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Lobby sounds"
 msgstr "Sons da Sala"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Disable notifications"
 msgstr "Desativar as notificações"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Reverse time graphics"
 msgstr "Gráficos do Tempo Invertidos"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Choose whether the sun moves left-to-right or right-to-left"
 msgstr ""
 "Escolha se o sol move-se no sentido esquerda para a direita ou da direita "
 "para a esquerda"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Follow unit actions"
 msgstr "Acompanhar Ações das Unidades"
-
 #
 #. [advanced_preference]: type=boolean
 msgid ""
@@ -171,12 +143,10 @@ msgid ""
 msgstr ""
 "Escolha se a visualização do mapa deverá deslocar-se até uma unidade quando "
 "uma ação ou movimento é animado"
-
 #
 #. [advanced_preference]: type=int
 msgid "Chat message aging"
 msgstr "Envelhecimento das mensagens instantâneas"
-
 #
 #. [advanced_preference]: type=int
 msgid ""
@@ -185,21 +155,18 @@ msgid ""
 msgstr ""
 "Minutos para aguardar antes de limpar as mensagens de chat do jogo. Defina 0 "
 "para desativar"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Use 12-hour clock format"
 msgstr "Utilizar formato do relógio - 12 horas"
-
+#
 #. [advanced_preference]: type=boolean
 msgid "Confirm loading saves from a different version"
 msgstr "Confirmar ao carregar uma partida gravada de uma versão diferente"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Show all unit types in help"
 msgstr "Mostra todos os tipos de unidade na ajuda"
-
 #
 #. [advanced_preference]: type=boolean
 msgid ""
@@ -208,12 +175,10 @@ msgid ""
 msgstr ""
 "Mostra todos os tipos de unidade (requer reinicio). Não afeta a lista de "
 "unidades encontradas"
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Experimental multiplayer lobby"
 msgstr "Sala de jogo em rede experimental"
-
 #
 #. [advanced_preference]: type=boolean
 msgid ""
@@ -221,12 +186,10 @@ msgid ""
 msgstr ""
 "Substitui a sala de jogo em rede clássica por uma nova, interface "
 "experimental."
-
 #
 #. [advanced_preference]: type=boolean
 msgid "Show color cursors"
 msgstr "Mostrar cursor colorido"
-
 #
 #. [advanced_preference]: type=boolean
 msgid ""
@@ -235,525 +198,423 @@ msgid ""
 msgstr ""
 "Usar cursores coloridos do rato, o que poderá ser mais lento e até "
 "interromper o jogo (use por sua conta e risco)"
-
+#
 #. [advanced_preference]: type=boolean
 msgid "Joystick support"
 msgstr "Suporte de joystick"
-
 #
 # a gamer more versatile in joysticks has to translate this...
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the scroll X-axis joystick"
 msgstr "Joystick: número de deslocamento do áxis X do joystick"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the scroll X-axis"
 msgstr "Joystick: número de deslocamento do áxis X"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the scroll Y-axis joystick"
 msgstr "Joystick: número de deslocamento do áxis Y do joystick"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the scroll Y-axis"
 msgstr "Joystick: número de deslocamento do áxis Y"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: deadzone of the scrolling stick"
 msgstr "Joystick: zona morta do deslocamento da alavanca do comando"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the cursor X-axis joystick"
 msgstr "Joystick: número do cursor do áxis X do joystick"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the cursor X-axis"
 msgstr "Joystick: número do cursor do áxis X"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the cursor Y-axis joystick"
 msgstr "Joystick: número do cursor do áxis Y do joystick"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the cursor Y-axis"
 msgstr "Joystick: número do cursor do áxis Y"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: deadzone of the cursor stick"
 msgstr "Joystick: zona morta do cursor da alavanca do comando"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the mouse X-axis joystick"
 msgstr "Joystick: número do rato do áxis X do joystick"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the mouse X-axis"
 msgstr "Joystick: número do rato do áxis X"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the mouse Y-axis joystick"
 msgstr "Joystick: número do rato do áxis Y do joystick"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the mouse Y-axis"
 msgstr "Joystick: número do rato do áxis Y"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: deadzone of the mouse stick"
 msgstr "Joystick: zona morta do rato da alavanca do comando"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the thrust axis joystick"
 msgstr "Joystick: número do impulso do áxis do joystick"
-
 #
 #. [advanced_preference]: type=int
 msgid "Joystick: number of the thrust axis"
 msgstr "Joystick: número do impulso do áxis"
-
+#
 #. [advanced_preference]: type=int
 msgid "Joystick: deadzone of the thruster"
 msgstr "Joystick: zona morta da impulsão"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #. [unstore_unit]
 msgid "poisoned"
 msgstr "envenenado"
-
 #
 #. [lua]: generate_objectives
 #. [objectives]
 msgid "Gold carryover:"
 msgstr "Ouro carregado:"
-
 #
 #. [lua]: generate_objectives
 #. [note]
 msgid "Notes:"
 msgstr "Notas:"
-
 #
 #. [about]
 msgid "Programming"
 msgstr "Programação"
-
 #
 #. [about]
 msgid "General Purpose Administration and Coordination"
 msgstr "Administração do Objetivo Geral e Coordenação"
-
 #
 #. [about]
 msgid "Artwork and Graphics"
 msgstr "Trabalho Artístico e Gráficos"
-
 #
 #. [about]
 msgid "Music"
 msgstr "Música"
-
 #
 #. [about]
 msgid "Sound Effects"
 msgstr "Efeitos Sonoros"
-
 #
 #. [about]
 msgid "Campaign Design"
 msgstr "Projeto da Campanha"
-
 #
 #. [about]
 msgid "Multiplayer Maps and Balancing"
 msgstr "Balanceamento e Mapas dos Jogos em Rede"
-
 #
 #. [about]
 msgid "Packagers"
 msgstr "Criadores de Pacotes"
-
 #
 #. [about]
 msgid "Miscellaneous Contributors"
 msgstr "Contribuidores Diversos"
-
 #
 #. [about]
 msgid "Internationalization Managers"
 msgstr "Gestores da Internacionalização"
-
 #
 #. [about]
 msgid "English strings edition"
 msgstr "Edição de textos em Inglês"
-
 #
 #. [about]
 msgid "Afrikaans Translation"
 msgstr "Tradução para Africânder"
-
 #
 #. [about]
 msgid "Arabic Translation"
 msgstr "Tradução para Árabe"
-
 #
 #. [about]
 msgid "Basque Translation"
 msgstr "Tradução para Basco"
-
 #
 #. [about]
 msgid "Bulgarian Translation"
 msgstr "Tradução para Búlgaro"
-
 #
 #. [about]
 msgid "Catalan Translation"
 msgstr "Tradução para Catalão"
-
 #
 #. [about]
 msgid "Chinese Translation"
 msgstr "Tradução para Chinês"
-
 #
 #. [about]
 msgid "Chinese (Taiwan) Translation"
 msgstr "Tradução para Chinês (Taiwan)"
-
 #
 #. [about]
 msgid "Croatian Translation"
 msgstr "Tradução para Croata"
-
 #
 #. [about]
 msgid "Czech Translation"
 msgstr "Tradução para Checo"
-
 #
 #. [about]
 msgid "Danish Translation"
 msgstr "Tradução para o Dinamarquês"
-
 #
 #. [about]
 msgid "Dutch Translation"
 msgstr "Tradução para o Holandês"
-
 #
 #. [about]
 msgid "English (GB) Translation"
 msgstr "Tradução para o Inglês Britânico"
-
 #
 #. [about]
 msgid "English (Shaw) Translation"
 msgstr "Tradução para o Inglês (Shaw)"
-
 #
 #. [about]
 msgid "Esperanto Translation"
 msgstr "Tradução para o Esperanto"
-
 #
 #. [about]
 msgid "Estonian Translation"
 msgstr "Tradução para o Estónio"
-
 #
 #. [about]
 msgid "Filipino Translation"
 msgstr "Tradução para o Filipino"
-
 #
 #. [about]
 msgid "Finnish Translation"
 msgstr "Tradução para o Finlandês"
-
 #
 #. [about]
 msgid "French Translation"
 msgstr "Tradução para o Francês"
-
 #
 #. [about]
 msgid "Friulian Translation"
 msgstr "Tradução para o Friuli"
-
 #
 #. [about]
 msgid "Galician Translation"
 msgstr "Tradução para o Galego"
-
 #
 #. [about]
 msgid "German Translation"
 msgstr "Tradução para o Alemão"
-
 #
 #. [about]
 msgid "Greek Translation"
 msgstr "Tradução para o Grego"
-
 #
 #. [about]
 msgid "Hebrew Translation"
 msgstr "Tradução para o Hebreu"
-
 #
 #. [about]
 msgid "Hungarian Translation"
 msgstr "Tradução para o Húngaro"
-
 #
 #. [about]
 msgid "Icelandic Translation"
 msgstr "Tradução para o Islandês"
-
 #
 #. [about]
 msgid "Indonesian Translation"
 msgstr "Tradução para o Indonésio"
-
 #
 #. [about]
 msgid "Irish Translation"
 msgstr "Tradução Irlandesa"
-
 #
 #. [about]
 msgid "Italian Translation"
 msgstr "Tradução para o Italiano"
-
 #
 #. [about]
 msgid "Japanese Translation"
 msgstr "Tradução para o Japonês"
-
 #
 #. [about]
 msgid "Korean Translation"
 msgstr "Tradução para o Coreano"
-
 #
 #. [about]
 msgid "Latin Translation"
 msgstr "Tradução para o Latim"
-
 #
 #. [about]
 msgid "Latvian Translation"
 msgstr "Tradução para o Letão"
-
 #
 #. [about]
 msgid "Lithuanian Translation"
 msgstr "Tradução para o Lituano"
-
 #
 #. [about]
 msgid "Macedonian Translation"
 msgstr "Tradução para o Macedónio"
-
 #
 #. [about]
 msgid "Marathi Translation"
 msgstr "Tradução para o Marathi"
-
 #
 #. [about]
 msgid "Norwegian Translation"
 msgstr "Tradução para o Norueguês"
-
 #
 #. [about]
 msgid "Old English Translation"
 msgstr "Tradução para o Inglês Antigo"
-
 #
 #. [about]
 msgid "Polish Translation"
 msgstr "Tradução para Polaco"
-
 #
 #. [about]
 msgid "Portuguese Translation"
 msgstr "Tradução para Português"
-
 #
 #. [about]
 msgid "Portuguese (Brazil) Translation"
 msgstr "Tradução para Português do Brasil"
-
 #
 #. [about]
 msgid "Romanian Translation"
 msgstr "Tradução para Romeno"
-
 #
 #. [about]
 msgid "Russian Translation"
 msgstr "Tradução para o Russo"
-
 #
 #. [about]
 msgid "Scottish Gaelic Translation"
 msgstr "Tradução para o Escocês Galaico"
-
 #
 #. [about]
 msgid "Serbian Translation"
 msgstr "Tradução para o Sérvio"
-
 #
 #. [about]
 msgid "Slovak Translation"
 msgstr "Tradução para o Eslovaco"
-
 #
 #. [about]
 msgid "Slovenian Translation"
 msgstr "Tradução para o Esloveno"
-
 #
 #. [about]
 msgid "Spanish Translation"
 msgstr "Tradução para o Espanhol"
-
 #
 #. [about]
 msgid "Swedish Translation"
 msgstr "Tradução para o Sueco"
-
 #
 #. [about]
 msgid "Turkish Translation"
 msgstr "Tradução para o Turco"
-
 #
 #. [about]
 msgid "Ukrainian Translation"
 msgstr "Tradução para o Ucraniano"
-
 #
 #. [about]
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Tradução para o Valenciano (Catalão do sul)"
-
 #
 #. [about]
 msgid "Vietnamese Translation"
 msgstr "Tradução para Vietnamita"
-
 #
 #. [about]
 msgid "RACV’s Translation"
 msgstr "Tradução para RACV"
-
 #
 #. [about]
 msgid "Bots"
 msgstr "Robots"
-
 #
 #. [item_group]: id=items
 msgid "Items"
 msgstr "Itens"
-
 #
 #. [item]: id=altar_evil
 msgid "Evil Altar"
 msgstr "Altar Maligno"
-
 #
 #. [item]: id=altar
 msgid "Altar"
 msgstr "Altar"
-
 #
 #. [item]: id=ankh-necklace
 msgid "Ankh Necklace"
 msgstr "Amuleto Sagrado"
-
 #
 #. [item]: id=anvil
 msgid "Anvil"
 msgstr "Bigorna"
-
 #
 #. [item]: id=archery-target
 msgid "Archery Target"
 msgstr "Tiro ao Alvo"
-
 #
 #. [item]: id=armor-golden
 msgid "Golden Armor"
 msgstr "Armadura Dourada"
-
 #
 #. [item]: id=armor
 msgid "Armor"
 msgstr "Armadura"
-
 #
 #. [item]: id=axe
 msgid "Axe"
 msgstr "Machado"
-
 #
 #. [item]: id=ball-blue
 msgid "Blue Ball"
 msgstr "Bola Azul"
-
 #
 #. [item]: id=ball-green
 msgid "Green Ball"
 msgstr "Bola Verde"
-
 #
 #. [item]: id=ball-magenta
 msgid "Magenta Ball"
 msgstr "Bola Vermelha"
-
 #
 #. [item]: id=barrel
 msgid "Barrel"
 msgstr "Barril"
-
 #
 #. [item]: id=bomb
 msgid "Bomb"
 msgstr "Bomba"
-
 #
 #. [item]: id=bones
 msgid "Bones"
 msgstr "Ossos"
-
 #
 #. [item]: id=bonestack
 msgid "Bonestack"
 msgstr "Pilha de Ossos"
-
 #
 #. [item]: id=book1
 #. [item]: id=book2
@@ -762,82 +623,66 @@ msgstr "Pilha de Ossos"
 #. [item]: id=book5
 msgid "Book"
 msgstr "Livro"
-
 #
 #. [item]: id=bow-crystal
 msgid "Crystal Bow"
 msgstr "Arco de cristal"
-
 #
 #. [item]: id=bow-elven
 msgid "Elven Bow"
 msgstr "Arco elfo"
-
 #
 #. [item]: id=bow
 msgid "Bow"
 msgstr "Arco"
-
 #
 #. [item]: id=box
 msgid "Box"
 msgstr "Caixa"
-
 #
 #. [item]: id=brazier
 msgid "Brazier"
 msgstr "braseiro"
-
 #
 #. [item]: id=buckler
 msgid "Buckler"
 msgstr "Escudo"
-
 #
 #. [item]: id=burial
 msgid "Burial"
 msgstr "Cerimónia Fúnebre"
-
 #
 #. [item]: id=cage
 msgid "Cage"
 msgstr "Gaiola"
-
 #
 #. [item]: id=chest-plain-closed
 msgid "Closed Plain Chest"
 msgstr "Baú Simples Fechado"
-
 #
 #. [item]: id=chest-plain-open
 msgid "Open Plain Chest"
 msgstr "Baú Simples Aberto"
-
 #
 #. [item]: id=chest
 msgid "Chest"
 msgstr "Baú"
-
 #
 #. [item]: id=cloak-green
 msgid "Green Cloak"
 msgstr "Manto Verde"
-
 #
 #. [item]: id=coffin-closed
 msgid "Closed Coffin"
 msgstr "Caixão Fechado"
-
 #
 #. [item]: id=dragonstatue
 msgid "Dragon Statue"
 msgstr "Estátua do Dragão"
-
 #
 #. [item]: id=flame-sword
 msgid "Flaming Sword"
 msgstr "Espada Flamejante"
-
 #
 #. [item]: id=flower1
 #. [item]: id=flower2
@@ -845,237 +690,191 @@ msgstr "Espada Flamejante"
 #. [item]: id=flower4
 msgid "Flower"
 msgstr "Flor"
-
 #
 #. [item]: id=gohere
 msgid "Go Here Overlay"
 msgstr "Sobreposição de Ir para Aqui"
-
 #
 #. [item]: id=gold-coins-large
 msgid "Large Pile of Gold Coins"
 msgstr "Grande Monte de Moedas de Ouro"
-
 #
 #. [item]: id=gold-coins-medium
 msgid "Pile of Gold Coins"
 msgstr "Monte de Moedas de Ouro"
-
 #
 #. [item]: id=gold-coins-small
 msgid "Small Pile of Gold Coins"
 msgstr "Pequeno Monte de Moedas de Ouro"
-
 #
 #. [item]: id=grain-sheaf
 msgid "Grain Sheaf"
 msgstr "Feixe Luminoso"
-
 #
 #. [item]: id=hammer-runic
 msgid "Runic Hammer"
 msgstr "Martelo Rúnico"
-
 #
 #. [item]: id=holly-water
 #. [object]
 msgid "Holy Water"
 msgstr "Água Benta"
-
 #
 #. [item]: id=key
 msgid "Key"
 msgstr "Chave"
-
 #
 #. [item]: id=leather-pack
 msgid "Leather Pack"
 msgstr "Capa de Pele"
-
 #
 #. [item]: id=orcish-flag
 msgid "Orcish Flag"
 msgstr "Bandeira orc"
-
 #
 #. [item]: id=ornate1
 #. [item]: id=ornate2
 msgid "Ornate"
 msgstr "Ornamento"
-
 #
 #. [item]: id=potion-blue
 msgid "Blue Potion"
 msgstr "Poção Azul"
-
 #
 #. [item]: id=potion-green
 msgid "Green Potion"
 msgstr "Poção Verde"
-
 #
 #. [item]: id=potion-gray
 msgid "Gray Potion"
 msgstr "Poção Cinzenta"
-
 #
 #. [item]: id=potion-poison
 #. [object]: id={ID}
 msgid "Poison"
 msgstr "Veneno"
-
 #
 #. [item]: id=potion-red
 msgid "Red Potion"
 msgstr "Poção Vermelha"
-
 #
 #. [item]: id=potion-yellow
 msgid "Yellow Potion"
 msgstr "Poção Dourada"
-
 #
 #. [item]: id=ring-brown
 msgid "Brown Ring"
 msgstr "Anel Castanho"
-
 #
 #. [item]: id=ring-gold
 msgid "Golden Ring"
 msgstr "Anel de Ouro"
-
 #
 #. [item]: id=ring-red
 msgid "Red Ring"
 msgstr "Anel Vermelho"
-
 #
 #. [item]: id=ring-silver
 msgid "Silver Ring"
 msgstr "Anel Prateado"
-
 #
 #. [item]: id=ring-white
 msgid "White Ring"
 msgstr "Anel Branco"
-
 #
 #. [item]: id=scarecrow
 msgid "Scarecrow"
 msgstr "Espantalho"
-
 #
 #. [item]: id=sceptre-of-fire
 msgid "Sceptre of Fire"
 msgstr "Ceptro de Fogo"
-
 #
 #. [item]: id=spear-fancy
 msgid "Fancy Spear"
 msgstr "Lança Pitoresca"
-
 #
 #. [item]: id=staff-magic
 msgid "Magic Staff"
 msgstr "Bastão Mágico"
-
 #
 #. [item]: id=staff
 msgid "Staff"
 msgstr "Bastão"
-
 #
 #. [item]: id=stone-tablet
 msgid "Stone Tablet"
 msgstr "Placa de Pedra"
-
 #
 #. [item]: id=storm-trident
 #. [object]
 msgid "Storm Trident"
 msgstr "Tridente da Tempestade"
-
 #
 #. [item]: id=straw-bale1
 #. [item]: id=straw-bale2
 msgid "Bale of Straw"
 msgstr "fardo de palha"
-
 #
 #. [item]: id=sword
 msgid "Sword"
 msgstr "Espada"
-
 #
 #. [item_group]: id=scenery
 msgid "Scenery"
 msgstr "Cenário"
-
 #
 #. [item]: id=castle-ruins
 msgid "Castle Ruins"
 msgstr "Castelo arruínado"
-
 #
 #. [item]: id=circle-magic-glow
 msgid "Glowing Magic Circle"
 msgstr "Circulo mágico efervescente"
-
 #
 #. [item]: id=circle-magic
 msgid "Magic Circle"
 msgstr "Circulo mágico"
-
 #
 #. [item]: id=dwarven-doors-closed
 msgid "Closed Dwarven Doors"
 msgstr "Portões dos anões fechados"
-
 #
 #. [item]: id=fire
 msgid "Campfire"
 msgstr "Fogueira"
-
 #
 #. [item]: id=flames
 msgid "Flames"
 msgstr "Chamas"
-
 #
 #. [item]: id=gate-rusty-se
 msgid "Rusty Gate South East"
 msgstr "Portão ferrugento sudeste"
-
 #
 #. [item]: id=gate-rusty-sw
 msgid "Rusty Gate South West"
 msgstr "Portão ferrugento sudoeste"
-
 #
 #. [item]: id=icepack1
 msgid "Ice Pack"
 msgstr "Bocados de gelo"
-
 #
 #. [item]: id=leanto
 msgid "Lean-to"
 msgstr "Alpendre"
-
 #
 #. [item]: id=lighthouse
 msgid "Lighthouse"
 msgstr "Farol"
-
 #
 #. [item]: id=mausoleum
 msgid "Mausoleum"
 msgstr "Mausoléu"
-
 #
 #. [item]: id=mine-abandoned
 msgid "Abandoned Mine"
 msgstr "Mina abandonada"
-
 #
 #. [item]: id=monolith1
 #. [item]: id=monolith2
@@ -1083,33 +882,27 @@ msgstr "Mina abandonada"
 #. [item]: id=monolith4
 msgid "Monolith"
 msgstr "Monólito"
-
 #
 #. [item]: id=nest-empty
 msgid "Empty Nest"
 msgstr "Ninho vazio"
-
 #
 #. [item]: id=nest-full
 msgid "Full Nest"
 msgstr "Ninho cheio"
-
 #
 #. [item]: id=oak-leaning
 msgid "Leaning Oak"
 msgstr "Carvalho tosco"
-
 #
 #. [item]: id=pine1
 #. [item]: id=pine2
 msgid "Pine Tree"
 msgstr "Pnheiro"
-
 #
 #. [item]: id=rock-cairn
 msgid "Rock Cairn"
 msgstr "Pilhar de pedra"
-
 #
 #. [item]: id=rock1
 #. [item]: id=rock2
@@ -1117,12 +910,10 @@ msgstr "Pilhar de pedra"
 #. [item]: id=rock4
 msgid "Rock"
 msgstr "Rocha"
-
 #
 #. [item]: id=rubble
 msgid "Rubble"
 msgstr "Destroços"
-
 #
 #. [item]: id=rune1
 #. [item]: id=rune2
@@ -1132,7 +923,6 @@ msgstr "Destroços"
 #. [item]: id=rune6
 msgid "Rune"
 msgstr "Runa"
-
 #
 #. [item]: id=rune1-glow
 #. [item]: id=rune2-glow
@@ -1142,33 +932,27 @@ msgstr "Runa"
 #. [item]: id=rune6-glow
 msgid "Glowing Rune"
 msgstr "Runa efervescente"
-
 #
 #. [item]: id=shipwreck
 #. [item]: id=wreck
 msgid "Shipwreck"
 msgstr "Navio naufragado"
-
 #
 #. [item]: id=signpost
 msgid "Signpost"
 msgstr "Poste de sinalização"
-
 #
 #. [item]: id=slab1
 msgid "Slab"
 msgstr "Laje"
-
 #
 #. [item]: id=snowbits
 msgid "Piles of Snow"
 msgstr "Manchas de neve"
-
 #
 #. [item]: id=summoning-center
 msgid "Summoning Center"
 msgstr "Centro de convocação"
-
 #
 #. [item]: id=summoning-circle1
 #. [item]: id=summoning-circle2
@@ -1178,42 +962,34 @@ msgstr "Centro de convocação"
 #. [item]: id=summoning-circle6
 msgid "Summoning Circle"
 msgstr "Circulo de convocação"
-
 #
 #. [item]: id=temple1
 msgid "Temple"
 msgstr "Templo"
-
 #
 #. [item]: id=tent-fancy-red
 msgid "Fancy Red Tent"
 msgstr "Tenda púrpura pitoresca"
-
 #
 #. [item]: id=tent-ruin-1
 msgid "Ruined Tent"
 msgstr "Tenda podre"
-
 #
 #. [item]: id=tent-shop-weapons
 msgid "Weapons Shop Tent"
 msgstr "Armeiro ambulante"
-
 #
 #. [item]: id=trapdoor-closed
 msgid "Closed Trapdoor"
 msgstr "Alçapão fechado"
-
 #
 #. [item]: id=trapdoor-open
 msgid "Open Trapdoor"
 msgstr "Alçapão aberto"
-
 #
 #. [item]: id=trash
 msgid "Trash Pile"
 msgstr "Lixeira"
-
 #
 #. [item]: id=village-human-burned1
 #. [item]: id=village-human-burned2
@@ -1221,34 +997,28 @@ msgstr "Lixeira"
 #. [item]: id=village-human-burned4
 msgid "Burned Human Village"
 msgstr "Aldeia humana queimada"
-
 #
 #. [item]: id=well
 msgid "Well"
 msgstr "Poço"
-
 #
 #. [item]: id=whirlpool
 msgid "Whirlpool"
 msgstr "Redemoinho"
-
 #
 #. [item]: id=windmill
 msgid "Windmill"
 msgstr "Moinho de Vento"
-
 #
 #. [set_menu_item]: id=ai_controller_unit_control_{UNIT_ID}
 msgid "Ask $ai_controller_unit.name to move here"
 msgstr "Pedir a $ai_controller_unit.name para se mover para aqui"
-
 #
 #. [set_menu_item]: id=ai_controller_leader_control_{CONTROLLED_SIDE}
 msgid "Ask $ally_leader.name (leader of side $ally_leader.side) to move here"
 msgstr ""
 "Pedir a $ally_leader.name (líder do lado $ally_leader.side) para se mover "
 "para aqui"
-
 #
 #. [note]
 msgid ""
@@ -1257,14 +1027,12 @@ msgid ""
 msgstr ""
 "Neste cenário, poderá dar introduções a um aliado, com o botão direito do "
 "rato numa unidade deste."
-
 #
 #. [literal]
 #. [overview_message_has_instructions]: speaker=narrator
 #. [overview_message_no_instructions]: speaker=narrator
 msgid "Instruct ally"
 msgstr "Instruir aliado"
-
 #
 #. [overview_message_has_instructions]: speaker=narrator
 msgid ""
@@ -1272,7 +1040,6 @@ msgid ""
 "instructions:"
 msgstr ""
 "O $ally_leader.name (lado $ally_side|) está a seguir as seguintes instruções:"
-
 #
 #. [overview_message_no_instructions]: speaker=narrator
 msgid ""
@@ -1281,32 +1048,26 @@ msgid ""
 msgstr ""
 "O $ally_leader.name (lado $ally_side|) não recebeu nenhuma instrução e está "
 "a agir normalmente."
-
 #
 #. [aggression]
 msgid "Be more aggressive"
 msgstr "Seja mais agressivo"
-
 #
 #. [aggression]
 msgid "aggressive."
 msgstr "agressivo."
-
 #
 #. [caution]
 msgid "Be more defensive"
 msgstr "Seja mais defensivo"
-
 #
 #. [caution]
 msgid "defensive."
 msgstr "defensivo."
-
 #
 #. [focus_on_enemy]
 msgid "Focus on defeating..."
 msgstr "Concentra-te em derrotar ..."
-
 #
 #. [focus_on_enemy]
 msgid ""
@@ -1315,32 +1076,28 @@ msgid ""
 msgstr ""
 "foca-te em derrotar $ai_controller.side_$ally_side|_current_settings."
 "focus_on_enemy.side_description|."
-
+#
 #. [else]
 #. [then]
 msgid "Side $temp_i"
 msgstr "Equipa $temp_i"
-
 #
 #. [else]
 msgid "side $temp_i"
 msgstr "side $temp_i"
-
+#
 #. [command]
 msgid "side $temp_i ($side_i_leader.name|)"
 msgstr "Equipa $temp_i ($side_i_leader.name|)"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [value]
 msgid "Back"
 msgstr "Retroceder"
-
 #
 #. [protect]
 msgid "Focus on protecting..."
 msgstr "Foco na protecção..."
-
 #
 #. [protect]
 msgid ""
@@ -1349,54 +1106,44 @@ msgid ""
 msgstr ""
 "foca-te em proteger $ai_controller.side_$ally_side|_current_settings.protect."
 "side_description|."
-
 #
 #. [option]: type=objective
 msgid "Defend a location..."
 msgstr "Defenda um local..."
-
 #
 #. [print]
 msgid "Right-click to select a location to defend"
 msgstr "Botão direito para seleccionar um local para defender"
-
 #
 #. [set_menu_item]: id=ai_controller_defend_location_picker
 msgid "Defend this location"
 msgstr "Defenda este local"
-
 #
 #. [command]
 msgid "focusing on defending the area around $x1|,$y1|."
 msgstr "foco em defender a área ao redor $x1|,$y1|."
-
 #
 #. [print]
 msgid "Location selection canceled"
 msgstr "Selecção do local cancelada"
-
 #
 #. [revoke_objective_orders]
 msgid "Clear objective orders"
 msgstr "Limpar ordens de objectivo"
-
 #
 #. [revoke_behavior_orders]
 #. [revoke_objective_orders]
 #. [then]
 msgid "none set."
 msgstr "nada."
-
 #
 #. [revoke_behavior_orders]
 msgid "Clear behavior orders"
 msgstr "Limpar ordens de comportamento"
-
 #
 #. [revoke_all_orders]
 msgid "Clear all orders"
 msgstr "Limpa todas as ordens"
-
 #
 #. [do]
 msgid ""
@@ -1409,46 +1156,36 @@ msgstr ""
 "currently_doing_objective_description\n"
 "Comportamento: $ai_controller.side_$ally_side|_current_settings."
 "currently_doing_behaviour_description"
-
 #
 #. [literal]
 msgid "Set objective..."
 msgstr "Definir objectivo..."
-
 #
 #. [literal]
 msgid "Set behavior..."
 msgstr "Definir atitude..."
-
 #
 #. [literal]
 msgid "Exit"
 msgstr "Sair"
-
 #
 msgid "Set special orders..."
 msgstr "Defina ordens especiais..."
-
 #
 msgid "Move leader to..."
 msgstr "Mover líder para..."
-
 #
 msgid "Right-click to select a location to move leader to"
 msgstr "Clique com o direito para seleccionar um local e mover o líder até lá"
-
 #
 msgid "Move leader here"
 msgstr "Mova o líder aqui"
-
 #
 msgid "moving leader to $x1|,$y1|."
 msgstr "a mover líder para $x1|,$y1|."
-
 #
 msgid "Clear special orders"
 msgstr "Limpar as ordens especiais"
-
 #
 msgid ""
 "Special: $ai_controller.side_$ally_side|_current_settings."
@@ -1456,17 +1193,14 @@ msgid ""
 msgstr ""
 "Especial: $ai_controller.side_$ally_side|_current_settings."
 "currently_doing_special_description"
-
 #
 #. [message]: speaker=narrator
 msgid "You have come across a wishing well. What would you like to wish for?"
 msgstr "Encontraste um poço dos desejos. O que gostarias de pedir?"
-
 #
 #. [option]: speaker=narrator
 msgid "A swift victory"
 msgstr "Uma rápida vitória"
-
 #
 #. [message]: speaker=unit
 msgid ""
@@ -1475,52 +1209,42 @@ msgid ""
 msgstr ""
 "Com esta moeda dourada, desejo que esta batalha acabe numa rápida e segura "
 "vitória."
-
 #
 #. [option]: speaker=narrator
 msgid "Lots of gold"
 msgstr "Um monte de ouro"
-
 #
 #. [message]: speaker=unit
 msgid "I wish this single gold coin be returned ten-fold to me."
 msgstr "Desejo que esta única moeda de ouro traga uma montanha em retorno."
-
 #
 #. [option]: speaker=narrator
 msgid "Peace throughout Wesnoth."
 msgstr "Paz em todo o reino de Wesnoth."
-
 #
 #. [message]: speaker=unit
 msgid "The only thing worth wishing for is peace throughout the land."
 msgstr "A única coisa que vale a pena pedir é paz pelo país todo."
-
 #
 #. [option]: speaker=narrator
 msgid "Don’t make a wish."
 msgstr "Não pedir nada."
-
 #
 #. [object]: id={ID}
 msgid "Potion of Healing"
 msgstr "Poção de Cura"
-
 #
 #. [object]: id={ID}
 msgid "A feeling of well-being overwhelms the drinker."
 msgstr "Uma sensação boa atravessa o usuário da poção."
-
 #
 #. [object]: id={ID}
 msgid "You are not worthy of healing."
 msgstr "Não mereces ser curado."
-
 #
 #. [object]: id={ID}
 msgid "Poison is seeping through the veins of this unit at this very moment."
 msgstr "Veneno invade as veias desta unidade neste mesmo momento."
-
 #
 msgid ""
 "Sprinkling this water on melee weapons grants them the <i>arcane</i> damage "
@@ -1528,19 +1252,15 @@ msgid ""
 msgstr ""
 "Esta água fará com que as armas de curto-alcance sejam do tipo <i>arcano</i> "
 "até o fim do corrente cenário. Deve $unit.name usar-a?"
-
 #
 msgid "holy water^Take it"
 msgstr "Leva-a"
-
 #
 msgid "holy water^Leave it"
 msgstr "Deixa-a"
-
 #
 msgid "I am not suited to the use of this item! Let another take it."
 msgstr "Não sou capaz de usar este item! Deixa outro usá-lo."
-
 #
 #. [object]
 msgid ""
@@ -1549,93 +1269,74 @@ msgid ""
 msgstr ""
 "Esta água fará com que as armas de curto-alcance sejam do tipo <i>arcano</i> "
 "até o fim do corrente cenário."
-
 #
 #. [object]: id={ID}
 msgid "Potion of Strength"
 msgstr "Poção de Força"
-
 #
 #. [object]: id={ID}
 msgid "Strength is given to the drinker."
 msgstr "O usuário recebe grande força."
-
 #
 #. [object]: id={ID}
 msgid "Potion of Decay"
 msgstr "Poção da Decadência"
-
 #
 #. [object]: id={ID}
 msgid "This poor unit drank something really bad."
 msgstr "Esta pobre unidade bebeu algo muito ruim."
-
 #
 #. [object]: id={ID}
 msgid "Ring of Regeneration"
 msgstr "Anel de Regeneração"
-
 #
 #. [object]: id={ID}
 msgid "This ring will heal the bearer a little each turn."
 msgstr "Este anel curará um pouco o usuário."
-
 #
 #. [object]: id={ID}
 msgid "Ring of Slowness"
 msgstr "Anel da Lentidão"
-
 #
 #. [object]: id={ID}
 msgid "The bearer of this ring is slowed."
 msgstr "O usuário deste anel fica atrasado."
-
 #
 #. [object]: id={ID}
 msgid "Staff of Swiftness"
 msgstr "Bastão da Velocidade"
-
 #
 #. [object]: id={ID}
 msgid "This staff will grant the bearer swift movement."
 msgstr "Este bastão dará ao usuário movimentos velozes."
-
 #
 #. [object]: id={ID}
 msgid "Only magical beings can wield such an object."
 msgstr "Só seres mágicos podem vestir tal objecto."
-
 #
 msgid "Only the mermen can use this item!"
 msgstr "Só um aquático pode usar este item!"
-
 #
 msgid "Should $unit.name pick up the trident?"
 msgstr "Deve $unit.name recolher o tridente?"
-
 #
 msgid "storm trident^Leave it"
 msgstr "Deixa-o"
-
 #
 msgid "storm trident^Take it"
 msgstr "Leva-o"
-
 #
 #. [object]
 msgid "This trident allows a merman to shoot electric bolts at his enemies!"
 msgstr "Este tridente permite a um aquático lançar raios aos seus inimigos!"
-
 #
 #. [effect]: type=fire
 msgid "storm trident"
 msgstr "tridente da tempestade"
-
 #
 #. [effect]: type=fire
 msgid "sceptre of fire"
 msgstr "ceptro do fogo"
-
 #
 msgid ""
 "Egar,Elch,Ga’ash,Gadé Ihn,Gakré Ohm,Galeck,Galsh,Garadin,Garchin,Gark,Garlan,"
@@ -1657,7 +1358,6 @@ msgstr ""
 "Mar’Ildian,Markan,Markinos,Mar Ohn,Marra Di’lek,Marrito,Marritos,Merkush,"
 "Merritos Gark,Morusté,Murr,Omataké,Reshan,Vashitt,Velnick,Veralon,Veramo,"
 "Verath,Verditt,Verkon,Verlinn,Vermad,Vertick,Vladnir"
-
 #
 msgid ""
 "Alen Ka,Alinash Mal,Ashirt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,"
@@ -1667,7 +1367,6 @@ msgstr ""
 "Alen Ka,Alinash Mal,Ashirt,Auginet Ka,Auuglann,Damell,Dell,Demla,Dinsill,"
 "Eshi,Olath,Omage,Omagrra,Orra Ka,Orridan,Orrida,Oshibi,Vallin,Valnirra,"
 "Valnitt,Velisk,Verra,Vellin Ka,Veshtar,Vushtin"
-
 #
 msgid ""
 "Aigaithas,Aigaithil,Aigaithing,Aigaithol,Aigalas,Aigaling,Aigalis,Aigalol,"
@@ -1757,7 +1456,6 @@ msgstr ""
 "Trithdril,Trithdring,Trithdris,Trithdrlos,Trithdrol,Trithdrsol,Trithdrus,"
 "Trithduril,Trithduring,Trithdurlos,Trithdurol,Trithdursil,Trithdurus,"
 "Triththaas,Triththail,Triththaing,Triththasol,Triththaus"
-
 #
 msgid ""
 "Amadrieriand,Amáril,Amelad,Ameldor,Amendel,Ameng,Amilmaldur,Amilmalith,"
@@ -1875,7 +1573,6 @@ msgstr ""
 "Urambor,Urér,Uril-Gambor,Urilmalith,Uróldor,Urorfildor,Urul,Urymir,Válad,Ván,"
 "Vándel,Vandir,Varalas,Vararion,Vebril,Vebrilas,Vebrinduil,Vel,Vilith,Vol,"
 "Vólas,Vóldur,Vondel,Vorfin,Vorfindil,Vulas,Vuldur,Vunduil,Vylas,Vyldor"
-
 #
 msgid ""
 "Amadrielia,Amadrielindë,Amadriendra,Amadriewen,Amarang,Amebrilindë,Amedë,"
@@ -2007,15 +1704,12 @@ msgstr ""
 "Vadrieviel,Vadriewen,Varawiel,Vebrithien,Vil-Gandra,Violindë,Viowiel,"
 "Vithrang,Vithraniel,Viwiel,Vódia,Vóng,Vorficlya,Vorfing,Vorfirith,Vorfiwiel,"
 "Vówien"
-
 #
 msgid "Graa,Greaa,Gree,Kaaa,Kassshh,Kessshh,Korro,Kraa,Kuu,Kzaaa,Kzuuu"
 msgstr "Graa,Greaa,Gree,Kaaa,Kassshh,Kessshh,Korro,Kraa,Kuu,Kzaaa,Kzuuu"
-
 #
 msgid "Kaasa,Kayya,Keyya,Kiira,Korra"
 msgstr "Kaasa,Kayya,Keyya,Kiira,Korra"
-
 #
 msgid ""
 "Addraecyn,Addraenvan,Addraer,Addraercyn,Addraryn,Addreddry,Addredry,"
@@ -2113,7 +1807,6 @@ msgstr ""
 "Vyrcyn,Yracyn,Yraec,Yran,Yrannyn,Yranvan,Yraryn,Yredd,Yreddyn,Yregwyn,Yreryn,"
 "Yrinvan,Yrirraent,Yroddry,Yrullyn,Yrumyr,Yrunnyn,Yrunvan,Yryllyn,Yrymyr,"
 "Yrynyc,Yryrcyn"
-
 #
 msgid ""
 "Alabrylla,Alaebrylla,Alaeniver,Alalla,Alalonna,Alaryan,Aleacla,Aleaniver,"
@@ -2207,7 +1900,6 @@ msgstr ""
 "Sylyan,Syssa,Ysacla,Ysaenoic,Ysaerka,Ysanoic,Yseacla,Ysealonna,Ysealyan,"
 "Ysedda,Ysell,Yselonna,Ysilyan,Ysinoic,Ysodda,Ysongwen,Ysonoic,Ysura,Yswniver,"
 "Ysycla,Ysylla,Ysylyan,Ysyrka,Ysyssa"
-
 #
 msgid ""
 "Aban,Abbas,Abbud,Abdul-ʿAdl,Abdul-Ahad,Abdul-Alim,Abdul-Aliyy,Abdul-Azim,"
@@ -2359,7 +2051,6 @@ msgstr ""
 "Wazir,Yahya,Yaman,Yaʿqub,Yasar,Yasin,Yasir,Yazan,Yazid,Yunus,Yushua,Yusri,"
 "Yusuf,Zafar,Zafir,Zahid,Zahir,Zayd,Zaim,Zayn,Zarif,Zakarriya,Zaki,Zakwan,"
 "Ziyad,Zubayr,Zuhayr"
-
 #
 msgid ""
 "Amprixta,Anexir,Anitraz,Arix,Axiz,Bzz’Kza,Chamil,Cleezi,Clezz,Fazzis,"
@@ -2383,7 +2074,6 @@ msgstr ""
 "Tarex,Tarnix,Tezzaz,Tirasch,Tirax,Tirix,Trezz,Venezz,Vriss,Waks,Xaffrasz,"
 "Xartrez,Xasz,Xaztex,Xerxix,Xirasz,Xirr,Xirtras,Xirtrez,Xirz,Zandler,Zedrix,"
 "Zilrix,Zizzasz,Zslap,Zzalkz,Zzupde"
-
 #
 msgid ""
 "Absu,Abzu,Aigaion,Alastyn,Apalala,Apam,Apsu,Aremata,Atlahua,Atlaua,Barinthus,"
@@ -2401,7 +2091,6 @@ msgstr ""
 "Popoa,Poseidon,Proteus,Raja,Rau,Rorua,Ryujin,Scylla,Sinilau,Sisiutl,Tagaloa,"
 "Tanaoa,Tangaloa,Tangaroa,Thaumas,Tikitiki,Tini,Tinilau,Tinirau,Toniwha,"
 "Triton,Vizi,Vodnik,Vourukasa"
-
 #
 msgid ""
 "Aglaopheme,Amphitrite,Aphrodite,Ariel,Atargatis,Calypso,Delphine,Derceto,"
@@ -2413,7 +2102,6 @@ msgstr ""
 "Diktynna,Electra,Galatea,Himeropa,Jengu,Leucosia,Ligia,Lori Lamaris,Mama "
 "Wata,Marina,Miranda,Miriam,Molpe,Parthenope,Pelagia,Pisinoe,Rân,Sedna,Stella "
 "Maris,Thelxiepia,Tirgata,Vatea,Ved-Ava,Veen emo,Vete-ema"
-
 #
 msgid ""
 "Abraxas,Aleiss,Amail,Axmail,Blanal,Bleii,Blo,Bress,Briss,Gaxmol,Griam,Griss,"
@@ -2429,7 +2117,6 @@ msgstr ""
 "Mileii,Nildloss,Oxpeii,Poniaz,Psell,Pson,Pzakp,Reii,Sassal,Saxil,Saxrireii,"
 "Sekol,Silas,Skell,Skepz,Slell,Snol,Soill,Sorkol,Srell,Trixoz,Vilail,Vissal,"
 "Vlanis,Xabrak,Xamalel,Xinas,Xnamos,Xopkon,Zalsp,Zlek,Zpsek,Zsekp"
-
 #
 msgid ""
 "Aliasse,Amailis,Axmailia,Blai,Blanalai,Bli,Bliana,Brassas,Brissal,Gaxmail,"
@@ -2447,7 +2134,6 @@ msgstr ""
 "Saxiala,Saxririaa,Sek,Skal,Skepz,Sla,Snelia,Srak,Sral,Szak,Trixzed,Vilaila,"
 "Vissalai,Vlanissa,Xabrak,Xamalia,Xina,Xinasia,Xnamas,Xopkne,Zalsp,Zlek,Zpsek,"
 "Zsekp"
-
 #
 msgid ""
 "Akoark,Akort,Akzalk,Arkarm,Barkuk,Blokkar,Borkuk,Bukkak,Bulruk,Corkkar,"
@@ -2463,7 +2149,6 @@ msgstr ""
 "Korgnak,Kork,Koruck,Kramak,Krog,Krukrak,Krumuk,Kuknuk,Kurkur,Kurmak,Makron,"
 "Markaak,Markuk,Merknik,Nargak,Olk,Orkut,Reknak,Takolak,Trabuk,Trakkon,Urkar,"
 "Urkark"
-
 #
 msgid ""
 "Badush,Bagar,Bagdish,Barag,Barbag,Bart,Bashnak,Bidish,Bidush,Bik,Bilg,Bilo,"
@@ -2531,7 +2216,6 @@ msgstr ""
 "Vridish,Vrigor,Vrik,Vrinak,Vring,Vrirt,Vrishnak,Vriurk,Vrodash,Vrodish,"
 "Vrogar,Vrogor,Vrolo,Vrong,Vrorg,Vrork,Vrudish,Vrugdush,Vrulg,Vrung,Vruol,"
 "Vrurg,Vrurt,Vruurk,Vudish,Vuk,Vulg,Vulo,Vunak,Vurag,Vurbag,Vurg,Vushnak"
-
 #
 msgid ""
 "Äg,Agh,Bog Äh,Borb,Brag,Brag Goh,Brok,Dak,Drog,Frok,Ga,Gah,Gark,Gnarf,Grar,"
@@ -2543,7 +2227,6 @@ msgstr ""
 "Grokk,Grumph,Gulk,Hak,Hask,Hoth,Hug Bah,Hu Kah,Kak,Krak,Krug,Kub,Kuh,Lok,Luk,"
 "Nak,Nuk Kar,Pag,Reck,Rok,Ruk,Sark,Shak,Shuf,Stuh,Targ,Thog,Thruf,Thur,Tohg,"
 "Torg,Trok,Tsok,Tuh,Tuk Ruh,Ugg,Üh,Urg,Urgh,Urk,Vak,Zog,Zuug"
-
 #
 msgid ""
 "Bludebalmen,Boladrumbadrum,Bolwuldelman,Bombempomgontor,Bomtanbomkenton,"
@@ -2571,7 +2254,6 @@ msgstr ""
 "Pambedrumne,Pomtamkomtrobum,Rithramcamhan,Tantondernintan,Temtundembenn,"
 "Temtunnongetem,Tondenkontenkon,Troombadoom,Tumtentantarun,Tumtonnongatum,"
 "Tumtumgamtomtom,Wonrunmaldin,Wudadoonopl"
-
 #
 msgid ""
 "Bal,Cam,Corn,Del,Earl,El,Fox,Fren,Gel,Hel,Hex,Hol,Hox,Il,Kin,Nam,Nes,New,Ol,"
@@ -2580,35 +2262,28 @@ msgstr ""
 "Novo,Velho,Santo,Nor,Sul,Sal,Lin,Tauro,Lobo,Mor,Rei,Par,Bruxo,Ogre,Mal,Bom,"
 "Elfo,Luz,Urso,Água,Mar,Dor,Baixo,Cima,Rato,Curar,Ira,Ar,Vau,Hex,Del,Bal,Gel,"
 "Rur"
-
 #
 #. [objective]: condition=lose
 msgid "Turns run out"
 msgstr "Fim dos turnos"
-
 #
 #. [lua]: generate_objectives
 msgid "Early finish bonus."
 msgstr "Bónus por fim prematuro."
-
 #
 #. [lua]: generate_objectives
 msgid "No early finish bonus."
 msgstr "Sem bónus por fim prematuro."
-
 #
 msgid "<small>(early finish bonus)</small>"
 msgstr "<small>(bónus por fim prematuro)</small>"
-
 #
 msgid "(early finish bonus)"
 msgstr "(Bónus por fim prematuro)"
-
 #
 #. [lua]: generate_objectives
 msgid "No gold carried over to the next scenario."
 msgstr "Nenhum ouro será transferido ao próximo cenário."
-
 #
 msgid ""
 "\n"
@@ -2616,7 +2291,6 @@ msgid ""
 msgstr ""
 "\n"
 "100% do ouro final será transferido ao próximo cenário."
-
 #
 msgid ""
 "\n"
@@ -2624,7 +2298,6 @@ msgid ""
 msgstr ""
 "\n"
 "40% do ouro final será transferido ao próximo cenário."
-
 #
 msgid ""
 "\n"
@@ -2632,20 +2305,16 @@ msgid ""
 msgstr ""
 "\n"
 "20% do ouro final será transferido ao próximo cenário."
-
 #
 msgid "Alternative objective:"
 msgstr "Objectivo alternativo:"
-
 #
 msgid "Bonus objective:"
 msgstr "Objectivo bónus:"
-
 #
 #. [note]: description=<b>
 msgid "This is the last scenario."
 msgstr "Este é o último cenário."
-
 #
 #. [message]: speaker=narrator
 msgid ""
@@ -2654,220 +2323,179 @@ msgid ""
 msgstr ""
 "O computador não será capaz de jogar adequadamente o lado $side_number neste "
 "cenário. O lado $side_number foi feito para ser jogado por um jogador humano."
-
 #
 #. [message]: speaker=narrator
 msgid "You retrieve $amount_gold pieces of gold."
 msgstr "Apanhaste $amount_gold peças de ouro."
-
 #
 #. [color_range]: id=1
 #. [color_range]: id=red
 msgid "Red"
 msgstr "Vermelho"
-
 #
 #. [color_range]: id=lightred
 msgid "Light Red"
 msgstr "Vermelho Claro"
-
 #
 #. [color_range]: id=darkred
 msgid "Dark Red"
 msgstr "Vermelho Escuro"
-
 #
 #. [color_range]: id=2
 #. [color_range]: id=blue
 msgid "Blue"
 msgstr "Azul"
-
 #
 #. [color_range]: id=lightblue
 msgid "Light blue"
 msgstr "Azul Claro"
-
 #
 #. [color_range]: id=3
 #. [color_range]: id=green
 msgid "Green"
 msgstr "Verde"
-
 #
 #. [color_range]: id=brightgreen
 msgid "Bright green"
 msgstr "Verde claro"
-
 #
 #. [color_range]: id=4
 #. [color_range]: id=purple
 msgid "Purple"
 msgstr "Roxo"
-
 #
 #. [color_range]: id=5
 #. [color_range]: id=black
 msgid "Black"
 msgstr "Preto"
-
 #
 #. [color_range]: id=6
 #. [color_range]: id=brown
 msgid "Brown"
 msgstr "Castanho"
-
 #
 #. [color_range]: id=7
 #. [color_range]: id=orange
 msgid "Orange"
 msgstr "Laranja"
-
 #
 #. [color_range]: id=brightorange
 msgid "Bright orange"
 msgstr "Laranja claro"
-
 #
 #. [color_range]: id=8
 #. [color_range]: id=white
 msgid "White"
 msgstr "Branco"
-
 #
 #. [color_range]: id=9
 #. [color_range]: id=teal
 msgid "Teal"
 msgstr "Anil"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=gold
 msgid "Gold"
 msgstr "Ouro"
-
 #
 #. [color_range]: id=reef
 msgid "Reef"
 msgstr "Recife Costeiro"
-
 #
 #. [color_range]: id=shallow_water
 msgid "Shallow water"
 msgstr "Águas Rasas"
-
 #
 #. [color_range]: id=deep_water
 msgid "Deep water"
 msgstr "Águas Profundas"
-
 #
 #. [color_range]: id=swamp_water
 msgid "Swamp water"
 msgstr "Pântano"
-
 #
 #. [color_range]: id=flat
 msgid "Flat"
 msgstr "Plano"
-
 #
 #. [color_range]: id=hills
 msgid "Hills"
 msgstr "Colinas"
-
 #
 #. [color_range]: id=mountains
 msgid "Mountains"
 msgstr "Montanhas"
-
 #
 #. [color_range]: id=forest
 msgid "Forest"
 msgstr "Floresta"
-
 #
 #. [color_range]: id=sand
 msgid "Sand"
 msgstr "Areia"
-
 #
 #. [color_range]: id=frozen
 msgid "Frozen"
 msgstr "Congelado"
-
 #
 #. [color_range]: id=cave
 msgid "Cave"
 msgstr "Caverna"
-
 #
 #. [color_range]: id=fungus
 msgid "Fungus"
 msgstr "Floresta de Cogumelos"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=village
 msgid "Village"
 msgstr "Aldeia"
-
 #
 #. [color_range]: id=castle
 msgid "Castle"
 msgstr "Castelo"
-
 #
 #. [color_range]: id=keep
 msgid "Keep"
 msgstr "Fortaleza"
-
 #
 #. [color_range]: id=rails
 msgid "Rail"
 msgstr "mina ferroviária"
-
 #
 #. [color_range]: id=unwalkable
 msgid "Unwalkable"
 msgstr "Desfiladeiro"
-
 #
 #. [color_range]: id=impassable
 msgid "Impassable"
 msgstr "Impassível"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=fog
 msgid "Fog"
 msgstr "Nevoeiro"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=shroud
 msgid "Shroud"
 msgstr "Sombra"
-
 #
 #. [language]
 msgid "Easy"
 msgstr "Fácil"
-
 #
 #. [language]
 msgid "Medium"
 msgstr "Médio"
-
 #
 #. [language]
 msgid "Hard"
 msgstr "Difícil"
-
 #
 #. [language]
 msgid "Nightmare"
 msgstr "Pesadelo"
-
 #
 #. [language]
 msgid ""
@@ -2880,7 +2508,6 @@ msgstr ""
 "\n"
 "Dia: +25% de Dano\n"
 "Noite:—25% de Dano"
-
 #
 #. [language]
 msgid ""
@@ -2889,7 +2516,6 @@ msgid ""
 msgstr ""
 "Unidades neutras não são afectadas pelo dia e noite, lutando de forma igual "
 "em ambas as situações."
-
 #
 #. [language]
 msgid ""
@@ -2902,7 +2528,6 @@ msgstr ""
 "\n"
 "Dia:—25% de Dano\n"
 "Noite: +25% de Dano"
-
 #
 #. [language]
 msgid ""
@@ -2915,52 +2540,42 @@ msgstr ""
 "\n"
 "Dia:—25% de Dano\n"
 "Noite:—25% de Dano"
-
 #
 #. [language]
 msgid "$name|’s Bridge,$name|’s Crossing"
 msgstr "Ponte de $name,Encruzilhada de $name"
-
 #
 #. [language]
 msgid "$name|’s Highway,$name|’s Pass,Path of $name"
 msgstr "Estrada do $name,Passagem do $name,Caminho do $name"
-
 #
 #. [language]
 msgid "$name River,River $name"
 msgstr "$name da Ribeira,Rio $name"
-
 #
 #. [language]
 msgid "$name Forest,$name|’s Forest"
 msgstr "Floresta de $name,$name do Mato"
-
 #
 #. [language]
 msgid "$name Lake"
 msgstr "Lago $name"
-
 #
 #. [language]
 msgid "$name|’s Peak,Mount $name"
 msgstr "Serra de $name,$name do monte"
-
 #
 #. [language]
 msgid "$name|’s Swamp,$name|marsh,$name|fen"
 msgstr "Pântano de $name|,$name| do pântano,$name|sa"
-
 #
 #. [language]
 msgid "$name|bury,$name|ham,$name|ton,$name|bury"
 msgstr "$name|burgo, $name|lândia,$name|ópolis,Santo $name"
-
 #
 #. [language]
 msgid "$name|harbor,$name|port,$lake|port,$lake|harbor"
 msgstr "Porto $name,$name|porto,$lake|porto, Porto $lake"
-
 #
 #. [language]
 msgid ""
@@ -2968,7 +2583,6 @@ msgid ""
 msgstr ""
 "$name|lândia,Forde $name,Encruzilhada $name,Vau $river,Passagem do $river,"
 "$name do rio"
-
 #
 #. [language]
 msgid ""
@@ -2977,12 +2591,10 @@ msgid ""
 msgstr ""
 "Ponte do $river,Ponte da $river,Ponte de $river,$name|lândia,$name da ponte,"
 "$bridge|lândia,$bridge|ópolis"
-
 #
 #. [language]
 msgid "$name|ham,$name|ton,$name|field"
 msgstr "$name|lândia,$name|ópolis,$name|ville"
-
 #
 #. [language]
 msgid ""
@@ -2991,17 +2603,14 @@ msgid ""
 msgstr ""
 "$name|lândia,$name|ópolis,Bosque do $name,Floresta do $name,$forest da "
 "floresta,$forest dos bosques,$forest|s"
-
 #
 #. [language]
 msgid "$name|ham,$name|bury,$name|ton,$name|hill,$name|crest"
 msgstr "$name|lândia, $name|burgo,$name|ópolis,$name|lina,$name do Alto"
-
 #
 #. [language]
 msgid "$mountain|mont,$mountain|cliff,$mountain|bury,$mountain|ham"
 msgstr "$mountain do Monte,$mountain da Serra,$mountain|burgo,$mountain|lândia"
-
 #
 #. [language]
 msgid ""
@@ -3009,7 +2618,6 @@ msgid ""
 msgstr ""
 "$name|lândia, $name|burgo,$name|ópolis,$name|lina,Monte $name,Serra de $name,"
 "Serra de $name"
-
 #
 #. [language]
 msgid ""
@@ -3017,63 +2625,51 @@ msgid ""
 msgstr ""
 "Túmulo de $road,Encruzilhada de $road,$road|burgo,$road|lândia,$name|burgo,"
 "$name|lândia"
-
 #
 #. [language]
 msgid "$name|bury,$name|ham,$name|ton,$swamp|bury,$swamp|ham,$swamp|ton,"
 msgstr ""
 "$name|burgo,$name|lândia,$name|ópolis,$swamp|burgo,$swamp|lândia,$swamp|sa,"
-
 #
 #. [language]
 msgid "melee"
 msgstr "curto"
-
 #
 #. [language]
 msgid "ranged"
 msgstr "longo"
-
 #
 #. [language]
 msgid "blade"
 msgstr "cortante"
-
 #
 #. [language]
 msgid "pierce"
 msgstr "perfurante"
-
 #
 #. [language]
 msgid "impact"
 msgstr "impacto"
-
 #
 #. [language]
 msgid "fire"
 msgstr "fogo"
-
 #
 #. [language]
 msgid "cold"
 msgstr "gelado"
-
 #
 #. [language]
 msgid "arcane"
 msgstr "arcano"
-
 #
 #. [server]
 msgid "Official Wesnoth Server"
 msgstr "Servidor Oficial de Wesnoth"
-
 #
 #. [server]
 msgid "Alternate Wesnoth Server"
 msgstr "Servidor de Wesnoth Alternativo"
-
 #
 #. [fonts]
 msgid ""
@@ -3082,244 +2678,218 @@ msgid ""
 msgstr ""
 "DejaVuSans.ttf,Andagii.ttf,DroidSansJapanese.ttf,DroidSansFallbackFull.ttf,"
 "Junicode-Regular.ttf"
-
 #
 #. [fonts]
 msgid "DejaVu Sans,Andagii,Droid Sans Japanese,Droid Sans Fallback,Junicode"
 msgstr "DejaVu Sans,Andagii,Droid Sans Japanese,Droid Sans Fallback,Junicode"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 msgid "female^poisoned"
 msgstr "envenenada"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 msgid "female^slowed"
 msgstr "atrasada"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 msgid "slowed"
 msgstr "atrasado"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 msgid "female^petrified"
 msgstr "petrificada"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 msgid "petrified"
 msgstr "petrificado"
-
 #
 #. [lua]: set_status
 msgid "female^unhealable"
 msgstr "Incurável"
-
 #
 #. [lua]: set_status
 msgid "unhealable"
 msgstr "Incurável"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: generate_objectives
 msgid "Victory:"
 msgstr "Vitória:"
-
 #
 #. [lua]: generate_objectives
 msgid "Defeat:"
 msgstr "Derrota:"
-
 #
 #. [lua]: generate_objectives
 msgid "(%d turns left)"
 msgstr "(%d turnos restantes)"
-
 #
 #. [lua]: generate_objectives
 msgid "(this turn left)"
 msgstr "(este turno restante)"
-
 #
 #. [lua]: generate_objectives
 msgid "%d%% of gold carried over to the next scenario."
 msgstr "%d%% do ouro transportado ao próximo cenário."
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: id=helptip_large, id=tooltip_large, id=the_list, id=the_label, id=the_icon, id=ok, id=cancel, id=flip, id=the_image
 msgid "OK"
 msgstr "Confirmar"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: id=helptip_large, id=tooltip_large, id=the_list, id=the_label, id=the_icon, id=ok, id=cancel, id=flip, id=the_image
 msgid "Cancel"
 msgstr "Cancelar"
-
 #
 msgid "very long"
 msgstr "muito longo"
-
 #
 msgid "electrical"
 msgstr "eléctrico"
-
+#
+#. [theme]: id=Default
+#, fuzzy
+msgid "theme^Default"
+msgstr "Padrão"
+#
+#. [theme]: id=Default
+#, fuzzy
+msgid "Default theme."
+msgstr "Ampliação normal"
 #
 #. [menu]: id=menu-main
 msgid "Menu"
 msgstr "Menu"
-
+#
 #. [menu]: id=menu-autosaves
 msgid "Back to..."
 msgstr "Voltar ao turno …"
-
 #
 #. [menu]: id=actions-menu
 msgid "Actions"
 msgstr "Acções"
-
 #
 #. [action]: id=button-endturn
 #. [menu]: id=button-endturn
 msgid "End Turn"
 msgstr "Terminar Turno"
-
 #
 #. [action]: id=button-endturn
 #. [menu]: id=button-endturn
 msgid "End Scenario"
 msgstr "Terminar Cenário"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=label-hp
 #. [label]: id=selected-label-hp
 msgid "HP"
 msgstr "PV"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=label-xp
 #. [label]: id=selected-label-xp
 msgid "XP"
 msgstr "XP"
-
 #
 #. [label]: id=label-mp
 msgid "MP"
 msgstr "JR"
-
 #
 #. [label]: id=label-def
 msgid "def"
 msgstr "def"
-
 #
 #. [label]: id=gold-icon
 msgid "gold"
 msgstr "ouro"
-
 #
 #. [label]: id=villages-icon
 msgid "villages"
 msgstr "aldeias"
-
 #
 #. [label]: id=units-icon
 msgid "units"
 msgstr "unidades"
-
 #
 #. [label]: id=upkeep-icon
 msgid "upkeep"
 msgstr "manutenção"
-
 #
 #. [label]: id=income-icon
 msgid "income"
 msgstr "rendimento"
-
 #
 #. [unit_level]: id=unit-level
 msgid "statuspanel^lvl"
 msgstr "nvl"
-
 #
 #. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=replay-label
 msgid "Replay"
 msgstr "Revisão"
-
 #
 #. [action]: id=button-playreplay, type=image
 msgid "Play"
 msgstr "Iniciar"
-
 #
 #. [action]: id=button-playreplay, type=image
 msgid "continuous replay"
 msgstr "revisão contínua"
-
 #
 #. [action]: id=button-stopreplay, type=image
 msgid "Stop"
 msgstr "Parar"
-
 #
 #. [action]: id=button-stopreplay, type=image
 msgid "pause at end of turn"
 msgstr "pausa no fim do turno"
-
 #
 #. [action]: id=button-resetreplay, type=image
 msgid "Reset"
 msgstr "Repor"
-
 #
 #. [action]: id=button-resetreplay, type=image
 msgid "reset to beginning"
 msgstr "repor para o inicio"
-
 #
 #. [action]: id=button-nextturn, type=image
 msgid "Next Turn"
 msgstr "Próximo turno"
-
 #
 #. [action]: id=button-nextturn, type=image
 msgid "play turn"
 msgstr "jogar turno"
-
 #
 #. [action]: id=button-nextside, type=image
 msgid "Next Side"
 msgstr "Próxima Equipa"
-
 #
 #. [action]: id=button-nextside, type=image
 msgid "play side turn"
 msgstr "jogar lado activo"
-
 #
 #. [menu]: id=show-what
 msgid "Point of view"
 msgstr "Ponto de vista"
-
 #
 #. [action]: id=skip-animation, type=checkbox
 msgid "Skip animation"
 msgstr "Saltar animação"
-
+#
+#. [theme]: id=Pandora
+#, fuzzy
+msgid "theme^Pandora"
+msgstr "Telerandor"
+#
+#. [theme]: id=Pandora
+msgid "800x480 theme optimized for Pandora devices."
+msgstr ""
 #
 #. [action]: id=end-turn
 msgid ""
@@ -3328,30 +2898,41 @@ msgid ""
 msgstr ""
 "Terminar\n"
 "Turno"
-
+#
+#. [theme]: id=UnitBox
+msgid "theme^UnitBox"
+msgstr ""
+#
+#. [theme]: id=UnitBox
+msgid "Experimental work-in-progress replacement for the default theme."
+msgstr ""
 #
 #. [action]: id=flip_map_button_editor, type=checkbox
 msgid "Not implemented yet."
 msgstr "Ainda não implementado."
-
+#
+#. [theme]: id=Widescreen
+msgid "theme^Widescreen"
+msgstr ""
+#
+#. [theme]: id=Widescreen
+msgid "Experimental theme optimized for widescreen resolutions."
+msgstr ""
 #
 #. [selected_unit_level]: id=selected-unit-level
 #. [unit_level]: id=unit-level
 msgid "statuspanel^level"
 msgstr "nível"
-
 #
 #. [selected_unit_moves]: id=selected-unit-moves
 #. [unit_moves]: id=unit-moves
 msgid "statuspanel^moves"
 msgstr "movimentos"
-
 #
 #. [selected_unit_defense]: id=selected-unit-defense
 #. [unit_defense]: id=unit-defense
 msgid "statuspanel^terrain def."
 msgstr "def. do terreno."
-
 #
 #. [tip]
 msgid ""
@@ -3360,12 +2941,10 @@ msgid ""
 msgstr ""
 "Usa a funcionalidade das <i>áreas</i> do editor de mapas para definires "
 "regiões mais tarde acedidos por eventos programados para o efeito."
-
 #
 #. [tip]
 msgid "<i>― The Wesnoth Design Guide</i>"
 msgstr "<i>― O Guia de Design de Wesnoth</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3374,7 +2953,6 @@ msgid ""
 msgstr ""
 "Cria um novo <i>cenário</i> no menu principal do <i>editor</i> para teres "
 "acesso a funções avançadas."
-
 #
 #. [tip]
 msgid ""
@@ -3384,7 +2962,6 @@ msgstr ""
 "Os cenários que foram guardados no directório por predefinição podem ser "
 "seleccionados aquando a criação de uma nova partida em rede na secção "
 "<i>cenários</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3394,12 +2971,10 @@ msgstr ""
 "Não de esqueças de ganhar alguma experiência com o teu líder! Precisas de "
 "manter-o a salvo, mas se o guardas o demasiado poderá ser de um nível "
 "demasiado baixo para batalhas futuras."
-
 #
 #. [tip]
 msgid "<i>― Great Mage Delfador, 516YW</i>"
 msgstr "<i>— Grande Mago Delfador, 516 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3413,12 +2988,10 @@ msgstr ""
 "mover (assumindo as tuas unidades ficam onde estão). Usa isto para teres a "
 "certeza que nenhum inimigo pode atingir as tuas unidades fracas ou feridas "
 "no seu próximo turno."
-
 #
 #. [tip]
 msgid "<i>― The Wesnoth Tactical Guide</i>"
 msgstr "<i>— O Guia Táctico de Wesnoth</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3429,12 +3002,10 @@ msgstr ""
 "Unidades com a feição <i>inteligente</i> precisam de menos experiência para "
 "avançar de nível. No inicio duma campanha, tenta dar os golpes fatais a "
 "estas unidades para poderes obter combatentes de alto nível mais cedo."
-
 #
 #. [tip]
 msgid "<i>― King Konrad, 536YW</i>"
 msgstr "<i>— Rei Konrad, 536 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3448,12 +3019,10 @@ msgstr ""
 "de controlo irão restringir esta a mover-se por um único hexágono em "
 "qualquer direcção. Infelizmente, terás que rondar completamente "
 "escaramuçadores para imobilizar-os."
-
 #
 #. [tip]
 msgid "<i>― Memoirs of Gweddry, 627YW</i>"
 msgstr "<i>— Memórias de Gweddry, 627 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3466,7 +3035,6 @@ msgstr ""
 "botão direito do rato num castelo. Isto permite-te escolher em que lugar "
 "preciso desejas por a tua unidade. Ao colocar com manha pode as vezes "
 "permitir chegar a uma aldeia mais cedo."
-
 #
 #. [tip]
 msgid ""
@@ -3477,7 +3045,6 @@ msgstr ""
 "Existem alguns sumários úteis no menu principal: por exemplo, o <b>Painel de "
 "Estado</b> deixa-te saber como os teus inimigos estão jogar, e como estás em "
 "comparação."
-
 #
 #. [tip]
 msgid ""
@@ -3489,12 +3056,10 @@ msgstr ""
 "Isto pode ser muito importante enquanto movendo por terreno difícil como "
 "água ou cavernas. Pode fazer a diferença entre ser capaz de mover um ou dois "
 "hexágonos."
-
 #
 #. [tip]
 msgid "<i>― High Lord Kalenz, 470YW</i>"
 msgstr "<i>— Lorde Kalenz, 470 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3505,7 +3070,6 @@ msgstr ""
 "Após teres jogado alguns cenários, lê a secção <b>Modo de Jogar</b> na "
 "janela de ajuda com atenção. Detalhes tornam-se importante assim como os "
 "cenários aumentam de dificuldade!"
-
 #
 #. [tip]
 msgid ""
@@ -3515,7 +3079,6 @@ msgid ""
 msgstr ""
 "É normalmente melhor começar o próximo cenário de uma campanha com unidades "
 "de baixo nível prestes a avançar do que com as mesmas num nível mais elevado."
-
 #
 #. [tip]
 msgid ""
@@ -3524,12 +3087,10 @@ msgid ""
 msgstr ""
 "No site <i>www.wesnoth.org</i> podes encontrar guias tácticos, suporte "
 "técnico, a história de Wesnoth, e muito mais."
-
 #
 #. [tip]
 msgid "<i>― The Wesnoth Community</i>"
 msgstr "<i>— A comunidade de Wesnoth</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3540,27 +3101,23 @@ msgstr ""
 "Unidades <i>diurnas</i> lutam melhor de dia, <i>nocturnas</i> lutam melhor "
 "de noite. Unidades <i>neutras</i> não são afectados pelo tempo de dia. As "
 "unidades raras <i>limiares</i> lutam melhor ao crepúsculo."
-
 #
 #. [tip]
 msgid ""
 "<i>― Royal Compendium of Battle Terminology: Volume II (reprinted 221YW)</i>"
 msgstr ""
-"<i>— Real Almanaque de Terminologia de Batalha: Volume II (reeditado 212 CW)"
-"</i>"
-
+"<i>— Real Almanaque de Terminologia de Batalha: Volume II (reeditado 212 "
+"CW)</i>"
 #
 #. [tip]
 msgid ""
 "An otherwise sound plan can fail if you attack at the wrong time of day."
 msgstr "Um plano bem elaborado pode falhar se atacares no tempo do dia errado."
-
 #
 #. [tip]
 msgid "<i>― Haldric II, 42YW, Handbook of Tactical Analysis: Volume I</i>"
 msgstr ""
 "<i>— Haldric II, 42 CW, do Livro de Bolso da Análise Táctica: Volume I</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3574,7 +3131,6 @@ msgstr ""
 "alcance valem o seu custo. Tenta escolher exploradores que podem facilmente "
 "mover-se pelo terreno a volta, porque unidades vêem o quão longe o quanto "
 "podem mover-se num único turno."
-
 #
 #. [tip]
 msgid ""
@@ -3589,7 +3145,6 @@ msgstr ""
 "fraquezas contra diferentes tipos de ataques. Selecciona uma unidade e "
 "selecciona <b>Descrição da Unidade</b> para ver quais ataques aos quais é "
 "resistente, e qual irá afectar-a mais."
-
 #
 #. [tip]
 msgid ""
@@ -3602,7 +3157,6 @@ msgstr ""
 "teus oponentes têm em acertar-os em batalha. O valor de defesa da tua "
 "unidade actualmente seleccionada no terreno actual é disposto no topo "
 "direito da janela."
-
 #
 #. [tip]
 msgid ""
@@ -3617,7 +3171,6 @@ msgstr ""
 "o veneno seja removido. Curadores podem prevenir o veneno de ter efeito, mas "
 "o veneno não irá ser removido a não ser que a unidade regenera, ou começa o "
 "turno numa aldeia ou estão juntos a uma unidade com capacidade <i>curar</i>."
-
 #
 #. [tip]
 msgid ""
@@ -3628,7 +3181,6 @@ msgstr ""
 "Podes usar unidades de cenários anteriores ao seleccionar <b>Convocar</b> do "
 "menu de <b>Acções</b>. Ao convocar as mesmas unidades outra e outra vez, "
 "podes construir um exercito poderoso e experiente."
-
 #
 #. [tip]
 msgid ""
@@ -3643,7 +3195,6 @@ msgstr ""
 "hostil, não se pode mover mais neste turno. Isto significa que unidades "
 "podem ter dois hexágonos vagos entre eles e criar uma barreira ao inimigo. "
 "Porém, escaramuçadores são o suficiente habilidosos para ignorar estas zonas."
-
 #
 #. [tip]
 msgid ""
@@ -3657,13 +3208,11 @@ msgstr ""
 "pode defender no terreno onde se situar. Mas, ataques mágicos têm sempre uma "
 "hipótese de acertar de 70%, e unidades com a habilidade <i>precisão</i> irão "
 "sempre ter ao menos 60% de hipótese de acertar no seu turno."
-
 #
 #. [tip]
 msgid "<i>― Haldric II, 43YW, Handbook of Tactical Analysis: Volume II</i>"
 msgstr ""
 "<i>— Haldric II, 43 CW, do Livro de Bolso da Análise Táctica: Volume II</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3672,7 +3221,6 @@ msgid ""
 msgstr ""
 "Unidades estacionadas em aldeias irão ou curar 8 pontos de vida no inicio do "
 "seu turno, ou recuperar de envenenamento."
-
 #
 #. [tip]
 msgid ""
@@ -3683,7 +3231,6 @@ msgstr ""
 "Não mova uma unidade ferida se não tiveres de o fazer — deixa-a descansar. "
 "Se uma unidade nem se move nem ataca, irá recuperar 2 pontos de vida no "
 "inicio do seu turno."
-
 #
 #. [tip]
 msgid ""
@@ -3696,7 +3243,6 @@ msgstr ""
 "vista das unidades é limitada pelo seu movimento máximo. Lembra-te disto "
 "quando decidires qual unidade for melhor para explorar em determinados tipos "
 "de terreno."
-
 #
 #. [tip]
 msgid ""
@@ -3707,12 +3253,10 @@ msgstr ""
 "Unidades de Infantaria tendem a defender-se melhor em aldeias e castelos do "
 "que em outros tipos de terrenos, enquanto a maioria das unidades montadas "
 "não ganham vantagens defensivas aí."
-
 #
 #. [tip]
 msgid "<i>― Sir Kaylan, 498YW</i>"
 msgstr "<i>— Sir Kaylan, 498 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3722,12 +3266,10 @@ msgid ""
 msgstr ""
 "Unidades montadas geralmente resistem a ataques cortantes ou de impacto, mas "
 "são vulneráveis a ataques perfurantes, incluindo flechas e lanças."
-
 #
 #. [tip]
 msgid "<i>― Sir Kaylan, 502YW</i>"
 msgstr "<i>— Sir Kaylan, 502 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3740,7 +3282,6 @@ msgstr ""
 "Unidades que matam um inimigo irão receber 8 pontos de experiência por cada "
 "nível da unidade derrotada, ou 4 pontos de experiência com um oponente de "
 "nível 0."
-
 #
 #. [tip]
 msgid ""
@@ -3749,7 +3290,6 @@ msgid ""
 msgstr ""
 "Unidades Elfas movem-se e lutam bem em florestas. Anões movem-se e lutam bem "
 "em colinas, montanhas e cavernas."
-
 #
 #. [tip]
 msgid ""
@@ -3758,7 +3298,6 @@ msgid ""
 msgstr ""
 "Em geral, paciência é a chave. Ao invés de atacar em condições ruins, ou com "
 "poucas tropas, espera por melhores condições antes de atacar."
-
 #
 #. [tip]
 msgid ""
@@ -3767,7 +3306,6 @@ msgid ""
 msgstr ""
 "Se fores atacado por vários flancos, poderá ser boa ideia enviar algumas "
 "unidades extensíveis ao encontro dos teus inimigos para atrasar-os."
-
 #
 #. [tip]
 msgid ""
@@ -3775,12 +3313,10 @@ msgid ""
 msgstr ""
 "Não tenhas medo de recuar para recuperares, isto é em geral a chave da "
 "vitória."
-
 #
 #. [tip]
 msgid "<i>― Meneldur, 123YW</i>"
 msgstr "<i>— Meneldur, 123 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3793,7 +3329,6 @@ msgstr ""
 "tempo, dependendo do numero de aldeias no mapa e o numero de turnos que "
 "finalizaste antes. Irás sempre ganhar mais ouro por esta via do que capturar "
 "todas as aldeias e esperar pelo fim dos turnos."
-
 #
 #. [tip]
 msgid ""
@@ -3806,7 +3341,6 @@ msgstr ""
 "de um castelo, não só a Torre em que começam. Podes capturar uma Torre de um "
 "inimigo e recrutar dali. Também alguns dos teus aliados poderão ser "
 "dispostos a deixar-te espaço na sua torre para recrutares daí."
-
 #
 #. [tip]
 msgid ""
@@ -3815,7 +3349,6 @@ msgid ""
 msgstr ""
 "Esqueletos são resistentes a ataques perfurantes, cortantes e gelados mas "
 "são vulneráveis a ataques de impacto, fogo e arcano."
-
 #
 #. [tip]
 msgid ""
@@ -3827,7 +3360,6 @@ msgstr ""
 "adjacentes do mesmo lado a lutar melhor. Podes mover estas unidades "
 "lentamente ao longo da tua linha de batalha e dar um bónus à um número "
 "elevado de unidades de nível inferior."
-
 #
 #. [tip]
 msgid ""
@@ -3837,23 +3369,19 @@ msgid ""
 msgstr ""
 "Evita mover junto a uma aldeia vaga. Uma unidade inimiga poderá mover-se "
 "para a aldeia e atacar-te, enquanto beneficia da defesa e cura da aldeia."
-
 #
 #. [tip]
 msgid "Use lines of troops to screen your injured units while they recover."
 msgstr ""
 "Usa linhas de unidades para proteger unidades feridas enquanto recuperaram."
-
 #
 #. [tip]
 msgid "<i>― Princess Li’sar, 515YW</i>"
 msgstr "<i>— Princesa Li'sar, 515 CW</i>"
-
 #
 #. [tip]
 msgid "Read the <b>Hotkeys</b> list in the <b>Preferences</b> menu."
 msgstr "Estuda a lista de <b>atalhos</b> no menu de <b>preferências</b>."
-
 #
 #. [tip]
 msgid ""
@@ -3862,7 +3390,6 @@ msgid ""
 msgstr ""
 "Se moveres uma unidade, mas não atacares nem descobrires informações "
 "adicionais, podes desfazer o movimento ao carregar <b>u</b>."
-
 #
 #. [tip]
 msgid ""
@@ -3871,7 +3398,6 @@ msgid ""
 msgstr ""
 "Podes ver a distância que unidades inimigas podem alcançar movendo o cursor "
 "do rato sobre elas."
-
 #
 #. [tip]
 msgid ""
@@ -3880,12 +3406,10 @@ msgid ""
 msgstr ""
 "Usa curadores para suportar os teus ataques — irão garantir a vitória sem "
 "precisarem de atacar eles próprios."
-
 #
 #. [tip]
 msgid "<i>― The Scroll of Chantal, 516YW</i>"
 msgstr "<i>— O Pergaminho de Chantal, 516 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3894,17 +3418,14 @@ msgid ""
 msgstr ""
 "O ataque <i>atrasar</i> faz com que unidades inimigas movam-se mais devagar "
 "e divide o dano em todos os seus ataques até finalizarem o seu turno."
-
 #
 #. [tip]
 msgid "<i>Arcane</i> attacks are very powerful against undead."
 msgstr "Ataques <i>arcanos</i> são muito poderosos contra mortos-vivos."
-
 #
 #. [tip]
 msgid "<i>― Great Sage Dacyn, 626YW</i>"
 msgstr "<i>— Grande Sábio Dacyn, 626 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3913,7 +3434,6 @@ msgid ""
 msgstr ""
 "Unidades são curadas quando avançam de nível. Usado de forma inteligente "
 "isto pode virar o curso da batalha."
-
 #
 #. [tip]
 msgid ""
@@ -3922,7 +3442,6 @@ msgid ""
 msgstr ""
 "Investir sobre unidades é melhor usado contra inimigos que consigas matar de "
 "um só golpe."
-
 #
 #. [tip]
 msgid ""
@@ -3937,7 +3456,6 @@ msgstr ""
 "cura-os por completo. Isto é muito menos que os benefícios ganhos por "
 "avançar de nível, portanto é geralmente mais útil tentar avançar as tuas "
 "unidades de baixo nível em vez disto."
-
 #
 #. [tip]
 msgid ""
@@ -3947,7 +3465,6 @@ msgid ""
 msgstr ""
 "Quase todos os ícones e botões no jogo de Wesnoth têm uma dica. Coloca o teu "
 "rato num destes para ter uma explicação ou descrição do que faz."
-
 #
 #. [tip]
 msgid ""
@@ -3958,12 +3475,10 @@ msgstr ""
 "Para avançar unidades de baixo nível rapidamente, junta-as com uma veterana "
 "e usa os veteranos para ferir o suficiente forte para que o seu parceiro "
 "possa dar o golpe fatal."
-
 #
 #. [tip]
 msgid "<i>― Queen Li’sar, 528YW</i>"
 msgstr "<i>— Rainha Li'sar, 528 CW</i>"
-
 #
 #. [tip]
 msgid ""
@@ -3975,7 +3490,6 @@ msgstr ""
 "opção <b>Actualização de Sombra Atrasada</b> quando precisas mover as tuas "
 "unidades com capacidade de desfazer, ou usa a nova ferramenta de "
 "Planificação."
-
 #
 #. [tip]
 msgid ""
@@ -3984,7 +3498,6 @@ msgid ""
 msgstr ""
 "Se um inimigo beneficia mais de um tipo de terreno raro que tu, ocupando "
 "este terreno irá desprevenir-o dos seus benefícios."
-
 #
 #. [tip]
 msgid ""
@@ -3995,7 +3508,6 @@ msgstr ""
 "Poucas unidades têm uma boa defesa na água; uma linha de atacantes ao longo "
 "dum rio pode causar danos devastadores. Elfos podem usar as bordas das "
 "florestas para fim similar, e anões podem fazer o mesmo em montanhas."
-
 #
 #. [tip]
 msgid ""
@@ -4004,7 +3516,6 @@ msgid ""
 msgstr ""
 "Em muitos cenários de campanha, poderás definir introduções para os aliados "
 "controlados pela IA usando o menu do botão direito do rato."
-
 #
 #. [tip]
 msgid ""
@@ -4022,7 +3533,6 @@ msgstr ""
 "enfraquecido. Adversários rápidos têm dificuldade em escapar; adversários "
 "lentos basicamente estarão imobilizados, e as tuas próprias unidades "
 "sofrerão de menos dano no contra-ataque, portanto é mais rápido curar-as."
-
 #
 #. [tip]
 msgid ""
@@ -4035,7 +3545,6 @@ msgstr ""
 "Aprendizes das Trevas, Escuteiros, Brutos Orcos ou Trovejantes Anãs — em "
 "pares ou a três. Isto dar-te-à uma nova tentativa sempre que o primeiro "
 "ataque devastador falha — como inevitavelmente acontecerá de vez em quando."
-
 #
 #. [tip]
 msgid ""
@@ -4048,7 +3557,6 @@ msgstr ""
 "finalizar inimigos com apenas alguns poucos pontos de vida restantes. Tenha "
 "a certeza em usar liderança — ou uma unidade forte/hábil — sempre que o "
 "ponto ou dois de dano significam uma morte à um golpe."
-
 #
 #. [tip]
 msgid ""
@@ -4059,7 +3567,6 @@ msgstr ""
 "Pensa duas vezes andes de demitir uma unidade da tua lista de convocatória, "
 "independentemente de quão pouco experiente o é. As vezes vale a pena pagar "
 "um extra por saber que características o novo recruta irá ter."
-
 #
 #. [tip]
 msgid ""
@@ -4071,12 +3578,10 @@ msgstr ""
 "para curar por vários turnos algo longe do campo de batalha. Então pode "
 "recuperar em paz (10 PV por turno) sem baralhar nas aldeias na frente de "
 "batalha."
-
 #
 #. [tip]
 msgid "<i>― Lord Hamel of Knalga</i>"
 msgstr "<i>— Lorde Hamel de Knalga</i>"
-
 #
 #. [tip]
 msgid ""
@@ -4088,7 +3593,6 @@ msgstr ""
 "dar algum trabalho, por exemplo, <i>Liderança</i>, <i>Iluminação</i> e "
 "<i>Investir</i> contra adversários atrasados, o resultado pode ser "
 "impressivo."
-
 #
 #. [tip]
 msgid ""
@@ -4102,7 +3606,6 @@ msgstr ""
 "significa que perderá a hipótese de ganhar alguma experiência extra. Ao "
 "decidir em terminar ou não um cenário mais cedo, compara estes factores um "
 "ao outro."
-
 #
 #. [tip]
 msgid ""
@@ -4116,7 +3619,6 @@ msgstr ""
 "onde o teu inimigo só pode atacar partilhando as mesmas desvantagens. Evita "
 "lugares onde a tua defesa é menor do que a do teu inimigo. Espera por baixas "
 "pesadas, e controla ferozmente qualquer hexágono onde o terreno favorece-te."
-
 #
 #. [tip]
 msgid ""
@@ -4127,127 +3629,98 @@ msgstr ""
 "Unidades <i>ferozes</i>, como morcegos e animais selvagens, irão evitar "
 "aldeias. Mesmo se ocupam uma aldeia, não irão receber qualquer beneficio "
 "defensivo desta, mas serão curadas."
-
 #
 msgid "Close"
 msgstr "Fechar"
-
 #
 msgid "An invalid attacker weapon got selected."
 msgstr "O atacante seleccionou uma arma inválida."
-
 #
 msgid "An invalid defender weapon got selected."
 msgstr "O defensor seleccionou uma arma inválida."
-
 #
 msgid "You don’t have a leader to recall with."
 msgstr "Não tens um líder com quem convocar."
-
 #
 msgid "None of your leaders are able to recall that unit."
 msgstr "Nenhum dos teus líderes é capaz de convocar esta unidade."
-
 #
 msgid "You must have a leader on a keep who is able to recall that unit."
 msgstr "Deves ter um líder numa torre que é capaz de convocar esta unidade."
-
 #
 msgid "There are no vacant castle tiles in which to recall the unit."
 msgstr "Não há lugar vago no castelo para convocar esta unidade."
-
 #
 msgid "An unrecognized error has occurred."
 msgstr "Ocorreu um erro inesperado."
-
 #
 msgid "You don’t have a leader to recruit with."
 msgstr "Não tens um líder com quem recrutar."
-
 #
 msgid "None of your leaders are able to recruit that unit."
 msgstr "Nenhum dos teus líderes é capaz de convocar esta unidade."
-
 #
 msgid "You must have a leader on a keep who is able to recruit the unit."
 msgstr "Deves ter o teu líder numa torre que é capaz de recrutar esta unidade."
-
 #
 msgid "There are no vacant castle tiles in which to recruit the unit."
 msgstr "Não há lugar vago no castelo para recrutar esta unidade."
-
 #
 msgid "cured"
 msgstr "curado"
-
 #
 msgid "female^cured"
 msgstr "curada"
-
 #
 msgid "Ambushed!"
 msgstr "Emboscada!"
-
 #
 msgid "Failed teleport! Exit not empty"
 msgstr "Trespasse falhado! Alvo não está vazio"
-
 #
 msgid "Part of 'Units sighted! (...)' sentence^1 friendly"
 msgid_plural "$friends friendly"
 msgstr[0] "uma aliada"
 msgstr[1] "$friends aliadas"
-
 #
 msgid "Part of 'Units sighted! (...)' sentence^1 enemy"
 msgid_plural "$enemies enemy"
 msgstr[0] "uma inimiga"
 msgstr[1] "$enemies inimigas"
-
 #
 msgid "Units sighted! ($friendphrase, $enemyphrase)"
 msgstr "Unidades vistas! ($friendphrase, $enemyphrase)"
-
 #
 msgid "Enemy unit sighted!"
 msgid_plural "$enemies enemy units sighted!"
 msgstr[0] "Unidade inimiga à vista!"
 msgstr[1] "$enemies unidades inimigas à vista!"
-
 #
 msgid "Friendly unit sighted"
 msgid_plural "$friends friendly units sighted"
 msgstr[0] "Unidade aliada à vista"
 msgstr[1] "$friends unidades aliadas à vista"
-
 #
 msgid "(press $hotkey to keep moving)"
 msgstr "(carrega $hotkey para continuar o movimento)"
-
 #
 msgid "Connecting to $server_address|..."
 msgstr "A ligar ao servidor $server_address|..."
-
 #
 msgid "Downloading list of add-ons..."
 msgstr "Requisitando a lista de extras..."
-
 #
 msgid "Requesting distribution terms..."
 msgstr "A solicitar termos de distribuição..."
-
 #
 msgid "Sending add-on <i>$addon_title</i>..."
 msgstr "A enviar o extra: <i>$addon_title|</i>..."
-
 #
 msgid "Removing add-on <i>$addon_title</i> from the server..."
 msgstr "A remover o extra: <i>$addon_title|</i> do servidor..."
-
 #
 msgid "Downloading add-on <i>$addon_title</i>..."
 msgstr "A carregar o extra: <i>$addon_title|</i>..."
-
 #
 msgid ""
 "The add-on <i>$addon_title</i> has an invalid file or directory name and "
@@ -4255,107 +3728,81 @@ msgid ""
 msgstr ""
 "O extra <i>$addon_title</i> tem um ficheiro ou nome de pasta inválido e não "
 "pode ser instalado."
-
 #
 msgid "Add-ons Manager"
 msgstr "Gestor de extras"
-
 #
 msgid "addon_type^Campaign"
 msgstr "Campanha"
-
 #
 msgid "addon_type^Scenario"
 msgstr "Cenário"
-
 #
 msgid "addon_type^SP/MP Campaign"
 msgstr "Campanhas Híbridas"
-
 #
 msgid "addon_type^MP era"
 msgstr "Era JR"
-
 #
 msgid "addon_type^MP faction"
 msgstr "Facção JR"
-
 #
 msgid "addon_type^MP map-pack"
 msgstr "Pacote de mapas JR"
-
 #
 msgid "addon_type^MP scenario"
 msgstr "Cenário JR"
-
 #
 msgid "addon_type^MP campaign"
 msgstr "Campanha JR"
-
 #
 msgid "addon_type^MP modification"
 msgstr "Modificação JR"
-
 #
 msgid "addon_type^Resources"
 msgstr "Recursos"
-
 #
 msgid "addon_type^Other"
 msgstr "Outro"
-
 #
 msgid "addon_type^(unknown)"
 msgstr "(desconhecido)"
-
 #
 msgid "unit_byte^B"
 msgstr "B"
-
 #
 msgid "addon_state^Not installed"
 msgstr "Não instalado"
-
 #
 msgid "addon_state^Published, not installed"
 msgstr "Publicado, mas não instalado"
-
 #
 msgid "addon_state^Installed"
 msgstr "Instalado"
-
 #
 msgid "addon_state^Published"
 msgstr "Publicado"
-
 #
 msgid "addon_state^Installed, upgradable"
 msgstr "Instalado e actualizável"
-
 #
 msgid "addon_state^Published, upgradable"
 msgstr "Publicado e actualizável"
-
 #
 msgid "addon_state^Installed, outdated on server"
 msgstr "Instalado, e versão no servidor obsoleta"
-
 #
 msgid "addon_state^Published, outdated on server"
 msgstr "Publicado, e versão no servidor obsoleta"
-
 #
 msgid "addon_state^Installed, broken"
 msgstr "Instalado mas não funciona"
-
 #
 msgid "addon_state^Published, broken"
 msgstr "Publicado mas não funciona"
-
 #
 msgid "addon_state^Unknown"
 msgstr "Desconhecido"
-
 #
 msgid ""
 "The selected add-on has the following dependency, which is not currently "
@@ -4369,35 +3816,27 @@ msgstr[0] ""
 msgstr[1] ""
 "Os extras seleccionados têm as seguintes dependências, que neste momento não "
 "foram publicados ou disponíveis do servidor. Queres mesmo assim instalar-os?"
-
 #
 msgid "Broken Dependencies"
 msgstr "Dependências que não funcionam"
-
 #
 msgid "Author"
 msgstr "Autor"
-
 #
 msgid "Name"
 msgstr "Nome"
-
 #
 msgid "Version"
 msgstr "Versão"
-
 #
 msgid "Size"
 msgstr "Tamanho"
-
 #
 msgid "Type"
 msgstr "Tipo"
-
 #
 msgid "Install Dependencies"
 msgstr "Instalar dependências"
-
 #
 msgid ""
 "The selected add-on has the following dependency, which is not currently "
@@ -4411,11 +3850,9 @@ msgstr[0] ""
 msgstr[1] ""
 "Os extras seleccionados têm as seguintes dependências, que ainda não estão "
 "instalados. Queres mesmo assim instalar-os?"
-
 #
 msgid "The server responded with an error:"
 msgstr "O servidor respondeu com um erro:"
-
 #
 msgid ""
 "The following dependency could not be installed. Do you still wish to "
@@ -4428,11 +3865,9 @@ msgstr[0] ""
 msgstr[1] ""
 "As seguintes dependências não podem ser instaladas. Queres mesmo assim "
 "continuar?"
-
 #
 msgid "Dependencies Installation Failed"
 msgstr "Instalação falhada das dependências"
-
 #
 msgid ""
 "The add-on '$addon|' is already installed and contains additional "
@@ -4440,23 +3875,18 @@ msgid ""
 msgstr ""
 "O extra '$addon|' já está instalado e contém informações adicionais que irão "
 "ser perdidos para sempre se continuares:"
-
 #
 msgid "Publishing information file (.pbl)"
 msgstr "Ficheiro de informações de publicação (.pbl)"
-
 #
 msgid "Version control system (VCS) information"
 msgstr "Informação do sistema de controlo de versão (VCS)"
-
 #
 msgid "Do you really wish to continue?"
 msgstr "Queres mesmo continuar?"
-
 #
 msgid "Confirm"
 msgstr "Confirmar"
-
 #
 msgid ""
 "Deleting '$addon|' will permanently erase its download and upload counts on "
@@ -4464,127 +3894,98 @@ msgid ""
 msgstr ""
 "Apagar '$addon|' irá repor permanentemente o seu número de Downloads e "
 "Upload do servidor. Queres mesmo continuar?"
-
 #
 msgid "Response"
 msgstr "Resposta"
-
 #
 msgid "Terms"
 msgstr "Termos"
-
 #
 msgid "New Version"
 msgstr "Nova Versão"
-
 #
 msgid "Old Version"
 msgstr "Antiga Versão"
-
 #
 msgid "Downloads"
 msgstr "Carregamentos"
-
 #
 msgid "Publish: $addon_title"
 msgstr "Publicar: $addon_title"
-
 #
 msgid "Delete: $addon_title"
 msgstr "Apagar: $addon_title"
-
 #
 msgid "There are no add-ons available for download from this server."
 msgstr "Não há extras disponíveis para carregar deste servidor."
-
 #
 msgid "There are no add-ons matching the specified criteria on this server."
 msgstr ""
 "Não há extras disponíveis a coincidir com o critérios de busca neste "
 "servidor."
-
 #
 msgid "Filter: "
 msgstr "Filtro: "
-
 #
 msgid "Description"
 msgstr "Descrição"
-
 #
 msgid "Update All"
 msgstr "Actualizar Tudo"
-
 #
 msgid "filter^Options"
 msgstr "Opções"
-
 #
 msgid "Add-on Installed"
 msgstr "Extra instalado"
-
 #
 msgid "Add-on Updated"
 msgstr "Extra Actualizado"
-
 #
 msgid "The add-on '$addon_title|' has been successfully installed."
 msgstr "O extra '$addon_title|' foi instalado com sucesso."
-
 #
 msgid "The add-on '$addon_title|' has been successfully updated."
 msgstr "O extra '$addon_title|' foi actualizado com sucesso."
-
 #
 msgid "Add-ons Installed"
 msgstr "Extras Instalados"
-
 #
 msgid "Add-ons Updated"
 msgstr "Extras Actualizados"
-
 #
 msgid "All add-ons installed successfully."
 msgstr "Todos os extras foram instalados com sucesso."
-
 #
 msgid "All add-ons updated successfully."
 msgstr "Todos os extras foram actualizados com sucesso."
-
 #
 msgid "Installation Failed"
 msgstr "Instalação falhada"
-
 #
 msgid "Update Failed"
 msgstr "Falha na Actualização"
-
 #
 msgid "The following add-on could not be downloaded or installed successfully:"
 msgid_plural ""
 "The following add-ons could not be downloaded or installed successfully:"
 msgstr[0] "O seguinte extra não pode ser carregado ou instalado:"
 msgstr[1] "Os seguintes extras não podem ser carregados ou instalados:"
-
 #
 msgid "An error occurred while downloading the add-ons list from the server."
 msgstr "Um erro ocorreu ao baixar a lista de extras do servidor."
-
 #
 msgid "Network communication error."
 msgstr "Erro de comunicação com a rede."
-
 #
 msgid "Remote host disconnected."
 msgstr "O servidor remoto desconectou-se."
-
 #
 msgid ""
 "A problem occurred when trying to create the files necessary to install this "
 "add-on."
 msgstr ""
 "Houve um problema criando os ficheiros necessários para instalar este extra."
-
 #
 msgid ""
 "A local file with add-on publishing information could not be read.\n"
@@ -4597,21 +3998,17 @@ msgstr ""
 "\n"
 "Ficheiro: $path\n"
 "Mensagem de erro: $msg"
-
 #
 msgid "The add-ons server address specified is not valid."
 msgstr "O endereço do servidor especificado não é válido."
-
 #
 msgid "You have no add-ons installed."
 msgstr "Não tens nenhum Extra instalado."
-
 #
 msgid "Are you sure you want to remove the following installed add-on?"
 msgid_plural "Are you sure you want to remove the following installed add-ons?"
 msgstr[0] "Tens a certeza que desejas remover o extra instalado?"
 msgstr[1] "Tens a certeza que desejas remover os extras instalados?"
-
 #
 msgid ""
 "The following add-on appears to have publishing or version control "
@@ -4625,200 +4022,153 @@ msgstr[0] ""
 msgstr[1] ""
 "Os seguintes extras parecem ter informações de publicação ou controlo de "
 "versão guardados localmente, e não serão removidos:"
-
 #
 msgid "The following add-on could not be deleted properly:"
 msgid_plural "The following add-ons could not be deleted properly:"
 msgstr[0] "O extra não pode ser detectado correctamente:"
 msgstr[1] "Os extras não podem ser detectados correctamente:"
-
 #
 msgid "Add-on Deleted"
 msgid_plural "Add-ons Deleted"
 msgstr[0] "Extra apagado"
 msgstr[1] "Extras apagado"
-
 #
 msgid "The following add-on was successfully deleted:"
 msgid_plural "The following add-ons were successfully deleted:"
 msgstr[0] "O seguintes extra foi removido com sucesso:"
 msgstr[1] "Os seguintes extras foram removidos com sucesso:"
-
 #
 msgid "Attacker"
 msgstr "Atacante"
-
 #
 msgid "Defender"
 msgstr "Defensor"
-
 #
 msgid "Expected Battle Result (HP)"
 msgstr "Resultado Esperado da Batalha (PV)"
-
 #
 msgid "Time of day"
 msgstr "Tempo do dia"
-
 #
 msgid "Leadership"
 msgstr "Liderança"
-
 #
 msgid " resistance vs "
 msgstr " resistência contra "
-
 #
 msgid " vulnerability vs "
 msgstr " vulnerabilidade contra "
-
 #
 msgid "Slowed"
 msgstr "Atrasado"
-
 #
 msgid "Total damage"
 msgstr "Dano total"
-
 #
 msgid "No usable weapon"
 msgstr "Nenhuma arma usável"
-
 #
 msgid "Chance of being unscathed"
 msgstr "Hipótese de sair sem dano"
-
 #
 msgid "Damage Calculations"
 msgstr "Cálculo de Danos"
-
 #
 msgid "Do you really want to dismiss him?"
 msgstr "Queres mesmo despedir-o?"
-
 #
 #. TRANSLATORS: this string ends with a space
 msgid "This unit is loyal and requires no upkeep. "
 msgstr "Esta unidade é leal e não requer mantimento. "
-
 #
 msgid "Do you really want to dismiss her?"
 msgstr "Queres mesmo despedir-a?"
-
 #
 #. TRANSLATORS: this string ends with a space
 msgid "This unit is an experienced one, having advanced levels. "
 msgstr "Esta unidade é experiente, e já passou alguns níveis. "
-
 #
 #. TRANSLATORS: this string ends with a space
 msgid "This unit is close to advancing a level. "
 msgstr "Esta unidade está bem perto de passar de nível. "
-
 #
 msgid "Dismiss Unit"
 msgstr "Demitir unidade"
-
 #
 msgid "Advance Unit"
 msgstr "Avançar a Unidade"
-
 #
 msgid "What should our victorious unit become?"
 msgstr "O que a nossa unidade vitoriosa deverá tornar-se?"
-
 #
 msgid "Moves"
 msgstr "Movimentos"
-
 #
 msgid "Status"
 msgstr "Estado"
-
 #
 msgid "Level^Lvl."
 msgstr "Nv."
-
 #
 msgid "unit list^Traits"
 msgstr "Características"
-
 #
 msgid "Unit List"
 msgstr "Lista de Unidades"
-
 #
 msgid "Scroll To"
 msgstr "Ir Para"
-
 #
 msgid "No objectives available"
 msgstr "Nenhum objectivo disponível"
-
 #
 msgid "Recruit"
 msgstr "Recrutar"
-
 #
 msgid "Select unit:"
 msgstr "Seleccionar unidade:"
-
 #
 msgid "Traits"
 msgstr "Características"
-
 #
 msgid "Recall"
 msgstr "Convocar"
-
 #
 msgid "%a %b %d %H:%M %Y"
 msgstr "%a %b %d %H:%M %Y"
-
 #
 msgid "%a %b %d %I:%M %p %Y"
 msgstr "%a %b %d %I:%M %p %Y"
-
 #
 msgid "#(Invalid)"
 msgstr "#(Invalido)"
-
 #
 msgid "Campaign: $campaign_name"
 msgstr "Campanha: $campaign_name"
-
 #
 msgid "Multiplayer"
 msgstr "Jogo em Rede"
-
 #
 msgid "Tutorial"
 msgstr "Tutorial"
-
 #
 msgid "Test scenario"
 msgstr "Cenário de teste"
-
 #
 msgid "Turn"
 msgstr "Turno"
-
 #
 msgid "Scenario start"
 msgstr "Inicio do Cenário"
-
 #
 msgid "Difficulty: "
 msgstr "Dificuldade: "
-
 #
 msgid "Version: "
 msgstr "Versão: "
-
 #
 msgid "No Saved Games"
 msgstr "Não há partidas guardadas"
-
 #
 msgid ""
 "There are no saved games to load.\n"
@@ -4828,203 +4178,166 @@ msgstr ""
 "Não há partidas guardados para carregar.\n"
 "\n"
 "(As partidas são guardadas automaticamente quando completares um cenário)"
-
 #
 msgid "Date"
 msgstr "Data"
-
 #
 msgid "Load Game"
 msgstr "Carregar Partida Guardada"
-
 #
 msgid "Change difficulty"
 msgstr "Mudar a Dificuldade"
-
 #
 msgid "Change campaign difficulty before loading"
 msgstr "Muda a dificuldade da campanha antes de carregar"
-
 #
 msgid "Show replay"
 msgstr "Mostrar a revisão"
-
 #
 msgid "Play the embedded replay from the saved game if applicable"
 msgstr "Joga uma revisão incluida na partida gravada se aplicável"
-
 #
 msgid "Cancel orders"
 msgstr "Cancelar ordens"
-
 #
 msgid "Cancel any pending unit movements in the saved game"
 msgstr "Cancela qualquer ordem pendente na partida guardada"
-
 #
 msgid "Delete Save"
 msgstr "Apagar partida guardada"
-
 #
 msgid "Profile"
 msgstr "Descrição"
-
 #
 msgid "level"
 msgstr "nível"
-
 #
 msgid "HP: "
 msgstr "PV: "
-
 #
 msgid "XP: "
 msgstr "XP: "
-
 #
 msgid "Moves: "
 msgstr "Movimento: "
-
 #
 msgid "Random"
 msgstr "Aleatório"
-
 #
 msgid "Female ♀"
 msgstr "Feminino ♀"
-
 #
 msgid "Male ♂"
 msgstr "Masculino ♂"
-
 #
 msgid "Only random sides in the current era."
 msgstr "Só equipas aleatórias na era actual."
-
 #
 msgid "Unable to find a leader type for faction $faction"
 msgstr "Não é possível encontrar um líder para a facção $faction"
-
 #
 msgid "Cannot obtain genders for invalid leader $leader"
 msgstr "Não é possível calcular sexo de líder inválido: $leader"
-
 #
 msgid "%H:%M"
 msgstr "%H:%M"
-
 #
 msgid "%I:%M %p"
 msgstr "%I:%M %p"
-
 #
 msgid "%A, %H:%M"
 msgstr "%A, %H:%M"
-
 #
 msgid "%A, %I:%M %p"
 msgstr "%A, %I:%M %p"
-
 #
 msgid "%b %d"
 msgstr "%b %d"
-
+#
 msgid "%b %d %Y"
 msgstr "%d, %b %Y"
-
 #
 msgid "Invalid color range: "
 msgstr "Faixa de cor inválida: "
-
+#
 msgid "Error loading game configuration files. The game will now exit."
 msgstr ""
 "Erro ao carregar ficheiro de configuração do jogo. O Programa irá terminar "
 "agora."
-
 #
 msgid "The following add-on had errors and could not be loaded:"
 msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] "O seguintes extra teve erro e não pode ser carregado:"
 msgstr[1] "O seguintes extras tiveram erros e não podem ser carregados:"
-
+#
 msgid "Please report this to the author or maintainer of this add-on."
 msgid_plural ""
 "Please report this to the respective authors or maintainers of these add-ons."
 msgstr[0] "Por favor reporta isto ao responsável por este extra."
 msgstr[1] "Por favor reporta isto aos responsáveis por estes extras."
-
 #
 msgid "The Battle for Wesnoth"
 msgstr "A Batalha por Wesnoth"
-
 #
 msgid "The file you have tried to load is corrupt"
 msgstr "O ficheiro que tentaste carregar está corrompido"
-
 #
 msgid "The file you have tried to load is corrupt: '"
 msgstr "O ficheiro que tentaste carregar está corrompido:'"
-
 #
 msgid "File I/O Error while reading the game"
 msgstr "Erro de E/S ao ler o jogo"
-
 #
 msgid "File I/O Error while reading the game: '"
 msgstr "Erro de E/S ao ler o jogo: '"
-
+#
+msgid ""
+"This is a multiplayer scenario. Some parts of it may not work properly in "
+"single-player. It is recommended to load this scenario through the "
+"Multiplayer -> Load Game dialog instead."
+msgstr ""
+#
+msgid "Warning"
+msgstr "Aviso"
 #
 msgid "No campaigns are available.\n"
 msgstr "Nenhuma campanha está disponível.\n"
-
 #
 msgid "Error while starting server: "
 msgstr "Erro ao iniciar o servidor: "
-
 #
 msgid "The game could not be loaded: "
 msgstr "Não foi possível guardar a partida: "
-
 #
 msgid "Error while playing the game: "
 msgstr "Ocorreu um erro ao jogar a partida:  "
-
 #
 msgid "The game map could not be loaded: "
 msgstr "O mapa da partida não pôde ser guardado: "
-
 #
 msgid "Chat message"
 msgstr "Mensagens instantânea"
-
 #
 msgid "Turn changed"
 msgstr "Turno mudado"
-
 #
 msgid "Invalid value in the result key for [end_level]"
 msgstr "Valor inválido para [end_level]"
-
 #
 msgid "Error: "
 msgstr "Erro: "
-
 #
 msgid "Warning: "
 msgstr "Aviso: "
-
 #
 msgid "Debug: "
 msgstr "Deburação: "
-
 #
 msgid "Info: "
 msgstr "Info: "
-
 #
 msgid "Random maps with an odd width aren't supported."
 msgstr "Mapas aleatórios com largura ímpar não são suportados."
-
 #
 msgid ""
 "No valid castle location found. Too many or too few mountain hexes? (please "
@@ -5032,149 +4345,113 @@ msgid ""
 msgstr ""
 "Não há uma localização válida para um castelo. Demasiados ou muito poucos "
 "hexágonos de montanha? (verifique o parâmetro 'Tamanho máximo das montanhas')"
-
 #
 msgid "Unknown era: $era_id"
 msgstr "Era desconhecida: $era_id"
-
 #
 msgid "Unknown era"
 msgstr "Era desconhecida"
-
 #
 msgid "Remote scenario"
 msgstr "Cenário remoto"
-
 #
 msgid "Unknown scenario: $scenario_id"
 msgstr "Cenário desconhecido: $scenario_id'"
-
 #
 msgid "Unknown scenario"
 msgstr "Cenário desconhecido"
-
 #
 msgid "Reloaded game"
 msgstr "Partida recarregada"
-
 #
 msgid "Turn "
 msgstr "Turno "
-
 #
 msgid "Vacant Slot:"
 msgid_plural "Vacant Slots:"
 msgstr[0] "Espaço vago:"
 msgstr[1] "Espaços vagos:"
-
 #
 msgid "none"
 msgstr "nada"
-
 #
 msgid "In game:"
 msgstr "A Jogar:"
-
 #
 msgid "(observing)"
 msgstr "(a observar)"
-
 #
 msgid "(playing)"
 msgstr "(a jogar)"
-
 #
 msgid "In lobby"
 msgstr "Na sala"
-
 #
 msgid "On friends list"
 msgstr "Na lista de amigos"
-
 #
 msgid "On ignores list"
 msgstr "Na lista de ignorados"
-
 #
 msgid "Neither a friend nor ignored"
 msgstr "Nem amigo nem ignorado"
-
 #
 msgid "You"
 msgstr "Tu"
-
 #
 msgid "Error"
 msgstr "Erro"
-
 #
 msgid "Quit"
 msgstr "Sair"
-
 #
 msgid "Do you really want to quit?"
 msgstr "Queres realmente sair?"
-
 #
 msgid "Map-Screenshot"
 msgstr "Captura do mapa"
-
 #
 msgid "Screenshot"
 msgstr "Captura do ecrã"
-
 #
 msgid "Screenshot Done"
 msgstr "Fotografia do ecrã tirada"
-
 #
 msgid "The End"
 msgstr "Fim"
-
 #
 msgid "System default language"
 msgstr "Idioma padrão do sistema"
-
 #
 msgid "Leader"
 msgstr "Líder"
-
 #
 msgid "Team"
 msgstr "Equipa"
-
 #
 msgid "Villages"
 msgstr "Aldeias"
-
 #
 msgid "status^Units"
 msgstr "Unidades"
-
 #
 msgid "Upkeep"
 msgstr "Manutenção"
-
 #
 msgid "Income"
 msgstr "Rendimento"
-
 #
 msgid "Current Status"
 msgstr "Estado actual"
-
 #
 msgid "More >"
 msgstr "Mais >"
-
 #
 msgid "scenario settings^Leader"
 msgstr "Líder"
-
 #
 msgid "scenario settings^Side"
 msgstr "Equipa"
-
 #
 msgid ""
 "scenario settings^Start\n"
@@ -5182,7 +4459,6 @@ msgid ""
 msgstr ""
 "Ouro\n"
 "Inicial"
-
 #
 msgid ""
 "scenario settings^Base\n"
@@ -5190,7 +4466,6 @@ msgid ""
 msgstr ""
 "Rendimento\n"
 "Básico"
-
 #
 msgid ""
 "scenario settings^Gold Per\n"
@@ -5198,7 +4473,6 @@ msgid ""
 msgstr ""
 "Imposto\n"
 "Por Aldeia"
-
 #
 msgid ""
 "scenario settings^Support Per\n"
@@ -5206,141 +4480,107 @@ msgid ""
 msgstr ""
 "Suporte\n"
 "Por Aldeia"
-
 #
 msgid "scenario settings^Fog"
 msgstr "Nevoeiro"
-
 #
 msgid "scenario settings^Shroud"
 msgstr "Sombra"
-
 #
 msgid "no"
 msgstr "não"
-
 #
 msgid "yes"
 msgstr "sim"
-
 #
 msgid "Scenario Settings"
 msgstr "Configurações de Cenário"
-
 #
 msgid " < Back"
 msgstr " < Voltar"
-
 #
 msgid "Initializing user interface"
 msgstr "A iniciar a interface do usuário"
-
 #
 msgid "Loading game configuration"
 msgstr "A carregar as configurações do jogo"
-
 #
 msgid "Verifying cache"
 msgstr "A verificar cache"
-
 #
 msgid "Reading files and creating cache"
 msgstr "A ler os ficheiros e criar cache"
-
 #
 msgid "Reading unit files"
 msgstr "A ler os ficheiros das unidades"
-
 #
 msgid "Reinitialize fonts for the current language"
 msgstr "A reiniciar o tipo de letra para o idioma actual"
-
 #
 msgid "Searching for installed add-ons"
 msgstr "A procurar por extras instalados"
-
 #
 msgid "Loading title screen"
 msgstr "A carregar o ecrã principal"
-
 #
 msgid "Loading data files"
 msgstr "A carregar os ficheiros de dados"
-
 #
 msgid "Loading level"
 msgstr "A carregar nível"
-
 #
 msgid "Initializing teams"
 msgstr "A inicializar equipas"
-
 #
 msgid "Loading units"
 msgstr "A carregar unidades"
-
 #
 msgid "Initializing display"
 msgstr "A inicializar a visualização"
-
 #
 msgid "Building terrain rules"
 msgstr "A construir regras de terreno"
-
 #
 msgid "Starting game"
 msgstr "A iniciar a partida"
-
 #
 msgid "Statistics"
 msgstr "Estatísticas"
-
 #
 msgid "Save the Map As"
 msgstr "Guardar o mapa como"
-
 #
 msgid "The map already exists. Do you want to overwrite it?"
 msgstr "O mapa já existe. Queres sobrescrever-lo?"
-
 #
 msgid "Map saved."
 msgstr "Mapa guardado."
-
 #
 msgid "Could not save the map: $msg"
 msgstr "Não é possível gravar o mapa: $msg"
-
 #
 msgid "Message:"
 msgstr "Mensagem:"
-
 #
 msgid "Send to allies only"
 msgstr "Enviar apenas para aliados"
-
 #
 msgid "Send to observers only"
 msgstr "Enviar apenas para observadores"
-
 #
 msgid "unit^Gold"
 msgid_plural "Gold"
 msgstr[0] "Ouro"
 msgstr[1] "Ouro"
-
 #
 msgid "You have no units available to recruit."
 msgstr "Não tens unidades disponíveis para recrutar."
-
 #
 msgid "You don’t have enough gold to recruit that unit"
 msgstr "Não tens ouro suficiente para recrutar esta unidade"
-
 #
 msgid "You are separated from your soldiers and may not recall them"
 msgstr "Estás separado dos teus soldados e não podes convocá-los"
-
 #
 msgid ""
 "There are no troops available to recall\n"
@@ -5348,68 +4588,53 @@ msgid ""
 msgstr ""
 "Não tens tropas para convocar\n"
 "(É necessário que tropas tenham sobrevivido num cenário anterior)"
-
 #
 msgid "You currently can't recall at the highlighted location"
 msgstr "Não podes convocar neste momento na localização seleccionada"
-
 #
 msgid "You must have at least 1 gold piece to recall a unit"
 msgid_plural "You must have at least $cost gold pieces to recall a unit"
 msgstr[0] "Tens de ter pelo menos uma moeda de ouro para convocar a unidade"
 msgstr[1] "Tens de ter pelo menos $cost moedas de ouro para convocar a unidade"
-
 #
 msgid "You cannot end your turn yet!"
 msgstr "Ainda não podes terminar o teu turno!"
-
 #
 msgid ""
 "You have not started your turn yet. Do you really want to end your turn?"
 msgstr "Ainda não começaste o teu turno. Queres realmente terminá-lo?"
-
 #
 msgid "Some units have movement left. Do you really want to end your turn?"
 msgstr ""
 "Algumas unidades ainda se podem mover. Queres realmente terminar o teu turno?"
-
 #
 msgid "Some units have not moved. Do you really want to end your turn?"
 msgstr ""
 "Algumas unidades ainda não se moveram. Queres realmente terminar o teu turno?"
-
 #
 msgid "Rename Unit"
 msgstr "Renomear unidade"
-
 #
 msgid "Name:"
 msgstr "Nome:"
-
 #
 msgid "Race"
 msgstr "Raça"
-
 #
 msgid "Create Unit (Debug!)"
 msgstr "Criar Unidade (Modo de Deburação!)"
-
 #
 msgid "Gender: "
 msgstr "Sexo: "
-
 #
 msgid "gender^Random"
 msgstr "Aleatório"
-
 #
 msgid "Search"
 msgstr "Procurar"
-
 #
 msgid "This command is currently unavailable."
 msgstr "Este comando está actualmente indisponível."
-
 #
 msgid ""
 "Unknown command '$command', try $help_command for a list of available "
@@ -5417,7 +4642,6 @@ msgid ""
 msgstr ""
 "Comando '$command|' desconhecido, tenta $help_command para uma lista de "
 "comandos disponíveis."
-
 #
 msgid ""
 "Available commands list and command-specific help. Use \"help all\" to "
@@ -5425,19 +4649,15 @@ msgid ""
 msgstr ""
 "Lista de comandos disponíveis e ajuda específica dos comandos. Usa “help "
 "all” para incluir comandos actualmente indisponíveis."
-
 #
 msgid "do not translate the 'all'^[all|<command>]"
 msgstr "[all|<command>]"
-
 #
 msgid "Error:"
 msgstr "Erro:"
-
 #
 msgid "Missing argument $arg_id"
 msgstr "Argumento em falta $arg_id"
-
 #
 msgid ""
 "Available commands $flags_description:\n"
@@ -5445,35 +4665,27 @@ msgid ""
 msgstr ""
 "Comandos disponíveis $flags_description:\n"
 "$list_of_commands"
-
 #
 msgid "help"
 msgstr "ajuda"
-
 #
 msgid "Type $help_command <command> for more info."
 msgstr "Escreva $help_command <comando> para mais informações."
-
 #
 msgid " No help available."
 msgstr " Nenhuma ajuda disponível."
-
 #
 msgid "Usage:"
 msgstr "Uso:"
-
 #
 msgid "aliases:"
 msgstr "atalhos:"
-
 #
 msgid "(A) — admin command"
 msgstr "(A) — comando administrativo"
-
 #
 msgid "(admin only)"
 msgstr "(só administrador)"
-
 #
 msgid ""
 "Send a query to the server. Without arguments the server should tell you the "
@@ -5481,7 +4693,6 @@ msgid ""
 msgstr ""
 "Mandar uma ordem ao servidor. Sem argumentos, o servidor irá mostrar-te os "
 "comandos disponíveis."
-
 #
 msgid ""
 "Ban and kick a player or observer. If he is not in the game but on the "
@@ -5489,33 +4700,26 @@ msgid ""
 msgstr ""
 "Banir ou expulsar um jogador ou observador. Se ele não estiver na tua "
 "partida mas no servidor só irá ser banido."
-
 #
 msgid "<nickname>"
 msgstr "<alcunha>"
-
 #
 msgid "Unban a user. He does not have to be in the game but on the server."
 msgstr ""
 "Readmitir um utilizador. Não precisará de estar numa partida, mas no "
 "servidor."
-
 #
 msgid "Kick a player or observer."
 msgstr "Expulsar um jogador ou observador."
-
 #
 msgid "Mute an observer. Without an argument displays the mute status."
 msgstr "Calar um observador. Sem argumentos mostra o estado da conversa."
-
 #
 msgid "Unmute an observer. Without an argument unmutes everyone."
 msgstr "Permitir a fala a um observador. Sem argumentos permita a todos."
-
 #
 msgid "Mute/Unmute all observers. (toggles)"
 msgstr "Silenciar/Remover todos os observadores. (alternar)"
-
 #
 msgid ""
 "Report abuse, rule violations, etc. to the server moderators. Make sure to "
@@ -5523,15 +4727,12 @@ msgid ""
 msgstr ""
 "Denuncia abusos, violação de regras, etc, para os moderadores do servidor. "
 "Certifica-te de mencionar alcunhas relevantes, etc."
-
 #
 msgid "<message>"
 msgstr "<mensagem>"
-
 #
 msgid "Send an emotion or personal action in chat."
 msgstr "Envia uma acção ou emoção no chat."
-
 #
 msgid ""
 "Sends a private message. You cannot send private messages to players in a "
@@ -5539,192 +4740,156 @@ msgid ""
 msgstr ""
 "Envia uma mensagem privada. Não podes enviar mensagens à jogadores que não "
 "controlam qualquer lado na partida em que estás."
-
 #
 msgid "<nickname> <message>"
 msgstr "<alcunha> <mensagem>"
-
 #
 msgid "<level> <domain>"
 msgstr "<nível> <domínio>"
-
 #
 msgid "Change the log level of a log domain."
 msgstr "Muda o nível de log de um domínio de log."
-
 #
 msgid "Add a nickname to your ignores list."
 msgstr "Adicionar um nome a tua lista de ignorados."
-
 #
 msgid "Add a nickname to your friends list."
 msgstr "Adicionar um nome à lista de amigos."
-
 #
 msgid "Remove a nickname from your ignores or friends list."
 msgstr "Remova um nome da tua lista de ignorados ou de amigos."
-
 #
 msgid "Show your ignores and friends list."
 msgstr "Mostra a tua lista de ignorados e amigos."
-
 #
 msgid "Display version information."
 msgstr "Mostra informação da versão."
-
 #
 msgid "<password> <email (optional)>"
 msgstr "<password> <email (opcional)>"
-
 #
 msgid "Register your nickname"
 msgstr "Regista o teu usuário"
-
 #
 msgid "Drop your nickname."
 msgstr "Descartar o teu nome registado."
-
 #
 msgid "Update details for your nickname. For possible details see '/details'."
 msgstr ""
 "Actualizar detalhes do teu usuário. Para detalhes possíveis veja '/details'."
-
 #
 msgid "<detail> <value>"
 msgstr "<detalhe> <valor>"
-
 #
 msgid "Request information about a nickname."
 msgstr "Requisitar informação sobre o nick."
-
 #
 msgid "Request a list of details you can set for your registered nickname."
 msgstr ""
 "Requerer uma lista de detalhes que podes definir ao teu nome registado."
-
 #
 msgid "<room>"
 msgstr "<sala>"
-
 #
 msgid "Join a room."
 msgstr "Entrar na sala."
-
 #
 msgid "Part a room."
 msgstr "Abandonar uma sala."
-
 #
 msgid "List room members."
 msgstr "Lista de Membros da Sala."
-
 #
 msgid "List available rooms."
 msgstr "Lista de salas disponíveis."
-
 #
 msgid "<room> <msg>"
 msgstr "<sala> <mensagem>"
-
 #
 msgid "Room message."
 msgstr "Mensagens na sala."
-
 #
 msgid "<room> <type> [value]"
 msgstr "<sala> <tipo> [valor]"
-
 #
 msgid "Room query."
 msgstr "Lista de espera."
-
 #
 msgid "(D) — debug only, (N) — network only, (A) — admin only"
 msgstr ""
 "(D) — somente no modo de depuração, (N) — somente em rede, (A) — somente "
 "administrador"
-
 #
 msgid "(debug command)"
 msgstr "(comando de depuração)"
-
 #
 msgid "(network only)"
 msgstr "(só rede)"
-
 #
 msgid "Refresh gui."
 msgstr "Actualizar janela."
-
 #
 msgid "Switch a side to/from AI control."
 msgstr "Muda o lado de/para controlo IA."
-
 #
 msgid "do not translate the on/off^[<side> [on/off]]"
 msgstr "[<equipa> [on/off]]"
-
+#
+#, fuzzy
+msgid "Switch a side to/from idle state."
+msgstr "Muda o lado de/para controlo IA."
 #
 msgid "<side> <nickname>"
 msgstr "<equipa> <alcunha>"
-
 #
 msgid "Assign control of a side to a different player or observer."
 msgstr ""
 "Atribuir o controlo de um lado para um jogador diferente ou um observador."
-
+#
+msgid "<side>"
+msgstr ""
+#
+msgid "Query the controller status of a side."
+msgstr ""
 #
 msgid "Clear chat history."
 msgstr "Limpa o histórico das mensagens."
-
 #
 msgid "Visualize the screen refresh procedure."
 msgstr "Visualiza o procedimento de actualização do ecrã."
-
 #
 msgid "Debug foreground terrain."
 msgstr "Depurar terreno de primeiro plano."
-
 #
 msgid "Debug layers from terrain under the mouse."
 msgstr "Depurar camadas de terrenos sob o rato."
-
 #
 msgid "Show fps."
 msgstr "Mostrar FPS (frames por segundo)."
-
 #
 msgid "Save game."
 msgstr "Guardar Partida."
-
 #
 msgid "Quit game."
 msgstr "Sair da Partida."
-
 #
 msgid "Save and quit."
 msgstr "Guardar e sair."
-
 #
 msgid "Ignore replay errors."
 msgstr "Ignorar erros da revisão."
-
 #
 msgid "Disable autosaves."
 msgstr "Desabilitar guardações automáticas."
-
 #
 msgid "<id>"
 msgstr "<id>"
-
 #
 msgid "Advance to the next scenario, or scenario identified by 'id'"
 msgstr "Avançar para o próximo cenário, ou cenário identificado pela 'id'"
-
 #
 msgid "Choose next scenario"
 msgstr "Escolha o próximo cenário"
-
 #
 msgid ""
 "Change turn number (and time of day), or increase by one if no number is "
@@ -5732,11 +4897,9 @@ msgid ""
 msgstr ""
 "Muda número do turno (e período do dia), ou aumenta em um no caso de não ser "
 "especificado o número."
-
 #
 msgid "[turn]"
 msgstr "[turno]"
-
 #
 msgid ""
 "Change turn limit, or turn the turn limit off if no number is specified or "
@@ -5744,256 +4907,208 @@ msgid ""
 msgstr ""
 "Muda o limite de turnos, ou tira o limite caso número não seja passado (ou "
 "seja passado—1)."
-
 #
 msgid "[limit]"
 msgstr "[limite]"
-
 #
 msgid "Turn debug mode on."
 msgstr "Activa o modo de depuração."
-
 #
 msgid "Turn debug mode off."
 msgstr "Desactiva o modo de depuração."
-
 #
 msgid "<command>[;<command>...]"
 msgstr "<comando>[;<comando>...]"
-
 #
 msgid "Execute a Lua statement."
 msgstr "Executa um elemento Lua."
-
 #
 msgid "Grant higher privileges to Lua scripts."
 msgstr "Conceda altos privilégios a scripts Lua."
-
 #
 msgid "Set the command used by the custom command hotkey"
 msgstr ""
 "Estabelece o comando usado pela tecla de atalho de comando personalizado"
-
 #
 msgid "Invoke a dialog allowing changing control of MP sides."
 msgstr "Abre um diálogo que permite alterar o controlo das equipas."
-
 #
 msgid "Launch the gamestate inspector"
 msgstr "Inicia o inspector do jogo"
-
 #
 msgid "Manage persistence data"
 msgstr "Referenciar dados persistentes"
-
 #
 msgid "<name>[=<command>]"
 msgstr "<nome>[=<comando>]"
-
 #
 msgid "Set or show alias to a command"
 msgstr "Define ou exibe um atalho para um comando"
-
 #
 msgid "<var>=<value>"
 msgstr "<var>=<valor>"
-
 #
 msgid "Set a scenario variable."
 msgstr "Define uma variável do jogo."
-
 #
 msgid "<var>"
 msgstr "<var>"
-
 #
 msgid "Show a scenario variable."
 msgstr "Mostra uma variável do cenário."
-
 #
 msgid "Modify a unit variable. (Only top level keys are supported.)"
 msgstr ""
 "Modifica uma variável de unidade. (Somente chaves de primeiro nível são "
 "suportadas.)"
-
 #
 msgid "Discover all units in help."
 msgstr "Descobre todas as unidades na ajuda."
-
 #
 msgid "'Undiscover' all units in help."
 msgstr "'Oculta' todas as unidades na ajuda."
-
 #
 msgid "Create a unit."
 msgstr "Criar uma unidade."
-
 #
 msgid "Toggle fog for the current player."
 msgstr "Liga/Desliga o Nevoeiro para o jogador actual."
-
 #
 msgid "Toggle shroud for the current player."
 msgstr "Liga/Desliga a Sombra para o jogador actual."
-
 #
 msgid "Give gold to the current player."
 msgstr "Oferecer ouro para o jogador actual."
-
 #
 msgid "Fire a game event."
 msgstr "Disparar um evento do jogo."
-
 #
 msgid "Toggle overlaying of x,y coordinates on hexes."
 msgstr "Liga/desliga exibição das coordenadas sobre os hexágonos."
-
 #
 msgid "Toggle overlaying of terrain codes on hexes."
 msgstr "Liga/desliga a exibição dos códigos de terreno nos hexágonos."
-
 #
 msgid "Toggle planning mode."
 msgstr "Activar o modo de planificação."
-
 #
 msgid "Access whiteboard options dialog."
 msgstr "Acesa o diálogo de opções do modo de planificação."
-
 #
 msgid "Unknown debug level: '$level'."
 msgstr "Nível de depuração desconhecido: '$level'."
-
 #
 msgid "error"
 msgstr "erro"
-
 #
 msgid "Unknown debug domain: '$domain'."
 msgstr "Domínio de depuração desconhecido: '$domain'."
-
 #
 msgid "Switched domain: '$domain' to level: '$level'."
 msgstr "Alterado domínio '$domain' para nível: '$level'."
-
 #
 msgid "whisper to $receiver"
 msgstr "sussurrar a $receiver"
-
 #
 msgid "whisper: $sender"
 msgstr "sussurro: $sender"
-
 #
 msgid "(empty)"
 msgstr "(vago)"
-
 #
 msgid "ignores list"
 msgstr "lista de ignorados"
-
 #
 msgid "Added to ignore list: $nick"
 msgstr "Adicionado a lista de ignorados: $nick"
-
 #
 msgid "Invalid username: $nick"
 msgstr "Nome de utilizador inválido: $nick"
-
 #
 msgid "friends list"
 msgstr "lista dos amigos"
-
 #
 msgid "Added to friends list: $nick"
 msgstr "Adicionado à lista de amigos: $nick"
-
 #
 msgid "Removed from list: $nick"
 msgstr "Removido da lista: $nick"
-
 #
 msgid "friends and ignores list"
 msgstr "Lista de amigos e ignorados"
-
 #
 msgid "There are no players on your friends or ignore list."
 msgstr "Não há jogadores na tua lista de amigos ou de ignorados."
-
 #
 msgid "version"
 msgstr "versão"
-
 #
 msgid "registering with password *** and no email address"
 msgstr "a registar com a senha *** e nenhum endereço de email"
-
 #
 msgid "registering with password *** and email address $email"
 msgstr "a registar com a senha *** e o endereço de email $email"
-
 #
 msgid "nick registration"
 msgstr "Registo de usuário"
-
 #
 msgid "dropping your username"
 msgstr "a descartar o teu nome de usuário"
-
 #
 msgid "setting $var to $value"
 msgstr "a definir $var para $value"
-
 #
 msgid "requesting information for user $nick"
 msgstr "a requisitar informações do usuário $nick"
-
 #
 msgid "Could not find label or unit containing the string ‘$search’."
 msgstr "Não é possível encontrar uma legenda ou unidade contendo '$search'."
-
 #
 msgid "Can't droid invalid side: '$side'."
 msgstr "Não é possível automatizar equipa: '$side| é inválido."
-
 #
 msgid "Can't droid networked side: '$side'."
 msgstr "Não é possível automatizar equipa em rede: '$side| é inválido."
-
+#
+#, fuzzy
+msgid "Can't idle invalid side: '$side'."
+msgstr "Não é possível automatizar equipa: '$side| é inválido."
 #
 msgid "Can't change control of invalid side: '$side'."
 msgstr "Não é possível alterar o controlo da equipa: '$side' é invalido."
-
 #
 msgid "Can't change control of out-of-bounds side: '$side'."
 msgstr ""
 "Não é possível alterar o controlo da equipa fora dos limites: '$side' é "
 "invalido."
-
+#
+#, fuzzy
+msgid "Can't query control of invalid side: '$side'."
+msgstr "Não é possível alterar o controlo da equipa: '$side' é invalido."
+#
+#, fuzzy
+msgid "Can't query control of out-of-bounds side: '$side'."
+msgstr ""
+"Não é possível alterar o controlo da equipa fora dos limites: '$side' é "
+"invalido."
 #
 msgid "Layers"
 msgstr "Camadas"
-
 #
 msgid "Choose Scenario (Debug!)"
 msgstr "Escolher cenário (Modo de Depuração!)"
-
 #
 msgid "Debug mode activated!"
 msgstr "Modo de depuração activado!"
-
 #
 msgid "Debug mode not available in network games"
 msgstr "Modo de depuração não está disponível nos jogos em rede"
-
 #
 msgid "Debug mode deactivated!"
 msgstr "Modo de depuração desactivado!"
-
 #
 msgid "Unsafe Lua scripts."
 msgstr "Scripts Lua não-seguros."
-
 #
 msgid ""
 "You are about to open a security breach in Wesnoth. Are you sure you want to "
@@ -6003,15 +5118,12 @@ msgstr ""
 "Estás prestes a abrir uma brecha de segurança em Wesnoth. Tens a certeza que "
 "queres continuar? Se baixaste extras, NÃO clique em 'ok'! Podem "
 "instantaneamente tomar o controlo do teu computador. Foste avisado."
-
 #
 msgid "Unsafe mode enabled!"
 msgstr "Modo não-seguro activado!"
-
 #
 msgid "Variable not found"
 msgstr "Variável não encontrada"
-
 #
 msgid ""
 "Invalid alignment: '$alignment', needs to be one of lawful, neutral, "
@@ -6019,35 +5131,27 @@ msgid ""
 msgstr ""
 "Alinhamento inválido: '$alignment', tem de ser um de diurno, neutro, "
 "nocturno ou liminar."
-
 #
 msgid "Do you wish to clear all of your discovered units from help?"
 msgstr "Desejas limpar todas as suas unidades descobertas da ajuda?"
-
 #
 msgid "Invalid unit type"
 msgstr "tipo de unidade inválido"
-
 #
 msgid "Invalid location"
 msgstr "localização inválida"
-
 #
 msgid "Planning mode activated!"
 msgstr "Modo de planificação activado!"
-
 #
 msgid "Planning mode deactivated!"
 msgstr "Modo de planificação desactivado!"
-
 #
 msgid "ai"
 msgstr "ia"
-
 #
 msgid "prompt^Command:"
 msgstr "Comando:"
-
 #
 msgid ""
 "You cannot move your leader away from the keep with some planned recruits or "
@@ -6055,35 +5159,27 @@ msgid ""
 msgstr ""
 "Não podes mover o teu líder longe da tua torre com alguns recrutamentos ou "
 "convocatórias planeados restantes."
-
 #
 msgid "Attack Enemy"
 msgstr "Atacar Inimigo"
-
 #
 msgid "Choose weapon:"
 msgstr "Escolha a arma:"
-
 #
 msgid "Failed to resolve dependencies"
 msgstr "Não foi possível resolver as dependências"
-
 #
 msgid "Scenario can't be activated. Some dependencies are missing: "
 msgstr "O cenário não pode ser activado. Algumas dependências ainda faltam: "
-
 #
 msgid "No compatible eras found."
 msgstr "Nenhumas eras compatíveis encontradas."
-
 #
 msgid "Era can't be activated. Some dependencies are missing: "
 msgstr "A era não pode ser activada. Algumas dependências ainda faltam: "
-
 #
 msgid "No compatible scenarios found."
 msgstr "Nenhuns cenários compatíveis encontrados."
-
 #
 msgid ""
 "Not all of the chosen modifications are compatible. Some of them will be "
@@ -6091,38 +5187,30 @@ msgid ""
 msgstr ""
 "Nem todos as modificações escolhidas estão compatíveis. Algumas irão ser "
 "indisponíveis."
-
 #
 msgid "Cannot find era $era"
 msgstr "Não é possível encontrar a era $era"
-
 #
 msgid "Defeat enemy leader(s)"
 msgstr "Derrota o(s) líder(es) inimigo(s)"
-
 #
 msgid "Connection timed out"
 msgstr "Conectividade expirada"
-
 #
 msgid "Connecting to Server..."
 msgstr "A ligar ao servidor..."
-
 #
 msgid "Reading from Server..."
 msgstr "A ler do servidor..."
-
 #
 msgid ""
 "The server accepts versions '$version1' while you are using version "
 "'$version2'"
 msgstr ""
 "O servidor aceita a versão '$version1' enquanto tens a versão '$version2'"
-
 #
 msgid "Server-side redirect loop"
 msgstr "Redireccionamento em loop do servidor"
-
 #
 msgid ""
 "The nickname ‘$nick’ is inactive. You cannot claim ownership of this "
@@ -6132,27 +5220,18 @@ msgstr ""
 "A alcunha '$nick' está inactiva. Não podes pedir a posse deste nome até "
 "activar a tua conta via email ou solicitar a um administrador para fazer "
 "isto."
-
 #
 msgid "Do you want to continue?"
 msgstr "Queres continuar?"
-
-#
-msgid "Warning"
-msgstr "Aviso"
-
 #
 msgid "Bad data received from server"
 msgstr "Dados corrompidos recebidos do servidor"
-
 #
 msgid "You must login first."
 msgstr "Tens de te registar primeiro."
-
 #
 msgid "The nickname ‘$nick’ is already taken."
 msgstr "O usuário '$nick' já é usado."
-
 #
 msgid ""
 "The nickname ‘$nick’ contains invalid characters. Only alpha-numeric "
@@ -6160,29 +5239,23 @@ msgid ""
 msgstr ""
 "A alcunha '$nick' contem caracteres inválidos. Só caracteres numéricos, "
 "linhas e hífenes são permitidos."
-
 #
 msgid "The nickname ‘$nick’ is too long. Nicks must be 20 characters or less."
 msgstr ""
 "A alcunha '$nick' é muito grande. Alcunhas devem conter 20 ou menos "
 "caracteres."
-
 #
 msgid "The nickname ‘$nick’ is reserved and cannot be used by players."
 msgstr "A alcunha '$nick' é reservado e não pode ser usado por jogadores."
-
 #
 msgid "The nickname ‘$nick’ is not registered on this server."
 msgstr "A alcunha '$nick' não está registado neste servidor."
-
 #
 msgid " This server disallows unregistered nicknames."
 msgstr " Este servidor não autoriza usuários não registados."
-
 #
 msgid "The nickname ‘$nick’ is registered on this server."
 msgstr "A alcunha '$nick' está registado neste servidor."
-
 #
 msgid ""
 "WARNING: There is already a client using this nickname, logging in will "
@@ -6190,304 +5263,230 @@ msgid ""
 msgstr ""
 "AVISO: Já há um cliente a usar este nome, entrar irá causar a este cliente a "
 "ser expulso!"
-
 #
 msgid ""
 "Error in the login procedure (the server had no seed for your connection)."
 msgstr ""
 "Erro no procedimento de login (o servidor não tem uma 'seed' para a tua "
 "conexão)."
-
 #
 msgid "The password you provided was incorrect."
 msgstr "A senha que forneceste foi incorrecta."
-
 #
 msgid "You have made too many login attempts."
 msgstr "Fizeste demasiadas tentativas de 'login'."
-
 #
 msgid "Configure Game"
 msgstr "Configurar Partida"
-
 #
 msgid "Time limit"
 msgstr "Limite de tempo"
-
 #
 msgid "Generic"
 msgstr "Genérico"
-
 #
 msgid "Name of game:"
 msgstr "Nome da partida:"
-
 #
 msgid "Use map settings"
 msgstr "Usar a configuração do mapa"
-
 #
 msgid "Random start time"
 msgstr "Tempo inicial aleatório"
-
 #
 msgid "Fog of war"
 msgstr "Nevoeiro de Guerra"
-
 #
 msgid "Observers"
 msgstr "Observadores"
-
 #
 msgid "Shuffle sides"
 msgstr "Embaralhar equipas"
-
 #
 msgid "Set Password..."
 msgstr "Definir Senha..."
-
 #
 msgid "Select an entry point:"
 msgstr "Seleccionar ponto de partida:"
-
 #
 msgid "The maximum number of turns the game can last"
 msgstr "Número máximo de turnos da partida"
-
 #
 msgid "Enables user time limit"
 msgstr "Liga o limite de tempo"
-
 #
 msgid "Longest time allowed for first turn (seconds)"
 msgstr "Tempo máximo permitido para o primeiro turno (em segundos)"
-
 #
 msgid "Longest time possible for any turn (seconds)"
 msgstr "Tempo máximo permitido para qualquer turno (em segundos)"
-
 #
 msgid "Time for general tasks each turn (seconds)"
 msgstr "Tempo para tarefas genéricas em cada turno (em segundos)"
-
 #
 msgid "Time for each attack, recruit, and capture"
 msgstr "Tempo para cada ataque, recrutamento, e captura"
-
 #
 msgid "The amount of income each village yields per turn"
 msgstr "Quantidade de rendimento que cada aldeia gera por turno"
-
 #
 msgid "The number of unit levels each village can support"
 msgstr "O número de níveis de unidades que cada aldeia suporta"
-
 #
 msgid "The amount of experience a unit needs to advance"
 msgstr "Quantidade de experiência necessária para passar de nível"
-
 #
 msgid "Use scenario specific settings"
 msgstr "Usa as configurações específicas do cenário"
-
 #
 msgid "Randomize time of day in begin"
 msgstr "O tempo no inicio da partida fica aleatório"
-
 #
 msgid "Enemy units cannot be seen unless they are in range of your units"
 msgstr ""
 "Unidades inimigas não podem ser vistas se não estiverem no alcance das tuas "
 "unidades"
-
 #
 msgid "The map is unknown until your units explore it"
 msgstr "O mapa é desconhecido até que as tuas unidades o exploram"
-
 #
 msgid "Allow users who are not playing to watch the game"
 msgstr "Permite a utilizadores que não estão a jogar observar a partida"
-
 #
 msgid "Assign sides to players at random"
 msgstr "Atribuir os lados para os jogadores de forma aleatória"
-
 #
 msgid "Share View"
 msgstr "Dividir a visão"
-
 #
 msgid "Share Maps"
 msgstr "Dividir mapas"
-
 #
 msgid "Share None"
 msgstr "Não dividir nada"
-
 #
 msgid "$login|’s game"
 msgstr "A partida de $login|"
-
 #
 msgid "You must enter a name."
 msgstr "Deves inserir um nome."
-
 #
 msgid "Turns: "
 msgstr "Turnos: "
-
 #
 msgid "Unlimited turns"
 msgstr "Turnos ilimitados"
-
 #
 msgid "Init. limit: "
 msgstr "Lim. Inic.: "
-
 #
 msgid "Turn bonus: "
 msgstr "Bónus por Turno: "
-
 #
 msgid "Reservoir: "
 msgstr "Reservatório: "
-
 #
 msgid "Action bonus: "
 msgstr "Bónus de Acção: "
-
 #
 msgid "Village gold: "
 msgstr "Ouro das Aldeias: "
-
 #
 msgid "Village support: "
 msgstr "Suporte das Aldeias: "
-
 #
 msgid "Experience modifier: "
 msgstr "Modificador de Experiência: "
-
 #
 msgid "Normal"
 msgstr "Normal"
-
 #
 msgid "("
 msgstr "("
-
 #
 msgid ")"
 msgstr ")"
-
 #
 msgid "+"
 msgstr "+"
-
 #
 msgid "Game Lobby: "
 msgstr "Sala de espera: "
-
 #
 msgid "Player/Type"
 msgstr "Jogador/Tipo"
-
 #
 msgid "Faction/Name"
 msgstr "Facção/Nome"
-
 #
 msgid "Leader/Gender"
 msgstr "Líder/Sexo"
-
 #
 msgid "Team/Color"
 msgstr "Equipa/Cor"
-
 #
 msgid "I’m Ready"
 msgstr "Estou pronto"
-
 #
 msgid "The scenario is invalid because it has no id."
 msgstr "O cenário é inválido porque não tem identificação (id)."
-
 #
 msgid "The scenario is invalid because it has no sides."
 msgstr "O cenário é inválido porque não tem equipas."
-
 #
 msgid "Waiting for players to join..."
 msgstr "A esperar por outros jogadores em ligar-se..."
-
 #
 msgid "Waiting for players to choose factions..."
 msgstr "A esperar pelos outros jogadores escolher as suas facções..."
-
 #
 msgid "(Vacant slot)"
 msgstr "(Espaço vago)"
-
 #
 msgid "Anonymous local player"
 msgstr "Jogador local anónimo"
-
 #
 msgid "Computer Player"
 msgstr "Computador"
-
 #
 msgid "$playername $side"
 msgstr "$playername $side"
-
 #
 msgid "(Empty slot)"
 msgstr "(Espaço vago)"
-
 #
 msgid "(Reserved for $playername)"
 msgstr "(Reservado para $playername)"
-
 #
 msgid "Network Player"
 msgstr "Jogador Remoto"
-
 #
 msgid "Local Player"
 msgstr "Jogador Local"
-
 #
 msgid "Empty"
 msgstr "Vago"
-
 #
 msgid "Reserved"
 msgstr "Reservado"
-
 #
 msgid "--give--"
 msgstr "--ceder--"
-
 #
 msgid "Create Game"
 msgstr "Criar Partida"
-
 #
 msgid "Filter:"
 msgstr "Filtro: "
-
 #
 msgid "Number of players: any"
 msgstr "Numero de jogadores: qualquer"
-
 #
 msgid "Random map options:"
 msgstr "Opções do mapa aleatório:"
-
 #
 msgid "Era:"
 msgstr "Era:"
-
 #
 msgid ""
 "No eras available\n"
@@ -6495,58 +5494,48 @@ msgid ""
 msgstr ""
 "Não existem eras disponíveis\n"
 "para esta partida"
-
 #
 msgid "Modifications:"
 msgstr "Modificações:"
-
 #
 msgid "Next"
 msgstr "Próximo"
-
 #
 msgid "Regenerate"
 msgstr "Regeneração"
-
 #
 msgid "Settings..."
 msgstr "Configurações..."
-
 #
 msgid "Load Game..."
 msgstr "Carregar Partida..."
-
 #
 msgid "Activate"
 msgstr "Activar"
-
+#
 msgid "Scenarios"
 msgstr "Cenários"
-
+#
 msgid "Campaigns"
 msgstr "Campanhas"
-
+#
 msgid "User Maps"
 msgstr "Mapas da comunidade"
-
+#
 msgid "User Scenarios"
 msgstr "Cenários da comunidade"
-
+#
 msgid "Random Maps"
 msgstr "Mapas Aleatórios"
-
 #
 msgid "No games found."
 msgstr "Nenhuma partida encontrada."
-
 #
 msgid "No eras found."
 msgstr "Nenhuma Era encontrada."
-
 #
 msgid "No eras found"
 msgstr "Nenhuma Era encontrada"
-
 #
 msgid ""
 "Modifications:\n"
@@ -6554,119 +5543,97 @@ msgid ""
 msgstr ""
 "Modificações:\n"
 "Nenhuma encontrada."
-
 #
 msgid "Deactivate"
 msgstr "desactivar"
-
 #
 msgid "The level is invalid."
 msgstr "Este nível é inválido"
-
 #
 msgid "Players: "
 msgstr "Jogadores: "
-
 #
 msgid "Size: "
 msgstr "Tamanho: "
-
 #
 msgid "Number of players: "
 msgstr "Número de jogadores:"
-
 #
 msgid "No description available."
 msgstr "Descrição não disponível."
-
 #
 msgid "Map could not be loaded: "
 msgstr "Não foi possível carregar o mapa:"
-
 #
 msgid "Map could not be loaded."
 msgstr "Não foi possível carregar o mapa."
-
 #
 msgid "not available."
 msgstr "Não disponível."
-
 #
 msgid "User made map"
 msgstr "Mapa feito pela comunidade"
-
 #
 msgid "--no games open--"
 msgstr "--não há partidas iniciadas--"
-
 #
 msgid " (Unknown Era)"
 msgstr " (Era Desconhecida)"
-
 #
 msgid "Scenario:"
 msgstr "Cenário:"
-
 #
 msgid "Campaign:"
 msgstr "Campanha:"
-
 #
 msgid "Unknown campaign: $campaign_id"
 msgstr "Campanha desconhecida: $campaign_id"
-
 #
 msgid " (missing)"
 msgstr " (em falta)"
-
 #
 msgid "Password Required"
 msgstr "Senha Requerida"
-
 #
 msgid "Game Lobby"
 msgstr "Sala de espera"
-
 #
 msgid "Observe Game"
 msgstr "Observar a partida"
-
 #
 msgid "Join Game"
 msgstr "Juntar-se a partida"
-
 #
 msgid "Quick replays"
 msgstr "Revisões Rápidas"
-
+#
+msgid "Enter blindfolded"
+msgstr ""
 #
 msgid "Preferences"
 msgstr "Preferências"
-
 #
 msgid "Apply filter"
 msgstr "Aplicar Filtro"
-
 #
 msgid "Invert"
 msgstr "Inverter"
-
 #
 msgid "Vacant slots"
 msgstr "Espaços Vagos"
-
 #
 msgid "Friends in game"
 msgstr "Amigos no Jogo"
-
 #
 msgid "Search:"
 msgstr "Procurar:"
-
 #
 msgid "Skip quickly to the active turn when observing"
 msgstr "Saltar rapidamente para o turno activo quando observares"
-
+#
+#, fuzzy
+msgid "Do not show replay turns"
+msgstr "Não Mostrar Entradas na sala de espera"
 #
 msgid ""
 "Enable the games filter. If unchecked all games are shown, regardless of any "
@@ -6674,7 +5641,6 @@ msgid ""
 msgstr ""
 "Activa o filtro das partidas. Se não marcado, todas as partidas serão "
 "mostradas, independentemente de quaisquer filtros."
-
 #
 msgid ""
 "Show all games that do *not* match your filter. Useful for hiding games you "
@@ -6682,124 +5648,95 @@ msgid ""
 msgstr ""
 "Mostra todas as partidas que *não* estão em conformidade com o teu filtro. "
 "Útil para esconder partidas nas quais não estás interessado."
-
 #
 msgid "Only show games that have at least one vacant slot"
 msgstr "Só mostra partidas que têm ao menos um lugar vago"
-
 #
 msgid ""
 "Only show games that are played or observed by at least one of your friends"
 msgstr ""
 "Só mostra partidas que são jogados ou observados ao menos por um dos teus "
 "amigos"
-
 #
 msgid "Only show games whose title or description contain the entered text"
 msgstr "Só mostra partidas cujo título ou descrição contém o texto inserido"
-
 #
 msgid "Joining this game requires a password."
 msgstr "Ligar a esta partida requer uma senha."
-
 #
 msgid "Password: "
 msgstr "Senha: "
-
 #
 msgid "Invalid Color"
 msgstr "Cor inválida"
-
 #
 msgid "Selected user: "
 msgstr "Usuário seleccionado: "
-
 #
 msgid "Leader: "
 msgstr "Líder: "
-
 #
 msgid "Recruits: "
 msgstr "Recrutas: "
-
 #
 msgid "Waiting for game to start..."
 msgstr "A esperar pela partida começar..."
-
 #
 msgid "No era information found."
 msgstr "Nenhuma informação da Era encontrada."
-
 #
 msgid "No multiplayer sides found"
 msgstr "Nenhumas equipas para o cenário encontradas"
-
 #
 msgid "Choose your faction:"
 msgstr "Escolha a tua facção:"
-
 #
 msgid "Starting position: "
 msgstr "Posição Inicial: "
-
 #
 msgid "multiplayer_starting_gold^Gold"
 msgid_plural "multiplayer_starting_gold^Gold"
 msgstr[0] "Ouro"
 msgstr[1] "Ouro"
-
 #
 msgid "Getting game data..."
 msgstr "A recolher dados da partida..."
-
 #
 msgid "invalid network handle"
 msgstr "nome de rede inválido"
-
 #
 msgid "Client disconnected"
 msgstr "O cliente desconectou-se"
-
 #
 msgid "Could not connect to host."
 msgstr "Não foi possível ligar ao computador remoto."
-
 #
 msgid "Could not add socket to socket set"
 msgstr "Não foi possível adicionar o socket ao grupo de sockets"
-
 #
 msgid "Could not send initial handshake"
 msgstr "Não foi possível enviar mensagem inicial"
-
 #
 msgid "Could not connect to host"
 msgstr "Não foi possível conectar-se ao computador remoto"
-
 #
 msgid "Terrain with a movement cost less than 1 encountered."
 msgstr "Encontrado um terreno com um custo de movimento menor de 1."
-
 #
 msgid "time left for current turn"
 msgstr "tempo restante para o próximo turno"
-
 #
 msgid "current local time"
 msgstr "hora local"
-
 #
 msgid "Auto-Save"
 msgstr "Auto-Guardar"
-
 #
 msgid "Back to Turn "
 msgstr "Voltar ao turno "
-
 #
 msgid "Back to Start"
 msgstr "Voltar ao Inicio"
-
 #
 msgid ""
 "The game is out of sync. It might not make much sense to continue. Do you "
@@ -6807,71 +5744,54 @@ msgid ""
 msgstr ""
 "A partida está fora de sincronização e não parece fazer muito sentido "
 "continuar. Queres guardar-a?"
-
 #
 msgid "Error details:"
 msgstr "Detalhes do erro:"
-
 #
 msgid "Accelerated speed enabled!"
 msgstr "Velocidade acelerada activada!"
-
 #
 msgid "(press $hk to disable)"
 msgstr "(carrega $hk para desactivar)"
-
 #
 msgid "Accelerated speed disabled!"
 msgstr "Velocidade acelerada desactivada!"
-
 #
 msgid "Scenario Report"
 msgstr "Relatar um cenário"
-
 #
 msgid "Victory"
 msgstr "Vitória"
-
 #
 msgid "You have emerged victorious!"
 msgstr "Saíste vitorioso da partida!"
-
 #
 msgid "Defeat"
 msgstr "Derrota"
-
 #
 msgid "You have been defeated!"
 msgstr "Foste derrotado!"
-
 #
 msgid "Error while reading the WML: "
 msgstr "Erro na leitura do WML: "
-
 #
 msgid "Game Over"
 msgstr "Fim do Jogo"
-
 #
 msgid "This scenario has ended. Do you want to continue the campaign?"
 msgstr "Este cenário terminou. Desejas continuar a campanha?"
-
 #
 msgid "Unknown scenario: '$scenario|'"
 msgstr "Cenário desconhecido: '$scenario|'"
-
 #
 msgid "$name has taken control"
 msgstr "$name tomou o controlo"
-
 #
 msgid "Undoing moves not yet transmitted to the server."
 msgstr "A anulação dos movimentos ainda não transmitido ao servidor."
-
 #
 msgid "Waiting for next scenario..."
 msgstr "A esperar pelo próximo cenário..."
-
 #
 msgid ""
 "The game is out of sync, and cannot continue. There are a number of reasons "
@@ -6887,47 +5807,36 @@ msgstr ""
 "fazer batota. Pode também ser um erro no jogo, mas isto é menos provável.\n"
 "\n"
 "Queres gravar um registo de erro desta partida?"
-
 #
 msgid "(press $hotkey to deactivate)"
 msgstr "(carrega $hotkey para desactivar)"
-
 #
 msgid "Remaining gold: "
 msgstr "Ouro restante: "
-
 #
 msgid "Early finish bonus: "
 msgstr "Bónus por fim prematuro: "
-
 #
 msgid "per turn"
 msgstr "por turno"
-
 #
 msgid "Turns finished early: "
 msgstr "Numero de turnos restantes: "
-
 #
 msgid "Bonus: "
 msgstr "Bónus: "
-
 #
 msgid "Gold: "
 msgstr "Ouro: "
-
 #
 msgid "Carry over percentage: "
 msgstr "Percentagem do ouro final: "
-
 #
 msgid "Bonus Gold: "
 msgstr "Ouro Bónus: "
-
 #
 msgid "Retained Gold: "
 msgstr "Ouro mantido: "
-
 #
 msgid ""
 "You will start the next scenario with $gold on top of the defined minimum "
@@ -6941,7 +5850,6 @@ msgstr[0] ""
 msgstr[1] ""
 "Começarás o próximo cenário com $gold adicionados à quantidade mínima de "
 "ouro inicial."
-
 #
 msgid ""
 "You will start the next scenario with the defined minimum starting gold."
@@ -6949,7 +5857,6 @@ msgid_plural ""
 "You will start the next scenario with the defined minimum starting gold."
 msgstr[0] "Começarás o próximo cenário com o ouro inicial mínimo definido."
 msgstr[1] "Começarás o próximo cenário com o ouro inicial mínimo definido."
-
 #
 msgid ""
 "You will start the next scenario with $gold or its defined minimum starting "
@@ -6963,11 +5870,9 @@ msgstr[0] ""
 msgstr[1] ""
 "Começarás o próximo cenário com $gold ou a quantidade mínima de ouro "
 "inicial, o que for maior."
-
 #
 msgid "The game is over."
 msgstr "A partida terminou."
-
 #
 msgid ""
 "A network disconnection has occurred, and the game cannot continue. Do you "
@@ -6975,31 +5880,28 @@ msgid ""
 msgstr ""
 "Ocorreu uma desconexão de rede, e a partida não pode prosseguir. Queres "
 "guardar-a?"
-
 #
 msgid "It is now $name|’s turn"
 msgstr "É o turno de $name|"
-
 #
 msgid "Replace with AI"
 msgstr "Trocar pelo Computador (IA)"
-
 #
 msgid "Replace with local player"
 msgstr "Trocar por um jogador local"
-
 #
-msgid "Abort game"
+msgid "Set side to idle"
+msgstr ""
+#
+#, fuzzy
+msgid "Save and Abort game"
 msgstr "Sair da Partida"
-
 #
 msgid "Replace with $player"
 msgstr "Trocar por $player"
-
 #
 msgid "$player has left the game. What do you want to do?"
 msgstr "$player saiu da partida. O que desejas fazer?"
-
 #
 msgid ""
 "The replay is corrupt/out of sync. It might not make much sense to continue. "
@@ -7007,49 +5909,38 @@ msgid ""
 msgstr ""
 "A revisão está corrompida ou fora de sincronização. Não deve fazer muito "
 "sentido continuar. Queres guardar a partida?"
-
 #
 msgid "Name: "
 msgstr "Nome: "
-
 #
 msgid "Type: "
 msgstr "Tipo: "
-
 #
 msgid "Race: "
 msgstr "Raça: "
-
 #
 msgid "Level: "
 msgstr "Nível: "
-
 #
 msgid "No advancement"
 msgstr "Sem avanço"
-
 #
 msgid "Advances to:"
 msgstr "Avança para:"
-
 #
 msgid "Trait: "
 msgstr "Feição: "
-
 #
 msgid "invisible: "
 msgstr "invisível: "
-
 #
 msgid "This unit is invisible. It cannot be seen or attacked by enemy units."
 msgstr ""
 "Esta unidade está invisível. Não pode ser vista ou atacada por unidades "
 "inimigas."
-
 #
 msgid "slowed: "
 msgstr "atrasado: "
-
 #
 msgid ""
 "This unit has been slowed. It will only deal half its normal damage when "
@@ -7057,11 +5948,9 @@ msgid ""
 msgstr ""
 "Esta unidade foi atrasada. Causará apenas metade do seu dano normal quando "
 "atacar e o custo de movimento é o dobro."
-
 #
 msgid "poisoned: "
 msgstr "envenenado: "
-
 #
 msgid ""
 "This unit is poisoned. It will lose 8 HP every turn until it can seek a cure "
@@ -7077,175 +5966,133 @@ msgstr ""
 "\n"
 "Unidades não morrem pelo veneno em si. O veneno não vai reduzir os pontos de "
 "vida (PV) a menos de 1."
-
 #
 msgid "petrified: "
 msgstr "petrificado: "
-
 #
 msgid "This unit has been petrified. It may not move or attack."
 msgstr "Esta unidade esta petrificada. Não se pode mover ou atacar."
-
 #
 msgid "Alignment: "
 msgstr "Alinhamento: "
-
 #
 msgid "Ability: "
 msgstr "Habilidade: "
-
 #
 msgid " (inactive)"
 msgstr " (inactivo)"
-
 #
 msgid "Resistances: "
 msgstr "Resistências: "
-
 #
 msgid "(Att / Def)"
 msgstr "(Ata / Def)"
-
 #
 msgid "Experience Modifier: "
 msgstr "Modificador de Experiência: "
-
 #
 msgid "Terrain: "
 msgstr "Terreno: "
-
 #
 msgid "maximum^max."
 msgstr "máx."
-
 #
 msgid "minimum^min."
 msgstr "min."
-
 #
 msgid "Defense: "
 msgstr "Defesa: "
-
 #
 msgid "vision: "
 msgstr "Versão:"
-
 #
 msgid "Movement Costs:"
 msgstr "Custos de Movimentos:"
-
 #
 msgid "Weapon: "
 msgstr "Arma: "
-
 #
 msgid "Damage: "
 msgstr "Dano: "
-
 #
 msgid "Base damage: "
 msgstr "Dano base: "
-
 #
 msgid "With specials: "
 msgstr "Com as especialidades: "
-
 #
 msgid "Time of day: "
 msgstr "Tempo do Dia: "
-
 #
 msgid "Leadership: "
 msgstr "Liderança: "
-
 #
 msgid "Slowed: "
 msgstr "Atrasado: "
-
 #
 msgid "Attacks: "
 msgstr "Ataques: "
-
 #
 msgid "Max swarm bonus: "
 msgstr "Bónus máximo do enxame: "
-
 #
 msgid "Swarm: "
 msgstr "Enxame: "
-
 #
 msgid "Base attacks: "
 msgstr "Ataques base: "
-
 #
 msgid "Specials: "
 msgstr "Especialidades: "
-
 #
 # where is that used?
 # 'swarm' refers to the weapon special...?
 msgid "Subject to swarm: "
 msgstr "Bónus máximo do enxame: "
-
 #
 msgid "Weapon range: "
 msgstr "Alcance da arma: "
-
 #
 msgid "Damage type: "
 msgstr "Tipo de dano: "
-
 #
 msgid "Damage versus: "
 msgstr "Dano contra: "
-
 #
 msgid "Accuracy:"
 msgstr "Precisão:"
-
 #
 msgid "Parry:"
 msgstr "Esquivar:"
-
 #
 msgid "Weapon special: "
 msgstr "Efeitos das Armas: "
-
 #
 msgid "None"
 msgstr "Nada"
-
 #
 msgid "Lawful units: "
 msgstr "Unidades diurnas: "
-
 #
 msgid "Neutral units: "
 msgstr "Unidades neutras: "
-
 #
 msgid "Chaotic units: "
 msgstr "Unidades nocturnas: "
-
 #
 msgid "Liminal units: "
 msgstr "Unidades limiares: "
-
 #
 msgid "Observers:"
 msgstr "Observadores:"
-
 #
 msgid " replay"
 msgstr " revisão"
-
 #
 msgid "Warning: The file you have tried to load is corrupt. Loading anyway.\n"
 msgstr ""
 "Aviso: O ficheiro que tentou carregar está corrompido. Mesmo assim, tentar "
 "carregar.\n"
-
 #
 msgid ""
 "The save has corrupt version information ($version_number|) and cannot be "
@@ -7253,7 +6100,6 @@ msgid ""
 msgstr ""
 "Esta partida guardada tem a informação da versão corrompida "
 "($version_number|) e não pode ser carregada."
-
 #
 msgid ""
 "This save is from an old, unsupported version ($version_number|) and cannot "
@@ -7261,7 +6107,6 @@ msgid ""
 msgstr ""
 "Esta partida guardada é duma versão antiga, não suportada ($version_number|) "
 "e não pode ser carregada."
-
 #
 msgid ""
 "This save is from a different version of the game ($version_number|). Do you "
@@ -7269,545 +6114,419 @@ msgid ""
 msgstr ""
 "Esta partida guardada é duma versão ($version_number|) diferente do jogo. "
 "Deseja tentar carregá-la?"
-
+#
 msgid "This is not a multiplayer save."
 msgstr "Isto não é uma partida guardada do jogo em rede"
-
 #
 msgid "The game could not be saved: "
 msgstr "Não foi possível guardar a partida: "
-
 #
 msgid "Save already exists. Do you want to overwrite it?"
 msgstr "O ficheiro já existe. Deseja substituí-lo?"
-
 #
 msgid "Overwrite?"
 msgstr "Substituir?"
-
 #
 msgid ""
 "Save names should not end on '.gz' or '.bz2'. Please remove the extension."
 msgstr ""
 "O nome das partidas guardados não podem terminar em '.gz' ou '.bz2'. Por "
 "favor, escolha outra extensão."
-
 #
 msgid "Saved"
 msgstr "Guardada"
-
+#
 msgid "The game has been saved."
 msgstr "A partida foi guardada."
-
 #
 msgid "Could not write to file"
 msgstr "Não foi possível gravar no ficheiro"
-
 #
 msgid "Save Replay"
 msgstr "Guardar Revisão"
-
 #
 msgid "replay"
 msgstr "revisão"
-
 #
 msgid "Could not auto save the game. Please save the game manually."
 msgstr ""
 "Não foi possivel guardar automaticamente a partida. Por favor, guarde-a "
 "manualmente."
-
 #
 msgid "Save Game"
 msgstr "Guardar Partida"
-
 #
 msgid "Unexpected characters at line start"
 msgstr "Carateres inesperados no início da linha"
-
+#
 msgid "Missing closing tag for tag [$tag]"
 msgstr "Tag de clausura não fechada [$tag]"
-
+#
 msgid "expected at $pos"
 msgstr "esperado em $pos"
-
+#
 msgid "opened at $pos"
 msgstr "aberto em $pos"
-
 #
 msgid "Unterminated [element] tag"
 msgstr "Tag de [element] não finalizada"
-
 #
 msgid "Invalid tag name"
 msgstr "Nome de tag inválido"
-
 #
 msgid "Unterminated [+element] tag"
 msgstr "tag de [+element] não finalizada"
-
 #
 msgid "Invalid closing tag name"
 msgstr "Nome inválido para tag de clausura"
-
 #
 msgid "Unterminated closing tag"
 msgstr "Tag de clausura não terminada"
-
 #
 msgid "Unexpected closing tag"
 msgstr "Tag de clausura inesperada"
-
+#
 msgid "Found invalid closing tag [/$tag2] for tag [$tag1]"
 msgstr "Encontrado tag de clausura [/$tag2] inválida para a tag [$tag1]"
-
+#
 msgid "closed at $pos"
 msgstr "Fechada em $pos"
-
 #
 msgid "Empty variable name"
 msgstr "Nome de variável vazia"
-
 #
 msgid "Unexpected characters after variable name (expected , or =)"
 msgstr "Caracteres inesperados após o nome da variável (esperado , ou =)"
-
 #
 msgid "Unterminated quoted string"
 msgstr "Texto entre aspas não terminado"
-
+#
 msgid "at $pos"
 msgstr "situando-se em $pos"
-
+#
 msgid "Value: '$value' Previous: '$previous_value'"
 msgstr "Valor: '$value' Antes: '$previous_value'"
-
 #
 msgid "prefix_milli^m"
 msgstr "m"
-
 #
 msgid "prefix_micro^µ"
 msgstr "µ"
-
 #
 msgid "prefix_nano^n"
 msgstr "n"
-
 #
 msgid "prefix_pico^p"
 msgstr "p"
-
 #
 msgid "prefix_femto^f"
 msgstr "f"
-
 #
 msgid "prefix_atto^a"
 msgstr "a"
-
 #
 msgid "prefix_zepto^z"
 msgstr "z"
-
 #
 msgid "prefix_yocto^y"
 msgstr "y"
-
 #
 msgid "prefix_kibi^K"
 msgstr "K"
-
 #
 msgid "prefix_kilo^k"
 msgstr "q"
-
 #
 msgid "prefix_mega^M"
 msgstr "M"
-
 #
 msgid "prefix_giga^G"
 msgstr "G"
-
 #
 msgid "prefix_tera^T"
 msgstr "T"
-
 #
 msgid "prefix_peta^P"
 msgstr "P"
-
 #
 msgid "prefix_exa^E"
 msgstr "E"
-
 #
 msgid "prefix_zetta^Z"
 msgstr "Z"
-
 #
 msgid "prefix_yotta^Y"
 msgstr "Y"
-
 #
 msgid "infix_binary^i"
 msgstr "i"
-
 #
 msgid "Recruits"
 msgstr "Recrutamentos"
-
 #
 msgid "Recalls"
 msgstr "Convocações"
-
 #
 msgid "Advancements"
 msgstr "Avanços"
-
 #
 msgid "Losses"
 msgstr "Perdas"
-
 #
 msgid "Kills"
 msgstr "Mortes"
-
 #
 msgid "Details"
 msgstr "Detalhes"
-
 #
 msgid "Select Scenario"
 msgstr "Selecciona o Cenário"
-
 #
 msgid "Campaign"
 msgstr "Campanha"
-
 #
 msgid "Scenario"
 msgstr "Cenário"
-
 #
 msgid "Damage"
 msgstr "Dano"
-
 #
 msgid "Overall"
 msgstr "Geral"
-
 #
 msgid "This Turn"
 msgstr "Este Turno"
-
 #
 msgid "Inflicted"
 msgstr "Causado"
-
 #
 msgid "Taken"
 msgstr "Recebido"
-
 #
 msgid "Skip"
 msgstr "Saltar"
-
 #
 msgid "Mon"
 msgstr "Seg"
-
 #
 msgid "Sun"
 msgstr "Do"
-
 #
 msgid "Tue"
 msgstr "Ter"
-
 #
 msgid "Wed"
 msgstr "Qua"
-
 #
 msgid "Fri"
 msgstr "Sex"
-
 #
 msgid "Sat"
 msgstr "Sáb"
-
 #
 msgid "Thu"
 msgstr "Qui"
-
 #
 msgid "Monday"
 msgstr "Segunda-feira"
-
 #
 msgid "Sunday"
 msgstr "Domingo"
-
 #
 msgid "Tuesday"
 msgstr "Terça-feira"
-
 #
 msgid "Friday"
 msgstr "Sexta-feira"
-
 #
 msgid "Saturday"
 msgstr "Sábado"
-
 #
 msgid "Thursday"
 msgstr "Quinta-feira"
-
 #
 msgid "Wednesday"
 msgstr "Quarta-feira"
-
 #
 msgid "Apr"
 msgstr "Abr"
-
 #
 msgid "Feb"
 msgstr "Fev"
-
 #
 msgid "Jan"
 msgstr "Jan"
-
 #
 msgid "Mar"
 msgstr "Mar"
-
 #
 msgid "Aug"
 msgstr "Ago"
-
 #
 msgid "Jul"
 msgstr "Jul"
-
 #
 msgid "Jun"
 msgstr "Jun"
-
 #
 msgid "Oct"
 msgstr "Out"
-
 #
 msgid "Sep"
 msgstr "Set"
-
 #
 msgid "abbrev^May"
 msgstr "Maio"
-
 #
 msgid "Dec"
 msgstr "Dez"
-
 #
 msgid "Nov"
 msgstr "Nov"
-
 #
 msgid "February"
 msgstr "Fevereiro"
-
 #
 msgid "January"
 msgstr "Janeiro"
-
 #
 msgid "March"
 msgstr "Março"
-
 #
 msgid "April"
 msgstr "Abril"
-
 #
 msgid "August"
 msgstr "Agosto"
-
 #
 msgid "July"
 msgstr "Julho"
-
 #
 msgid "June"
 msgstr "Junho"
-
 #
 msgid "May"
 msgstr "Maio"
-
 #
 msgid "December"
 msgstr "Dezembro"
-
 #
 msgid "November"
 msgstr "Novembro"
-
 #
 msgid "October"
 msgstr "Outubro"
-
 #
 msgid "September"
 msgstr "Setembro"
-
 #
 msgid "%a %b %e %H:%M:%S %Y"
 msgstr "%a, %e de %b %Y %H:%M:%S"
-
 #
 msgid "%a %d %b %Y %H:%M:%S %z"
 msgstr "%a, %d de %b %Y %H:%M:%S %z"
-
 #
 msgid "AM"
 msgstr " da manhã"
-
 #
 msgid "PM"
 msgstr " da tarde"
-
 #
 msgid "am"
 msgstr " da manhã"
-
 #
 msgid "pm"
 msgstr " da tarde"
-
 #
 msgid "Allied village"
 msgstr "Aldeia Aliada"
-
 #
 msgid "Enemy village"
 msgstr "Aldeia Inimiga"
-
 #
 msgid "Owned village"
 msgstr "Aldeia Controlada"
-
 #
 msgid "border_size should be between 0.0 and 0.5."
 msgstr "border_size deve estar entre 0.0 e 0.5."
-
 #
 msgid "Hotkey(s): "
 msgstr "Tecla(s) de Atalho: "
-
 #
 msgid "Stub Time of Day"
 msgstr "Rascunho do Tempo do dia"
-
 #
 msgid " and "
 msgstr " e "
-
 #
 msgid "$attack_list|: $effect_description"
 msgstr "$attack_list|: $effect_description"
-
 #
 msgid "moves"
 msgstr "movimentos"
-
 #
 msgid "XP to advance"
 msgstr "XP para avançar"
-
 #
 msgid " move"
 msgstr " movimento"
-
 #
 msgid "$effect_description per level"
 msgstr "$effect_description por nível"
-
 #
 msgid "damage"
 msgid_plural "damage"
 msgstr[0] "dano"
 msgstr[1] "danos"
-
 #
 msgid "strike"
 msgid_plural "strikes"
 msgstr[0] "ataque"
 msgstr[1] "ataques"
-
 #
 #, no-c-format
 msgid "% accuracy"
 msgstr "% precisão"
-
 #
 #, no-c-format
 msgid "% parry"
 msgstr "% esquiva"
-
 #
 msgid "chaotic"
 msgstr "nocturno"
-
 #
 msgid "lawful"
 msgstr "diurno"
-
 #
 msgid "liminal"
 msgstr "liminar"
-
 #
 msgid "neutral"
 msgstr "neutro"
-
 #
 msgid "female^chaotic"
 msgstr "nocturna"
-
 #
 msgid "female^lawful"
 msgstr "diurna"
-
 #
 msgid "female^liminal"
 msgstr "liminar"
-
 #
 msgid "female^neutral"
 msgstr "neutra"
-
 #
 msgid "SHOW ALL allies’ plans"
 msgstr "MOSTRAR os planos de TODOS os aliados"
-
 #
 msgid "HIDE ALL allies’ plans"
 msgstr "ESCONDER os planos de TODOS os aliados"
-
 #
 msgid "Show plans for $player"
 msgstr "Mostrar os planos para $player"
-
 #
 msgid "Hide plans for $player"
 msgstr "Esconder os planos de $player"
-
 #
 msgid "Whiteboard Options"
 msgstr "Opções do modo de planificação"

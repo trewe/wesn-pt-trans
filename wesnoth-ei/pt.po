@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
-"Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
-"POT-Creation-Date: 2014-02-16 13:54+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2014-02-22 14:39+0100\n"
 "PO-Revision-Date: 2014-02-16 14:34+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
+#
 #. [campaign]: id=Eastern_Invasion
 msgid "The Eastern Invasion"
 msgstr "A Invasão Oriental"
@@ -1257,7 +1258,6 @@ msgstr "Lanar-Skal"
 #. [side]
 #. [side]: type=Dark Sorcerer, id=Mal-Arnai
 #. [side]: type=Orcish Warlord, id=Draka-Kura
-#. [side]: type=Orcish Warlord, id=King Dra-Nak
 #. [side]: type=Orcish Warlord, id=Ran-Lar
 #. [side]: type=Orcish Warlord, id=Varrak-Klar
 #. [side]: type=Orcish Warlord, id=Wak-Rano
@@ -1689,11 +1689,6 @@ msgid "Drog"
 msgstr "Drog"
 
 #
-#. [message]: speaker=narrator
-msgid "You may now recruit young ogres!"
-msgstr "Agora podes recrutar Ogres!"
-
-#
 #. [scenario]: id=07b_Undead_Crossing
 msgid "Undead Crossing"
 msgstr "Travessia dos Mortos-Vivos"
@@ -1760,46 +1755,27 @@ msgstr ""
 "Parece que além de invocar mortos-vivos, este vil feiticeiro aprendeu a "
 "invocar monstros das profundezas!"
 
+#
 #. [scenario]: id=08_Training_the_Ogres
 msgid "Capturing the Ogres"
 msgstr "Capturando Ogres"
 
+#
 #. [side]
 msgid "Ogres"
 msgstr "Ogres"
 
-#. [literal]
-msgid "Waah! Run!"
-msgstr "Uá! Corram!"
-
-#. [literal]
-msgid "Run for your lives!"
-msgstr "Corram se têm amor a vida!"
-
-#. [literal]
-msgid "Help!"
-msgstr "Acudam!"
-
-#. [literal]
-msgid "$ogre_name surrender!"
-msgstr "$ogre_name se render!"
-
-#. [literal]
-msgid "Don't hurt $ogre_name|!"
-msgstr "Não magoar $ogre_name!"
-
-#. [literal]
-msgid "$ogre_name will be good! Promise!"
-msgstr "$ogre_name querer ser bom! Me prometo!"
-
+#
 #. [objective]: condition=win
 msgid "(captured ogres will be made available for recall)"
 msgstr "(ogres capturados poderão ser convocados em cenários futuros)"
 
+#
 #. [objective]: condition=win
 msgid "Capture as many ogres as you can"
 msgstr "Captura o máximo possível de ogres"
 
+#
 #. [note]
 msgid ""
 "An ogre is captured when it starts a turn being unable to move more than one "
@@ -1808,10 +1784,12 @@ msgstr ""
 "Um ogre é capturado quando começar o turno sem poder-se mover-se mais do que "
 "um hexágono."
 
+#
 #. [note]
 msgid "If an ogre reaches the edge of the map, it will escape."
 msgstr "Os ogres escapam quando chegam à borda do mapa."
 
+#
 #. [message]: speaker=Gweddry
 msgid ""
 "Look, this valley is inhabited by a tribe of ogres. We should try to capture "
@@ -1820,10 +1798,12 @@ msgstr ""
 "Vejam, encontramos um grupo de ogres. Deveríamos capturar alguns deles para "
 "treinarmos."
 
+#
 #. [message]: race=ogre
 msgid "Humans are coming! Run!"
 msgstr "Humanos a vir! Corram!"
 
+#
 #. [message]: speaker=Owaec
 msgid ""
 "Looks like they are fleeing. I think they will surrender easily if we can "
@@ -1832,31 +1812,67 @@ msgstr ""
 "Parece que estão a fugir. E penso que irão facilmente render-se se os "
 "podemos cercar."
 
+#
 #. [message]: speaker=Dacyn
 msgid "All right, we have to capture them one by one."
 msgstr "Tudo bem, teremos de capturar-os um a um então."
+
+#
+#. [value]
+msgid "Waah! Run!"
+msgstr "Uá! Corram!"
+
+#
+#. [value]
+msgid "Run for your lives!"
+msgstr "Corram se têm amor a vida!"
+
+#
+#. [value]
+msgid "Help!"
+msgstr "Acudam!"
 
 #
 #. [message]: speaker=Gweddry
 msgid "We have let one escape. Let’s hope they don’t all!"
 msgstr "Deixamos um deles escapar. Espero que não escapam todos!"
 
+#
+#. [value]
+msgid "$ogre_name surrender!"
+msgstr "$ogre_name se render!"
+
+#
+#. [value]
+msgid "Don't hurt $ogre_name|!"
+msgstr "Não magoar $ogre_name!"
+
+#
+#. [value]
+msgid "$ogre_name will be good! Promise!"
+msgstr "$ogre_name querer ser bom! Me prometo!"
+
+#
 #. [message]: speaker=Gweddry
 msgid "We failed to capture any of them!"
 msgstr "Nem capturamos um só!"
 
+#
 #. [message]: speaker=Gweddry
 msgid "We only captured one ogre."
 msgstr "Só conseguimos capturar um ogre."
 
+#
 #. [message]: speaker=Gweddry
 msgid "We failed to capture more than two of the ogres."
 msgstr "Não conseguimos capturar mais do que dois ogres."
 
+#
 #. [message]: speaker=Gweddry
 msgid "We captured three ogres! I hope they will prove useful."
 msgstr "Capturamos três ogres! Espero que sejam úteis."
 
+#
 #. [message]: speaker=Gweddry
 msgid ""
 "We managed to capture many ogres! They will make a good addition to our "
@@ -2150,8 +2166,9 @@ msgstr "Capturado"
 
 #
 #. [part]
+#, fuzzy
 msgid ""
-"After reaching the island on Lake Vrug, Gweddry and his men had been "
+"After reaching what they believed was safety, Gweddry and his men had been "
 "captured by northern orcs."
 msgstr ""
 "Após chegarem a ilha no Lago Vrug, Gweddry e os seus homens acabaram por ser "
@@ -2160,11 +2177,10 @@ msgstr ""
 #
 #. [part]
 msgid ""
-"While his captors awaited the arrival of orcish king Dra-Nak, Gweddry "
-"plotted an escape..."
+"Gweddry, Dacyn and Owaec were promptly taken before the orcish king, Dra-"
+"Nak, while the rest were thrown into the orcish prisons to await their "
+"turn..."
 msgstr ""
-"Enquanto os captores esperaram pela chegada do rei orc Dra-Nak, Gweddry "
-"tramou uma fuga..."
 
 #
 #. [side]: type=Orcish Warlord, id=King Dra-Nak
@@ -2172,145 +2188,265 @@ msgid "King Dra-Nak"
 msgstr "Rei Dra-Nak"
 
 #
+#. [side]: type=Orcish Warlord, id=King Dra-Nak
+msgid "Orcs"
+msgstr "Orcs"
+
+#
+#. [side]
+msgid "Prisoners"
+msgstr "Prisioneiros"
+
+#
+#. [message]: speaker=narrator
+msgid ""
+"Several of Gweddry's men find themselves locked away in a crude orcish cell."
+msgstr ""
+
+#
+#. [message]: role=escapee sidekick 1
+#, fuzzy
+msgid "We've got to get out of here!"
+msgstr "Vamos sair fora daqui!"
+
+#
+#. [message]: role=escapee sidekick 2
+msgid "I'm sure the commander will come and save us!"
+msgstr ""
+
+#
+#. [message]: role=escapee sidekick 1
+msgid "What? Didn't you see those huge trolls drag them away? It's hopeless!"
+msgstr ""
+
+#
+#. [message]: role=escapee leader
+#, fuzzy
+msgid "Be quiet, you two! There's something back here..."
+msgstr "Viste aquilo? Há qualquer coisa na baía."
+
+#
+#. [message]: role=escapee leader
+msgid ""
+"Look! There's a gap in the wall over here. I think I can slip through if I "
+"clear away some of these rocks..."
+msgstr ""
+
+#
+#. [message]: role=escapee leader
+#, fuzzy
+msgid "Come on! This way!"
+msgstr "Vamos! Depressa!"
+
+#
 #. [objective]: condition=win
-msgid "Move Gweddry to the south-west exit"
-msgstr "Mova Gweddry para a saída a sudoeste"
-
-#
-#. [label]
-msgid "Prison"
-msgstr "Prisão"
-
-#
-#. [label]
-msgid "Torture Chamber"
-msgstr "Câmara de Tortura"
-
-#
-#. [label]
-msgid "Throne Room"
-msgstr "Sala do Trono"
-
-#
-#. [label]
-msgid "The City"
-msgstr "A Cidade"
-
-#
-#. [label]
-msgid "Exit"
-msgstr "Saída"
-
-#
-#. [message]: speaker=Gweddry
-msgid ""
-"Dacyn and Owaec ducked through a crack in the cave wall while the guards "
-"weren’t looking. Now I just have to wait for a good chance to escape..."
+msgid "Find Gweddry, Dacyn and Owaec"
 msgstr ""
-"Dacyn e Owaek esgueiraram-se por uma fenda da parede da caverna enquanto os "
-"guardas estavam distraídos. Agora tenho de esperar por uma boa altura para "
-"escapar..."
 
 #
-#. [message]: speaker=Gweddry
-msgid "Now’s my chance!"
-msgstr "Agora é a minha vez!"
-
-#
-#. [message]: speaker=Dacyn
-msgid ""
-"So, Gweddry, you escaped too? Good. I think they still have the rest of our "
-"troops captive. We must rescue them and head for the southwest exit."
-msgstr ""
-"Então Gweddry, também escapaste? Óptimo. Penso que mantêm o restante das "
-"nossas tropas presos. Devemos tentar libertar-os e seguir para a saída a "
-"sudoeste."
-
-#
-#. [message]: speaker=Gweddry
-msgid "Where are they? These caves are impossible to navigate!"
-msgstr "Onde estão? É impossível fugir destas cavernas!"
-
-#
-#. [message]: speaker=Dacyn
-msgid ""
-"Somewhere south of us, but we’d best avoid the chamber we just came from. "
-"Oh, and some others escaped too, along with Owaec."
-msgstr ""
-"Algures ao sul de nós, mas deveríamos evitar a cela da qual viemos. Oh, e "
-"outros também escaparam, junto com Owaec."
-
-#
-#. [message]: speaker=King Dra-Nak
-msgid "Well, where are the prisoners?"
+#. [objective]: condition=win
+#, fuzzy
+msgid "Release the other prisoners"
 msgstr "Bem, onde estão os prisioneiros?"
 
 #
-#. [message]
-msgid "In the prison, boss."
-msgstr "Na prisão, chefe."
-
-#
-#. [message]: speaker=King Dra-Nak
-msgid "Well, where’s their leader? I don’t see him."
-msgstr "Bem, onde está o líder deles? Não o vejo."
-
-#
-#. [message]
-msgid "Uh... "
-msgstr "Uh... "
-
-#
-#. [message]
-msgid "whisper^I dunno. He escaped, I think."
-msgstr "Não sei... Escapou, penso eu."
-
-#
-#. [message]: speaker=King Dra-Nak
-msgid ""
-"You fool! Well, find him. Bring him to me! Wait, no, just kill him on sight."
-msgstr ""
-"Seu idiota! Bem, procura-o. Traga-o para mim! Não, espera, apenas mata-o "
-"quando o veres."
+#. [objective]: condition=lose
+#, fuzzy
+msgid "Death of the escapees"
+msgstr "Morte dos líderes orcs"
 
 #
 #. [message]: speaker=unit
-msgid "Look, the escaped prisoners have returned!"
-msgstr "Veja, os fugitivos voltaram!"
+#, fuzzy
+msgid "The door won't open from this side."
+msgstr "As portas estão fechadas e bloqueadas pelo lado de dentro!"
 
 #
-#. [message]: speaker=King Dra-Nak
-msgid "Kill them!"
-msgstr "Matam-os!"
+#. [message]: speaker=unit
+msgid "There's strange noises coming from those pits. I don't like this."
+msgstr ""
+
+#
+#. [message]: side,race=2,bat
+#, fuzzy
+msgid "Neep! Neep!"
+msgstr "Nip Nip!"
+
+#
+#. [message]: speaker=second_unit
+msgid "Ack! Get away from me!"
+msgstr ""
+
+#
+#. [message]: speaker=unit
+msgid "This tunnel seems to go deeper into the caves. We can't go that way."
+msgstr ""
+
+#
+#. [message]: speaker=unit
+msgid "There's a pile of orcish gear and trash here. The stench is wretched."
+msgstr ""
+
+#
+#. [message]: speaker=unit
+msgid ""
+"The other prison cells should be to the north of that chamber. If we can get "
+"past those trolls we could free our comrades."
+msgstr ""
 
 #
 #. [message]
+msgid "But there's too many of them!"
+msgstr ""
+
+#
+#. [message]: speaker=unit
+#, fuzzy
+msgid "Hmm... I have an idea."
+msgstr "Mm... Terei que ponderar nisso..."
+
+#
+#. [message]: speaker=narrator
+#, fuzzy
+msgid "After a while..."
+msgstr "Depois duma hora..."
+
+#
+#. [message]: id=$unit.id
+msgid "So, how do I look?"
+msgstr ""
+
+#
+#. [message]: id=$unit.id
+msgid "I'll try to slip past the trolls. You wait here."
+msgstr ""
+
+#
+#. [message]: speaker=King Dra-Nak
+msgid "Ha-ha! These humans will make excellent slaves in my mines!"
+msgstr ""
+
+#
+#. [message]: speaker=unit
+msgid ""
+"Opening the cells should confuse the guards for a moment. But I better not "
+"get too close to them..."
+msgstr ""
+
+#
+#. [message]
+msgid "Eh?"
+msgstr "Eh?"
+
+#
+#. [message]: speaker=King Dra-Nak
+#, fuzzy
+msgid "Hey! Who are you? Get her!"
+msgstr "Eia, Kaleh, está aí?"
+
+#
+#. [message]: speaker=King Dra-Nak
+#, fuzzy
+msgid "Hey! Who are you? Get him!"
+msgstr "Quem és tu?"
+
+#
+#. [message]
+msgid "Uh oh!"
+msgstr ""
+
+#
+#. [message]: speaker=unit
+msgid "Here's one of the prison cells! Let me open it..."
+msgstr ""
+
+#
+#. [message]
+msgid "Finally, we're rescued!"
+msgstr ""
+
+#
+#. [message]
+msgid "At last!"
+msgstr "Até que enfim!"
+
+#
+#. [message]
+#, fuzzy
+msgid "Now let's get out of here!"
+msgstr "Vamos sair daqui…"
+
+#
+#. [message]: speaker=King Dra-Nak
+#, fuzzy
+msgid "What? Who's there? Get them!"
+msgstr "O que? Mais humanos aqui? Capturam-os!"
+
+#
+#. [message]: speaker=Dacyn
 msgid "The guards are distracted! Now is the time to escape!"
 msgstr "Os guardas estão distraídos! Agora é hora de fugir!"
 
 #
-#. [message]
-msgid "Huh? Who said that?"
-msgstr "Ui? Quem disse isto?"
-
-#
-#. [message]: speaker=Gweddry
-msgid "I see the exit to the tunnel! Onward!"
-msgstr "Vejo a saída do túnel! Para a frente!"
-
-#
-#. [message]: speaker=Dacyn
+#. [message]: speaker=Owaec
 msgid ""
-"Wait! We cannot go out that way. There are too many orcs. We must exit "
-"through the south-west gates."
+"The eastern entrance is teeming with orcs. We have to find another way to "
+"exit to the west!"
 msgstr ""
-"Espera! Não podemos sair por este caminho! Há demasiados orcs! Temos de sair "
-"pelos portões ao sudoeste."
 
 #
 #. [message]: speaker=Gweddry
-msgid "Very well. We must go the other way."
-msgstr "Muito bem. Devemos ir por outro caminho."
+msgid ""
+"We have to get our gold back first! It must have been taken to their "
+"treasury."
+msgstr ""
+
+#
+#. [objective]: condition=win
+#, fuzzy
+msgid "Gweddry reaches the western exit"
+msgstr "Mova Gweddry para a saída a sudoeste"
+
+#
+#. [objective]: condition=win
+#, fuzzy
+msgid "Retrieve the stolen gold"
+msgstr "recebes duas peças de ouro."
+
+#
+#. [objective]: condition=win
+#, fuzzy
+msgid "Release the remaining prisoners"
+msgstr "Bem, onde estão os prisioneiros?"
+
+#
+#. [message]: speaker=Gweddry
+msgid ""
+"They have reinforcements pouring in from the eastern entrance! We have to "
+"get out of here quickly!"
+msgstr ""
+
+#
+#. [message]: speaker=unit
+msgid "All the gold the orcs took is in this chest!"
+msgstr ""
+
+#
+#. [message]: speaker=narrator
+msgid "You've regained $stored_player_gold gold!"
+msgstr ""
+
+#
+#. [message]: speaker=unit
+#, fuzzy
+msgid "Phew! I made it."
+msgstr "Conseguimos."
+
+#
+#. [message]
+#, fuzzy
+msgid "Where are you going?! Come back!"
+msgstr "Portanto o que queres fazer?"
 
 #
 #. [message]: speaker=Gweddry
@@ -2324,9 +2460,10 @@ msgstr "Evacuação"
 
 #
 #. [part]
+#, fuzzy
 msgid ""
-"Gweddry and his men had escaped from the orcish prisons. After a harried "
-"chase south, they found themselves surrounded by orcs at the Great River."
+"Gweddry and his men had escaped from the orcish prisons, but after returning "
+"to the daylight they soon found themselves surrounded by a host of orcs."
 msgstr ""
 "Gweddry e os seus homens escaparam da prisão dos orcs. Depois de uma "
 "perseguição apressada ao sul, encontraram-se cercados por orcs no Rio Grande."
@@ -2353,9 +2490,10 @@ msgstr "Destrua a ponte OU derrota todos os inimigos"
 
 #
 #. [objectives]
+#, fuzzy
 msgid ""
-"Note: every unit not on the south side of the river when the bridge is "
-"destroyed will be lost (including non-recalled units)"
+"Note: every unit not south of the bridge when it is destroyed will be lost "
+"(including non-recalled units)"
 msgstr ""
 "Nota: todas as unidades que não estiverem no lado sul do rio quando a ponte "
 "for destruída serão perdidas (inclusive unidades não-convocadas)"
@@ -2414,9 +2552,10 @@ msgstr ""
 
 #
 #. [message]: speaker=Gweddry
+#, fuzzy
 msgid ""
 "Very well, we’ll protect you from the undead. But we can’t help you until we "
-"get across this river. Now let’s go!"
+"get off this island. Now let’s go!"
 msgstr ""
 "Muito bem, protegeremos-te dos mortos-vivos. Mas não podemos ajudar-te até "
 "cruzarmos o rio. Agora vamos!"
