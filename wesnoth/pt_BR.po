@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-02-16 13:54+0100\n"
+"POT-Creation-Date: 2014-02-22 14:39+0100\n"
 "PO-Revision-Date: 2012-10-29 18:41-0300\n"
 "Last-Translator: gilberto dos santos alves <gsavix@gmail.com>\n"
 "Language-Team: Portuguese - Brasil\n"
@@ -2714,6 +2714,16 @@ msgstr "muito longe"
 msgid "electrical"
 msgstr "elétrico"
 #
+#. [theme]: id=Default
+#, fuzzy
+msgid "theme^Default"
+msgstr "padrão"
+#
+#. [theme]: id=Default
+#, fuzzy
+msgid "Default theme."
+msgstr "padrão"
+#
 #. [menu]: id=menu-main
 msgid "Menu"
 msgstr "Menu"
@@ -2836,6 +2846,15 @@ msgstr "Ponto de vista"
 msgid "Skip animation"
 msgstr "Pular animação"
 #
+#. [theme]: id=Pandora
+#, fuzzy
+msgid "theme^Pandora"
+msgstr "Telerandor"
+#
+#. [theme]: id=Pandora
+msgid "800x480 theme optimized for Pandora devices."
+msgstr ""
+#
 #. [action]: id=end-turn
 #, fuzzy
 msgid ""
@@ -2843,8 +2862,24 @@ msgid ""
 "Turn"
 msgstr "Terminar Turno"
 #
+#. [theme]: id=UnitBox
+msgid "theme^UnitBox"
+msgstr ""
+#
+#. [theme]: id=UnitBox
+msgid "Experimental work-in-progress replacement for the default theme."
+msgstr ""
+#
 #. [action]: id=flip_map_button_editor, type=checkbox
 msgid "Not implemented yet."
+msgstr ""
+#
+#. [theme]: id=Widescreen
+msgid "theme^Widescreen"
+msgstr ""
+#
+#. [theme]: id=Widescreen
+msgid "Experimental theme optimized for widescreen resolutions."
 msgstr ""
 #
 #. [selected_unit_level]: id=selected-unit-level
@@ -4268,6 +4303,15 @@ msgstr "Erro de E/S ao ler o jogo"
 msgid "File I/O Error while reading the game: '"
 msgstr "Erro de E/S ao ler o jogo: '"
 #
+msgid ""
+"This is a multiplayer scenario. Some parts of it may not work properly in "
+"single-player. It is recommended to load this scenario through the "
+"Multiplayer -> Load Game dialog instead."
+msgstr ""
+#
+msgid "Warning"
+msgstr "Atenção"
+#
 msgid "No campaigns are available.\n"
 msgstr "Nenhuma campanha está disponível.\n"
 #
@@ -4820,12 +4864,22 @@ msgstr "Mudar um lado de/para controle por IA."
 msgid "do not translate the on/off^[<side> [on/off]]"
 msgstr "[<time> [on/off]]"
 #
+#, fuzzy
+msgid "Switch a side to/from idle state."
+msgstr "Mudar um lado de/para controle por IA."
+#
 msgid "<side> <nickname>"
 msgstr "<time> <apelido>"
 #
 msgid "Assign control of a side to a different player or observer."
 msgstr ""
 "Atribuir o controle de um lado para um jogador diferente ou um observador."
+#
+msgid "<side>"
+msgstr ""
+#
+msgid "Query the controller status of a side."
+msgstr ""
 #
 msgid "Clear chat history."
 msgstr "Limpa o histórico das mensagens."
@@ -5046,10 +5100,22 @@ msgstr "Não é possível 'droid' no time inválido: '$side'."
 msgid "Can't droid networked side: '$side'."
 msgstr "Não é possível 'droid' no time de rede: '$side'."
 #
+#, fuzzy
+msgid "Can't idle invalid side: '$side'."
+msgstr "Não é possível 'droid' no time inválido: '$side'."
+#
 msgid "Can't change control of invalid side: '$side'."
 msgstr "Não é possível alterar o controle do time inválido: '$side'."
 #
 msgid "Can't change control of out-of-bounds side: '$side'."
+msgstr "Não é possível alterar o controle do time fora dos limites: '$side'."
+#
+#, fuzzy
+msgid "Can't query control of invalid side: '$side'."
+msgstr "Não é possível alterar o controle do time inválido: '$side'."
+#
+#, fuzzy
+msgid "Can't query control of out-of-bounds side: '$side'."
 msgstr "Não é possível alterar o controle do time fora dos limites: '$side'."
 #
 msgid "Layers"
@@ -5186,9 +5252,6 @@ msgstr ""
 #
 msgid "Do you want to continue?"
 msgstr "Você quer continuar?"
-#
-msgid "Warning"
-msgstr "Atenção"
 #
 msgid "Bad data received from server"
 msgstr "Dados corrompidos recebido do servidor"
@@ -5597,6 +5660,9 @@ msgstr "Entrar no jogo"
 msgid "Quick replays"
 msgstr "Replays Rápidos"
 #
+msgid "Enter blindfolded"
+msgstr ""
+#
 msgid "Preferences"
 msgstr "Preferências"
 #
@@ -5617,6 +5683,10 @@ msgstr "Procurar:"
 #
 msgid "Skip quickly to the active turn when observing"
 msgstr "Pular rapidamente para o turno ativo quando observar"
+#
+#, fuzzy
+msgid "Do not show replay turns"
+msgstr "Não Mostrar Entrada na sala de espera"
 #
 msgid ""
 "Enable the games filter. If unchecked all games are shown, regardless of any "
@@ -5881,7 +5951,11 @@ msgstr "Trocar pelo Computador (IA)"
 msgid "Replace with local player"
 msgstr "Trocar por um jogador local"
 #
-msgid "Abort game"
+msgid "Set side to idle"
+msgstr ""
+#
+#, fuzzy
+msgid "Save and Abort game"
 msgstr "Abortar o jogo"
 #
 msgid "Replace with $player"
