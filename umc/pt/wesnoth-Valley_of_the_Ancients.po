@@ -1,17 +1,22 @@
+# European Portuguese translations for Battle for Wesnoth
+# Copyright (C) 2005-2014 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+# trewe <sjrs456@yahoo.fr>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: wesnoth-Valley_of_the_Ancients\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-02-03 13:57+0000\n"
-"PO-Revision-Date: 2014-01-28 19:07+0100\n"
+"Project-Id-Version: Battle for Wesnoth 1.12\n"
+"Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
+"POT-Creation-Date: 2014-03-03 21:33+0100\n"
+"PO-Revision-Date: 2014-03-09 20:29+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
-"Language-Team: trewe <sjrs456@yahoo.fr>\n"
-"Language: pt\n"
+"Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid "Valley of the Ancients"
@@ -23,8 +28,8 @@ msgstr "VdA"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid ""
-"Fight your way into the legendary Valley of the Ancients against your "
-"rival.\n"
+"Fight your way into the legendary Valley of the Ancients against your rival."
+"\n"
 "\n"
 msgstr ""
 "Disputa o teu caminho para o Vale Antigo contra o teu rival.\n"
@@ -35,12 +40,12 @@ msgid "(Competive campaign, 6 scenarios)"
 msgstr "(Campanha competitiva, 6 cenários)"
 
 #. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
-msgid "Guardian"
-msgstr "Guardião"
-
-#. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
 msgid "(Normal)"
 msgstr "(Normal)"
+
+#. [campaign]: id=MP_Campaign_Valley_of_the_Ancients, type=mp
+msgid "Guardian"
+msgstr "Guardião"
 
 #. [about]
 msgid "Creator and Original Designer"
@@ -59,25 +64,22 @@ msgid "2p — Reversi"
 msgstr "2j — Reversi"
 
 #. [multiplayer]: id=TL_VOTA_Reversi
-msgid ""
-"Reversi a.k.a Othello for 2 players (if you must, the AI can play reasonable "
-"too)"
+msgid "Reversi a.k.a Othello for 2 players or alone"
 msgstr ""
-"Reversi, também chamado de Othello, para dois jogadores (também pode ser "
-"jogado a só, pois o computador até joga de forma razoável)"
+"Reversi, também chamado de Othello, para dois jogadores ou sozinho contra o "
+"computador."
+
+#. [time]: id=Reversi_tod
+msgid "Time of day has no effect in Reversi"
+msgstr "O tempo do dia não tem efeito em reversi"
 
 #. [side]
-#. [side]: type=Elvish Sylph
-msgid "Elves"
-msgstr "Elfos"
+msgid "Black"
+msgstr "Preto"
 
 #. [side]
-#. [side]: type=Ancient Lich
-#. [side]: type=Ancient Lich, id=mal-daugur
-#. [side]: type=Necrophage
-#. [side]: type=Revenant
-msgid "Undead"
-msgstr "Morto-Vivo"
+msgid "White"
+msgstr "Branco"
 
 #. [objective]: condition=win
 msgid "Capture more units than your opponent does"
@@ -100,30 +102,51 @@ msgstr ""
 "Para colocar uma unidade no tabuleiro:"
 
 #. [note]
-msgid "(1) Move your leader to a ruined castle to select the column"
-msgstr "(1) Mova o teu líder a um castelo em ruínas para seleccionar a coluna"
-
-#. [note]
-msgid "(2) Move your leader again to a ruined castle to select the row"
+msgid "(1) Move your leader to a ruined castle to select the column and row"
 msgstr ""
-"(2) Mova o teu líder novamente para um castelo em ruínas para seleccionar a "
+"(1) Mova o teu líder a um castelo em ruínas para seleccionares a coluna e "
 "linha"
 
 #. [note]
-msgid "(3) If the move is valid an unit will be created at the given place"
-msgstr "(3) Se a jogada for válida uma unidade será convocada no local dado"
-
-#. [note]
-msgid "(4) And any enemy units standing between two of yours will swap side."
-msgstr "(4) E qualquer unidade inimiga entre duas das tuas trocará de lado."
+msgid ""
+"(2) If the move is valid an unit will be created at the given interception"
+msgstr "(2) Se a jogada for válida uma unidade será convocada na intercepção"
 
 #. [note]
 msgid ""
-"(5) The game continues until the board is full, or neither leader could do a "
+"(3) Any enemy units standing between the newly created unit and one of the "
+"same side will swap side."
+msgstr ""
+"(3) Qualquer unidade inimiga entre a recém criada e outra da mesma equipa "
+"trocará de lado."
+
+#. [note]
+msgid ""
+"(4) The game continues until the board is full, or neither leader can do a "
 "move."
 msgstr ""
-"(5) O jogo continua até que o tabuleiro estiver cheio, ou nenhum líder pode "
+"(4) O jogo continua até que o tabuleiro estiver cheio, ou nenhum líder pode "
 "fazer um movimento."
+
+#. [message]: speaker=narrator
+msgid "Endgame"
+msgstr "Fim do jogo"
+
+#. [message]: speaker=narrator
+msgid ""
+"<b>$Player1Name</b> won the game with <i>$side_1.units:$side_2.units</i>"
+msgstr ""
+"<b>$Player1Name</b> ganhou a partida com <i>$side_1.units:$side_2.units</i>"
+
+#. [message]: speaker=narrator
+msgid ""
+"<b>$Player2Name</b> won the game with <i>$side_2.units:$side_1.units</i>"
+msgstr ""
+"<b>$Player2Name</b> ganhou a partida com <i>$side_2.units:$side_1.units</i>"
+
+#. [message]: speaker=narrator
+msgid "The game ended in a draw (<i>$side_1.units:$side_2.units</i>)"
+msgstr "A partida terminou empatada (<i>$side_1.units:$side_2.units</i>)"
 
 #. [bloodlust]: id=bloodlust
 msgid "hit'n run"
@@ -318,7 +341,6 @@ msgstr ""
 "Uma partida de terror para três jogadores. Sobreviva ao assalto dos mortos "
 "mutantes."
 
-#. [illuminated_time]: id=campfire_illum
 #. [time]: id=campfire
 msgid "Campfire"
 msgstr "Fogueira"
@@ -341,6 +363,14 @@ msgstr "Rhonvan"
 #. [unit]: type=Merman Fighter, role=merman
 msgid "Eleagros"
 msgstr "Eleagros"
+
+#. [side]
+#. [side]: type=Ancient Lich
+#. [side]: type=Ancient Lich, id=mal-daugur
+#. [side]: type=Necrophage
+#. [side]: type=Revenant
+msgid "Undead"
+msgstr "Morto-Vivo"
 
 #. [objective]: condition=win
 msgid "Survive the zombie onslaught for 1 week"
@@ -715,12 +745,12 @@ msgid "Turn 8 [L]"
 msgstr "Turno 8 [E]"
 
 #. [event]
-msgid "Evil Things"
-msgstr "Coisas Malignas"
-
-#. [event]
 msgid "Turn 11 [R]"
 msgstr "Turno 11 [D]"
+
+#. [event]
+msgid "Evil Things"
+msgstr "Coisas Malignas"
 
 #. [message]: speaker=narrator
 msgid "Free at last! I will help you but first I must heal!"
@@ -731,12 +761,12 @@ msgid "Talking Squid"
 msgstr "Polvo Falante"
 
 #. [event]
-msgid "Water Dwellers"
-msgstr "Seres aquáticos"
-
-#. [event]
 msgid "Turn 14 [L]"
 msgstr "Turno 14 [E]"
+
+#. [event]
+msgid "Water Dwellers"
+msgstr "Seres aquáticos"
 
 #. [event]
 msgid "Turn 17 [R]"
@@ -771,20 +801,20 @@ msgid "Skirmishers"
 msgstr "Escaramuçadores"
 
 #. [event]
-msgid "Turn 32 [R]"
-msgstr "Turno 32 [D]"
-
-#. [event]
 msgid "Fire and Steel"
 msgstr "Fogo e Aço"
 
 #. [event]
-msgid "Hodgepodge"
-msgstr "Brutos"
+msgid "Turn 32 [R]"
+msgstr "Turno 32 [D]"
 
 #. [event]
 msgid "Turn 35 [L]"
 msgstr "Turno 35 [E]"
+
+#. [event]
+msgid "Hodgepodge"
+msgstr "Brutos"
 
 #. [event]
 msgid "Kill the Virgins!"
@@ -829,10 +859,6 @@ msgstr "VotA — Aliança Insegura"
 #. [multiplayer]: id=TL_VOTA_01_Uneasy_Alliance
 msgid "Valley of the Ancients: the Gates of Dawn"
 msgstr "Vale dos Anciãos: As Portas da Madrugada"
-
-#. [multiplayer]: id=TL_VOTA_01_Uneasy_Alliance
-msgid "2p — Valley of the Ancients"
-msgstr "2j — Vale dos Anciãos"
 
 #. [part]
 msgid ""
@@ -1666,6 +1692,10 @@ msgstr "Dois"
 #. [side]: type=Elvish Sylph
 msgid "Aelarra"
 msgstr "Aelarra"
+
+#. [side]: type=Elvish Sylph
+msgid "Elves"
+msgstr "Elfos"
 
 #. [unit]: type=Elvish Champion, role=champion
 msgid "Lythandrail"

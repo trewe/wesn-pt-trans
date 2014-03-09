@@ -1,210 +1,147 @@
+# European Portuguese translations for Battle for Wesnoth
+# Copyright (C) 2005-2014 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+# trewe <sjrs456@yahoo.fr>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Eliador-1.12\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-01-29 21:16+0000\n"
-"PO-Revision-Date: 2014-01-29 21:22+0100\n"
+"Project-Id-Version: Battle for Wesnoth 1.12\n"
+"Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
+"POT-Creation-Date: 2014-03-03 21:30+0100\n"
+"PO-Revision-Date: 2014-03-09 21:11+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
-"Language-Team: none\n"
-"Language: pt\n"
+"Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. [modification]: id=Random_No_Mirror
-#: Random_No_Mirror/_main.cfg:13
+#. [modification]: id=xY_Random_No_Mirror
 msgid "Random No Mirror"
 msgstr "Aleatório Sem Facção Espelhada"
 
-#. [modification]: id=Random_No_Mirror
-#: Random_No_Mirror/_main.cfg:14
-msgid "Forces a random faction to be choosen and avoids mirrors."
-msgstr "Força uma facção aleatória sem igual na batalha."
+#. [modification]: id=xY_Random_No_Mirror
+msgid ""
+"Forces a random faction from the selected era to be choosen and avoids "
+"mirrors."
+msgstr "Força uma facção aleatória sem igual da era seleccionada na batalha."
 
-#. [combo]: id=RNM_era_selection
-#: Random_No_Mirror/_main.cfg:20
-msgid "Choose the era mode"
-msgstr "Escolher o modo da era"
-
-#. [item]
-#: Random_No_Mirror/_main.cfg:24
-msgid "Default"
-msgstr "Padrão"
-
-#. [item]
-#: Random_No_Mirror/_main.cfg:28
-msgid "Heroes"
-msgstr "Heróis"
-
-#. [checkbox]: id=RNM_include-Drakes
-#. [checkbox]: id=RNM_include-Khalifate
-#. [checkbox]: id=RNM_include-Knalgan Alliance
-#. [checkbox]: id=RNM_include-Loyalists
-#. [checkbox]: id=RNM_include-Northerners
-#. [checkbox]: id=RNM_include-Rebels
-#. [checkbox]: id=RNM_include-Undead
-#: Random_No_Mirror/_main.cfg:35 Random_No_Mirror/_main.cfg:41
-#: Random_No_Mirror/_main.cfg:47 Random_No_Mirror/_main.cfg:53
-#: Random_No_Mirror/_main.cfg:59 Random_No_Mirror/_main.cfg:65
-#: Random_No_Mirror/_main.cfg:71
-msgid "Include "
-msgstr "Inclui "
-
-#. [checkbox]: id=RNM_include-Drakes
-#. [checkbox]: id=RNM_include-Khalifate
-#. [checkbox]: id=RNM_include-Knalgan Alliance
-#. [checkbox]: id=RNM_include-Loyalists
-#. [checkbox]: id=RNM_include-Northerners
-#. [checkbox]: id=RNM_include-Rebels
-#. [checkbox]: id=RNM_include-Undead
-#: Random_No_Mirror/_main.cfg:36 Random_No_Mirror/_main.cfg:42
-#: Random_No_Mirror/_main.cfg:48 Random_No_Mirror/_main.cfg:54
-#: Random_No_Mirror/_main.cfg:60 Random_No_Mirror/_main.cfg:66
-#: Random_No_Mirror/_main.cfg:72
-msgid " will be added to the pool of options"
-msgstr " irão ser adicionados a lista de escolhas"
-
-#. [modification]: id=Random_Traits
-#: Random_No_Mirror/_main.cfg:228
+#. [modification]: id=xY_Leader_Traits
 msgid "Traits for Leaders"
 msgstr "Feições para líderes"
 
-#. [checkbox]: id=Random_Traits_nerf_leadership_units
-#: Random_No_Mirror/_main.cfg:232
-msgid "Aged Trait to units with leadership"
+#. [checkbox]: id=xY_Random_Traits_nerf_leadership_units
+msgid "Aged Trait for units with leadership"
 msgstr "Dê a feição idoso a unidades com liderança"
 
-#. [checkbox]: id=Random_Traits_nerf_healing_units
-#: Random_No_Mirror/_main.cfg:237
-msgid "Dim Trait to healers"
+#. [checkbox]: id=xY_Random_Traits_nerf_healing_units
+msgid "Dim Trait for healers"
 msgstr "Dê a feição asno a curandeiros"
 
-#. [checkbox]: id=Random_Traits_nerf_units_with_specials
-#: Random_No_Mirror/_main.cfg:242
-msgid "Weak Trait to units with special abilities"
+#. [checkbox]: id=xY_Random_Traits_nerf_units_with_specials
+msgid "Weak Trait for units with special abilities"
 msgstr "Dê a feição fraco a unidades com especialidades especiais"
 
-#. [modification]: id=Pick_Your_Recruits
-#: Random_No_Mirror/_main.cfg:277
+#. [modification]: id=xY_Pick_Your_Recruits
 msgid "Pick Your Recruits"
 msgstr "Escolha os Teus Recrutas"
 
-#. [modification]: id=Pick_Your_Recruits
-#: Random_No_Mirror/_main.cfg:278
-msgid "Allows to pick freely all units from default era to recruit."
-msgstr "Permite escolher livremente de todas as unidades da era padrão"
+#. [modification]: id=xY_Pick_Your_Recruits
+msgid "Choose your recruits from the selected era at game start"
+msgstr "Escolha os teus recrutas da era seleccionada no inicio da partida."
 
-#. [slider]: id=PYR_recruits
-#: Random_No_Mirror/_main.cfg:282
+#. [slider]: id=xY_PYR_recruits
 msgid "Recruits"
 msgstr "Recrutamentos"
 
-#. [slider]: id=PYR_recruits
-#: Random_No_Mirror/_main.cfg:283
+#. [slider]: id=xY_PYR_recruits
 msgid "Choose how many recruits are allowed to pick up"
 msgstr "Define quantos recrutamentos são permitidos"
 
-#. [slider]: id=PYR_gold
-#: Random_No_Mirror/_main.cfg:291
+#. [slider]: id=xY_PYR_gold
 msgid "Gold"
 msgstr "Ouro"
 
-#. [slider]: id=PYR_gold
-#: Random_No_Mirror/_main.cfg:292
-msgid "How much gold should be spended for recruits?"
-msgstr "Define quando ouro é permitido gastar"
+#. [slider]: id=xY_PYR_gold
+msgid "How much gold can be spended for recruits"
+msgstr "Define quando ouro é permitido gastar para escolher os recrutas"
 
-#. [checkbox]: id=PYR_era
-#: Random_No_Mirror/_main.cfg:300
-msgid "from all mainline units"
-msgstr "todas as unidades possíveis"
-
-#. [checkbox]: id=PYR_era
-#: Random_No_Mirror/_main.cfg:301
-msgid "whenever only from the default era or from all core units"
-msgstr "se somente da era padrão ou todas as unidades do jogo"
-
-#: Random_No_Mirror/_main.cfg:310
 msgid "Automatic End Turn"
 msgstr "Terminar Turno Automático"
 
-#: Random_No_Mirror/_main.cfg:311
 msgid ""
 "Automatically ends your turn if no units are able to either move, attack or "
-"recruit. (use with caution)"
+"recruit. (use with care)"
 msgstr ""
 "Automaticamente termina o teu turno se não tiveres unidades que já não podem "
 "mover-se, atacar ou recrutar (usa com cuidado)"
 
 #. [set_menu_item]: id=PYR_reset_picks
-#: Random_No_Mirror/utils/PYR.cfg:132
 msgid "Show current recruits"
 msgstr "Mostra recrutas actuais"
 
 #. [value]
-#: Random_No_Mirror/utils/PYR.cfg:143
 msgid "Discard $PYR_side_$side_number|_current_recruits[$i_temp].language_name"
 msgstr "Anular $PYR_side_$side_number|_current_recruits[$i_temp].language_name"
 
 #. [message]: speaker=narrator
-#: Random_No_Mirror/utils/PYR.cfg:172
 msgid "Manage your current recruits"
 msgstr "Gerir os teus recrutas actuais"
 
 #. [option]: speaker=narrator
-#: Random_No_Mirror/utils/PYR.cfg:178
 msgid "Nevermind"
 msgstr "Esquece"
 
 #. [message]: speaker=narrator
-#: Random_No_Mirror/utils/PYR.cfg:226
 msgid "Pick Your Recruits Mod"
 msgstr "Modificação Escolha dos Recrutas"
 
 #. [message]: speaker=narrator
-#: Random_No_Mirror/utils/PYR.cfg:227
 msgid ""
 "<span color='black'>-</span>\n"
-"In a Pick Your Recruits game, you spend the first turn choosing which unit "
-"types you wish to have available to you. The game then begins normally on "
-"the second turn, when you will have your chosen units available for "
-"recruiting. You choose unit types by using the recruit menu, where you will "
-"have all allowed unit types available during the first turn. The other "
-"players do not see what choices you make.\n"
+"In a <b>Pick Your Recruits</b> game, you spend the first turn choosing which "
+"unit types you wish to have available. The game then begins normally on the "
+"second turn, when the chosen units will be available for recruiting. "
+"Choosing the unit types is done by using the regular recruit menu which "
+"shows all allowed unit types during the first turn. The other players do not "
+"see what choices you make.\n"
 "<span color='black'>-</span>\n"
-"You may freely choose up to $PYR_recruits units as long as their combined "
-"recruit costs do not exceed $PYR_gold gold.\n"
+"You may freely choose up to <b><span foreground='#00ff00'>$xY_PYR_recruits</"
+"span> units</b> as long as their combined recruit costs do not exceed "
+"<b><span foreground='gold'>$xY_PYR_gold</span> gold</b>.\n"
 "<span color='black'>-</span>\n"
-"If you make a mistake while picking your recruits, you may reset your picks "
+"If you made a mistake while picking your recruits, you can reset your picks "
 "from the right-click context menu and start over."
 msgstr ""
 "<span color='black'>-</span>\n"
-"Num jogo “Escolha os Teus Recrutas”, passas o primeiro turno a escolher que "
-"unidades desejas ter disponíveis. O jogo então prosseguirá normalmente no "
-"segundo turno com estas unidades escolhidas para recrutar. Esciolhes as "
+"Num jogo <b>Escolha os Teus Recrutas</b>, passas o primeiro turno a escolher "
+"que unidades desejas ter disponíveis. O jogo então prosseguirá normalmente "
+"no segundo turno com estas unidades escolhidas para recrutar. Esciolhes as "
 "unidades com o menu normal para recrutar onde poderás examinar todas as "
 "unidades disponíveis. Os outros jogadores não podem ver as tuas escolhas.\n"
 "<span color='black'>-</span>\n"
-"Poderás livremente escolher até $PYR_recruits unidades deste que não gastes "
-"mais de $PYR_gold peças de ouro.\n"
+"Poderás livremente escolher até <b><span "
+"foreground='#00ff00'>$xY_PYR_recruits</span> unidades</b> deste que não "
+"gastes mais de <b><span foreground='gold'>$xY_PYR_gold</span> peças de ouro</"
+"b>.\n"
 "<span color='black'>-</span>\n"
-"Se te enganares a qualquer altura podes sempre corrigir a tua lista de "
-"unidades no menu do botão direito do rato."
+"Se te enganares podes sempre corrigir a tua lista de unidades a qualquer "
+"altura no menu do botão direito do rato."
 
 #. [message]: speaker=narrator
-#: Random_No_Mirror/utils/PYR.cfg:279
 msgid "$unit.language_name has been added to your recruitlist"
 msgstr "$unit.language_name foi adicionado a tua lista de recrutamento"
 
 #. [message]: speaker=narrator
-#: Random_No_Mirror/utils/PYR.cfg:281
-msgid "You can now recruit: $PYR_temp"
-msgstr "Podes agora recrutar: $PYR_temp"
+msgid ""
+"Your current recruits:\n"
+"<i>$PYR_temp</i>"
+msgstr ""
+"Podes agora recrutar:\n"
+"<i>$PYR_temp</i>"
 
 #. [message]: speaker=narrator
-#: Random_No_Mirror/utils/PYR.cfg:307
 msgid ""
 "The game now begins normally with everyone having the proper starting gold "
 "and the recruit list they picked on the first turn."
