@@ -1,0 +1,305 @@
+# European Portuguese translations for Battle for Wesnoth
+# Copyright (C) 2005-2014 Wesnoth development team
+# This file is distributed under the same license as the Battle for Wesnoth package.
+# trewe <sjrs456@yahoo.fr>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: Battle for Wesnoth 1.12\n"
+"Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
+"POT-Creation-Date: 2014-03-09 17:30+0000\n"
+"PO-Revision-Date: 2014-03-09 18:08+0100\n"
+"Last-Translator: trewe <sjrs456@yandex.com>\n"
+"Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: _main.cfg:14
+msgid ""
+"Era of High Sorcery (EoHS) is an era where your leader is a powerful wizard "
+"whose spells can alter the nature of the entire battlefield (sometimes "
+"literally!). EoHS features:\n"
+"- Three realms of magic, each with more than a dozen unique spells\n"
+"- Pick your recruits from one or more factions\n"
+"- Ability to customize your wizard's appearance, changing their hairstyle "
+"and recoloring their robes and equipment – plus several hats you can earn by "
+"performing in-game feats\n"
+"- No download required for non-host players – anyone can join or observe an "
+"EoHS game\n"
+"- Freely available on the add-on servers for Wesnoth 1.10 and 1.11"
+msgstr ""
+"Na Era da Alta Magia (EdAM) o teu líder é um poderoso feiticeiro cujos "
+"feitiços podem alterar a natureza do campo de batalha inteiro (as vezes "
+"literalmente!). Principais características:\n"
+" — Três ramos de magia por explorar, cada um com mais de uma dúzia de "
+"feitiços únicos.\n"
+" — Escolha os teus recrutas de uma ou mais facções.\n"
+" — Permite escolher livremente a aparência do teu líder, deste o estilo de "
+"cabelo até a cor das mantas ou tipo de equipamento — mais uma variedade de "
+"chapéus que podem ser adquiridos ao recorrer do jogo.\n"
+" — Não é necessário descarregar a era para a jogar, qualquer um pode juntar-"
+"se a uma partida que utilize esta era.\n"
+" — Disponível de forma gratuita nos servidores da Batalha por Wesnoth "
+"(versão 1.10 e 1.12)"
+
+# String concatination? :/
+#. [multiplayer_side]: id=EoHS_Faction, type=Red Mage
+#: _main.cfg:163
+msgid "Wizards (v"
+msgstr "Magos (v"
+
+#. [era]: id=EoHS: Era of High Sorcery, description={EOHS_DESCRIPTION}
+#: _main.cfg:173
+msgid "EoHS: Era of High Sorcery"
+msgstr "EdAM: Era da Alta Magia"
+
+#. [era]: id=EoHS: Era of High Sorcery, description={EOHS_DESCRIPTION}
+#: _main.cfg:176
+msgid "Default"
+msgstr "Padrão"
+
+#. [era]: id=EoHS: Alternative settings, description={EOHS_DESCRIPTION}
+#: _main.cfg:181
+msgid "EoHS: Alternative settings"
+msgstr "EdAM: Configuração alternativa"
+
+#. [era]: id=EoHS: Alternative settings, description={EOHS_DESCRIPTION}
+#: _main.cfg:183
+msgid "Alt settings"
+msgstr "Definições alternativas"
+
+#. [modification]: id=EoHS with any era
+#: _main.cfg:189
+msgid "EoHS with any era"
+msgstr "Jogar a era em conjunto com qualquer outra"
+
+#. [modification]: id=EoHS with any era
+#. [modification]: id=EoHS with any era: Alternative settings
+#: _main.cfg:190 _main.cfg:199
+msgid ""
+"In this version of EoHS, the alliances are replaced with the factions from "
+"whatever era you choose.\n"
+" \n"
+msgstr ""
+"Nesta versão da era as alianças irão ser substituídas pelas facções da era "
+"escolhida.\n"
+"\n"
+
+#. [modification]: id=EoHS with any era: Alternative settings
+#: _main.cfg:198
+msgid "EoHS with any era: Alternative settings"
+msgstr "EdAM com qualquer era: Configuração alternativa "
+
+#: lua_files/actions.cfg:132
+msgid "Transformed:"
+msgstr "Transformado:"
+
+#: lua_files/actions.cfg:132
+msgid "You can't use actions while transformed."
+msgstr "Não podes executar qualquer acções enquanto estiveres transformado."
+
+#: lua_files/actions.cfg:135
+msgid "You can't target any action at an enemy circle of protection."
+msgstr ""
+"Não podes dirigir uma acção a um inimigo dentro do seu círculo de protecção."
+
+#: lua_files/actions.cfg:135
+msgid "Circle of protection:"
+msgstr "Círculo de Protecção:"
+
+#: lua_files/actions.cfg:138
+msgid "AP:"
+msgstr "PA:"
+
+#: lua_files/actions.cfg:148
+msgid "You will transmute $1| gold into mana"
+msgstr "Irás converter $1| peças de ouro em mana"
+
+#: lua_files/actions.cfg:152
+msgid "Mana cost:"
+msgstr "Custo em Mana:"
+
+#: lua_files/actions.cfg:155
+msgid "Gold cost:"
+msgstr "Custo em Ouro:"
+
+#: lua_files/actions.cfg:159
+msgid "Target type:"
+msgstr "Tipo de Alvo:"
+
+#: lua_files/actions.cfg:162
+msgid "Range:"
+msgstr "Alcance:"
+
+#: lua_files/actions.cfg:245
+msgid "Mana: "
+msgstr "Mana: "
+
+#: lua_files/actions.cfg:248
+msgid "Gold: "
+msgstr "Ouro: "
+
+#: lua_files/actions.cfg:250
+msgid "Total: "
+msgstr "Total: "
+
+#: lua_files/actions.cfg:253
+msgid "AP: "
+msgstr "PA:"
+
+#: lua_files/actions.cfg:261
+msgid "Mana"
+msgstr "Mana"
+
+#: lua_files/actions.cfg:261
+msgid "Range"
+msgstr "Alcance"
+
+#: lua_files/actions.cfg:261
+msgid "AP"
+msgstr "AP"
+
+#: lua_files/actions.cfg:261
+msgid "Target"
+msgstr "Alvo"
+
+# EVIL!
+# Need proper singular/plural and gender strings.
+#: lua_files/actions.cfg:305
+msgid "Cast <b>$1|</b> at <b>$4|</b> ($2|,$3|)"
+msgstr "Lança o feitiço <b>$1|</b> à <b>$4|</b> (em $2|,$3|)"
+
+#: lua_files/actions.cfg:306
+msgid "Cast <b>$1|</b> at ($2|,$3|)"
+msgstr "Lança o feitiço <b>$1|</b> em ($2|,$3|)"
+
+#: lua_files/actions.cfg:309
+msgid "Cast <b>$1|</b>"
+msgstr "Lança o feitiço <b>$1|</b>"
+
+#: lua_files/actions.cfg:400
+msgid "You have no actions to use."
+msgstr "Não tens nenhuma acção disponível."
+
+#: lua_files/actions.cfg:419
+msgid ""
+"Your action ($3|) was disrupted by an invisible unit at ($1|,$2|). Try again."
+msgstr ""
+"A tua acção ($3|) fora interrompida por uma unidade invisível em ($1|,$2|). "
+"Por favor tenta de novo."
+
+#: lua_files/actions.cfg:478
+msgid ""
+"$actor.name| ($actor.x|,$actor.y|) casts $action.name| at $target.name| "
+"($target.x|,$target.y|)."
+msgstr ""
+"$actor.name| ($actor.x|,$actor.y|) lança o feitiço $action.name| à $target."
+"name| (em $target.x|,$target.y|)."
+
+#: lua_files/actions.cfg:479
+msgid ""
+"$actor.name| ($actor.x|,$actor.y|) casts $action.name| at ($target_x|,"
+"$target_y|)."
+msgstr ""
+"$actor.name| ($actor.x|,$actor.y|) lança o feitiço $action.name| em "
+"($target_x|,$target_y|)."
+
+#: lua_files/actions.cfg:481
+msgid "$actor.name| ($actor.x|,$actor.y|) casts $action.name|."
+msgstr "$actor.name| ($actor.x|,$actor.y|) lança o feitiço $action.name|."
+
+#: lua_files/actions.cfg:658
+msgid "hex"
+msgstr "hexágono"
+
+#: lua_files/actions.cfg:659
+msgid "Any hex"
+msgstr "qualquer hexágono"
+
+#: lua_files/actions.cfg:669 lua_files/actions/summons.cfg:239
+#: lua_files/actions/summons.cfg:431
+msgid "empty hex"
+msgstr "um hexágono vago"
+
+#: lua_files/actions.cfg:670 lua_files/actions/summons.cfg:240
+#: lua_files/actions/summons.cfg:432
+msgid "Empty hex"
+msgstr "Um hexágono vago"
+
+#: lua_files/actions.cfg:671 lua_files/actions.cfg:685
+#: lua_files/actions/summons.cfg:233 lua_files/actions/summons.cfg:425
+msgid "You can't tell if that hex is occupied."
+msgstr "Não sabes se este hexágono está vago."
+
+#: lua_files/actions.cfg:683
+msgid "recruit hex"
+msgstr "local de recrutamento"
+
+#: lua_files/actions.cfg:684
+msgid "Recruit hex"
+msgstr "Local de recrutamento"
+
+#: lua_files/actions.cfg:694 lua_files/actions.cfg:706
+#: lua_files/actions.cfg:720 lua_files/actions/soul_bind.cfg:29
+msgid "unit"
+msgstr "unidade"
+
+#: lua_files/actions.cfg:695
+msgid "Any unit"
+msgstr "Qualquer unidade"
+
+#: lua_files/actions.cfg:696 lua_files/actions.cfg:708
+#: lua_files/actions.cfg:722 lua_files/actions/ogre_fury.cfg:42
+msgid "You can't tell if there is a unit there."
+msgstr "Não sabes se existe uma unidade aqui."
+
+#: lua_files/actions.cfg:707
+msgid "Unit (probably enemy)"
+msgstr "Uma unidade (provavelmente inimiga)"
+
+#: lua_files/actions.cfg:708
+msgid "You probably don't want to cast that at an ally."
+msgstr "Provavelmente não quererás lançar este feitiço a uma unidade aliada."
+
+#: lua_files/actions.cfg:721
+msgid "Unit (probably ally)"
+msgstr "Uma unidade (provavelmente aliada)"
+
+#: lua_files/actions.cfg:722 lua_files/actions/ogre_fury.cfg:52
+msgid "You probably don't want to cast that at an enemy."
+msgstr "Provavelmente não quererás lançar este feitiço a uma unidade inimiga."
+
+#: lua_files/actions.cfg:813
+msgid "You already have that spell active."
+msgstr "Este feitiço já está activo."
+
+#: lua_files/actions.cfg:816
+msgid "Replaces your current touch enchantment"
+msgstr "Substitui o tipo de encantamento que tens"
+
+#: lua_files/actions.cfg:819
+msgid "Touch enchantment"
+msgstr "Toque encantado"
+
+#: lua_files/actions/absorb_bats.cfg:21
+msgid "Absorb Bats"
+msgstr "Absorver morcegos"
+
+#: lua_files/actions/absorb_bats.cfg:22
+msgid ""
+"You absorb all your Vampire Bats that are next to you, regaining all the "
+"gold or mana spent to create them."
+msgstr ""
+"Absorves todos os morcegos a tua imediata volta, ganhando a quantidade de "
+"ouro e mana que fora necessário para criar-os."
+
+#: lua_files/actions/absorb_bats.cfg:30
+msgid "Bats absorbed"
+msgstr "Morcegos absorvidos"
+
+#: lua_files/actions/action_template.cfg:8
+msgid "Action Name"
+msgstr "Nome da Acção"

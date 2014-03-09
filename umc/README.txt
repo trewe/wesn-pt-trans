@@ -3,13 +3,14 @@ Portuguese translation files for the game « The Battle for Wesnoth »
 
 Statistics:
 
- » PT	                      	 —   5417/   36/ 17416 ( 30%) -11981
+ » PT	                      	 —   5474/   36/ 17473 ( 31%) -11981
  * Warmaster             	 —    578/    0/   578 (100%) -0
  * Valley of the Ancients	 —    339/    0/   339 (100%) -0
  * Unite the Clans       	 —     12/    0/    12 (100%) -0
  * Troubled Times        	 —    475/    0/   475 (100%) -0
  * The Three Elves       	 —    475/    0/   475 (100%) -0
  * Random No Mirror      	 —     31/    0/    31 (100%) -0
+ * Era of High Sorcery   	 —     57/    0/    57 (100%) -0
  * Eliador               	 —    313/    0/   313 (100%) -0
  * A Simple Campaign     	 —     33/    0/    33 (100%) -0
  * Saving Elensefar      	 —    630/    0/   632 ( 99%) -3
