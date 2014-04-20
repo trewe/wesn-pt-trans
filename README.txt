@@ -3,7 +3,7 @@ Portuguese translation files for the game « The Battle for Wesnoth »
 
 Statistics:
 
- » PT	                      	  —  16170/   23/ 16476 ( 98%) -290
+ » PT                             —  16198/    0/ 16476 ( 98%) -282
  * wesnoth-utbs                   —   1914/    0/  1914 (100%) -0
  * wesnoth-tutorial               —    257/    0/   257 (100%) -0
  * wesnoth-tsg                    —    522/    0/   522 (100%) -0
@@ -20,20 +20,20 @@ Statistics:
  * wesnoth-l                      —    358/    0/   358 (100%) -0
  * wesnoth-httt                   —   1143/    0/  1143 (100%) -0
  * wesnoth-help                   —    588/    0/   588 (100%) -0
+ * wesnoth-ei                     —    549/    0/   549 (100%) -0
  * wesnoth-editor                 —    102/    0/   102 (100%) -0
  * wesnoth-dw                     —    464/    0/   464 (100%) -0
  * wesnoth-dm                     —    681/    0/   681 (100%) -0
  * wesnoth-did                    —    317/    0/   317 (100%) -0
  * wesnoth-aoi                    —    181/    0/   181 (100%) -0
  * wesnoth-anl                    —    113/    0/   113 (100%) -0
- * wesnoth                        —   1417/    0/  1423 ( 99%) -7
+ * wesnoth                        —   1423/    0/  1423 (100%) -0
  * wesnoth-manual                 —    568/    0/   569 ( 99%) -2
  * wesnoth-manpages               —    231/    0/   235 ( 98%) -5
- * wesnoth-units                  —    558/    0/   584 ( 95%) -27
- * wesnoth-ei                     —    503/   23/   549 ( 87%) -25
+ * wesnoth-units                  —    534/    0/   584 ( 91%) -51
  * wesnoth-ai                     —    183/    0/   406 ( 45%) -224
 
- » PT_BR	                  —  13785/ 1354/ 16476 ( 75%) -1381
+ » PT_BR                          —  13785/ 1354/ 16476 ( 75%) -1381
  * wesnoth-test                   —      2/    0/     2 (100%) -0
  * wesnoth-did                    —    317/    0/   317 (100%) -0
  * wesnoth-aoi                    —    181/    0/   181 (100%) -0
