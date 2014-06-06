@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
-"Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
-"POT-Creation-Date: 2013-11-30 18:59+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-14 13:21+0200\n"
 "PO-Revision-Date: 2014-03-09 21:06+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. [campaign]: id=ooze_campaign
+#. [campaign]: id=ooze_campaign, type=hybrid
 msgid "Ooze Mini-Campaign"
 msgstr "Mini-Campanha do Lodo"
 
-#. [campaign]: id=ooze_campaign
+#. [campaign]: id=ooze_campaign, type=hybrid
 msgid "OC"
 msgstr "CL"
 
-#. [campaign]: id=ooze_campaign
+#. [campaign]: id=ooze_campaign, type=hybrid
 msgid ""
 "You are an ooze, and you are hungry. Devour the foolish intruders that have "
 "entered your domain! Four levels, including an RPG level.\n"
@@ -37,20 +37,13 @@ msgstr ""
 "\n"
 "Jogo em rede: Para tal a última versão é recomendada!"
 
-msgid "Ooze's Mini-Campaign"
-msgstr "Mini-Campanha do Lodo"
-
-msgid ""
-"You are an ooze, and you are hungry. Devour the foolish intruders that have "
-"entered your domain! Four levels, including an RPG level.\n"
-"Two players multiplayer campaign. Use default map settings to play."
-msgstr ""
-"És lodo, e estás com fome. Devora os intrusos tolos que se atreveram a "
-"invadir o teu lar! Quatro níveis, incluindo um RPG.\n"
-"Campanha em rede para dois jogadores. Usa as predefinições por defeito."
-
+#. [scenario]: id=1_Lab
 msgid "Home Sweet Home"
 msgstr "Lar Doce Lar"
+
+#. [scenario]: id=1_Lab
+msgid "Ooze's Mini-Campaign"
+msgstr "Mini-Campanha do Lodo"
 
 #. [modify_side]
 #. [side]
@@ -76,6 +69,7 @@ msgstr ""
 msgid "Death of the Master Ooze 2"
 msgstr "Morte do mestre lodo 2"
 
+#. [scenario]: id=1_Lab
 msgid ""
 "Note: In this co-op campaign you will share your gold gains and losses with "
 "your partner evenly. For example, if one Master Ooze gets a reward of 100 "
@@ -111,9 +105,10 @@ msgstr "Para a superfície"
 
 #. [event]
 #. [event]: id=Master Ooze, id=Master Ooze 2
-#. [multiplayer]: id=2_mp_Forest_Defender
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
+#. [scenario]: id=1_Lab
+#. [scenario]: id=2_mp_Forest_Defender
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [side]: id=Master Ooze, type=Elvish Shaman Ooze
 #. [side]: id=Master Ooze, type=Giant Ooze
 #. [then]: id=Master Ooze
@@ -121,9 +116,10 @@ msgid "Master Ooze"
 msgstr "Mestre Lodo"
 
 #. [event]
-#. [multiplayer]: id=2_mp_Forest_Defender
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
+#. [scenario]: id=1_Lab
+#. [scenario]: id=2_mp_Forest_Defender
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Master Ooze 2"
 msgstr "Mestre Lodo 2"
 
@@ -161,16 +157,7 @@ msgstr "Rainha das aranhas"
 msgid "Spiders"
 msgstr "Aranhas"
 
-#. [then]
-msgid "This campaign requires two players to play in multiplayer mode!"
-msgstr "Esta campanha requer dois jogadores para jogar em modo em rede!"
-
-#. [then]
-msgid ""
-"This campaign requires default map settings to play in multiplayer mode!"
-msgstr "Esta campanha requer as definições do mapa por predefinição activadas!"
-
-#. [then]
+#. [event]
 msgid ""
 "You have only vague ideas of how you came into being, or how long you've "
 "lived. All you know is that you're an ooze, and you're hungry!"
@@ -178,7 +165,7 @@ msgstr ""
 "Só tens uma ideia vaga em como vieste a este estado, e quanto tempo já vives "
 "assim. Tudo o que sabes é que és lodo, e que estás com fome!"
 
-#. [then]
+#. [event]
 msgid ""
 "By engulfing enemies and digesting them, you can create smaller copies of "
 "yourself!"
@@ -186,7 +173,7 @@ msgstr ""
 "Ao engolir os teus inimigos e digerindo-os, serás capaz de recriar cópias "
 "pequenas de ti mesmo!"
 
-#. [then]
+#. [event]
 msgid ""
 "I'm certain the goblins who raided our town fled into these caves. Be on "
 "your guard men!"
@@ -194,7 +181,7 @@ msgstr ""
 "Tenho a certeza que os gnomos que saquearam a nossa aldeia fugiram para "
 "estas cavernas. Estejam atentos, homens!"
 
-#. [then]
+#. [event]
 msgid ""
 "Once an evil wizard used these caves for his unholy experiments. There's no "
 "telling what sort of monsters we could run into down here."
@@ -202,14 +189,14 @@ msgstr ""
 "Outrora um feiticeiro maligno usou estas cavernas para as suas experiências "
 "profanas. Não se sabe que tipo de monstros poderemos encontrar aqui em baixo."
 
-#. [then]
+#. [event]
 msgid ""
 "Hrrr...so...human want fight, eh? We give them fight! They all die today!"
 msgstr ""
 "Erre... então... os humanos querem luta? Vamos dar-lhes luta! Irão todos "
 "morrer hoje! "
 
-#. [then]
+#. [event]
 msgid ""
 "Damn! These caves were supposed to be our secret hideout! SECRET, as in, "
 "something nobody knows about! But between the monsters and the goblins and "
@@ -220,7 +207,7 @@ msgstr ""
 "soldados e gnomos a burbilhar cá isto está mais agitado do a cidade de "
 "Tarakin num dia de feira!"
 
-#. [then]
+#. [event]
 msgid ""
 "Grab yer loot boys; we're fight'n our way outta this place. Anyone who gets "
 "in our way gets their head split open, aye?"
@@ -228,7 +215,7 @@ msgstr ""
 "Apanham o ouro deles rapazes; teremos de defender-nos dos nossos "
 "adversários. Quem quer que esteja no nosso caminho irá partir a sua cabeça!"
 
-#. [then]
+#. [event]
 msgid ""
 "Food, food, FOOD! You've never seen so much food before! Your gelatinous "
 "form quivers with excitement as your meals approach."
@@ -236,7 +223,7 @@ msgstr ""
 "Comida, comida, COMIDA! Nunca viste tanta comida antes! A tua forma "
 "gelatinosa estremece de excitamento assim como o teu jantar se aproxima."
 
-#. [then]
+#. [event]
 msgid ""
 "But your prey is not harmless. You notice that many of them carry sharp "
 "sticks to poke you with, or pieces of wood to club you with. You realize "
@@ -246,26 +233,28 @@ msgstr ""
 "afiados, ou ramos de madeira para bater em ti. Compreendes que poderás estar "
 "em desvantagem numérica da tua presa a vir ao teu encontro."
 
-#. [then]
+#. [event]
 msgid ""
 "Perhaps it would be better to relocate to some place where the prey isn't so "
 "dangerous..."
 msgstr "Talvez seja melhor mudar para onde a presa não é assim tão perigosa..."
 
-#. [then]
+#. [event]
 msgid ""
 "You split yourself into smaller pieces to prepare for the coming onslaught..."
 msgstr "Divides-te em peças mais pequenas para preparar-te para a batalha..."
 
-#. [then]
+#. [event]
 msgid ""
 "What's this?! One of your parts seems to have developed a will of its own!"
 msgstr ""
 "O que é isto?! Uma das tuas partes parece ter desenvolvido arbítrio próprio!"
 
+#. [scenario]: id=1_Lab
 msgid "Damn these monsters! Call in the reinforcements!"
 msgstr "Malditos sejam estes monstros! Chamam os reforços!"
 
+#. [scenario]: id=1_Lab
 msgid ""
 "Stinking humans everywhere! And then those nasty slimes! Burn them, bite "
 "them, slice them!"
@@ -273,6 +262,7 @@ msgstr ""
 "Humanos fedorentos por toda a parte! E aquele lodo nojento! Queimam, mordam, "
 "cortam!"
 
+#. [scenario]: id=1_Lab
 msgid "We're getting nowhere like this! Send in the veterans!"
 msgstr "Assim não vamos a lado nenhum! Enviam os veteranos!"
 
@@ -375,8 +365,8 @@ msgid ""
 msgstr ""
 
 #. [label]
-#. [multiplayer]: id=2_mp_Forest_Defender
 #. [scenario]: id=2_Forest_Defender
+#. [scenario]: id=2_mp_Forest_Defender
 msgid "Heart of the Forest"
 msgstr "Coração da floresta"
 
@@ -501,8 +491,8 @@ msgid ""
 "from our home!"
 msgstr ""
 
-#. [multiplayer]: id=2_mp_Forest_Defender
 #. [scenario]: id=2_Forest_Defender
+#. [scenario]: id=2_mp_Forest_Defender
 msgid "At last, the monstrous taint has been purged..."
 msgstr ""
 
@@ -677,8 +667,8 @@ msgid ""
 "You struggle to make sense of it all."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Pinewood"
 msgstr "Pinhal"
 
@@ -705,91 +695,91 @@ msgstr ""
 msgid "female^You lost $gpa gold pieces!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(The Mayor appears to be a balding middle-aged man with an exuberant "
 "temperament. Based on his clothes and bearing, you guess that he must have "
 "been a farmer before taking up the aegis of politics)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "female^Greetings citizen! Have you come to aid our fair town in our hour of "
 "need?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(How should you respond?)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(Offer to help fight Evil) Yes, my name is Aurelia. I'm an elvish shaman and "
 "I'm here to help!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(He rubs his hands together with glee) Wonderful! Splendid! Let me explain "
 "the situation..."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(Offer to help for a reward) I'm a mercenary. I can help, but my services "
 "will cost you."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Of course, of course! There's considerable risk involved in what I'm asking. "
 "I wouldn't dream of putting you in harm's way without providing proper..."
 "compensation."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Let me give you a quick briefing about what's been going on..."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "female^(Decline to help) I'm just a simple traveler looking for a place to "
 "spend the night."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "In that case madam, I highly recommend Brock's Tavern, which is located near "
 "the South Gate. The food is delicious, the rooms are cozy, and the prices "
 "are quite affordable. Please enjoy your stay in Fort Pinewood!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(He suddenly looks dejected) Or...at least, enjoy your stay as much as "
 "possible under the circumstances. (Sigh) Our town has had its share of "
 "troubles recently. Let me explain what's been going on..."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "female^(Provoke) I'm no hero! I'm the Master Ooze, come to devour you all!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "female^(On second thought, as you look at the Mayor's four well-armored "
 "bodyguards, you decide that it might not be in your best interest to provoke "
@@ -797,16 +787,16 @@ msgid ""
 "destroy the humans...)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "It all started when our militia leader led a punitive strike against the "
 "local goblin tribe. The strike force encountered an incredibly evil, "
 "powerful monster that devoured all in its path!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "The Pinewood Militia suffered a crushing defeat, and our militia leader was "
 "killed. I've had all the outlying farmsteads evacuated as we no longer have "
@@ -814,8 +804,8 @@ msgid ""
 "it'll be weeks before they arrive in force."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "In the meantime I've been trying to recruit heroes and mercenaries to "
 "bolster the fort's defenses. I'm not just worried about the oozes; there's "
@@ -824,8 +814,8 @@ msgid ""
 "more to worry about than just mindless oozes!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "female^If you're interested in helping with the town's defense, go speak "
 "with Frist at the Training Hall. You may also want to speak with some of the "
@@ -833,47 +823,47 @@ msgid ""
 "valuable information."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Oh, would that I might never see another day such as today, alas, alas!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 #. [then]
 #. [then]: id=Bloodtalon
 msgid "(What to say?)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Offer to help) Hello sir. Is something wrong?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Oh fair damsel, I don't want to burden you with my problems. (He suddenly "
 "reconsiders) On the other hand, perhaps you're just what I need..."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "I'll tell you my tale of woe, and then you can decide whether to help me or "
 "not."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Last year I was traveling with a trade caravan in the icy steppes of Vedra "
 "when we were ambushed by orcs. Except for myself, there was only one other "
 "survivor, a beautiful and skilled mage by the name of Corinna."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "What can I say about Corinna? Her eyes are exquisite emeralds, her face is "
 "that of an angel, she is a goddess made flesh! With Corinna's magic and my "
@@ -883,43 +873,43 @@ msgid ""
 "traveling together, the two of us made it back to civilization."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "We're the perfect team! The gods intended for us to be together, I'm sure of "
 "it!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "You do sound like a good match. So what's the problem?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Corinna is evil and she hates me."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Ouch."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Tell me about it."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Once we got back to Fort Pinewood she wanted nothing to do with me! She said "
 "she only stayed with me to survive, that she never loved me! I feel like "
 "I've had my heart ripped out and trampled to a pulp!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Now she broods in her manor, studying dark tomes of forbidden magic. The "
 "last time I tried to visit her she attacked me, and placed what she called "
@@ -927,8 +917,8 @@ msgid ""
 "stops me from even passing through the front gate of her manor now!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "The tenets of my paladin Order clearly state that I must slay Evil wherever "
 "I find it, but how can I raise my sword against the woman I love? (Sigh) If "
@@ -936,44 +926,44 @@ msgid ""
 "beautiful be so ugly inside?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "I guess appearances can be deceiving sometimes... (You wonder what Dryden "
 "would think of you if he saw your true form...)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "If you're willing to help, please take this love letter I wrote to Corinna "
 "at her estate. It's just west of the bridge."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "female^(Leave him alone) Sorry to bother you..."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(The man is so self-absorbed in his sorrow that he doesn't even notice your "
 "arrival or departure.)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "female^(Eagerly) Were you able to get my letter to Corinna?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Tell the truth) I'm afraid so. She tried to hire me to get rid of you."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(Grimly) Then things are even worse than I feared. It is only a matter of "
 "time before Corinna's experiments in black magic come to the attention of "
@@ -982,8 +972,8 @@ msgid ""
 "to save Corinna from herself...if you would be willing to help."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "There is a cursed artifact known as a 'Ring of Opposite Alignment.' "
 "Supposedly it has the power to change the most pure-hearted hero to evil, or "
@@ -992,37 +982,37 @@ msgid ""
 "personality."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "I'm going to look into acquiring the ring. I'll be right back. (He leaves "
 "for a minute, then returns.)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(Lie) Corinna said that to win her heart you must travel to the far away "
 "land of Tyrakia and pick a crystal rose for her."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "A quest! A heroic quest to win the fair maiden's heart, just as in the "
 "stories of old! Oh Corinna, I will prove my worth to you in whatever way you "
 "desire! To Tyrakia!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "And thank you, elf damsel, for helping me woo Corinna! Please take this gold "
 "as a reward!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Unfortunately...the merchant is selling the Ring of Opposite Alignment for "
 "50 pieces of gold, and due to my paladin vows of poverty I can't afford it."
@@ -1069,61 +1059,61 @@ msgid ""
 "money.)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "female^I gave her the ring and she put it on. I...guess it worked. At least, "
 "I'm assuming it did based on the fact she hasn't melted the flesh off your "
 "bones yet."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Well, I guess that's good news. I must admit I was hoping for a more "
 "instantaneous transition to Good, but perhaps the ring takes time to work."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Or maybe she's just really, really evil."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Maybe. I'll have to wait and see. As for you milady, you have done more for "
 "me than I ever could have hoped for. If you ever need a paladin by your "
 "side, I will be there."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Thank you."
 msgstr "Obrigado."
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "female^I gave her the ring but she didn't put it on and I don't think she's "
 "going to."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Nooo! All that effort, for nothing! I...I can't live like this...this "
 "unrequited love is consuming me from within! I must...flee Fort Pinewood "
 "before I go mad with grief."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(This pretty young woman scowls at you as you approach.)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "female^Let me guess. That tin-headed oaf of a paladin is still pining for me "
 "outside the gates of my estate, and he sent you to do his dirty work."
@@ -1140,81 +1130,81 @@ msgid ""
 "(Try to change her mind) But he loves you! He wrote you this love letter!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Not another one!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Look, I'll pay you 75 pieces of gold if you can get rid of Sir Dryden for "
 "me. Kill him, trick him, marry him, whatever, just make him go away!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(How to respond to her offer?)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Accept the offer) All right, I'll get rid of Sir Dryden for you."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Thanks. Come back here when the job is done for your reward."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Reject the offer) No! Sir Dryden was right about you, you're evil!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "female^(Menacingly) You've worn out your welcome here. Leave. Now."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Your paladin problem has been taken care of. (You relate the details of what "
 "happened.)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Ha ha! What a clever way to get rid of that pompous fool! Here's your 75 "
 "gold, plus a little extra for your creativity!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "I've got another gift for you from your admirer."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "How dare you waste my time with this!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Lie) But you'll like this gift. It's a Ring of Magic Power!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Well, maybe Dryden isn't as useless as he appeared. (She takes the ring and "
 "puts it on)."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(She gets angry) Wait a minute! This isn't a Ring of Magic Power! (She tries "
 "to take it off but can't) It's cursed! Why that lousy, conniving paladin! "
@@ -1222,15 +1212,15 @@ msgid ""
 "head hurts. I...I need to rest. Yes, rest, and think some things over."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(Tell the truth) Dryden is giving you a chance to turn your life around with "
 "this Ring of Opposite Alignment."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "So he's trying to befuddle me with a cursed ring, eh? I'll take the ring, as "
 "I might find some uses for it. Uses which will not, of course, include "
@@ -1297,16 +1287,16 @@ msgstr ""
 msgid "Come back soon!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(You're out of breath and slicked with sweat. You've really pushed yourself "
 "hard, but it seems your efforts have paid off. You've unlocked some of the "
 "magical secrets of your elven host!)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Yer a quick learner lass, one o' the quickest I've ever seen. But ye won't "
 "learn anything more from beat'n up on quintains. If ye want ta continue ta "
@@ -1314,8 +1304,8 @@ msgid ""
 "risk will be greater."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Frist told me that you were one of his best students at the Training Hall, "
 "but here in the Arena it's the real deal. Combat is brutal and to the death. "
@@ -1327,15 +1317,15 @@ msgstr ""
 msgid "Arena"
 msgstr "Arena"
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 #. [then]
 msgid ""
 "When you're finished exploring Fort Pinewood, head back to the front gate!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Your prowess is unmatched! Through hard work and great courage you've forged "
 "yourself into a mighty enchantress! You've learned to tap deeply into the "
@@ -1715,20 +1705,20 @@ msgid ""
 "your thirty gold, plus a little extra!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "female^(Brock effortlessly pins your arm to the table. You lost!)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Don't be sad lass, many men far stronger than you have challenged me and "
 "lost."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Welcome to Brock's Tavern. Five gold pieces for full room and board!"
 msgstr ""
 
@@ -1738,8 +1728,8 @@ msgid ""
 "Armwrestling Champion, to a contest of strength?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Stay at the Tavern) I want a room."
 msgstr ""
 
@@ -1758,8 +1748,8 @@ msgstr ""
 msgid "female^You wake up the next day feeling refreshed!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Challenge him) I want to challenge you."
 msgstr ""
 
@@ -1767,13 +1757,13 @@ msgstr ""
 msgid "Sorry lass, you've already challenged me, remember?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Leave) Goodbye."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Come again!"
 msgstr ""
 
@@ -2258,8 +2248,8 @@ msgid ""
 "here for you until you're done."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Move along! Nothing to see here! Really! Go away!"
 msgstr ""
 
@@ -2271,46 +2261,46 @@ msgid ""
 "help me."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "My brother used to own this cottage, but he was in the militia and..."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Got eaten?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Yeah. No worries though, I hated the guy. And now I've inherited his "
 "cottage. Only problem is, there's this crazed fairy that keeps attacking me! "
 "Then she runs to hide in the forest when I call for the town guards!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 #. [then]: id=Dryad, id=Guthry
 msgid "Dryad"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Lies! This land is mine! The human who used to live in the cottage was nice. "
 "But this new human tried to cut down my tree."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "It's my tree, not yours! I own this land now! Its been in my family for five "
 "generations."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "I do not know what these 'generations' are that you speak of. But I have "
 "lived here since my tree was but a tiny sprout in the ground. The human town "
@@ -2318,48 +2308,48 @@ msgid ""
 "forever."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Help me claim my inheritance and I'll reward you well."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Side with Guthry) I'll use my sylvan magic to banish this crazy dryad."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "female^No! You're an elf! How could you side with--"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Niste Siara Belkan! (You banish the dryad back into her tree. It will be "
 "many years before she will be able to emerge again.)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Thanks for the help! Here's fifty gold for your trouble."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "(Side with the Dryad) The Dryad was here first, she is in the right."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Damn dryad and her damn tree-hugging sympathizers! (Menacingly) I know I "
 "can't take this land by force, but mark my words, one day someone strong "
 "will come along who'll see my side of things!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
 #. [scenario]: id=3_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "female^Thank you for helping keep the rabid human at bay, though I fear it "
 "is just for a little while longer. If you ever need a friend of the Forest, "
@@ -2393,8 +2383,8 @@ msgid ""
 "Gorl teach you a lesson."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [then]
 msgid "(Grunts)"
 msgstr "(resmunga)"
@@ -2547,15 +2537,15 @@ msgstr ""
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Stern Guard"
 msgstr ""
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Bored Guard"
 msgstr ""
 
@@ -2581,15 +2571,15 @@ msgstr ""
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Ram Aide"
 msgstr ""
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Shady Character"
 msgstr ""
 
@@ -2601,15 +2591,15 @@ msgstr ""
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "High Priest Jal"
 msgstr ""
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Jedd"
 msgstr "Jedd"
 
@@ -2634,8 +2624,8 @@ msgstr ""
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Corinna"
 msgstr "Corinna"
 
@@ -2647,8 +2637,8 @@ msgstr "Sir Dryden"
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Sergeant Ryn"
 msgstr "Sargento Ryn"
 
@@ -2660,36 +2650,36 @@ msgstr "Livius"
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Frist"
 msgstr "Frist"
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Valin"
 msgstr "Valin"
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Brock"
 msgstr "Brock"
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Kirielle the Realist"
 msgstr ""
 
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Alkar, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
 #. [event]: id=Stern Guard, id=Bored Guard, id=Big Bodyguard, id=Mean Bodyguard, id=Ugly Bodyguard, id=Lazy Bodyguard, id=Ram Aide, id=Shady Character, id=Fontaine, id=High Priest Jal, id=Jedd, id=Guthry, id=Haffuz the Slaver, id=Gorl the Smasher, id=Corinna, id=Sir Dryden, id=Sergeant Ryn, id=Livius, id=Sithras, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Bryony the Idealist"
 msgstr ""
 
@@ -2729,13 +2719,13 @@ msgid ""
 msgstr ""
 
 #. [event]: id=Master Ooze
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "I will focus on strength. I want to be able to overpower the opposition."
 msgstr ""
 
 #. [event]: id=Master Ooze
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "I will focus on endurance. I want to be able to outlast my opponents."
 msgstr ""
 
@@ -2747,13 +2737,13 @@ msgid ""
 msgstr ""
 
 #. [event]: id=Master Ooze
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "I will focus on manual dexterity. It will help bolster my ranged attacks."
 msgstr ""
 
 #. [event]: id=Master Ooze
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "I will focus on fleetness of foot. I want to be able to outrun my enemies."
 msgstr ""
@@ -2942,37 +2932,37 @@ msgstr ""
 msgid "(You have no time for this.)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "male^Greetings citizen! Have you come to aid our fair town in our hour of "
 "need?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(Offer to help fight Evil) Yes, my name is Sithras. I'm an elvish fighter "
 "and I'm here to help!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "male^(Decline to help) I'm just a simple traveler looking for a place to "
 "spend the night."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "In that case sir, I highly recommend Brock's Tavern, which is located near "
 "the South Gate. The food is delicious, the rooms are cozy, and the prices "
 "are quite affordable. Please enjoy your stay in Fort Pinewood!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "male^(Provoke) I'm no hero! I'm the Master Ooze, come to devour you all!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "male^(On second thought, as you look at the Mayor's four well-armored "
 "bodyguards, you decide that it might not be in your best interest to provoke "
@@ -2980,7 +2970,7 @@ msgid ""
 "destroy the humans...)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "male^If you're interested in helping with the town's defense, go speak with "
 "Frist at the Training Hall. You may also want to speak with some of the "
@@ -2988,21 +2978,21 @@ msgid ""
 "valuable information."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Oh good sir, I don't want to burden you with my problems. (He suddenly "
 "reconsiders) On the other hand, perhaps you're just what I need..."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "male^(Leave him alone) Sorry to bother you..."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "male^(Eagerly) Were you able to get my letter to Corinna?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "And thank you, good sir, for helping me woo Corinna! Please take this gold "
 "as a reward!"
@@ -3021,39 +3011,39 @@ msgid ""
 "must now contemplate my next course of action."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "male^I gave her the ring and she put it on. I...guess it worked. At least, "
 "I'm assuming it did based on the fact she hasn't melted the flesh off your "
 "bones yet."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Maybe. I'll have to wait and see. As for you good sir, you have done more "
 "for me than I ever could have hoped for. If you ever need a paladin by your "
 "side, I will be there."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "male^I gave her the ring but she didn't put it on and I don't think she's "
 "going to."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "male^Let me guess. That tin-headed oaf of a paladin is still pining for me "
 "outside the gates of my estate, and he sent you to do his dirty work."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Look, I'll pay you 75 pieces of gold if you can get rid of Sir Dryden for "
 "me. Kill him, trick him, do whatever is necessary, just make him go away!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "male^(Menacingly) You've worn out your welcome here. Leave. Now."
 msgstr ""
 
@@ -3128,7 +3118,7 @@ msgid ""
 "skills! Now you are truly formidable in combat!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "Unfortunately your potion of protection has worn off."
 msgstr ""
 
@@ -3319,11 +3309,11 @@ msgid ""
 "your thirty gold, plus a little extra!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "male^(Brock effortlessly pins your arm to the table. You lost!)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "Don't be sad my boy, many men far stronger than you have challenged me and "
 "lost."
@@ -3657,28 +3647,28 @@ msgid ""
 "help me."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(Side with Guthry) This man is just protecting his property. Leave him alone "
 "or else!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "That's it?! You won't do anything more?!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid "male^You're an elf! How could you side with--"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(You pull out your sword with astonishing speed. For one long moment a "
 "sunbeam beautifully plays on the blade's surface. The next moment the dryad "
 "lies dead under her tree...)"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(Steel lightning strikes... Before anyone can react the dryad lies dead "
 "under her tree, cut in twain by your sword...)"
@@ -3708,14 +3698,14 @@ msgid ""
 "(You smile a smile as warm as ice.) You want to see it again in slow motion?"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "(He speaks very fast and his voice quavers) No, that's absolutely "
 "unnecessary! I have a lot on my mind right now so thanks for the help! "
 "Here's seventy gold for your trouble."
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "male^Thank you for helping keep the rabid human at bay, though I fear it is "
 "just for a little while longer. If you ever need a friend of the Forest, I "
@@ -3745,7 +3735,7 @@ msgstr ""
 msgid "male^Come back when you have the money!"
 msgstr ""
 
-#. [multiplayer]: id=3_mp_Pinewood, id=Dryad
+#. [scenario]: id=3_mp_Pinewood, id=Dryad
 msgid ""
 "In this scenario time is unlimited, but there is a limited number of quests "
 "you can accept. Your character will warn you when this event happens."
@@ -3857,8 +3847,8 @@ msgid ""
 "Ooze 2 onto the hex that contains it to trigger an event."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Pinewood Siege"
 msgstr ""
 
@@ -4031,8 +4021,8 @@ msgid ""
 "mascot with us to help out!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Oi what a hangover!"
 msgstr ""
 
@@ -4054,8 +4044,8 @@ msgid ""
 "(Groans) How did I drink that ENTIRE barrel?!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Captain Koltz"
 msgstr "Capitão Koltz"
 
@@ -4063,26 +4053,26 @@ msgstr "Capitão Koltz"
 msgid "Imperial Army"
 msgstr "Exército Imperial"
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Master Keiron"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid ""
 "They're using ogres to pile boulders up in the moat, to make it easier for "
 "their troops to cross! Blackfang is quite clever for an orc."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid ""
 "It seems the orcs have hired naga mercenaries. They're trying to flank you!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid ""
 "It seems that the earlier attacks were only designed to test your defenses. "
 "The vanguard of the orcish army has finally arrived. They march toward the "
@@ -4090,13 +4080,13 @@ msgid ""
 "trouble."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Blackfang"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Hah, what a bloodbath! Rally to me, men! We finish them now!"
 msgstr ""
 
@@ -4288,8 +4278,8 @@ msgid ""
 "will be our time to strike."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Hragh! How could I be beaten by someone so pathetic?"
 msgstr ""
 
@@ -4310,8 +4300,8 @@ msgid ""
 "come!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid ""
 "The bloodied, weary townsfolk begin to turn to the task of helping the "
 "wounded and repairing the extensive damage to the fort. More Imperial "
@@ -4547,20 +4537,20 @@ msgstr ""
 msgid "Kill your Creator!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid ""
 "Ack! Why attack an innocent arms merchant like myself? I would have sold you "
 "quality weapons at an affordable price!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Ach! I hope there's lots of booze in Heaven..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Ugn! I go...to meet...Pelor..."
 msgstr ""
 
@@ -4569,8 +4559,8 @@ msgstr ""
 msgid "Fiend! I hope Aurelia kills...you...all...ugn..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "No! I'm too pretty to die!"
 msgstr ""
 
@@ -4582,63 +4572,63 @@ msgstr ""
 msgid "Wracked with grief, Sir Dryden has abandoned the fight!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "I hope you drown in my blood, scum!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Damn, now my book on exotic cooking will never be finished!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "I did my best...my student Aurelia will finish this...ugn..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "My DEATH will be AVENGED!!!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Ach, I've finally met my match!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Damn, I didn't count on them being this strong!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Kirielle, please don't die!!! I'm coming to help you!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Bryony has abandoned the fight!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Kirielle, I'm sorry..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Bryony, you can't die!!! I'm coming to help you!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Kirielle has abandoned the fight!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid ""
 "Why did it have to end like this! Corinna...has not been redeemed yet..."
 "ugn..."
@@ -4657,40 +4647,40 @@ msgid ""
 "next world..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Usurpers! Stay away...from...my...land...ugn..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Now I return to the Earth..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "I may die now but the Empire is eternal!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "(Grunts in pain)"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid ""
 "Maybe getting into the bodyguard business wasn't such a good idea after "
 "all..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "No!!! Absolute power was within my...grasp...ugnh..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 #. [scenario]: id=4_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Keiron's remaining men flee in disarray!"
 msgstr ""
 
@@ -4870,7 +4860,7 @@ msgid ""
 "is much more lethal in combat!"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "I found new friends to help me claim what's rightfully mine!"
 msgstr ""
 
@@ -4991,7 +4981,7 @@ msgstr ""
 msgid "Allow your Creator to kill your dark side"
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Note: In this scenario you will no longer share gold with your partner."
 msgstr ""
 
@@ -5198,7 +5188,7 @@ msgid ""
 "Well... I suppose... my patron that means you will not see my art any more..."
 msgstr ""
 
-#. [multiplayer]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
+#. [scenario]: id=4_mp_Pinewood_Siege, id=Stern Guard, id=Bored Guard, id=Ram Aide, id=High Priest Jal, id=Jedd, id=Corinna, id=Sergeant Ryn, id=Frist, id=Valin, id=Brock, id=Kirielle the Realist, id=Bryony the Idealist, id=Bored Guard, id=Stern Guard, id=Shady Character, id=Captain Koltz, id=Imperial Mage, id=Blackfang, id=Blackfang, id=Master Ooze, id=Master Ooze 2
 msgid "Urgh! No glory for me...only death..."
 msgstr ""
 

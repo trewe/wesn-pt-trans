@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
-"Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
-"POT-Creation-Date: 2014-03-03 21:37+0100\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-15 12:13+0200\n"
 "PO-Revision-Date: 2014-03-09 20:50+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -26,7 +26,8 @@ msgstr "Era Arcaica"
 msgid ""
 "A UMC era with the races in the add-on Bad Moon Rising.  Six unique "
 "factions, in addition to orcs, undead, and loyalists.  Somewhat balanced, "
-"but far from perfect."
+"but far from perfect.  Phantom and Primeval factions are available, but are "
+"overpowered, and not included in Random Faction options."
 msgstr ""
 
 #. [era]: id=ARCHAIC_ERA_HEROS
@@ -53,18 +54,16 @@ msgstr ""
 msgid "Northern Orcs"
 msgstr "Orcs do Norte"
 
-#. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Protector
-#. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Sentinel
 #. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Shield
-msgid "Phantom"
-msgstr "Aparição"
+#, fuzzy
+msgid "Phantom (overpowered)"
+msgstr "Torre Fantasma"
 
 #. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Driver
-#. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Warrior
-msgid "Primeval"
-msgstr "Primordiais"
+msgid "Primeval (overpowered)"
+msgstr ""
 
-#. [multiplayer_side]: id=Archaic_Random, type=Primeval Driver
+#. [multiplayer_side]: id=Archaic_Random, type=random
 msgid "Random"
 msgstr "Aleatório"
 
@@ -78,6 +77,16 @@ msgstr "Mares do Sul"
 #. [multiplayer_side]: id=Archaic_Ukians, type=Ukian Subcommander
 msgid "Ukians"
 msgstr "Ukians"
+
+#. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Protector
+#. [multiplayer_side]: id=Archaic_Phantom, type=Tomb Sentinel
+msgid "Phantom"
+msgstr "Aparição"
+
+#. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Driver
+#. [multiplayer_side]: id=Archaic_Primeval, type=Primeval Warrior
+msgid "Primeval"
+msgstr "Primordiais"
 
 #. [menu]: id=menu-main
 msgid "Menu"
@@ -1246,7 +1255,7 @@ msgid ""
 "Primeval Drivers are not that much smaller than a Troll. They have risen out "
 "of the Slowfoot ranks through strength and experience. With enough luck and "
 "determination, they might be able to escape their caste and join the ranks "
-"of the Destroyers.\n"
+"of the Line Breakers.\n"
 "Special Note:"
 msgstr ""
 
@@ -1287,12 +1296,16 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=Primeval Giant, race=primeval
-msgid "Destroyer"
-msgstr "Destruidor"
+#, fuzzy
+msgid "Line Breaker"
+msgstr "Blemaker"
 
 #. [unit_type]: id=Primeval Giant, race=primeval
 msgid ""
-"The Primeval Destroyers ...\n"
+"The Primeval Line Breakers are very aggressive and strong, and use these "
+"talents to punch a hole in enemy defensive formations.  Like the Drivers "
+"from whose ranks they rose, they lead a rough and dangerous life.  But they "
+"wouldn't have it any other way.\n"
 "Special Note:"
 msgstr ""
 
@@ -1555,8 +1568,15 @@ msgstr ""
 
 #. [race]: id=primevalist_human
 msgid ""
-"The race of men is an extremely diverse one. Some of them fall prey to the "
-"promises of false hope and false saviours."
+"The race of men is an extremely diverse one. Some of them bow and scrape "
+"before their wealthy, blue-blooded, leaders, while others turn to a life of "
+"crime.  Then there are those who fall prey to the promises of false hope and "
+"false saviours, or are just searching for a stronger power to overthrow the "
+"current world order.  The revived Primeval Gods, and their messangers, "
+"provide this last group with the resources and opportunity to strike back at "
+"the Kingdoms, Tribes, and Guilds with which they are so disgusted.  Thus "
+"armed and organized, these rebels are the disposable front-line forces of "
+"the Primeval Legion."
 msgstr ""
 
 #. [race]: id=primeval
@@ -1603,11 +1623,11 @@ msgid ""
 "and were able to easily mine and forge metals, fertilizers, and reactive "
 "chemicals; resources were unlimited.  Many of the modern races would have "
 "simply enjoyed a population explosion, but the austere Primeval culture led "
-"to something else.  Many biological and mechanical feats of engineering were "
-"the result.  The downside of the rapid development was that the "
-"technological advances were uneven (roads, guns, aeroplanes, and many other "
-"things had simply never been imagined) and they all rested upon a power "
-"source no one understood:  magic.\n"
+"to something else.  Many feats of engineering were the result.  The downside "
+"of the rapid development was that the technological advances were uneven "
+"(roads, guns, aeroplanes, and many other things had simply never been "
+"imagined) and they all rested upon a power source no one understood:  that "
+"which some call 'magic'.\n"
 "\n"
 "<header>text='Society'</header>\n"
 "The Primeval social order is very rigid, but merit-based.  The leaders are "
@@ -1620,8 +1640,8 @@ msgid ""
 "and can become too focussed upon narrow goals.\n"
 "\n"
 "As a result of both the rigid meritocracy and the abundance of resources, "
-"the Primevals lost whatever tendancy toward division of the sexes they ever "
-"had.  In general, the roles requiring strength fall to the males while roles "
+"the Primevals lost whatever ideas about gender roles they once had.  In "
+"general, the roles requiring strength fall to the males while roles "
 "requiring endurance fall to the females, but either sex can become a leader "
 "and both sexes are expected to engage in combat."
 msgstr ""
@@ -1951,10 +1971,6 @@ msgstr ""
 msgid "Constable"
 msgstr ""
 
-#. [attack]: type=impact
-msgid "scattershot"
-msgstr ""
-
 #. [unit_type]: id=Northern Elite, race=human
 msgid "Northern Warrior"
 msgstr "Guerreiro nortenho"
@@ -2006,6 +2022,10 @@ msgstr "Soldado nortenho"
 #. [unit_type]: id=Royal Vassal, race=human
 msgid "Vassal"
 msgstr "Vassalo"
+
+#. [attack]: type=fire
+msgid "torch"
+msgstr "tocha"
 
 #. [unit_type]: id=Ukian Archer, race=ukian
 msgid "Ukian Archer"
@@ -2276,10 +2296,6 @@ msgstr "machadinha"
 msgid "War Hound"
 msgstr ""
 
-#. [attack]: type=fire
-msgid "torch"
-msgstr "tocha"
-
 #. [unit_type]: id=Ukian Witch, race=ukian
 msgid "Ukian Witch"
 msgstr ""
@@ -2524,33 +2540,41 @@ msgid ""
 "but is always mobile at night."
 msgstr ""
 
+#. [set_menu_item]: id=aa_stone_release
 msgid "release stoned victims"
 msgstr ""
 
+#. [unstore_unit]
 msgid "Free"
 msgstr "Livre"
 
+#. [chance_to_hit]: id=aa_fog
 msgid "fog"
 msgstr "nevoeiro"
 
+#. [chance_to_hit]: id=aa_fog
 msgid ""
 "The opponent is enveloped in an opaque fog and cannot see very well, so "
 "their chance to hit is reduced."
 msgstr ""
 
+#. [chance_to_hit]: id=aa_tie
 msgid "wind-up"
 msgstr "conclusão"
 
+#. [chance_to_hit]: id=aa_tie
 msgid ""
 "The unit has a greater chance of landing a successful blow if the enemy is "
 "distracted.  Similar to Thief's backstab, but affects chance to hit instead "
 "of damage."
 msgstr ""
 
+#. [slows]: id=slow
 msgid "slows"
 msgstr "atrasar"
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
+#. [slows]: id=slow
 msgid ""
 "This attack slows the target until it ends a turn. Slow halves the damage "
 "caused by attacks and the movement cost for a slowed unit is doubled. A unit "
@@ -2562,25 +2586,38 @@ msgstr ""
 "unidade atrasada terá um ícone com um caracol nas informações da barra "
 "lateral quando for seleccionada."
 
+#. [set_menu_item]: id=aa_shell1
+#. [set_menu_item]: id=aa_shell2
+#. [set_menu_item]: id=aa_shell3
+#. [set_menu_item]: id=aa_shell4
 msgid "hide in shell"
 msgstr ""
 
+#. [set_menu_item]: id=aa_shell1b
+#. [set_menu_item]: id=aa_shell2b
+#. [set_menu_item]: id=aa_shell3b
+#. [set_menu_item]: id=aa_shell4b
 msgid "stop hiding"
 msgstr ""
 
+#. [regenerate]: id=aa_selfheal
 msgid "selfheal"
 msgstr "auto-cura"
 
+#. [regenerate]: id=aa_selfheal
 msgid ""
 "This unit heals {AMT} HP per turn.  If poisoned, it will remove the poison."
 msgstr ""
 
+#. [illuminates]: id=aa_penumbra
 msgid "penumbra"
 msgstr "penumbra"
 
+#. [illuminates]: id=aa_penumbra
 msgid "female^penumbra"
 msgstr ""
 
+#. [illuminates]: id=aa_penumbra
 msgid ""
 "This unit obscures the surrounding area, making chaotic units fight better, "
 "and lawful units fight worse.\n"
@@ -2589,12 +2626,15 @@ msgid ""
 "day, and as if it were night when it is dusk."
 msgstr ""
 
+#. [hides]: id=aa_desertstalk
 msgid "desert-stalk"
 msgstr ""
 
+#. [hides]: id=aa_desertstalk
 msgid "female^desert-stalk"
 msgstr ""
 
+#. [hides]: id=aa_desertstalk
 msgid ""
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
 "\n"
@@ -2603,6 +2643,7 @@ msgid ""
 "immediately loses all its remaining movement."
 msgstr ""
 
+#. [hides]: id=aa_desertstalk
 msgid ""
 "Desert-Stalk:\n"
 "This unit can hide in sand terrain, and remain undetected by its enemies.\n"
@@ -2612,6 +2653,11 @@ msgid ""
 "immediately loses all its remaining movement."
 msgstr ""
 
+#. [chance_to_hit]: id=aa_scatter
+msgid "scattershot"
+msgstr ""
+
+#. [chance_to_hit]: id=aa_scatter
 msgid "This attack always has at least a 70% chance to hit."
 msgstr ""
 
@@ -2627,6 +2673,24 @@ msgstr ""
 msgid "This attack is only available if the unit is near death."
 msgstr ""
 
+#. [trait]: id=aa_khthon_enthrall
+msgid "netherworld spirit"
+msgstr ""
+
+#. [trait]: id=aa_khthon_enthrall
+msgid ""
+"Essential Khthon traits:  immune to plagues and has enthrallment and vector "
+"attacks"
+msgstr ""
+
+#. [chance_to_hit]: id=aa_k_enth
+msgid "enthrallment"
+msgstr ""
+
+#. [chance_to_hit]: id=aa_k_enth
+msgid "Slain foes become Khthon Thralls"
+msgstr ""
+
 #. [unstore_unit]
 msgid "possessed"
 msgstr "possuído"
@@ -2634,14 +2698,6 @@ msgstr "possuído"
 #. [unstore_unit]
 msgid "Possessed"
 msgstr "Possuído"
-
-#. [trait]: id=aa_khthon_enthrall
-msgid "enthrallment"
-msgstr ""
-
-#. [trait]: id=aa_khthon_enthrall
-msgid "Immune to plague, and slain foes become Khthon thralls."
-msgstr ""
 
 #. [unstore_unit]
 msgid "enthralled"
