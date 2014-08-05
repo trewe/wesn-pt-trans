@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-02-22 14:39+0100\n"
+"POT-Creation-Date: 2014-03-02 18:56+0100\n"
 "PO-Revision-Date: 2013-03-10 03:55-0300\n"
 "Last-Translator: Gilberto dos Santos Alves <gsavix@gmail.com>\n"
 "Language-Team: Portuguese/Brazil\n"
@@ -68,6 +68,10 @@ msgid ""
 "choosing whichever one offers the best defensive and movement bonuses for "
 "the unit on it."
 msgstr ""
+"Quando um rio é extremamente raso, passar por ele é trivial. Qualquer "
+"criatura adaptada a nadar tem movimentação total. No jogo, um riacho é como "
+"uma planície ou água rasa, de acordo com qual deles oferecer a melhor "
+"vantagem defensiva e de movimentação para unidade."
 
 #. [terrain_type]: id=gray_reef
 #. [terrain_type]: id=medium_reef
@@ -194,6 +198,8 @@ msgid ""
 "small sand pits or beaches, however for gameplay purposes they are "
 "identical. See <ref>dst='terrain_sand' text='sand'</ref>."
 msgstr ""
+"Desertos têm uma composição diferente de poços de areia ou praias, mas para "
+"o jogo, eles são idênticos a <ref>dst='terrain_sand' text='Areia'</ref>."
 
 #. [terrain_type]: id=sand
 #. [terrain_type]: id=sand_beach
@@ -214,6 +220,12 @@ msgid ""
 "\n"
 "Most units receive 20 to 40% defense in sand."
 msgstr ""
+"A instabilidade da areia faz ela ser difícil de ser atravessada por unidades "
+"e deixam uma grande área de ataque. Por outro lado, pés grandes ou o corpo "
+"de serpente das raças de lagartos fazem da areia um terreno de fácil "
+"locomoção.\n"
+"\n"
+"A maioria das unidade têm de 20 a 40% de defesa na areia."
 
 #. [terrain_type]: id=oasis
 msgid "Oasis"
@@ -491,6 +503,16 @@ msgid ""
 "Most units have about 50% defense in rocky caves, whereas cavalry are "
 "limited to 40%. Dwarves enjoy 60% defense in rockbound caves."
 msgstr ""
+"Cavernas Rochosas são formadas pela ação da água e do vento, que carregam "
+"partículas erosivas e cavam a rocha. Elas lembram uma caverna subterrânea "
+"apertada, o que reduz a eficiência da maioria das unidades, mas melhora sua "
+"defesa. Anões e Trolls, que são moradores de cavernas, têm maior facilidade "
+"de lidar com este terreno. Os Anões, devido ao seu reduzido tamanho, não têm "
+"problema nenhum em andar em tal topografia. Algumas vezes tais cavernas "
+"podem estar <ref>dst='terrain_illuminated_cave' text='Iluminadas'</ref>\n"
+"\n"
+"A maioria das unidades têm 50% de defesa em cavernas rochosas, enquanto "
+"unidades montadas têm apenas 40%. Anões têm 60% de defesa nestes lugares."
 
 #. [terrain_type]: id=mine_rails
 #. [terrain_type]: id=mine_railsdiag1
@@ -535,6 +557,12 @@ msgid ""
 "immediately above it. This provides an attack bonus for lawful units and "
 "removes the attack bonus from chaotic units."
 msgstr ""
+"O perigo inerente em tentar caminhar na lava são óbvios. Em jogo, a lava é "
+"equivalente ao <ref>dst='terrain_unwalkable' text='desfiladeiro'</ref>. Este "
+"terreno só pode ser atravessado por unidades capazes de voar uma distância "
+"considerável sobre ele. O magma derretido também produz um brilho razoável, "
+"iluminando as àreas acima dele. Isto provê um bônus de ataque para as "
+"criaturas ordeiras, e remove o bônus das criaturas caóticas."
 
 #. [terrain_type]: id=volcano
 msgid "Volcano"
@@ -958,6 +986,16 @@ msgid ""
 "occupying the bridge hex. Note that a swimming unit and a land unit are not "
 "capable of occupying a bridge hex at the same time."
 msgstr ""
+"Para aqueles capazes de construí-las, as pontes oferecem independência da "
+"natureza incerta das vias fluviais, cujos riachos vão e voltam de acordo com "
+"as marés. Isso sem mencionar o luxo de manter os pés secos, algo muito "
+"importante nos meses de inverno.\n"
+"\n"
+"Uma ponte agrada tanto àqueles que andam por terra, quanto àqueles que se "
+"deslocam pelo mar. Em termos de jogo, ela é tratada como planícies ou como "
+"águas rasas, de acordo com qual deles oferecer o melhor bônus de movimento e "
+"defesa para a unidade naquele local. Note que uma unidade aquática e uma "
+"terrestre não podem ocupar a ponte ao mesmo tempo."
 
 #. [terrain_type]: id=rotbridge
 #. [terrain_type]: id=rotbridgediag1
@@ -1108,6 +1146,14 @@ msgid ""
 "Most units make do with 20 to 30% defense in shallow water, whereas both "
 "naga and mermen enjoy 60%."
 msgstr ""
+"Águas rasas representam trechos com águas que podem cobrir até o peito de um "
+"homem. Isto é suficiente para atrasar qualquer um e deixá-lo vulneráveis. "
+"Anões, o qual estas águas cobrem, tem mais dificuldade. A exceção fica para "
+"as raças que tem o corpo adequado para nadar, pois elas recebem mais bônus "
+"de defesa e movimentação total.\n"
+"\n"
+"A maioria das unidades tem 20 a 30% de defesa em águas rasas, Nagas e "
+"Sereios têm 60%."
 
 #. [terrain_type]: id=castle
 msgid ""
@@ -1231,6 +1277,10 @@ msgid ""
 "for sheer walls which would take days to traverse. As far as gameplay is "
 "concerned, only units capable of flying can cross this terrain."
 msgstr ""
+"Um desfiladeiro é uma rachadura no solo, que chega a profundidades "
+"desconhecidas. Desfiladeiros são conhecidos por suas paredes recortadas que "
+"tomam dias para serem atravessadas. No jogo, somente unidades que podem voar "
+"sobre desfiladeiros podem atravessar este terreno. "
 
 #. [terrain_type]: id=rails
 msgid "Rails"
@@ -1383,8 +1433,9 @@ msgid "addons_of_type^MP factions"
 msgstr ""
 
 #. [row]
-msgid "addons_of_type^SP/MP Campaigns"
-msgstr ""
+#, fuzzy
+msgid "addons_of_type^SP/MP campaigns"
+msgstr "Campanha MP"
 
 #. [row]
 msgid "addons_of_type^MP campaigns"
@@ -3299,10 +3350,10 @@ msgid "Previous Unit"
 msgstr "Anterior"
 
 msgid "Hold Position"
-msgstr ""
+msgstr "Manter Posição"
 
 msgid "End Unit Turn"
-msgstr ""
+msgstr "Terminar o turno da unidade"
 
 #, fuzzy
 msgid "Leader"
@@ -3312,13 +3363,13 @@ msgid "Undo"
 msgstr "Desfazer"
 
 msgid "Redo"
-msgstr ""
+msgstr "Refazer"
 
 msgid "Zoom In"
-msgstr ""
+msgstr "Aproximar"
 
 msgid "Zoom Out"
-msgstr ""
+msgstr "Afastar"
 
 #, fuzzy
 msgid "Default Zoom"
@@ -3329,10 +3380,10 @@ msgid "Toggle Full Screen"
 msgstr "Tela Cheia"
 
 msgid "Screenshot"
-msgstr ""
+msgstr "Foto da tela"
 
 msgid "Map Screenshot"
-msgstr ""
+msgstr "Foto do Mapa"
 
 #, fuzzy
 msgid "Accelerated"
@@ -3347,7 +3398,7 @@ msgid "Unit Description"
 msgstr "Descrição:"
 
 msgid "Rename Unit"
-msgstr ""
+msgstr "Renomear unidade"
 
 #, fuzzy
 msgid "Delete Unit"
@@ -3365,7 +3416,7 @@ msgid "Recruit"
 msgstr "Recrutar"
 
 msgid "Repeat Recruit"
-msgstr ""
+msgstr "Repetir Recrutamento"
 
 msgid "Recall"
 msgstr "Convocar"
@@ -3383,17 +3434,17 @@ msgid "Toggle Grid"
 msgstr "Alternar Elipses"
 
 msgid "Mouse Scrolling"
-msgstr ""
+msgstr "Rolagem do Mouse"
 
 #, fuzzy
 msgid "Status Table"
 msgstr "Status"
 
 msgid "Mute"
-msgstr ""
+msgstr "Mudo"
 
 msgid "Speak"
-msgstr ""
+msgstr "Falar"
 
 #, fuzzy
 msgid "Change Side (Debug!)"
@@ -3428,7 +3479,7 @@ msgid "Quit Editor"
 msgstr "Editor de Mapa"
 
 msgid "Set Team Label"
-msgstr ""
+msgstr "Definir Nome do Time"
 
 #, fuzzy
 msgid "Set Label"
@@ -3443,7 +3494,7 @@ msgid "Show Enemy Moves"
 msgstr "Mostrar cores dos times"
 
 msgid "Best Possible Enemy Moves"
-msgstr ""
+msgstr "Melhores Possíveis Movimentos do Inimigo"
 
 #, fuzzy
 msgid "Play Replay"
@@ -3466,17 +3517,17 @@ msgid "Next Side"
 msgstr "Próximo time"
 
 msgid "Full Map"
-msgstr ""
+msgstr "Mapa Completo"
 
 msgid "Each Team"
-msgstr ""
+msgstr "Cada time"
 
 #, fuzzy
 msgid "Team 1"
 msgstr "Apenas time"
 
 msgid "Skip Animation"
-msgstr ""
+msgstr "Pular Animação"
 
 #. TRANSLATORS: whiteboard menu entry: toggle planning mode
 msgid "whiteboard^Planning Mode"
@@ -3492,7 +3543,7 @@ msgstr ""
 
 #. TRANSLATORS: whiteboard menu entry: delete planned action
 msgid "whiteboard^Delete Action"
-msgstr ""
+msgstr "quadro branco Ação Deletar"
 
 #. TRANSLATORS: whiteboard menu entry: move planned action up queue
 msgid "whiteboard^Move Action Up"
@@ -3507,7 +3558,7 @@ msgid "whiteboard^Suppose Dead"
 msgstr ""
 
 msgid "Quit to Desktop"
-msgstr ""
+msgstr "Sair para o Desktop"
 
 #, fuzzy
 msgid "Close Map"
@@ -3517,7 +3568,7 @@ msgid "Switch Time of Day"
 msgstr ""
 
 msgid "Switch Map"
-msgstr ""
+msgstr "Trocar Mapa"
 
 msgid "Assign Local Time"
 msgstr ""
@@ -3526,7 +3577,7 @@ msgid "Custom Time of Day Creator"
 msgstr ""
 
 msgid "Partial Undo"
-msgstr ""
+msgstr "Desfazer parcialmente"
 
 #, fuzzy
 msgid "New Scenario"
@@ -3545,10 +3596,10 @@ msgid "Save Scenario As"
 msgstr "Início de Cenário"
 
 msgid "Save All Maps"
-msgstr ""
+msgstr "Salvar Todos os Mapas"
 
 msgid "Revert All Changes"
-msgstr ""
+msgstr "Reverter todas as mudanças"
 
 #, fuzzy
 msgid "Map Information"
@@ -3578,15 +3629,18 @@ msgid "Next Tool"
 msgstr "Próxima"
 
 msgid "Paint Tool"
-msgstr ""
+msgstr "Pincel"
 
 msgid ""
 "Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
 "paint base layer only. Ctrl+click to sample terrain under cursor."
 msgstr ""
+"Use o botão esquerdo/direito do mouse para desenhar o terreno da frente/de "
+"fundo. Segure Shift para pintar apenas a camada base.·Ctrl+click·para pegar "
+"uma amostra do terreno sob o cursor."
 
 msgid "Fill Tool"
-msgstr ""
+msgstr "Balde"
 
 msgid ""
 "Left mouse button selects or deselects with Ctrl, right brings up a context "
@@ -3602,6 +3656,9 @@ msgid ""
 "scroll to the starting position, alt+number sets respective starting "
 "position under cursor, delete clears."
 msgstr ""
+"O botão esquerdo do mouse mostra a seleção do jogador, o direito limpa. "
+"Teclas numéricas rolam para a posição inicial, alt+número ajusta a posição "
+"inicial para o ponto embaixo do cursor, a tecla delete a remove."
 
 msgid "Starting Positions Tool"
 msgstr ""
@@ -3687,7 +3744,7 @@ msgid "Toggle Minimap Terrain Drawing"
 msgstr ""
 
 msgid "Next Brush"
-msgstr ""
+msgstr "Próximo Pincel"
 
 #, fuzzy
 msgid "Default Brush"
@@ -3721,10 +3778,10 @@ msgid ""
 msgstr ""
 
 msgid "Paste"
-msgstr ""
+msgstr "Colar"
 
 msgid "Export Selected Coordinates to System Clipboard"
-msgstr ""
+msgstr "Exportar coordenadas selecionadas para área de transferência"
 
 #, fuzzy
 msgid "Select All"
@@ -3739,19 +3796,19 @@ msgid "Select None"
 msgstr "Selecionar"
 
 msgid "Rotate Clipboard Clockwise"
-msgstr ""
+msgstr "Rotacionar Quadro Sentido Horário"
 
 msgid "Rotate Clipboard Counter-Clockwise"
-msgstr ""
+msgstr "Rotacionar Quadro Sentido Anti-Horário"
 
 msgid "Flip Clipboard Horizontally"
-msgstr ""
+msgstr "Inverter Quadro Horizontalmente"
 
 msgid "Flip Clipboard Vertically"
-msgstr ""
+msgstr "Inverter Quadro Verticalmente"
 
 msgid "Rotate Selection"
-msgstr ""
+msgstr "Rotacionar Seleção"
 
 #, fuzzy
 msgid "Flip Selection"
@@ -3776,7 +3833,7 @@ msgid "Generate Map"
 msgstr "Gerar"
 
 msgid "Apply a Mask"
-msgstr ""
+msgstr "Aplicar uma Máscara"
 
 #, fuzzy
 msgid "Create Mask"
@@ -3787,13 +3844,13 @@ msgid "Refresh Display"
 msgstr "Atualizar"
 
 msgid "Update Terrain Transitions"
-msgstr ""
+msgstr "Atualizar Transições de Terreno"
 
 msgid "Toggle Terrain Transition Update"
 msgstr ""
 
 msgid "Auto-update Terrain Transitions"
-msgstr ""
+msgstr "Atualizar Automaticamente Transições de Terreno"
 
 msgid "Auto-update Terrain Transitions: No"
 msgstr ""
@@ -3802,13 +3859,13 @@ msgid "Auto-update Terrain Transitions: Partial"
 msgstr ""
 
 msgid "Refresh Image Cache"
-msgstr ""
+msgstr "Atualizar Cache de Imagens"
 
 msgid "Draw Hex Coordinates"
-msgstr ""
+msgstr "Desenhar Coordenada Hexadecimais"
 
 msgid "Draw Terrain Codes"
-msgstr ""
+msgstr "Desenhar Códigos de Terreno"
 
 msgid "Save Selection to Area"
 msgstr ""
@@ -3837,37 +3894,37 @@ msgid "Remove Side"
 msgstr "Remover"
 
 msgid "Delay Shroud Updates"
-msgstr ""
+msgstr "Atrasar atualização da neblina"
 
 msgid "Update Shroud Now"
-msgstr ""
+msgstr "Atualizar neblina agora"
 
 #, fuzzy
 msgid "Continue Move"
 msgstr "Continuar"
 
 msgid "Find Label or Unit"
-msgstr ""
+msgstr "Encontrar Nome ou Unidade"
 
 msgid "Speak to Ally"
-msgstr ""
+msgstr "Falar com Aliados"
 
 msgid "Speak to All"
-msgstr ""
+msgstr "Falar com Todos"
 
 #, fuzzy
 msgid "View Chat Log"
 msgstr "Log de Conversa"
 
 msgid "Enter User Command"
-msgstr ""
+msgstr "Digitar comando do usuário"
 
 #, fuzzy
 msgid "Custom Command"
 msgstr "Customizado"
 
 msgid "Run Formula"
-msgstr ""
+msgstr "Executar Fórmula"
 
 #, fuzzy
 msgid "Clear Messages"
