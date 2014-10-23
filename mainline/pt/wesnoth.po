@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2014-10-11 10:43+0200\n"
-"PO-Revision-Date: 2014-01-06 13:27+0100\n"
+"PO-Revision-Date: 2014-10-23 22:16-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.10\n"
 "Country: PORTUGAL\n"
 
 #. [advanced_preference]: type=combo
@@ -178,7 +178,7 @@ msgstr ""
 #. [advanced_preference]: type=boolean
 #: data/advanced_preferences.cfg:135
 msgid "Follow unit actions"
-msgstr "Acompanhar Acções das Unidades"
+msgstr "Acompanhar Ações das Unidades"
 
 #
 #. [advanced_preference]: type=boolean
@@ -188,7 +188,7 @@ msgid ""
 "is animated"
 msgstr ""
 "Escolha se a visão do mapa deve deslocar-se até uma unidade quando um "
-"movimento ou acção é animado"
+"movimento ou ação é animado"
 
 #
 #. [advanced_preference]: type=int
@@ -358,7 +358,6 @@ msgid "Joystick: deadzone of the thruster"
 msgstr "Joystick: zona morta da impulsão"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #. [unstore_unit]
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:366
@@ -1489,7 +1488,6 @@ msgid "side $temp_i ($side_i_leader.name|)"
 msgstr "Equipa $temp_i ($side_i_leader.name|)"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [value]
 #: data/core/macros/ai_controller.cfg:288
 #: data/core/macros/ai_controller.cfg:424
@@ -1502,7 +1500,7 @@ msgstr "Retroceder"
 #. [protect]
 #: data/core/macros/ai_controller.cfg:307
 msgid "Focus on protecting..."
-msgstr "Foco na protecção..."
+msgstr "Foco na proteção..."
 
 #
 #. [protect]
@@ -1542,7 +1540,7 @@ msgstr "foco em defender a área ao redor $x1|,$y1|."
 #. [print]
 #: data/core/macros/ai_controller.cfg:541
 msgid "Location selection canceled"
-msgstr "Selecção do local cancelada"
+msgstr "Seleção do local cancelada"
 
 #
 #. [revoke_objective_orders]
@@ -3009,7 +3007,6 @@ msgid "Teal"
 msgstr "Anil"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=gold
 #: data/core/team-colors.cfg:98 src/leader_scroll_dialog.cpp:47
 #: src/menu_events.cpp:196 src/multiplayer_connect.cpp:378
@@ -3089,7 +3086,6 @@ msgid "Fungus"
 msgstr "Floresta de Cogumelos"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=village
 #: data/core/team-colors.cfg:179 src/terrain.cpp:175
 msgid "Village"
@@ -3126,7 +3122,6 @@ msgid "Impassable"
 msgstr "Impassível"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=fog
 #: data/core/team-colors.cfg:215 src/gui/dialogs/lobby/lobby_data.cpp:324
 #: src/multiplayer_lobby.cpp:678
@@ -3134,7 +3129,6 @@ msgid "Fog"
 msgstr "Nevoeiro"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=shroud
 #: data/core/team-colors.cfg:221 src/gui/dialogs/lobby/lobby_data.cpp:327
 #: src/gui/dialogs/lobby/lobby_data.cpp:330 src/multiplayer_configure.cpp:78
@@ -3421,35 +3415,30 @@ msgid "DejaVu Sans,Andagii,Droid Sans Japanese,Droid Sans Fallback,Junicode"
 msgstr "DejaVu Sans,Andagii,Droid Sans Japanese,Droid Sans Fallback,Junicode"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml-tags.lua:1355 src/actions/attack.cpp:983
 msgid "female^poisoned"
 msgstr "envenenada"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml-tags.lua:1357 src/actions/attack.cpp:988
 msgid "female^slowed"
 msgstr "atrasada"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml-tags.lua:1357 src/actions/attack.cpp:988
 msgid "slowed"
 msgstr "atrasado"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml-tags.lua:1358 src/actions/attack.cpp:993
 msgid "female^petrified"
 msgstr "petrificada"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml-tags.lua:1358 src/actions/attack.cpp:993
 msgid "petrified"
@@ -3468,7 +3457,6 @@ msgid "unhealable"
 msgstr "Incurável"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:1835 src/mp_game_utils.cpp:155
 msgid "Victory:"
@@ -3492,14 +3480,12 @@ msgstr "(%d turnos restantes)"
 msgid "(this turn left)"
 msgstr "(este turno restante)"
 
-#
 #. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:1911
 msgid "%d%% of gold carried over to the next scenario."
 msgstr "%d%% do ouro transportado ao próximo cenário."
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: id=helptip_large, id=tooltip_large, id=the_list, id=the_label, id=the_icon, id=ok, id=cancel, id=flip, id=the_image
 #: data/scenario-test.cfg:1043 src/dialogs.cpp:929 src/mp_depcheck.cpp:483
 #: src/multiplayer_configure.cpp:82
@@ -3507,7 +3493,6 @@ msgid "OK"
 msgstr "Confirmar"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: id=helptip_large, id=tooltip_large, id=the_list, id=the_label, id=the_icon, id=ok, id=cancel, id=flip, id=the_image
 #: data/scenario-test.cfg:1044 src/dialogs.cpp:930 src/dialogs.cpp:1405
 #: src/dialogs.cpp:1511 src/multiplayer_connect.cpp:384
@@ -3550,7 +3535,7 @@ msgstr "Voltar ao turno …"
 #. [menu]: id=actions-menu
 #: data/themes/default.cfg:100
 msgid "Actions"
-msgstr "Acções"
+msgstr "Ações"
 
 #
 #. [action]: id=button-endturn
@@ -3565,7 +3550,6 @@ msgid "End Scenario"
 msgstr "Terminar Cenário"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=label-hp
 #: data/themes/default.cfg:134 src/dialogs.cpp:280 src/unit.cpp:2473
 #: src/unit.cpp:2673
@@ -3573,7 +3557,6 @@ msgid "HP"
 msgstr "PV"
 
 #
-#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=label-xp
 #: data/themes/default.cfg:143 src/dialogs.cpp:282 src/dialogs.cpp:454
 msgid "XP"
@@ -3583,7 +3566,7 @@ msgstr "XP"
 #. [label]: id=label-mp
 #: data/themes/default.cfg:151
 msgid "MP"
-msgstr "JR"
+msgstr "Mov"
 
 #. [label]: id=label-def
 #: data/themes/default.cfg:159
@@ -3647,7 +3630,7 @@ msgstr "Parar"
 #. [action]: id=button-stopreplay, type=image
 #: data/themes/macros.cfg:413
 msgid "pause at end of turn"
-msgstr "pausa no fim do turno"
+msgstr "pausar no fim do turno"
 
 #
 #. [action]: id=button-resetreplay, type=image
@@ -3747,7 +3730,7 @@ msgid ""
 "the mp create screen's <i>User Scenarios</i> section."
 msgstr ""
 "Os cenários que foram guardados no directório por predefinição podem ser "
-"seleccionados aquando a criação de uma nova partida em rede na secção "
+"seleccionados aquando a criação de uma nova partida em rede na seção "
 "<i>cenários</i>"
 
 #
@@ -3761,11 +3744,10 @@ msgstr ""
 "manter-o a salvo, mas se o guardas o demasiado poderá ser de um nível "
 "demasiado baixo para batalhas futuras."
 
-#
 #. [tip]
 #: data/tips.cfg:17 data/tips.cfg:149
 msgid "<i>― Great Mage Delfador, 516YW</i>"
-msgstr "<i>— Grande Mago Delfador, 516 CW</i>"
+msgstr "<i>— O Grande Mago Delfador, 516 CW</i>"
 
 #
 #. [tip]
@@ -3776,13 +3758,12 @@ msgid ""
 "where they are). Use this to make sure the enemy can’t reach your weak or "
 "injured units on his next turn."
 msgstr ""
-"No menu <b>Acções</b>, podes escolher <b>Mostrar Movimento Inimigo</b> para "
+"No menu <b>Ações</b>, podes escolher <b>Mostrar Movimento Inimigo</b> para "
 "realçar todos os possíveis locais onde o teu adversário pode actualmente "
 "mover (assumindo as tuas unidades ficam onde estão). Usa isto para teres a "
 "certeza que nenhum inimigo pode atingir as tuas unidades fracas ou feridas "
 "no seu próximo turno."
 
-#
 #. [tip]
 #: data/tips.cfg:21 data/tips.cfg:33 data/tips.cfg:37 data/tips.cfg:45
 #: data/tips.cfg:49 data/tips.cfg:65 data/tips.cfg:69 data/tips.cfg:73
@@ -3807,7 +3788,6 @@ msgstr ""
 "avançar de nível. No inicio duma campanha, tenta dar os golpes fatais a "
 "estas unidades para poderes obter combatentes de alto nível mais cedo."
 
-#
 #. [tip]
 #: data/tips.cfg:25
 msgid "<i>― King Konrad, 536YW</i>"
@@ -3825,10 +3805,9 @@ msgstr ""
 "A táctica de cerco é muito poderosa, particularmente contra oponentes "
 "rápidos. Ao pôr duas unidades nos lados opostos de um inimigo, as suas zonas "
 "de controlo irão restringir esta a mover-se por um único hexágono em "
-"qualquer direcção. Infelizmente, terás que rondar completamente "
+"qualquer direção. Infelizmente, terás que rondar completamente "
 "escaramuçadores para imobilizar-os."
 
-#
 #. [tip]
 #: data/tips.cfg:29 data/tips.cfg:141
 msgid "<i>― Memoirs of Gweddry, 627YW</i>"
@@ -3887,7 +3866,7 @@ msgid ""
 "the <b>Help</b> screen carefully. Details become important as scenarios get "
 "harder!"
 msgstr ""
-"Após teres jogado alguns cenários, lê a secção <b>Modo de Jogar</b> na "
+"Após teres jogado alguns cenários, lê a seção <b>Modo de Jogar</b> na "
 "janela de ajuda com atenção. Detalhes tornam-se importante assim como os "
 "cenários aumentam de dificuldade!"
 
@@ -3930,13 +3909,12 @@ msgstr ""
 "de noite. Unidades <i>neutras</i> não são afectados pelo tempo de dia. As "
 "unidades raras <i>limiares</i> lutam melhor ao crepúsculo."
 
-#
 #. [tip]
 #: data/tips.cfg:57
 msgid ""
 "<i>― Royal Compendium of Battle Terminology: Volume II (reprinted 221YW)</i>"
 msgstr ""
-"<i>— Real Almanaque de Terminologia de Batalha: Volume II (reeditado 212 "
+"<i>— O Real Almanaque de Terminologia de Batalha: Volume II (reeditado 212 "
 "CW)</i>"
 
 #
@@ -3946,7 +3924,6 @@ msgid ""
 "An otherwise sound plan can fail if you attack at the wrong time of day."
 msgstr "Um plano bem elaborado pode falhar se atacares no tempo do dia errado."
 
-#
 #. [tip]
 #: data/tips.cfg:61 data/tips.cfg:85 data/tips.cfg:137 data/tips.cfg:145
 #: data/tips.cfg:229
@@ -4024,7 +4001,7 @@ msgid ""
 "build up a powerful and experienced army."
 msgstr ""
 "Podes usar unidades de cenários anteriores ao seleccionar <b>Convocar</b> do "
-"menu de <b>Acções</b>. Ao convocar as mesmas unidades outra e outra vez, "
+"menu de <b>Ações</b>. Ao convocar as mesmas unidades outra e outra vez, "
 "podes construir um exercito poderoso e experiente."
 
 #
@@ -4058,7 +4035,6 @@ msgstr ""
 "hipótese de acertar de 70%, e unidades com a habilidade <i>precisão</i> irão "
 "sempre ter ao menos 60% de hipótese de acertar no seu turno."
 
-#
 #. [tip]
 #: data/tips.cfg:89
 msgid "<i>― Haldric II, 43YW, Handbook of Tactical Analysis: Volume II</i>"
@@ -4189,7 +4165,6 @@ msgstr ""
 "Não tenhas medo de recuar para recuperares, isto é em geral a chave da "
 "vitória."
 
-#
 #. [tip]
 #: data/tips.cfg:129
 msgid "<i>― Meneldur, 123YW</i>"
@@ -4264,11 +4239,10 @@ msgid "Use lines of troops to screen your injured units while they recover."
 msgstr ""
 "Usa linhas de unidades para proteger unidades feridas enquanto recuperaram."
 
-#
 #. [tip]
 #: data/tips.cfg:153
 msgid "<i>― Princess Li’sar, 515YW</i>"
-msgstr "<i>— Princesa Li'sar, 515 CW</i>"
+msgstr "<i>— A Princesa Li'sar, 515 CW</i>"
 
 #
 #. [tip]
@@ -4328,11 +4302,10 @@ msgstr ""
 msgid "<i>Arcane</i> attacks are very powerful against undead."
 msgstr "Ataques <i>arcanos</i> são muito poderosos contra mortos-vivos."
 
-#
 #. [tip]
 #: data/tips.cfg:177
 msgid "<i>― Great Sage Dacyn, 626YW</i>"
-msgstr "<i>— Grande Sábio Dacyn, 626 CW</i>"
+msgstr "<i>— O Grande Sábio Dacyn, 626 CW</i>"
 
 #
 #. [tip]
@@ -4393,11 +4366,10 @@ msgstr ""
 "e usa os veteranos para ferir o suficiente forte para que o seu parceiro "
 "possa dar o golpe fatal."
 
-#
 #. [tip]
 #: data/tips.cfg:197
 msgid "<i>― Queen Li’sar, 528YW</i>"
-msgstr "<i>— Rainha Li'sar, 528 CW</i>"
+msgstr "<i>— A Rainha Li'sar, 528 CW</i>"
 
 #
 #. [tip]
@@ -4763,7 +4735,7 @@ msgstr "Era JR"
 #
 #: src/addon/info.cpp:164
 msgid "addon_type^MP faction"
-msgstr "Facção JR"
+msgstr "Fação JR"
 
 #
 #: src/addon/info.cpp:166
@@ -5312,7 +5284,6 @@ msgstr "Avançar a Unidade"
 msgid "What should our victorious unit become?"
 msgstr "O que a nossa unidade vitoriosa deverá tornar-se?"
 
-#
 #: src/dialogs.cpp:278
 msgid "Moves"
 msgstr "Movimentos"
@@ -5508,7 +5479,6 @@ msgstr "PV: "
 msgid "XP: "
 msgstr "XP: "
 
-#
 #: src/dialogs.cpp:1141
 msgid "Moves: "
 msgstr "Movimento: "
@@ -5536,14 +5506,13 @@ msgstr "Só equipas aleatórias na era actual."
 #
 #: src/flg_manager.cpp:275 src/gamestatus.cpp:564
 msgid "Unable to find a leader type for faction $faction"
-msgstr "Não é possível encontrar um líder para a facção $faction"
+msgstr "Não é possível encontrar um líder para a fação $faction"
 
 #
 #: src/flg_manager.cpp:303
 msgid "Cannot obtain genders for invalid leader $leader"
 msgstr "Não é possível calcular sexo de líder inválido: $leader"
 
-#
 #: src/format_time_summary.cpp:46 src/reports.cpp:1542
 msgid "%H:%M"
 msgstr "%H:%M"
@@ -5558,15 +5527,13 @@ msgstr "%I:%M %p"
 msgid "%A, %H:%M"
 msgstr "%A, %H:%M"
 
-#
 #: src/format_time_summary.cpp:57
 msgid "%A, %I:%M %p"
 msgstr "%A, %I:%M %p"
 
-#
 #: src/format_time_summary.cpp:61
 msgid "%b %d"
-msgstr "%b %d"
+msgstr "%d %b"
 
 #: src/format_time_summary.cpp:65
 msgid "%b %d %Y"
@@ -5763,7 +5730,6 @@ msgstr[1] "Espaços vagos:"
 msgid "none"
 msgstr "nada"
 
-#
 #: src/gui/dialogs/lobby_player_info.cpp:107
 msgid "In game:"
 msgstr "A Jogar:"
@@ -6031,7 +5997,6 @@ msgstr "A inicializar a visualização"
 msgid "Building terrain rules"
 msgstr "A construir regras de terreno"
 
-#
 #: src/loadscreen.cpp:241
 msgid "Starting game"
 msgstr "A iniciar a partida"
@@ -6328,7 +6293,7 @@ msgstr "<mensagem>"
 #
 #: src/menu_events.cpp:1873
 msgid "Send an emotion or personal action in chat."
-msgstr "Envia uma acção ou emoção no chat."
+msgstr "Envia uma ação ou emoção no chat."
 
 #
 #: src/menu_events.cpp:1876
@@ -6566,7 +6531,6 @@ msgstr "Ignorar erros da revisão."
 msgid "Disable autosaves."
 msgstr "Desabilitar guardações automáticas."
 
-#
 #: src/menu_events.cpp:2089
 msgid "<id>"
 msgstr "<id>"
@@ -7061,15 +7025,13 @@ msgstr "Derrota o(s) líder(es) inimigo(s)"
 msgid "Connection timed out"
 msgstr "Conectividade expirada"
 
-#
 #: src/multiplayer.cpp:155 src/multiplayer.cpp:198
 msgid "Connecting to Server..."
-msgstr "A ligar ao servidor..."
+msgstr "A ligar ao servidor ..."
 
-#
 #: src/multiplayer.cpp:165
 msgid "Reading from Server..."
-msgstr "A ler do servidor..."
+msgstr "A ler do servidor ..."
 
 #
 #: src/multiplayer.cpp:181
@@ -7325,7 +7287,6 @@ msgstr "Dividir mapas"
 msgid "Share None"
 msgstr "Não dividir nada"
 
-#
 #: src/multiplayer_configure.cpp:211 src/multiplayer_create_engine.cpp:457
 msgid "$login|’s game"
 msgstr "A partida de $login|"
@@ -7363,7 +7324,7 @@ msgstr "Reservatório: "
 #
 #: src/multiplayer_configure.cpp:382
 msgid "Action bonus: "
-msgstr "Bónus de Acção: "
+msgstr "Bónus de Ação: "
 
 #
 #: src/multiplayer_configure.cpp:389
@@ -7416,7 +7377,7 @@ msgstr "Jogador/Tipo"
 
 #: src/multiplayer_connect.cpp:372
 msgid "Faction/Name"
-msgstr "Facção/Nome"
+msgstr "Fação/Nome"
 
 #: src/multiplayer_connect.cpp:374
 msgid "Leader/Gender"
@@ -7449,7 +7410,7 @@ msgstr "A esperar por outros jogadores em ligar-se..."
 #
 #: src/multiplayer_connect.cpp:590
 msgid "Waiting for players to choose factions..."
-msgstr "A esperar pelos outros jogadores escolher as suas facções..."
+msgstr "A esperar pelos outros jogadores escolher as suas fações..."
 
 #
 #: src/multiplayer_connect_engine.cpp:961
@@ -7467,7 +7428,6 @@ msgstr "Jogador local anónimo"
 msgid "Computer Player"
 msgstr "Computador"
 
-#
 #: src/multiplayer_connect_engine.cpp:992
 msgid "$playername $side"
 msgstr "$playername $side"
@@ -7684,7 +7644,6 @@ msgstr "Campanha:"
 msgid "Unknown campaign: $campaign_id"
 msgstr "Campanha desconhecida: $campaign_id"
 
-#
 #: src/multiplayer_lobby.cpp:634
 msgid " (missing)"
 msgstr " (em falta)"
@@ -7823,10 +7782,9 @@ msgstr "Líder: "
 msgid "Recruits: "
 msgstr "Recrutas: "
 
-#
 #: src/multiplayer_wait.cpp:189
 msgid "Waiting for game to start..."
-msgstr "A esperar pela partida começar..."
+msgstr "A esperar pela partida começar ..."
 
 #
 #: src/multiplayer_wait.cpp:296
@@ -7841,7 +7799,7 @@ msgstr "Nenhumas equipas para o cenário encontradas"
 #
 #: src/multiplayer_wait.cpp:347
 msgid "Choose your faction:"
-msgstr "Escolha a tua facção:"
+msgstr "Escolha a tua fação:"
 
 #
 #: src/multiplayer_wait.cpp:347
@@ -8007,10 +7965,9 @@ msgstr "$name tomou o controlo"
 msgid "Undoing moves not yet transmitted to the server."
 msgstr "A anulação dos movimentos ainda não transmitido ao servidor."
 
-#
 #: src/playmp_controller.cpp:417
 msgid "Waiting for next scenario..."
-msgstr "A esperar pelo próximo cenário..."
+msgstr "A esperar pelo próximo cenário ..."
 
 #
 #: src/playmp_controller.cpp:556
@@ -9059,7 +9016,6 @@ msgstr " e "
 msgid "$attack_list|: $effect_description"
 msgstr "$attack_list|: $effect_description"
 
-#
 #: src/unit.cpp:2504
 msgid "moves"
 msgstr "movimentos"
@@ -9361,19 +9317,19 @@ msgstr "Opções do modo de planificação"
 #~ msgstr "Modo de Planificação"
 
 #~ msgid "whiteboard^Execute Action"
-#~ msgstr "Executa Acções"
+#~ msgstr "Executa Ações"
 
 #~ msgid "whiteboard^Execute All Actions"
-#~ msgstr "Executa todas as acções"
+#~ msgstr "Executa todas as ações"
 
 #~ msgid "whiteboard^Delete Action"
-#~ msgstr "Apagar Acção"
+#~ msgstr "Apagar Ação"
 
 #~ msgid "whiteboard^Move Action Up"
-#~ msgstr "Mova acção para a frente na fila"
+#~ msgstr "Mova ação para a frente na fila"
 
 #~ msgid "whiteboard^Move Action Down"
-#~ msgstr "Mova acção para trás na fila"
+#~ msgstr "Mova ação para trás na fila"
 
 #~ msgid "whiteboard^Suppose Dead"
 #~ msgstr "Supõe morto"
@@ -9461,14 +9417,14 @@ msgstr "Opções do modo de planificação"
 #~ "tipo de terreno."
 
 #~ msgid "Selection Tool"
-#~ msgstr "Ferramenta de selecção"
+#~ msgstr "Ferramenta de seleção"
 
 #~ msgid ""
 #~ "Left mouse button displays player selection, right clears. Number keys "
 #~ "scroll to the starting position, alt+number sets respective starting "
 #~ "position under cursor, delete clears."
 #~ msgstr ""
-#~ "O botão esquerdo do rato mostra a selecção do jogador, o direito limpa. "
+#~ "O botão esquerdo do rato mostra a seleção do jogador, o direito limpa. "
 #~ "Teclas numéricas rolam para a posição inicial, alt+número ajusta a "
 #~ "posição inicial para o ponto debaixo do cursor, a tecla del remove-a."
 
@@ -9486,7 +9442,7 @@ msgstr "Opções do modo de planificação"
 #~ "right brings up a context menu. Needs a defined side."
 #~ msgstr ""
 #~ "O botão esquerdo do rato cria ou move uma unidade por arrastamento, o "
-#~ "direito traz a toa um menu de acção. Tens de definir uma equipa primeiro."
+#~ "direito traz a toa um menu de ação. Tens de definir uma equipa primeiro."
 
 #~ msgid "Unit Tool"
 #~ msgstr "Ferramenta de unidades"
@@ -9604,37 +9560,37 @@ msgstr "Opções do modo de planificação"
 #~ msgstr "Seleccionar tudo"
 
 #~ msgid "Select Inverse"
-#~ msgstr "Inverter selecção"
+#~ msgstr "Inverter seleção"
 
 #~ msgid "Select None"
 #~ msgstr "Seleccionar Nada"
 
 #~ msgid "Rotate Clipboard Clockwise"
-#~ msgstr "Rodar Selecção no sentido do relógio"
+#~ msgstr "Rodar Seleção no sentido do relógio"
 
 #~ msgid "Rotate Clipboard Counter-Clockwise"
-#~ msgstr "Rodar Selecção contra o sentido do relógio"
+#~ msgstr "Rodar Seleção contra o sentido do relógio"
 
 #~ msgid "Flip Clipboard Horizontally"
-#~ msgstr "Espelhar Selecção Horizontalmente"
+#~ msgstr "Espelhar Seleção Horizontalmente"
 
 #~ msgid "Flip Clipboard Vertically"
-#~ msgstr "Espelhar Selecção Verticalmente"
+#~ msgstr "Espelhar Seleção Verticalmente"
 
 #~ msgid "Rotate Selection"
-#~ msgstr "Rodar Selecção"
+#~ msgstr "Rodar Seleção"
 
 #~ msgid "Flip Selection"
-#~ msgstr "Girar Selecção"
+#~ msgstr "Girar Seleção"
 
 #~ msgid "Fill Selection"
-#~ msgstr "Preencher Selecção"
+#~ msgstr "Preencher Seleção"
 
 #~ msgid "Generate Tiles in Selection"
-#~ msgstr "Gerar terreno na selecção"
+#~ msgstr "Gerar terreno na seleção"
 
 #~ msgid "Randomize Tiles in Selection"
-#~ msgstr "Terreno na selecção aleatório"
+#~ msgstr "Terreno na seleção aleatório"
 
 #~ msgid "Resize Map"
 #~ msgstr "Redimensionar Mapa"
@@ -9679,7 +9635,7 @@ msgstr "Opções do modo de planificação"
 #~ msgstr "Desenhar código do Terreno"
 
 #~ msgid "Save Selection to Area"
-#~ msgstr "Gravar Selecção para um Canal"
+#~ msgstr "Gravar Seleção para um Canal"
 
 #~ msgid "Rename Selected Area"
 #~ msgstr "Renomear a área seleccionada"
