@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "POT-Creation-Date: 2014-03-23 18:06+0100\n"
-"PO-Revision-Date: 2013-12-07 14:48+0100\n"
+"PO-Revision-Date: 2014-10-24 02:21-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.6.10\n"
 
 # type: TH
 #. type: TH
@@ -218,14 +218,11 @@ msgstr "substituirá o directório de dados com o especificado"
 msgid "B<--data-path>"
 msgstr "B<--data-path>"
 
-#
 # type: Plain text
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:66
-#, fuzzy
-#| msgid "prints the name of the game data directory and exits."
 msgid "path the path of the data directory and exits."
-msgstr "imprime o nome do directório de dados e sai."
+msgstr "imprime o nome do directório de dados e termina."
 
 #
 # type: TP
@@ -723,16 +720,9 @@ msgstr "inicia o jogo com um pequeno cenário de teste."
 msgid "B<--userconfig-dir>I<\\ name>"
 msgstr "B<--userconfig-dir>I<\\ nome>"
 
-#
 # Como são chamados os directórios em Windows quando portugues é definido como idioma padrão? É que uso linux e windows em inglês britanico...
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:207
-#, fuzzy
-#| msgid ""
-#| "sets the user configuration directory to I<name> under $HOME or \"My "
-#| "Documents\\eMy Games\" for windows.  You can also specify an absolute "
-#| "path for the configuration directory outside the $HOME or \"My Documents"
-#| "\\eMy Games\""
 msgid ""
 "sets the user configuration directory to I<name> under $HOME or \"My "
 "Documents\\eMy Games\" for windows.  You can also specify an absolute path "
@@ -740,9 +730,11 @@ msgid ""
 "Games\".  Under X11 this defaults to $XDG_CONFIG_HOME or $HOME/.config/"
 "wesnoth, on other systems to the userdata path."
 msgstr ""
-"define o directório I<nome> do utilizador em $HOME ou “Os meus Documentos"
-"\\Os Meus Jogos” em Windows.  Também podes especificar o caminho absoluto "
-"para as configurações fora de $HOME ou “Os meus Documentos\\Os Meus Jogos”."
+"define o diretório I<nome> do utilizador em $HOME ou “Os meus Documentos\\Os "
+"Meus Jogos” em Windows. Também podes especificar o caminho absoluto para as "
+"configurações fora de $HOME ou “Os meus Documentos\\Os Meus Jogos”. Em "
+"sistemas X11 este indica por predefinição até $XDG_CONFIG_HOME ou $HOME/."
+"config/wesnoth, nos outros sistemas operativos ao diretório do utilizador."
 
 # type: TP
 #. type: TP
@@ -765,16 +757,9 @@ msgstr "imprime o caminho da pasta de configurações de usuário e sai."
 msgid "B<--userdata-dir>I<\\ name>"
 msgstr "B<--userdata-dir>I<\\ nome>"
 
-#
 # Como são chamados os directórios em Windows quando portugues é definido como idioma padrão? É que uso linux e windows em inglês britanico...
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:217
-#, fuzzy
-#| msgid ""
-#| "sets the user configuration directory to I<name> under $HOME or \"My "
-#| "Documents\\eMy Games\" for windows.  You can also specify an absolute "
-#| "path for the configuration directory outside the $HOME or \"My Documents"
-#| "\\eMy Games\""
 msgid ""
 "sets the userdata directory to I<name> under $HOME or \"My Documents\\eMy "
 "Games\" for windows.  You can also specify an absolute path for the userdata "
@@ -791,14 +776,11 @@ msgstr ""
 msgid "B<--userdata-path>"
 msgstr "B<--userdata-path>"
 
-#
 # type: Plain text
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:220
-#, fuzzy
-#| msgid "prints the path of the user configuration directory and exits."
 msgid "prints the path of the userdata directory and exits."
-msgstr "imprime o caminho da pasta de configurações de usuário e sai."
+msgstr "imprime o caminho da pasta de configurações de usuário e termina."
 
 #
 # type: TP

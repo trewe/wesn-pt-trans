@@ -3,7 +3,7 @@ Portuguese translation files for « The Battle for Wesnoth »
 
 Statistics:
 
- » PT                             —  16411/    5/ 16694 ( 98%) -283
+ » PT                             —  16424/    0/ 16694 ( 98%) -273
  * wesnoth-utbs                   —   1916/    0/  1916 (100%) -0
  * wesnoth-tutorial               —    257/    0/   257 (100%) -0
  * wesnoth-tsg                    —    522/    0/   522 (100%) -0
@@ -15,6 +15,7 @@ Statistics:
  * wesnoth-sof                    —    517/    0/   517 (100%) -0
  * wesnoth-nr                     —   1405/    0/  1405 (100%) -0
  * wesnoth-multiplayer            —    239/    0/   239 (100%) -0
+ * wesnoth-manual                 —    569/    0/   569 (100%) -0
  * wesnoth-low                    —    736/    0/   736 (100%) -0
  * wesnoth-lib                    —    969/    0/   969 (100%) -0
  * wesnoth-l                      —    358/    0/   358 (100%) -0
@@ -28,10 +29,9 @@ Statistics:
  * wesnoth-aoi                    —    181/    0/   181 (100%) -0
  * wesnoth-anl                    —    113/    0/   113 (100%) -0
  * wesnoth                        —   1600/    0/  1600 (100%) -0
- * wesnoth-manual                 —    568/    0/   569 ( 99%) -2
- * wesnoth-manpages               —    233/    5/   241 ( 94%) -5
- * wesnoth-units                  —    534/    0/   584 ( 91%) -51
- * wesnoth-ai                     —    183/    0/   407 ( 44%) -225
+ * wesnoth-manpages               —    237/    0/   241 ( 98%) -5
+ * wesnoth-units                  —    536/    0/   584 ( 91%) -49
+ * wesnoth-ai                     —    189/    0/   407 ( 46%) -219
 
  » PT_BR                          —  14044/ 1420/ 16761 ( 75%) -1341
  * wesnoth-test                   —      2/    0/     2 (100%) -0
