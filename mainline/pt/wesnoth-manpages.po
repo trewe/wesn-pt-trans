@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "POT-Creation-Date: 2014-03-23 18:06+0100\n"
-"PO-Revision-Date: 2014-10-24 02:21-0000\n"
+"PO-Revision-Date: 2014-10-24 15:09-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -1788,6 +1788,11 @@ msgid ""
 "anything real you are insane). The default value is B<forum>. You must also "
 "add a B<[user_handler]> section, see below."
 msgstr ""
+"O nome da base de dados de utilizadores para ser utilizado. De momento estão "
+"disponíveis B<forum> (para ligar o servidor à base de dados phpp do fórum "
+"oficial) e B<sample> (apenas um esboço, não é aconselhável correr o servidor "
+"num ambiente real com este). Por padrão  B<forum> é usado. Também terás de "
+"usar um B<[user_handler]> como explicado abaixo."
 
 #
 # type: SS
@@ -1930,6 +1935,10 @@ msgid ""
 "B<[user_handler]> section is present in the configuration the server will "
 "run without any nick registration service."
 msgstr ""
+"B<[user_handler]> Define como gerir a base de dados de utilizadores. Opções "
+"disponíveis irão depender qual B<user_handler> esta em uso. Se nenhum "
+"B<[user_handler]> é encontrado, então o servidor irá correr sem "
+"possibilidade de registo do nome de utilizador."
 
 #
 # type: TP
@@ -1989,7 +1998,6 @@ msgstr ""
 msgid "B<db_password>"
 msgstr "B<db_password>"
 
-#
 # type: Plain text
 #. type: Plain text
 #: ../../doc/man/wesnothd.6:234
@@ -2012,6 +2020,9 @@ msgid ""
 "saves its user data. Most likely this will be E<lt>table-prefixE<gt>_users "
 "(e.g. phpbb3_users)."
 msgstr ""
+"(para ser usado em conjunto com user_handler=forum) O nome da base de dados "
+"phpbb do fórum usado. Provavelmente será E<lt>table-prefixE<gt>_users (p.ex. "
+"phpbb3_users)."
 
 #
 # type: TP
@@ -2031,6 +2042,12 @@ msgid ""
 "user_lastvisit INT UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) "
 "NOT NULL DEFAULT 0);>"
 msgstr ""
+"(para ser usado em conjunto com user_handler=forum) O nome da base de dados "
+"onde o servidor irá guardar os seus próprios dados sobre os utilizadores. "
+"Terás de criar esta base de dados manualmente, por ex. B<CREATE TABLE "
+"E<lt>table-nameE<gt>(username VARCHAR(255) PRIMARY KEY, user_lastvisit INT "
+"UNSIGNED NOT NULL DEFAULT 0, user_is_moderator TINYINT(4) NOT NULL DEFAULT "
+"0);>"
 
 #
 # type: TP
