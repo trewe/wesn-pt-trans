@@ -188,7 +188,6 @@ msgstr "seleciona o diretório de dados a ser usado."
 #. type: TP
 #: ../../doc/man/wesnoth.6:63
 #, fuzzy, no-wrap
-#| msgid "B<--path>"
 msgid "B<--data-path>"
 msgstr "B<--path>"
 
@@ -196,7 +195,6 @@ msgstr "B<--path>"
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:66
 #, fuzzy
-#| msgid "prints the name of the game data directory and exits."
 msgid "path the path of the data directory and exits."
 msgstr "imprime o nome do diretório de dados do jogo, e sai."
 
@@ -620,7 +618,6 @@ msgstr "executa o jogo em um pequeno cenário de teste."
 #. type: TP
 #: ../../doc/man/wesnoth.6:198
 #, fuzzy, no-wrap
-#| msgid "B<--config-dir>I<\\ name>"
 msgid "B<--userconfig-dir>I<\\ name>"
 msgstr "B<--config-dir>I<\\ nome>"
 
@@ -642,7 +639,6 @@ msgstr ""
 #. type: TP
 #: ../../doc/man/wesnoth.6:207
 #, fuzzy, no-wrap
-#| msgid "B<--config-path>"
 msgid "B<--userconfig-path>"
 msgstr "B<--config-path>"
 
@@ -656,7 +652,6 @@ msgstr "imprime o caminho da pasta de configurações de usuário e sai."
 #. type: TP
 #: ../../doc/man/wesnoth.6:210
 #, fuzzy, no-wrap
-#| msgid "B<--config-dir>I<\\ name>"
 msgid "B<--userdata-dir>I<\\ name>"
 msgstr "B<--config-dir>I<\\ nome>"
 
@@ -676,7 +671,6 @@ msgstr ""
 #. type: TP
 #: ../../doc/man/wesnoth.6:217
 #, fuzzy, no-wrap
-#| msgid "B<--path>"
 msgid "B<--userdata-path>"
 msgstr "B<--path>"
 
@@ -684,7 +678,6 @@ msgstr "B<--path>"
 #. type: Plain text
 #: ../../doc/man/wesnoth.6:220
 #, fuzzy
-#| msgid "prints the path of the user configuration directory and exits."
 msgid "prints the path of the userdata directory and exits."
 msgstr "imprime o caminho da pasta de configurações de usuário e sai."
 
@@ -860,7 +853,6 @@ msgstr ""
 #. type: TP
 #: ../../doc/man/wesnoth.6:272
 #, fuzzy, no-wrap
-#| msgid "B<--era=>I<value>"
 msgid "B<--multiplayer-repeat=>I<value>"
 msgstr "B<--era=>I<valor>"
 
@@ -1932,25 +1924,20 @@ msgid "B<wesnoth>(6)."
 msgstr "wesnoth"
 
 # type: TP
-#. type: TP
-#, no-wrap
-msgid "B<--config-dir>I<\\ name>"
-msgstr "B<--config-dir>I<\\ nome>"
+#~ msgid "B<--config-dir>I<\\ name>"
+#~ msgstr "B<--config-dir>I<\\ nome>"
 
 # type: Plain text
-#. type: Plain text
 #, fuzzy
-msgid ""
-"sets the user configuration directory to I<name> under $HOME or \"My "
-"Documents\\eMy Games\" for windows.  You can also specify an absolute path "
-"for the configuration directory outside the $HOME or \"My Documents\\eMy "
-"Games\""
-msgstr ""
-"Ajusta a pasta de configurações de usuário para I<name> em $HOME (ou \"My "
-"Documents\\eMy Games\" no windows)."
+#~ msgid ""
+#~ "sets the user configuration directory to I<name> under $HOME or \"My "
+#~ "Documents\\eMy Games\" for windows.  You can also specify an absolute "
+#~ "path for the configuration directory outside the $HOME or \"My Documents"
+#~ "\\eMy Games\""
+#~ msgstr ""
+#~ "Ajusta a pasta de configurações de usuário para I<name> em $HOME (ou \"My "
+#~ "Documents\\eMy Games\" no windows)."
 
 # type: TP
-#. type: TP
-#, no-wrap
-msgid "B<--config-path>"
-msgstr "B<--config-path>"
+#~ msgid "B<--config-path>"
+#~ msgstr "B<--config-path>"

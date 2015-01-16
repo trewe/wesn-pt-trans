@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.9.5-CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-10-11 10:43+0200\n"
+"POT-Creation-Date: 2015-01-15 22:59-0300\n"
 "PO-Revision-Date: 2013-03-10 03:55-0300\n"
 "Last-Translator: Gilberto dos Santos Alves <gsavix@gmail.com>\n"
 "Language-Team: Portuguese/Brazil\n"
-"Language: \n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -129,6 +129,10 @@ msgid ""
 "choosing whichever one offers the best defensive and movement bonuses for "
 "the unit on it."
 msgstr ""
+"Quando um rio é extremamente raso, passar por ele é trivial. Qualquer "
+"criatura adaptada a nadar tem movimentação total. No jogo, um riacho é como "
+"uma planície ou água rasa, de acordo com qual deles oferecer a melhor "
+"vantagem defensiva e de movimentação para unidade."
 
 #
 # File: data/core/terrain.cfg, line: 92
@@ -172,7 +176,6 @@ msgstr "Recife Costeiro Cinza"
 #. [terrain_type]: id=medium_reef
 #: data/core/terrain.cfg:108
 #, fuzzy
-#| msgid "Coastal Reef"
 msgid "Medium Coastal Reef"
 msgstr "Recife Costeiro"
 
@@ -207,7 +210,6 @@ msgstr "Pântano"
 #. [terrain_type]: id=swamp_water_reed
 #: data/core/terrain.cfg:132
 #, fuzzy
-#| msgid "Swamp Human Castle Keep"
 msgid "Swamp Water Reed"
 msgstr "Posto de Castelo Humano Pantanoso"
 
@@ -428,6 +430,8 @@ msgid ""
 "small sand pits or beaches, however for gameplay purposes they are "
 "identical. See <ref>dst='terrain_sand' text='sand'</ref>."
 msgstr ""
+"Desertos têm uma composição diferente de poços de areia ou praias, mas para "
+"o jogo, eles são idênticos a <ref>dst='terrain_sand' text='Areia'</ref>."
 
 #
 # File: data/core/terrain.cfg, line: 292
@@ -459,6 +463,12 @@ msgid ""
 "\n"
 "Most units receive 20 to 40% defense in sand."
 msgstr ""
+"A instabilidade da areia faz ela ser difícil de ser atravessada por unidades "
+"e deixam uma grande área de ataque. Por outro lado, pés grandes ou o corpo "
+"de serpente das raças de lagartos fazem da areia um terreno de fácil "
+"locomoção.\n"
+"\n"
+"A maioria das unidade têm de 20 a 40% de defesa na areia."
 
 #
 # File: data/core/terrain.cfg, line: 301
@@ -994,7 +1004,6 @@ msgstr "Montanhas"
 #. [terrain_type]: id=regular_mountains
 #: data/core/terrain.cfg:747
 #, fuzzy
-#| msgid "Regular Impassable Mountains"
 msgid "Regular Mountains"
 msgstr "Montanhas Regulares Impassáveis"
 
@@ -1151,6 +1160,16 @@ msgid ""
 "Most units have about 50% defense in rocky caves, whereas cavalry are "
 "limited to 40%. Dwarves enjoy 60% defense in rockbound caves."
 msgstr ""
+"Cavernas Rochosas são formadas pela ação da água e do vento, que carregam "
+"partículas erosivas e cavam a rocha. Elas lembram uma caverna subterrânea "
+"apertada, o que reduz a eficiência da maioria das unidades, mas melhora sua "
+"defesa. Anões e Trolls, que são moradores de cavernas, têm maior facilidade "
+"de lidar com este terreno. Os Anões, devido ao seu reduzido tamanho, não têm "
+"problema nenhum em andar em tal topografia. Algumas vezes tais cavernas "
+"podem estar <ref>dst='terrain_illuminated_cave' text='Iluminadas'</ref>\n"
+"\n"
+"A maioria das unidades têm 50% de defesa em cavernas rochosas, enquanto "
+"unidades montadas têm apenas 40%. Anões têm 60% de defesa nestes lugares."
 
 #
 # File: data/core/terrain.cfg, line: 999
@@ -1248,6 +1267,12 @@ msgid ""
 "immediately above it. This provides an attack bonus for lawful units and "
 "removes the attack bonus from chaotic units."
 msgstr ""
+"O perigo inerente em tentar caminhar na lava são óbvios. Em jogo, a lava é "
+"equivalente ao <ref>dst='terrain_unwalkable' text='desfiladeiro'</ref>. Este "
+"terreno só pode ser atravessado por unidades capazes de voar uma distância "
+"considerável sobre ele. O magma derretido também produz um brilho razoável, "
+"iluminando as àreas acima dele. Isto provê um bônus de ataque para as "
+"criaturas ordeiras, e remove o bônus das criaturas caóticas."
 
 #
 # File: data/core/terrain.cfg, line: 1097
@@ -1932,7 +1957,6 @@ msgstr "Castelo Humano Nevado"
 #. [terrain_type]: id=elven_castle
 #: data/core/terrain.cfg:1606
 #, fuzzy
-#| msgid "Elven Castle Keep"
 msgid "Elven Castle"
 msgstr "Posto de Castelo Élfico"
 
@@ -2319,6 +2343,16 @@ msgid ""
 "occupying the bridge hex. Note that a swimming unit and a land unit are not "
 "capable of occupying a bridge hex at the same time."
 msgstr ""
+"Para aqueles capazes de construí-las, as pontes oferecem independência da "
+"natureza incerta das vias fluviais, cujos riachos vão e voltam de acordo com "
+"as marés. Isso sem mencionar o luxo de manter os pés secos, algo muito "
+"importante nos meses de inverno.\n"
+"\n"
+"Uma ponte agrada tanto àqueles que andam por terra, quanto àqueles que se "
+"deslocam pelo mar. Em termos de jogo, ela é tratada como planícies ou como "
+"águas rasas, de acordo com qual deles oferecer o melhor bônus de movimento e "
+"defesa para a unidade naquele local. Note que uma unidade aquática e uma "
+"terrestre não podem ocupar a ponte ao mesmo tempo."
 
 #
 # File: data/core/terrain.cfg, line: 2046
@@ -2520,7 +2554,6 @@ msgstr ""
 #. [terrain_type]: id=sand
 #: data/core/terrain.cfg:2254
 #, fuzzy
-#| msgid "Sand"
 msgid "Sands"
 msgstr "Areia"
 
@@ -2578,6 +2611,14 @@ msgid ""
 "Most units make do with 20 to 30% defense in shallow water, whereas both "
 "naga and mermen enjoy 60%."
 msgstr ""
+"Águas rasas representam trechos com águas que podem cobrir até o peito de um "
+"homem. Isto é suficiente para atrasar qualquer um e deixá-lo vulneráveis. "
+"Anões, o qual estas águas cobrem, tem mais dificuldade. A exceção fica para "
+"as raças que tem o corpo adequado para nadar, pois elas recebem mais bônus "
+"de defesa e movimentação total.\n"
+"\n"
+"A maioria das unidades tem 20 a 30% de defesa em águas rasas, Nagas e "
+"Sereios têm 60%."
 
 #. [terrain_type]: id=castle
 #: data/core/terrain.cfg:2328
@@ -2730,6 +2771,10 @@ msgid ""
 "for sheer walls which would take days to traverse. As far as gameplay is "
 "concerned, only units capable of flying can cross this terrain."
 msgstr ""
+"Um desfiladeiro é uma rachadura no solo, que chega a profundidades "
+"desconhecidas. Desfiladeiros são conhecidos por suas paredes recortadas que "
+"tomam dias para serem atravessadas. No jogo, somente unidades que podem voar "
+"sobre desfiladeiros podem atravessar este terreno. "
 
 #
 # File: data/core/terrain.cfg, line: 2346
@@ -3140,7 +3185,6 @@ msgstr ""
 #. [button]: id=url_copy
 #: data/gui/default/window/addon_description.cfg:435
 #, fuzzy
-#| msgid "Copy"
 msgid "url^Copy"
 msgstr "Copiar"
 
@@ -3154,7 +3198,6 @@ msgstr "Copiar"
 #. [button]: id=url_copy
 #: data/gui/default/window/addon_description.cfg:436
 #, fuzzy
-#| msgid "Choose the game to load"
 msgid "Copy this URL to clipboard"
 msgstr "Escolha o jogo para caregar"
 
@@ -3307,7 +3350,6 @@ msgstr ""
 #. [label]
 #: data/gui/default/window/addon_filter_options.cfg:170
 #, fuzzy
-#| msgid "Actions"
 msgid "Options"
 msgstr "Ações"
 
@@ -3624,7 +3666,6 @@ msgstr "Anterior"
 #. [button]: id=previous_page
 #: data/gui/default/window/chat_log.cfg:99
 #, fuzzy
-#| msgid "Previous"
 msgid "Previous page"
 msgstr "Anterior"
 
@@ -3657,7 +3698,6 @@ msgstr "Próxima"
 #. [button]: id=next_page
 #: data/gui/default/window/chat_log.cfg:107
 #, fuzzy
-#| msgid "Next Side"
 msgid "Next page"
 msgstr "Próximo time"
 
@@ -3719,6 +3759,7 @@ msgstr ""
 
 # type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #. [button]: id=image_button
+#: data/gui/default/window/custom_tod.cfg:147
 msgid "Image"
 msgstr "Imagem"
 
@@ -3789,7 +3830,6 @@ msgstr ""
 #. [button]: id=delete
 #: data/gui/default/window/custom_tod.cfg:369
 #, fuzzy
-#| msgid "Delete"
 msgid "Delete ToD"
 msgstr "Apagar"
 
@@ -3971,7 +4011,6 @@ msgstr ""
 #. [label]: id=title
 #: data/gui/default/window/editor_edit_scenario.cfg:42
 #, fuzzy
-#| msgid "Editor Settings"
 msgid "Edit Scenario Settings"
 msgstr "Preferências do Editor"
 
@@ -3990,7 +4029,6 @@ msgstr ""
 #. [label]
 #: data/gui/default/window/editor_edit_scenario.cfg:173
 #, fuzzy
-#| msgid "Experience modifier"
 msgid "Experience modifier:"
 msgstr "Modificar de experiência"
 
@@ -4001,7 +4039,6 @@ msgstr "Modificar de experiência"
 #. [label]
 #: data/gui/default/window/editor_edit_scenario.cfg:204
 #, fuzzy
-#| msgid "Turn"
 msgid "Turns:"
 msgstr "Turno"
 
@@ -4017,7 +4054,6 @@ msgstr ""
 #. [toggle_button]: id=random_start_time
 #: data/gui/default/window/editor_edit_scenario.cfg:262
 #, fuzzy
-#| msgid "Random start time"
 msgid "Random starting time"
 msgstr "Tempo inicial aleatório"
 
@@ -4028,7 +4064,6 @@ msgstr "Tempo inicial aleatório"
 #. [label]: id=title
 #: data/gui/default/window/editor_edit_side.cfg:54
 #, fuzzy
-#| msgid "Side $side"
 msgid "Side Setup"
 msgstr "Lado $side"
 
@@ -4039,7 +4074,6 @@ msgstr "Lado $side"
 #. [label]
 #: data/gui/default/window/editor_edit_side.cfg:77
 #, fuzzy
-#| msgid "Number of hills:"
 msgid "Number:"
 msgstr "Número de montanhas:"
 
@@ -4055,7 +4089,6 @@ msgstr ""
 #. [label]
 #: data/gui/default/window/editor_edit_side.cfg:133
 #, fuzzy
-#| msgid "Team only"
 msgid "Team name:"
 msgstr "Apenas time"
 
@@ -4066,7 +4099,6 @@ msgstr "Apenas time"
 #. [toggle_button]: id=share_maps
 #: data/gui/default/window/editor_edit_side.cfg:188
 #, fuzzy
-#| msgid "Animate map"
 msgid "Share map"
 msgstr "Animar mapa"
 
@@ -4077,7 +4109,6 @@ msgstr "Animar mapa"
 #. [toggle_button]: id=no_leader
 #: data/gui/default/window/editor_edit_side.cfg:200
 #, fuzzy
-#| msgid "Leader"
 msgid "No leader"
 msgstr "Líder"
 
@@ -4103,7 +4134,6 @@ msgstr ""
 #. [toggle_button]: id=hidden
 #: data/gui/default/window/editor_edit_side.cfg:240
 #, fuzzy
-#| msgid "Status Table"
 msgid "Hide in status table"
 msgstr "Tabela de Estatus"
 
@@ -4119,7 +4149,6 @@ msgstr ""
 #. [label]
 #: data/gui/default/window/editor_edit_side.cfg:297
 #, fuzzy
-#| msgid "Gold per village"
 msgid "Gold per village:"
 msgstr "Ouro por vila"
 
@@ -4135,7 +4164,6 @@ msgstr ""
 #. [label]
 #: data/gui/default/window/editor_edit_side.cfg:353
 #, fuzzy
-#| msgid "Gold per village"
 msgid "Support per village:"
 msgstr "Ouro por vila"
 
@@ -4712,7 +4740,6 @@ msgstr ""
 #: data/gui/default/window/game_paths.cfg:48
 #: data/gui/default/window/screenshot_notification.cfg:35
 #, fuzzy
-#| msgid "Choose the game to load"
 msgid "Copy this path to clipboard"
 msgstr "Escolha o jogo para caregar"
 
@@ -4733,7 +4760,6 @@ msgstr ""
 #. [label]: id=title
 #: data/gui/default/window/game_paths.cfg:105
 #, fuzzy
-#| msgid "Cave Path"
 msgid "Game Paths"
 msgstr "Trilha na Caverna"
 
@@ -4768,7 +4794,6 @@ msgstr ""
 #. [grid]
 #: data/gui/default/window/game_paths.cfg:133
 #, fuzzy
-#| msgid "Save Game"
 msgid "Saved games:"
 msgstr "Salvar Jogo"
 
@@ -4779,7 +4804,6 @@ msgstr "Salvar Jogo"
 #. [grid]
 #: data/gui/default/window/game_paths.cfg:135
 #, fuzzy
-#| msgid "Add-ons"
 msgid "Add-ons:"
 msgstr "Add-ons"
 
@@ -5634,6 +5658,7 @@ msgid "Password:"
 msgstr "Senha:"
 
 #. [label]
+#: data/gui/default/window/mp_depcheck_confirm_change.cfg:40
 msgid "Confirm"
 msgstr "Confirmar"
 
@@ -5879,7 +5904,6 @@ msgstr ""
 #. [label]: id=title
 #: data/gui/default/window/screenshot_notification.cfg:95
 #, fuzzy
-#| msgid "Screenshot done"
 msgid "Screenshot Saved"
 msgstr "Screenshot feita"
 
@@ -5893,7 +5917,6 @@ msgstr "Screenshot feita"
 #. [button]: id=browse_dir
 #: data/gui/default/window/screenshot_notification.cfg:185
 #, fuzzy
-#| msgid "Screenshot"
 msgid "Screenshots..."
 msgstr "Foto da tela"
 
@@ -5918,7 +5941,6 @@ msgstr "Escolher tema"
 #. [label]
 #: data/gui/default/window/theme_list.cfg:67
 #, fuzzy
-#| msgid "New theme will take effect on next new or loaded game."
 msgid "The new theme will take effect after loading or starting a new game."
 msgstr "O novo tema terá efeito a partir do próximo jogo novo ou carregado."
 
@@ -6197,7 +6219,6 @@ msgstr ""
 #. [button]: id=copy
 #: data/gui/default/window/wml_error.cfg:125
 #, fuzzy
-#| msgid "Choose the game to load"
 msgid "Copy this report to clipboard"
 msgstr "Escolha o jogo para caregar"
 
@@ -7977,7 +7998,7 @@ msgstr "Definição Widget '$definition' não contém definição para '$id'."
 # File: src/gui/widgets/settings.cpp, line: 502
 # File: src/gui/widgets/settings.cpp, line: 502
 # File: src/gui/widgets/settings.cpp, line: 502
-#: src/gui/widgets/settings.cpp:521
+#: src/gui/widgets/settings.cpp:519
 msgid "No default gui defined."
 msgstr "Nenhuma interface gráfica padrão definida."
 
@@ -7985,7 +8006,7 @@ msgstr "Nenhuma interface gráfica padrão definida."
 # File: src/gui/widgets/settings.cpp, line: 532
 # File: src/gui/widgets/settings.cpp, line: 532
 # File: src/gui/widgets/settings.cpp, line: 532
-#: src/gui/widgets/settings.cpp:550
+#: src/gui/widgets/settings.cpp:548
 msgid "No state or draw section defined."
 msgstr "Nenhum estado ou seção de desenho definida."
 
@@ -8128,7 +8149,6 @@ msgstr "Falha ao exibir uma caixa de diálogo, que não cabe na tela."
 # File: src/hotkeys.cpp, line: 68
 #: src/hotkey/hotkey_command.cpp:38
 #, fuzzy
-#| msgid "Cancel"
 msgid "cancel"
 msgstr "Cancelar"
 
@@ -8138,7 +8158,6 @@ msgstr "Cancelar"
 # File: src/hotkeys.cpp, line: 199
 #: src/hotkey/hotkey_command.cpp:39
 #, fuzzy
-#| msgid "Select None"
 msgid "Select Hex"
 msgstr "Selecionar Nada"
 
@@ -8148,7 +8167,6 @@ msgstr "Selecionar Nada"
 # File: src/hotkeys.cpp, line: 199
 #: src/hotkey/hotkey_command.cpp:40
 #, fuzzy
-#| msgid "Select None"
 msgid "Deselect Hex"
 msgstr "Selecionar Nada"
 
@@ -8158,7 +8176,6 @@ msgstr "Selecionar Nada"
 # File: data/gui/default/window/unit_attack.cfg, line: 197
 #: src/hotkey/hotkey_command.cpp:41
 #, fuzzy
-#| msgid "Attack"
 msgid "Move/Attack"
 msgstr "Atacar"
 
@@ -8212,7 +8229,6 @@ msgstr "Terminar o turno da unidade"
 # File: src/hotkeys.cpp, line: 76
 #: src/hotkey/hotkey_command.cpp:48
 #, fuzzy
-#| msgid "Leader"
 msgid "Leader"
 msgstr "Líder"
 
@@ -8297,7 +8313,6 @@ msgstr "Acelerado"
 # File: src/hotkeys.cpp, line: 86
 #: src/hotkey/hotkey_command.cpp:58
 #, fuzzy
-#| msgid "Unit Description"
 msgid "Terrain Description"
 msgstr "Descrição da unidade"
 
@@ -8407,7 +8422,6 @@ msgstr "Rolagem do Mouse"
 # File: data/gui/default/window/mp_cmd_wrapper.cfg, line: 374
 #: src/hotkey/hotkey_command.cpp:74
 #, fuzzy
-#| msgid "Status"
 msgid "Status Table"
 msgstr "Status"
 
@@ -8444,7 +8458,6 @@ msgstr "Mudar Time da Unidade (Debug!)"
 # File: src/hotkeys.cpp, line: 104
 #: src/hotkey/hotkey_command.cpp:79
 #, fuzzy
-#| msgid "Create Unit (Debug!)"
 msgid "Kill Unit (Debug!)"
 msgstr "Criar Unidade (Debug!)"
 
@@ -8733,7 +8746,6 @@ msgstr "Desfazer parcialmente"
 # File: src/gui/dialogs/game_load.cpp, line: 300
 #: src/hotkey/hotkey_command.cpp:132
 #, fuzzy
-#| msgid "Test scenario"
 msgid "New Scenario"
 msgstr "Cenário de teste"
 
@@ -8759,7 +8771,6 @@ msgstr "Salvar Mapa como..."
 # File: src/gui/dialogs/game_load.cpp, line: 312
 #: src/hotkey/hotkey_command.cpp:136
 #, fuzzy
-#| msgid "Scenario start"
 msgid "Save Scenario As"
 msgstr "Início de Cenário"
 
@@ -8793,7 +8804,6 @@ msgstr "Informação do Mapa"
 # File: data/gui/default/window/lobby_main.cfg, line: 337
 #: src/hotkey/hotkey_command.cpp:141
 #, fuzzy
-#| msgid "Selected game"
 msgid "Clear Selected Item Set"
 msgstr "Jogo selecionado"
 
@@ -8848,6 +8858,9 @@ msgid ""
 "Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
 "paint base layer only. Ctrl+click to sample terrain under cursor."
 msgstr ""
+"Use o botão esquerdo/direito do mouse para desenhar o terreno da frente/de "
+"fundo. Segure Shift para pintar apenas a camada base.·Ctrl+click·para pegar "
+"uma amostra do terreno sob o cursor."
 
 #
 # File: src/hotkeys.cpp, line: 170
@@ -8877,6 +8890,9 @@ msgid ""
 "scroll to the starting position, alt+number sets respective starting "
 "position under cursor, delete clears."
 msgstr ""
+"O botão esquerdo do mouse mostra a seleção do jogador, o direito limpa. "
+"Teclas numéricas rolam para a posição inicial, alt+número ajusta a posição "
+"inicial para o ponto embaixo do cursor, a tecla delete a remove."
 
 #
 # File: src/hotkeys.cpp, line: 172
@@ -8998,6 +9014,7 @@ msgstr ""
 msgid "Change Unit ID"
 msgstr "Mudar Controles"
 
+#: src/hotkey/hotkey_command.cpp:166
 msgid "Loyal"
 msgstr "Leal"
 
@@ -9076,7 +9093,6 @@ msgstr "Cortar"
 # File: src/hotkeys.cpp, line: 194
 #: src/hotkey/hotkey_command.cpp:184
 #, fuzzy
-#| msgid "Copy"
 msgid "Copy"
 msgstr "Copiar"
 
@@ -9187,7 +9203,6 @@ msgstr "Preencher Seleção"
 # File: src/hotkeys.cpp, line: 207
 #: src/hotkey/hotkey_command.cpp:197
 #, fuzzy
-#| msgid "Generate Tiles In Selection"
 msgid "Generate Tiles in Selection"
 msgstr "Gerar Blocos Na Seleção"
 
@@ -9197,7 +9212,6 @@ msgstr "Gerar Blocos Na Seleção"
 # File: src/hotkeys.cpp, line: 208
 #: src/hotkey/hotkey_command.cpp:198
 #, fuzzy
-#| msgid "Randomize Tiles In Selection"
 msgid "Randomize Tiles in Selection"
 msgstr "Escolher Blocos Aleatoriamente Na Seleção"
 
@@ -9314,7 +9328,6 @@ msgstr "Desenhar Códigos de Terreno"
 # File: src/hotkeys.cpp, line: 204
 #: src/hotkey/hotkey_command.cpp:219
 #, fuzzy
-#| msgid "Rotate Selection"
 msgid "Save Selection to Area"
 msgstr "Rotacionar Seleção"
 
@@ -9324,7 +9337,6 @@ msgstr "Rotacionar Seleção"
 # File: data/gui/default/window/lobby_main.cfg, line: 337
 #: src/hotkey/hotkey_command.cpp:220
 #, fuzzy
-#| msgid "Selected game"
 msgid "Rename Selected Area"
 msgstr "Jogo selecionado"
 
@@ -9334,7 +9346,6 @@ msgstr "Jogo selecionado"
 # File: data/gui/default/window/lobby_main.cfg, line: 337
 #: src/hotkey/hotkey_command.cpp:221
 #, fuzzy
-#| msgid "Selected game"
 msgid "Remove Selected Area"
 msgstr "Jogo selecionado"
 
@@ -9356,7 +9367,6 @@ msgstr "Próximo time"
 # File: src/hotkeys.cpp, line: 149
 #: src/hotkey/hotkey_command.cpp:224
 #, fuzzy
-#| msgid "Editor Settings"
 msgid "Edit Scenario"
 msgstr "Preferências do Editor"
 
@@ -9381,7 +9391,6 @@ msgstr "Trocar Mapa"
 # File: src/game_preferences_display.cpp, line: 189
 #: src/hotkey/hotkey_command.cpp:226
 #, fuzzy
-#| msgid "Remove"
 msgid "Remove Side"
 msgstr "Remover"
 
@@ -9572,7 +9581,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 390
 # File: src/hotkeys.cpp, line: 387
 # File: src/hotkeys.cpp, line: 390
-#: src/hotkey/hotkey_item.cpp:405 src/hotkey/hotkey_item.cpp:408
+#: src/hotkey/hotkey_item.cpp:406 src/hotkey/hotkey_item.cpp:409
 msgid "Button"
 msgstr ""
 
@@ -9580,7 +9589,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 387
 # File: src/hotkeys.cpp, line: 387
 # File: src/hotkeys.cpp, line: 387
-#: src/hotkey/hotkey_item.cpp:405
+#: src/hotkey/hotkey_item.cpp:406
 msgid "Mouse"
 msgstr ""
 
@@ -9591,7 +9600,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 426
 # File: src/hotkeys.cpp, line: 390
 # File: src/hotkeys.cpp, line: 426
-#: src/hotkey/hotkey_item.cpp:408 src/hotkey/hotkey_item.cpp:444
+#: src/hotkey/hotkey_item.cpp:409 src/hotkey/hotkey_item.cpp:445
 msgid "Joystick"
 msgstr ""
 
@@ -9599,7 +9608,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 396
 # File: src/hotkeys.cpp, line: 396
 # File: src/hotkeys.cpp, line: 396
-#: src/hotkey/hotkey_item.cpp:414
+#: src/hotkey/hotkey_item.cpp:415
 msgid "Centered"
 msgstr ""
 
@@ -9607,7 +9616,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 399
 # File: src/hotkeys.cpp, line: 399
 # File: src/hotkeys.cpp, line: 399
-#: src/hotkey/hotkey_item.cpp:417
+#: src/hotkey/hotkey_item.cpp:418
 msgid "Up"
 msgstr ""
 
@@ -9615,7 +9624,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 402
 # File: src/hotkeys.cpp, line: 402
 # File: src/hotkeys.cpp, line: 402
-#: src/hotkey/hotkey_item.cpp:420
+#: src/hotkey/hotkey_item.cpp:421
 #, fuzzy
 msgid "Right"
 msgstr "Altura:"
@@ -9624,7 +9633,7 @@ msgstr "Altura:"
 # File: src/hotkeys.cpp, line: 405
 # File: src/hotkeys.cpp, line: 405
 # File: src/hotkeys.cpp, line: 405
-#: src/hotkey/hotkey_item.cpp:423
+#: src/hotkey/hotkey_item.cpp:424
 msgid "Down"
 msgstr ""
 
@@ -9632,7 +9641,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 408
 # File: src/hotkeys.cpp, line: 408
 # File: src/hotkeys.cpp, line: 408
-#: src/hotkey/hotkey_item.cpp:426
+#: src/hotkey/hotkey_item.cpp:427
 msgid "Left"
 msgstr ""
 
@@ -9640,7 +9649,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 411
 # File: src/hotkeys.cpp, line: 411
 # File: src/hotkeys.cpp, line: 411
-#: src/hotkey/hotkey_item.cpp:429
+#: src/hotkey/hotkey_item.cpp:430
 msgid "RightUp"
 msgstr ""
 
@@ -9648,7 +9657,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 414
 # File: src/hotkeys.cpp, line: 414
 # File: src/hotkeys.cpp, line: 414
-#: src/hotkey/hotkey_item.cpp:432
+#: src/hotkey/hotkey_item.cpp:433
 msgid "RightDown"
 msgstr ""
 
@@ -9656,7 +9665,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 417
 # File: src/hotkeys.cpp, line: 417
 # File: src/hotkeys.cpp, line: 417
-#: src/hotkey/hotkey_item.cpp:435
+#: src/hotkey/hotkey_item.cpp:436
 msgid "LeftUp"
 msgstr ""
 
@@ -9664,7 +9673,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 420
 # File: src/hotkeys.cpp, line: 420
 # File: src/hotkeys.cpp, line: 420
-#: src/hotkey/hotkey_item.cpp:438
+#: src/hotkey/hotkey_item.cpp:439
 msgid "LeftDown"
 msgstr ""
 
@@ -9672,7 +9681,7 @@ msgstr ""
 # File: src/hotkeys.cpp, line: 423
 # File: src/hotkeys.cpp, line: 423
 # File: src/hotkeys.cpp, line: 423
-#: src/hotkey/hotkey_item.cpp:441
+#: src/hotkey/hotkey_item.cpp:442
 #, fuzzy
 msgid "Unknown"
 msgstr "Era desconhecida"
@@ -9681,7 +9690,7 @@ msgstr "Era desconhecida"
 # File: src/hotkeys.cpp, line: 426
 # File: src/hotkeys.cpp, line: 426
 # File: src/hotkeys.cpp, line: 426
-#: src/hotkey/hotkey_item.cpp:444
+#: src/hotkey/hotkey_item.cpp:445
 #, fuzzy
 msgid "Hat"
 msgstr "Cabana"
@@ -9958,14 +9967,6 @@ msgid ""
 msgstr ""
 "A chave '$deprecated_key' foi renomeada para '$key'. Suporte para "
 "'$deprecated_key' será removido na versão $removal_version."
-
-#. [row]
-msgid "addons_of_type^SP/MP Campaigns"
-msgstr ""
-
-#. [row]
-msgid "controller^Human/AI"
-msgstr ""
 
 #
 # File: data/core/terrain.cfg, line: 1708

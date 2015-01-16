@@ -8,11 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.9.5-CVS\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-07-12 20:06+0200\n"
+"POT-Creation-Date: 2015-01-15 22:59-0300\n"
 "PO-Revision-Date: 2011-02-05 22:45-0300\n"
 "Last-Translator: Diego Inácio Goergen <thegoergen@gmail.com>\n"
 "Language-Team: Portuguese/Brazil\n"
-"Language: \n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -200,6 +200,7 @@ msgid "special"
 msgstr "especial"
 
 #. [editor_times]: id=empty
+#: data/core/editor/time-of-day.cfg:5
 msgid "None"
 msgstr "Nenhuma"
 
@@ -213,6 +214,7 @@ msgid "Test"
 msgstr ""
 
 #. [editor_times]: id=default
+#: data/core/editor/time-of-day.cfg:21
 msgid "Default"
 msgstr "padrão"
 
@@ -227,10 +229,12 @@ msgid "Winter"
 msgstr ""
 
 #. [editor_times]: id=underground
+#: data/core/editor/time-of-day.cfg:39
 msgid "Underground"
 msgstr "Subsolo"
 
 #. [editor_times]: id=deep_underground
+#: data/core/editor/time-of-day.cfg:45
 msgid "Deep Underground"
 msgstr "Subsolo Profundo"
 
@@ -266,7 +270,7 @@ msgstr ""
 # File: data/themes/editor.cfg, line: 63
 # File: data/themes/editor.cfg, line: 63
 #. [menu]: id=menu-editor-file, type=turbo
-#: data/themes/editor.cfg:63
+#: data/themes/editor.cfg:61
 msgid "File"
 msgstr "Arquivo"
 
@@ -275,12 +279,12 @@ msgstr "Arquivo"
 # File: data/themes/editor.cfg, line: 89
 # File: data/themes/editor.cfg, line: 89
 #. [menu]: id=menu-editor-map
-#: data/themes/editor.cfg:84
+#: data/themes/editor.cfg:82
 msgid "Map"
 msgstr "Mapa"
 
 #. [menu]: id=menu-editor-transitions
-#: data/themes/editor.cfg:92
+#: data/themes/editor.cfg:90
 msgid "Transition Update"
 msgstr ""
 
@@ -289,7 +293,7 @@ msgstr ""
 # File: data/themes/editor.cfg, line: 105
 # File: data/themes/editor.cfg, line: 105
 #. [menu]: id=menu-editor-window
-#: data/themes/editor.cfg:99
+#: data/themes/editor.cfg:97
 msgid "Window"
 msgstr "Janela"
 
@@ -298,21 +302,22 @@ msgstr "Janela"
 # File: data/themes/editor.cfg, line: 115
 # File: data/themes/editor.cfg, line: 115
 #. [menu]: id=menu-editor-areas
-#: data/themes/editor.cfg:108
+#: data/themes/editor.cfg:106
 msgid "Areas"
 msgstr ""
 
 #. [menu]: id=menu-editor-local-time
-#: data/themes/editor.cfg:116
+#: data/themes/editor.cfg:114
 msgid "Assign Local Time"
 msgstr ""
 
 #. [menu]: id=menu-editor-local-schedule
-#: data/themes/editor.cfg:122
+#: data/themes/editor.cfg:120
 msgid "Assign Local Time Schedule"
 msgstr ""
 
 #. [menu]: id=menu-editor-side
+#: data/themes/editor.cfg:128
 msgid "Side"
 msgstr "Lado"
 
@@ -321,11 +326,12 @@ msgstr "Lado"
 # File: data/themes/editor.cfg, line: 144
 # File: data/themes/editor.cfg, line: 144
 #. [label]: id=villages-icon
-#: data/themes/editor.cfg:148
+#: data/themes/editor.cfg:146
 msgid "villages"
 msgstr "aldeias"
 
 #. [label]: id=units-icon
+#: data/themes/editor.cfg:163
 msgid "units"
 msgstr "unidades"
 
@@ -333,7 +339,7 @@ msgstr "unidades"
 # File: data/themes/editor.cfg, line: 489
 # File: data/themes/editor.cfg, line: 489
 #. [menu]: id=switch_time
-#: data/themes/editor.cfg:444
+#: data/themes/editor.cfg:442
 msgid "Time Schedule Menu"
 msgstr ""
 
@@ -341,7 +347,7 @@ msgstr ""
 # File: data/themes/editor.cfg, line: 499
 # File: data/themes/editor.cfg, line: 499
 #. [menu]: id=menu-playlist
-#: data/themes/editor.cfg:455
+#: data/themes/editor.cfg:453
 msgid "Playlist"
 msgstr ""
 
@@ -350,7 +356,7 @@ msgstr ""
 # File: data/themes/editor.cfg, line: 505
 # File: data/themes/editor.cfg, line: 505
 #. [menu]: id=menu-editor-schedule
-#: data/themes/editor.cfg:461
+#: data/themes/editor.cfg:459
 msgid "Assign Time Schedule"
 msgstr ""
 
@@ -358,15 +364,19 @@ msgstr ""
 msgid "Identifier: "
 msgstr ""
 
+#: src/editor/action/mouse/mouse_action_unit.cpp:59
 msgid "Name: "
 msgstr "Nome:"
 
+#: src/editor/action/mouse/mouse_action_unit.cpp:60
 msgid "Type: "
 msgstr "Tipo:"
 
+#: src/editor/action/mouse/mouse_action_unit.cpp:61
 msgid "Level: "
 msgstr "Nível:"
 
+#: src/editor/action/mouse/mouse_action_unit.cpp:62
 msgid "Cost: "
 msgstr "Custo: "
 
@@ -434,7 +444,7 @@ msgstr "Nenhum editor tempo-do-dia encontrado."
 # File: src/editor/editor_controller.cpp, line: 906
 # File: src/editor/editor_controller.cpp, line: 949
 # File: src/editor/editor_controller.cpp, line: 949
-#: src/editor/editor_controller.cpp:1069
+#: src/editor/editor_controller.cpp:1070
 msgid "Change Unit ID"
 msgstr ""
 
@@ -442,18 +452,15 @@ msgstr ""
 # File: src/editor/editor_controller.cpp, line: 907
 # File: src/editor/editor_controller.cpp, line: 950
 # File: src/editor/editor_controller.cpp, line: 950
-#: src/editor/editor_controller.cpp:1070
+#: src/editor/editor_controller.cpp:1071
 msgid "ID:"
 msgstr ""
 
-#
-# File: src/editor/editor_controller.cpp, line: 923
-# File: src/editor/editor_controller.cpp, line: 966
-# File: src/editor/editor_controller.cpp, line: 966
-#: src/editor/editor_controller.cpp:1086
+#: src/editor/editor_controller.cpp:1087
 msgid "Rename Unit"
-msgstr ""
+msgstr "Renomear unidade"
 
+#: src/editor/editor_controller.cpp:1088
 msgid "Name:"
 msgstr "Nome: "
 
@@ -475,7 +482,6 @@ msgstr "(Novo Mapa)"
 # File: src/editor/map/context_manager.cpp, line: 176
 #: src/editor/map/context_manager.cpp:184
 #, fuzzy
-#| msgid "Choose a Map to Open"
 msgid "Choose a File to Open"
 msgstr "Escolha um mapa para carregar"
 
@@ -546,7 +552,7 @@ msgstr "Escolha o mapa alvo"
 # File: src/editor/map/context_manager.cpp, line: 338
 # File: src/editor/map/context_manager.cpp, line: 700
 #: src/editor/map/context_manager.cpp:462
-#: src/editor/map/context_manager.cpp:894
+#: src/editor/map/context_manager.cpp:895
 msgid "Error loading map"
 msgstr "Erro carregando o mapa"
 
@@ -573,7 +579,6 @@ msgstr "O mapa já existe. Você quer sobrescrevê-lo?"
 # File: src/editor/map/context_manager.cpp, line: 456
 #: src/editor/map/context_manager.cpp:607
 #, fuzzy
-#| msgid "Save the Map As"
 msgid "Save the Scenario As"
 msgstr "Salvar o mapa como"
 
@@ -625,7 +630,6 @@ msgstr ""
 # File: src/editor/map/context_manager.cpp, line: 656
 #: src/editor/map/context_manager.cpp:773
 #, fuzzy
-#| msgid "This map is already open."
 msgid "This scenario is already open."
 msgstr "Esse mapa já está aberto."
 
@@ -647,7 +651,6 @@ msgstr "Esse mapa já está aberto."
 # File: src/editor/map/context_manager.cpp, line: 636
 #: src/editor/map/context_manager.cpp:816
 #, fuzzy
-#| msgid "Map saved."
 msgid "Scenario saved."
 msgstr "Mapa salvo."
 
@@ -695,7 +698,7 @@ msgstr ""
 # File: src/editor/map/editor_map.cpp, line: 149
 # File: src/editor/map/editor_map.cpp, line: 149
 # File: src/editor/map/editor_map.cpp, line: 149
-#: src/editor/map/editor_map.cpp:149
+#: src/editor/map/editor_map.cpp:148
 msgid "Player"
 msgstr "Jogador"
 
@@ -703,7 +706,7 @@ msgstr "Jogador"
 # File: src/editor/map/editor_map.cpp, line: 266
 # File: src/editor/map/editor_map.cpp, line: 266
 # File: src/editor/map/editor_map.cpp, line: 266
-#: src/editor/map/editor_map.cpp:266
+#: src/editor/map/editor_map.cpp:265
 msgid "The size of the target map is different from the current map"
 msgstr "O tamanho do mapa alvo é diferente do mapa atual"
 
@@ -721,7 +724,6 @@ msgstr "Arquivo não encontrado"
 # File: src/editor/map/map_context.cpp, line: 137
 #: src/editor/map/map_context.cpp:133
 #, fuzzy
-#| msgid "Empty map file"
 msgid "Empty file"
 msgstr "Arquivo de mapa vazio"
 
@@ -743,7 +745,6 @@ msgstr ""
 # File: src/editor/map/map_context.cpp, line: 357
 #: src/editor/map/map_context.cpp:518
 #, fuzzy
-#| msgid "Could not save the map: $msg"
 msgid "Could not save the scenario: $msg"
 msgstr "Não foi possível salvar o mapa: $msg"
 
@@ -828,9 +829,6 @@ msgstr "Nenhum"
 # File: src/gui/dialogs/editor_set_starting_position.cpp, line: 98
 #: src/gui/dialogs/editor_set_starting_position.cpp:100
 msgid "Player $player_number"
-msgstr ""
-
-msgid "Choose file"
 msgstr ""
 
 #
