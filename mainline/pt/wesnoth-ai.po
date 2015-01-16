@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-ai)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-10-11 10:43+0200\n"
+"POT-Creation-Date: 2015-01-15 22:59-0300\n"
 "PO-Revision-Date: 2014-10-28 12:29-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -1166,8 +1166,8 @@ msgid ""
 "- If at GP with no enemy in reach, do nothing.\n"
 "- If at GP with enemy in reach, leave attack to default AI (note that this "
 "may include not attacking if the enemy is deemed too strong).\n"
-"- If not at GP, return there, no matter whether an enemy is in reach or not."
-"\n"
+"- If not at GP, return there, no matter whether an enemy is in reach or "
+"not.\n"
 "- If enemies are blocking your way back, do your best to get there anyway.\n"
 "- If you end up next to an enemy on the way back, attack after the move."
 msgstr ""
@@ -2723,8 +2723,8 @@ msgid ""
 "under different circumstances.\n"
 "\n"
 "Note that the leader of the human-controlled side, Rutburt, can move 99 "
-"hexes per turn, so that it is always possible to keep him out of harm's way."
-"\n"
+"hexes per turn, so that it is always possible to keep him out of harm's "
+"way.\n"
 "\n"
 "Also note that the wolves AI is coded as a Micro AI. A Micro AI can be added "
 "and adapted to the need of a scenario easily using only WML and the "
@@ -3048,89 +3048,20 @@ msgstr "IA em teste"
 msgid "Idle AI"
 msgstr "IA ociosa"
 
-#
-#. [event]
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:218
-msgid ""
-"This is a reenactment of scenario \"The Elves Besieged\" of the mainline "
-"campaign \"Heir to the Throne\", just that the AI is playing Konrad's side "
-"here. The goal is to move Konrad to the signpost in the northwest, while "
-"keeping both Konrad and Delfador alive. The same AI as in scenario \"Protect "
-"Unit"
-msgstr ""
+#~ msgid "coward r=5"
+#~ msgstr "cobarde r=5"
 
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:125
-msgid "coward r=5"
-msgstr "cobarde r=5"
+#~ msgid "return 20,2"
+#~ msgstr "retorno 20,2"
 
-#
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:147
-msgid ""
-"coward r=5\n"
-"    s=24 5"
-msgstr ""
+#~ msgid "return 21,9"
+#~ msgstr "retorno 21,9"
 
-#
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:171
-msgid ""
-"   coward r=5\n"
-" s=24,5 a=24,15"
-msgstr ""
+#~ msgid "home 19,2"
+#~ msgstr "fixo 19,2"
 
-#
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:196
-msgid ""
-"coward r=5\n"
-"    s=32,--"
-msgstr ""
-
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:222
-msgid "return 20,2"
-msgstr "retorno 20,2"
-
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:241
-msgid "return 21,9"
-msgstr "retorno 21,9"
-
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:261
-msgid "home 19,2"
-msgstr "fixo 19,2"
-
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:273
-msgid "home 21,10"
-msgstr "fixo 21,10"
-
-#
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:286
-msgid ""
-" stationed r=4\n"
-"s=2,14 g=3,13"
-msgstr ""
-
-#
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:308
-msgid ""
-" stationed r=4\n"
-"s=4,14 g=7,13"
-msgstr ""
-
-#
-#. [variables]
-#: data/ai/micro_ais/scenarios/guardians.cfg:359
-msgid ""
-"Zone Guard with\n"
-"separate attack Zone"
-msgstr ""
+#~ msgid "home 21,10"
+#~ msgstr "fixo 21,10"
 
 #
 #~ msgid "ai_special=guardian"
