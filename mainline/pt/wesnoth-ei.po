@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-ei)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2015-04-05 05:06-0300\n"
-"PO-Revision-Date: 2014-10-28 12:09-0000\n"
+"PO-Revision-Date: 2015-04-17 13:51-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. [campaign]: id=Eastern_Invasion
 #: data/campaigns/Eastern_Invasion/_main.cfg:11
@@ -113,10 +113,8 @@ msgstr "trabalho artístico e Projeto Gráfico"
 #
 #. [lua]: wml_actions.bandit_village_capture
 #: data/campaigns/Eastern_Invasion/lua/bandits.lua:82
-#, fuzzy
-#| msgid "They’re here!"
 msgid "They're here!"
-msgstr "Estão aqui!"
+msgstr "Aqui estão eles!"
 
 #
 #. [lua]: wml_actions.bandit_village_capture
@@ -589,7 +587,7 @@ msgstr "Mova Gweddry para o túnel de fuga"
 #. [note]
 #: data/campaigns/Eastern_Invasion/scenarios/02_The_Escape_Tunnel.cfg:163
 msgid "Get moving quickly."
-msgstr ""
+msgstr "Continuam a mover-se!"
 
 #
 #. [message]: speaker=Gweddry
@@ -761,6 +759,8 @@ msgid ""
 "It seems these trolls were hiding some gold. I think I can count fifty gold "
 "pieces!"
 msgstr ""
+"Parece que estes trogloditas estavam a esconder algum ouro para si. Penso "
+"que posso contar uns cinquenta peças de ouro!"
 
 #
 #. [unit]: type=Necromancer, id=Mal-Bakral
@@ -1534,18 +1534,14 @@ msgstr "Lanar-Skal"
 #
 #. [objective]: condition=win
 #: data/campaigns/Eastern_Invasion/scenarios/05_Northern_Outpost.cfg:110
-#, fuzzy
-#| msgid "Find the outlaw leader and defeat him"
 msgid "Find the outlaw leader"
-msgstr "Encontra o líder Proscrito e mata-o"
+msgstr "Encontra o líder Proscrito"
 
 #
 #. [objective]: condition=win
 #: data/campaigns/Eastern_Invasion/scenarios/05_Northern_Outpost.cfg:117
-#, fuzzy
-#| msgid "Shodrano"
 msgid "Kill Shodrano"
-msgstr "Shodrano"
+msgstr "Mata Shodrano"
 
 #
 #. [objective]: condition=win
@@ -2927,16 +2923,12 @@ msgstr "Destrua a ponte OU derrota todos os inimigos"
 
 #. [note]
 #: data/campaigns/Eastern_Invasion/scenarios/12_Evacuation.cfg:179
-#, fuzzy
-#| msgid ""
-#| "Note: every unit not south of the bridge when it is destroyed will be "
-#| "lost (including non-recalled units)"
 msgid ""
 "Every unit not south of the bridge when it is destroyed will be lost "
 "(including non-recalled units)"
 msgstr ""
-"Nota: todas as unidades que não estiverem do lado sul do rio quando a ponte "
-"for destruída serão perdidas (inclusive unidades não-convocadas)"
+"Qualquer unidade que não estiver do lado sul do rio quando a ponte for "
+"destruída será perdida (inclusive todas as unidades não-convocadas)"
 
 #
 #. [unit]: id=Engineer, type=Red Mage
