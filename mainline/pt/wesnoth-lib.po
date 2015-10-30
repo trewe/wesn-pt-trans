@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-lib)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2015-06-05 21:33-0300\n"
+"POT-Creation-Date: 2015-10-30 01:45-0300\n"
 "PO-Revision-Date: 2015-06-06 11:58-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. [terrain_type]: id=deep_water_medium
 #. [terrain_type]: id=deep_water_tropical
 #: data/core/terrain.cfg:18 data/core/terrain.cfg:29 data/core/terrain.cfg:40
-#: data/core/terrain.cfg:2352 data/core/terrain.cfg:2353
+#: data/core/terrain.cfg:2365 data/core/terrain.cfg:2366
 msgid "Deep Water"
 msgstr "Águas Profundas"
 
@@ -51,7 +51,7 @@ msgstr "Águas Profundas tropicais"
 #. [terrain_type]: id=shallow_water
 #. [terrain_type]: id=tropical_water
 #: data/core/terrain.cfg:51 data/core/terrain.cfg:62 data/core/terrain.cfg:73
-#: data/core/terrain.cfg:2311 data/core/terrain.cfg:2312
+#: data/core/terrain.cfg:2324 data/core/terrain.cfg:2325
 msgid "Shallow Water"
 msgstr "Águas Rasas"
 
@@ -82,16 +82,18 @@ msgstr "Vau"
 #. [terrain_type]: id=ford
 #: data/core/terrain.cfg:90
 msgid ""
-"When a river happens to be extremely shallow, passing over it is a trivial matter "
-"for land based units. Moreover, any creature best adapted to swimming has full "
-"mobility even at such places in the river. As far as gameplay is concerned, a "
-"river ford is treated as either grassland or shallow water, choosing whichever "
-"one offers the best defensive and movement bonuses for the unit on it."
+"When a river happens to be extremely shallow, passing over it is a trivial "
+"matter for land based units. Moreover, any creature best adapted to swimming "
+"has full mobility even at such places in the river. As far as gameplay is "
+"concerned, a river ford is treated as either grassland or shallow water, "
+"choosing whichever one offers the best defensive and movement bonuses for "
+"the unit on it."
 msgstr ""
-"Quando um rio é extremamente raso, passar por ele é trivial para qualquer unidade "
-"terrestre. Além do mais, qualquer criatura adaptada a nadar tem movimentação "
-"total aqui. No jogo, um vau é como uma planície ou água rasa, de acordo com qual "
-"deles oferecer a melhor vantagem defensiva e de movimentação para unidade."
+"Quando um rio é extremamente raso, passar por ele é trivial para qualquer "
+"unidade terrestre. Além do mais, qualquer criatura adaptada a nadar tem "
+"movimentação total aqui. No jogo, um vau é como uma planície ou água rasa, "
+"de acordo com qual deles oferecer a melhor vantagem defensiva e de "
+"movimentação para unidade."
 
 #
 #. [terrain_type]: id=gray_reef
@@ -99,7 +101,7 @@ msgstr ""
 #. [terrain_type]: id=reef
 #. [terrain_type]: id=tropical_reef
 #: data/core/terrain.cfg:96 data/core/terrain.cfg:107 data/core/terrain.cfg:118
-#: data/core/terrain.cfg:2266 data/core/terrain.cfg:2267
+#: data/core/terrain.cfg:2279 data/core/terrain.cfg:2280
 msgid "Coastal Reef"
 msgstr "Recife Costeiro"
 
@@ -124,8 +126,8 @@ msgstr "Recife Costeiro tropical"
 #. [terrain_type]: id=quagmire
 #. [terrain_type]: id=swamp_water
 #. [terrain_type]: id=swamp_water_reed
-#: data/core/terrain.cfg:131 data/core/terrain.cfg:142 data/core/terrain.cfg:2295
-#: data/core/terrain.cfg:2296
+#: data/core/terrain.cfg:131 data/core/terrain.cfg:142
+#: data/core/terrain.cfg:2308 data/core/terrain.cfg:2309
 msgid "Swamp"
 msgstr "Pântano"
 
@@ -145,8 +147,8 @@ msgstr "charco lamacento"
 #. [terrain_type]: id=grassland
 #. [terrain_type]: id=leaf_litter
 #. [terrain_type]: id=savanna
-#: data/core/terrain.cfg:160 data/core/terrain.cfg:171 data/core/terrain.cfg:182
-#: data/core/terrain.cfg:192
+#: data/core/terrain.cfg:160 data/core/terrain.cfg:171
+#: data/core/terrain.cfg:182 data/core/terrain.cfg:192
 msgid "Grassland"
 msgstr "Planície"
 
@@ -178,7 +180,8 @@ msgstr "folhedo"
 #. [terrain_type]: id=dirt
 #. [terrain_type]: id=dirt_dark
 #. [terrain_type]: id=dirt_dry
-#: data/core/terrain.cfg:204 data/core/terrain.cfg:214 data/core/terrain.cfg:224
+#: data/core/terrain.cfg:204 data/core/terrain.cfg:214
+#: data/core/terrain.cfg:224
 msgid "Dirt"
 msgstr "Terra Seca"
 
@@ -206,8 +209,9 @@ msgstr "Terra Seca"
 #. [terrain_type]: id=road
 #. [terrain_type]: id=road_clean
 #. [terrain_type]: id=stone_path
-#: data/core/terrain.cfg:234 data/core/terrain.cfg:245 data/core/terrain.cfg:255
-#: data/core/terrain.cfg:825 data/core/terrain.cfg:835
+#: data/core/terrain.cfg:234 data/core/terrain.cfg:245
+#: data/core/terrain.cfg:255 data/core/terrain.cfg:826
+#: data/core/terrain.cfg:836
 msgid "Road"
 msgstr "Estrada"
 
@@ -220,11 +224,12 @@ msgstr "Pedras Regulares"
 #. [terrain_type]: id=road
 #: data/core/terrain.cfg:239
 msgid ""
-"<italic>text='Roads'</italic> are beaten paths of dirt, formed by many travelers "
-"passing over them. As far as gameplay is concerned, roads behave as flat terrain."
+"<italic>text='Roads'</italic> are beaten paths of dirt, formed by many "
+"travelers passing over them. As far as gameplay is concerned, roads behave "
+"as flat terrain."
 msgstr ""
-"<italic>text='Estradas'</italic> são caminhos de terra batida, formada por muitos "
-"viajantes que passam sobre ela. Em jogo, são idênticas à terra plana."
+"<italic>text='Estradas'</italic> são caminhos de terra batida, formada por "
+"muitos viajantes que passam sobre ela. Em jogo, são idênticas à terra plana."
 
 #
 #. [terrain_type]: id=road_clean
@@ -265,18 +270,18 @@ msgstr "Areias desérticas"
 #. [terrain_type]: id=desert
 #: data/core/terrain.cfg:296
 msgid ""
-"<italic>text='Deserts'</italic> have a somewhat different composition than small "
-"sand pits or beaches, however for gameplay purposes they are identical. See "
-"<ref>dst='terrain_sand' text='sand'</ref>."
+"<italic>text='Deserts'</italic> have a somewhat different composition than "
+"small sand pits or beaches, however for gameplay purposes they are "
+"identical. See <ref>dst='terrain_sand' text='sand'</ref>."
 msgstr ""
-"<italic>text='Desertos'</italic> têm uma composição diferente de poços de areia "
-"ou praias, mas para o jogo, são idênticos a <ref>dst='terrain_sand' text='Areia'</"
-"ref>."
+"<italic>text='Desertos'</italic> têm uma composição diferente de poços de "
+"areia ou praias, mas para o jogo, são idênticos a <ref>dst='terrain_sand' "
+"text='Areia'</ref>."
 
 #
 #. [terrain_type]: id=sand
 #. [terrain_type]: id=sand_beach
-#: data/core/terrain.cfg:302 data/core/terrain.cfg:2253
+#: data/core/terrain.cfg:302 data/core/terrain.cfg:2266
 msgid "Sand"
 msgstr "Areia"
 
@@ -288,12 +293,12 @@ msgstr "Areias de praia"
 
 #. [terrain_type]: id=sand
 #. [terrain_type]: id=sand_beach
-#: data/core/terrain.cfg:307 data/core/terrain.cfg:2257
+#: data/core/terrain.cfg:307 data/core/terrain.cfg:2270
 msgid ""
-"The instability of <italic>text='sand'</italic> makes it harder for most units to "
-"cross, and leaves them wide open to attack. In contrast, the wide feet or "
-"snakelike bodies of the reptilian races make sand much easier for them to "
-"navigate.\n"
+"The instability of <italic>text='sand'</italic> makes it harder for most "
+"units to cross, and leaves them wide open to attack. In contrast, the wide "
+"feet or snakelike bodies of the reptilian races make sand much easier for "
+"them to navigate.\n"
 "\n"
 "Most units receive 20 to 40% defense in sand."
 msgstr ""
@@ -306,120 +311,121 @@ msgstr ""
 
 #
 #. [terrain_type]: id=oasis
-#: data/core/terrain.cfg:315
+#: data/core/terrain.cfg:315 data/core/terrain.cfg:316
 msgid "Oasis"
 msgstr "Oásis"
 
 #
 #. [terrain_type]: id=sand_rubble
-#: data/core/terrain.cfg:327
+#: data/core/terrain.cfg:328
 msgid "Rubble"
 msgstr "Destroços"
 
 #
 #. [terrain_type]: id=crater
-#: data/core/terrain.cfg:337
+#: data/core/terrain.cfg:338
 msgid "Crater"
 msgstr "Cratera"
 
 #
 #. [terrain_type]: id=flowers_mixed
-#: data/core/terrain.cfg:351
+#: data/core/terrain.cfg:352
 msgid "Mixed Flowers"
 msgstr "Flores mistas"
 
 #
 #. [terrain_type]: id=farm
-#: data/core/terrain.cfg:360
+#: data/core/terrain.cfg:361
 msgid "Farmland"
 msgstr "Campo de cultivo"
 
 #
 #. [terrain_type]: id=stones_small
-#: data/core/terrain.cfg:369
+#: data/core/terrain.cfg:370
 msgid "Stones"
 msgstr "Pedras"
 
 #
 #. [terrain_type]: id=mushrooms_small
-#: data/core/terrain.cfg:378
+#: data/core/terrain.cfg:379
 msgid "Small Mushrooms"
 msgstr "Cogumelos pequenos"
 
 #
 #. [terrain_type]: id=mushrooms_farm
-#: data/core/terrain.cfg:387
+#: data/core/terrain.cfg:388
 msgid "Mushroom Farm"
 msgstr "Criação de cogumelos"
 
 #
 #. [terrain_type]: id=desert_plants
-#: data/core/terrain.cfg:396
+#: data/core/terrain.cfg:397
 msgid "Desert Plants"
 msgstr "Plantas desérticas"
 
 #
 #. [terrain_type]: id=desert_plants_sans_bones
-#: data/core/terrain.cfg:405
+#: data/core/terrain.cfg:406
 msgid "Desert Plants without Bones"
 msgstr "Plantas desérticas sem ossos"
 
 #
 #. [terrain_type]: id=windmill
-#: data/core/terrain.cfg:414
+#: data/core/terrain.cfg:415
 msgid "Windmill"
 msgstr "Moinho de vento"
 
 #
 #. [terrain_type]: id=campfire
-#: data/core/terrain.cfg:423
+#: data/core/terrain.cfg:424
 msgid "Campfire"
 msgstr "Fogueira"
 
 #
 #. [terrain_type]: id=fence
-#: data/core/terrain.cfg:432
+#: data/core/terrain.cfg:433
 msgid "Fence"
 msgstr "Cerca"
 
 #
 #. [terrain_type]: id=sand_drifts
-#: data/core/terrain.cfg:441
+#: data/core/terrain.cfg:442
 msgid "Stones with Sand Drifts"
 msgstr "Pedras com Bancos de Areia"
 
 #
 #. [terrain_type]: id=water-lilies
-#: data/core/terrain.cfg:450
+#: data/core/terrain.cfg:451
 msgid "Water Lilies"
 msgstr "Lírios de água"
 
 #
 #. [terrain_type]: id=water-lilies-flower
-#: data/core/terrain.cfg:460
+#: data/core/terrain.cfg:461
 msgid "Flowering Water Lilies"
 msgstr "Florescimento dos lírios de água"
 
 #. [terrain_type]: id=detritus_trash
-#: data/core/terrain.cfg:471
+#: data/core/terrain.cfg:472
 msgid "Trash"
 msgstr "Escombros"
 
 #. [terrain_type]: id=detritus_bones
-#: data/core/terrain.cfg:480
+#: data/core/terrain.cfg:481
 msgid "Remains"
 msgstr "Sobra"
 
 #
 #. [terrain_type]: id=great_tree
 #. [terrain_type]: id=great_tree_dead
-#: data/core/terrain.cfg:493 data/core/terrain.cfg:494 data/core/terrain.cfg:505
+#: data/core/terrain.cfg:494 data/core/terrain.cfg:495
+#: data/core/terrain.cfg:506
 msgid "Great Tree"
 msgstr "Grande Árvore"
 
 #
 #. [terrain_type]: id=great_tree_dead
-#: data/core/terrain.cfg:506
+#: data/core/terrain.cfg:507
 msgid "Dead Great Tree"
 msgstr "Grande Árvore Morta"
 
@@ -440,102 +446,105 @@ msgstr "Grande Árvore Morta"
 #. [terrain_type]: id=savanna_forest
 #. [terrain_type]: id=snow_forest
 #. [terrain_type]: id=tropical_forest
-#: data/core/terrain.cfg:517 data/core/terrain.cfg:529 data/core/terrain.cfg:541
-#: data/core/terrain.cfg:553 data/core/terrain.cfg:565 data/core/terrain.cfg:577
-#: data/core/terrain.cfg:589 data/core/terrain.cfg:601 data/core/terrain.cfg:613
-#: data/core/terrain.cfg:625 data/core/terrain.cfg:637 data/core/terrain.cfg:649
-#: data/core/terrain.cfg:661 data/core/terrain.cfg:673 data/core/terrain.cfg:685
-#: data/core/terrain.cfg:2378 data/core/terrain.cfg:2379
+#: data/core/terrain.cfg:518 data/core/terrain.cfg:530
+#: data/core/terrain.cfg:542 data/core/terrain.cfg:554
+#: data/core/terrain.cfg:566 data/core/terrain.cfg:578
+#: data/core/terrain.cfg:590 data/core/terrain.cfg:602
+#: data/core/terrain.cfg:614 data/core/terrain.cfg:626
+#: data/core/terrain.cfg:638 data/core/terrain.cfg:650
+#: data/core/terrain.cfg:662 data/core/terrain.cfg:674
+#: data/core/terrain.cfg:686 data/core/terrain.cfg:2391
+#: data/core/terrain.cfg:2392
 msgid "Forest"
 msgstr "Floresta"
 
 #
 #. [terrain_type]: id=tropical_forest
-#: data/core/terrain.cfg:518
+#: data/core/terrain.cfg:519
 msgid "Tropical Forest"
 msgstr "Floresta Tropical"
 
 #
 #. [terrain_type]: id=rainforest
-#: data/core/terrain.cfg:530
+#: data/core/terrain.cfg:531
 msgid "Rainforest"
 msgstr "Selva"
 
 #
 #. [terrain_type]: id=palm_desert_forest
-#: data/core/terrain.cfg:542
+#: data/core/terrain.cfg:543
 msgid "Palm Forest"
 msgstr "Floresta de Palmeiras"
 
 #
 #. [terrain_type]: id=palm_forest
-#: data/core/terrain.cfg:554
+#: data/core/terrain.cfg:555
 msgid "Dense Palm Forest"
 msgstr "Floresta de Palmeiras Densa"
 
 #
 #. [terrain_type]: id=savanna_forest
-#: data/core/terrain.cfg:566
+#: data/core/terrain.cfg:567
 msgid "Savanna"
 msgstr "Estepe"
 
 #
 #. [terrain_type]: id=pine_forest
-#: data/core/terrain.cfg:578
+#: data/core/terrain.cfg:579
 msgid "Pine Forest"
 msgstr "Pinhal"
 
 #
 #. [terrain_type]: id=snow_forest
-#: data/core/terrain.cfg:590
+#: data/core/terrain.cfg:591
 msgid "Snowy Pine Forest"
 msgstr "Pinhal Gelado"
 
 #
 #. [terrain_type]: id=deciduous_forest_summer
-#: data/core/terrain.cfg:602
+#: data/core/terrain.cfg:603
 msgid "Summer Deciduous Forest"
 msgstr "Floresta de folha caduca de Verão"
 
 #
 #. [terrain_type]: id=deciduous_forest_fall
-#: data/core/terrain.cfg:614
+#: data/core/terrain.cfg:615
 msgid "Fall Deciduous Forest"
 msgstr "Floresta de folha caduca de Outono"
 
 #
 #. [terrain_type]: id=deciduous_forest_winter
-#: data/core/terrain.cfg:626
+#: data/core/terrain.cfg:627
 msgid "Winter Deciduous Forest"
 msgstr "Floresta de folha caduca de Inverno"
 
 #
 #. [terrain_type]: id=deciduous_forest_winter_snow
-#: data/core/terrain.cfg:638
+#: data/core/terrain.cfg:639
 msgid "Snowy Deciduous Forest"
 msgstr "Floresta de folha caduca em Neve"
 
 #
 #. [terrain_type]: id=mixed_forest_summer
-#: data/core/terrain.cfg:650
+#: data/core/terrain.cfg:651
 msgid "Summer Mixed Forest"
 msgstr "Floresta mista em Verão"
 
 #
 #. [terrain_type]: id=mixed_forest_fall
-#: data/core/terrain.cfg:662
+#: data/core/terrain.cfg:663
 msgid "Fall Mixed Forest"
 msgstr "Floresta mista em Outono"
 
 #
 #. [terrain_type]: id=mixed_forest_winter
-#: data/core/terrain.cfg:674
+#: data/core/terrain.cfg:675
 msgid "Winter Mixed Forest"
 msgstr "Floresta mista em Inverno"
 
 #
 #. [terrain_type]: id=mixed_forest_winter_snow
-#: data/core/terrain.cfg:686
+#: data/core/terrain.cfg:687
 msgid "Snowy Mixed Forest"
 msgstr "Floresta mista gelada"
 
@@ -544,32 +553,33 @@ msgstr "Floresta mista gelada"
 #. [terrain_type]: id=hills_dry
 #. [terrain_type]: id=hills_regular
 #. [terrain_type]: id=snow_hills
-#: data/core/terrain.cfg:701 data/core/terrain.cfg:711 data/core/terrain.cfg:731
-#: data/core/terrain.cfg:2281 data/core/terrain.cfg:2282
+#: data/core/terrain.cfg:702 data/core/terrain.cfg:712
+#: data/core/terrain.cfg:732 data/core/terrain.cfg:2294
+#: data/core/terrain.cfg:2295
 msgid "Hills"
 msgstr "Colinas"
 
 #
 #. [terrain_type]: id=hills_regular
-#: data/core/terrain.cfg:702
+#: data/core/terrain.cfg:703
 msgid "Regular Hills"
 msgstr "Colinas Regulares"
 
 #
 #. [terrain_type]: id=hills_dry
-#: data/core/terrain.cfg:712
+#: data/core/terrain.cfg:713
 msgid "Dry Hills"
 msgstr "Colinas Secas"
 
 #
 #. [terrain_type]: id=desert_hills
-#: data/core/terrain.cfg:721
+#: data/core/terrain.cfg:722
 msgid "Dunes"
 msgstr "Dunas"
 
 #
 #. [terrain_type]: id=snow_hills
-#: data/core/terrain.cfg:732
+#: data/core/terrain.cfg:733
 msgid "Snow Hills"
 msgstr "Colinas Geladas"
 
@@ -581,50 +591,51 @@ msgstr "Colinas Geladas"
 #. [terrain_type]: id=mountains
 #. [terrain_type]: id=regular_mountains
 #. [terrain_type]: id=snow_mountains
-#: data/core/terrain.cfg:746 data/core/terrain.cfg:756 data/core/terrain.cfg:766
-#: data/core/terrain.cfg:1001 data/core/terrain.cfg:1011 data/core/terrain.cfg:1022
-#: data/core/terrain.cfg:2338 data/core/terrain.cfg:2339
+#: data/core/terrain.cfg:747 data/core/terrain.cfg:757
+#: data/core/terrain.cfg:767 data/core/terrain.cfg:1002
+#: data/core/terrain.cfg:1012 data/core/terrain.cfg:1023
+#: data/core/terrain.cfg:2351 data/core/terrain.cfg:2352
 msgid "Mountains"
 msgstr "Montanhas"
 
 #. [terrain_type]: id=regular_mountains
-#: data/core/terrain.cfg:747
+#: data/core/terrain.cfg:748
 msgid "Regular Mountains"
 msgstr "Montanhas Regulares"
 
 #
 #. [terrain_type]: id=desert_mountains
-#: data/core/terrain.cfg:757
+#: data/core/terrain.cfg:758
 msgid "Dry Mountains"
 msgstr "Montanhas Secas"
 
 #
 #. [terrain_type]: id=snow_mountains
-#: data/core/terrain.cfg:767
+#: data/core/terrain.cfg:768
 msgid "Snowy Mountains"
 msgstr "Montanhas Geladas"
 
 #
 #. [terrain_type]
-#: data/core/terrain.cfg:779
+#: data/core/terrain.cfg:780
 msgid "Wooden Floor"
 msgstr "Piso de madeira"
 
 #
 #. [terrain_type]
-#: data/core/terrain.cfg:781
+#: data/core/terrain.cfg:782
 msgid "Basic Wooden Floor"
 msgstr "Piso de madeira básicas"
 
 #
 #. [terrain_type]: id=lit
-#: data/core/terrain.cfg:794
+#: data/core/terrain.cfg:795
 msgid "Lit"
 msgstr "Iluminado"
 
 #
 #. [terrain_type]: id=lit
-#: data/core/terrain.cfg:795
+#: data/core/terrain.cfg:796
 msgid "Beam of Light"
 msgstr "Raio de luz"
 
@@ -632,86 +643,89 @@ msgstr "Raio de luz"
 #. [terrain_type]: id=cave
 #. [terrain_type]: id=cave_earthy
 #. [terrain_type]: id=cave_floor
-#: data/core/terrain.cfg:805 data/core/terrain.cfg:815 data/core/terrain.cfg:2238
-#: data/core/terrain.cfg:2239
+#: data/core/terrain.cfg:806 data/core/terrain.cfg:816
+#: data/core/terrain.cfg:2251 data/core/terrain.cfg:2252
 msgid "Cave"
 msgstr "Caverna"
 
 #
 #. [terrain_type]: id=cave_floor
-#: data/core/terrain.cfg:806
+#: data/core/terrain.cfg:807
 msgid "Cave Floor"
 msgstr "Fundo de caverna"
 
 #
 #. [terrain_type]: id=cave_earthy
-#: data/core/terrain.cfg:816
+#: data/core/terrain.cfg:817
 msgid "Earthy Cave Floor"
 msgstr "Piso de Caverna de terra"
 
 #
 #. [terrain_type]: id=flagstones_dark
-#: data/core/terrain.cfg:826
+#: data/core/terrain.cfg:827
 msgid "Dark Flagstones"
 msgstr "Lajes escuras"
 
 #
 #. [terrain_type]: id=cave_path
-#: data/core/terrain.cfg:836
+#: data/core/terrain.cfg:837
 msgid "Cave Path"
 msgstr "Trilha na Caverna"
 
 #
 #. [terrain_type]: id=fungus_beam
 #. [terrain_type]: id=fungus_grove
-#: data/core/terrain.cfg:845 data/core/terrain.cfg:846 data/core/terrain.cfg:856
+#: data/core/terrain.cfg:846 data/core/terrain.cfg:847
+#: data/core/terrain.cfg:857
 msgid "Mushroom Grove"
 msgstr "Caverna de cogumelos"
 
 #
 #. [terrain_type]: id=fungus_beam
-#: data/core/terrain.cfg:857
+#: data/core/terrain.cfg:858
 msgid "Lit Mushroom Grove"
 msgstr "Caverna de cogumelos iluminada"
 
 #
 #. [terrain_type]: id=rocky_cave
-#: data/core/terrain.cfg:868 data/core/terrain.cfg:869
+#: data/core/terrain.cfg:869 data/core/terrain.cfg:870
 msgid "Rockbound Cave"
 msgstr "Cavernas Rochosas"
 
 #. [terrain_type]: id=rocky_cave
-#: data/core/terrain.cfg:874
+#: data/core/terrain.cfg:875
 msgid ""
-"<italic>text='Rockbound cave'</italic> terrain is formed by the action of water "
-"and wind, carrying erosive particles that carve the rock. It resembles a scraggy "
-"underground cavern which reduces efficiency of most units, but shoulders defense. "
-"Dwarves and trolls, who are main settlers of caves, have a relatively easy time "
-"navigating this terrain. Dwarves, who by dint of their small size have the full "
-"advantage of navigation in such topography. Occasionally caves are "
-"<ref>dst='terrain_illuminated_cave' text='illuminated'</ref>\n"
+"<italic>text='Rockbound cave'</italic> terrain is formed by the action of "
+"water and wind, carrying erosive particles that carve the rock. It resembles "
+"a scraggy underground cavern which reduces efficiency of most units, but "
+"shoulders defense. Dwarves and trolls, who are main settlers of caves, have "
+"a relatively easy time navigating this terrain. Dwarves, who by dint of "
+"their small size have the full advantage of navigation in such topography. "
+"Occasionally caves are <ref>dst='terrain_illuminated_cave' "
+"text='illuminated'</ref>\n"
 "\n"
-"Most units have about 50% defense in rocky caves, whereas cavalry are limited to "
-"40%. Dwarves enjoy 60% defense in rockbound caves."
+"Most units have about 50% defense in rocky caves, whereas cavalry are "
+"limited to 40%. Dwarves enjoy 60% defense in rockbound caves."
 msgstr ""
-"A <italic>text='Caverna Rochosa'</italic> é formada pela ação da água e do vento, "
-"transportando partículas erosivas que esculpem a pedra. Assemelha-se a uma "
-"caverna subterrânea descarnada que reduz a eficiência da maioria das unidades, "
-"mas aumenta a defesa . Anões e trogloditas, que são os colonos principais das "
-"cavernas, têm uma vida relativamente fácil neste terreno. Anões, que por força do "
-"seu pequeno tamanho têm a vantagem na navegação em topografia desse tipo. "
-"Ocasionalmente cavernas são <ref>dst='terrain_illuminated_cave' "
-"text='iluminadas'</ref>. \n"
+"A <italic>text='Caverna Rochosa'</italic> é formada pela ação da água e do "
+"vento, transportando partículas erosivas que esculpem a pedra. Assemelha-se "
+"a uma caverna subterrânea descarnada que reduz a eficiência da maioria das "
+"unidades, mas aumenta a defesa . Anões e trogloditas, que são os colonos "
+"principais das cavernas, têm uma vida relativamente fácil neste terreno. "
+"Anões, que por força do seu pequeno tamanho têm a vantagem na navegação em "
+"topografia desse tipo. Ocasionalmente cavernas são "
+"<ref>dst='terrain_illuminated_cave' text='iluminadas'</ref>. \n"
 "\n"
-"A maioria das unidades têm cerca de 50% de defesa em cavernas rochosas, enquanto "
-"a cavalaria está limitado a 40%. Anões desfrutam de uma defesa de 60% em cavernas "
-"rochosas."
+"A maioria das unidades têm cerca de 50% de defesa em cavernas rochosas, "
+"enquanto a cavalaria está limitado a 40%. Anões desfrutam de uma defesa de "
+"60% em cavernas rochosas."
 
 #
 #. [terrain_type]: id=mine_rails
 #. [terrain_type]: id=mine_railsdiag1
 #. [terrain_type]: id=mine_railsdiag2
-#: data/core/terrain.cfg:884 data/core/terrain.cfg:896 data/core/terrain.cfg:909
+#: data/core/terrain.cfg:885 data/core/terrain.cfg:897
+#: data/core/terrain.cfg:910
 msgid "Mine Rail"
 msgstr "mina ferroviária"
 
@@ -720,80 +734,81 @@ msgstr "mina ferroviária"
 #. [terrain_type]: id=canyon
 #. [terrain_type]: id=chasm_earthy
 #. [terrain_type]: id=lava_chasm
-#: data/core/terrain.cfg:927 data/core/terrain.cfg:938 data/core/terrain.cfg:949
-#: data/core/terrain.cfg:960
+#: data/core/terrain.cfg:928 data/core/terrain.cfg:939
+#: data/core/terrain.cfg:950 data/core/terrain.cfg:961
 msgid "Chasm"
 msgstr "Desfiladeiro"
 
 #
 #. [terrain_type]: id=canyon
-#: data/core/terrain.cfg:928
+#: data/core/terrain.cfg:929
 msgid "Regular Chasm"
 msgstr "Desfiladeiro Regular"
 
 #
 #. [terrain_type]: id=chasm_earthy
-#: data/core/terrain.cfg:939
+#: data/core/terrain.cfg:940
 msgid "Earthy Chasm"
 msgstr "Abismo terroso"
 
 #
 #. [terrain_type]: id=abyss
-#: data/core/terrain.cfg:950
+#: data/core/terrain.cfg:951
 msgid "Ethereal Abyss"
 msgstr "Abismo etéreo"
 
 #
 #. [terrain_type]: id=lava_chasm
-#: data/core/terrain.cfg:961
+#: data/core/terrain.cfg:962
 msgid "Lava Chasm"
 msgstr "Desfiladeiro de lava"
 
 #
 #. [terrain_type]: id=lava
-#: data/core/terrain.cfg:972 data/core/terrain.cfg:973
+#: data/core/terrain.cfg:973 data/core/terrain.cfg:974
 msgid "Lava"
 msgstr "Lava"
 
 #. [terrain_type]: id=lava
-#: data/core/terrain.cfg:979
+#: data/core/terrain.cfg:980
 msgid ""
-"The dangers inherent in trying to walk on <italic>text='lava'</italic> are fairly "
-"obvious. As far as movement is concerned, lava is equivalent to "
-"<ref>dst='terrain_unwalkable' text='unwalkable'</ref> terrain, and can only be "
-"crossed by those units capable of flying a considerable distance above it. The "
-"molten magma also produces a substantial glow, illuminating the area immediately "
-"above it. This provides an attack bonus for lawful units and removes the attack "
-"bonus from chaotic units."
+"The dangers inherent in trying to walk on <italic>text='lava'</italic> are "
+"fairly obvious. As far as movement is concerned, lava is equivalent to "
+"<ref>dst='terrain_unwalkable' text='unwalkable'</ref> terrain, and can only "
+"be crossed by those units capable of flying a considerable distance above "
+"it. The molten magma also produces a substantial glow, illuminating the area "
+"immediately above it. This provides an attack bonus for lawful units and "
+"removes the attack bonus from chaotic units."
 msgstr ""
-"O perigo inerente em tentar caminhar na <italic>text='Lava'</italic> são óbvios. "
-"Em jogo, a lava é equivalente ao <ref>dst='terrain_unwalkable' "
+"O perigo inerente em tentar caminhar na <italic>text='Lava'</italic> são "
+"óbvios. Em jogo, a lava é equivalente ao <ref>dst='terrain_unwalkable' "
 "text='desfiladeiro'</ref>. Este terreno só pode ser atravessado por unidades "
-"capazes de voar uma distância considerável sobre ele. O magma derretido também "
-"produz um brilho razoável, iluminando as áreas acima dele. Isto provem um bónus "
-"de ataque para as criaturas diurnas, e remove o bónus das criaturas nocturnas."
+"capazes de voar uma distância considerável sobre ele. O magma derretido "
+"também produz um brilho razoável, iluminando as áreas acima dele. Isto "
+"provem um bónus de ataque para as criaturas diurnas, e remove o bónus das "
+"criaturas nocturnas."
 
 #
 #. [terrain_type]: id=volcano
-#: data/core/terrain.cfg:986
+#: data/core/terrain.cfg:987
 msgid "Volcano"
 msgstr "Vulcão"
 
 #
 #. [terrain_type]: id=cloud
-#: data/core/terrain.cfg:1002
+#: data/core/terrain.cfg:1003
 msgid "Regular Impassable Mountains"
 msgstr "Montanhas Impassíveis regulares"
 
 #
 #. [terrain_type]: id=clouddesert
-#: data/core/terrain.cfg:1012
+#: data/core/terrain.cfg:1013
 msgid "Desert Impassable Mountains"
 msgstr "Montanhas Impassíveis desérticas"
 
 #
 #. [terrain_type]: id=cloud_snow
-#: data/core/terrain.cfg:1023
+#: data/core/terrain.cfg:1024
 msgid "Snowy Impassable Mountains"
 msgstr "Montanhas Impassíveis geladas"
 
@@ -802,57 +817,57 @@ msgstr "Montanhas Impassíveis geladas"
 #. [terrain_type]: id=cavewall_earthy
 #. [terrain_type]: id=cavewall_earthy_hewn
 #. [terrain_type]: id=cavewall_hewn
-#: data/core/terrain.cfg:1033 data/core/terrain.cfg:1044 data/core/terrain.cfg:1055
-#: data/core/terrain.cfg:1066
+#: data/core/terrain.cfg:1034 data/core/terrain.cfg:1045
+#: data/core/terrain.cfg:1056 data/core/terrain.cfg:1067
 msgid "Cave Wall"
 msgstr "Parede de Caverna"
 
 #
 #. [terrain_type]: id=cavewall
-#: data/core/terrain.cfg:1034
+#: data/core/terrain.cfg:1035
 msgid "Natural Cave Wall"
 msgstr "Parede de caverna natural"
 
 #
 #. [terrain_type]: id=cavewall_hewn
-#: data/core/terrain.cfg:1045
+#: data/core/terrain.cfg:1046
 msgid "Hewn Cave Wall"
 msgstr "Parede da caverna talhada"
 
 #
 #. [terrain_type]: id=cavewall_earthy
-#: data/core/terrain.cfg:1056
+#: data/core/terrain.cfg:1057
 msgid "Natural Earthy Cave Wall"
 msgstr "Parede de Caverna Natural"
 
 #
 #. [terrain_type]: id=cavewall_earthy_hewn
-#: data/core/terrain.cfg:1067
+#: data/core/terrain.cfg:1068
 msgid "Reinforced Earthy Cave Wall"
 msgstr "Parede de Caverna terrosa Reforçada"
 
 #
 #. [terrain_type]: id=wall_stone
 #. [terrain_type]: id=wall_stone_lit
-#: data/core/terrain.cfg:1077 data/core/terrain.cfg:1087
+#: data/core/terrain.cfg:1078 data/core/terrain.cfg:1088
 msgid "Stone Wall"
 msgstr "Parede de pedra"
 
 #
 #. [terrain_type]: id=wall_stone_lit
-#: data/core/terrain.cfg:1088
+#: data/core/terrain.cfg:1089
 msgid "Lit Stone Wall"
 msgstr "Parede de pedra clara"
 
 #
 #. [terrain_type]: id=impassable_overlay
-#: data/core/terrain.cfg:1097
+#: data/core/terrain.cfg:1098
 msgid "Impassable Overlay"
 msgstr "Sobreposição intransponível"
 
 #
 #. [terrain_type]: id=unwalkable_overlay
-#: data/core/terrain.cfg:1110
+#: data/core/terrain.cfg:1111
 msgid "Unwalkable Overlay"
 msgstr "Sobreposição impassível"
 
@@ -860,7 +875,8 @@ msgstr "Sobreposição impassível"
 #. [terrain_type]: id=off_map
 #. [terrain_type]: id=off_map2
 #. [terrain_type]: id=void
-#: data/core/terrain.cfg:1122 data/core/terrain.cfg:2178 data/core/terrain.cfg:2189
+#: data/core/terrain.cfg:1123 data/core/terrain.cfg:2191
+#: data/core/terrain.cfg:2202
 msgid "Void"
 msgstr "Vácuo"
 
@@ -895,226 +911,232 @@ msgstr "Vácuo"
 #. [terrain_type]: id=village
 #. [terrain_type]: id=village_overlay
 #. [terrain_type]: id=windmill_village
-#: data/core/terrain.cfg:1138 data/core/terrain.cfg:1151 data/core/terrain.cfg:1164
-#: data/core/terrain.cfg:1179 data/core/terrain.cfg:1192 data/core/terrain.cfg:1207
-#: data/core/terrain.cfg:1220 data/core/terrain.cfg:1235 data/core/terrain.cfg:1248
-#: data/core/terrain.cfg:1261 data/core/terrain.cfg:1274 data/core/terrain.cfg:1287
-#: data/core/terrain.cfg:1300 data/core/terrain.cfg:1313 data/core/terrain.cfg:1326
-#: data/core/terrain.cfg:1339 data/core/terrain.cfg:1352 data/core/terrain.cfg:1365
-#: data/core/terrain.cfg:1378 data/core/terrain.cfg:1393 data/core/terrain.cfg:1406
-#: data/core/terrain.cfg:1419 data/core/terrain.cfg:1432 data/core/terrain.cfg:1445
-#: data/core/terrain.cfg:1458 data/core/terrain.cfg:1471 data/core/terrain.cfg:1486
-#: data/core/terrain.cfg:1499 data/core/terrain.cfg:1517 data/core/terrain.cfg:2403
-#: data/core/terrain.cfg:2404
+#: data/core/terrain.cfg:1139 data/core/terrain.cfg:1152
+#: data/core/terrain.cfg:1165 data/core/terrain.cfg:1180
+#: data/core/terrain.cfg:1193 data/core/terrain.cfg:1208
+#: data/core/terrain.cfg:1221 data/core/terrain.cfg:1236
+#: data/core/terrain.cfg:1249 data/core/terrain.cfg:1262
+#: data/core/terrain.cfg:1275 data/core/terrain.cfg:1288
+#: data/core/terrain.cfg:1301 data/core/terrain.cfg:1314
+#: data/core/terrain.cfg:1327 data/core/terrain.cfg:1340
+#: data/core/terrain.cfg:1353 data/core/terrain.cfg:1366
+#: data/core/terrain.cfg:1379 data/core/terrain.cfg:1394
+#: data/core/terrain.cfg:1407 data/core/terrain.cfg:1420
+#: data/core/terrain.cfg:1433 data/core/terrain.cfg:1446
+#: data/core/terrain.cfg:1459 data/core/terrain.cfg:1472
+#: data/core/terrain.cfg:1487 data/core/terrain.cfg:1500
+#: data/core/terrain.cfg:1518 data/core/terrain.cfg:2416
+#: data/core/terrain.cfg:2417
 msgid "Village"
 msgstr "Aldeias"
 
 #
 #. [terrain_type]: id=desert_village
-#: data/core/terrain.cfg:1139
+#: data/core/terrain.cfg:1140
 msgid "Adobe Village"
 msgstr "Aldeia de Tijolo Cru"
 
 #
 #. [terrain_type]: id=desert_village_tent
-#: data/core/terrain.cfg:1152
+#: data/core/terrain.cfg:1153
 msgid "Desert Tent Village"
 msgstr "Tenda de Deserto"
 
 #
 #. [terrain_type]: id=camp_village
-#: data/core/terrain.cfg:1165
+#: data/core/terrain.cfg:1166
 msgid "Tent Village"
 msgstr "Aldeia de Tendas"
 
 #
 #. [terrain_type]: id=orcish_village
-#: data/core/terrain.cfg:1180
+#: data/core/terrain.cfg:1181
 msgid "Orcish Village"
 msgstr "Aldeia Orc"
 
 #
 #. [terrain_type]: id=orcish_snow_village
-#: data/core/terrain.cfg:1193
+#: data/core/terrain.cfg:1194
 msgid "Snowy Orcish Village"
 msgstr "Aldeia Orc Gelada"
 
 #
 #. [terrain_type]: id=elven_snow_village
-#: data/core/terrain.cfg:1208
+#: data/core/terrain.cfg:1209
 msgid "Snowy Elven Village"
 msgstr "Aldeia elfa Gelada"
 
 #
 #. [terrain_type]: id=elven_village
-#: data/core/terrain.cfg:1221
+#: data/core/terrain.cfg:1222
 msgid "Elven Village"
 msgstr "Aldeia elfa"
 
 #
 #. [terrain_type]: id=human_village
-#: data/core/terrain.cfg:1236
+#: data/core/terrain.cfg:1237
 msgid "Cottage"
 msgstr "Mansão"
 
 #
 #. [terrain_type]: id=snow_village
-#: data/core/terrain.cfg:1249
+#: data/core/terrain.cfg:1250
 msgid "Snowy Cottage"
 msgstr "Mansão na neve"
 
 #
 #. [terrain_type]: id=human_village_ruin
-#: data/core/terrain.cfg:1262
+#: data/core/terrain.cfg:1263
 msgid "Ruined Cottage"
 msgstr "Mansão arruinada"
 
 #
 #. [terrain_type]: id=city_village
-#: data/core/terrain.cfg:1275
+#: data/core/terrain.cfg:1276
 msgid "Human City"
 msgstr "Cidade Humana"
 
 #
 #. [terrain_type]: id=windmill_village
-#: data/core/terrain.cfg:1288
+#: data/core/terrain.cfg:1289
 msgid "Windmill Village"
 msgstr "Moinho de Vento"
 
 #
 #. [terrain_type]: id=city_village_wno
-#: data/core/terrain.cfg:1301
+#: data/core/terrain.cfg:1302
 msgid "Snowy Human City"
 msgstr "Cidade humana gelada"
 
 #
 #. [terrain_type]: id=city_village_ruin
-#: data/core/terrain.cfg:1314
+#: data/core/terrain.cfg:1315
 msgid "Ruined Human City"
 msgstr "Cidade humana arruinada"
 
 #
 #. [terrain_type]: id=hill_village
-#: data/core/terrain.cfg:1327
+#: data/core/terrain.cfg:1328
 msgid "Hill Stone Village"
 msgstr "Casa de pedra em colina"
 
 #
 #. [terrain_type]: id=snow-hill_village
-#: data/core/terrain.cfg:1340
+#: data/core/terrain.cfg:1341
 msgid "Snowy Hill Stone Village"
 msgstr "Casa de pedra de colina gelada"
 
 #
 #. [terrain_type]: id=hill_village_ruin
-#: data/core/terrain.cfg:1353
+#: data/core/terrain.cfg:1354
 msgid "Ruined Hill Stone Village"
 msgstr "Casa de pedra em colina arruinada"
 
 #
 #. [terrain_type]: id=tropical_forest_village
-#: data/core/terrain.cfg:1366
+#: data/core/terrain.cfg:1367
 msgid "Tropical Village"
 msgstr "Aldeia Tropical"
 
 #
 #. [terrain_type]: id=drake_village
-#: data/core/terrain.cfg:1379
+#: data/core/terrain.cfg:1380
 msgid "Drake Village"
 msgstr "Aldeia Drago"
 
 #
 #. [terrain_type]: id=underground_village
-#: data/core/terrain.cfg:1394
+#: data/core/terrain.cfg:1395
 msgid "Cave Village"
 msgstr "Aldeia na caverna"
 
 #
 #. [terrain_type]: id=dwarven_village
-#: data/core/terrain.cfg:1407
+#: data/core/terrain.cfg:1408
 msgid "Dwarven Village"
 msgstr "Aldeia dos anões"
 
 #
 #. [terrain_type]: id=hut_village
-#: data/core/terrain.cfg:1420
+#: data/core/terrain.cfg:1421
 msgid "Hut"
 msgstr "Cabana"
 
 #
 #. [terrain_type]: id=hut_snow_village
-#: data/core/terrain.cfg:1433
+#: data/core/terrain.cfg:1434
 msgid "Snowy Hut"
 msgstr "Cabana em neve"
 
 #
 #. [terrain_type]: id=logcabin_village
-#: data/core/terrain.cfg:1446
+#: data/core/terrain.cfg:1447
 msgid "Log Cabin"
 msgstr "Cabana de caçador"
 
 #
 #. [terrain_type]: id=logcabin_snow_village
-#: data/core/terrain.cfg:1459
+#: data/core/terrain.cfg:1460
 msgid "Snowy Log Cabin"
 msgstr "Cabana de caçador na neve"
 
 #
 #. [terrain_type]: id=igloo
-#: data/core/terrain.cfg:1472
+#: data/core/terrain.cfg:1473
 msgid "Igloo"
 msgstr "Iglu"
 
 #
 #. [terrain_type]: id=swamp_village
-#: data/core/terrain.cfg:1487
+#: data/core/terrain.cfg:1488
 msgid "Swamp Village"
 msgstr "Aldeia pantanosa"
 
 #
 #. [terrain_type]: id=mermen-village
-#: data/core/terrain.cfg:1500
+#: data/core/terrain.cfg:1501
 msgid "Merfolk Village"
 msgstr "Aldeia aquática"
 
 #. [terrain_type]: id=mermen-village
-#: data/core/terrain.cfg:1501
+#: data/core/terrain.cfg:1502
 msgid ""
-"<italic>text='Submerged villages'</italic> are the homes of merfolk and nagas. "
-"While water-dwelling creatures are at home here, land-dwellers have a hard time "
-"navigating and defending these villages. However, like any village, the "
-"facilities are available to all creatures which allow units to tend to their "
-"wounds. Any unit stationed in a village can heal eight hitpoints each turn, or be "
-"cured of poison.\n"
+"<italic>text='Submerged villages'</italic> are the homes of merfolk and "
+"nagas. While water-dwelling creatures are at home here, land-dwellers have a "
+"hard time navigating and defending these villages. However, like any "
+"village, the facilities are available to all creatures which allow units to "
+"tend to their wounds. Any unit stationed in a village can heal eight "
+"hitpoints each turn, or be cured of poison.\n"
 "\n"
 "Merfolk and nagas have 60% defense in submerged villages, whereas land based "
 "units usually have a low defense."
 msgstr ""
-"<italic>text='Aldeias Submersas'</italic> são os lares dos aquáticos e das nagas. "
-"Embora unidades aquáticas se sintam em casa aqui, unidades terrestres têm "
-"dificuldade em se mover e proteger nestas aldeias. Porém, como em qualquer "
-"aldeia, há lugares disponíveis para que qualquer criatura cuide das suas feridas. "
-"Qualquer unidade parada numa aldeia pode curar oito pontos de vida (PV) ou se "
-"livrar do envenenamento.\n"
+"<italic>text='Aldeias Submersas'</italic> são os lares dos aquáticos e das "
+"nagas. Embora unidades aquáticas se sintam em casa aqui, unidades terrestres "
+"têm dificuldade em se mover e proteger nestas aldeias. Porém, como em "
+"qualquer aldeia, há lugares disponíveis para que qualquer criatura cuide das "
+"suas feridas. Qualquer unidade parada numa aldeia pode curar oito pontos de "
+"vida (PV) ou se livrar do envenenamento.\n"
 "Aquáticos e Nagas têm 60% de defesa em aldeias submersas, enquanto unidades "
 "terrestres geralmente têm uma baixa defesa."
 
 #
 #. [terrain_type]: id=village_overlay
-#: data/core/terrain.cfg:1518
+#: data/core/terrain.cfg:1519
 msgid "Village Overlay"
 msgstr "Sobreposição de Aldeia"
 
 #
 #. [terrain_type]: id=encampment
 #. [terrain_type]: id=encampment_snow
-#: data/core/terrain.cfg:1534 data/core/terrain.cfg:1535 data/core/terrain.cfg:1546
+#: data/core/terrain.cfg:1535 data/core/terrain.cfg:1536
+#: data/core/terrain.cfg:1547
 msgid "Encampment"
 msgstr "Acampamento"
 
 #
 #. [terrain_type]: id=encampment_snow
-#: data/core/terrain.cfg:1547
+#: data/core/terrain.cfg:1548
 msgid "Snowy Encampment"
 msgstr "Acampamento gelado"
 
@@ -1128,46 +1150,47 @@ msgstr "Acampamento gelado"
 #. [terrain_type]: id=sand_castle
 #. [terrain_type]: id=snow_castle
 #. [terrain_type]: id=snow_orcish_fort
-#: data/core/terrain.cfg:1558 data/core/terrain.cfg:1570 data/core/terrain.cfg:1582
-#: data/core/terrain.cfg:1594 data/core/terrain.cfg:1605 data/core/terrain.cfg:1617
-#: data/core/terrain.cfg:1667 data/core/terrain.cfg:1877 data/core/terrain.cfg:2322
-#: data/core/terrain.cfg:2323
+#: data/core/terrain.cfg:1559 data/core/terrain.cfg:1571
+#: data/core/terrain.cfg:1583 data/core/terrain.cfg:1595
+#: data/core/terrain.cfg:1606 data/core/terrain.cfg:1618
+#: data/core/terrain.cfg:1668 data/core/terrain.cfg:1878
+#: data/core/terrain.cfg:2335 data/core/terrain.cfg:2336
 msgid "Castle"
 msgstr "Castelo"
 
 #
 #. [terrain_type]: id=orcish_fort
-#: data/core/terrain.cfg:1559
+#: data/core/terrain.cfg:1560
 msgid "Orcish Castle"
 msgstr "Castelo Orc"
 
 #
 #. [terrain_type]: id=snow_orcish_fort
-#: data/core/terrain.cfg:1571
+#: data/core/terrain.cfg:1572
 msgid "Snowy Orcish Castle"
 msgstr "Castelo orc gelado"
 
 #
 #. [terrain_type]: id=human_castle
-#: data/core/terrain.cfg:1583
+#: data/core/terrain.cfg:1584
 msgid "Human Castle"
 msgstr "Castelo humano"
 
 #
 #. [terrain_type]: id=snow_castle
-#: data/core/terrain.cfg:1595
+#: data/core/terrain.cfg:1596
 msgid "Snowy Human Castle"
 msgstr "Castelo humano gelado"
 
 #
 #. [terrain_type]: id=elven_castle
-#: data/core/terrain.cfg:1606
+#: data/core/terrain.cfg:1607
 msgid "Elven Castle"
 msgstr "Torre de castelo elfo"
 
 #
 #. [terrain_type]: id=dwarven_castle
-#: data/core/terrain.cfg:1618
+#: data/core/terrain.cfg:1619
 msgid "Dwarven Castle"
 msgstr "Castelo Anão"
 
@@ -1176,38 +1199,38 @@ msgstr "Castelo Anão"
 #. [terrain_type]: id=sand_castle_ruin
 #. [terrain_type]: id=sunkenruin
 #. [terrain_type]: id=swampruin
-#: data/core/terrain.cfg:1629 data/core/terrain.cfg:1641 data/core/terrain.cfg:1654
-#: data/core/terrain.cfg:1679
+#: data/core/terrain.cfg:1630 data/core/terrain.cfg:1642
+#: data/core/terrain.cfg:1655 data/core/terrain.cfg:1680
 msgid "Ruined Castle"
 msgstr "Castelo em Ruínas"
 
 #
 #. [terrain_type]: id=ruin
-#: data/core/terrain.cfg:1630
+#: data/core/terrain.cfg:1631
 msgid "Ruined Human Castle"
 msgstr "Castelo humano arruinado"
 
 #
 #. [terrain_type]: id=sunkenruin
-#: data/core/terrain.cfg:1642
+#: data/core/terrain.cfg:1643
 msgid "Sunken Human Ruin"
 msgstr "Ruína humana inundada"
 
 #
 #. [terrain_type]: id=swampruin
-#: data/core/terrain.cfg:1655
+#: data/core/terrain.cfg:1656
 msgid "Swamp Human Ruin"
 msgstr "Ruína humana Pantanosa"
 
 #
 #. [terrain_type]: id=sand_castle
-#: data/core/terrain.cfg:1668
+#: data/core/terrain.cfg:1669
 msgid "Desert Castle"
 msgstr "Castelo do Deserto"
 
 #
 #. [terrain_type]: id=sand_castle_ruin
-#: data/core/terrain.cfg:1680
+#: data/core/terrain.cfg:1681
 msgid "Ruined Desert Castle"
 msgstr "Castelo do Deserto em ruínas"
 
@@ -1215,19 +1238,20 @@ msgstr "Castelo do Deserto em ruínas"
 #. [terrain_type]: id=encampment_keep
 #. [terrain_type]: id=encampment_keep_tall
 #. [terrain_type]: id=encampment_snow_keep
-#: data/core/terrain.cfg:1695 data/core/terrain.cfg:1707 data/core/terrain.cfg:1720
+#: data/core/terrain.cfg:1696 data/core/terrain.cfg:1708
+#: data/core/terrain.cfg:1721
 msgid "Encampment Keep"
 msgstr "Torre de acampamento"
 
 #
 #. [terrain_type]: id=encampment_keep_tall
-#: data/core/terrain.cfg:1708
+#: data/core/terrain.cfg:1709
 msgid "Tall Encampment Keep"
 msgstr "Torre de acampamento alto"
 
 #
 #. [terrain_type]: id=encampment_snow_keep
-#: data/core/terrain.cfg:1721
+#: data/core/terrain.cfg:1722
 msgid "Snowy Encampment Keep"
 msgstr "Torre de acampamento gelado"
 
@@ -1240,45 +1264,46 @@ msgstr "Torre de acampamento gelado"
 #. [terrain_type]: id=orcish_keep
 #. [terrain_type]: id=snow_keep
 #. [terrain_type]: id=snow_orcish_keep
-#: data/core/terrain.cfg:1733 data/core/terrain.cfg:1746 data/core/terrain.cfg:1759
-#: data/core/terrain.cfg:1772 data/core/terrain.cfg:1785 data/core/terrain.cfg:1798
-#: data/core/terrain.cfg:1850 data/core/terrain.cfg:1890
+#: data/core/terrain.cfg:1734 data/core/terrain.cfg:1747
+#: data/core/terrain.cfg:1760 data/core/terrain.cfg:1773
+#: data/core/terrain.cfg:1786 data/core/terrain.cfg:1799
+#: data/core/terrain.cfg:1851 data/core/terrain.cfg:1891
 msgid "Keep"
 msgstr "Torre"
 
 #
 #. [terrain_type]: id=orcish_keep
-#: data/core/terrain.cfg:1734
+#: data/core/terrain.cfg:1735
 msgid "Orcish Keep"
 msgstr "Torre de castelo orc"
 
 #
 #. [terrain_type]: id=snow_orcish_keep
-#: data/core/terrain.cfg:1747
+#: data/core/terrain.cfg:1748
 msgid "Snowy Orcish Keep"
 msgstr "Torre de castelo orc gelado"
 
 #
 #. [terrain_type]: id=human_keep
-#: data/core/terrain.cfg:1760
+#: data/core/terrain.cfg:1761
 msgid "Human Castle Keep"
 msgstr "Torre de castelo humano"
 
 #
 #. [terrain_type]: id=snow_keep
-#: data/core/terrain.cfg:1773
+#: data/core/terrain.cfg:1774
 msgid "Snowy Human Castle Keep"
 msgstr "Torre de castelo humano gelado"
 
 #
 #. [terrain_type]: id=elven_keep
-#: data/core/terrain.cfg:1786
+#: data/core/terrain.cfg:1787
 msgid "Elven Castle Keep"
 msgstr "Torre de castelo elfo"
 
 #
 #. [terrain_type]: id=dwarven_keep
-#: data/core/terrain.cfg:1799
+#: data/core/terrain.cfg:1800
 msgid "Dwarven Castle Keep"
 msgstr "Torre do castelo dos anões"
 
@@ -1287,50 +1312,50 @@ msgstr "Torre do castelo dos anões"
 #. [terrain_type]: id=ruined_keep
 #. [terrain_type]: id=sunken_keep
 #. [terrain_type]: id=swamp_keep
-#: data/core/terrain.cfg:1811 data/core/terrain.cfg:1824 data/core/terrain.cfg:1837
-#: data/core/terrain.cfg:1863
+#: data/core/terrain.cfg:1812 data/core/terrain.cfg:1825
+#: data/core/terrain.cfg:1838 data/core/terrain.cfg:1864
 msgid "Ruined Keep"
 msgstr "Torre em ruínas"
 
 #
 #. [terrain_type]: id=ruined_keep
-#: data/core/terrain.cfg:1812
+#: data/core/terrain.cfg:1813
 msgid "Ruined Human Castle Keep"
 msgstr "Torre de castelo humano em ruínas"
 
 #
 #. [terrain_type]: id=sunken_keep
-#: data/core/terrain.cfg:1825
+#: data/core/terrain.cfg:1826
 msgid "Sunken Human Castle Keep"
 msgstr "Torre de castelo humano inundada"
 
 #
 #. [terrain_type]: id=swamp_keep
-#: data/core/terrain.cfg:1838
+#: data/core/terrain.cfg:1839
 msgid "Swamp Human Castle Keep"
 msgstr "Castelo humano no pântano"
 
 #
 #. [terrain_type]: id=desert_keep
-#: data/core/terrain.cfg:1851
+#: data/core/terrain.cfg:1852
 msgid "Desert Keep"
 msgstr "Torre de Deserto"
 
 #
 #. [terrain_type]: id=desert_keep_ruined
-#: data/core/terrain.cfg:1864
+#: data/core/terrain.cfg:1865
 msgid "Ruined Desert Keep"
 msgstr "Torre de Deserto em ruínas"
 
 #
 #. [terrain_type]: id=castle_overlay
-#: data/core/terrain.cfg:1878
+#: data/core/terrain.cfg:1879
 msgid "Castle Overlay"
 msgstr "Sobreposição de Castelo"
 
 #
 #. [terrain_type]: id=keep_overlay
-#: data/core/terrain.cfg:1891
+#: data/core/terrain.cfg:1892
 msgid "Keep Overlay"
 msgstr "Sobreposição de Torre"
 
@@ -1341,16 +1366,32 @@ msgstr "Sobreposição de Torre"
 #. [terrain_type]: id=bridgechasmdiag2
 #. [terrain_type]: id=bridgediag1
 #. [terrain_type]: id=bridgediag2
+#. [terrain_type]: id=hangingbridge
+#. [terrain_type]: id=hangingbridgediag1
+#. [terrain_type]: id=hangingbridgediag2
+#. [terrain_type]: id=plankbridge
+#. [terrain_type]: id=plankbridgediag1
+#. [terrain_type]: id=plankbridgediag2
 #. [terrain_type]: id=rotbridge
 #. [terrain_type]: id=rotbridgediag1
 #. [terrain_type]: id=rotbridgediag2
 #. [terrain_type]: id=stone_bridge
 #. [terrain_type]: id=stone_bridgediag1
 #. [terrain_type]: id=stone_bridgediag2
-#: data/core/terrain.cfg:1909 data/core/terrain.cfg:1924 data/core/terrain.cfg:1937
-#: data/core/terrain.cfg:1950 data/core/terrain.cfg:1962 data/core/terrain.cfg:1975
-#: data/core/terrain.cfg:1990 data/core/terrain.cfg:2002 data/core/terrain.cfg:2015
-#: data/core/terrain.cfg:2030 data/core/terrain.cfg:2041 data/core/terrain.cfg:2054
+#. [terrain_type]: id=stonechasmbridge
+#. [terrain_type]: id=stonechasmbridgediag1
+#. [terrain_type]: id=stonechasmbridgediag2
+#: data/core/terrain.cfg:1910 data/core/terrain.cfg:1925
+#: data/core/terrain.cfg:1938 data/core/terrain.cfg:1951
+#: data/core/terrain.cfg:1963 data/core/terrain.cfg:1976
+#: data/core/terrain.cfg:1991 data/core/terrain.cfg:2003
+#: data/core/terrain.cfg:2016 data/core/terrain.cfg:2031
+#: data/core/terrain.cfg:2042 data/core/terrain.cfg:2055
+#: data/core/terrain.cfg:2071 data/core/terrain.cfg:2084
+#: data/core/terrain.cfg:2097 data/core/terrain.cfg:2110
+#: data/core/terrain.cfg:2123 data/core/terrain.cfg:2136
+#: data/core/terrain.cfg:2149 data/core/terrain.cfg:2162
+#: data/core/terrain.cfg:2175
 msgid "Bridge"
 msgstr "Ponte"
 
@@ -1358,42 +1399,44 @@ msgstr "Ponte"
 #. [terrain_type]: id=bridge
 #. [terrain_type]: id=bridgediag1
 #. [terrain_type]: id=bridgediag2
-#: data/core/terrain.cfg:1910 data/core/terrain.cfg:1925 data/core/terrain.cfg:1938
+#: data/core/terrain.cfg:1911 data/core/terrain.cfg:1926
+#: data/core/terrain.cfg:1939
 msgid "Wooden Bridge"
 msgstr "Ponte de Madeira"
 
 #. [terrain_type]: id=bridge
-#: data/core/terrain.cfg:1916
+#: data/core/terrain.cfg:1917
 msgid ""
-"To those capable of building one, the ability to lay a <italic>text='bridge'</"
-"italic> offers a liberation from the fickle nature of waterways, whose fords come "
-"and go with the rise and fall of the waterline. This is to say nothing of the "
-"luxury of dry feet, the loss of which is no laughing matter in the cold months of "
-"the year.\n"
+"To those capable of building one, the ability to lay a "
+"<italic>text='bridge'</italic> offers a liberation from the fickle nature of "
+"waterways, whose fords come and go with the rise and fall of the waterline. "
+"This is to say nothing of the luxury of dry feet, the loss of which is no "
+"laughing matter in the cold months of the year.\n"
 "\n"
 "For those who go by land or sea, a bridge is the best of both worlds — for "
-"gameplay purposes, it is treated either as grassland or the underlying water, "
-"whichever offers the best movement and defensive bonuses for the unit occupying "
-"the bridge hex. Note that a swimming unit and a land unit are not capable of "
-"occupying a bridge hex at the same time."
+"gameplay purposes, it is treated either as grassland or the underlying "
+"water, whichever offers the best movement and defensive bonuses for the unit "
+"occupying the bridge hex. Note that a swimming unit and a land unit are not "
+"capable of occupying a bridge hex at the same time."
 msgstr ""
 "Para aqueles capazes de construir uma, a capacidade de estabelecer uma "
-"<italic>text='ponte'</italic> oferece uma libertação da natureza instável dos "
-"cursos de água, cujo vaus vão e vêm com a ascensão e queda da linha de água. E "
-"para não falar do luxo de pés secos, o que não é brincadeira nos meses frios do "
-"ano.\n"
+"<italic>text='ponte'</italic> oferece uma libertação da natureza instável "
+"dos cursos de água, cujo vaus vão e vêm com a ascensão e queda da linha de "
+"água. E para não falar do luxo de pés secos, o que não é brincadeira nos "
+"meses frios do ano.\n"
 "\n"
-"Para aqueles que vão por terra ou por mar, uma ponte é o melhor dos dois mundos — "
-"para fins de jogabilidade, ela é tratada tanto como planície ou da água "
-"subjacente, o que oferece o melhor movimento e bónus de defesa para a unidade que "
-"ocupa o hexágono . Note-se que uma unidade nadadora e uma unidade terrestre não "
-"são capazes de ocupar uma ponte ao mesmo tempo."
+"Para aqueles que vão por terra ou por mar, uma ponte é o melhor dos dois "
+"mundos — para fins de jogabilidade, ela é tratada tanto como planície ou da "
+"água subjacente, o que oferece o melhor movimento e bónus de defesa para a "
+"unidade que ocupa o hexágono . Note-se que uma unidade nadadora e uma "
+"unidade terrestre não são capazes de ocupar uma ponte ao mesmo tempo."
 
 #
 #. [terrain_type]: id=rotbridge
 #. [terrain_type]: id=rotbridgediag1
 #. [terrain_type]: id=rotbridgediag2
-#: data/core/terrain.cfg:1951 data/core/terrain.cfg:1963 data/core/terrain.cfg:1976
+#: data/core/terrain.cfg:1952 data/core/terrain.cfg:1964
+#: data/core/terrain.cfg:1977
 msgid "Rotting Bridge"
 msgstr "Ponte Apodrecida"
 
@@ -1401,7 +1444,8 @@ msgstr "Ponte Apodrecida"
 #. [terrain_type]: id=stone_bridge
 #. [terrain_type]: id=stone_bridgediag1
 #. [terrain_type]: id=stone_bridgediag2
-#: data/core/terrain.cfg:1991 data/core/terrain.cfg:2003 data/core/terrain.cfg:2016
+#: data/core/terrain.cfg:1992 data/core/terrain.cfg:2004
+#: data/core/terrain.cfg:2017
 msgid "Basic Stone Bridge"
 msgstr "Ponte em pedra básica"
 
@@ -1409,7 +1453,8 @@ msgstr "Ponte em pedra básica"
 #. [terrain_type]: id=bridgechasm
 #. [terrain_type]: id=bridgechasmdiag1
 #. [terrain_type]: id=bridgechasmdiag2
-#: data/core/terrain.cfg:2031 data/core/terrain.cfg:2042 data/core/terrain.cfg:2055
+#: data/core/terrain.cfg:2032 data/core/terrain.cfg:2043
+#: data/core/terrain.cfg:2056
 msgid "Cave Chasm Bridge"
 msgstr "Ponte sobre desfiladeiro de caverna"
 
@@ -1417,7 +1462,8 @@ msgstr "Ponte sobre desfiladeiro de caverna"
 #. [terrain_type]: id=hangingbridge
 #. [terrain_type]: id=hangingbridgediag1
 #. [terrain_type]: id=hangingbridgediag2
-#: data/core/terrain.cfg:2070 data/core/terrain.cfg:2082 data/core/terrain.cfg:2094
+#: data/core/terrain.cfg:2072 data/core/terrain.cfg:2085
+#: data/core/terrain.cfg:2098
 msgid "Hanging Bridge"
 msgstr "Ponte Suspensa"
 
@@ -1425,7 +1471,8 @@ msgstr "Ponte Suspensa"
 #. [terrain_type]: id=stonechasmbridge
 #. [terrain_type]: id=stonechasmbridgediag1
 #. [terrain_type]: id=stonechasmbridgediag2
-#: data/core/terrain.cfg:2107 data/core/terrain.cfg:2118 data/core/terrain.cfg:2129
+#: data/core/terrain.cfg:2111 data/core/terrain.cfg:2124
+#: data/core/terrain.cfg:2137
 msgid "Stone Chasm Bridge"
 msgstr "Ponte rochosa sobre desfiladeiro"
 
@@ -1433,413 +1480,425 @@ msgstr "Ponte rochosa sobre desfiladeiro"
 #. [terrain_type]: id=plankbridge
 #. [terrain_type]: id=plankbridgediag1
 #. [terrain_type]: id=plankbridgediag2
-#: data/core/terrain.cfg:2141 data/core/terrain.cfg:2152 data/core/terrain.cfg:2163
+#: data/core/terrain.cfg:2150 data/core/terrain.cfg:2163
+#: data/core/terrain.cfg:2176
 msgid "Plank Bridge"
 msgstr "Ponte de prancha"
 
 #
 #. [terrain_type]: id=off_map
-#: data/core/terrain.cfg:2179
+#: data/core/terrain.cfg:2192
 msgid "Off Map"
 msgstr "Fora do Mapa"
 
 #
 #. [terrain_type]: id=off_map2
-#: data/core/terrain.cfg:2190
+#: data/core/terrain.cfg:2203
 msgid "Experimental Fake Map Edge"
 msgstr "Fronteira de Mapa Falsa e Experimental"
 
 #
 #. [terrain_type]: id=shroud
 #. [toggle_button]: id=shroud
-#: data/core/terrain.cfg:2200 data/gui/default/window/editor_edit_side.cfg:176
+#: data/core/terrain.cfg:2213 data/gui/default/window/editor_edit_side.cfg:176
 #: data/gui/default/window/mp_create_game.cfg:479
 msgid "Shroud"
 msgstr "Sombra"
 
 #
 #. [terrain_type]: id=fog
-#: data/core/terrain.cfg:2210
+#: data/core/terrain.cfg:2223
 msgid "Fog"
 msgstr "Nevoeiro"
 
 #. [terrain_type]: id=fungus
-#: data/core/terrain.cfg:2225 data/core/terrain.cfg:2226
+#: data/core/terrain.cfg:2238 data/core/terrain.cfg:2239
 msgid "Fungus"
 msgstr "Floresta de Cogumelos"
 
 #. [terrain_type]: id=fungus
-#: data/core/terrain.cfg:2229
+#: data/core/terrain.cfg:2242
 msgid ""
-"<italic>text='Mushroom groves'</italic> are vast underground forests of giant "
-"mushrooms,\n"
-"which thrive in the damp darkness. Most units have trouble negotiating the spongy "
-"floor of smaller fungi, but they have plenty of cover behind the larger stalks. "
-"Mounted units, however, become completely mired and lack proper freedom of "
-"movement in combat. Undead units have a natural affinity for decay and function "
-"quite well in mushroom forests.\n"
+"<italic>text='Mushroom groves'</italic> are vast underground forests of "
+"giant mushrooms,\n"
+"which thrive in the damp darkness. Most units have trouble negotiating the "
+"spongy floor of smaller fungi, but they have plenty of cover behind the "
+"larger stalks. Mounted units, however, become completely mired and lack "
+"proper freedom of movement in combat. Undead units have a natural affinity "
+"for decay and function quite well in mushroom forests.\n"
 "\n"
-"Most units receive 50% to 60% defense in mushroom groves, whereas cavalry receive "
-"only 20%."
+"Most units receive 50% to 60% defense in mushroom groves, whereas cavalry "
+"receive only 20%."
 msgstr ""
-"<italic>text='Colónias de Cogumelos'</italic> são vastas florestas de cogumelos "
-"gigantes subterrâneos, que prosperam na escuridão húmida. A maioria das unidades "
-"têm dificuldade em navegar pelo chão esponjoso de fungos menores, mas têm muita "
-"cobertura atrás das hastes maiores. Unidades montadas, no entanto, ficam "
-"completamente atoladas pela falta de liberdade própria de movimento em combate. "
-"Unidades de mortos-vivos têm uma afinidade natural para a deterioração e "
-"funcionam bastante bem em florestas de cogumelos.\n"
+"<italic>text='Colónias de Cogumelos'</italic> são vastas florestas de "
+"cogumelos gigantes subterrâneos, que prosperam na escuridão húmida. A "
+"maioria das unidades têm dificuldade em navegar pelo chão esponjoso de "
+"fungos menores, mas têm muita cobertura atrás das hastes maiores. Unidades "
+"montadas, no entanto, ficam completamente atoladas pela falta de liberdade "
+"própria de movimento em combate. Unidades de mortos-vivos têm uma afinidade "
+"natural para a deterioração e funcionam bastante bem em florestas de "
+"cogumelos.\n"
 "\n"
-"A maioria das unidades recebem 50% a 60% de defesa em florestas de cogumelos, "
-"enquanto a cavalaria recebe apenas 20%."
+"A maioria das unidades recebem 50% a 60% de defesa em florestas de "
+"cogumelos, enquanto a cavalaria recebe apenas 20%."
 
 #. [terrain_type]: id=cave
-#: data/core/terrain.cfg:2241
+#: data/core/terrain.cfg:2254
 msgid ""
 "<italic>text='Cave'</italic> terrain represents any underground cavern with "
 "enough room for a unit to pass.\n"
-"Most units are wholly unfamiliar with the terrain, and thus are both slowed down "
-"and hindered in defense. Dwarves and trolls, who make their homes in caves, both "
-"have a relatively easy time navigating this terrain, especially dwarves, who by "
-"dint of their small size can navigate many obstacles that other races cannot. "
-"Occasionally caves are <ref>dst='terrain_illuminated_cave' text='illuminated'</"
-"ref>.\n"
+"Most units are wholly unfamiliar with the terrain, and thus are both slowed "
+"down and hindered in defense. Dwarves and trolls, who make their homes in "
+"caves, both have a relatively easy time navigating this terrain, especially "
+"dwarves, who by dint of their small size can navigate many obstacles that "
+"other races cannot. Occasionally caves are "
+"<ref>dst='terrain_illuminated_cave' text='illuminated'</ref>.\n"
 "\n"
-"Rare patches of the underground world are illuminated by light from the surface "
-"shining down into the gloomy darkness. This provides an attack bonus for lawful "
-"units and removes the attack bonus from chaotic units. In all other regards this "
-"terrain is functionally identical to normal <ref>dst='terrain_cave' text='cave "
-"terrains'</ref>.\n"
+"Rare patches of the underground world are illuminated by light from the "
+"surface shining down into the gloomy darkness. This provides an attack bonus "
+"for lawful units and removes the attack bonus from chaotic units. In all "
+"other regards this terrain is functionally identical to normal "
+"<ref>dst='terrain_cave' text='cave terrains'</ref>.\n"
 "\n"
 "Most units receive 20 to 40% defense in caves, whereas dwarves have 50%."
 msgstr ""
 "<italic>text='Cavernas'</italic> representam qualquer espaço subterrâneo "
 "suficientemente largo para uma unidade passar.\n"
 "A maioria das unidades não se sente â vontade neste terreno, e portanto é "
-"atrasado e sofre uma penalização na defesa. Anões e trogloditas no entanto, que "
-"têm os seus lares aqui, não têm grandes problemas por passar por aqui, "
-"especialente os anões que por ventura do seu porte menor podem evitar a maioria "
-"dos obstáculos. As vezes as cavernas até são <ref>dst='terrain_illuminated_cave' "
-"text='iluminadas'</ref>.\n"
+"atrasado e sofre uma penalização na defesa. Anões e trogloditas no entanto, "
+"que têm os seus lares aqui, não têm grandes problemas por passar por aqui, "
+"especialente os anões que por ventura do seu porte menor podem evitar a "
+"maioria dos obstáculos. As vezes as cavernas até são "
+"<ref>dst='terrain_illuminated_cave' text='iluminadas'</ref>.\n"
 "\n"
 "Locais raros no subsolo são atingidas pelo luz do dia iluminando as trevas "
-"perpetuas e provendo um bónus ligeiro às unidades diurnas, removendo por outro "
-"lado este das unidades nocturnas. De resto este terreno funciona da mesma maneira "
-"que o <ref>dst='terrain_cave' text='terreno base'</ref>.\n"
+"perpetuas e provendo um bónus ligeiro às unidades diurnas, removendo por "
+"outro lado este das unidades nocturnas. De resto este terreno funciona da "
+"mesma maneira que o <ref>dst='terrain_cave' text='terreno base'</ref>.\n"
 "\n"
-"A maioria das unidades terá uma defesa entre 20% e 40% por aqui, tendo os anões "
-"50%."
+"A maioria das unidades terá uma defesa entre 20% e 40% por aqui, tendo os "
+"anões 50%."
 
 #. [terrain_type]: id=sand
-#: data/core/terrain.cfg:2254
+#: data/core/terrain.cfg:2267
 msgid "Sands"
 msgstr "Areia"
 
 #. [terrain_type]: id=reef
-#: data/core/terrain.cfg:2271
+#: data/core/terrain.cfg:2284
 msgid ""
-"<italic>text='Coastal reefs'</italic> are shallows formed by stone, coral and "
-"sand.\n"
-"This provides most land units with a more steady footing and defensive positions "
-"than wading in shallow water normally would and also grants most water-dwelling "
-"races an exceptionally high defense.\n"
+"<italic>text='Coastal reefs'</italic> are shallows formed by stone, coral "
+"and sand.\n"
+"This provides most land units with a more steady footing and defensive "
+"positions than wading in shallow water normally would and also grants most "
+"water-dwelling races an exceptionally high defense.\n"
 "\n"
 "Mermen and Naga both receive 70% defense on coastal reefs."
 msgstr ""
 "Os <italic>text='Recifes Costeiros'</italic> são espaços formados por pedra, "
-"coral e areia. Proveem para a maior parte das unidades um apoio mais firme e uma "
-"melhor defesa do que vaguear em águas rasas e também concede uma defesa "
+"coral e areia. Proveem para a maior parte das unidades um apoio mais firme e "
+"uma melhor defesa do que vaguear em águas rasas e também concede uma defesa "
 "excepcionalmente alta para raças aquáticas.\n"
 "\n"
 "Aquáticos e Nagas ganham 70% de defesa nos recifes costeiros."
 
 #. [terrain_type]: id=hills
-#: data/core/terrain.cfg:2285
+#: data/core/terrain.cfg:2298
 msgid ""
 "<italic>text='Hills'</italic> represent any reasonably rough terrain,\n"
 "with enough dips and rises in the ground to provide some cover. Hills are "
 "difficult for most troops to navigate. Dwarves, trolls, and orcs have enough "
-"familiarity with the terrain that they can pass through it without being slowed "
-"down. Cavalry have enough trouble navigating the terrain that any defensive aid "
-"lent by cover is negated.\n"
+"familiarity with the terrain that they can pass through it without being "
+"slowed down. Cavalry have enough trouble navigating the terrain that any "
+"defensive aid lent by cover is negated.\n"
 "\n"
-"Most units have about 50% defense in hills, whereas cavalry are limited to 40%. "
-"Dwarves enjoy 60% defense in hills."
+"Most units have about 50% defense in hills, whereas cavalry are limited to "
+"40%. Dwarves enjoy 60% defense in hills."
 msgstr ""
 "<italic>text='Colinas'</italic> são terreno razoavelmente íngreme,\n"
-"com fendas e elevações suficientes para servirem de alguma cobertura.As colinas "
-"não são fáceis de trespassar para a maioria das tropas, no entanto anões, "
-"trogloditas e orcs são o suficiente familiares com este terreno que não são "
-"atrasados de forma visível. A cavalaria tem tanta dificuldade em passar por aqui "
-"que qualquer proveito na defesa será negado.\n"
+"com fendas e elevações suficientes para servirem de alguma cobertura.As "
+"colinas não são fáceis de trespassar para a maioria das tropas, no entanto "
+"anões, trogloditas e orcs são o suficiente familiares com este terreno que "
+"não são atrasados de forma visível. A cavalaria tem tanta dificuldade em "
+"passar por aqui que qualquer proveito na defesa será negado.\n"
 "\n"
-"A maioria das unidades terá cerca de 50% de defesa nestes locais, a cavalaria é "
-"limitada em 40% e anões usufrutuam de uma defesa de 60%."
+"A maioria das unidades terá cerca de 50% de defesa nestes locais, a "
+"cavalaria é limitada em 40% e anões usufrutuam de uma defesa de 60%."
 
 #. [terrain_type]: id=swamp_water
-#: data/core/terrain.cfg:2300
-msgid ""
-"<italic>text='Swamps'</italic> represent any sort of wetlands.\n"
-"Swamps slow down nearly everyone, and inhibit their ability to defend themselves. "
-"An exception to this is any race bodily skilled in navigating water; these "
-"receive both full movement and a defensive bonus. Those that make their living in "
-"the wetlands are also adept at using this terrain for cover.\n"
-"\n"
-"Most units make do with 30% defense in swamps. Mermen, naga, and saurians all "
-"generally enjoy 60%."
-msgstr ""
-"<italic>text='Pântanos'</italic> representam qualquer terreno lamacento.\n"
-"este terreno atrasa qualquer um, e poucos defendem-se bem aqui. À excepção às "
-"criaturas aquáticas, estas movem-se e defendem-se de forma normal neste terreno. "
-"E aqueles mais habituados aos locais pantanosos também estão mais à vontade por "
-"estas andanças.\n"
-"\n"
-"A maioria das unidades terá uma defesa de 30% nos pântanos. Aquáticos, nagas e "
-"repteis normalmente desfrutam de 60%."
-
-#. [terrain_type]: id=shallow_water
 #: data/core/terrain.cfg:2313
 msgid ""
-"<italic>text='Shallow water'</italic> represents any body of water deep enough to "
-"come up to roughly a man’s waist. This is enough to slow down nearly anyone and "
-"leave them wide open to attack. Dwarves, given that the water reaches up almost "
-"to their heads, have an extremely hard time of this. The exception is any race "
-"whose bodies naturally lend themselves to swimming, for which they receive a "
-"considerable defensive bonus and full movement.\n"
+"<italic>text='Swamps'</italic> represent any sort of wetlands.\n"
+"Swamps slow down nearly everyone, and inhibit their ability to defend "
+"themselves. An exception to this is any race bodily skilled in navigating "
+"water; these receive both full movement and a defensive bonus. Those that "
+"make their living in the wetlands are also adept at using this terrain for "
+"cover.\n"
 "\n"
-"Most units make do with 20 to 30% defense in shallow water, whereas both naga and "
-"mermen enjoy 60%."
+"Most units make do with 30% defense in swamps. Mermen, naga, and saurians "
+"all generally enjoy 60%."
+msgstr ""
+"<italic>text='Pântanos'</italic> representam qualquer terreno lamacento.\n"
+"este terreno atrasa qualquer um, e poucos defendem-se bem aqui. À excepção "
+"às criaturas aquáticas, estas movem-se e defendem-se de forma normal neste "
+"terreno. E aqueles mais habituados aos locais pantanosos também estão mais à "
+"vontade por estas andanças.\n"
+"\n"
+"A maioria das unidades terá uma defesa de 30% nos pântanos. Aquáticos, nagas "
+"e repteis normalmente desfrutam de 60%."
+
+#. [terrain_type]: id=shallow_water
+#: data/core/terrain.cfg:2326
+msgid ""
+"<italic>text='Shallow water'</italic> represents any body of water deep "
+"enough to come up to roughly a man’s waist. This is enough to slow down "
+"nearly anyone and leave them wide open to attack. Dwarves, given that the "
+"water reaches up almost to their heads, have an extremely hard time of this. "
+"The exception is any race whose bodies naturally lend themselves to "
+"swimming, for which they receive a considerable defensive bonus and full "
+"movement.\n"
+"\n"
+"Most units make do with 20 to 30% defense in shallow water, whereas both "
+"naga and mermen enjoy 60%."
 msgstr ""
 "<italic>text='Águas Rasas'</italic> representam trechos com águas que podem "
 "cobrir até o peito de um homem. Isto é suficiente para atrasar qualquer um e "
-"deixá-lo vulneráveis. Anões, o qual estas águas cobrem até a cabeça, têm mais "
-"dificuldade. A excepção fica para as raças que tem o corpo adequado para nadar, "
-"pois elas recebem mais bónus de defesa e movimentação total.\n"
+"deixá-lo vulneráveis. Anões, o qual estas águas cobrem até a cabeça, têm "
+"mais dificuldade. A excepção fica para as raças que tem o corpo adequado "
+"para nadar, pois elas recebem mais bónus de defesa e movimentação total.\n"
 "\n"
-"A maioria das unidades tem 20 a 30% de defesa em águas rasas, Nagas e Aquáticos "
-"têm 60%."
+"A maioria das unidades tem 20 a 30% de defesa em águas rasas, Nagas e "
+"Aquáticos têm 60%."
 
 #. [terrain_type]: id=castle
-#: data/core/terrain.cfg:2328
+#: data/core/terrain.cfg:2341
 msgid ""
 "<italic>text='Castles'</italic> are any sort of permanent fortification.\n"
-"Nearly all units receive a considerable bonus to their defense by being stationed "
-"in a castle, and most units receive full movement in a castle. Stationing units "
-"in a castle represents its defensive capability. Without a unit in each wall hex, "
-"an enemy can simply sneak into the castle unchallenged, gaining the same "
-"defensive bonus as everyone inside.\n"
+"Nearly all units receive a considerable bonus to their defense by being "
+"stationed in a castle, and most units receive full movement in a castle. "
+"Stationing units in a castle represents its defensive capability. Without a "
+"unit in each wall hex, an enemy can simply sneak into the castle "
+"unchallenged, gaining the same defensive bonus as everyone inside.\n"
 "\n"
 "Most units have about 60% defense in a castle."
 msgstr ""
-"<italic>text='Castelos'</italic> são qualquer tipo de fortificação permanente. "
-"Quase todas as unidades recebem um bónus considerável para a sua defesa por "
-"estarem estacionados num castelo, e todas as unidades recebem o movimento "
-"completo num castelo. Estacionar unidades num castelo representa a sua capacidade "
-"defensiva. Sem uma unidade em cada hexágono, um inimigo pode simplesmente "
-"esgueirar-se para o castelo incontestado, ganhando o mesmo bónus de defesa como "
-"todos lá dentro.\n"
+"<italic>text='Castelos'</italic> são qualquer tipo de fortificação "
+"permanente. Quase todas as unidades recebem um bónus considerável para a sua "
+"defesa por estarem estacionados num castelo, e todas as unidades recebem o "
+"movimento completo num castelo. Estacionar unidades num castelo representa a "
+"sua capacidade defensiva. Sem uma unidade em cada hexágono, um inimigo pode "
+"simplesmente esgueirar-se para o castelo incontestado, ganhando o mesmo "
+"bónus de defesa como todos lá dentro.\n"
 "\n"
 "A maioria das unidades têm cerca de 60% de defesa num castelo."
 
 #. [terrain_type]: id=mountains
-#: data/core/terrain.cfg:2342
+#: data/core/terrain.cfg:2355
 msgid ""
-"<italic>text='Mountains'</italic> are steep enough that units often have to climb "
-"over obstacles to move.\n"
-"By this nature, they provide a considerable defensive bonus for most troops, but "
-"they also severely impede any passage through them. Most cavalry simply cannot "
-"enter mountainous terrain; however, elvish cavalry is an exception to this, as "
-"are the goblin wolf riders. Both dwarves and trolls are native to mountainous "
-"terrain, and have a very easy time getting around.\n"
+"<italic>text='Mountains'</italic> are steep enough that units often have to "
+"climb over obstacles to move.\n"
+"By this nature, they provide a considerable defensive bonus for most troops, "
+"but they also severely impede any passage through them. Most cavalry simply "
+"cannot enter mountainous terrain; however, elvish cavalry is an exception to "
+"this, as are the goblin wolf riders. Both dwarves and trolls are native to "
+"mountainous terrain, and have a very easy time getting around.\n"
 "\n"
 "Most units receive about 60% defense in mountains, whereas Dwarves enjoy 70%."
 msgstr ""
 "<italic>text='Montanhas'</italic> são qualquer superfície o suficientemente "
 "íngremes que necessitam de um esforço maior para as escalar. Por esta razão "
-"provêm um bónus considerável de defesa a maioria das tropas, mas também atrasam "
-"severamente a passagem. A maioria da cavalaria simplesmente não consegue passar "
-"por aqui, no entanto a cavalaria elfa é uma notável excepção, assim como os "
-"montadores gnomos. Assim como anões como trogloditas são nativos das montanhas, e "
-"senteme a vontade por estas andanças.\n"
+"provêm um bónus considerável de defesa a maioria das tropas, mas também "
+"atrasam severamente a passagem. A maioria da cavalaria simplesmente não "
+"consegue passar por aqui, no entanto a cavalaria elfa é uma notável "
+"excepção, assim como os montadores gnomos. Assim como anões como trogloditas "
+"são nativos das montanhas, e senteme a vontade por estas andanças.\n"
 "\n"
 "A maioria das unidades terá uma defesa de 60% os anões até 70%."
 
 #. [terrain_type]: id=deep_water
-#: data/core/terrain.cfg:2354
+#: data/core/terrain.cfg:2367
 msgid ""
-"<italic>text='Deep water'</italic> represents any body of water deep enough to "
-"cover a man’s head.\n"
-"Most units cannot enter deep water: it is the domain of units which can either "
-"fly, or are exceptionally strong swimmers.\n"
+"<italic>text='Deep water'</italic> represents any body of water deep enough "
+"to cover a man’s head.\n"
+"Most units cannot enter deep water: it is the domain of units which can "
+"either fly, or are exceptionally strong swimmers.\n"
 "\n"
 "Mermen and naga both receive 50% defense in deep water, with full movement."
 msgstr ""
 "<italic>text='Águas Profundas'</italic> representam qualquer trecho com água "
-"suficiente para cobrir a cabeça de um homem. Muitas unidades não podem entrar em "
-"águas profundas. Isto é domínio exclusivo das unidades que podem voar ou são "
-"excepcionais nadadoras.\n"
+"suficiente para cobrir a cabeça de um homem. Muitas unidades não podem "
+"entrar em águas profundas. Isto é domínio exclusivo das unidades que podem "
+"voar ou são excepcionais nadadoras.\n"
 "\n"
-"Aquáticos e Nagas têm 50% de defesa em águas profundas, assim como movimentação "
-"total."
+"Aquáticos e Nagas têm 50% de defesa em águas profundas, assim como "
+"movimentação total."
 
 #
 #. [terrain_type]: id=flat
-#: data/core/terrain.cfg:2365 data/core/terrain.cfg:2366
+#: data/core/terrain.cfg:2378 data/core/terrain.cfg:2379
 msgid "Flat"
 msgstr "Planície"
 
 #. [terrain_type]: id=flat
-#: data/core/terrain.cfg:2367
+#: data/core/terrain.cfg:2380
 msgid ""
-"<italic>text='Grassland'</italic> represents open plains, whether cultivated, cut "
-"back for grazing, or wild.\n"
+"<italic>text='Grassland'</italic> represents open plains, whether "
+"cultivated, cut back for grazing, or wild.\n"
 "Being open ground, grassland is both very easy to move across, but is also "
 "difficult to defend oneself in. Typically, those units that perform best on "
-"grassland are either cavalry, or very agile units which take advantage of the "
-"open space.\n"
+"grassland are either cavalry, or very agile units which take advantage of "
+"the open space.\n"
 "\n"
 "Most units have defense of 30 to 40% on grassland."
 msgstr ""
-"<italic>text='Planície'</italic> representam campos abertos, tanto cultivados "
-"como para pastagem, ou selvagens. Sendo terreno aberto, a planície é ao mesmo "
-"tempo muito fácil de se mover , mas também é difícil de defender-se aí. "
-"Normalmente, as unidades que têm melhor desempenho nas planícies são ou a "
-"cavalaria, ou unidades muito ágeis que aproveitam o espaço aberto.\n"
+"<italic>text='Planície'</italic> representam campos abertos, tanto "
+"cultivados como para pastagem, ou selvagens. Sendo terreno aberto, a "
+"planície é ao mesmo tempo muito fácil de se mover , mas também é difícil de "
+"defender-se aí. Normalmente, as unidades que têm melhor desempenho nas "
+"planícies são ou a cavalaria, ou unidades muito ágeis que aproveitam o "
+"espaço aberto.\n"
 "\n"
 "A maioria das unidades têm uma defesa de 30 a 40% nas planícies."
 
 #. [terrain_type]: id=forest
-#: data/core/terrain.cfg:2380
+#: data/core/terrain.cfg:2393
 msgid ""
 "<italic>text='Forests'</italic> represent any woodland with significant "
-"undergrowth, enough to hinder passage. Though they slow nearly everyone down, "
-"forests do offer better defense to most units than open ground. Cavalry, however, "
-"have so much trouble navigating them that any benefit gained by stealth is "
-"negated. Elves are an exception to this general rule for forests. Not only do "
-"they possess full movement in forests, but they also gain a considerable "
-"defensive bonus. Dwarves are another exception to this rule; though they are able "
-"to plow through the forests without much loss of speed, their utter unfamiliarity "
-"with the terrain causes them to receive no defensive bonus.\n"
+"undergrowth, enough to hinder passage. Though they slow nearly everyone "
+"down, forests do offer better defense to most units than open ground. "
+"Cavalry, however, have so much trouble navigating them that any benefit "
+"gained by stealth is negated. Elves are an exception to this general rule "
+"for forests. Not only do they possess full movement in forests, but they "
+"also gain a considerable defensive bonus. Dwarves are another exception to "
+"this rule; though they are able to plow through the forests without much "
+"loss of speed, their utter unfamiliarity with the terrain causes them to "
+"receive no defensive bonus.\n"
 "\n"
-"Most units have 50% defense in forests, but cavalry are limited to 30%. Elves, on "
-"the other hand, enjoy 60 to 70% defense, even their mounted units. Dwarves "
-"generally receive only 30% defense in forests."
+"Most units have 50% defense in forests, but cavalry are limited to 30%. "
+"Elves, on the other hand, enjoy 60 to 70% defense, even their mounted units. "
+"Dwarves generally receive only 30% defense in forests."
 msgstr ""
 "<italic>text='Florestas'</italic> representam qualquer bosque com vegetação "
-"significativa, o suficiente para impedir a passagem. Embora atrasam quase todos , "
-"as florestas oferecem melhor defesa para a maioria das unidades do que terreno "
-"aberto. Cavalaria, no entanto, têm tantos problemas de navegação que qualquer "
-"benefício adquirida pela camuflagem é negada. Elfos são uma excepção a esta regra "
-"geral para as florestas. Não só possuem movimento completo em florestas, mas "
-"também ganham um bónus considerável defensivo. Anões são uma outra excepção a "
-"esta regra, embora sejam capazes de ir através das florestas sem muita perda de "
-"velocidade, o seu absoluto desconhecimento com o terreno faz com que eles não "
-"recebem nenhum bónus defensivo.\n"
+"significativa, o suficiente para impedir a passagem. Embora atrasam quase "
+"todos , as florestas oferecem melhor defesa para a maioria das unidades do "
+"que terreno aberto. Cavalaria, no entanto, têm tantos problemas de navegação "
+"que qualquer benefício adquirida pela camuflagem é negada. Elfos são uma "
+"excepção a esta regra geral para as florestas. Não só possuem movimento "
+"completo em florestas, mas também ganham um bónus considerável defensivo. "
+"Anões são uma outra excepção a esta regra, embora sejam capazes de ir "
+"através das florestas sem muita perda de velocidade, o seu absoluto "
+"desconhecimento com o terreno faz com que eles não recebem nenhum bónus "
+"defensivo.\n"
 "\n"
 "A maioria das unidades têm 50% de defesa em florestas, mas a cavalaria estão "
-"limitados a 30%. Elfos, por outro lado, desfrute de 60-70% de defesa, mesmo as "
-"suas unidades montadas. Anões geralmente recebem apenas 30% de defesa nas "
+"limitados a 30%. Elfos, por outro lado, desfrute de 60-70% de defesa, mesmo "
+"as suas unidades montadas. Anões geralmente recebem apenas 30% de defesa nas "
 "florestas."
 
 #
 #. [terrain_type]: id=frozen
-#: data/core/terrain.cfg:2390 data/core/terrain.cfg:2391
+#: data/core/terrain.cfg:2403 data/core/terrain.cfg:2404
 msgid "Frozen"
 msgstr "Congelado"
 
 #. [terrain_type]: id=frozen
-#: data/core/terrain.cfg:2393
+#: data/core/terrain.cfg:2406
 msgid ""
-"<italic>text='Frozen'</italic> terrain represents any flat area that is covered "
-"by snow or ice.\n"
-"Most units are slowed down on it, and have a harder time defending themselves. "
-"Note that swimming units, even those who can breathe underwater, cannot swim "
-"underneath ice.\n"
+"<italic>text='Frozen'</italic> terrain represents any flat area that is "
+"covered by snow or ice.\n"
+"Most units are slowed down on it, and have a harder time defending "
+"themselves. Note that swimming units, even those who can breathe underwater, "
+"cannot swim underneath ice.\n"
 "\n"
 "Most units have 20 to 40% defense in frozen terrain."
 msgstr ""
 "Terreno <italic>text='Gelado'</italic> representa qualquer área plana que é "
-"coberto por neve ou gelo. A maioria das unidades são abrandados sobre ele, e têm "
-"mais dificuldade em defender-se. Nota que as unidades nadadoras, mesmo aqueles "
-"que podem respirar debaixo da água, não pode nadar debaixo de gelo.\n"
+"coberto por neve ou gelo. A maioria das unidades são abrandados sobre ele, e "
+"têm mais dificuldade em defender-se. Nota que as unidades nadadoras, mesmo "
+"aqueles que podem respirar debaixo da água, não pode nadar debaixo de gelo.\n"
 "\n"
 "A maioria das unidades têm 20-40% de defesa em terrenos gelados."
 
 #. [terrain_type]: id=village
-#: data/core/terrain.cfg:2406
+#: data/core/terrain.cfg:2419
 msgid ""
 "<italic>text='Villages'</italic> represent any group of buildings, human or "
 "otherwise.\n"
-"Almost all units, even cavalry, have an easy time navigating villages, and most "
-"units gain a defensive bonus from being stationed in a village. Villages allow "
-"units the resources to clean and tend to their wounds, which allows any unit "
-"stationed therein to heal eight hitpoints each turn, or to be cured of poison.\n"
+"Almost all units, even cavalry, have an easy time navigating villages, and "
+"most units gain a defensive bonus from being stationed in a village. "
+"Villages allow units the resources to clean and tend to their wounds, which "
+"allows any unit stationed therein to heal eight hitpoints each turn, or to "
+"be cured of poison.\n"
 "\n"
-"Most units have 50 to 60% defense in villages, whereas cavalry receive only 40%."
+"Most units have 50 to 60% defense in villages, whereas cavalry receive only "
+"40%."
 msgstr ""
-"<italic>text='Aldeias'</italic> representam qualquer grupo de edifícios, humanos "
-"ou não. Quase todas as unidades, mesmo a cavalaria, têm um momento fácil em "
-"aldeias, e a maioria das unidades ganham um bónus defensivo ao ser postado numa "
-"aldeia. Aldeias permitem as unidades os meios para limpar e cuidar das suas "
-"feridas, o que permite que qualquer unidade estacionados ali para curar oito "
-"pontos de vida de cada vez, ou ser curada de veneno.\n"
+"<italic>text='Aldeias'</italic> representam qualquer grupo de edifícios, "
+"humanos ou não. Quase todas as unidades, mesmo a cavalaria, têm um momento "
+"fácil em aldeias, e a maioria das unidades ganham um bónus defensivo ao ser "
+"postado numa aldeia. Aldeias permitem as unidades os meios para limpar e "
+"cuidar das suas feridas, o que permite que qualquer unidade estacionados ali "
+"para curar oito pontos de vida de cada vez, ou ser curada de veneno.\n"
 "\n"
 "A maioria das unidades tem uma defesa de 50 a 60% nas aldeias, enquanto a "
 "cavalaria recebe apenas 40%."
 
 #
 #. [terrain_type]: id=impassable
-#: data/core/terrain.cfg:2416 data/core/terrain.cfg:2417
+#: data/core/terrain.cfg:2429 data/core/terrain.cfg:2430
 msgid "Impassable"
 msgstr "Intransmissível"
 
 #. [terrain_type]: id=impassable
-#: data/core/terrain.cfg:2419
+#: data/core/terrain.cfg:2432
 msgid ""
-"Obstacles that not even the most determined traveler may overcome include solid "
-"walls of stone and mountains so tall and steep that they are constantly wreathed "
-"in cloud. Even flying creatures cannot navigate the jagged peaks at such rarefied "
-"heights, and not even the fiercest troll can smash through thick walls of stone."
+"Obstacles that not even the most determined traveler may overcome include "
+"solid walls of stone and mountains so tall and steep that they are "
+"constantly wreathed in cloud. Even flying creatures cannot navigate the "
+"jagged peaks at such rarefied heights, and not even the fiercest troll can "
+"smash through thick walls of stone."
 msgstr ""
-"Obstáculos que nem mesmo o viajante mais determinado pode superar incluem paredes "
-"sólidas de pedra e montanhas tão altas e íngremes que estão constantemente "
-"envoltas nas nuvens. Mesmo criaturas voadoras não podem navegar os picos "
-"irregulares em alturas tão refinadas, e nem mesmo os mais ferozes trogloditas "
-"podem destruir paredes espessas de pedra."
+"Obstáculos que nem mesmo o viajante mais determinado pode superar incluem "
+"paredes sólidas de pedra e montanhas tão altas e íngremes que estão "
+"constantemente envoltas nas nuvens. Mesmo criaturas voadoras não podem "
+"navegar os picos irregulares em alturas tão refinadas, e nem mesmo os mais "
+"ferozes trogloditas podem destruir paredes espessas de pedra."
 
 #
 #. [terrain_type]: id=unwalkable
-#: data/core/terrain.cfg:2426 data/core/terrain.cfg:2427
+#: data/core/terrain.cfg:2439 data/core/terrain.cfg:2440
 msgid "Unwalkable"
 msgstr "Impassível"
 
 #. [terrain_type]: id=unwalkable
-#: data/core/terrain.cfg:2429
+#: data/core/terrain.cfg:2442
 msgid ""
-"<italic>text='Unwalkable terrain'</italic> covers any chasm or gorge which, as "
-"the name implies, cannot be crossed simply by walking. Chasms are noted for sheer "
-"walls which would take days to traverse. As far as gameplay is concerned, only "
-"units capable of flying can cross this terrain."
+"<italic>text='Unwalkable terrain'</italic> covers any chasm or gorge which, "
+"as the name implies, cannot be crossed simply by walking. Chasms are noted "
+"for sheer walls which would take days to traverse. As far as gameplay is "
+"concerned, only units capable of flying can cross this terrain."
 msgstr ""
 "Um <italic>text='Desfiladeiro'</italic> é uma rachadura no solo, que chega a "
 "profundidades desconhecidas. Desfiladeiros são conhecidos pelas suas paredes "
-"recortadas que tomam dias para serem atravessadas. No jogo, só as unidades que "
-"podem voar sobre desfiladeiros podem atravessar este terreno."
+"recortadas que tomam dias para serem atravessadas. No jogo, só as unidades "
+"que podem voar sobre desfiladeiros podem atravessar este terreno."
 
 #
 #. [terrain_type]: id=rails
-#: data/core/terrain.cfg:2436 data/core/terrain.cfg:2437
+#: data/core/terrain.cfg:2449 data/core/terrain.cfg:2450
 msgid "Rails"
 msgstr "Ferrovia"
 
 #. [terrain_type]: id=rails
-#: data/core/terrain.cfg:2439
-msgid "<italic>text='Rails'</italic> are used to transport ore. By Dwarfs. Mostly."
+#: data/core/terrain.cfg:2452
+msgid ""
+"<italic>text='Rails'</italic> are used to transport ore. By Dwarfs. Mostly."
 msgstr ""
-"<italic>text='Caminhos de ferro'</italic> são usados para transporte pelos anões. "
-"Na maior parte das vezes."
+"<italic>text='Caminhos de ferro'</italic> são usados para transporte pelos "
+"anões. Na maior parte das vezes."
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #. [button]: id=click_dismiss
 #. [button]: id=close_window
@@ -1889,10 +1948,12 @@ msgid "Remove Add-ons"
 msgstr "Eliminar Extras"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=help
 #. [button]: id=show_help
 #: data/gui/default/window/addon_connect.cfg:188
-#: data/gui/default/window/title_screen.cfg:179 src/hotkey/hotkey_command.cpp:234
+#: data/gui/default/window/title_screen.cfg:179
+#: src/hotkey/hotkey_command.cpp:234
 msgid "Help"
 msgstr "Ajuda"
 
@@ -1906,6 +1967,7 @@ msgid "Connect"
 msgstr "Ligar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #: data/gui/default/window/addon_connect.cfg:217
 #: data/gui/default/window/addon_uninstall_list.cfg:174
@@ -2207,6 +2269,7 @@ msgid "Choose the add-ons you want to remove."
 msgstr "Escolha os extras que queres remover."
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. [button]: id=remove
 #: data/gui/default/window/addon_uninstall_list.cfg:161
@@ -2222,6 +2285,7 @@ msgid "Play a Campaign"
 msgstr "Jogar uma Campanha"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. [button]: id=save
 #: data/gui/default/window/campaign_dialog.cfg:425
@@ -2678,12 +2742,15 @@ msgid "Generate"
 msgstr "Gerar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
-#: data/gui/default/window/editor_new_map.cfg:35 src/hotkey/hotkey_command.cpp:131
+#: data/gui/default/window/editor_new_map.cfg:35
+#: src/hotkey/hotkey_command.cpp:131
 msgid "New Map"
 msgstr "Novo Mapa"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/editor_new_map.cfg:54
 #: src/generators/mapgen_dialog.cpp:121
@@ -2691,6 +2758,7 @@ msgid "Width:"
 msgstr "Largura:"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/editor_new_map.cfg:81
 #: src/generators/mapgen_dialog.cpp:122
@@ -2704,6 +2772,7 @@ msgid "Create"
 msgstr "Criar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/editor_resize_map.cfg:35
 #: src/hotkey/hotkey_command.cpp:199
@@ -2765,6 +2834,7 @@ msgid "Which player should start here?"
 msgstr "Que jogador deve começar aqui?"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/default/window/folder_create.cfg:43 src/filechooser.cpp:85
 msgid "New Folder"
@@ -2861,6 +2931,7 @@ msgid "Do not show again"
 msgstr "Não mostrar novamente"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/default/window/game_delete.cfg:107
 #: data/gui/default/window/game_delete.cfg:108
@@ -2871,27 +2942,29 @@ msgstr "Não mostrar novamente"
 #: data/gui/default/window/game_save_overwrite.cfg:96
 #: data/gui/default/window/game_save_overwrite.cfg:97
 #: data/gui/default/window/mp_depcheck_confirm_change.cfg:130
-#: data/gui/default/window/mp_host_game_prompt.cfg:105 src/construct_dialog.cpp:124
-#: src/gui/dialogs/message.cpp:188
+#: data/gui/default/window/mp_host_game_prompt.cfg:105
+#: src/construct_dialog.cpp:124 src/gui/dialogs/message.cpp:188
 msgid "Yes"
 msgstr "Sim"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #: data/gui/default/window/game_delete.cfg:122
 #: data/gui/default/window/game_save_message.cfg:156
 #: data/gui/default/window/game_save_oos.cfg:209
 #: data/gui/default/window/game_save_overwrite.cfg:111
 #: data/gui/default/window/mp_depcheck_confirm_change.cfg:144
-#: data/gui/default/window/mp_host_game_prompt.cfg:118 src/construct_dialog.cpp:125
-#: src/gui/dialogs/message.cpp:191
+#: data/gui/default/window/mp_host_game_prompt.cfg:118
+#: src/construct_dialog.cpp:125 src/gui/dialogs/message.cpp:191
 msgid "No"
 msgstr "Não"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
-#: data/gui/default/window/game_load.cfg:50 src/gui/dialogs/mp_create_game.cpp:94
-#: src/hotkey/hotkey_command.cpp:66
+#: data/gui/default/window/game_load.cfg:50
+#: src/gui/dialogs/mp_create_game.cpp:94 src/hotkey/hotkey_command.cpp:66
 msgid "Load Game"
 msgstr "Continuar uma Partida"
 
@@ -3009,10 +3082,12 @@ msgid "Cache:"
 msgstr "Cache:"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/default/window/game_save.cfg:42
 #: data/gui/default/window/game_save_message.cfg:42
-#: data/gui/default/window/game_save_oos.cfg:42 src/hotkey/hotkey_command.cpp:63
+#: data/gui/default/window/game_save_oos.cfg:42
+#: src/hotkey/hotkey_command.cpp:63
 msgid "Save Game"
 msgstr "Gravar o Jogo"
 
@@ -3023,8 +3098,10 @@ msgid "Ignore all"
 msgstr "ignorar Todos"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=quit_game
-#: data/gui/default/window/game_save_oos.cfg:161 src/hotkey/hotkey_command.cpp:86
+#: data/gui/default/window/game_save_oos.cfg:161
+#: src/hotkey/hotkey_command.cpp:86
 msgid "Quit Game"
 msgstr "Sair do Jogo"
 
@@ -3247,11 +3324,12 @@ msgid "Send"
 msgstr "Enviar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=show_preferences
 #. [grid]
 #: data/gui/default/window/lobby_main.cfg:666
-#: data/gui/default/window/title_screen.cfg:263 src/game_preferences_display.cpp:67
-#: src/hotkey/hotkey_command.cpp:80
+#: data/gui/default/window/title_screen.cfg:263
+#: src/game_preferences_display.cpp:67 src/hotkey/hotkey_command.cpp:80
 msgid "Preferences"
 msgstr "Preferências"
 
@@ -3570,13 +3648,13 @@ msgstr "Hospedar jogo em rede"
 #. [label]
 #: data/gui/default/window/mp_host_game_prompt.cfg:58
 msgid ""
-"A local server instance has to be started in order to host a networked game. The "
-"server will run as a background process until all users have disconnected. Do you "
-"wish to continue?"
+"A local server instance has to be started in order to host a networked game. "
+"The server will run as a background process until all users have "
+"disconnected. Do you wish to continue?"
 msgstr ""
-"Um servidor local terá de ser iniciado para permitir um jogo em rede. O servidor "
-"irá correr em processo de fundo até que todos os utilizadores tenham saído. "
-"Queres continuar?"
+"Um servidor local terá de ser iniciado para permitir um jogo em rede. O "
+"servidor irá correr em processo de fundo até que todos os utilizadores "
+"tenham saído. Queres continuar?"
 
 #
 #. [window]: id=mp_login
@@ -3610,10 +3688,12 @@ msgid "Password Reminder"
 msgstr "Relembrar Senha"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
 #. [label]
 #: data/gui/default/window/mp_method_selection.cfg:39
-#: data/gui/default/window/title_screen.cfg:258 src/gui/dialogs/game_load.cpp:301
+#: data/gui/default/window/title_screen.cfg:258
+#: src/gui/dialogs/game_load.cpp:301
 msgid "Multiplayer"
 msgstr "Jogo em Rede"
 
@@ -3621,19 +3701,19 @@ msgstr "Jogo em Rede"
 #. [text_box]: id=user_name
 #: data/gui/default/window/mp_method_selection.cfg:87
 msgid ""
-"You may login to the official multiplayer server with your forum username and "
-"password.\n"
-"Note that registration is not required to join the server: you need to supply a "
-"password only if you wish to use a registered username.\n"
+"You may login to the official multiplayer server with your forum username "
+"and password.\n"
+"Note that registration is not required to join the server: you need to "
+"supply a password only if you wish to use a registered username.\n"
 "\n"
 "The Battle for Wesnoth forum can be found at http://forums.wesnoth.org/"
 msgstr ""
 "Podes entrar no servidor oficial com o teu nome e senha registado no fórum.\n"
-"Nota que não é preciso registo para ligar ao servidor: só terás que incluir uma "
-"senha se quiseres usar a tua conta registada.\n"
+"Nota que não é preciso registo para ligar ao servidor: só terás que incluir "
+"uma senha se quiseres usar a tua conta registada.\n"
 "\n"
-"O fórum para Battle for Wesnoth pode ser encontrado em http://www.wesnoth.org/"
-"forum/"
+"O fórum para Battle for Wesnoth pode ser encontrado em http://www.wesnoth."
+"org/forum/"
 
 #
 #. [column]
@@ -3669,7 +3749,8 @@ msgstr "Jogo local"
 #. [column]
 #: data/gui/default/window/mp_method_selection.cfg:177
 msgid "Play a multiplayer game with the AI or humans sharing the same machine"
-msgstr "Jogue uma partida solitária contra a IA ou amigos a partilhar o computador"
+msgstr ""
+"Jogue uma partida solitária contra a IA ou amigos a partilhar o computador"
 
 #
 #. [label]: id=address
@@ -3708,7 +3789,8 @@ msgstr "Imagem do ecrã ..."
 #. [button]: id=browse_dir
 #: data/gui/default/window/screenshot_notification.cfg:187
 msgid "Browse the screenshots folder using a file manager"
-msgstr "Abre a localização para as imagens do ecrã com um navegador de ficheiros"
+msgstr ""
+"Abre a localização para as imagens do ecrã com um navegador de ficheiros"
 
 #
 #. [label]
@@ -3747,8 +3829,10 @@ msgid "Start a tutorial to familiarize yourself with the game"
 msgstr "Começar um tutorial para familiarizares-te com o jogo"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
-#: data/gui/default/window/title_screen.cfg:256 src/gui/dialogs/game_load.cpp:303
+#: data/gui/default/window/title_screen.cfg:256
+#: src/gui/dialogs/game_load.cpp:303
 msgid "Tutorial"
 msgstr "Tutorial"
 
@@ -3768,9 +3852,11 @@ msgstr "Começar uma nova campanha"
 #. [grid]
 #: data/gui/default/window/title_screen.cfg:258
 msgid ""
-"Play multiplayer (hotseat, LAN, or Internet), or a single scenario against the AI"
+"Play multiplayer (hotseat, LAN, or Internet), or a single scenario against "
+"the AI"
 msgstr ""
-"Jogo em Rede (hotseat, LAN ou Internet), ou um único cenário contra o computador"
+"Jogo em Rede (hotseat, LAN ou Internet), ou um único cenário contra o "
+"computador"
 
 #
 #. [grid]
@@ -3851,6 +3937,7 @@ msgid "Attack enemy"
 msgstr "Atacar Inimigo"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/unit_create.cfg:45 src/hotkey/hotkey_command.cpp:77
 msgid "Create Unit (Debug!)"
@@ -3881,6 +3968,7 @@ msgid "Race"
 msgstr "Raça"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/wml_error.cfg:40 src/gui/dialogs/message.cpp:205
 #: src/gui/dialogs/transient_message.cpp:77
@@ -3888,6 +3976,7 @@ msgid "Error"
 msgstr "Erro"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=details_heading
 #: data/gui/default/window/wml_error.cfg:112 src/gui/dialogs/wml_error.cpp:192
 msgid "Details:"
@@ -3920,22 +4009,22 @@ msgid "Creation of the directory failed."
 msgstr "Não foi possível criar o arquivo."
 
 #
-#: src/game_preferences.cpp:357
+#: src/game_preferences.cpp:361
 msgid "No server has been defined."
 msgstr "Nenhum servidor fora definido."
 
 #
-#: src/game_preferences.cpp:437
+#: src/game_preferences.cpp:441
 msgid "player"
 msgstr "jogador"
 
 #
-#: src/game_preferences.cpp:964
+#: src/game_preferences.cpp:968
 msgid "%H:%M"
 msgstr "%H:%M"
 
 #
-#: src/game_preferences.cpp:967
+#: src/game_preferences.cpp:971
 msgid "%I:%M %p"
 msgstr "%I:%M %p"
 
@@ -4288,16 +4377,19 @@ msgstr "Ver uma unidade aliada interrompe o movimento da sua unidade"
 
 #
 #: src/game_preferences_display.cpp:374
-msgid "Saves replays of games on victory in all modes and defeat in multiplayer"
+msgid ""
+"Saves replays of games on victory in all modes and defeat in multiplayer"
 msgstr ""
-"Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou derrota MP"
+"Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou "
+"derrota MP"
 
 #
 #: src/game_preferences_display.cpp:377
 msgid ""
 "Deletes previous auto-saves on victory in all modes and defeat in multiplayer"
 msgstr ""
-"Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou derrota MP"
+"Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou "
+"derrota MP"
 
 #
 #: src/game_preferences_display.cpp:379
@@ -4352,17 +4444,17 @@ msgstr "Volta ao ecrã de opções dos Jogos em Rede"
 #
 #: src/game_preferences_display.cpp:401
 msgid ""
-"Add this username to your friends list (add optional notes, e.g., 'player_name "
-"notes on friend')"
+"Add this username to your friends list (add optional notes, e.g., "
+"'player_name notes on friend')"
 msgstr ""
-"Adiciona este nome de usuário a tua lista de amigos (podes também incluir notas "
-"extras sobre este)"
+"Adiciona este nome de usuário a tua lista de amigos (podes também incluir "
+"notas extras sobre este)"
 
 #
 #: src/game_preferences_display.cpp:402
 msgid ""
-"Add this username to your ignores list (add optional reason, e.g., 'player_name "
-"reason ignored')"
+"Add this username to your ignores list (add optional reason, e.g., "
+"'player_name reason ignored')"
 msgstr ""
 "Adiciona este nome de usuário a tua lista de ignorados (podes também incluir "
 "notas extras sobre este)"
@@ -4381,7 +4473,8 @@ msgstr "insera um nome"
 #: src/game_preferences_display.cpp:409
 msgid "Show text above a unit when it is hit to display damage inflicted"
 msgstr ""
-"Mostra uma mensagem com o dano sofrido sobre uma unidade atingida por um golpe"
+"Mostra uma mensagem com o dano sofrido sobre uma unidade atingida por um "
+"golpe"
 
 #
 #: src/game_preferences_display.cpp:411
@@ -4416,10 +4509,11 @@ msgstr "Toca um som no início do seu turno"
 #
 #: src/game_preferences_display.cpp:427
 msgid ""
-"Show a colored circle around the base of each unit to show which side it is on"
+"Show a colored circle around the base of each unit to show which side it is "
+"on"
 msgstr ""
-"Mostra um círculo colorido à volta da base de cada unidade para mostrar de que "
-"lado é que ela está"
+"Mostra um círculo colorido à volta da base de cada unidade para mostrar de "
+"que lado é que ela está"
 
 #
 #: src/game_preferences_display.cpp:430
@@ -4682,8 +4776,10 @@ msgstr "Uma “list_definition” deve conter uma coluna."
 #: src/gui/auxiliary/window_builder/horizontal_listbox.cpp:73
 #: src/gui/auxiliary/window_builder/listbox.cpp:88
 #: src/gui/auxiliary/window_builder/multi_page.cpp:63
-msgid "'list_data' must have the same number of columns as the 'list_definition'."
-msgstr "'lista_data' tem de ter o mesmo número de colunas que a 'list_definition'."
+msgid ""
+"'list_data' must have the same number of columns as the 'list_definition'."
+msgstr ""
+"'lista_data' tem de ter o mesmo número de colunas que a 'list_definition'."
 
 #
 #: src/gui/auxiliary/window_builder/multi_page.cpp:38
@@ -4806,7 +4902,8 @@ msgid "addons_view^All Add-ons"
 msgstr "Todos os Extras"
 
 #
-#: src/gui/dialogs/addon_list.cpp:227 src/gui/dialogs/network_transmission.cpp:56
+#: src/gui/dialogs/addon_list.cpp:227
+#: src/gui/dialogs/network_transmission.cpp:56
 #: src/gui/dialogs/network_transmission.cpp:57
 #: src/gui/dialogs/screenshot_notification.cpp:72
 msgid "unit_byte^B"
@@ -4875,8 +4972,8 @@ msgstr "Observadores não permitidos"
 #
 #: src/gui/dialogs/lobby_main.cpp:1152
 msgid ""
-"Whisper session with $name started. If you don’t want to receive messages from "
-"this user, type /ignore $name\n"
+"Whisper session with $name started. If you don’t want to receive messages "
+"from this user, type /ignore $name\n"
 msgstr ""
 "Sessão discreta com $name iniciada. Se não quiser receber mensagens deste "
 "usuário, escreve /ignore $name\n"
@@ -4971,8 +5068,10 @@ msgid "Mandatory widget '$id' hasn't been defined."
 msgstr "Campo obrigatório '$id' não foi definido."
 
 #: src/gui/widgets/settings.cpp:448
-msgid "Widget definition '$definition' doesn't contain the definition for '$id'."
-msgstr "A definição do campo '$definition' não contém uma referencia para '$id'."
+msgid ""
+"Widget definition '$definition' doesn't contain the definition for '$id'."
+msgstr ""
+"A definição do campo '$definition' não contém uma referencia para '$id'."
 
 #: src/gui/widgets/settings.cpp:519
 msgid "No default gui defined."
@@ -5352,12 +5451,12 @@ msgstr "Ferramenta de desenho"
 
 #: src/hotkey/hotkey_command.cpp:151 src/hotkey/hotkey_command.cpp:152
 msgid ""
-"Use left/right mouse button to draw fore-/background terrain. Hold Shift to paint "
-"base layer only. Ctrl+click to sample terrain under cursor."
+"Use left/right mouse button to draw fore-/background terrain. Hold Shift to "
+"paint base layer only. Ctrl+click to sample terrain under cursor."
 msgstr ""
-"Usa o botão esquerdo/direito do rato para desenhar o terreno da frente/fundo. "
-"Segura Shift para pintar apenas a camada base.·Ctrl+clique·para pegar uma amostra "
-"do terreno sob o cursor."
+"Usa o botão esquerdo/direito do rato para desenhar o terreno da frente/"
+"fundo. Segura Shift para pintar apenas a camada base.·Ctrl+clique·para pegar "
+"uma amostra do terreno sob o cursor."
 
 #: src/hotkey/hotkey_command.cpp:152
 msgid "Fill Tool"
@@ -5365,12 +5464,12 @@ msgstr "Ferramenta de encher"
 
 #: src/hotkey/hotkey_command.cpp:153
 msgid ""
-"Left mouse button selects or deselects with Ctrl, right brings up a context menu. "
-"Hold Shift for magic-wand selection of tiles with same terrain."
+"Left mouse button selects or deselects with Ctrl, right brings up a context "
+"menu. Hold Shift for magic-wand selection of tiles with same terrain."
 msgstr ""
-"O botão esquerdo seleciona ou liberta a seleção anterior quando usado em conjunto "
-"com Ctrl. Prima e tecle Shift para selecionares todos os hexágonos do mesmo tipo "
-"de terreno."
+"O botão esquerdo seleciona ou liberta a seleção anterior quando usado em "
+"conjunto com Ctrl. Prima e tecle Shift para selecionares todos os hexágonos "
+"do mesmo tipo de terreno."
 
 #: src/hotkey/hotkey_command.cpp:153
 msgid "Selection Tool"
@@ -5378,13 +5477,13 @@ msgstr "Ferramenta de seleção"
 
 #: src/hotkey/hotkey_command.cpp:154
 msgid ""
-"Left mouse button displays player selection, right clears. Number keys scroll to "
-"the starting position, alt+number sets respective starting position under cursor, "
-"delete clears."
+"Left mouse button displays player selection, right clears. Number keys "
+"scroll to the starting position, alt+number sets respective starting "
+"position under cursor, delete clears."
 msgstr ""
-"O botão esquerdo do rato mostra a seleção do jogador, o direito limpa. Teclas "
-"numéricas rolam para a posição inicial, alt+número ajusta a posição inicial para "
-"o ponto debaixo do cursor, a tecla del remove-a."
+"O botão esquerdo do rato mostra a seleção do jogador, o direito limpa. "
+"Teclas numéricas rolam para a posição inicial, alt+número ajusta a posição "
+"inicial para o ponto debaixo do cursor, a tecla del remove-a."
 
 #: src/hotkey/hotkey_command.cpp:154
 msgid "Starting Positions Tool"
@@ -5401,11 +5500,11 @@ msgstr "O botão esquerdo define ou arrasta uma legenda, o direito limpa-a."
 
 #: src/hotkey/hotkey_command.cpp:156
 msgid ""
-"Left mouse button sets a new unit or moves a unit via drag and drop, right brings "
-"up a context menu. Needs a defined side."
+"Left mouse button sets a new unit or moves a unit via drag and drop, right "
+"brings up a context menu. Needs a defined side."
 msgstr ""
-"O botão esquerdo do rato cria uma nova unidade, o direito traz à toa um menu de "
-"contexto. Tens de ter uma equipa definida."
+"O botão esquerdo do rato cria uma nova unidade, o direito traz à toa um menu "
+"de contexto. Tens de ter uma equipa definida."
 
 #: src/hotkey/hotkey_command.cpp:156
 msgid "Unit Tool"
@@ -5417,15 +5516,16 @@ msgstr "Ferramenta de Itens"
 
 #: src/hotkey/hotkey_command.cpp:157
 msgid ""
-"Left mouse button sets a new item or moves it via drag and drop, right clears. "
-"Not implemented yet."
+"Left mouse button sets a new item or moves it via drag and drop, right "
+"clears. Not implemented yet."
 msgstr ""
-"O botão esquerdo cria um novo item ou move um existente, o direito elimina. Ainda "
-"não implementado."
+"O botão esquerdo cria um novo item ou move um existente, o direito elimina. "
+"Ainda não implementado."
 
 #: src/hotkey/hotkey_command.cpp:158
 msgid ""
-"Left mouse button sets or drags a sound source, right clears. Not implemented yet."
+"Left mouse button sets or drags a sound source, right clears. Not "
+"implemented yet."
 msgstr ""
 "O botão direito define um som de fundo ou modifica um existente, o direito "
 "elimina. Ainda não implementado."
@@ -5436,8 +5536,8 @@ msgstr "Ferramenta de fonte sonora"
 
 #: src/hotkey/hotkey_command.cpp:159
 msgid ""
-"Left mouse button sets the village ownership to the current side, right clears. "
-"Needs a defined side."
+"Left mouse button sets the village ownership to the current side, right "
+"clears. Needs a defined side."
 msgstr ""
 "O botão esquerdo do rato muda o controlo das aldeias para a equipa atual, o "
 "direito limpa. Tens de definir uma equipa primeiro."
@@ -5539,10 +5639,11 @@ msgid "Copy"
 msgstr "Copiar"
 
 #: src/hotkey/hotkey_command.cpp:185
-msgid "Left mouse button pastes from the clipboard, right brings up a context menu."
+msgid ""
+"Left mouse button pastes from the clipboard, right brings up a context menu."
 msgstr ""
-"O botão esquerdo do rato copia da área de transferência, o direito traz à toa um "
-"menu de contexto."
+"O botão esquerdo do rato copia da área de transferência, o direito traz à "
+"toa um menu de contexto."
 
 #: src/hotkey/hotkey_command.cpp:185
 msgid "Paste"
@@ -5799,67 +5900,67 @@ msgid "Unrecognized Command"
 msgstr "Comando não reconhecido"
 
 #
-#: src/hotkey/hotkey_item.cpp:406 src/hotkey/hotkey_item.cpp:409
+#: src/hotkey/hotkey_item.cpp:408 src/hotkey/hotkey_item.cpp:411
 msgid "Button"
 msgstr "Botão"
 
 #
-#: src/hotkey/hotkey_item.cpp:406
+#: src/hotkey/hotkey_item.cpp:408
 msgid "Mouse"
 msgstr "Rato"
 
 #
-#: src/hotkey/hotkey_item.cpp:409 src/hotkey/hotkey_item.cpp:445
+#: src/hotkey/hotkey_item.cpp:411 src/hotkey/hotkey_item.cpp:447
 msgid "Joystick"
 msgstr "Suporte a Controlo Joystick"
 
 #
-#: src/hotkey/hotkey_item.cpp:415
+#: src/hotkey/hotkey_item.cpp:417
 msgid "Centered"
 msgstr "Centrado"
 
 #
-#: src/hotkey/hotkey_item.cpp:418
+#: src/hotkey/hotkey_item.cpp:420
 msgid "Up"
 msgstr "Acima"
 
 #
-#: src/hotkey/hotkey_item.cpp:421
+#: src/hotkey/hotkey_item.cpp:423
 msgid "Right"
 msgstr "Direito"
 
 #
-#: src/hotkey/hotkey_item.cpp:424
+#: src/hotkey/hotkey_item.cpp:426
 msgid "Down"
 msgstr "Abaixo"
 
 #
-#: src/hotkey/hotkey_item.cpp:427
+#: src/hotkey/hotkey_item.cpp:429
 msgid "Left"
 msgstr "Esquerda"
 
 #
-#: src/hotkey/hotkey_item.cpp:430
+#: src/hotkey/hotkey_item.cpp:432
 msgid "RightUp"
 msgstr "Direito Acima"
 
 #
-#: src/hotkey/hotkey_item.cpp:433
+#: src/hotkey/hotkey_item.cpp:435
 msgid "RightDown"
 msgstr "Direito Abaixo"
 
 #
-#: src/hotkey/hotkey_item.cpp:436
+#: src/hotkey/hotkey_item.cpp:438
 msgid "LeftUp"
 msgstr "Esquerda Acima"
 
 #
-#: src/hotkey/hotkey_item.cpp:439
+#: src/hotkey/hotkey_item.cpp:441
 msgid "LeftDown"
 msgstr "Esquerda Abaixo"
 
 #
-#: src/hotkey/hotkey_item.cpp:442
+#: src/hotkey/hotkey_item.cpp:444
 msgid "Unknown"
 msgstr "Desconhecido"
 
@@ -5867,7 +5968,7 @@ msgstr "Desconhecido"
 # Not sure what "Hat" is...
 # Chapéu é que não...
 # Um tipo de cabana qualquer...
-#: src/hotkey/hotkey_item.cpp:445
+#: src/hotkey/hotkey_item.cpp:447
 msgid "Hat"
 msgstr "Choupana"
 
@@ -5948,8 +6049,8 @@ msgid ""
 "\"$hotkey_sequence|\" is in use by \"$old_hotkey_action|\". Do you wish to "
 "reassign it to \"$new_hotkey_action|\"?"
 msgstr ""
-"“$hotkey_sequence|” já é usado por “$old_hotkey_action|”. Desejas repor-o para "
-"“$new_hotkey_action|”?"
+"“$hotkey_sequence|” já é usado por “$old_hotkey_action|”. Desejas repor-o "
+"para “$new_hotkey_action|”?"
 
 #
 #: src/hotkey/hotkey_preferences_display.cpp:709
@@ -5968,7 +6069,7 @@ msgstr "Reconfigurar Atalhos"
 #. other's resources rather than duplicating them. For example,
 #. Swedish (sv) and Danish (da) are such, so Swedish translator could
 #. translate this message as "sv,da", while Danish as "da,sv".
-#: src/image.cpp:423
+#: src/image.cpp:425
 msgid "language code for localized resources^en_US"
 msgstr "pt,pt_PT,pt_BR"
 
@@ -5980,13 +6081,13 @@ msgstr "O tamanho do texto é menor que 1."
 #
 #: src/preferences_display.cpp:127 src/preferences_display.cpp:181
 msgid ""
-"The video mode could not be changed. Your window manager must be set to 16 bits "
-"per pixel to run the game in windowed mode. Your display must support 1024x768x16 "
-"to run the game full screen."
+"The video mode could not be changed. Your window manager must be set to 16 "
+"bits per pixel to run the game in windowed mode. Your display must support "
+"1024x768x16 to run the game full screen."
 msgstr ""
-"O modo de vídeo não pode ser alterado. O seu gestor de janelas deve estar num "
-"modo de 16 bits por pixel para correr o jogo dentro de uma janela. O seu ecrã "
-"deve suportar 1024x768x16 para correr o jogo em todo o ecrã."
+"O modo de vídeo não pode ser alterado. O seu gestor de janelas deve estar "
+"num modo de 16 bits por pixel para correr o jogo dentro de uma janela. O seu "
+"ecrã deve suportar 1024x768x16 para correr o jogo em todo o ecrã."
 
 #
 #: src/preferences_display.cpp:318
@@ -6001,11 +6102,11 @@ msgstr "Escolha a Resolução"
 #
 #: src/terrain_translation.cpp:712
 msgid ""
-"A terrain with a string with more than 4 characters has been found, the affected "
-"terrain is :"
+"A terrain with a string with more than 4 characters has been found, the "
+"affected terrain is :"
 msgstr ""
-"Um terreno com código com mais de 4 carateres foi encontrado, o terreno afetado "
-"é :"
+"Um terreno com código com mais de 4 carateres foi encontrado, o terreno "
+"afetado é :"
 
 #
 #: src/text.cpp:745
@@ -6029,11 +6130,11 @@ msgstr "Quando reportar um erro por favor inclui a seguinte mensagem de erro:"
 #
 #: src/wml_exception.cpp:96
 msgid ""
-"In section '[$section|]' where '$primary_key| = $primary_value' the mandatory key "
-"'$key|' isn't set."
+"In section '[$section|]' where '$primary_key| = $primary_value' the "
+"mandatory key '$key|' isn't set."
 msgstr ""
-"Na seção  '[$section|]' onde '$primary_key| = $primary_value' a chave obrigatória "
-"'$key|' não é definida."
+"Na seção  '[$section|]' onde '$primary_key| = $primary_value' a chave "
+"obrigatória '$key|' não é definida."
 
 #
 #: src/wml_exception.cpp:99
