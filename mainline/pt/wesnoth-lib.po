@@ -1,13 +1,13 @@
 # European Portuguese translations for Battle for Wesnoth
 # Copyright (C) 2005-2014 Wesnoth development team
 # This file is distributed under the same license as the Battle for Wesnoth package.
-# trewe <sjrs456@yahoo.fr>, 2014
+# trewe <sjrs456@yahoo.fr>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-lib)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2015-10-30 01:45-0300\n"
-"PO-Revision-Date: 2015-06-06 11:58-0000\n"
+"PO-Revision-Date: 2015-11-01 14:29+0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #
 #. [terrain_type]: id=deep_water
@@ -100,8 +100,9 @@ msgstr ""
 #. [terrain_type]: id=medium_reef
 #. [terrain_type]: id=reef
 #. [terrain_type]: id=tropical_reef
-#: data/core/terrain.cfg:96 data/core/terrain.cfg:107 data/core/terrain.cfg:118
-#: data/core/terrain.cfg:2279 data/core/terrain.cfg:2280
+#: data/core/terrain.cfg:96 data/core/terrain.cfg:107
+#: data/core/terrain.cfg:118 data/core/terrain.cfg:2279
+#: data/core/terrain.cfg:2280
 msgid "Coastal Reef"
 msgstr "Recife Costeiro"
 
@@ -717,8 +718,8 @@ msgstr ""
 "<ref>dst='terrain_illuminated_cave' text='iluminadas'</ref>. \n"
 "\n"
 "A maioria das unidades têm cerca de 50% de defesa em cavernas rochosas, "
-"enquanto a cavalaria está limitado a 40%. Anões desfrutam de uma defesa de "
-"60% em cavernas rochosas."
+"enquanto a cavalaria está limitado a 40%. Anões desfrutam de uma defesa de 60"
+"% em cavernas rochosas."
 
 #
 #. [terrain_type]: id=mine_rails
@@ -1612,8 +1613,8 @@ msgid ""
 "slowed down. Cavalry have enough trouble navigating the terrain that any "
 "defensive aid lent by cover is negated.\n"
 "\n"
-"Most units have about 50% defense in hills, whereas cavalry are limited to "
-"40%. Dwarves enjoy 60% defense in hills."
+"Most units have about 50% defense in hills, whereas cavalry are limited to 40"
+"%. Dwarves enjoy 60% defense in hills."
 msgstr ""
 "<italic>text='Colinas'</italic> são terreno razoavelmente íngreme,\n"
 "com fendas e elevações suficientes para servirem de alguma cobertura.As "
@@ -1898,7 +1899,6 @@ msgstr ""
 "anões. Na maior parte das vezes."
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #. [button]: id=click_dismiss
 #. [button]: id=close_window
@@ -1948,7 +1948,6 @@ msgid "Remove Add-ons"
 msgstr "Eliminar Extras"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=help
 #. [button]: id=show_help
 #: data/gui/default/window/addon_connect.cfg:188
@@ -1967,7 +1966,6 @@ msgid "Connect"
 msgstr "Ligar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #: data/gui/default/window/addon_connect.cfg:217
 #: data/gui/default/window/addon_uninstall_list.cfg:174
@@ -2134,7 +2132,7 @@ msgstr "Campanhas"
 #. [row]
 #: data/gui/default/window/addon_filter_options.cfg:50
 msgid "addons_of_type^MP eras"
-msgstr "Eras MJ"
+msgstr "Eras"
 
 #
 #. [row]
@@ -2146,7 +2144,7 @@ msgstr "Cenários"
 #. [row]
 #: data/gui/default/window/addon_filter_options.cfg:54
 msgid "addons_of_type^MP factions"
-msgstr "Fações MJ"
+msgstr "Fações"
 
 #. [row]
 #: data/gui/default/window/addon_filter_options.cfg:57
@@ -2157,7 +2155,7 @@ msgstr "Campanhas Híbridas"
 #. [row]
 #: data/gui/default/window/addon_filter_options.cfg:58
 msgid "addons_of_type^MP campaigns"
-msgstr "Campanhas MJ"
+msgstr "Campanhas em Rede"
 
 #
 #. [row]
@@ -2169,7 +2167,7 @@ msgstr "Suplementos"
 #. [row]
 #: data/gui/default/window/addon_filter_options.cfg:62
 msgid "addons_of_type^MP scenarios"
-msgstr "Cenários MJ"
+msgstr "Cenários em Rede"
 
 #
 #. [row]
@@ -2181,7 +2179,7 @@ msgstr "Outros"
 #. [row]
 #: data/gui/default/window/addon_filter_options.cfg:67
 msgid "addons_of_type^MP map-packs"
-msgstr "Pacote de Mapas MJ"
+msgstr "Pacote de Mapas"
 
 #
 #. [row]
@@ -2205,8 +2203,7 @@ msgstr "Opções"
 #. [label]
 #: data/gui/default/window/addon_filter_options.cfg:184
 msgid "Add-ons matching the following criteria will be displayed."
-msgstr ""
-"Os extras que estão em conformidade com o filtro seguinte irão ser mostrados."
+msgstr "Mostrar todos os extras "
 
 #
 #. [label]
@@ -2248,7 +2245,7 @@ msgstr "Pela última data de modificação"
 #. [row]
 #: data/gui/default/window/addon_filter_options.cfg:361
 msgid "sort^By first upload"
-msgstr "Pela primeira data de modificação"
+msgstr "Pela data de publicação"
 
 #
 #. [row]
@@ -2269,7 +2266,6 @@ msgid "Choose the add-ons you want to remove."
 msgstr "Escolha os extras que queres remover."
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. [button]: id=remove
 #: data/gui/default/window/addon_uninstall_list.cfg:161
@@ -2285,7 +2281,6 @@ msgid "Play a Campaign"
 msgstr "Jogar uma Campanha"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. [button]: id=save
 #: data/gui/default/window/campaign_dialog.cfg:425
@@ -2354,7 +2349,7 @@ msgstr "Página:"
 #. [slider]: id=page_number
 #: data/gui/default/window/chat_log.cfg:74
 msgid "Last"
-msgstr "Último"
+msgstr "Última"
 
 #
 #. [button]: id=previous_page
@@ -2742,7 +2737,6 @@ msgid "Generate"
 msgstr "Gerar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/editor_new_map.cfg:35
 #: src/hotkey/hotkey_command.cpp:131
@@ -2750,7 +2744,6 @@ msgid "New Map"
 msgstr "Novo Mapa"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/editor_new_map.cfg:54
 #: src/generators/mapgen_dialog.cpp:121
@@ -2758,7 +2751,6 @@ msgid "Width:"
 msgstr "Largura:"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/editor_new_map.cfg:81
 #: src/generators/mapgen_dialog.cpp:122
@@ -2772,7 +2764,6 @@ msgid "Create"
 msgstr "Criar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/editor_resize_map.cfg:35
 #: src/hotkey/hotkey_command.cpp:199
@@ -2834,7 +2825,6 @@ msgid "Which player should start here?"
 msgstr "Que jogador deve começar aqui?"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/default/window/folder_create.cfg:43 src/filechooser.cpp:85
 msgid "New Folder"
@@ -2931,7 +2921,6 @@ msgid "Do not show again"
 msgstr "Não mostrar novamente"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/default/window/game_delete.cfg:107
 #: data/gui/default/window/game_delete.cfg:108
@@ -2948,7 +2937,6 @@ msgid "Yes"
 msgstr "Sim"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #: data/gui/default/window/game_delete.cfg:122
 #: data/gui/default/window/game_save_message.cfg:156
@@ -2961,7 +2949,6 @@ msgid "No"
 msgstr "Não"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/default/window/game_load.cfg:50
 #: src/gui/dialogs/mp_create_game.cpp:94 src/hotkey/hotkey_command.cpp:66
@@ -3082,7 +3069,6 @@ msgid "Cache:"
 msgstr "Cache:"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/default/window/game_save.cfg:42
 #: data/gui/default/window/game_save_message.cfg:42
@@ -3098,7 +3084,6 @@ msgid "Ignore all"
 msgstr "ignorar Todos"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=quit_game
 #: data/gui/default/window/game_save_oos.cfg:161
 #: src/hotkey/hotkey_command.cpp:86
@@ -3324,7 +3309,6 @@ msgid "Send"
 msgstr "Enviar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=show_preferences
 #. [grid]
 #: data/gui/default/window/lobby_main.cfg:666
@@ -3688,7 +3672,6 @@ msgid "Password Reminder"
 msgstr "Relembrar Senha"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
 #. [label]
 #: data/gui/default/window/mp_method_selection.cfg:39
@@ -3829,7 +3812,6 @@ msgid "Start a tutorial to familiarize yourself with the game"
 msgstr "Começar um tutorial para familiarizares-te com o jogo"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
 #: data/gui/default/window/title_screen.cfg:256
 #: src/gui/dialogs/game_load.cpp:303
@@ -3937,7 +3919,6 @@ msgid "Attack enemy"
 msgstr "Atacar Inimigo"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/unit_create.cfg:45 src/hotkey/hotkey_command.cpp:77
 msgid "Create Unit (Debug!)"
@@ -3968,7 +3949,6 @@ msgid "Race"
 msgstr "Raça"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/default/window/wml_error.cfg:40 src/gui/dialogs/message.cpp:205
 #: src/gui/dialogs/transient_message.cpp:77
@@ -3976,7 +3956,6 @@ msgid "Error"
 msgstr "Erro"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=details_heading
 #: data/gui/default/window/wml_error.cfg:112 src/gui/dialogs/wml_error.cpp:192
 msgid "Details:"
@@ -4884,22 +4863,22 @@ msgstr "Desconhecido"
 #
 #: src/gui/dialogs/addon/filter_options.cpp:294
 msgid "addons_view^Not Installed"
-msgstr "Não Instalado"
+msgstr "Não Instalados"
 
 #
 #: src/gui/dialogs/addon/filter_options.cpp:296
 msgid "addons_view^Upgradable"
-msgstr "Atualizável"
+msgstr "Atualizáveis"
 
 #
 #: src/gui/dialogs/addon/filter_options.cpp:298
 msgid "addons_view^Installed"
-msgstr "Instalado"
+msgstr "Instalados"
 
 #
 #: src/gui/dialogs/addon/filter_options.cpp:300
 msgid "addons_view^All Add-ons"
-msgstr "Todos os Extras"
+msgstr "Todos"
 
 #
 #: src/gui/dialogs/addon_list.cpp:227
@@ -6158,9 +6137,3 @@ msgid ""
 msgstr ""
 "A chave '$deprecated_key' foi renomeada para '$key'. Suporte para "
 "'$deprecated_key' será removido na versão $removal_version."
-
-#~ msgid "addons_of_type^SP/MP Campaigns"
-#~ msgstr "Campanhas Híbridas"
-
-#~ msgid "controller^Human/AI"
-#~ msgstr "Humano ou IA"
