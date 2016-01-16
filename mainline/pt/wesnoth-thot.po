@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-thot)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2015-06-27 20:18-0300\n"
+"POT-Creation-Date: 2015-12-10 19:01-0300\n"
 "PO-Revision-Date: 2015-07-30 13:44+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -25,11 +25,10 @@ msgstr "O Martelo de Thursagan"
 msgid "THoT"
 msgstr "OMdT"
 
-#
 #. [campaign]: id=The_Hammer_of_Thursagan
 #: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:17
-msgid "(Easy)"
-msgstr "(Fácil)"
+msgid "Easy"
+msgstr "Fácil"
 
 #
 #. [campaign]: id=The_Hammer_of_Thursagan
@@ -37,11 +36,10 @@ msgstr "(Fácil)"
 msgid "Fighter"
 msgstr "Soldado"
 
-#
 #. [campaign]: id=The_Hammer_of_Thursagan
 #: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:18
-msgid "(Normal)"
-msgstr "(Normal)"
+msgid "Normal"
+msgstr "Normal"
 
 #
 #. [campaign]: id=The_Hammer_of_Thursagan
@@ -52,7 +50,9 @@ msgstr "Guerreiro"
 #
 #. [campaign]: id=The_Hammer_of_Thursagan
 #: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:19
-msgid "(Challenging)"
+#, fuzzy
+#| msgid "(Challenging)"
+msgid "Challenging"
 msgstr "(Desafiante)"
 
 #
@@ -62,7 +62,7 @@ msgid "Lord"
 msgstr "Senhor"
 
 #. [campaign]: id=The_Hammer_of_Thursagan
-#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:21
+#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:22
 msgid ""
 "In the first years of the Northern Alliance, an expedition from Knalga seeks "
 "out their kin at Kal Kartha and to learn the fate of the legendary Hammer of "
@@ -79,36 +79,36 @@ msgstr ""
 
 #
 #. [campaign]: id=The_Hammer_of_Thursagan
-#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:23
+#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:24
 msgid "(Intermediate level, 11 scenarios.)"
 msgstr "(Nível intermediário, 11 cenários)"
 
 #
 #. [about]
-#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:26
+#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:27
 msgid "Author"
 msgstr "Autor"
 
 #
 #. [about]
-#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:32
+#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:33
 msgid "Special Guest Designer"
 msgstr "Criador convidado especial"
 
 #
 #. [about]
-#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:38
+#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:39
 msgid "Art"
 msgstr "Arte"
 
 #
 #. [about]
-#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:47
+#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:48
 msgid "Brainstorming, playtesting, and spousal support"
 msgstr "Debate de Ideias, teste do jogo, e apoio responsivo"
 
 #. [about]
-#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:53
+#: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:54
 msgid "Campaign Maintenance"
 msgstr "Manutenção da Campanha"
 
@@ -1220,9 +1220,15 @@ msgstr ""
 #
 #. [message]: speaker=Master Perrin
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/07_Mages_and_Drakes.cfg:199
+#, fuzzy
+#| msgid ""
+#| "We’re grateful for your assistance. And I’d like to send one of our "
+#| "senior apprentices with you to the east. It has come time for him to be "
+#| "journeyman... and I sense something being born to the east that I do not "
+#| "like the feel of."
 msgid ""
 "We’re grateful for your assistance. And I’d like to send one of our senior "
-"apprentices with you to the east. It has come time for him to be "
+"apprentices with you to the east. It has come time for him to be a "
 "journeyman... and I sense something being born to the east that I do not "
 "like the feel of."
 msgstr ""
@@ -2983,6 +2989,14 @@ msgid ""
 msgstr ""
 "Aaarrgh! Embora morra, a chama da Verdade irá mandar-vos de volta para as "
 "profundezas!"
+
+#
+#~ msgid "(Easy)"
+#~ msgstr "(Fácil)"
+
+#
+#~ msgid "(Normal)"
+#~ msgstr "(Normal)"
 
 #~ msgid "Elves"
 #~ msgstr "Elfos"
