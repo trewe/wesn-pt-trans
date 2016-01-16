@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-11 15:05+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2016-01-16 18:40+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -18,15 +18,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. [campaign]: id=MP_Campaign_Return_from_Captivity, type=mp
+#: Return_from_Captivity/_main.cfg:24
 msgid "RfC"
 msgstr "RfC"
 
 #. [campaign]: id=MP_Campaign_Return_from_Captivity, type=mp
-#. [editor_group]: id=rfc
+#: Return_from_Captivity/_main.cfg:25
 msgid "Return from Captivity"
 msgstr "Retorno do Cativeiro"
 
 #. [campaign]: id=MP_Campaign_Return_from_Captivity, type=mp
+#: Return_from_Captivity/_main.cfg:26
 msgid ""
 "A multiplayer campaign for 2 cooperative players. Bring home the elves and "
 "dwarves from the troll prison.\n"
@@ -37,34 +39,61 @@ msgstr ""
 "\n"
 
 #. [campaign]: id=MP_Campaign_Return_from_Captivity, type=mp
+#: Return_from_Captivity/_main.cfg:28
 msgid "(Expert level, 11 scenarios)"
 msgstr "(Nível veterano, 11 cenários)"
 
 #. [campaign]: id=MP_Campaign_Return_from_Captivity, type=mp
+#: Return_from_Captivity/_main.cfg:31
+msgid "(Easy)"
+msgstr "(Fácil)"
+
+#. [campaign]: id=MP_Campaign_Return_from_Captivity, type=mp
+#: Return_from_Captivity/_main.cfg:31
+#, fuzzy
+#| msgid "Runners"
+msgid "Runner"
+msgstr "Batedores"
+
+#. [campaign]: id=MP_Campaign_Return_from_Captivity, type=mp
+#: Return_from_Captivity/_main.cfg:32
 msgid "(Normal)"
 msgstr "(Normal)"
 
 #. [campaign]: id=MP_Campaign_Return_from_Captivity, type=mp
-msgid "Lord"
-msgstr "Lorde"
+#: Return_from_Captivity/_main.cfg:32
+#, fuzzy
+#| msgid "Refugees"
+msgid "Refugee"
+msgstr "Refugiados"
 
 #. [about]
+#: Return_from_Captivity/_main.cfg:37
 msgid "Creator and Original Designer"
 msgstr "Criador e Autor original"
 
 #. [entry]
+#: Return_from_Captivity/_main.cfg:39
 msgid "Csab"
 msgstr "Csab"
 
 #. [about]
+#: Return_from_Captivity/_main.cfg:43
 msgid "Campaign Maintenance"
 msgstr "Manutenção da Campanha"
 
-#. [scenario]: id=RfC_01_The_Prison, (type=Giant Spider, id=Tallia}, id=Sirius}, type=Dwarvish Steelclad, type=Elvish Hero
+#. [editor_group]: id=rfc
+#: Return_from_Captivity/_main.cfg:71
+msgid "editor^RfC"
+msgstr ""
+
+#. [scenario]: id=RfC_01_The_Prison, (type=Giant Spider, id=Tallia}, id=Sirius}, type=Trapper, type=Swordsman
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:6
 msgid "RfC — Escaping from the Prison"
 msgstr "RfC — Escapando da Prisão"
 
 #. [part]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:22
 msgid ""
 "The story begins in the fearful troll prison named Aeternum, which is "
 "located on the Cold Death Island. On this island a big outlaw horde settled "
@@ -78,76 +107,82 @@ msgstr ""
 "vivo. Os prisioneiros são principalmente elvos, trogloditas e humanos, que "
 "foram considerados demasiado perigosos pela sociedade."
 
-#. [side]: id=P1, type=Elvish Captain
-#. [side]: id=P2, type=Dwarvish Steelclad
-msgid "Allies"
-msgstr "Aliados"
-
-#. [side]: id=P1, type=Elvish Captain
-msgid "Player1"
-msgstr "Jogador1"
-
-#. [side]: id=P2, type=Dwarvish Steelclad
-msgid "Player2"
-msgstr "Jogador2"
-
-#. [side]: type=Goblin Rouser
-#. [side]: type=Necrophage
-#. [side]: type=Saurian Oracle
+#. [side]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:63
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:65
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:387
 msgid "Cave Crawlers"
 msgstr "Habitantes da Caverna"
 
 #. [side]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:94
 msgid "Allied Cellmates"
 msgstr "Presos aliados"
 
 #. [side]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:102
 msgid "Trolls"
 msgstr "Trogloditas"
 
 #. [side]
-#. [side]: type=Great Troll
-#. [side]: type=Naga Myrmidon
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:117
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:173
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:197
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:225
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:84
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:147
 msgid "Cave Critters"
 msgstr "Bichos das cavernas"
 
-#. [event]: race=human
+#. [event]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:211
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:227
 msgid "Tallia"
 msgstr "Tallia"
 
-#. [event]: race=human
+#. [event]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:219
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:236
 msgid "Sirius"
 msgstr "Sirius"
 
-#. [event]: race=human
+#. [event]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:348
 msgid "$unit.name finds a pretty ring. Should he pick it up?"
 msgstr "$unit.name encontra um lindo anel. Deve ele levar-o?"
 
-#. [event]: race=human
+#. [event]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:349
 msgid "ring of regeneration^Take it"
 msgstr "Leva-o"
 
-#. [event]: race=human
+#. [event]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:350
 msgid "ring of regeneration^Leave it"
 msgstr "Deixa-o"
 
-#. [event]: race=human
+#. [event]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:351
 msgid "$unit.name finds a pretty ring. But only a human can take it!"
 msgstr "$unit.name encontra um misterioso anel, mas só um humano o pode usar!"
 
 #. [object]: id=ring_of_reg
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:354
 msgid "Ring of Regeneration"
 msgstr "Anel de Regeneração"
 
 #. [object]: id=ring_of_reg
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:357
 msgid "This ring will heal the bearer a little each turn."
 msgstr "Este anel curará um pouco o usuário."
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:384
 msgid "The wall is weak here! I'll try to break through!"
 msgstr "A parede é fraca por aqui! Vou tentar quebrar-a!"
 
 #. [response]: speaker=second_unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:388
 msgid ""
 "Thank you for making me free. In gratitude I'll join you, $unit.name, in the "
 "battle."
@@ -156,48 +191,79 @@ msgstr ""
 "na batalha."
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:392
 msgid "I can pass through here!"
 msgstr "Consigo passar!"
 
 #. [response]: speaker=second_unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:396
 msgid "I'm free at last! I'll help you $unit.name to get away from here!"
 msgstr "Livre por fim! Irei ajudar-te, $unit.name, para sair daqui!"
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:400
 msgid "I can smash the wall here!"
 msgstr "Posso quebrar a parede!"
 
 #. [response]: speaker=second_unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:404
 msgid "Thanks for rescuing me! I will serve you, $unit.name till you get home!"
 msgstr ""
 "Obrigado por libertarem-me! Irei servir-te, $unit.name, até chegares à casa!"
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:408
 msgid "The wall collapsed!"
 msgstr "A parede colidiu!"
 
 #. [response]: speaker=second_unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:412
 msgid "I am out, hurray! I'll fight with you, $unit.name, against the outlaws."
 msgstr ""
 "Estou livre, viva! Irei lutar contigo, $unit.name, contra os opressores."
 
 #. [objective]: condition=win
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:447
 msgid "Get out from the prison (reach the south west section of the map)."
 msgstr "Escapa da prisão (chega a secção sudoeste do mapa)."
 
 #. [objective]: condition=lose
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:452
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:494
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:162
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:296
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:601
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:242
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:464
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:415
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:248
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:106
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:287
 msgid "Death of $Player1Name"
 msgstr "Morte de $Player1Name"
 
 #. [objective]: condition=lose
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:456
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:498
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:166
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:300
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:605
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:246
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:468
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:419
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:252
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:110
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:291
 msgid "Death of $Player2Name"
 msgstr "Morte de $Player2Name"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:481
 msgid "How is it going, my little dwarf friend? Do you have a nice day?"
 msgstr "Viva, como vai isto, meu pequeno amigo anão? Tiveste um bom dia?"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:485
 msgid ""
 "Every day has been exactly the same since we got into this prison, 5 years "
 "ago. Anyway, thanks for the question."
@@ -206,34 +272,42 @@ msgstr ""
 "anos atrás. Seja, obrigado pela pergunta."
 
 #. [message]: role=watchtroll
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:489
 msgid "Shut up prisoners, or I'll kill you all! "
 msgstr "Silêncio prisioneiros, ou mato-vos a todos!"
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:516
 msgid "I've found the way out!"
 msgstr "Encontrei a saída!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:550
 msgid "We've managed to get away from the prison, at last!"
 msgstr "Conseguimos encontrar um caminho para fora da prisão, até que enfim!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:571
 msgid "I hear a strange noise from the back corner of my cell!"
 msgstr "Ouço um ruído estranho na parte de trás da minha cela!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:575
 msgid "I also hear it. What can this be?"
 msgstr "Também o ouço. O que poderá ser?"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:598
 msgid "A giant ant! It made a tunnel!"
 msgstr "Uma formiga gigante! Fez um túnel!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:602
 msgid "Come in, I'm sure this tunnel has another exit as well!"
 msgstr "Entra, tenho a certeza de que este túnel ainda tem outra saída!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:615
 msgid ""
 "This cave can be very long with lots of enemies, so we'd rather find "
 "something or someone to heal us."
@@ -242,6 +316,7 @@ msgstr ""
 "encontrar qualquer coisa ou ser que nos possa curar."
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:619
 msgid ""
 "Some of our cellmates were good at healing - perhaps we can find a way to "
 "free them?"
@@ -250,6 +325,7 @@ msgstr ""
 "consigamos encontrar um caminho até eles?"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:623
 msgid ""
 "Good idea. They can also help us in the battle. Let's free as many cellmates "
 "as we can."
@@ -258,24 +334,38 @@ msgstr ""
 "podemos."
 
 #. [message]: role=watchtroll
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:655
 msgid "The prisoners have escaped! Follow them and slay them all!"
 msgstr "Os prisioneiros escaparam! Sigam-os e arrasam-os!"
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:706
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:750
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:393
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:433
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:748
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:301
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:575
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:569
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:403
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:139
 msgid "I die now, friends... I won't see my homeland any more..."
 msgstr "Estou a morrer, amigos… Já não verei a minha terra natal…"
 
 #. [message]
+#: Return_from_Captivity/scenarios/01_The_Prison.cfg:719
 msgid ""
 "The orcs and trolls are surrounded the prison. There's no way to escape from "
 "now."
 msgstr "Os orcs e trogloditas cercaram a prisão. Agora já não existe saída."
 
 #. [scenario]: id=RfC_02_The_Valley_of_the_Fear
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:6
 msgid "RfC — Valley of the Fear"
 msgstr "RfC — Vale do medo"
 
 #. [part]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:27
 msgid ""
 "After getting away from the prison, the orcish and troll guards started to "
 "pursue them. The escape caused serious damage in the reputation of the "
@@ -289,27 +379,39 @@ msgstr ""
 "contrataram todo o tipo de caçadores de prémio para os capturar morto ou "
 "vivo."
 
-#. [side]: type=Dark Sorcerer
-#. [side]: type=Drake Warrior
-#. [side]: type=Javelineer
-#. [side]: type=Orcish Slayer
-#. [side]: type=Rogue
+#. [leader]: type=Orcish Slayer
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:140
+#, fuzzy
+#| msgid "Hoshnak"
+msgid "Rushnak"
+msgstr "Hoshnak"
+
+#. [side]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:146
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:189
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:258
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:301
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:343
 msgid "Hunters"
 msgstr "Caçadores de Prémio"
 
-#. [side]: type=Necrophage
+#. [leader]: type=Necrophage
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:381
 msgid "Amith Agar"
 msgstr "Amith Agar"
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:468
 msgid "I've found a secret door!"
 msgstr "Encontrei uma porta secreta!"
 
 #. [objective]: condition=win
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:488
 msgid "Resist until the end of turns."
 msgstr "Resista até que os turnos acabam"
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:524
 msgid ""
 "Camerades, enough of the alliance! I hate those disgusting drakes, undeads, "
 "bandits and everyone else! Slay them all!"
@@ -318,12 +420,14 @@ msgstr ""
 "vivos vis, bandidos pestilentos e quem que seja! Matam-os a todos!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:529
 msgid "Bah! This is taking too long. There are surely easier preys to capture."
 msgstr ""
 "Pá! Isto está a demorar demasiado tempo. Certamente que existem presas mais "
 "fáceis para capturar."
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:540
 msgid ""
 "Undeads, it's time to teach everyone, that our race is the most powerful in "
 "the earth. Kill everyone who is not yet undead!"
@@ -332,14 +436,20 @@ msgstr ""
 "Matam a quem ainda não for morto!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:545
+#, fuzzy
+#| msgid ""
+#| "If those stupid trolls want that we capture those fled prisoners, then "
+#| "they have to pay more!"
 msgid ""
 "If those stupid trolls want that we capture those fled prisoners, then they "
-"have to pay more!"
+"have to pay more."
 msgstr ""
 "Mas se aqueles trogloditas querem os seus prisioneiros em fuga, terão de "
 "pagar mais pelo esforço!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:556
 msgid ""
 "Why do proud drakes as us fight alongside such scum like orcs, outlaws and "
 "undead? Show the world who truly rules!"
@@ -349,34 +459,37 @@ msgstr ""
 "verdadeiro valor!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:561
 msgid "You fought bravely today, I shall retreat."
 msgstr "Lutaram bem hoje, irei deixar-vos ir, desta vez."
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:571
 msgid "They are withdrawing! Victory is ours!"
 msgstr "Estão a fugir! A vitória é nossa!"
 
 #. [message]
-msgid "They are more thought than expected. Call of the reinforcements!"
-msgstr "São mais difíceis de derrotar do que pensado. Chamem os reforços!"
-
-#. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:695
 msgid "We've surrounded you. Surrender, or prepare to die!"
 msgstr "Cercamos-vos. Desistam ou preparem-se para morrer!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:700
 msgid "I think our only choice is to defeat them."
 msgstr "Penso que a nossa única hipótese será derrotar-os."
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:705
 msgid "I think so. Then let the combat begin!"
 msgstr "Também assim o penso. Então que a batalha comece!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:710
 msgid "Stupid dwarves and elves. Noone of you will survive this battle!"
 msgstr "Elfos e anões estúpidos. Ninguém irá sobreviver a esta batalha!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:720
 msgid ""
 "We are in big trouble as we are seriously outnumbered by the enemies. There "
 "are more of them, then I expected. We'd better go into the cave until we "
@@ -388,14 +501,17 @@ msgstr ""
 "trogloditas, bandidos, dragos e morto-vivos."
 
 #. [message]
+#: Return_from_Captivity/scenarios/02_The_Valley_of_the_Fear.cfg:725
 msgid "Good idea. I hope life will be easier inside..."
 msgstr "Boa ideia. Espero que se esteja melhor lá dentro…"
 
 #. [scenario]: id=RfC_03_Leaving_the_Island
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:6
 msgid "RfC — Leaving the Island"
 msgstr "RfC — Deixando a Ilha"
 
 #. [part]
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:27
 msgid ""
 "After the battle the survivors could only think to leave the Cold Death "
 "Island as soon as possible. The island has only one port, the Port of the "
@@ -406,24 +522,31 @@ msgstr ""
 "Gelada, logo que possível. A ilha tinha apenas um porto, o Porto do Corno "
 "Negro, onde o rio da flutuação contínua desaguava no mar."
 
-#. [side]: type=Dark Sorcerer
-#. [side]: type=Necromancer
-msgid "Undead Guardians"
-msgstr "Guardiões morto-vivos"
-
-#. [side]: type=Necromancer
+#. [leader]: type=Necromancer
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:50
 msgid "Morun Davorum"
 msgstr "Morun Davorum"
 
-#. [side]: type=Dark Sorcerer
+#. [side]
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:56
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:109
+msgid "Undead Guardians"
+msgstr "Guardiões morto-vivos"
+
+#. [leader]: type=Dark Sorcerer
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:102
 msgid "Kogan Mynth"
 msgstr "Kogan Mynth"
 
 #. [objective]: condition=win
-msgid "Reach the ships at the north east part of the map."
-msgstr "Chega a um dos navios na parte nordeste do mapa."
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:157
+#, fuzzy
+#| msgid "Reach the end of the tunnel with $Player1Name and $Player2Name."
+msgid "Reach the ship docks with both $Player1Name and $Player2Name."
+msgstr "Chega ao fim do túnel com $Player1Name e $Player2Name|."
 
 #. [message]
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:264
 msgid ""
 "We've reached the port, it's on the other side of the river! We'd better "
 "leave this place as soon as we can."
@@ -432,6 +555,7 @@ msgstr ""
 "o mais rapidamente possível."
 
 #. [message]
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:268
 msgid ""
 "I don't want to stay here for a long either. Why is this river called the "
 "River of the Everlasting Fluctuation?"
@@ -440,6 +564,7 @@ msgstr ""
 "Rio da flutuação Eterna?"
 
 #. [message]
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:272
 msgid ""
 "Because the tide is remarkable on that river. We must be very careful in the "
 "flood, as our fighters can drown in the deep water."
@@ -447,26 +572,24 @@ msgstr ""
 "Porque a maré é notável neste rio. Devemos ser muito cuidadosos na enchente, "
 "pois os nossos combatentes podem-se afogar em águas profundas."
 
-#. [message]: type=Mermaid Initiate
+#. [message]: role=speaker$unit.side|$x1|$y1
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:370
 msgid "Thank you for rescuing us! We will help you fight against the undeads!"
 msgstr ""
 "Obrigada por resgatarem-nos! Iremos ajudar-vos a lutar contra os morto-vivos!"
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:374
 msgid "Recruit list changed"
 msgstr "Lista de recrutas mudado"
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:376
 msgid "You can now recruit mermen"
 msgstr "Podes agora recrutar aquáticos"
 
-#. [message]: type=Merman Hunter
-msgid ""
-"Thank you for letting us free! Now we join to fight on the dwarves' side!"
-msgstr ""
-"Obrigado por libertarem-nos! Agora, unimos-nos para lutar ao lado dos anões!"
-
 #. [message]
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:406
 msgid ""
 "Oh, no! The ships have launched from the docks. We couldn't escape from this "
 "island!"
@@ -474,10 +597,13 @@ msgstr ""
 "Oh, não! Os navios já partiram do cais. Já não poderemos escapar desta ilha!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:536
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:447
 msgid "Help, I’m drowning!"
 msgstr "Socorro, estou a afogar-me!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:561
 msgid ""
 "The water reached its highest level, so it's time to start crossing the "
 "river!"
@@ -486,38 +612,46 @@ msgstr ""
 "rio!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/03_Leaving_the_Island.cfg:586
 msgid ""
 "We've reached the ships at last. Now we can leave this dangerous island."
 msgstr ""
 "Até que enfim, chegamos aos navios. Agora podemos sair desta ilha perigosa."
 
 #. [scenario]: id=RfC_04_Save_the_Forest
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:22
 msgid "RfC — Save the Forest"
 msgstr "RfC — Salva a Floresta"
 
-#. [side]: type=Goblin Pillager
-#. [side]: type=Orcish Crossbowman
-#. [side]: type=Orcish Sovereign
+#. [side]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:66
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:117
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:168
 msgid "Woodcutters"
 msgstr "Lenhadores"
 
-#. [side]: type=Ancient Wose, id=brumennarorum
-msgid "Woses"
-msgstr "Silvanos"
-
-#. [side]: type=Ancient Wose, id=brumennarorum
+#. [leader]: id=brumennarorum, type=Ancient Wose
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:213
 msgid "Brumennarunom"
 msgstr "Brumennarunom"
 
+#. [side]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:226
+msgid "Woses"
+msgstr "Silvanos"
+
 #. [objective]: condition=win
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:291
 msgid "Defeat all enemy leaders."
 msgstr "Derrota todos os líderes inimigos"
 
 #. [note]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:310
 msgid "(early finish bonus depends of the size of forest saved)"
 msgstr "(bónus pelo fim prematuro vai depender do tamanho da floresta salva)"
 
 #. [message]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:373
 msgid ""
 "We've managed to get away from Cold Death Island, and what's more, we are "
 "now in a lovely forest. I'm sure, that you, elves enjoy it very much."
@@ -526,10 +660,12 @@ msgstr ""
 "numa floresta linda de morrer. Tenho a certeza, que vocês, elfos, a adoram."
 
 #. [message]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:378
 msgid "Ah, yes. A beautiful one. I could spend years here."
 msgstr "Oh, sim. Uma floresta maravilhosa. Poderia ficar anos por aqui."
 
 #. [message]: role=ambassador
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:401
 msgid ""
 "Help us strangers! My master, the ancient wose Brumennarunom, has sent to "
 "you as the orcs decided to destroy our forest. They earn 5 golds for each "
@@ -541,6 +677,7 @@ msgstr ""
 "aniquilar-nos a todos!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:407
 msgid ""
 "What idiot creatures they are, destroying these beautiful trees! We'd better "
 "help the woses, otherwise we will be unable to cross this land. The forest "
@@ -553,6 +690,7 @@ msgstr ""
 "teremos qualquer hipótese contra eles."
 
 #. [message]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:413
 msgid ""
 "Don't help them, or prepare to die. My woodcutters will cut every tree and I "
 "will be the mightiest orc in the world!"
@@ -561,22 +699,27 @@ msgstr ""
 "todas as árvores e serei o mais poderoso orc no mundo!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:419
 msgid "We'll help you wose and banish these orcs from your land."
 msgstr "Vamos ajudar os silvanos e banir estes orcs desta terra."
 
 #. [message]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:446
 msgid "Oh, no! We have run out of time, we can't save the forest..."
 msgstr "Oh, não! Ficamos sem tempo, já não podemos salvar a floresta …"
 
 #. [message]: type=Saurian Augur
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:504
 msgid "It seems we will have to defend our swamp after all."
 msgstr "Parece que teremos de defender o nosso pântano, afinal."
 
 #. [floating_text]
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:544
 msgid "5"
 msgstr "5"
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/04_Save_the_Forest.cfg:595
 msgid ""
 "You have managed to rescue $ratio|% of the forest. $bonusgld bonus gold are "
 "payed for you."
@@ -585,34 +728,49 @@ msgstr ""
 "bónus é vos pago."
 
 #. [scenario]: id=RfC_05_The_Land_of_the_Dragons
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:6
 msgid "RfC — The Land of the Dragons"
 msgstr "RfC — Terra dos Dragões"
 
 #. [side]
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:47
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:101
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:156
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:214
 msgid "Drakes"
 msgstr "Dragos"
 
 #. [side]
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:273
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:306
 msgid "Guardians"
 msgstr "Guardiões"
 
 #. [side]
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:346
 msgid "Cockatrices"
 msgstr "Basiliscos"
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:398
 msgid "Do you want this unit to pick up the sword?"
 msgstr "Queres realmente que esta unidade leva esta espada?"
 
 #. [option]: speaker=narrator
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:400
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:482
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:924
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:495
 msgid "Yes"
 msgstr "Sim"
 
 #. [object]: id={ID}
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:407
 msgid "Flaming Sword"
 msgstr "Espada Flamejante"
 
 #. [object]: id={ID}
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:410
 msgid ""
 "This massive blade was created centuries ago by long-forgotten elvish "
 "forgemasters, who imbued the bluish steel with an inner magical fire. "
@@ -625,6 +783,7 @@ msgstr ""
 "retoque espelhado perfeito."
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:418
 msgid ""
 "As you place your hand around the glittering leather hilt, the sword roars "
 "to life! Strangely, you feel no heat once you pick it up, yet the grass at "
@@ -635,22 +794,30 @@ msgstr ""
 "seus pés em chamas como testas o peso desta poderosa arma."
 
 #. [effect]
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:426
 msgid "flaming sword"
 msgstr "espada flamejante"
 
 #. [option]: speaker=narrator
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:453
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:582
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:946
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:509
 msgid "No"
 msgstr "Não"
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:480
 msgid "Do you want this unit to pick up the staff?"
 msgstr "Queres realmente que esta unidade leva este bastão?"
 
 #. [object]: id={ID}
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:489
 msgid "Rod of Justice"
 msgstr "Bastão da Justiça"
 
 #. [object]: id={ID}
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:492
 msgid ""
 "This is a magical staff of tremendous power and unknown origin. The wielder "
 "of this staff gains a dramatic increase in strength, speed and intelligence, "
@@ -665,24 +832,31 @@ msgstr ""
 "sacrificar a sua vida pelo caminho da justiça pode exercer esta vara."
 
 #. [effect]: type=arcane
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:505
 msgid "rod of justice"
 msgstr "bastão da justiça"
 
 #. [objective]: condition=win
-msgid "Reach south-east part of the map."
-msgstr "Chega a parte sudeste do mapa."
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:596
+#, fuzzy
+#| msgid "Reach the ships at the north east part of the map."
+msgid "Reach the end of the road at the south-east part of the map."
+msgstr "Chega a um dos navios na parte nordeste do mapa."
 
 #. [message]: type=RfC Elf Raindancer
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:639
 msgid "Thank you for saving us. We will serve you in your battle!"
 msgstr "Obrigado por salvarem-nos. Iremos servir-vos na vossa longa batalha!"
 
 #. [message]: type=RfC_RocRider
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:650
 msgid "At last we are out! We'll join you to help you in your fight."
 msgstr ""
 "Finalmente estamos livres! Vamos juntar-nos a vós para ajudar-vos na vossa "
 "luta fatigante."
 
 #. [message]
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:720
 msgid ""
 "This is the end of the forest and here starts a big mountain named "
 "Anthillerrac. This is the only road which crosses this high mountain. I've "
@@ -695,6 +869,7 @@ msgstr ""
 "era um viajante fanático."
 
 #. [message]
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:725
 msgid ""
 "The signpost says that this is the land of the dragons and whoever "
 "trespasses will die. Did your grand-grand father write anything about those "
@@ -704,10 +879,12 @@ msgstr ""
 "morrer. O teu tetra-avô escreveu nada sobre estes dragões?"
 
 #. [message]
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:730
 msgid "No, he didn't. He might have thought that this was unimportant."
 msgstr "Não,  assim não fizera. Pode ter pensado que não tinha importância."
 
 #. [message]
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:735
 msgid ""
 "Unimportant? We'd better pay attention to this land as I don't like it at "
 "all."
@@ -716,18 +893,23 @@ msgstr ""
 "disto."
 
 #. [message]
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:762
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:314
 msgid "Oh, no! We have run out of time, reinforcements have arrived..."
 msgstr "Oh, não! Ficamos sem tempo, os reforços chegaram …"
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:779
 msgid "Land of the dragons, don't enter or meet your death."
 msgstr "Terra dos dragões, não entres ou encontrarás a tua morte."
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:873
 msgid "Rather grim place, full of dead bodies."
 msgstr "Que lugar sombrio, cheio de cadáveres."
 
 #. [message]: speaker=second_unit
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:951
 msgid ""
 "Stone drakes! We'd better be very careful as there are Cockatrices near "
 "here. I don't want to be sculpture like this."
@@ -736,14 +918,17 @@ msgstr ""
 "perto. Não quero ficar como esta escultura."
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:965
 msgid "What a dark place! Nobody is here."
 msgstr "Que lugar sombrio! Ninguém esta aqui."
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:1011
 msgid "The walls have opened!"
 msgstr "As paredes abriram!"
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:1021
 msgid ""
 "Hey, I've found how to open the walls to get out of here! If two units step "
 "onto the runes, the walls will open."
@@ -753,50 +938,61 @@ msgstr ""
 
 #. [message]: type=Death Knight
 #. [message]: type=Nightgaunt
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:1233
+#: Return_from_Captivity/scenarios/05_The_Land_of_the_Dragons.cfg:1280
 msgid "You've entered a holy place! The punishment for you is death."
 msgstr "Entraram num lugar sagrado! A punição será a vossa morte."
 
 #. [scenario]: id=RfC_06_The_Frozen_River
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:6
 msgid "RfC — The Frozen River"
 msgstr "RfC — O Rio Gelado"
 
-#. [side]: type=Master Bowman
-#. [side]: type=Royal Guard
+#. [side]
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:52
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:79
 msgid "West"
 msgstr "Oeste"
 
-#. [side]: type=Naga Myrmidon
+#. [side]
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:110
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:145
 msgid "Nagas"
 msgstr "Nagas"
 
-#. [side]: type=Direwolf Rider
-#. [side]: type=Spectre
+#. [leader]: type=Direwolf Rider
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:167
+#, fuzzy
+#| msgid "Vashna"
+msgid "Grishna"
+msgstr "Vashna"
+
+#. [side]
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:180
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:212
 msgid "East"
 msgstr "Este"
 
-#. [side]: type=Spectre
+#. [leader]: type=Spectre
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:199
 msgid "Horus"
 msgstr "Horus"
 
 #. [objective]: condition=win
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:237
 msgid ""
 "Cross the river with $Player1Name and reach one of the signposts at the "
 "north-east part of the map."
 msgstr ""
 "Atravessa o rio com $Player1Name e chega a um dos marcos no noroeste do mapa."
 
-#. [objective]: condition=win
-msgid ""
-"Cross the river with $Player2Name and reach one of the signposts at the "
-"north-east part of the map."
-msgstr ""
-"Atravessa o rio com $Player2Name e chega a um dos marcos no noroeste do mapa."
-
 #. [message]
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:268
 msgid "We've come earlier than I expected, the river hasn't been frozen yet."
 msgstr "Chegamos mais cedo do que eu esperava, o rio ainda não congelou."
 
 #. [message]
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:273
 msgid ""
 "The water is very deep, so we can't cross if there's no ice on it. We have "
 "to wait until the river freezes."
@@ -805,6 +1001,7 @@ msgstr ""
 "Temos de esperar até que o rio congela."
 
 #. [message]
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:278
 msgid ""
 "Be careful, step only those ice hexes which aren't adjacent to water "
 "otherwise you could easily get drowned."
@@ -813,26 +1010,34 @@ msgstr ""
 "água, caso contrário podes facilmente afogar-te."
 
 #. [message]
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:283
 msgid "You'll never cross this river! Prepare to die!"
 msgstr "Nunca irão travessar este rio! Preparem-se para morrer!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/06_The_Frozen_River.cfg:288
 msgid "Let's fight with them!"
 msgstr "À Luta!"
 
 #. [scenario]: id=RfC_07_The_Invisible_Legion
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:6
 msgid "RfC — The Invisible Legion"
 msgstr "RfC — A Legião Invisível"
 
-#. [side]: type=Lich
+#. [side]
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:78
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:110
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:142
 msgid "Unknown"
 msgstr "Desconhecido"
 
 #. [objective]: condition=win
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:459
 msgid "Kill every invisible unit."
 msgstr "Mata todas as unidades invisíveis"
 
 #. [message]: role=side2_messager
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:507
 msgid ""
 "Please don't enter into this cave! It's extremely dangerous, full of trolls, "
 "nagas, insects and enchanted invisible undeads."
@@ -841,6 +1046,7 @@ msgstr ""
 "trogloditas, nagas, insectos e morto-vivos invisíveis encantados."
 
 #. [message]
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:512
 msgid ""
 "We have to cross this cave, we don't have time to travel 100 miles more for "
 "by-passing."
@@ -849,6 +1055,7 @@ msgstr ""
 "milhas só para passar por cima."
 
 #. [message]: role=side2_messager
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:522
 msgid ""
 "Then use the magic pearls please. The pearls help you detect the invisible "
 "enemy from distance. Each pearl is enchanted to scan its surrounding area "
@@ -874,24 +1081,30 @@ msgstr ""
 "Encontrar os morto-vivos invisíveis é muito mais fácil se usam as pérolas."
 
 #. [message]
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:534
 msgid "Thanks, the pearls will be of great help to us."
 msgstr "Obrigado, as pérolas serão de grande ajuda para nós."
 
 #. [message]
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:636
 msgid ""
 "Oh, no! We have run out of time, didn't manage to get out of the cave..."
 msgstr ""
 "Oh, não! Ficamos sem tempo, não conseguimos sair desta caverna a tempo…"
 
 #. [print]
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:692
 msgid "$enemies_found.length invisible unit(s) detected nearby"
 msgstr "$enemies_found.length unidade(s) invisíveis detectados por perto"
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:747
 msgid "Be careful, there are invisible undeads in this cave."
 msgstr "Tenham cuidado, existem morto-vivos invisíveis nesta caverna."
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:784
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:807
 msgid ""
 "There is a great fortune in this chest of treasure! I can count 500 pieces "
 "of gold!"
@@ -900,27 +1113,33 @@ msgstr ""
 "peças de ouro!"
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/07_The_Invisible_Legion.cfg:922
 msgid "Do you want this unit to pick up the pearl?"
 msgstr "Queres que esta unidade leva esta pérola?"
 
 #. [scenario]: id=RfC_08_The_Labyrinth
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:6
 msgid "RfC — The Labyrinth"
 msgstr "RfC — O Labirinto"
 
 #. [side]
-#. [side]: type=Draug
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:51
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:80
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:198
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:177
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:212
 msgid "Undead"
 msgstr "Morto-vivos"
 
 #. [objective]: condition=win
-msgid "Get out of the labyrith with $Player1Name and $Player2Name."
-msgstr "Escapa do labirinto com $Player1Name e $Player2Name."
-
-#. [objective]: condition=win
-msgid "Get out of the labyrinth with $Player1Name and $Player2Name."
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:410
+#, fuzzy
+#| msgid "Get out of the labyrith with $Player1Name and $Player2Name."
+msgid "Find the way out of the labyrith with $Player1Name and $Player2Name."
 msgstr "Escapa do labirinto com $Player1Name e $Player2Name."
 
 #. [message]: role=HumanDruid-Lab
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:513
 msgid ""
 "Hey dwarf! Me and my brother got lost in this labyrinth. Could you please "
 "help us find the way out?"
@@ -929,10 +1148,12 @@ msgstr ""
 "encontrar a saída?"
 
 #. [message]
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:519
 msgid "We would gladly help you, but we neither know how to get out of here."
 msgstr "Gostaríamos de vos ajudar, mas também não sabemos como sair daqui."
 
 #. [message]: role=HumanDruid-Lab
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:524
 msgid ""
 "But you have an army which can protect you against the undeads in the "
 "labyrinth!"
@@ -940,10 +1161,12 @@ msgstr ""
 "Mas têm um exército que podem proteger-vos contra os monstros do labirinto!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:530
 msgid "Then please join us and help us in the fight!"
 msgstr "Então junta-te a nós e ajudam-nos na luta!"
 
 #. [message]: role=HumanDruid-Lab
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:535
 msgid ""
 "Thanks, it's very kind of you. Oh, there's one thing you have to know: you "
 "can recruit only in this and the next turn, so I suggest calling the best 12 "
@@ -954,6 +1177,7 @@ msgstr ""
 "que puderem!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:541
 msgid ""
 "Thank you for the important information! I'll start recalling my fighters "
 "immediately."
@@ -962,38 +1186,55 @@ msgstr ""
 "combatentes imediatamente."
 
 #. [message]
+#: Return_from_Captivity/scenarios/08_The_Labyrinth.cfg:583
 msgid ""
 "Oh, no! We have run out of time, didn't manage to get out of this "
 "labyrinth..."
 msgstr "Oh, não! Ficamos sem tempo, não conseguimos sair deste labirinto …"
 
 #. [scenario]: id=RfC_09_Open_Sesame
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:6
 msgid "RfC — Open Sesame"
 msgstr "RfC — Abre-te Sésamo"
 
-#. [side]: type=Mighwar
-#. [side]: type=Shuja
+#. [side]
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:59
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:94
 msgid "Humans"
 msgstr "Humanos"
 
+#. [leader]: type=Silver Mage
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:123
+msgid "Raenna"
+msgstr ""
+
 #. [side]
-#. [side]: type=Silver Mage
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:145
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:218
 msgid "Desert Critters"
 msgstr "Bichos do deserto"
 
 #. [objective]: condition=win
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:243
 msgid "Find the secret tunnel with either $Player1Name or $Player2Name."
 msgstr "Encontra o túnel secreto ou com $Player1Name ou $Player2Name."
 
 #. [message]: type=Ghoul
-msgid "At least I'm free! How can I serve you?"
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:284
+#, fuzzy
+#| msgid "At least I'm free! How can I serve you?"
+msgid "At last I'm free! How can I serve you?"
 msgstr "Finalmente estou livre! Como posso ser-vos útil?"
 
 #. [message]: type=Orcish Assassin
-msgid "Thank you for rescueing me."
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:291
+#, fuzzy
+#| msgid "Thank you for rescueing me."
+msgid "Thank you for rescueing me, need a friendly blade?"
 msgstr "Obrigado por libertar-me."
 
 #. [message]
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:385
 msgid ""
 "We are very close now. There's a secret door somewhere here which enters the "
 "tunnel leading to our home!"
@@ -1002,6 +1243,7 @@ msgstr ""
 "no túnel que conduz à nossa casa!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:390
 msgid ""
 "As far as I remember, this door is in the middle of the desert. Let's find "
 "it, as I can hardly wait returning to our marvellous caves!"
@@ -1010,6 +1252,7 @@ msgstr ""
 "encontrá-la! Mal posso esperar para voltar as nossas cavernas maravilhosas!"
 
 #. [message]: speaker=second_unit
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:451
 msgid ""
 "I've found a magic ball at this guy. It might open the walls of the "
 "mountain..."
@@ -1017,67 +1260,83 @@ msgstr ""
 "Encontrei uma bola mágica neste tipo. Poderá abrir as paredes da montanha …"
 
 #. [message]
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:473
 msgid "Oh, no! We have run out of time, didn't manage to leave this desert..."
 msgstr "Oh, não! Ficamos sem tempo, não conseguimos deixar este deserto …"
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:498
 msgid "I'll put the ball onto the monolith."
 msgstr "Vou colocar a bola no monólito."
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:540
 msgid "Sesame opened."
 msgstr "Sésamo abre-te."
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:600
 msgid "It's a magic monolith."
 msgstr "É um monólito mágico."
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:621
 msgid "Only a leader can open this door!"
 msgstr "Só um líder pode abrir esta porta!"
 
 #. [floating_text]
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:742
 msgid "thirsty"
 msgstr "sedento"
 
 #. [floating_text]
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:748
 msgid "female^thirsty"
 msgstr "sedenta"
 
 #. [message]: id=$thirsty_units[$i].id
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:764
 msgid "I'm thirsty! Without water we'll all lose our strength in this desert!"
 msgstr ""
 "Estou sedento! Sem água iremos todos perder a nossa força neste deserto!"
 
 #. [floating_text]
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:848
 msgid "refreshed"
 msgstr "refrescado"
 
 #. [floating_text]
+#: Return_from_Captivity/scenarios/09_Open_Sesame.cfg:854
 msgid "female^refreshed"
 msgstr "refrescada"
 
 #. [scenario]: id=RfC_10_The_Tunnel
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:6
 msgid "RfC — The Tunnel"
 msgstr "RfC — O Túnel"
 
-#. [side]: id=dal_phor, type=Dwarvish Runemaster
-msgid "Allied Forces"
-msgstr "Forças Aliadas"
-
-#. [side]: id=dal_phor, type=Dwarvish Runemaster
+#. [leader]: id=dal_phor, type=Dwarvish Runemaster
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:44
 msgid "Dal Phor"
 msgstr "Dal Phor"
 
+#. [side]
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:62
+msgid "Allied Forces"
+msgstr "Forças Aliadas"
+
 #. [objective]: condition=win
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:101
 msgid "Reach the end of the tunnel with $Player1Name and $Player2Name."
 msgstr "Chega ao fim do túnel com $Player1Name e $Player2Name|."
 
 #. [message]
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:121
 msgid "Our home is at the end of this tunnel."
 msgstr "A nossa pátria fica ao fim deste túnel."
 
 #. [message]
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:126
 msgid ""
 "Hard to beleive that we reached this place. Hurry elf, I'd like to have a "
 "drink with my fellows tonight!"
@@ -1086,6 +1345,7 @@ msgstr ""
 "gostaria de ter uma bebida com os meus companheiros hoje à noite!"
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:187
 msgid ""
 "Hi Dal Phor, my old fried! How is it going? We've just escaped from "
 "Aethernum. I'm so happy to see you again!"
@@ -1094,6 +1354,7 @@ msgstr ""
 "Estou tão feliz de ver-te de novo!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:192
 msgid ""
 "Oh, I can tell you just bad news. The orcs conquered our land a year ago, "
 "and I escaped here to the tunnel!"
@@ -1102,10 +1363,12 @@ msgstr ""
 "um ano, e só eu escapei para este túnel!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:197
 msgid "Not a big deal. Then we'll take the land back!"
 msgstr "Nada de grave. Então vamos tomar a terra de volta deles!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:202
 msgid ""
 "Unfortunately the orcs are very strong, they built a fortress. Many of us "
 "tried to take it without success."
@@ -1114,6 +1377,7 @@ msgstr ""
 "dos nossos tentaram levá-la sem sucesso."
 
 #. [message]
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:207
 msgid ""
 "I walked miles fighting with thousands of enemies to reach this place. I "
 "won't turn back!"
@@ -1122,6 +1386,7 @@ msgstr ""
 "voltar atrás!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:212
 msgid ""
 "Then I'll offer my help. Many years ago, when I was younger, I've managed to "
 "tame 2 cockatrices. You know, that cockatrices are extremely wild, but these "
@@ -1134,35 +1399,42 @@ msgstr ""
 "os a vós para vos ajudar na batalha. Cuidem bem dos meus pássaros!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/10_The_Tunnel.cfg:256
 msgid "Thanks, they will be great help for us!"
 msgstr "Obrigado, serão uma grande ajuda para nós!"
 
 #. [scenario]: id=RfC_11_Returning_to_Home
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:6
 msgid "RfC — Returning to Home"
 msgstr "RfC — Retorno à Casa"
 
-#. [side]: type=Great Troll
-#. [side]: type=Orcish Warlord
+#. [side]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:63
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:113
 msgid "Orcs"
 msgstr "Orcs"
 
 #. [side]
-msgid "Undeads"
-msgstr "Morto-Vivos"
-
-#. [side]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:246
 msgid "Wose"
 msgstr "Silvano"
 
 #. [objective]: condition=win
-msgid "Reconquer your beloved homeland by defeating all usurpators."
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:272
+#, fuzzy
+#| msgid "Reconquer your beloved homeland by defeating all usurpators."
+msgid "Reconquer your homeland by defeating all usurpators."
 msgstr "Reconquista a tua terra natal e derrota todos os usurpatores"
 
 #. [objective]: condition=win
-msgid "Teach the Undead a lesson they never forget."
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:282
+#, fuzzy
+#| msgid "Teach the Undead a lesson they never forget."
+msgid "Teach the Undead a lesson they never may forget."
 msgstr "Ensina aos morto-vivos uma lição que jamais esquecerão"
 
 #. [message]: id=dal_phor
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:442
 msgid ""
 "Let's start the battle and free our people! Once the orcs closed undeads "
 "into the caves close to the monoliths. You might release them."
@@ -1172,10 +1444,12 @@ msgstr ""
 "se quiserem."
 
 #. [message]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:447
 msgid "It's a bit dangerous. And what's if they join the orcs?"
 msgstr "É um pouco perigoso. E o que é se eles se juntarem aos orcs?"
 
 #. [message]: id=dal_phor
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:451
 msgid ""
 "They are so angry with them, that they will never join them. Either you "
 "release them or not, be careful!"
@@ -1184,19 +1458,23 @@ msgstr ""
 "ou não, mas como seja, tomem cuidado!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:456
 msgid "Thanks for the suggestion. We'll think it over!"
 msgstr "Obrigado pela sugestão. Vamos pensar sobre isso!"
 
 #. [message]: speaker=unit
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:469
 msgid "I die now, friends... At least I will rest at my homeland."
 msgstr ""
 "Estou a morrer, amigos … Pelo menos vou descansar na minha terra natal."
 
 #. [message]: speaker=narrator
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:493
 msgid "Do you want to open this door to release the undeads?"
 msgstr "Queres abrir esta porta para libertar os morto-vivos?"
 
 #. [message]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:710
 msgid ""
 "Hey, the enemies are so numerous, that we can't win even with hundred "
 "cockatrices!"
@@ -1205,12 +1483,15 @@ msgstr ""
 "centena de basiliscos!"
 
 #. [message]: id=dal_phor
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:714
 msgid ""
 "Don't underestimate the power of the cockatrices! You can create barricades "
 "with them!"
 msgstr "Não subestimem o poder dos basiliscos! Podem criar barreiras com eles!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:746
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:782
 msgid ""
 "Hello elf and dwarf friends! We've heard that you are in trouble, so we "
 "woses decided to help you."
@@ -1219,6 +1500,7 @@ msgstr ""
 "Silvanos decidiram ajudar-vos."
 
 #. [message]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:750
 msgid ""
 "Hi woses! Nice to see you, but you shouldn't come here. We can't win this "
 "battle as the orcs and trolls reinforces their army!"
@@ -1228,6 +1510,8 @@ msgstr ""
 "cada hora!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:754
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:794
 msgid ""
 "Don't worry about them, we cut the reinforcement paths, just go ahead and "
 "defeat them!"
@@ -1236,10 +1520,12 @@ msgstr ""
 "frente e derrotam-os!"
 
 #. [message]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:786
 msgid "Hey Brumennarorum, so nice to see you again."
 msgstr "Olá Brumennarorum, é tão bom ver-te de novo."
 
 #. [message]
+#: Return_from_Captivity/scenarios/11_Returning_to_Home.cfg:790
 msgid ""
 "Hi Brumennarorum, nice to see you, but you shouldn't come here. We can't win "
 "this battle as the orcs and trolls reinforces their army!"
@@ -1250,30 +1536,42 @@ msgstr ""
 
 #. [terrain_type]: id=door-se
 #. [terrain_type]: id=door-sw
+#: Return_from_Captivity/terrain/terrain.cfg:7
+#: Return_from_Captivity/terrain/terrain.cfg:15
 msgid "Gate"
 msgstr "Portão"
 
 #. [terrain_type]: id=DesertCampfire
+#: Return_from_Captivity/terrain/terrain.cfg:25
 msgid "Campfire"
 msgstr "Fogueira"
 
 #. [terrain_type]: id=stone_ring
+#: Return_from_Captivity/terrain/terrain.cfg:35
+#, fuzzy
+#| msgid "White Ring"
 msgid "Stone Ring"
-msgstr ""
+msgstr "Anel Branco"
 
 #. [terrain_type]: id=stone_ring_keep
+#: Return_from_Captivity/terrain/terrain.cfg:46
+#, fuzzy
+#| msgid "Gate Keeper"
 msgid "Stone Keep"
-msgstr ""
+msgstr "Guarda do Portão"
 
 #. [terrain_type]: id=temple_castle
+#: Return_from_Captivity/terrain/terrain.cfg:59
 msgid "Temple"
 msgstr "Templo"
 
 #. [unit_type]: id=RfC Alchemist, race=dwarf
+#: Return_from_Captivity/units/Alchemist.cfg:7
 msgid "Dwarvish Alchemist"
 msgstr "Alquimista Anão"
 
 #. [unit_type]: id=RfC Alchemist, race=dwarf
+#: Return_from_Captivity/units/Alchemist.cfg:26
 msgid ""
 "The practice of Alchemy among Dwarves began as an attempt to produce gold "
 "and other valuable resources from worthless rock. A dismal failure, the "
@@ -1287,18 +1585,26 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
+#: Return_from_Captivity/units/Alchemist.cfg:43
+#: Return_from_Captivity/units/Master_of_Alchemy.cfg:42
+#: Return_from_Captivity/units/Potion_Smith.cfg:42
 msgid "morningstar"
 msgstr "mangual"
 
 #. [attack]: type=impact
+#: Return_from_Captivity/units/Alchemist.cfg:122
+#: Return_from_Captivity/units/Master_of_Alchemy.cfg:121
+#: Return_from_Captivity/units/Potion_Smith.cfg:122
 msgid "bolas"
 msgstr "bolas"
 
 #. [unit_type]: id=RfC Giant Ant, race=monster
+#: Return_from_Captivity/units/Ant.cfg:5
 msgid "Giant Ant"
 msgstr "Formiga Gigante"
 
 #. [unit_type]: id=RfC Giant Ant, race=monster
+#: Return_from_Captivity/units/Ant.cfg:20
 msgid ""
 "Giant Ants are common in almost any environment, from caverns deep under the "
 "earth to the tops of tall mountains. Though normally not hostile, they can "
@@ -1310,14 +1616,18 @@ msgstr ""
 
 #. [attack]: type=blade
 #. [attack]: type=pierce
+#: Return_from_Captivity/units/Ant.cfg:25
+#: Return_from_Captivity/units/Desert_Cobra.cfg:24
 msgid "fangs"
 msgstr "presas"
 
 #. [unit_type]: id=RfC Cockatrice, race=monster
+#: Return_from_Captivity/units/Cockatrice.cfg:5
 msgid "Cockatrice"
 msgstr "Basilisco"
 
 #. [unit_type]: id=RfC Cockatrice, race=monster
+#: Return_from_Captivity/units/Cockatrice.cfg:19
 msgid ""
 "Sometimes known as 'basilisks', these mystical creatures are said to be able "
 "to turn the living to stone. Needless to say, this makes them extremely "
@@ -1328,14 +1638,17 @@ msgstr ""
 "extremamente perigosos."
 
 #. [attack]: type=cold
+#: Return_from_Captivity/units/Cockatrice.cfg:23
 msgid "gaze"
 msgstr "olhar"
 
 #. [unit_type]: id=RfC Desert Cobra, race=monster
+#: Return_from_Captivity/units/Desert_Cobra.cfg:5
 msgid "Desert Cobra"
 msgstr "Cobra do deserto"
 
 #. [unit_type]: id=RfC Desert Cobra, race=monster
+#: Return_from_Captivity/units/Desert_Cobra.cfg:19
 msgid ""
 "Desert cobras are extremely dangerous. They can poison their enemies and "
 "hide in the sand."
@@ -1344,10 +1657,14 @@ msgstr ""
 "inimigos e se esconder na areia."
 
 #. [unit_type]: id=RfC Dwarvish Flamethrower, race=dwarf
+#: Return_from_Captivity/units/Dwarvish_Flamethower.cfg:6
+#, fuzzy
+#| msgid "Dwarvish Ulfserker"
 msgid "Dwarvish Flamethrower"
-msgstr ""
+msgstr "Anão Frenético"
 
 #. [unit_type]: id=RfC Dwarvish Flamethrower, race=dwarf
+#: Return_from_Captivity/units/Dwarvish_Flamethower.cfg:33
 msgid ""
 "It is said that the Dwarven Flamethrowers have strange staves of wood and "
 "iron, similar to those of the Thunderguards. But instead of making a "
@@ -1356,22 +1673,28 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=RfC_RocMaster, race=goblin, description=
+#: Return_from_Captivity/units/Eagle_Master.cfg:5
 msgid "Eagle Master"
 msgstr "Mestre de águias"
 
 #. [attack]: type=blade
+#: Return_from_Captivity/units/Eagle_Master.cfg:73
+#: Return_from_Captivity/units/Eagle_Rider.cfg:72
 msgid "claws"
 msgstr "garras"
 
 #. [attack]: type=pierce
+#: Return_from_Captivity/units/Eagle_Master.cfg:82
 msgid "bow"
 msgstr "arco"
 
 #. [unit_type]: id=RfC_RocRider, race=goblin
+#: Return_from_Captivity/units/Eagle_Rider.cfg:5
 msgid "Eagle Rider"
 msgstr "Montador de águias"
 
 #. [unit_type]: id=RfC_RocRider, race=goblin
+#: Return_from_Captivity/units/Eagle_Rider.cfg:26
 msgid ""
 "The Rocs of Thornspire Mountain had long grown fat off the flesh of the "
 "goblins who lived below. It took one particularly mad and foolhardy goblin "
@@ -1394,10 +1717,12 @@ msgstr ""
 "gritos de guerra é o único aviso do perigo iminente."
 
 #. [unit_type]: id=RfC Master of Alchemy, race=dwarf
+#: Return_from_Captivity/units/Master_of_Alchemy.cfg:5
 msgid "Dwarvish Master of Alchemy"
 msgstr "Mestre Alquimista Anão"
 
 #. [unit_type]: id=RfC Master of Alchemy, race=dwarf
+#: Return_from_Captivity/units/Master_of_Alchemy.cfg:25
 msgid ""
 "After having at least five decades of experience, an Alchemist may finally "
 "be able to earn the title 'Master of Alchemy', awarded yearly to elder "
@@ -1410,10 +1735,12 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=RfC Orcish Woodcutter, race=orc
+#: Return_from_Captivity/units/Orcish_Woodcutter.cfg:5
 msgid "Orcish Woodcutter"
 msgstr "Lenhador orc"
 
 #. [unit_type]: id=RfC Orcish Woodcutter, race=orc
+#: Return_from_Captivity/units/Orcish_Woodcutter.cfg:19
 msgid ""
 "The Orcish woodcutters destroy the forest by cutting the forest terrains. "
 "Each destroyed forest terrain gives 5 gold income to the owner of the unit."
@@ -1422,18 +1749,22 @@ msgstr ""
 "Cada floresta destruída dá 5 peças de ouro ao proprietário da unidade."
 
 #. [attack]: type=blade
+#: Return_from_Captivity/units/Orcish_Woodcutter.cfg:33
 msgid "axe"
 msgstr "machado"
 
 #. [attack]: type=blade
+#: Return_from_Captivity/units/Orcish_Woodcutter.cfg:42
 msgid "hatchet"
 msgstr "machadinha"
 
 #. [unit_type]: id=RfC Potion Smith, race=dwarf
+#: Return_from_Captivity/units/Potion_Smith.cfg:5
 msgid "Dwarvish Potion Smith"
 msgstr "Curandeiro Anão"
 
 #. [unit_type]: id=RfC Potion Smith, race=dwarf
+#: Return_from_Captivity/units/Potion_Smith.cfg:24
 msgid ""
 "The first 'Potion Smiths' were mockingly named by rival Runesmiths who "
 "believed that devoting one's time to the study of mixing potions and leaves "
@@ -1445,10 +1776,12 @@ msgid ""
 msgstr ""
 
 #. [unit_type]: id=RfC Elf Raindancer, race=elf
+#: Return_from_Captivity/units/Raindancer.cfg:5
 msgid "Elf Raindancer"
 msgstr "Elfo Dançarino da Chuva"
 
 #. [unit_type]: id=RfC Elf Raindancer, race=elf
+#: Return_from_Captivity/units/Raindancer.cfg:18
 msgid ""
 "The Sidhe nobility are powerful mages. They have concentrated their powers "
 "on the calling of lighting from an otherwise clear sky, and their dancing "
@@ -1463,18 +1796,30 @@ msgstr ""
 "mais propensos a ir praticar a sua esgrima do que a sua magia."
 
 #. [attack]: type=blade
+#: Return_from_Captivity/units/Raindancer.cfg:76
+#: Return_from_Captivity/units/Tempest.cfg:43
+#: Return_from_Captivity/units/Warmage.cfg:24
+#: Return_from_Captivity/units/Windlasher.cfg:43
 msgid "sword"
 msgstr "espada"
 
 #. [attack]: type=fire
+#: Return_from_Captivity/units/Raindancer.cfg:88
+#: Return_from_Captivity/units/Stormlord.cfg:37
+#: Return_from_Captivity/units/Tempest.cfg:52
+#: Return_from_Captivity/units/Thunderblade.cfg:37
+#: Return_from_Captivity/units/Warmage.cfg:36
+#: Return_from_Captivity/units/Windlasher.cfg:52
 msgid "lightning"
 msgstr "relâmpago"
 
 #. [unit_type]: id=RfC Elf Stormlord, race=elf
+#: Return_from_Captivity/units/Stormlord.cfg:5
 msgid "Elf Stormlord"
 msgstr "Elfo Senhor do Trovão"
 
 #. [unit_type]: id=RfC Elf Stormlord, race=elf
+#: Return_from_Captivity/units/Stormlord.cfg:19
 msgid ""
 "A Stormlord has spent his entire life studying magic. He has sacrificed all "
 "else for this goal - including his skill with the sword. In exchange he has "
@@ -1495,14 +1840,17 @@ msgstr ""
 "estudar magia em primeiro lugar."
 
 #. [attack]: type=impact
+#: Return_from_Captivity/units/Stormlord.cfg:24
 msgid "lightning staff"
 msgstr "bastão do trovão"
 
 #. [unit_type]: id=RfC Elf Tempest, race=elf
+#: Return_from_Captivity/units/Tempest.cfg:5
 msgid "Elf Tempest"
 msgstr "Elfo Tempestade"
 
 #. [unit_type]: id=RfC Elf Tempest, race=elf
+#: Return_from_Captivity/units/Tempest.cfg:18
 msgid ""
 "The Tempest aims to make his magic live up to his name. He calls down "
 "lightning from the sky, using magic whose raw destructive power is almost "
@@ -1513,10 +1861,12 @@ msgstr ""
 "é quase inigualável."
 
 #. [unit_type]: id=RfC Elf Thunderblade, race=elf
+#: Return_from_Captivity/units/Thunderblade.cfg:5
 msgid "Elf Thunderblade"
 msgstr "Elfo Lâmina do Trovão"
 
 #. [unit_type]: id=RfC Elf Thunderblade, race=elf
+#: Return_from_Captivity/units/Thunderblade.cfg:19
 msgid ""
 "When Vanimaro, the first King of the Sidhe, died in battle, the shards of "
 "his mighty sword were collected and kept preciously by the greatest elf "
@@ -1535,14 +1885,17 @@ msgstr ""
 "sobre as várias florestas Sidhe e sobre os exércitos daqueles."
 
 #. [attack]: type=blade
+#: Return_from_Captivity/units/Thunderblade.cfg:24
 msgid "thunderblade"
 msgstr "lamina do trovão"
 
 #. [unit_type]: id=RfC Elf Warmage, race=elf
+#: Return_from_Captivity/units/Warmage.cfg:5
 msgid "Elf War Mage"
 msgstr "Elfo Mago de guerra"
 
 #. [unit_type]: id=RfC Elf Warmage, race=elf
+#: Return_from_Captivity/units/Warmage.cfg:19
 msgid ""
 "Few Sidhe are capable of staying away from battle for long. The War Mages "
 "are elf nobility who, though trained as mages, spend most of their time with "
@@ -1555,10 +1908,12 @@ msgstr ""
 "facilmente iguala a de um guerreiro, e a sua magia é um aliado bem-vindo."
 
 #. [unit_type]: id=RfC Elf Windlasher, race=elf
+#: Return_from_Captivity/units/Windlasher.cfg:5
 msgid "Elf Windlasher"
 msgstr "Açoite do Vento"
 
 #. [unit_type]: id=RfC Elf Windlasher, race=elf
+#: Return_from_Captivity/units/Windlasher.cfg:18
 msgid ""
 "Those Raindancers who wish to focus all of their energy on the study of "
 "magic must follow the path of the Windlasher. They do not have the master-"
@@ -1578,12 +1933,16 @@ msgstr ""
 "profunda contemplação."
 
 #. [unit_type]: id=RfC Human Druid, race=human
+#: Return_from_Captivity/units/human_druid.cfg:5
 msgid "Druid"
 msgstr "Druida"
 
 #. [unit_type]: id=RfC Human Druid, race=human
 #. [unit_type]: id=RfC Human Shaman, race=human
 #. [unit_type]: id=RfC Human Warlock, race=human
+#: Return_from_Captivity/units/human_druid.cfg:21
+#: Return_from_Captivity/units/human_shaman.cfg:21
+#: Return_from_Captivity/units/human_warlock.cfg:22
 msgid ""
 "These human warriors at the beginning are young alchemists who, banished "
 "from their native villages having broken the law or having practiced "
@@ -1609,38 +1968,51 @@ msgstr ""
 "seus bastões, que são símbolos do seu poder."
 
 #. [attack]: type=impact
+#: Return_from_Captivity/units/human_druid.cfg:129
+#: Return_from_Captivity/units/human_shaman.cfg:97
+#: Return_from_Captivity/units/human_warlock.cfg:98
 msgid "staff"
 msgstr "bastão"
 
 #. [attack]: type=fire
+#: Return_from_Captivity/units/human_druid.cfg:138
 msgid "missile"
 msgstr "míssil"
 
 #. [unit_type]: id=RfC Human Shaman, race=human
+#: Return_from_Captivity/units/human_shaman.cfg:5
 msgid "Shaman"
 msgstr "Curandeiro"
 
 #. [attack]: type=fire
+#: Return_from_Captivity/units/human_shaman.cfg:106
+#: Return_from_Captivity/units/human_warlock.cfg:108
 msgid "fireball"
 msgstr "bola de fogo"
 
 #. [unit_type]: id=RfC Human Warlock, race=human
+#: Return_from_Captivity/units/human_warlock.cfg:5
 msgid "Warlock"
 msgstr "Mago de guerra"
 
 #. [regenerate]: id=healing
+#: Return_from_Captivity/utils/abilities.cfg:12
 msgid "desert"
 msgstr "deserto"
 
 #. [regenerate]: id=healing
+#: Return_from_Captivity/utils/abilities.cfg:13
 msgid "This unit will regenerate 3 hp when in desert or sand."
 msgstr "Esta unidade irá regenerar 3 HP enquanto em areia ou deserto."
 
 #. [hides]: id=rfc_camouflage
+#: Return_from_Captivity/utils/abilities.cfg:21
+#: Return_from_Captivity/utils/abilities.cfg:22
 msgid "camouflage"
 msgstr "camuflagem"
 
 #. [hides]: id=rfc_camouflage
+#: Return_from_Captivity/utils/abilities.cfg:23
 msgid ""
 "This unit can hide in sand and desert, and remain undetected by its "
 "enemies.\n"
@@ -1657,10 +2029,13 @@ msgstr ""
 "esta unidade imediatamente perde todo o seu restantes pontos de movimento."
 
 #. [hides]: id=rfc_invisibility
+#: Return_from_Captivity/utils/abilities.cfg:40
+#: Return_from_Captivity/utils/abilities.cfg:41
 msgid "invisibility"
 msgstr "invisibilidade"
 
 #. [hides]: id=rfc_invisibility
+#: Return_from_Captivity/utils/abilities.cfg:42
 msgid ""
 "This unit is invisible by its enemies.\n"
 "\n"
@@ -1675,14 +2050,18 @@ msgstr ""
 "todo o seu restantes pontos de movimento."
 
 #. [chance_to_hit]: id=rfc_dance
+#: Return_from_Captivity/utils/abilities.cfg:54
+#: Return_from_Captivity/utils/abilities.cfg:55
 msgid "dancer"
 msgstr "dançarino"
 
 #. [chance_to_hit]: id=rfc_dance
+#: Return_from_Captivity/utils/abilities.cfg:56
 msgid "female^dancer"
 msgstr "dançarina"
 
 #. [chance_to_hit]: id=rfc_dance
+#: Return_from_Captivity/utils/abilities.cfg:57
 msgid ""
 "This unit always has a defense of 60% when attacking while not standing in "
 "water, because the enemy cannot get a direct hit."
@@ -1691,10 +2070,14 @@ msgstr ""
 "água, porque o inimigo não consegue ter um golpe directo."
 
 #. [weapon_special_stun]: id=rfc_stun
+#: Return_from_Captivity/utils/abilities.cfg:73
+#: Return_from_Captivity/utils/abilities.cfg:74
 msgid "stun"
 msgstr "atordoar"
 
 #. [weapon_special_stun]: id=rfc_stun
+#: Return_from_Captivity/utils/abilities.cfg:75
+#: Return_from_Captivity/utils/abilities.cfg:76
 msgid ""
 "This attack hits so hard that the opponent is dazed and can no longer "
 "enforce a zone of control. The effect wears off on the opponent’s next turn."
@@ -1704,25 +2087,70 @@ msgstr ""
 "defensores."
 
 #. [floating_text]
+#: Return_from_Captivity/utils/abilities.cfg:157
 msgid "female^stunned"
 msgstr "atordoada"
 
 #. [floating_text]
+#: Return_from_Captivity/utils/abilities.cfg:163
 msgid "stunned"
 msgstr "atordoado"
 
 #. [trait]: id=rfc_bragart
+#: Return_from_Captivity/utils/traits.cfg:6
 msgid "braggart"
 msgstr "fanfarão"
 
 #. [trait]: id=rfc_bragart
+#: Return_from_Captivity/utils/traits.cfg:7
 msgid "+30% damage when surrounded by enemies"
 msgstr "+30% de dano quando circunscrito por inimigos"
 
 #. [trait]: id=rfc_warily
+#: Return_from_Captivity/utils/traits.cfg:40
 msgid "warily"
 msgstr "cuidadoso"
 
 #. [trait]: id=rfc_warily
+#: Return_from_Captivity/utils/traits.cfg:41
 msgid "better movement and defense in caves"
 msgstr "melhor defesa e movimento em cavernas"
+
+#: Return_from_Captivity/utils/utils.cfg:20
+#: Return_from_Captivity/utils/utils.cfg:50
+msgid "Allies"
+msgstr "Aliados"
+
+#~ msgid "Lord"
+#~ msgstr "Lorde"
+
+#~ msgid "Player1"
+#~ msgstr "Jogador1"
+
+#~ msgid "Player2"
+#~ msgstr "Jogador2"
+
+#~ msgid "They are more thought than expected. Call of the reinforcements!"
+#~ msgstr "São mais difíceis de derrotar do que pensado. Chamem os reforços!"
+
+#~ msgid ""
+#~ "Thank you for letting us free! Now we join to fight on the dwarves' side!"
+#~ msgstr ""
+#~ "Obrigado por libertarem-nos! Agora, unimos-nos para lutar ao lado dos "
+#~ "anões!"
+
+#~ msgid "Reach south-east part of the map."
+#~ msgstr "Chega a parte sudeste do mapa."
+
+#~ msgid ""
+#~ "Cross the river with $Player2Name and reach one of the signposts at the "
+#~ "north-east part of the map."
+#~ msgstr ""
+#~ "Atravessa o rio com $Player2Name e chega a um dos marcos no noroeste do "
+#~ "mapa."
+
+#~ msgid "Get out of the labyrinth with $Player1Name and $Player2Name."
+#~ msgstr "Escapa do labirinto com $Player1Name e $Player2Name."
+
+#~ msgid "Undeads"
+#~ msgstr "Morto-Vivos"

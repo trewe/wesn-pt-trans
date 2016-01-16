@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-03 21:30+0100\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2016-01-16 18:40+0000\n"
 "PO-Revision-Date: 2014-03-09 21:11+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -17,59 +17,85 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. [modification]: id=xY_Random_No_Mirror
+#. [modification]: id=Random_No_Mirror
+#: Random_No_Mirror/_main.cfg:11
 msgid "Random No Mirror"
 msgstr "Aleatório Sem Facção Espelhada"
 
-#. [modification]: id=xY_Random_No_Mirror
+#. [modification]: id=Random_No_Mirror
+#: Random_No_Mirror/_main.cfg:12
 msgid ""
 "Forces a random faction from the selected era to be choosen and avoids "
 "mirrors."
 msgstr "Força uma facção aleatória sem igual da era seleccionada na batalha."
 
-#. [modification]: id=xY_Leader_Traits
-msgid "Traits for Leaders"
-msgstr "Feições para líderes"
-
-#. [checkbox]: id=xY_Random_Traits_nerf_leadership_units
-msgid "Aged Trait for units with leadership"
-msgstr "Dê a feição idoso a unidades com liderança"
-
-#. [checkbox]: id=xY_Random_Traits_nerf_healing_units
-msgid "Dim Trait for healers"
-msgstr "Dê a feição asno a curandeiros"
-
-#. [checkbox]: id=xY_Random_Traits_nerf_units_with_specials
-msgid "Weak Trait for units with special abilities"
-msgstr "Dê a feição fraco a unidades com especialidades especiais"
-
-#. [modification]: id=xY_Pick_Your_Recruits
+#. [modification]: id=Yet_Another_Pick_Your_Recruits
+#: Random_No_Mirror/_main.cfg:19
 msgid "Pick Your Recruits"
 msgstr "Escolha os Teus Recrutas"
 
-#. [modification]: id=xY_Pick_Your_Recruits
+#. [modification]: id=Yet_Another_Pick_Your_Recruits
+#: Random_No_Mirror/_main.cfg:20
 msgid "Choose your recruits from the selected era at game start"
 msgstr "Escolha os teus recrutas da era seleccionada no inicio da partida."
 
-#. [slider]: id=xY_PYR_recruits
+#. [slider]: id=YA_PYR_recruits
+#: Random_No_Mirror/_main.cfg:26
 msgid "Recruits"
 msgstr "Recrutamentos"
 
-#. [slider]: id=xY_PYR_recruits
+#. [slider]: id=YA_PYR_recruits
+#: Random_No_Mirror/_main.cfg:27
 msgid "Choose how many recruits are allowed to pick up"
 msgstr "Define quantos recrutamentos são permitidos"
 
-#. [slider]: id=xY_PYR_gold
+#. [slider]: id=YA_PYR_gold, description=How much gold can be spended for recruits
+#: Random_No_Mirror/_main.cfg:35
 msgid "Gold"
 msgstr "Ouro"
 
-#. [slider]: id=xY_PYR_gold
-msgid "How much gold can be spended for recruits"
-msgstr "Define quando ouro é permitido gastar para escolher os recrutas"
+#. [modification]: id=Nerf_Special_Leaders
+#: Random_No_Mirror/_main.cfg:48
+#, fuzzy
+#| msgid "Leader: "
+msgid "Leader Traits"
+msgstr "Líder: "
 
-msgid "Automatic End Turn"
+#. [modification]: id=Nerf_Special_Leaders
+#: Random_No_Mirror/_main.cfg:49
+#, fuzzy
+#| msgid "Weak Trait for units with special abilities"
+msgid "Adds (negative) traits to leaders carrying special abilities"
+msgstr "Dê a feição fraco a unidades com especialidades especiais"
+
+#. [checkbox]: id=Random_Traits_nerf_leadership_units
+#: Random_No_Mirror/_main.cfg:54
+#, fuzzy
+#| msgid "Aged Trait for units with leadership"
+msgid "Aged Trait for leaders with leadership"
+msgstr "Dê a feição idoso a unidades com liderança"
+
+#. [checkbox]: id=Random_Traits_nerf_healing_units
+#: Random_No_Mirror/_main.cfg:59
+#, fuzzy
+#| msgid "Dim Trait for healers"
+msgid "Dim Trait for healing leaders"
+msgstr "Dê a feição asno a curandeiros"
+
+#. [checkbox]: id=Random_Traits_nerf_units_with_specials
+#: Random_No_Mirror/_main.cfg:64
+#, fuzzy
+#| msgid "Weak Trait for units with special abilities"
+msgid "Weak Trait for leaders with special abilities"
+msgstr "Dê a feição fraco a unidades com especialidades especiais"
+
+#: Random_No_Mirror/_main.cfg:73
+#, fuzzy
+#| msgid "Automatic End Turn"
+msgid "Automatic Ends Turn"
 msgstr "Terminar Turno Automático"
 
+#: Random_No_Mirror/_main.cfg:74
 msgid ""
 "Automatically ends your turn if no units are able to either move, attack or "
 "recruit. (use with care)"
@@ -78,26 +104,32 @@ msgstr ""
 "mover-se, atacar ou recrutar (usa com cuidado)"
 
 #. [set_menu_item]: id=PYR_reset_picks
+#: Random_No_Mirror/utils/PYR.cfg:67
 msgid "Show current recruits"
 msgstr "Mostra recrutas actuais"
 
 #. [value]
+#: Random_No_Mirror/utils/PYR.cfg:78
 msgid "Discard $PYR_side_$side_number|_current_recruits[$i_temp].language_name"
 msgstr "Anular $PYR_side_$side_number|_current_recruits[$i_temp].language_name"
 
 #. [message]: speaker=narrator
+#: Random_No_Mirror/utils/PYR.cfg:107
 msgid "Manage your current recruits"
 msgstr "Gerir os teus recrutas actuais"
 
 #. [option]: speaker=narrator
+#: Random_No_Mirror/utils/PYR.cfg:113
 msgid "Nevermind"
 msgstr "Esquece"
 
 #. [message]: speaker=narrator
+#: Random_No_Mirror/utils/PYR.cfg:161
 msgid "Pick Your Recruits Mod"
 msgstr "Modificação Escolha dos Recrutas"
 
 #. [message]: speaker=narrator
+#: Random_No_Mirror/utils/PYR.cfg:162
 msgid ""
 "<span color='black'>-</span>\n"
 "In a <b>Pick Your Recruits</b> game, you spend the first turn choosing which "
@@ -129,10 +161,12 @@ msgstr ""
 "altura no menu do botão direito do rato."
 
 #. [message]: speaker=narrator
+#: Random_No_Mirror/utils/PYR.cfg:214
 msgid "$unit.language_name has been added to your recruitlist"
 msgstr "$unit.language_name foi adicionado a tua lista de recrutamento"
 
 #. [message]: speaker=narrator
+#: Random_No_Mirror/utils/PYR.cfg:216
 msgid ""
 "Your current recruits:\n"
 "<i>$PYR_temp</i>"
@@ -141,9 +175,16 @@ msgstr ""
 "<i>$PYR_temp</i>"
 
 #. [message]: speaker=narrator
+#: Random_No_Mirror/utils/PYR.cfg:243
 msgid ""
 "The game now begins normally with everyone having the proper starting gold "
 "and the recruit list they picked on the first turn."
 msgstr ""
 "A partida começa agora normalmente com todos a terem o ouro inicial "
 "predefinido e os recrutas escolhidos no primeiro turno."
+
+#~ msgid "Traits for Leaders"
+#~ msgstr "Feições para líderes"
+
+#~ msgid "How much gold can be spended for recruits"
+#~ msgstr "Define quando ouro é permitido gastar para escolher os recrutas"

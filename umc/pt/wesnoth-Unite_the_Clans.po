@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-11 15:03+0200\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2016-01-16 18:40+0000\n"
 "PO-Revision-Date: 2014-06-19 14:25-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -19,15 +19,19 @@ msgstr ""
 
 #. [campaign]: id=Unite the Clans
 #. [scenario]: id=Unite_the_Clans
+#: Unite_the_Clans/_main.cfg:9 Unite_the_Clans/scenarios/Unite_the_Clans.cfg:5
 msgid "Unite the Clans"
 msgstr "Reúne as Tribos"
 
 #. [campaign]: id=Unite the Clans
+#: Unite_the_Clans/_main.cfg:10
 msgid "UTC"
 msgstr "RaT"
 
 #. [campaign]: id=Unite the Clans
 #. [part]
+#: Unite_the_Clans/_main.cfg:13
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:17
 msgid ""
 "Aimed to be a minimalist campaign. A young warchief have to unite all local "
 "clans and defend against invading knights, whose aim is to prevent the orcs "
@@ -38,22 +42,27 @@ msgstr ""
 "angariar o poder na região."
 
 #. [about]
+#: Unite_the_Clans/_main.cfg:29
 msgid "Made by Stanislav Hoferek"
 msgstr "Feito por Stanilav Hoferek"
 
 #. [side]: type=Orcish Ruler, id=Maihern
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:29
 msgid "your_leader_male^Maihern"
 msgstr "Maihern"
 
 #. [objective]: condition=win
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:90
 msgid "Defeat trolls, goblins and human knights"
 msgstr "Derrota os trogloditas, os gnomos e todos os cavaleiros humanos"
 
 #. [objective]: condition=lose
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:94
 msgid "Death of Maihern"
 msgstr "Morte de Maihern"
 
 #. [message]: speaker=Maihern
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:188
 msgid ""
 "Those damned knights are back! They must've heard about my plan, to conquer "
 "trolls and goblins. I must destroy these humans if I were to unite the clans!"
@@ -63,6 +72,7 @@ msgstr ""
 "quero unir as tribos!"
 
 #. [message]: speaker=Maihern
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:196
 msgid ""
 "Great! Orcs, goblins and trolls will fight under one banner. Now it is our "
 "time to control our destiny."
@@ -71,10 +81,14 @@ msgstr ""
 "lado a lado. É tempo de tomar as rédeas do nosso destino."
 
 #. [message]: speaker=unit
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:206
 msgid "Argh, I am dying! Orcs will be weak without a strong leader."
 msgstr "Arre, estou a morrer! A minha tribo será demasiada fraca sem um líder."
 
 #. [message]: speaker=Maihern
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:267
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:319
+#: Unite_the_Clans/scenarios/Unite_the_Clans.cfg:374
 msgid ""
 "More warriors are here to fight at our side! I can also recruit new units!"
 msgstr ""

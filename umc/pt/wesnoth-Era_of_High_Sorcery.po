@@ -6,17 +6,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2014-06-09 12:05+0100\n"
+"POT-Creation-Date: 2016-01-16 18:39+0000\n"
 "PO-Revision-Date: 2014-06-09 12:17-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
-"Language: pt_PT\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.6.4\n"
 
+#: Era_of_High_Sorcery/_main.cfg:14
 msgid ""
 "Era of High Sorcery (EoHS) is an era where your leader is a powerful wizard "
 "whose spells can alter the nature of the entire battlefield (sometimes "
@@ -46,31 +47,38 @@ msgstr ""
 
 # String concatination? :/
 #. [multiplayer_side]: id=EoHS_Faction, type=Red Mage
+#: Era_of_High_Sorcery/_main.cfg:170
 msgid "Wizards (v"
 msgstr "Magos (v"
 
 #. [era]: id=EoHS: Era of High Sorcery, description={EOHS_DESCRIPTION}
+#: Era_of_High_Sorcery/_main.cfg:180
 msgid "EoHS: Era of High Sorcery"
 msgstr "EdAM: Era da Alta Magia"
 
 #. [era]: id=EoHS: Era of High Sorcery, description={EOHS_DESCRIPTION}
+#: Era_of_High_Sorcery/_main.cfg:183
 msgid "Default"
 msgstr "Padrão"
 
 #. [era]: id=EoHS: Alternative settings, description={EOHS_DESCRIPTION}
+#: Era_of_High_Sorcery/_main.cfg:188
 msgid "EoHS: Alternative settings"
 msgstr "EdAM: Configuração alternativa"
 
 #. [era]: id=EoHS: Alternative settings, description={EOHS_DESCRIPTION}
+#: Era_of_High_Sorcery/_main.cfg:190
 msgid "Alt settings"
 msgstr "Definições alternativas"
 
 #. [modification]: id=EoHS with any era
+#: Era_of_High_Sorcery/_main.cfg:196
 msgid "EoHS with any era"
 msgstr "Jogar a era em conjunto com qualquer outra"
 
 #. [modification]: id=EoHS with any era
 #. [modification]: id=EoHS with any era: Alternative settings
+#: Era_of_High_Sorcery/_main.cfg:197 Era_of_High_Sorcery/_main.cfg:206
 msgid ""
 "In this version of EoHS, the alliances are replaced with the factions from "
 "whatever era you choose.\n"
@@ -81,93 +89,171 @@ msgstr ""
 "\n"
 
 #. [modification]: id=EoHS with any era: Alternative settings
+#: Era_of_High_Sorcery/_main.cfg:205
 msgid "EoHS with any era: Alternative settings"
 msgstr "EdAM com qualquer era: Configuração alternativa "
 
-msgid "You can't use actions while transformed."
-msgstr "Não podes executar qualquer acções enquanto estiveres transformado."
+#: Era_of_High_Sorcery/lua_files/actions.cfg:166
+#, fuzzy
+#| msgid "Scroll To"
+msgid "Scroll of $1|"
+msgstr "Ir Para"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:196
 msgid "Transformed:"
 msgstr "Transformado:"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:196
+#, fuzzy
+#| msgid "You can't use actions while transformed."
+msgid "You can't cast spells while transformed."
+msgstr "Não podes executar qualquer acções enquanto estiveres transformado."
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:200
+#, fuzzy
+#| msgid "Scroll"
+msgid "Scroll:"
+msgstr "Rolar"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:201
+msgid "A unit can't use a scroll it was given on the same turn."
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:207
+msgid "Circle of protection:"
+msgstr "Círculo de Protecção:"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:208
 msgid "You can't target any action at an enemy circle of protection."
 msgstr ""
 "Não podes dirigir uma acção a um inimigo dentro do seu círculo de protecção."
 
-msgid "Circle of protection:"
-msgstr "Círculo de Protecção:"
-
+#: Era_of_High_Sorcery/lua_files/actions.cfg:215
 msgid "AP:"
 msgstr "PA:"
 
-msgid "You will transmute $1| gold into mana"
-msgstr "Irás converter $1| peças de ouro em mana"
-
+#: Era_of_High_Sorcery/lua_files/actions.cfg:223
 msgid "Mana cost:"
 msgstr "Custo em Mana:"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:231
+msgid "You will transmute $1| gold into mana"
+msgstr "Irás converter $1| peças de ouro em mana"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:239
 msgid "Gold cost:"
 msgstr "Custo em Ouro:"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:246
 msgid "Target type:"
 msgstr "Tipo de Alvo:"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:256
 msgid "Range:"
 msgstr "Alcance:"
 
-msgid "Mana: "
-msgstr "Mana: "
-
-msgid "Gold: "
-msgstr "Ouro: "
-
-msgid "Total: "
-msgstr "Total: "
-
-msgid "AP: "
-msgstr "PA:"
-
-msgid "Target"
-msgstr "Alvo"
-
-msgid "Range"
-msgstr "Alcance"
-
+#: Era_of_High_Sorcery/lua_files/actions.cfg:351
 msgid "AP"
 msgstr "AP"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:351
 msgid "Mana"
 msgstr "Mana"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:351
+msgid "Target"
+msgstr "Alvo"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:351
+msgid "Range"
+msgstr "Alcance"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:412
 msgid "Use"
 msgstr "Usa"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:414
 msgid "Cast"
 msgstr "Enfeitiça"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:415
 msgid "Start casting"
 msgstr "Começa a lançar o feitiço"
 
 # EVIL!
 # Need proper singular/plural and gender strings.
+#: Era_of_High_Sorcery/lua_files/actions.cfg:419
 msgid "$use| <b>$1|</b> at <b>$4|</b> ($2|,$3|)"
 msgstr "$use| <b>$1|</b> à <b>$4|</b> (em $2|,$3|)"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:420
 msgid "$use| <b>$1|</b> at ($2|,$3|)"
 msgstr "$use| <b>$1|</b> em ($2|,$3|)"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:423
 msgid "$use| <b>$1|</b>"
 msgstr "$use| <b>$1|</b>"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:476
+msgid "1 AP"
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:478
+msgid "can't - it was already given this turn"
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:482
+msgid "Give this scroll to <b>$1|</b> ($2|)"
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:484
+msgid "Give this scroll ($1|)"
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:490
+msgid "Create a scroll of <b>$1|</b> and keep it for yourself."
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:492
+msgid "Create a scroll of <b>$1|</b> for <b>$2|</b>"
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:495
+msgid "Create a scroll of <b>$1|</b>"
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:503
+msgid "You can't make scrolls of <b>$1|</b>"
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:578
 msgid "You have no actions to use."
 msgstr "Não tens nenhuma acção disponível."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:606
+msgid "Mana: "
+msgstr "Mana: "
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:609
+msgid "Gold: "
+msgstr "Ouro: "
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:611
+msgid "Total: "
+msgstr "Total: "
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:615
+msgid "AP: "
+msgstr "PA:"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:727
 msgid ""
 "Your action ($3|) was disrupted by an invisible unit at ($1|,$2|). Try again."
 msgstr ""
 "A tua acção ($3|) fora interrompida por uma unidade invisível em ($1|,$2|). "
 "Por favor tenta de novo."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:749
 msgid ""
 "$actor_name| ($actor.x|,$actor.y|) $uses| $action.name| at $target_name| "
 "($target.x|,$target.y|)."
@@ -175,6 +261,7 @@ msgstr ""
 "$actor_name| ($actor.x|,$actor.y|) lança o feitiço $action.name| à "
 "$target_name| (em $target.x|,$target.y|)."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:750
 msgid ""
 "$actor_name| ($actor.x|,$actor.y|) $uses| $action.name| at ($target_x|,"
 "$target_y|)."
@@ -182,69 +269,142 @@ msgstr ""
 "$actor_name| ($actor.x|,$actor.y|) lança o feitiço $action.name| em "
 "($target_x|,$target_y|)."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:752
 msgid "$actor_name| ($actor.x|,$actor.y|) $uses| $action.name|."
 msgstr "$actor_name| ($actor.x|,$actor.y|) lança o feitiço $action.name|."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:856
+#, fuzzy
+#| msgid ""
+#| "$actor_name| ($actor.x|,$actor.y|) $uses| $action.name| at $target_name| "
+#| "($target.x|,$target.y|)."
+msgid ""
+"$actor_name| ($actor.x|,$actor.y|) creates a scroll of $action.name| for "
+"$target_name| ($target.x|,$target.y|)."
+msgstr ""
+"$actor_name| ($actor.x|,$actor.y|) lança o feitiço $action.name| à "
+"$target_name| (em $target.x|,$target.y|)."
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:858
+#, fuzzy
+#| msgid ""
+#| "$actor_name| ($actor.x|,$actor.y|) $uses| $action.name| at $target_name| "
+#| "($target.x|,$target.y|)."
+msgid ""
+"$actor_name| ($actor.x|,$actor.y|) creates a scroll of $action.name| for a "
+"unit you can't see ($target.x|,$target.y|)."
+msgstr ""
+"$actor_name| ($actor.x|,$actor.y|) lança o feitiço $action.name| à "
+"$target_name| (em $target.x|,$target.y|)."
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1038
+#: Era_of_High_Sorcery/lua_files/actions/summons.cfg:377
 msgid "hex"
 msgstr "hexágono"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1039
 msgid "Any hex"
 msgstr "qualquer hexágono"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1045
+#, fuzzy
+#| msgid "Fill Selection"
+msgid "direction"
+msgstr "Preencher Seleção"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1046
+#, fuzzy
+#| msgid "Fill Selection"
+msgid "Direction"
+msgstr "Preencher Seleção"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1055
+#: Era_of_High_Sorcery/lua_files/actions/summons.cfg:277
+#: Era_of_High_Sorcery/lua_files/actions/summons.cfg:620
 msgid "empty hex"
 msgstr "um hexágono vago"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1056
+#: Era_of_High_Sorcery/lua_files/actions/summons.cfg:278
+#: Era_of_High_Sorcery/lua_files/actions/summons.cfg:621
 msgid "Empty hex"
 msgstr "Um hexágono vago"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1057
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1071
+#: Era_of_High_Sorcery/lua_files/actions/summons.cfg:271
+#: Era_of_High_Sorcery/lua_files/actions/summons.cfg:614
 msgid "You can't tell if that hex is occupied."
 msgstr "Não sabes se este hexágono está vago."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1069
 msgid "recruit hex"
 msgstr "local de recrutamento"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1070
 msgid "Recruit hex"
 msgstr "Local de recrutamento"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1080
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1092
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1106
+#: Era_of_High_Sorcery/lua_files/actions/soul_bind.cfg:39
 msgid "unit"
 msgstr "unidade"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1081
 msgid "Any unit"
 msgstr "Qualquer unidade"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1082
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1094
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1108
+#: Era_of_High_Sorcery/lua_files/actions/ogre_fury.cfg:44
 msgid "You can't tell if there is a unit there."
 msgstr "Não sabes se existe uma unidade aqui."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1093
 msgid "Unit (probably enemy)"
 msgstr "Uma unidade (provavelmente inimiga)"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1094
 msgid "You probably don't want to cast that at an ally."
 msgstr "Provavelmente não quererás lançar este feitiço a uma unidade aliada."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1107
 msgid "Unit (probably ally)"
 msgstr "Uma unidade (provavelmente aliada)"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1108
+#: Era_of_High_Sorcery/lua_files/actions/ogre_fury.cfg:54
 msgid "You probably don't want to cast that at an enemy."
 msgstr "Provavelmente não quererás lançar este feitiço a uma unidade inimiga."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1133
 msgid "uses"
 msgstr "usa"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1134
 msgid "casts"
 msgstr "Lança o feitiço"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1135
 msgid "starts casting"
 msgstr "começa a lançar o feitiço"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1206
 msgid "You already have that spell active."
 msgstr "Este feitiço já está activo."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1209
 msgid "Replaces your current touch enchantment"
 msgstr "Substitui o tipo de encantamento que tens"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1212
 msgid "Touch enchantment"
 msgstr "Toque encantado"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1227
 msgid ""
 "This spell takes $1| turns (counting the turn you start it), and takes "
 "effect at the beginning of its last turn. Once you start casting this spell, "
@@ -255,15 +415,19 @@ msgstr ""
 "último. Uma vez que lançares o feitiço, não poderás mover, atacar, lançar "
 "outros feitiços, nem ganharás qualquer ponto de mana durante o encantamento."
 
-msgid "Ritual:"
-msgstr "Ritual:"
-
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1258
 msgid "$1| turns"
 msgstr "$1| turnos"
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1258
+msgid "Ritual:"
+msgstr "Ritual:"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1285
 msgid "Cancel Ritual"
 msgstr "Interromper o ritual."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1286
 msgid ""
 "You abandon your current ritual. You don't recover any of the cost, and you "
 "still can't move this turn, but you'll be able to move next turn."
@@ -272,12 +436,49 @@ msgstr ""
 "podes mover de imediato, contudo podes mover-te livremente a partir do "
 "próximo turno."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1295
 msgid "$actor_name| ($actor.x|,$actor.y|) stops casting $ritual|."
 msgstr "$actor_name| ($actor.x|,$actor.y|) interrompeu o $ritual|."
 
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1346
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1358
+#: Era_of_High_Sorcery/lua_files/actions/dragon_breath.cfg:111
+#, fuzzy
+msgid "None"
+msgstr ""
+"#-#-#-#-#  27.po (Battle for Wesnoth 1.12 (wesnoth))  #-#-#-#-#\n"
+"Nada\n"
+"#-#-#-#-#  34.po (Battle for Wesnoth 1.12 (wesnoth-editor))  #-#-#-#-#\n"
+"Nenhum\n"
+"#-#-#-#-#  55.po (Battle for Wesnoth 1.12 (wesnoth))  #-#-#-#-#\n"
+"Nada\n"
+"#-#-#-#-#  6.po (Battle for Wesnoth 1.12 (wesnoth-editor))  #-#-#-#-#\n"
+"Nenhum"
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1359
+msgid "It doesn't work for some reason..."
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1364
+#: Era_of_High_Sorcery/lua_files/actions/dragon_breath.cfg:122
+#, fuzzy
+#| msgid "Damage type: "
+msgid "Damage to $1|"
+msgstr "Tipo de dano: "
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1384
+msgid "You don't have the relevant attack right now."
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions.cfg:1384
+msgid "Can't cast:"
+msgstr ""
+
+#: Era_of_High_Sorcery/lua_files/actions/absorb_bats.cfg:21
 msgid "Absorb Bats"
 msgstr "Absorver morcegos"
 
+#: Era_of_High_Sorcery/lua_files/actions/absorb_bats.cfg:22
 msgid ""
 "You absorb all your Vampire Bats that are next to you, regaining all the "
 "gold or mana spent to create them."
@@ -285,8 +486,10 @@ msgstr ""
 "Absorves todos os morcegos a tua imediata volta, ganhando a quantidade de "
 "ouro e mana que fora necessário para criar-os."
 
+#: Era_of_High_Sorcery/lua_files/actions/absorb_bats.cfg:30
 msgid "Bats absorbed"
 msgstr "Morcegos absorvidos"
 
+#: Era_of_High_Sorcery/lua_files/actions/action_template.cfg:8
 msgid "Action Name"
 msgstr "Nome da Acção"
