@@ -1,34 +1,34 @@
 
-Portuguese translation files for the game « The Battle for Wesnoth »
+Portuguese translation files for miscellanceous add-ons from « The Battle for Wesnoth »
 
 Statistics:
 
- » PT                        —   5599/   14/ 18535 ( 30%) -12943
- * Era of High Sorcery       —     69/    0/    69 (100%) -0
- * A Simple Campaign         —     33/    0/    33 (100%) -0
- * Random No Mirror          —     24/    0/    24 (100%) -0
- * Valley of the Ancients    —    344/    0/   344 (100%) -0
- * Unite the Clans           —     12/    0/    12 (100%) -0
- * The Three Elves           —    475/    0/   475 (100%) -0
- * Warmaster                 —    578/    0/   578 (100%) -0
- * Eliador                   —    313/    0/   313 (100%) -0
- * Saving Elensefar          —    630/    0/   632 ( 99%) -3
- * Troubled Times            —    146/    0/   147 ( 99%) -2
- * Return from Captivity     —    287/    0/   294 ( 97%) -8
- * Wesnoth Lua Pack          —     59/    0/    66 ( 89%) -8
- * The Haunted Woods         —    440/    0/   524 ( 83%) -85
- * Mystery Campaign          —    365/    6/   449 ( 79%) -80
- * Roar of the Woses         —    147/    4/   369 ( 38%) -220
- * Nightmares of Meloen      —     66/    0/   177 ( 37%) -112
- * Archaic Era               —    141/    4/   480 ( 28%) -337
- * World Conquest II         —     93/    0/   335 ( 27%) -243
- * The Sojournings of Grog   —    401/    0/  1461 ( 27%) -1061
- * After the Storm           —    505/    0/  3699 ( 13%) -3195
- * Ooze Mini Campaign        —     91/    0/   922 (  9%) -832
- * Era of Magic              —     55/    0/   706 (  7%) -652
- * Invasion from the Unknown —    187/    0/  2735 (  6%) -2549
- * Brotherhood of Light      —     71/    0/  1385 (  5%) -1315
- * Bad Moon Rising           —     64/    0/  2012 (  3%) -1949
- * The Flight of Drakes      —      3/    0/   294 (  1%) -292
+ » PT                         —   5602/ 1698/ 18981 ( 20%) -11681
+ * Warmaster                  —    577/    0/   577 (100%) -0
+ * Unite_the_Clans            —     11/    0/    11 (100%) -0
+ * Troubled_Times             —    146/    0/   146 (100%) -0
+ * The_Three_Elves            —    474/    0/   474 (100%) -0
+ * Eliador                    —    312/    0/   312 (100%) -0
+ * A_Simple_Campaign          —     32/    0/    32 (100%) -0
+ * Saving_Elensefar           —    621/   16/   643 ( 94%) -6
+ * Wesnoth_Lua_Pack           —     58/    0/    65 ( 89%) -7
+ * Return_from_Captivity      —    280/   15/   301 ( 88%) -6
+ * Mystery_Campaign           —    364/    5/   448 ( 80%) -79
+ * The_Haunted_Woods          —    439/   16/   523 ( 80%) -68
+ * Valley_of_the_Ancients     —    340/   26/   402 ( 78%) -36
+ * Era_of_High_Sorcery        —     67/    9/    88 ( 65%) -12
+ * Random_No_Mirror           —     19/    6/    25 ( 52%) -0
+ * Nightmares_of_Meloen       —     65/    0/   176 ( 36%) -111
+ * Roar_of_the_Woses          —    145/   20/   373 ( 33%) -208
+ * The_Sojournings_of_Grog    —    400/    2/  1461 ( 27%) -1059
+ * Brotherhood_of_Light       —     70/  191/  1384 ( -8%) -1123
+ * After_the_Storm            —    501/  786/  3697 ( -7%) -2410
+ * Invasion_from_the_Unknown  —    197/  263/  2600 ( -2%) -2140
+ * Era_of_Magic               —     55/    0/   705 (  7%) -650
+ * Archaic_Era                —    163/  125/   760 (  5%) -472
+ * Ooze_Mini_Campaign         —     89/   47/   921 (  4%) -785
+ * The_Flight_of_Drakes       —      2/    0/   293 (  0%) -291
+ * World_Conquest_II          —     93/   91/   415 (  0%) -231
+ * Bad_Moon_Rising            —     82/   80/  2149 (  0%) -1987
 
  © wesn-pt-trans
