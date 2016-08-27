@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-utbs)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2016-07-24 20:27 UTC\n"
-"PO-Revision-Date: 2014-01-05 23:05+0100\n"
+"PO-Revision-Date: 2016-08-27 10:43+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. [campaign]: id=Under_the_Burning_Suns
 #. [editor_group]: id=utbs
@@ -62,10 +62,8 @@ msgstr "Normal"
 #
 #. [campaign]: id=Under_the_Burning_Suns
 #: data/campaigns/Under_the_Burning_Suns/_main.cfg:24
-#, fuzzy
-#| msgid "(Challenging)"
 msgid "Challenging"
-msgstr "(Desafiante)"
+msgstr "Desafiante"
 
 #
 #. [unit_type]: id=Desert Sentinel, race=elf
@@ -7304,18 +7302,14 @@ msgstr ""
 #
 #. [message]: speaker=King Thurongar
 #: data/campaigns/Under_the_Burning_Suns/scenarios/07a_Dealing_with_Dwarves.cfg:556
-#, fuzzy
-#| msgid ""
-#| "And now I think you should be off as soon as possible. The trolls have "
-#| "retreated back into their holes for the present, but who knows when they "
-#| "will strike again."
 msgid ""
 "And now I think you should be off as soon as possible. The trolls have "
 "retreated into their holes for the present, but who knows when they will "
 "strike again."
 msgstr ""
-"E agora penso que deveria ir o mais cedo possível. Os trogloditas voltaram "
-"para os seus buracos por enquanto, mas quem sabe quando atacarão novamente."
+"E por agora penso que deverias ir o mais cedo possível. Os trogloditas por "
+"enquanto voltaram para os seus buracos, mas quem sabe quando atacarão "
+"novamente."
 
 #
 #. [message]: speaker=Nym
@@ -12665,15 +12659,11 @@ msgstr "Gosh, justamente quando as coisas estavam a começar a acalmar-se."
 #
 #. [message]: speaker=Zhul
 #: data/campaigns/Under_the_Burning_Suns/scenarios/09_Blood_is_Thicker_Than_Water.cfg:2321
-#, fuzzy
-#| msgid ""
-#| "Our people are scattered and exhausted, where will we go now Kaleh? Shall "
-#| "we retreat back into the dunes?"
 msgid ""
 "Our people are scattered and exhausted, where will we go now Kaleh? Shall we "
 "retreat into the dunes?"
 msgstr ""
-"O nosso povo está disperso e exausto, para onde iremos agora Kaleh? Vamos "
+"O nosso povo está disperso e exausto, para onde iremos agora Kaleh? Devemos "
 "recuar para as dunas?"
 
 #
@@ -17517,32 +17507,22 @@ msgstr ""
 #
 #. [unit_type]: id=Crab Man, race=monster
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Crab_Man.cfg:4
-#, fuzzy
-#| msgid "Monsters"
 msgid "Monster Crab"
-msgstr "Monstros"
+msgstr "Caranguejo Gigante"
 
 #
 #. [unit_type]: id=Crab Man, race=monster
 #: data/campaigns/Under_the_Burning_Suns/units/monsters/Crab_Man.cfg:18
-#, fuzzy
-#| msgid ""
-#| "The Crab Men are part crab, part humanoid, and are certainly one of the "
-#| "most twisted monsters ever recorded by the sages of Wesnoth. Probably the "
-#| "creation of some twisted mage, these monstrosities have spread into the "
-#| "wild and prefer to live around coastal waters, preying on both humans and "
-#| "animals."
 msgid ""
 "The Monster Crab is a semi-sentient crab the size of a horse. It is one of "
 "many twisted monsters recorded by the sages of Wesnoth and probably the "
 "creation of some twisted mage. These monstrosities have spread into the wild "
 "and prefer to live around coastal waters, preying on both humans and animals."
 msgstr ""
-"Os Homens-Caranguejo são parte caranguejo, parte humano, e estão certamente "
-"entre os monstros mais deformados já registados pelos sábios de Wesnoth. "
-"Prováveis criações de um mago enlouquecido, estas monstruosidades espalharam-"
-"se pelos bosques e preferem viver perto do litoral, caçando tanto humanos "
-"como animais."
+"Caranguejos gigantes são criaturas semi sentientes do tamanho de um cavalo. "
+"São dos monstros mais deformados já registados pelos sábios de Wesnoth. "
+"Provavelmente a criação de um mago enlouquecido, estas monstruosidades "
+"escaparam para o litoral, caçando tanto humanos como animais."
 
 #
 #. [attack]: type=blade
@@ -18029,10 +18009,8 @@ msgstr ""
 
 #. [dummy]: id=teaching
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:75
-#, fuzzy
-#| msgid "Hatching"
 msgid "teaching"
-msgstr "Eclodindo"
+msgstr "ensinando"
 
 #. [dummy]: id=teaching
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:76
@@ -18041,6 +18019,9 @@ msgid ""
 "all the units of the same side adjacent to it. If no suitable unit is "
 "adjacent, its experience just goes back to zero."
 msgstr ""
+"Ao começo de cada turno esta unidade redistribui os seus pontos de "
+"experiência a todas as unidades aliadas adjacentes. Em case não houver "
+"qualquer unidade, a sua experiência simplesmente retorna a zero."
 
 #
 #: data/campaigns/Under_the_Burning_Suns/utils/character-definitions.cfg:5
@@ -18166,7 +18147,7 @@ msgstr "refrescado"
 
 #: data/campaigns/Under_the_Burning_Suns/utils/garak-abilities.cfg:57
 msgid "+%d XP"
-msgstr ""
+msgstr "+%d XP"
 
 #
 #. [unstore_unit]

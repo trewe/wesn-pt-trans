@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-thot)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2016-07-24 20:29 UTC\n"
-"PO-Revision-Date: 2015-07-30 13:44+0100\n"
+"PO-Revision-Date: 2016-08-27 10:55+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. [campaign]: id=The_Hammer_of_Thursagan
 #: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:10
@@ -50,10 +50,8 @@ msgstr "Guerreiro"
 #
 #. [campaign]: id=The_Hammer_of_Thursagan
 #: data/campaigns/The_Hammer_of_Thursagan/_main.cfg:19
-#, fuzzy
-#| msgid "(Challenging)"
 msgid "Challenging"
-msgstr "(Desafiante)"
+msgstr "Desafiante"
 
 #
 #. [campaign]: id=The_Hammer_of_Thursagan
@@ -1220,21 +1218,15 @@ msgstr ""
 #
 #. [message]: speaker=Master Perrin
 #: data/campaigns/The_Hammer_of_Thursagan/scenarios/07_Mages_and_Drakes.cfg:199
-#, fuzzy
-#| msgid ""
-#| "We’re grateful for your assistance. And I’d like to send one of our "
-#| "senior apprentices with you to the east. It has come time for him to be "
-#| "journeyman... and I sense something being born to the east that I do not "
-#| "like the feel of."
 msgid ""
 "We’re grateful for your assistance. And I’d like to send one of our senior "
 "apprentices with you to the east. It has come time for him to be a "
 "journeyman... and I sense something being born to the east that I do not "
 "like the feel of."
 msgstr ""
-"Estamos gratos pela vossa ajuda. E gostaria de mandar pelo um dos nossos "
-"aprendizes seniores convosco para o leste. Chegou a hora de ser um homem "
-"viajado... e sinto alguma coisa a crescer no leste, e não gosto desse "
+"Estamos gratos pela vossa ajuda. E gostaria de mandar pelo menos um dos "
+"nossos aprendizes seniores convosco para o leste. Chegou a hora de ser um "
+"homem viajado... e sinto alguma coisa a crescer no leste, e não gosto desse "
 "sentimento."
 
 #
@@ -2879,12 +2871,11 @@ msgstr ""
 msgid "inspire"
 msgstr "inspirar"
 
+# note: we are using the infinitive
 #. [leadership]: id=inspire
 #: data/campaigns/The_Hammer_of_Thursagan/utils/abilities.cfg:15
-#, fuzzy
-#| msgid "female^spirit"
 msgid "female^inspire"
-msgstr "espírito"
+msgstr "inspirar"
 
 #
 #. [leadership]: id=inspire

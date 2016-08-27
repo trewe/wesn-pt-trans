@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-ai)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2016-07-24 20:29 UTC\n"
-"PO-Revision-Date: 2015-04-18 16:59-0000\n"
+"PO-Revision-Date: 2016-08-27 11:24+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. [ai]: id=ai_default_rca
 #: data/ai/ais/ai_default_rca.cfg:9
@@ -32,10 +32,8 @@ msgstr "IA Experimental"
 #
 #. [ai]: id=ai_default_rca_alternate_recruiting
 #: data/ai/dev/ai_default_rca_alternate_recruiting.cfg:10
-#, fuzzy
-#| msgid "Multiplayer_AI^Dev AI: Default + Old Recruitment"
 msgid "Multiplayer_AI^Dev AI: Default AI (RCA) with Alternate Recruiting"
-msgstr "IA em desenvolvimento: Padrão + Recrutamento antigo"
+msgstr "IA em desenvolvimento: IA Padrão + Recrutamento alternante"
 
 #
 #. [ai]: id=formula_ai # id is needed to uniquely identify a MP AI, it is not needed in the scenario AI
@@ -2483,10 +2481,8 @@ msgstr ""
 #. [set_menu_item]: id=m16_fast
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:341
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:350
-#, fuzzy
-#| msgid "Micro AI Tests"
 msgid "Fast Micro AI demo"
-msgstr "Testes das micro IA"
+msgstr ""
 
 #. [command]
 #: data/ai/micro_ais/scenarios/scenario_micro_ai.cfg:350
@@ -2939,10 +2935,8 @@ msgstr ""
 
 #. [test]: id=lua_ai
 #: data/ai/scenarios/scenario-lua_ai.cfg:4
-#, fuzzy
-#| msgid "Test scenario"
 msgid "Lua AI Test scenario"
-msgstr "Cenário de teste"
+msgstr "Cenário de teste IA (escrito em Lua)"
 
 #. [test]: id=lua_ai_old_syntax
 #: data/ai/scenarios/scenario-lua_ai_old_syntax.cfg:5

@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-tutorial)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2016-07-24 20:27 UTC\n"
-"PO-Revision-Date: 2015-06-26 13:05-0000\n"
+"PO-Revision-Date: 2016-08-27 11:22+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #. [lua]: wml_actions.select_character
 #: data/campaigns/tutorial/lua/character_selection.lua:26
@@ -183,8 +183,6 @@ msgstr "Bom dia, Delfador! Já são horas de atacar coisas?"
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:242
-#, fuzzy
-#| msgid "Good morning, Delfador! Is it time to attack things?"
 msgid "female^Good morning, Delfador! Is it time to attack things?"
 msgstr "Bom dia, Delfador! Já são horas de atacar coisas?"
 
@@ -200,8 +198,6 @@ msgstr "Encontraste um orc para mim, hã? Ou talvez até um troglodita?"
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:253
-#, fuzzy
-#| msgid "Have you found an orc for me to fight, huh? A troll?"
 msgid "female^Have you found an orc for me to fight, huh? A troll?"
 msgstr "Encontraste um orc para mim, hã? Ou talvez até um troglodita?"
 
@@ -222,23 +218,17 @@ msgstr "Um boneco? Queres que lute contra um boneco?"
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:311
-#, fuzzy
-#| msgid "A quintain? You want me to fight a dummy?"
 msgid "female^A quintain? You want me to fight a dummy?"
 msgstr "Um boneco? Queres que lute contra um boneco?"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:317
-#, fuzzy
-#| msgid ""
-#| "female^Young lady, you have $student_hp hitpoints and a sword. I’m fairly "
-#| "sure you’ll win."
 msgid ""
 "Young man, you have $student_hp hitpoints and a sword. I’m fairly sure "
 "you’ll win."
 msgstr ""
-"Minha jovem, tens $student_hp hitpoints pontos de vida e uma espada. Estou "
-"seguro de que ganharás."
+"Jovem, tens $student_hp hitpoints pontos de vida e uma espada. Estou seguro "
+"de que ganharás."
 
 #. [message]: speaker=Delfador
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:322
@@ -294,8 +284,6 @@ msgstr "Achas que devo fugir?"
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:365
-#, fuzzy
-#| msgid "Should I retreat?"
 msgid "female^Should I retreat?"
 msgstr "Achas que devo fugir?"
 
@@ -397,35 +385,25 @@ msgstr "Ai! Preciso de curar-me! Só me restam $student_hp pontos de vida!"
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:433
-#, fuzzy
-#| msgid "Ouch! I need to heal! Only $student_hp hitpoints left!"
 msgid "female^Ouch! I need to heal! Only $student_hp hitpoints left!"
 msgstr "Ai! Preciso de curar-me! Só me restam $student_hp pontos de vida!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:438
-#, fuzzy
-#| msgid ""
-#| "There is a village on the other side of the river. Visiting villages is a "
-#| "good idea, and ending your turn in one will heal you. To the village!"
 msgid ""
 "There are two villages within your reach. Visiting villages is a good idea, "
 "and ending your turn on one will heal you. To a village!"
 msgstr ""
-"Há uma aldeia do outro lado do rio. Visitar aldeias é uma boa ideia, e se "
-"terminares lá o turno receberás saúde. Para a aldeia!"
+"Existe uma aldeia do outro lado do rio. Visitar aldeias é uma boa ideia, e "
+"se terminares lá o turno receberás saúde. Para a aldeia!"
 
 #. [event]
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:442
-#, fuzzy
-#| msgid "Move Konrad to the nearest village"
 msgid "Move Konrad to a nearby village"
 msgstr "Mova Conrado para capturar uma aldeia"
 
 #. [event]
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:444
-#, fuzzy
-#| msgid "Move Li’sar to the nearest village"
 msgid "Move Li’sar to a nearby village"
 msgstr "Mova Li’sar para capturar uma aldeia"
 
@@ -473,25 +451,18 @@ msgstr "Vou recrutar alguns elfos!"
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:490
-#, fuzzy
-#| msgid "I’ll recruit some elves!"
 msgid "female^I’ll recruit some elves!"
 msgstr "Vou recrutar alguns elfos!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:495
-#, fuzzy
-#| msgid ""
-#| "A splendid idea! It’s probably best not to attempt attacking the quintain "
-#| "this turn. Instead, you could return to the keep and recruit two units; "
-#| "you have plenty of gold for that."
 msgid ""
 "A splendid idea! It’s probably best not to attempt attacking the quintain "
 "this turn. Instead, you should return to the keep and recruit two units; you "
 "have plenty of gold for that."
 msgstr ""
 "Esplêndida ideia. Não faz grande sentido atacar mais o boneco neste turno "
-"sozinho. Ao invês, podes recrutar duas unidades se voltares para a torre. "
+"sozinho. Ao invés, podes recrutar duas unidades se voltares para a torre. "
 "Tens muitas moedas de ouro por gastar."
 
 #. [event]
@@ -561,9 +532,6 @@ msgstr ""
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:580
-#, fuzzy
-#| msgid ""
-#| "Hey, the quintain just healed 2 hitpoints! I’d better attack it at once!"
 msgid ""
 "female^Hey, the quintain just healed 2 hitpoints! I’d better attack it at "
 "once!"
@@ -588,17 +556,13 @@ msgstr ""
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:595
-#, fuzzy
-#| msgid "I’ll tell them to use the one that does the most damage!"
 msgid "I’ll tell them to use the one that does more damage!"
-msgstr "Vou dizer-lhes para usarem o que provocar mais danos!"
+msgstr "Vou dizer-lhes para usarem o que provocar mais dano!"
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:596
-#, fuzzy
-#| msgid "I’ll tell them to use the one that does the most damage!"
 msgid "female^I’ll tell them to use the one that does more damage!"
-msgstr "Vou dizer-lhes para usarem o que provocar mais danos!"
+msgstr "Vou dizer-lhes para usarem o que provocar mais dano!"
 
 #. [message]: speaker=Delfador
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:601
@@ -753,8 +717,6 @@ msgstr "Arre! Esta sessão de treino já é demais para mim ..."
 
 #. [message]: speaker=unit
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:777
-#, fuzzy
-#| msgid "Agh! This training is too much for me..."
 msgid "female^Agh! This training is too much for me..."
 msgstr "Arre! Esta sessão de treino já é demais para mim ..."
 
@@ -827,8 +789,6 @@ msgstr "Sim, ainda estou a tentar perceber isto."
 
 #. [option]
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:939
-#, fuzzy
-#| msgid "Yes, I’m still figuring it out."
 msgid "female^Yes, I’m still figuring it out."
 msgstr "Sim, ainda estou a tentar perceber isto."
 
@@ -839,8 +799,6 @@ msgstr "Não, penso que já percebi."
 
 #. [option]
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:965
-#, fuzzy
-#| msgid "No, I think I’ve got it."
 msgid "female^No, I think I’ve got it."
 msgstr "Não, penso que já percebi."
 
@@ -855,10 +813,6 @@ msgstr ""
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/01_Tutorial_part_1.cfg:985
-#, fuzzy
-#| msgid ""
-#| "Well, I think I know the basics. Onwards! Maybe I can fight in a real "
-#| "battle next?"
 msgid ""
 "female^Well, I think I know the basics. Onwards! Maybe I can fight in a real "
 "battle next?"
@@ -930,33 +884,25 @@ msgstr ""
 
 #. [event]
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:97
-#, fuzzy
-#| msgid "I hope I have a chance to retreat after this!"
 msgid "female^I hope I have a chance to retreat after this!"
 msgstr "Espero ter oportunidade para recuar depois disto!"
 
 #. [event]
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:98
-#, fuzzy
-#| msgid "One lucky attack by an Orcish Grunt, and I’m done for!"
 msgid "female^One lucky attack by an Orcish Grunt, and I’m done for!"
 msgstr "Um ataque bem sucedido de um Bruto Orc, e vou à vida!"
 
 #. [event]
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:99
-#, fuzzy
-#| msgid "Ouch! I could make use of some healing in a village."
 msgid "female^Ouch! I could make use of some healing in a village."
 msgstr "Ai! Agora dava-me jeito poder curar-me numa aldeia."
 
 #. [event]
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:100
-#, fuzzy
-#| msgid "I had better retreat, before I get caught out with such low health!"
 msgid ""
 "female^I had better retreat, before I get caught out with such low health!"
 msgstr ""
-"É melhor bater em retirada, antes que seja apanhado tão gravemente ferido "
+"É melhor bater em retirada, antes que seja apanhada tão gravemente ferida "
 "pelo adversário!"
 
 #. [objective]: condition=win
@@ -990,10 +936,6 @@ msgstr ""
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:148
-#, fuzzy
-#| msgid ""
-#| "Ho, Galdrad! Has Delfador conjured something else to beat me with? A "
-#| "flock of scarecrows, perhaps?"
 msgid ""
 "female^Ho, Galdrad! Has Delfador conjured something else to beat me with? A "
 "flock of scarecrows, perhaps?"
@@ -1036,8 +978,6 @@ msgstr "Que devo fazer?"
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:166
-#, fuzzy
-#| msgid "What should I do?"
 msgid "female^What should I do?"
 msgstr "Que devo fazer?"
 
@@ -1091,8 +1031,6 @@ msgstr "Vamos! Ao ataque!"
 #. [message]: speaker=student
 #. The "us" in "let's" refers to Galdrad and Li'sar.
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:181
-#, fuzzy
-#| msgid "Let’s go! Attack!"
 msgid "female^Let’s go! Attack!"
 msgstr "Vamos! Ao ataque!"
 
@@ -1107,12 +1045,6 @@ msgstr ""
 
 #. [message]: speaker=Galdrad
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:199
-#, fuzzy
-#| msgid ""
-#| "I see you have veteran troops from your training! You should <i>recall</"
-#| "i> them as as to start off the battle with more experienced units. Think "
-#| "carefully, though; if a unit has too little experience, it might be "
-#| "cheaper to recruit a new one."
 msgid ""
 "I see you have veteran troops from your training! You should <i>recall</i> "
 "them so as to start off the battle with more experienced units. Think "
@@ -1126,16 +1058,12 @@ msgstr ""
 
 #. [message]: speaker=Galdrad
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:205
-#, fuzzy
-#| msgid ""
-#| "Some of your units have also managed to level up. They’re even more "
-#| "formidable, so you should recall them first."
 msgid ""
 "Some of your units have also managed to level up. They’re even more "
 "formidable, so you should recall them as well."
 msgstr ""
 "Algumas unidades até conseguiram avançar de nível, o que os faz ainda bem "
-"melhores, portanto deves-os convocar primeiro."
+"melhores, portanto considera convocar-as."
 
 #. [message]: speaker=Galdrad
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:220
@@ -1195,8 +1123,6 @@ msgstr "Recruta ou convoca as tuas tropas"
 
 #. [message]: speaker=narrator
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:251
-#, fuzzy
-#| msgid "female^Elvish Shaman"
 msgid "Elvish Shaman"
 msgstr "Bruxa Elfa"
 
@@ -1263,12 +1189,6 @@ msgstr "Arqueiro Elfo"
 
 #. [message]: speaker=narrator
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:279
-#, fuzzy
-#| msgid ""
-#| "Unlike the Elvish Fighter, which has strong melee attacks, the Elvish "
-#| "Archer has strong ranged attacks. It’s useful to attack enemy units with "
-#| "strong melee attacks with strong ranged attacks, and vice versa. This "
-#| "allows your units to take less damage when your enemy counterattacks."
 msgid ""
 "Unlike the Elvish Fighter, which has strong melee attacks, the Elvish Archer "
 "has strong ranged attacks. It’s useful to attack enemy units with strong "
@@ -1320,13 +1240,6 @@ msgstr "Rendimento e Manutenção"
 
 #. [message]: speaker=narrator
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:338
-#, fuzzy
-#| msgid ""
-#| "Each turn, you will gain 2 gold pus one for each village you own. "
-#| "However, <i>upkeep</i> is subtracted for that. You can support as many "
-#| "levels worth of units as the number of villages you own; beyond that, you "
-#| "must pay 1 gold per turn. Be careful, as owning too many units can cause "
-#| "you to have negative income and lose gold each turn!"
 msgid ""
 "Each turn, you will gain 2 gold plus one for each village you own. However, "
 "<i>upkeep</i> is subtracted from that. You can support as many levels worth "
@@ -1371,10 +1284,6 @@ msgstr ""
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:366
-#, fuzzy
-#| msgid ""
-#| "Galdrad, if I go by the ford, I could sneak up near his keep and dispatch "
-#| "him quickly."
 msgid ""
 "female^Galdrad, if I go by the ford, I could sneak up near his keep and "
 "dispatch him quickly."
@@ -1416,9 +1325,6 @@ msgstr "Tudo bem. Então que seja a ponte, mas tenha cuidado ao cruzar-a."
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:382
-#, fuzzy
-#| msgid ""
-#| "Alright. The bridge it is, then, but I’ll be careful about the crossing."
 msgid ""
 "female^Alright. The bridge it is, then, but I’ll be careful about the "
 "crossing."
@@ -1426,14 +1332,6 @@ msgstr "Tudo bem. Então que seja a ponte, mas tenha cuidado ao cruzar-a."
 
 #. [event]
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:385
-#, fuzzy
-#| msgid ""
-#| "That Orcish Grunt is still blocking our path. He has no ranged attacks, "
-#| "so your archers should be able to engage him with little risk. "
-#| "Unfortunately, your units cannot reach him this turn, but you should not "
-#| "let them languish! Move them into position so they can attack next turn. "
-#| "There are also other villages on this side of the river. You should "
-#| "secure them for income and healing"
 msgid ""
 "That Orcish Grunt is still blocking our path. He has no ranged attacks, so "
 "your archers should be able to engage him with little risk. Unfortunately, "
@@ -1475,10 +1373,6 @@ msgstr ""
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:397
-#, fuzzy
-#| msgid ""
-#| "I think I’ll stick around the keep for now, in order to recruit more "
-#| "units."
 msgid ""
 "female^I think I’ll stick around the keep for now, in order to recruit more "
 "units."
@@ -1542,8 +1436,6 @@ msgstr "Não podemos simplesmente passar à volta?"
 #. [message]: speaker=student
 #. "we" refers to Li'sar, Galdrad, and the mixed-gender troops
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:430
-#, fuzzy
-#| msgid "Can’t we just move around the orcs?"
 msgid "female^Can’t we just move around the orcs?"
 msgstr "Não podemos simplesmente passar à volta?"
 
@@ -1565,14 +1457,6 @@ msgstr "Zona de Controlo"
 
 #. [message]: speaker=narrator
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:449
-#, fuzzy
-#| msgid ""
-#| "The hexes immediately around a unit constitute its <i>Zone of Control</"
-#| "i>. When an enemy unit enters those hexes, they cannot move any further "
-#| "that turn. An exception are units with the <i>skirmish</i> ability, who "
-#| "are unaffected by zones of control. This can be used to create a blockade "
-#| "to prevent stronger enemies from reaching key locations, such as "
-#| "villages, even if you have limited manpower."
 msgid ""
 "The hexes immediately around a unit constitute its <i>Zone of Control</i>. "
 "When an enemy unit enters those hexes, they cannot move any further that "
@@ -1619,10 +1503,6 @@ msgstr ""
 
 #. [message]: speaker=second_unit
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:483
-#, fuzzy
-#| msgid ""
-#| "One fewer orc to deal with, and our way across the bridge is clear! I "
-#| "also gained experience from striking the killing blow!"
 msgid ""
 "female^One fewer orc to deal with, and our way across the bridge is clear! I "
 "also gained experience from striking the killing blow!"
@@ -1655,11 +1535,6 @@ msgstr ""
 
 #. [event]
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:523
-#, fuzzy
-#| msgid ""
-#| "Don’t forget about that last village near the channel. They orcs will "
-#| "capture if it they try to sneak around via the ford! It will be hard to "
-#| "dislodge them of they do."
 msgid ""
 "Don’t forget about that last village near the channel. The orcs will capture "
 "it if they try to sneak around via the ford! It will be hard to dislodge "
@@ -1812,8 +1687,6 @@ msgstr "Tenho ouro suficiente para recrutar mais unidades!"
 
 #. [message]: speaker=student
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:670
-#, fuzzy
-#| msgid "I have enough gold to recruit more units!"
 msgid "female^I have enough gold to recruit more units!"
 msgstr "Tenho ouro suficiente para recrutar mais unidades!"
 
@@ -1969,21 +1842,15 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:942
-#, fuzzy
-#| msgid ""
-#| "female^Advancing a level has fully healed me!\n"
-#| "I always have a 60% chance of hitting with my <i>Marksman</i> ability, "
-#| "and I deal 9 damage each for 4 attacks. Use me to dislodge hard-to-hit "
-#| "units."
 msgid ""
 "female^Advancing a level has fully healed me! I always have a 60% chance of "
 "hitting with my <i>Marksman</i> ability, and I deal 9 damage each for 4 "
 "attacks. Use me to dislodge hard-to-hit units."
 msgstr ""
-"Subir de nível curou-me completamente!\n"
-"Tenho sempre 60% de probabilidade de acertar com a minha capacidade "
-"<i>Precisão</i>, e provoco 9 pontos de danos em cada um de 4 ataques. Usa-me "
-"para desalojar unidades difíceis de atingir."
+"Subir de nível curou-me completamente! Tenho sempre 60% de probabilidade de "
+"acertar com a minha capacidade de <i>Precisão</i>, e provoco 9 pontos de "
+"danos em cada um dos 4 ataques. Usa-me para desalojar unidades difíceis de "
+"atingir."
 
 #. [message]: speaker=unit
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:955
@@ -1999,17 +1866,12 @@ msgstr ""
 
 #. [message]: speaker=unit
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:956
-#, fuzzy
-#| msgid ""
-#| "Advancing a level has fully healed me! I am good with both bow and sword, "
-#| "and I have a special ability: <i>Ambush</i>. I can hide in forests where "
-#| "enemies can only see me if they are right next to me."
 msgid ""
 "female^Advancing a level has fully healed me! I am good with both bow and "
 "sword, and I have a special ability: <i>Ambush</i>. I can hide in forests "
 "where enemies can only see me if they are right next to me."
 msgstr ""
-"Subir de nível curou-me completamente! Sou bom tanto com arco como com "
+"Subir de nível curou-me completamente! Sou boa tanto com o arco como com a "
 "espada, e tenho uma capacidade especial: <i>Emboscada</i>. Posso esconder-me "
 "nas florestas onde os inimigos só me poderão ver se estiverem mesmo ao pé de "
 "mim."
@@ -2054,10 +1916,8 @@ msgstr "Isto ... foi estúpido. Da pr/oxima vez serei mais cuidadoso."
 
 #. [message]: speaker=unit
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:1009
-#, fuzzy
-#| msgid "That... was foolish. Next time I should be more careful."
 msgid "female^That... was foolish. Next time I should be more careful."
-msgstr "Isto ... foi estúpido. Da pr/oxima vez serei mais cuidadoso."
+msgstr "Isto ... foi estúpido. Da próxima vez serei mais cuidadosa."
 
 #. [message]: speaker=unit
 #: data/campaigns/tutorial/scenarios/02_Tutorial_part_2.cfg:1032
