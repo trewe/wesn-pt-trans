@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-tsg)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2016-11-05 23:29 UTC\n"
-"PO-Revision-Date: 2016-08-27 10:54+0100\n"
+"PO-Revision-Date: 2017-01-01 13:30+0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #. [campaign]: id=The_South_Guard
 #: data/campaigns/The_South_Guard/_main.cfg:9
@@ -291,15 +291,12 @@ msgstr ""
 #
 #. [message]: speaker=Moreth
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:227
-#, fuzzy
-#| msgid ""
-#| "You should head to the river fort! Sir Gerrick will want to know that "
-#| "reinforcements have arrived!"
 msgid ""
 "Someone should head to the river fort! Sir Gerrick will want to know that "
 "reinforcements have arrived!"
 msgstr ""
-"Deverias ir ao forte do rio! Dom Gerrick quererá saber que reforços chegaram!"
+"Alguém deve ir ao forte do rio! Dom Gerrick quererá saber de que os reforços "
+"chegaram!"
 
 #
 #. [message]: speaker=narrator
@@ -667,16 +664,12 @@ msgstr ""
 #
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/01_Born_to_the_Banner.cfg:725
-#, fuzzy
-#| msgid ""
-#| "He is dead! Congratulations, commander. We thought we would never see "
-#| "reinforcements — Did Sir Loris send you from Westin?"
 msgid ""
 "Urza Mathin is dead! Congratulations, commander. We thought we would never "
 "see reinforcements — Did Sir Loris send word of our plight?"
 msgstr ""
-"Está morto! Parabéns comandante. Pensamos que nunca veríamos os reforços — "
-"Dom Lóris enviou-te de Westin?"
+"Urza Mathin está morto! Parabéns comandante. Pensamos que nunca veríamos os "
+"reforços — Dom Lóris enviou-te de Westin?"
 
 #
 #. [message]: speaker=Deoran
@@ -782,10 +775,8 @@ msgstr ""
 #
 #. [objective]: condition=win
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:209
-#, fuzzy
-#| msgid "Bring Deoran to the Citadel of Westin"
 msgid "Occupy the Citadel of Westin"
-msgstr "Leva Deoran até a Cidadela de Westin."
+msgstr "Ocupa a Cidadela de Westin."
 
 #
 #. [objective]: condition=win
@@ -925,10 +916,6 @@ msgstr ""
 #
 #. [message]: speaker=Sir Gerrick
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:414
-#, fuzzy
-#| msgid ""
-#| "They are almost to the great hall! Hurry, Deoran! You must reach the "
-#| "citadel or all will be lost!"
 msgid ""
 "They are almost to the great hall! Hurry, Deoran! We must reach the citadel "
 "or all will be lost!"
@@ -939,15 +926,11 @@ msgstr ""
 #
 #. [message]: speaker=narrator
 #: data/campaigns/The_South_Guard/scenarios/02_Proven_by_the_Sword.cfg:422
-#, fuzzy
-#| msgid ""
-#| "You must move Deoran here by the end of the next turn, or Westin will "
-#| "fall and you will be defeated!"
 msgid ""
 "You must move someone here by the end of the next turn, or Westin will fall "
 "and you will be defeated!"
 msgstr ""
-"Tens de levar Deoran até aqui ao final do próximo turno, ou Westin cairá e "
+"Tens de levar alguém até aqui ao final do próximo turno, ou Westin cairá e "
 "serás derrotado!"
 
 #
@@ -1737,6 +1720,8 @@ msgstr ""
 msgid ""
 "Come, my bodyguard! We must make haste to follow the trail and find Mebrin."
 msgstr ""
+"Venham, meus guarda-costas! Temos de despachar-nos e seguir a trilha de "
+"Mebrin."
 
 #
 #. [scenario]: id=05_Choice_in_the_Fog
@@ -2343,6 +2328,9 @@ msgid ""
 "prove far more useful in the rivers and swamps to the north than in the "
 "caverns which lie ahead."
 msgstr ""
+"Os teus seguidores aquáticos devem ajudar Dom Gerrick, Deoran. São mais "
+"uteis ao longo dos rios e pântanos para o norte do que nas cavernas aqui "
+"embaixo."
 
 #. [message]: speaker=Deoran
 #: data/campaigns/The_South_Guard/scenarios/05_Choice_In_The_Fog.cfg:896
@@ -2350,6 +2338,8 @@ msgid ""
 "Very well. I release them to aid Sir Gerrick, and then to return to their "
 "homes."
 msgstr ""
+"Muito bem, ordeno-os para ajudarem na missão de Dom Gerrick, como último "
+"favor antes poderem regressar aos seus lares."
 
 #
 #. [message]: speaker=Sir Gerrick
@@ -2498,10 +2488,8 @@ msgstr "Derrota a Rainha Xeila"
 #
 #. [note]
 #: data/campaigns/The_South_Guard/scenarios/06a_Tidings_Good_and_Ill.cfg:251
-#, fuzzy
-#| msgid "Unrecalled units will be available for Deoran."
 msgid "Recalled units will be unavailable to Deoran."
-msgstr "Unidades não convocadas irão estar ao comando de Deoran."
+msgstr "Unidades convocadas não irão estar ao comando de Deoran."
 
 #
 #. [message]: speaker=Queen Xeila
@@ -4057,6 +4045,8 @@ msgstr ""
 msgid ""
 "Take care, Deoran! My people are upset. Killing one will only draw more."
 msgstr ""
+"Tenha cuidado, Deoran! O meu povo está revoltado e matar alguém só os "
+"provoca mais."
 
 #
 #. [scenario]: id=09b_Bandit_Epilogue
