@@ -3,64 +3,64 @@ Portuguese translation files for « The Battle for Wesnoth »
 
 Statistics:
 
- » PT                             —  16561/  332/ 17305 ( 93%) -412
+ » PT                             —  16710/  601/ 17923 ( 89%) -612
+ * wesnoth-tutorial               —    346/    0/   346 (100%) -0
+ * wesnoth-tsg                    —    528/    0/   528 (100%) -0
+ * wesnoth-trow                   —   1009/    0/  1009 (100%) -0
+ * wesnoth-thot                   —    364/    0/   364 (100%) -0
  * wesnoth-test                   —      1/    0/     1 (100%) -0
- * wesnoth-multiplayer            —    245/    0/   245 (100%) -0
+ * wesnoth-tb                     —    211/    0/   211 (100%) -0
+ * wesnoth-sotbe                  —    651/    0/   651 (100%) -0
+ * wesnoth-sof                    —    518/    0/   518 (100%) -0
+ * wesnoth-multiplayer            —    246/    0/   246 (100%) -0
  * wesnoth-manual                 —    569/    0/   569 (100%) -0
- * wesnoth-editor                 —    108/    0/   108 (100%) -0
+ * wesnoth-low                    —    745/    0/   745 (100%) -0
+ * wesnoth-l                      —    361/    0/   361 (100%) -0
+ * wesnoth-ei                     —    601/    0/   601 (100%) -0
+ * wesnoth-editor                 —    118/    0/   118 (100%) -0
+ * wesnoth-dw                     —    465/    0/   465 (100%) -0
+ * wesnoth-dm                     —    695/    0/   695 (100%) -0
+ * wesnoth-did                    —    333/    0/   333 (100%) -0
+ * wesnoth-aoi                    —    188/    0/   188 (100%) -0
  * wesnoth-anl                    —    112/    0/   112 (100%) -0
- * wesnoth-utbs                   —   1919/    4/  1925 ( 99%) -2
- * wesnoth-dm                     —    680/    2/   684 ( 99%) -2
- * wesnoth-trow                   —   1004/    5/  1009 ( 99%) -0
- * wesnoth-httt                   —   1141/    3/  1144 ( 99%) -0
- * wesnoth-ei                     —    598/    3/   601 ( 99%) -0
- * wesnoth-tsg                    —    518/    5/   523 ( 98%) -0
- * wesnoth-thot                   —    357/    2/   359 ( 98%) -0
- * wesnoth-sotbe                  —    645/    6/   651 ( 98%) -0
- * wesnoth-manpages               —    241/    2/   243 ( 98%) -0
- * wesnoth-l                      —    357/    3/   360 ( 98%) -0
- * wesnoth-did                    —    331/    2/   333 ( 98%) -0
- * wesnoth-tb                     —    197/    2/   199 ( 97%) -0
- * wesnoth-sof                    —    512/    6/   518 ( 97%) -0
- * wesnoth-dw                     —    460/    5/   465 ( 97%) -0
- * wesnoth-aoi                    —    185/    2/   187 ( 97%) -0
- * wesnoth-tutorial               —    311/    5/   316 ( 96%) -0
- * wesnoth-low                    —    725/   18/   743 ( 95%) -0
- * wesnoth-nr                     —   1418/   35/  1470 ( 94%) -17
- * wesnoth                        —   1632/   63/  1740 ( 90%) -45
- * wesnoth-units                  —    547/   25/   598 ( 87%) -26
- * wesnoth-lib                    —    980/   74/  1126 ( 80%) -72
- * wesnoth-help                   —    557/   59/   671 ( 74%) -55
- * wesnoth-ai                     —    211/    1/   405 ( 51%) -193
+ * wesnoth-utbs                   —   1941/   34/  2009 ( 94%) -34
+ * wesnoth-nr                     —   1425/   29/  1471 ( 94%) -17
+ * wesnoth-httt                   —   1129/   37/  1217 ( 89%) -51
+ * wesnoth-units                  —    554/   20/   604 ( 88%) -30
+ * wesnoth                        —   1611/  130/  1845 ( 80%) -104
+ * wesnoth-help                   —    548/   69/   674 ( 71%) -57
+ * wesnoth-manpages               —    212/   48/   276 ( 59%) -16
+ * wesnoth-lib                    —   1017/  234/  1367 ( 57%) -116
+ * wesnoth-ai                     —    212/    0/   399 ( 53%) -187
 
- » PT_BR                          —  13868/ 1877/ 17279 ( 69%) -1534
+ » PT_BR                          —  14220/ 2033/ 17974 ( 67%) -1721
  * wesnoth-test                   —      1/    0/     1 (100%) -0
  * wesnoth-anl                    —    112/    0/   112 (100%) -0
- * wesnoth-dm                     —    678/    4/   684 ( 98%) -2
- * wesnoth-httt                   —   1124/    5/  1144 ( 97%) -15
- * wesnoth-sof                    —    511/    6/   518 ( 97%) -1
- * wesnoth-dw                     —    457/    6/   465 ( 96%) -2
- * wesnoth-l                      —    354/    5/   360 ( 96%) -1
- * wesnoth-tsg                    —    511/    9/   523 ( 95%) -3
- * wesnoth-manual                 —    543/   17/   570 ( 92%) -10
- * wesnoth-thot                   —    341/   17/   359 ( 90%) -1
- * wesnoth-did                    —    308/   18/   333 ( 87%) -7
+ * wesnoth-sof                    —    511/    7/   519 ( 97%) -1
+ * wesnoth-ei                     —    590/    7/   597 ( 97%) -0
+ * wesnoth-dm                     —    683/   11/   698 ( 96%) -4
+ * wesnoth-l                      —    354/    5/   361 ( 96%) -2
+ * wesnoth-dw                     —    457/    8/   467 ( 96%) -2
+ * wesnoth-tsg                    —    511/   14/   532 ( 93%) -7
+ * wesnoth-manual                 —    543/   19/   572 ( 91%) -10
+ * wesnoth-httt                   —   1124/   31/  1229 ( 88%) -74
+ * wesnoth-did                    —    308/   16/   333 ( 87%) -9
+ * wesnoth-thot                   —    341/   22/   365 ( 87%) -2
  * wesnoth-trow                   —    930/   54/  1009 ( 86%) -25
- * wesnoth-units                  —    518/   10/   597 ( 85%) -69
- * wesnoth-aoi                    —    171/   11/   187 ( 85%) -5
- * wesnoth-low                    —    696/   48/   762 ( 85%) -18
- * wesnoth-nr                     —   1317/  107/  1458 ( 82%) -34
- * wesnoth-sotbe                  —    587/   66/   660 ( 78%) -7
- * wesnoth-manpages               —    191/   19/   243 ( 70%) -33
- * wesnoth-multiplayer            —    177/   18/   245 ( 64%) -50
- * wesnoth-tb                     —    155/   35/   199 ( 60%) -9
- * wesnoth-help                   —    467/  113/   678 ( 52%) -98
- * wesnoth-editor                 —     71/   18/   113 ( 46%) -24
- * wesnoth-lib                    —    717/  195/  1155 ( 45%) -243
- * wesnoth-tutorial               —    207/   68/   316 ( 43%) -41
- * wesnoth                        —   1057/  355/  1657 ( 42%) -245
- * wesnoth-utbs                   —   1318/  551/  1936 ( 39%) -67
- * wesnoth-ei                     —    321/  122/   597 ( 33%) -154
- * wesnoth-ai                     —     28/    0/   398 (  7%) -370
+ * wesnoth-aoi                    —    172/   11/   188 ( 85%) -5
+ * wesnoth-low                    —    697/   47/   762 ( 85%) -18
+ * wesnoth-units                  —    518/    7/   603 ( 84%) -78
+ * wesnoth-nr                     —   1330/   90/  1461 ( 84%) -41
+ * wesnoth-sotbe                  —    591/   62/   660 ( 80%) -7
+ * wesnoth-multiplayer            —    177/   18/   246 ( 64%) -51
+ * wesnoth-tb                     —    155/   45/   212 ( 51%) -12
+ * wesnoth-help                   —    467/  109/   689 ( 51%) -113
+ * wesnoth-manpages               —    191/   55/   292 ( 46%) -46
+ * wesnoth-editor                 —     74/   18/   124 ( 45%) -32
+ * wesnoth                        —   1065/  374/  1777 ( 38%) -338
+ * wesnoth-utbs                   —   1328/  581/  2021 ( 36%) -112
+ * wesnoth-tutorial               —    207/   88/   352 ( 33%) -57
+ * wesnoth-lib                    —    755/  334/  1414 ( 29%) -325
+ * wesnoth-ai                     —     28/    0/   378 (  7%) -350
 
  © wesn-pt-trans
