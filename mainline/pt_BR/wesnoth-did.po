@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2015-12-10 19:01-0300\n"
+"POT-Creation-Date: 2016-11-05 23:28 UTC\n"
 "PO-Revision-Date: 2013-05-16 15:19+0100\n"
 "Last-Translator: trewe <sjrs456@yahoo.fr>\n"
 "Language-Team: Gatts_Berserk <gatts_games@hotmail.com>\n"
@@ -13,8 +13,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.5.4\n"
 
+#. [scenario]: id=11_Descent_into_Darkness
 #. [campaign]: id=Descent_into_Darkness
-#. [scenario]: id=11_Descent_into_Darkness, (id=Mal Keshar) side=5 100 (
 #: data/campaigns/Descent_Into_Darkness/_main.cfg:12
 #: data/campaigns/Descent_Into_Darkness/scenarios/11_Descent_into_Darkness.cfg:5
 msgid "Descent into Darkness"
@@ -50,9 +50,9 @@ msgstr "Conjurador"
 #. [campaign]: id=Descent_into_Darkness
 #: data/campaigns/Descent_Into_Darkness/_main.cfg:19
 #, fuzzy
-#| msgid "Difficulty"
+#| msgid "(Difficult)"
 msgid "Difficult"
-msgstr "Dificuldade"
+msgstr "(Desafiador)"
 
 #. [campaign]: id=Descent_into_Darkness
 #: data/campaigns/Descent_Into_Darkness/_main.cfg:19
@@ -193,8 +193,8 @@ msgstr ""
 "aliança com aqueles que usam a magia negra.'</i>"
 
 #. [side]
-#. [side]: type=General, id=Taylor
 #. [side]: type=Sergeant, id=Drogan
+#. [side]: type=General, id=Taylor
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:56
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:102
 #: data/campaigns/Descent_Into_Darkness/scenarios/06_Return_to_Parthyn.cfg:115
@@ -204,12 +204,12 @@ msgstr ""
 msgid "Defenders"
 msgstr "Defensores"
 
-#. [side]: type=Orcish Warlord, id=Borth
-#. [side]: type=Orcish Warlord, id=Gron'r Hronk
-#. [side]: type=Orcish Warlord, id=K'Vark
-#. [side]: type=Orcish Warlord, id=K'rrlar Oban
-#. [side]: type=Orcish Warlord, id=P'Gareth
 #. [side]: type=Orcish Warrior, id=Kreg'a'shar Trr
+#. [side]: type=Orcish Warlord, id=Borth
+#. [side]: type=Orcish Warlord, id=P'Gareth
+#. [side]: type=Orcish Warlord, id=K'Vark
+#. [side]: type=Orcish Warlord, id=Gron'r Hronk
+#. [side]: type=Orcish Warlord, id=K'rrlar Oban
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:77
 #: data/campaigns/Descent_Into_Darkness/scenarios/04_Beginning_of_the_Revenge.cfg:55
 #: data/campaigns/Descent_Into_Darkness/scenarios/04_Beginning_of_the_Revenge.cfg:82
@@ -225,8 +225,8 @@ msgstr "Orcs"
 msgid "Kreg’a’shar Trr"
 msgstr "Kreg’a’shar Trr"
 
-#. [side]: type=Lieutenant, id=Drogan
 #. [side]: type=Sergeant, id=Drogan
+#. [side]: type=Lieutenant, id=Drogan
 #: data/campaigns/Descent_Into_Darkness/scenarios/01_Saving_Parthyn.cfg:107
 #: data/campaigns/Descent_Into_Darkness/scenarios/06_Return_to_Parthyn.cfg:90
 msgid "Drogan"
@@ -250,14 +250,14 @@ msgstr "Orcs abriram passagem através da defesa do forte do rio"
 #: data/campaigns/Descent_Into_Darkness/scenarios/05_Orc_War.cfg:183
 #: data/campaigns/Descent_Into_Darkness/scenarios/06_Return_to_Parthyn.cfg:190
 #: data/campaigns/Descent_Into_Darkness/scenarios/06_Return_to_Parthyn.cfg:464
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:273
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:272
 #: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:72
-#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:391
+#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:394
 #: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:116
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:366
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:430
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:168
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:656
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:369
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:433
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:167
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:658
 msgid "Death of Malin Keshar"
 msgstr "Morte de Malin Keshar"
 
@@ -558,10 +558,8 @@ msgstr "Malin Keshar"
 
 #. [side]: type=Goblin Knight, id=T'shar Lggi
 #: data/campaigns/Descent_Into_Darkness/scenarios/02_Peaceful_Valley.cfg:64
-#, fuzzy
-#| msgid "Boblin"
 msgid "Goblins"
-msgstr "Boblin"
+msgstr ""
 
 #. [side]: type=Goblin Knight, id=T'shar Lggi
 #: data/campaigns/Descent_Into_Darkness/scenarios/02_Peaceful_Valley.cfg:69
@@ -578,12 +576,12 @@ msgstr "Ocupe todas das aldeias goblins"
 #: data/campaigns/Descent_Into_Darkness/scenarios/03_A_Haunting_in_Winter.cfg:141
 #: data/campaigns/Descent_Into_Darkness/scenarios/04_Beginning_of_the_Revenge.cfg:125
 #: data/campaigns/Descent_Into_Darkness/scenarios/05_Orc_War.cfg:187
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:277
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:276
 #: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:76
-#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:395
+#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:398
 #: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:120
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:370
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:434
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:373
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:437
 msgid "Death of Darken Volk"
 msgstr "Morte de Darken Volk"
 
@@ -664,10 +662,8 @@ msgstr ""
 
 #. [modify_unit]
 #: data/campaigns/Descent_Into_Darkness/scenarios/02_Peaceful_Valley.cfg:246
-#, fuzzy
-#| msgid "d"
 msgid "Ed"
-msgstr "d"
+msgstr ""
 
 #. [message]: speaker=Darken Volk
 #: data/campaigns/Descent_Into_Darkness/scenarios/02_Peaceful_Valley.cfg:265
@@ -768,8 +764,8 @@ msgstr ""
 "quando as encontram. O poder de Malin cresce consideravelmente sob a "
 "constante tutela do necromante."
 
-#. [side]: type=Bandit, id=Gorak Cole
 #. [side]: type=Dwarvish Steelclad, id=Dap Horner
+#. [side]: type=Bandit, id=Gorak Cole
 #: data/campaigns/Descent_Into_Darkness/scenarios/03_A_Haunting_in_Winter.cfg:52
 #: data/campaigns/Descent_Into_Darkness/scenarios/03_A_Haunting_in_Winter.cfg:79
 msgid "Outlaws"
@@ -863,7 +859,7 @@ msgstr ""
 "você acabar com a ameaça orc pela fonte. Por agora, os habitantes da caverna "
 "não nos dão nenhuma escolha."
 
-#. [event]: (type=Ghost) (, id=Tortured Soul
+#. [event]: id=Tortured Soul
 #: data/campaigns/Descent_Into_Darkness/scenarios/03_A_Haunting_in_Winter.cfg:265
 msgid "Tortured Soul"
 msgstr "Alma Torturada"
@@ -1000,14 +996,14 @@ msgid "..."
 msgstr "..."
 
 #. [message]: speaker=narrator
-#: data/campaigns/Descent_Into_Darkness/scenarios/04_Beginning_of_the_Revenge.cfg:247
+#: data/campaigns/Descent_Into_Darkness/scenarios/04_Beginning_of_the_Revenge.cfg:249
 msgid ""
 "The weak ice gives way beneath the undead creature, who becomes mired in the "
 "thick mud at the lake’s bottom."
 msgstr "O gelo fino cede sob a criatura, que se vê no lodo do fundo do lago."
 
 #. [message]: speaker=narrator
-#: data/campaigns/Descent_Into_Darkness/scenarios/04_Beginning_of_the_Revenge.cfg:254
+#: data/campaigns/Descent_Into_Darkness/scenarios/04_Beginning_of_the_Revenge.cfg:256
 msgid ""
 "The weak ice gives way beneath the heavy warrior, who drowns in the frigid "
 "mountain waters."
@@ -1553,6 +1549,7 @@ msgid "Taylor"
 msgstr "Taylor"
 
 #. [side]: type=General, id=Taylor
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:165
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:166
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:167
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:168
@@ -1561,46 +1558,45 @@ msgstr "Taylor"
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:171
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:172
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:173
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:174
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:183
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:184
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:185
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:189
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:190
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:191
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:196
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:197
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:198
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:199
 msgid "Night Watchman"
 msgstr "Vigia Noturno"
 
 #. [side]: type=General, id=Taylor
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:175
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:176
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:177
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:178
 #: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:179
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:180
 msgid "Gate Guard"
 msgstr "Guarda"
 
 #. [side]: type=General, id=Taylor
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:186
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:193
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:200
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:185
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:192
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:199
 msgid "Head Trainer"
 msgstr "Treinador"
 
 #. [side]: type=General, id=Taylor
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:192
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:191
 msgid "Townperson"
 msgstr "Cidadão"
 
 #. [objective]: condition=win
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:269
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:268
 #, fuzzy
 #| msgid "Malin and Darken Volk enter the Mage Lord’s manor"
 msgid "Move Malin and Darken Volk into the Mage Lord’s manor"
 msgstr "Malin e Darken Volk entrarem no prédio do Lorde Mago"
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:311
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:310
 msgid ""
 "The stolen book lies within Lord Karres’s manor on the north end of the "
 "city. We cannot defeat the entire city guard, so we must stay hidden as long "
@@ -1615,7 +1611,7 @@ msgstr ""
 "Nossas forças não são o suficiente para vencermos toda a cidade."
 
 #. [message]: speaker=narrator
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:316
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:315
 msgid ""
 "Note: Only the units you recruit now will be available to you once inside."
 msgstr ""
@@ -1623,7 +1619,7 @@ msgstr ""
 "que você entrar."
 
 #. [message]: speaker=second_unit
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:334
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:333
 msgid ""
 "Sir! Undead creatures are coming out of the forest! Wake the guard "
 "immediately!"
@@ -1632,22 +1628,22 @@ msgstr ""
 "imediatamente!"
 
 #. [message]: speaker=Taylor
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:339
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:338
 msgid "To arms, men!"
 msgstr "Preparem-se, homens!"
 
 #. [message]: speaker=unit
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:358
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:357
 msgid "Ooouuuh! It burns... burrrrnnns..."
 msgstr "Ooouuuh! Isso queima... queeeeeima..."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:380
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:379
 msgid "What in the name of all demons of hell was this thing?"
 msgstr "O que é essa coisa?€"
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:385
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:384
 msgid ""
 "This was the impact of what is known as holy water among common people. It "
 "is brewed in a complicated and mysterious procedure only known to a few "
@@ -1658,7 +1654,7 @@ msgstr ""
 "sacerdotes e algumas vezes usado para ressuscitar criaturas."
 
 #. [message]: speaker=unit
-#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:413
+#: data/campaigns/Descent_Into_Darkness/scenarios/07_A_Small_Favor.cfg:412
 msgid "Here is the entrance! Hurry!"
 msgstr "Aqui é a entrada! Rápido!"
 
@@ -1667,9 +1663,9 @@ msgstr "Aqui é a entrada! Rápido!"
 msgid "A Small Favor — Part 2"
 msgstr "Um Pequeno Favor - Parte 2"
 
+#. [side]
 #. [do]
 #. [event]
-#. [side]
 #: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:48
 #: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:186
 #: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:150
@@ -1687,7 +1683,7 @@ msgid "Lord Karres"
 msgstr "Lord Karres"
 
 #. [message]: speaker=narrator
-#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:356
+#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:359
 msgid ""
 "Malin and Darken Volk enter the mage lord’s manor, quickly closing the heavy "
 "gates behind them."
@@ -1696,7 +1692,7 @@ msgstr ""
 "pesados portões atrás deles."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:361
+#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:364
 msgid ""
 "That gate won’t hold back the soldiers for more than a few hours. We’d "
 "better hurry."
@@ -1705,7 +1701,7 @@ msgstr ""
 "Melhor nos paressarmos."
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:380
+#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:383
 msgid ""
 "I feel the breaking of an illusion spell. The book must be in the great "
 "hall, in the northwest corner of the manor. Let us move quickly now!"
@@ -1714,12 +1710,12 @@ msgstr ""
 "noroeste. Vamos para lá, rápido!"
 
 #. [objective]: condition=win
-#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:387
+#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:390
 msgid "Move through the passageway in the northwest leading to the great hall"
 msgstr "Mova-se através da passagem no noroeste, que leva ao grande salão"
 
 #. [message]: speaker=unit
-#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:411
+#: data/campaigns/Descent_Into_Darkness/scenarios/08_A_Small_Favor2.cfg:414
 #, fuzzy
 #| msgid ""
 #| "I think I have found the passage to the great hall. Follow me quickly!"
@@ -1750,18 +1746,18 @@ msgid "Find the book"
 msgstr "Encontre o livro"
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:249
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:252
 msgid "I feel the book is very close, somewhere to the northwest."
 msgstr "Sinto que o livro está perto, em algum lugar a noroeste."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:350
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:449
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:353
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:452
 msgid "We’ve got the book, but now how do we get out of here?"
 msgstr "Conseguimos o livro, mas como sairemos daqui?"
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:355
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:358
 msgid ""
 "There’s a small tunnel in the cellar to the northeast. It will lead us far "
 "enough out of the city that we can escape pursuit."
@@ -1770,33 +1766,33 @@ msgstr ""
 "suficiente para conseguirmos escapar."
 
 #. [objective]: condition=win
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:362
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:365
 msgid "Escape via the tunnel in the northeast cellar"
 msgstr "Escape pelo túnel da cela nordeste"
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:390
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:494
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:393
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:497
 msgid "Phew! Let’s get out of here."
 msgstr "Aqui! Agora vamos embora."
 
 #. [objective]: condition=win
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:426
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:429
 msgid "Escape the manor"
 msgstr "Saia do prédio"
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:458
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:461
 msgid "Wait, you aren’t leaving me behind, are you?"
 msgstr "Espere, não está me deixando para trás, está¹"
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:471
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:474
 msgid "You have served me well, my apprentice."
 msgstr "Você serviu-me muito bem, aprendiz."
 
 #. [message]: speaker=narrator
-#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:477
+#: data/campaigns/Descent_Into_Darkness/scenarios/09_A_Small_Favor3.cfg:480
 msgid ""
 "As he heads into the tunnel Darken Volk collapses its entrance, leaving "
 "Malin to be captured and executed by the city guards."
@@ -1838,18 +1834,18 @@ msgid "Darken Volk"
 msgstr "Darken Volk"
 
 #. [side]
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:90
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:125
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:89
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:124
 msgid "Wesnothians"
 msgstr "Wesnothianos"
 
 #. [objective]: condition=win
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:164
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:163
 msgid "Take the book back from Darken Volk"
 msgstr "Recupere o livro de Darken Volk"
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:245
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:247
 msgid ""
 "Well, we made it out. We got your precious book. What’s in it, anyway? And "
 "what do we do now?"
@@ -1858,45 +1854,45 @@ msgstr ""
 "que nós faremos?"
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:250
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:252
 msgid "‘We’? <i>We</i> do nothing. You are no longer my apprentice."
 msgstr "'Nós'?<i>Nós</i> não faremos nada. Você não é mais meu aprendiz."
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:266
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:268
 msgid "Now give the book to me."
 msgstr "Então dê-me o livro agora."
 
 #. [message]: speaker=narrator
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:272
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:274
 msgid ""
 "Darken Volk grabs the mysterious book from Malin’s hands and stalks away."
 msgstr "Darken Volk pega o misterioso livro das mãos de Malin e afasta-se."
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:279
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:281
 msgid "Now go your own way, and I will go mine."
 msgstr "Agora siga seu caminho, e eu seguirei o meu."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:301
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:303
 msgid "You can’t just leave me here!"
 msgstr "Você não pode me deixar aqui!"
 
 #. [message]: role=advisor
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:310
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:312
 msgid "Master, do you not see? He has merely been using you to get that book!"
 msgstr ""
 "Mestre, você não vê? Ele estava simplesmente lhe usando para conseguir o "
 "livro!"
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:315
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:317
 msgid "What do you mean?"
 msgstr "O que você quer dizer?"
 
 #. [message]: role=advisor
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:320
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:322
 msgid ""
 "He cares not about your noble quest to push back the orcs. He needed your "
 "help to fight the mages! The book is rightfully yours!"
@@ -1905,12 +1901,12 @@ msgstr ""
 "sua ajuda para enfrentar os magos! O livro é seu de direito!"
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:325
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:327
 msgid "Wait!"
 msgstr "Espere!"
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:330
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:332
 msgid ""
 "All of the training you gave me, that was just so I would help you get that "
 "book! Return it to me now, or I will take it by force."
@@ -1919,12 +1915,12 @@ msgstr ""
 "conseguir o livro! Devolva-me, ou eu o pegarei à força."
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:337
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:339
 msgid "You are even more of a fool than I thought."
 msgstr "Você é ainda mais tolo do que eu pensava."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:412
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:414
 msgid ""
 "You let me believe Parthyn would accept me back so when they didn’t I would "
 "be willing to attack my own countrymen!"
@@ -1933,7 +1929,7 @@ msgstr ""
 "eles não o fizessem, eu lutasse contra meu povo!"
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:417
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:419
 msgid ""
 "What you let yourself believe is no fault of mine. Cease your foolish "
 "prattle. I gave you more power than you could have possibly dreamed. Use it "
@@ -1944,7 +1940,7 @@ msgstr ""
 "lutar com os orcs, não comigo."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:422
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:424
 msgid ""
 "So it is true! You took my home away from me. You took Drogan away. Now that "
 "all of that is gone, I will at least keep the fruits of my labors."
@@ -1954,22 +1950,22 @@ msgstr ""
 "o livro."
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:427
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:429
 msgid "Hardly. I will crush you easily."
 msgstr "Dificilmente. Eu irei lhe destruir."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:432
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:434
 msgid "Perhaps, but I have nothing left to lose."
 msgstr "Talvez, mas eu não tenho mais nada a perder."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:447
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:449
 msgid "Now you shall pay for what you have done to me."
 msgstr "Agora você pagará pelo que fez a mim."
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:452
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:454
 msgid ""
 "Done? I have done nothing but give you an opportunity. You have chosen your "
 "own path. Now leave me alone!"
@@ -1978,12 +1974,12 @@ msgstr ""
 "próprio caminho. Agora deixe-me em paz!"
 
 #. [unit]: type=Paladin, id=Sir Cadaeus
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:476
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:478
 msgid "Sir Cadaeus"
 msgstr "Sir Cadaeus"
 
 #. [message]: speaker=Sir Cadaeus
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:508
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:510
 msgid ""
 "Your travels in this region have not gone unnoticed, foul necromancers! We "
 "have been tracking you for weeks, with our purpose renewed this morning upon "
@@ -1994,7 +1990,7 @@ msgstr ""
 "após ouvirmos o desastre que você fizeram na pacata cidade de Tath."
 
 #. [message]: speaker=Sir Cadaeus
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:513
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:515
 msgid ""
 "Do not even think of running away — my horsemen can easily catch you. Yes, "
 "on this day you shall have to answer for your innumerable crimes."
@@ -2003,7 +1999,7 @@ msgstr ""
 "hoje vocês terão que explicar os inúmeros crimes que cometeram."
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:518
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:520
 msgid ""
 "We’ll see how well your pompous words protect you from the blades of the "
 "undead once I have finished this upstart."
@@ -2012,7 +2008,7 @@ msgstr ""
 "meus mortos-vivos uma vez que eu iniciar o ataque."
 
 #. [message]: speaker=Dela Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:618
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:620
 msgid ""
 "I told you, Malin, that I would find you again, and I have kept my word. I "
 "will not suffer you to bring any further harm to my people, and so you will "
@@ -2023,7 +2019,7 @@ msgstr ""
 "mais um nascer do sol."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:623
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:625
 msgid ""
 "You wrong me, sister. I have only tried to help. Have you not seen fewer "
 "orcs this past summer?"
@@ -2032,29 +2028,29 @@ msgstr ""
 "que vieram menos orcs no último verão?"
 
 #. [message]: speaker=Dela Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:628
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:630
 msgid "I will not listen to any more of your lies. Men, attack!"
 msgstr "Não escutarei mais suas mentiras. Homens, ataquem!"
 
 #. [message]: speaker=Darken Volk
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:640
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:642
 msgid "With my dying breath I curse you, Malin the Damned!"
 msgstr "Com meu último suspiro eu lhe amaldiçoo: Malin, o Maldito!"
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:645
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:647
 #, fuzzy
 #| msgid "Now I’ve just got to get that book out of the battleground!"
 msgid "Now I’ve just got to get that book off the battlefield!"
 msgstr "Agora eu só preciso tirar o livro do campo de batalha!"
 
 #. [objective]: condition=win
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:652
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:654
 msgid "Bring the book back to Malin’s castle"
 msgstr "Traga o livro de volta ao castelo de Malin"
 
 #. [message]: speaker=narrator
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:668
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:670
 msgid ""
 "Pick up the book by moving a unit onto it. Bats and ghosts cannot carry the "
 "book."
@@ -2063,21 +2059,21 @@ msgstr ""
 "o carregar."
 
 #. [message]: speaker=unit
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:713
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:715
 #, fuzzy
 #| msgid "I have the book."
 msgid "I have the book!"
 msgstr "Eu peguei o livro."
 
 #. [message]: speaker=unit
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:733
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:735
 #, fuzzy
 #| msgid "I am sorry master, that is too heavy for me."
 msgid "I am sorry, master, but that is too heavy for me."
 msgstr "Desculpe, mestre, é muito pesado para mim."
 
 #. [message]: speaker=Malin Keshar
-#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:769
+#: data/campaigns/Descent_Into_Darkness/scenarios/10_Alone_at_Last.cfg:771
 msgid ""
 "The paladins will not be able to pursue me through the mountains, and Dela "
 "will not dare take the soldiers too far from Parthyn."
@@ -2318,7 +2314,7 @@ msgstr ""
 "dessas criaturas."
 
 #. [message]
-#: data/campaigns/Descent_Into_Darkness/scenarios/11_Descent_into_Darkness.cfg:737
+#: data/campaigns/Descent_Into_Darkness/scenarios/11_Descent_into_Darkness.cfg:738
 msgid "<big>AAAaaaggghhhh!! ...</big>"
 msgstr "<big>AAAaaaggghhhh!! ...</big>"
 
@@ -2355,11 +2351,11 @@ msgstr ""
 msgid "Defeat the foolish hero"
 msgstr "Derrote o herói idiota"
 
-#. [unit]: type=Assassin, id=Foolish Hero
-#. [unit]: type=Dwarvish Lord, id=Foolish Hero
-#. [unit]: type=Elvish Marshal, id=Foolish Hero
-#. [unit]: type=Orcish Warlord, id=Foolish Hero
 #. [unit]: type=Royal Guard, id=Foolish Hero
+#. [unit]: type=Assassin, id=Foolish Hero
+#. [unit]: type=Elvish Marshal, id=Foolish Hero
+#. [unit]: type=Dwarvish Lord, id=Foolish Hero
+#. [unit]: type=Orcish Warlord, id=Foolish Hero
 #: data/campaigns/Descent_Into_Darkness/scenarios/12_Endless_Night.cfg:133
 #: data/campaigns/Descent_Into_Darkness/scenarios/12_Endless_Night.cfg:157
 #: data/campaigns/Descent_Into_Darkness/scenarios/12_Endless_Night.cfg:177
@@ -2520,7 +2516,7 @@ msgid "Apprentice Mage"
 msgstr "Mago Aprendiz"
 
 #. [unit_type]: id=Apprentice Mage, race=human
-#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Mage.cfg:18
+#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Mage.cfg:17
 msgid ""
 "Trained in swordsmanship as a boy and the magical arts as a young man, Malin "
 "Keshar is talented at both but an expert in neither."
@@ -2530,14 +2526,14 @@ msgstr ""
 "nenhum."
 
 #. [attack]: type=blade
-#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Mage.cfg:23
-#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Necromancer.cfg:22
-#: data/campaigns/Descent_Into_Darkness/units/Dark_Mage.cfg:23
+#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Mage.cfg:22
+#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Necromancer.cfg:21
+#: data/campaigns/Descent_Into_Darkness/units/Dark_Mage.cfg:22
 msgid "short sword"
 msgstr "espada curta"
 
 #. [attack]: type=impact
-#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Mage.cfg:32
+#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Mage.cfg:31
 msgid "magic blast"
 msgstr "explosão mágica"
 
@@ -2547,7 +2543,7 @@ msgid "Apprentice Necromancer"
 msgstr "Necromante Aprendiz"
 
 #. [unit_type]: id=Apprentice Necromancer, race=human
-#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Necromancer.cfg:17
+#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Necromancer.cfg:16
 msgid ""
 "Despite his increased magical powers, Malin holds on to his short sword as "
 "his melee weapon of choice."
@@ -2556,14 +2552,14 @@ msgstr ""
 "grande talento."
 
 #. [attack]: type=cold
-#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Necromancer.cfg:31
-#: data/campaigns/Descent_Into_Darkness/units/Dark_Mage.cfg:35
+#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Necromancer.cfg:30
+#: data/campaigns/Descent_Into_Darkness/units/Dark_Mage.cfg:34
 msgid "chill wave"
 msgstr "onda gelada"
 
 #. [attack]: type=arcane
-#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Necromancer.cfg:43
-#: data/campaigns/Descent_Into_Darkness/units/Dark_Mage.cfg:47
+#: data/campaigns/Descent_Into_Darkness/units/Apprentice_Necromancer.cfg:42
+#: data/campaigns/Descent_Into_Darkness/units/Dark_Mage.cfg:46
 msgid "shadow wave"
 msgstr "onda sombria"
 
@@ -2573,7 +2569,7 @@ msgid "Dark Mage"
 msgstr "Mago Negro"
 
 #. [unit_type]: id=Dark Mage, race=human
-#: data/campaigns/Descent_Into_Darkness/units/Dark_Mage.cfg:18
+#: data/campaigns/Descent_Into_Darkness/units/Dark_Mage.cfg:17
 msgid ""
 "Although Malin’s sword has grown rusty from lack of proper care, his "
 "increasing skill with magic more than compensates."
