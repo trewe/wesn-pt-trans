@@ -100,8 +100,9 @@ msgstr ""
 #. [terrain_type]: id=medium_reef
 #. [terrain_type]: id=tropical_reef
 #. [terrain_type]: id=reef
-#: data/core/terrain.cfg:98 data/core/terrain.cfg:109 data/core/terrain.cfg:120
-#: data/core/terrain.cfg:2448 data/core/terrain.cfg:2449
+#: data/core/terrain.cfg:98 data/core/terrain.cfg:109
+#: data/core/terrain.cfg:120 data/core/terrain.cfg:2448
+#: data/core/terrain.cfg:2449
 msgid "Coastal Reef"
 msgstr "Recife Costeiro"
 
@@ -747,8 +748,8 @@ msgstr ""
 "<ref>dst='terrain_illuminated_cave' text='iluminadas'</ref>. \n"
 "\n"
 "A maioria das unidades têm cerca de 50% de defesa em cavernas rochosas, "
-"enquanto a cavalaria está limitado a 40%. Anões desfrutam de uma defesa de "
-"60% em cavernas rochosas."
+"enquanto a cavalaria está limitado a 40%. Anões desfrutam de uma defesa de 60"
+"% em cavernas rochosas."
 
 #
 #. [terrain_type]: id=mine_rails
@@ -1697,8 +1698,8 @@ msgid ""
 "Rare patches of the underground world are illuminated by light from the "
 "surface shining down into the gloomy darkness. This provides an attack bonus "
 "for lawful units and removes the attack bonus from chaotic units. In all "
-"other regards this terrain is functionally identical to normal cave "
-"terrains.\n"
+"other regards this terrain is functionally identical to normal cave terrains."
+"\n"
 "\n"
 "Most units receive 20 to 40% defense in caves, whereas dwarves have 50%."
 msgstr ""
@@ -1752,8 +1753,8 @@ msgid ""
 "slowed down. Cavalry have enough trouble navigating the terrain that any "
 "defensive aid lent by cover is negated.\n"
 "\n"
-"Most units have about 50% defense in hills, whereas cavalry are limited to "
-"40%. Dwarves enjoy 60% defense in hills."
+"Most units have about 50% defense in hills, whereas cavalry are limited to 40"
+"%. Dwarves enjoy 60% defense in hills."
 msgstr ""
 "<italic>text='Colinas'</italic> são terreno razoavelmente íngreme,\n"
 "com fendas e elevações suficientes para servirem de alguma cobertura.As "
@@ -2163,7 +2164,8 @@ msgstr "Ligar"
 #: data/gui/window/mp_faction_select.cfg:391
 #: data/gui/window/mp_join_game.cfg:430
 #: data/gui/window/mp_join_game_password_prompt.cfg:149
-#: data/gui/window/mp_login.cfg:270 data/gui/window/mp_method_selection.cfg:298
+#: data/gui/window/mp_login.cfg:270
+#: data/gui/window/mp_method_selection.cfg:298
 #: data/gui/window/mp_server_list.cfg:231 data/gui/window/mp_staging.cfg:516
 #: data/gui/window/network_transmission.cfg:114
 #: data/gui/window/select_orb_colors.cfg:124
@@ -2196,7 +2198,8 @@ msgstr "Versão:"
 
 #
 #. [label]
-#: data/gui/window/addon_description.cfg:172 data/gui/window/addon_list.cfg:721
+#: data/gui/window/addon_description.cfg:172
+#: data/gui/window/addon_list.cfg:721
 #: data/gui/window/game_cache_options.cfg:160
 #: data/gui/window/screenshot_notification.cfg:139
 msgid "Size:"
@@ -2579,7 +2582,8 @@ msgstr ""
 #: data/gui/window/mp_create_game_set_password.cfg:132
 #: data/gui/window/mp_faction_select.cfg:379
 #: data/gui/window/mp_join_game_password_prompt.cfg:136
-#: data/gui/window/mp_login.cfg:242 data/gui/window/mp_method_selection.cfg:284
+#: data/gui/window/mp_login.cfg:242
+#: data/gui/window/mp_method_selection.cfg:284
 #: data/gui/window/screenshot_notification.cfg:200
 #: data/gui/window/select_orb_colors.cfg:113
 #: data/gui/window/simple_item_selector.cfg:145
@@ -2652,8 +2656,8 @@ msgstr "Era:"
 #. [label]: id=mod_label
 #. [label]: id=mods_label
 #. [label]: id=mods_header
-#: data/gui/window/campaign_settings.cfg:246 data/gui/window/lobby_main.cfg:167
-#: data/gui/window/mp_create_game.cfg:203
+#: data/gui/window/campaign_settings.cfg:246
+#: data/gui/window/lobby_main.cfg:167 data/gui/window/mp_create_game.cfg:203
 msgid "Modifications:"
 msgstr "Modificações:"
 
@@ -2713,7 +2717,8 @@ msgid "Filter:"
 msgstr "Filtro:"
 
 #. [button]: id=copy
-#: data/gui/window/chat_log.cfg:196 data/gui/window/gamestate_inspector.cfg:335
+#: data/gui/window/chat_log.cfg:196
+#: data/gui/window/gamestate_inspector.cfg:335
 #: data/gui/window/lua_interpreter.cfg:105 data/gui/window/wml_error.cfg:124
 msgid "clipboard^Copy"
 msgstr "Copiar"
@@ -2780,7 +2785,8 @@ msgstr "Mascara"
 #. [button]: id=sound_button
 #. [label]
 #. [widget]: id=label
-#: data/gui/window/custom_tod.cfg:168 data/gui/window/mp_alerts_options.cfg:154
+#: data/gui/window/custom_tod.cfg:168
+#: data/gui/window/mp_alerts_options.cfg:154
 #: data/gui/window/preferences.cfg:346
 msgid "Sound"
 msgstr "Som"
@@ -5066,8 +5072,7 @@ msgstr "Guardar Revisões no final dos cenários"
 #| "Saves replays of games on victory in all modes and defeat in multiplayer"
 msgid "Save replays of games on victory in all modes and defeat in multiplayer"
 msgstr ""
-"Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou "
-"derrota MP"
+"Eliminar ficheiros guardados automaticamente após vitória SP/MP ou derrota MP"
 
 #
 #. [toggle_button]: id=delete_saves
@@ -5085,8 +5090,7 @@ msgstr "Apagar partidas gravadas automaticamente no final dos cenários"
 msgid ""
 "Delete previous auto-saves on victory in all modes and defeat in multiplayer"
 msgstr ""
-"Eliminar ficheiros guardados automaticamente depois de vitória SP/MP ou "
-"derrota MP"
+"Eliminar ficheiros guardados automaticamente após vitória SP/MP ou derrota MP"
 
 #
 #. [column]
@@ -6161,26 +6165,26 @@ msgid "Number of columns differ."
 msgstr "Numero de colunas difere"
 
 #
-#: src/gui/dialogs/addon/description.cpp:110 src/gui/dialogs/addon/list.cpp:222
-#: src/gui/dialogs/addon/list.cpp:262
+#: src/gui/dialogs/addon/description.cpp:110
+#: src/gui/dialogs/addon/list.cpp:222 src/gui/dialogs/addon/list.cpp:262
 msgid "addon_state^Not installed"
 msgstr "Não instalado"
 
 #
-#: src/gui/dialogs/addon/description.cpp:112 src/gui/dialogs/addon/list.cpp:222
-#: src/gui/dialogs/addon/list.cpp:264
+#: src/gui/dialogs/addon/description.cpp:112
+#: src/gui/dialogs/addon/list.cpp:222 src/gui/dialogs/addon/list.cpp:264
 msgid "addon_state^Published, not installed"
 msgstr "Publicado, mas não instalado"
 
 #
-#: src/gui/dialogs/addon/description.cpp:117 src/gui/dialogs/addon/list.cpp:230
-#: src/gui/dialogs/addon/list.cpp:269
+#: src/gui/dialogs/addon/description.cpp:117
+#: src/gui/dialogs/addon/list.cpp:230 src/gui/dialogs/addon/list.cpp:269
 msgid "addon_state^Installed"
 msgstr "Instalado"
 
 #
-#: src/gui/dialogs/addon/description.cpp:119 src/gui/dialogs/addon/list.cpp:230
-#: src/gui/dialogs/addon/list.cpp:271
+#: src/gui/dialogs/addon/description.cpp:119
+#: src/gui/dialogs/addon/list.cpp:230 src/gui/dialogs/addon/list.cpp:271
 msgid "addon_state^Published"
 msgstr "Publicado"
 
@@ -6215,25 +6219,26 @@ msgid "addon_state^Published ($local_version| installed), outdated on server"
 msgstr "Publicado (instalado $local_version|), mas obsoleto no servidor"
 
 #
-#: src/gui/dialogs/addon/description.cpp:151 src/gui/dialogs/addon/list.cpp:242
-#: src/gui/dialogs/addon/list.cpp:303
+#: src/gui/dialogs/addon/description.cpp:151
+#: src/gui/dialogs/addon/list.cpp:242 src/gui/dialogs/addon/list.cpp:303
 msgid "addon_state^Installed, broken"
 msgstr "Instalado mas não funciona"
 
 #
-#: src/gui/dialogs/addon/description.cpp:153 src/gui/dialogs/addon/list.cpp:242
-#: src/gui/dialogs/addon/list.cpp:305
+#: src/gui/dialogs/addon/description.cpp:153
+#: src/gui/dialogs/addon/list.cpp:242 src/gui/dialogs/addon/list.cpp:305
 msgid "addon_state^Published, broken"
 msgstr "Publicado mas não funciona"
 
 #
-#: src/gui/dialogs/addon/description.cpp:157 src/gui/dialogs/addon/list.cpp:246
-#: src/gui/dialogs/addon/list.cpp:309
+#: src/gui/dialogs/addon/description.cpp:157
+#: src/gui/dialogs/addon/list.cpp:246 src/gui/dialogs/addon/list.cpp:309
 msgid "addon_state^Unknown"
 msgstr "Desconhecido"
 
-#: src/gui/dialogs/addon/description.cpp:393 src/gui/dialogs/addon/list.cpp:397
-#: src/gui/dialogs/chat_log.cpp:419 src/gui/dialogs/game_cache_options.cpp:104
+#: src/gui/dialogs/addon/description.cpp:393
+#: src/gui/dialogs/addon/list.cpp:397 src/gui/dialogs/chat_log.cpp:419
+#: src/gui/dialogs/game_cache_options.cpp:104
 #: src/gui/dialogs/game_version.cpp:186
 #: src/gui/dialogs/gamestate_inspector.cpp:426
 #: src/gui/dialogs/lua_interpreter.cpp:479
