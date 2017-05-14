@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-manpages)\n"
-"POT-Creation-Date: 2016-04-30 20:00+0300\n"
+"POT-Creation-Date: 2017-03-19 00:05+0300\n"
 "PO-Revision-Date: 2015-04-18 17:26-0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -355,8 +355,8 @@ msgstr "B<--gunzip>I<\\ infile.gz>"
 #. type: Plain text
 #: doc/man/wesnoth.6:101
 msgid ""
-"decompresses a file which should be in gzip format and stores it without the "
-".gz suffix. The I<infile.gz> will be removed."
+"decompresses a file which should be in gzip format and stores it without "
+"the .gz suffix. The I<infile.gz> will be removed."
 msgstr ""
 "descomprime um arquivo que possa estar em formato gzip e armazena-o sem o "
 "sufixo .gz. O arquivo I<infile.gz> é então removido."
@@ -450,8 +450,8 @@ msgstr "B<--log->I<nível>B<=>I<domínio1>B<,>I<domínio2>B<,>I<...>"
 #: doc/man/wesnoth.6:138
 msgid ""
 "sets the severity level of the log domains.  B<all> can be used to match any "
-"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ B<debug>. "
-" By default the B<error> level is used."
+"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ "
+"B<debug>.  By default the B<error> level is used."
 msgstr ""
 "Ajusta o nível de severidade dos domínios de log. B<all> (tudo) pode ser "
 "usado para qualquer domínio de log. Níveis disponíveis: B<error> (erro),\\ "
@@ -724,13 +724,9 @@ msgstr "imprime o nome do directório de dados e sai."
 #. type: TP
 #: doc/man/wesnoth.6:196
 #, fuzzy, no-wrap
-#| msgid ""
-#| "B<-p, --preprocess E<lt>source file/folderE<gt> E<lt>target "
-#| "directoryE<gt>>"
+#| msgid "B<-p, --preprocess E<lt>source file/folderE<gt> E<lt>target directoryE<gt>>"
 msgid "B<-p,\\ --preprocess>I<\\ source-file/folder>B<\\ >I<target-directory>"
-msgstr ""
-"B<-p, --preprocess E<lt>ficheiro base/pastaE<gt> E<lt>directório "
-"alvejadoE<gt>>"
+msgstr "B<-p, --preprocess E<lt>ficheiro base/pastaE<gt> E<lt>directório alvejadoE<gt>>"
 
 #
 #. type: Plain text
@@ -963,17 +959,17 @@ msgstr "B<--userconfig-dir>I<\\ nome>"
 #| msgid ""
 #| "sets the user configuration directory to I<name> under $HOME or \"My "
 #| "Documents\\eMy Games\" for windows.  You can also specify an absolute "
-#| "path for the configuration directory outside the $HOME or \"My "
-#| "Documents\\eMy Games\".  Under X11 this defaults to $XDG_CONFIG_HOME or "
-#| "$HOME/.config/wesnoth, on other systems to the userdata path."
+#| "path for the configuration directory outside the $HOME or \"My Documents"
+#| "\\eMy Games\".  Under X11 this defaults to $XDG_CONFIG_HOME or $HOME/."
+#| "config/wesnoth, on other systems to the userdata path."
 msgid ""
 "sets the user configuration directory to I<name> under $HOME or \"My "
 "Documents\\eMy Games\" for windows.  You can also specify an absolute path "
 "for the configuration directory outside the $HOME or \"My Documents\\eMy "
 "Games\". On Windows it is also possible to specify a directory relative to "
-"the process working directory by using path starting with \".\\e\" or \".."
-"\\e\".  Under X11 this defaults to $XDG_CONFIG_HOME or $HOME/.config/"
-"wesnoth, on other systems to the userdata path."
+"the process working directory by using path starting with \".\\e\" or \"..\\e"
+"\".  Under X11 this defaults to $XDG_CONFIG_HOME or $HOME/.config/wesnoth, "
+"on other systems to the userdata path."
 msgstr ""
 "define o diretório I<nome> do utilizador em $HOME ou “Os meus Documentos\\Os "
 "Meus Jogos” em Windows. Também podes especificar o caminho absoluto para as "
@@ -1015,10 +1011,9 @@ msgid ""
 "also possible to specify a directory relative to the process working "
 "directory by using path starting with \".\\e\" or \"..\\e\"."
 msgstr ""
-"define o directório I<nome> do utilizador em $HOME ou “Os meus "
-"Documentos\\Os Meus Jogos” em Windows. Também podes especificar o caminho "
-"absoluto para as configurações fora de $HOME ou “Os meus Documentos\\Os Meus "
-"Jogos”."
+"define o directório I<nome> do utilizador em $HOME ou “Os meus Documentos"
+"\\Os Meus Jogos” em Windows. Também podes especificar o caminho absoluto "
+"para as configurações fora de $HOME ou “Os meus Documentos\\Os Meus Jogos”."
 
 #
 #. type: TP
@@ -1461,17 +1456,17 @@ msgid "SEE ALSO"
 msgstr "VER TAMBÉM"
 
 #
-#. This program is free software; you can redistribute it and/or modify
-#. it under the terms of the GNU General Public License as published by
-#. the Free Software Foundation; either version 2 of the License, or
-#. (at your option) any later version.
-#. This program is distributed in the hope that it will be useful,
-#. but WITHOUT ANY WARRANTY; without even the implied warranty of
-#. MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#. GNU General Public License for more details.
-#. You should have received a copy of the GNU General Public License
-#. along with this program; if not, write to the Free Software
-#. Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+#.  This program is free software; you can redistribute it and/or modify
+#.  it under the terms of the GNU General Public License as published by
+#.  the Free Software Foundation; either version 2 of the License, or
+#.  (at your option) any later version.
+#.  This program is distributed in the hope that it will be useful,
+#.  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#.  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#.  GNU General Public License for more details.
+#.  You should have received a copy of the GNU General Public License
+#.  along with this program; if not, write to the Free Software
+#.  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 #. type: Plain text
 #: doc/man/wesnothd.6:15
 msgid "B<wesnothd>(6)."
@@ -1513,11 +1508,11 @@ msgstr "wesnothd — Um daemon de rede para a Batalha por B<Wesnoth>."
 #. type: Plain text
 #: doc/man/wesnothd.6:36
 msgid ""
-"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] "
-"[\\|B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
+"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] [\\|"
+"B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
 msgstr ""
-"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] "
-"[\\|B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
+"B<wesnothd> [\\|B<-dv>\\|] [\\|B<-c> I<path>\\|] [\\|B<-p> I<port>\\|] [\\|"
+"B<-t> I<number>\\|] [\\|B<-T> I<number>\\|]"
 
 #
 # type: Plain text
@@ -1588,9 +1583,9 @@ msgstr "explica o que as opções de linha de comando fazem."
 #: doc/man/wesnothd.6:72
 msgid ""
 "sets the severity level of the log domains.  B<all> can be used to match any "
-"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ B<debug>. "
-" By default the B<error> level is used and the B<info> level for the "
-"B<server> domain."
+"log domain. Available levels: B<error>,\\ B<warning>,\\ B<info>,\\ "
+"B<debug>.  By default the B<error> level is used and the B<info> level for "
+"the B<server> domain."
 msgstr ""
 "define o nível de gravidade dos domínios de log. B<all> pode ser usado para "
 "combinar com qualquer domínio de log. Níveis disponíveis: B<erro>,\\ "
@@ -1855,9 +1850,9 @@ msgid ""
 "from wesnoth).  If not specified defaults to the compile-time path (default: "
 "B</var/run/socket/wesnothd/socket>)."
 msgstr ""
-"O caminho para o fifo que exibe os comandos do servidor (o mesmo que /query "
-"... de wesnoth). Se não especificado, o padrão é o caminho da compilação "
-"(padrão: B</var/run/socket/wesnothd/socket>)."
+"O caminho para o fifo que exibe os comandos do servidor (o mesmo que /"
+"query ... de wesnoth). Se não especificado, o padrão é o caminho da "
+"compilação (padrão: B</var/run/socket/wesnothd/socket>)."
 
 #
 # type: TP
@@ -2218,14 +2213,14 @@ msgstr ""
 #: doc/man/wesnothd.6:221
 msgid ""
 "B<[user_handler]> Configures the user handler. Available keys vary depending "
-"on which user handler is set with the B<user_handler> key. If no B<"
-"[user_handler]> section is present in the configuration the server will run "
-"without any nick registration service."
+"on which user handler is set with the B<user_handler> key. If no "
+"B<[user_handler]> section is present in the configuration the server will "
+"run without any nick registration service."
 msgstr ""
 "B<[user_handler]> Define como gerir a base de dados de utilizadores. Opções "
-"disponíveis irão depender qual B<user_handler> esta em uso. Se nenhum B<"
-"[user_handler]> é encontrado, então o servidor irá correr sem possibilidade "
-"de registo do nome de utilizador."
+"disponíveis irão depender qual B<user_handler> esta em uso. Se nenhum "
+"B<[user_handler]> é encontrado, então o servidor irá correr sem "
+"possibilidade de registo do nome de utilizador."
 
 #
 # type: TP
@@ -2529,8 +2524,8 @@ msgstr "B<wesnoth>(6)."
 #~ msgid ""
 #~ "sets the user configuration directory to I<name> under $HOME or \"My "
 #~ "Documents\\eMy Games\" for windows.  You can also specify an absolute "
-#~ "path for the configuration directory outside the $HOME or \"My "
-#~ "Documents\\eMy Games\""
+#~ "path for the configuration directory outside the $HOME or \"My Documents"
+#~ "\\eMy Games\""
 #~ msgstr ""
 #~ "define o diretório de configuração do utilizador para I<name> em $HOME ou "
 #~ "“Os meus Documentos\\Os Meus Jogos” em Windows. Também podes especificar "
