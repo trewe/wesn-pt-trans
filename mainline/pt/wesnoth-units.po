@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-units)\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2017-05-13 22:46 UTC\n"
-"PO-Revision-Date: 2016-08-27 11:13+0100\n"
+"POT-Creation-Date: 2017-05-29 21:55+0200\n"
+"PO-Revision-Date: 2017-06-12 09:59+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 2.0.1\n"
 "Country: PORTUGAL\n"
 
 #
@@ -420,8 +420,8 @@ msgstr ""
 #
 #. [attack]: type=arcane
 #. [attack]: type=impact
-#. [attack]: type=cold
 #. [attack]: type=fire
+#. [attack]: type=cold
 #: data/campaigns/Secrets_of_the_Ancients/units/Corpse_Shynal.cfg:35
 #: data/campaigns/Secrets_of_the_Ancients/units/Necro_Ancient_Lich.cfg:30
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Moon_Shyde.cfg:60
@@ -801,7 +801,7 @@ msgstr "Fada Elfa"
 #. [attack]: type=blade
 #: data/campaigns/The_Rise_Of_Wesnoth/units/Familiar.cfg:33
 #: data/core/units/monsters/Fire_Dragon.cfg:31
-#: data/core/units/monsters/Giant_Rat.cfg:29
+#: data/core/units/monsters/Giant_Rat.cfg:30
 #: data/core/units/undead/Corpse_Ghast.cfg:27
 msgid "bite"
 msgstr "mordida"
@@ -1325,13 +1325,6 @@ msgstr "Labareda Drago"
 #
 #. [unit_type]: id=Drake Flare, race=drake
 #: data/core/units/drakes/Flare.cfg:17
-#, fuzzy
-#| msgid ""
-#| "Respected for the heat of their flame and revered for their charisma, "
-#| "Flares aspire to become great leaders of their people, both in war and "
-#| "peace. Though a small isolated tribe will sometimes accept a Flare as a "
-#| "leader, they are more often seen leading small war parties or mediating "
-#| "disputes with a subtle hand."
 msgid ""
 "Respected for the heat of their flame and revered for their charisma, Flares "
 "aspire to become great leaders of their people, both in war and in peace. "
@@ -3238,11 +3231,6 @@ msgstr "Sargento"
 #
 #. [unit_type]: id=Sergeant, race=human
 #: data/core/units/humans/Loyalist_Sergeant.cfg:18
-#, fuzzy
-#| msgid ""
-#| "The Sergeant is a low-ranking officer in the ranks of an army. Though "
-#| "academically trained, he will need some experience in the field before "
-#| "his leadership is sound and acknowledged."
 msgid ""
 "Sergeants are low-ranking officers of human armies. Though academically "
 "trained, they need some experience in the field before their leadership is "
@@ -3250,9 +3238,9 @@ msgid ""
 "combat means they can more effectively rouse civilians and peasants in "
 "trying situations."
 msgstr ""
-"O Sargento é um oficial de baixa ordem do Exército Real. Apesar do seu "
-"treino académico, precisará de alguma experiência de campo antes que a sua "
-"liderança seja ouvida e aceita."
+"Sargentos são oficiais de baixa ordem do Exército Real. Apesar do seu treino "
+"acadêmico, precisarão de alguma experiência de campo antes que a sua "
+"liderança seja ouvida e aceita, para além civis e camponeses."
 
 #
 #. [unit_type]: id=Shock Trooper, race=human
@@ -3952,12 +3940,6 @@ msgstr "Camponês"
 #
 #. [unit_type]: id=Peasant, race=human
 #: data/core/units/humans/Peasant.cfg:18
-#, fuzzy
-#| msgid ""
-#| "Peasants are the backbone of the rural economy, and the soldiers of last "
-#| "resort. While not warlike by nature, they will stubbornly defend their "
-#| "homes. However, if you’re hurling peasants at your foes, you’re clearly "
-#| "out of superior forces."
 msgid ""
 "Peasants are the backbone of the rural economy, and the soldiers of last "
 "resort. While not warlike by nature, they will stubbornly defend their "
@@ -3967,8 +3949,10 @@ msgid ""
 msgstr ""
 "Camponeses são a coluna vertebral da economia rural e o último recurso dos "
 "soldados. Apesar de não terem uma natureza guerreira, defenderão as suas "
-"casas com unhas e dentes. Se estiveres a utilizar camponeses em batalha, o "
-"teu exército certamente está numa situação desesperada."
+"casas com unhas e dentes. A sua falta de disciplina e treino militar "
+"incapacita-os de manter uma frente de batalha, e a sua escolha de utensílios "
+"de trabalho como armas significa que só são empregues numa situação "
+"desesperada."
 
 #
 #. [attack]: type=pierce
@@ -4926,11 +4910,6 @@ msgstr "Ondim Veterano"
 #
 #. [unit_type]: id=Merman Triton, race=merman
 #: data/core/units/merfolk/Triton.cfg:19
-#, fuzzy
-#| msgid ""
-#| "Tritons are combat masters of the sea. Skilled in use of the trident, "
-#| "Tritons easily defeat any enemy foolish enough to wander into their "
-#| "preferred environment."
 msgid ""
 "Tritons are combat masters of the sea. Skilled in use of the trident, "
 "Tritons easily defeat any enemy foolish enough to wander into their "
@@ -4940,7 +4919,9 @@ msgid ""
 msgstr ""
 "Tritões Veteranos são os mestres de combate do mar. Com uma vasta "
 "experiência com o tridente, podem facilmente derrotar quem for "
-"suficientemente estúpido de entrar no seu habitat."
+"suficientemente estúpido de entrar no seu habitat. A sua mestria com a sua "
+"arma garante-lhes maior flexibilidade no seu uso, usando-as mais como "
+"alabardas do que simples lanças."
 
 #
 # Camões utiliza «ondina» e «ondim» nos seus lusiadas... provavelmente das criaturas francesas 'ondines' (nascidos nas ondas/'ondes' em fr)
@@ -5070,7 +5051,7 @@ msgid "Giant Rat"
 msgstr "Rato Gigante"
 
 #. [unit_type]: id=Giant Rat, race=monster
-#: data/core/units/monsters/Giant_Rat.cfg:18
+#: data/core/units/monsters/Giant_Rat.cfg:19
 msgid ""
 "Much larger than the common rats which often inhabit major cities, these "
 "vermin can injure an unarmed civilian, and can prove frustratingly elusive "
@@ -5238,8 +5219,8 @@ msgstr "Lobo"
 
 #
 #. [unit_type]: id=Great Wolf, race=wolf
-#. [unit_type]: id=Wolf, race=wolf
 #. [unit_type]: id=Direwolf, race=wolf
+#. [unit_type]: id=Wolf, race=wolf
 #: data/core/units/monsters/Wolf.cfg:33
 #: data/core/units/monsters/Wolf_Dire.cfg:24
 #: data/core/units/monsters/Wolf_Great.cfg:24
@@ -6198,10 +6179,8 @@ msgstr "silvano"
 #. [variation]
 #: data/core/units/undead/Corpse_Soulless.cfg:209
 #: data/core/units/undead/Corpse_Walking.cfg:208
-#, fuzzy
-#| msgid "wc_variation^Wose"
 msgid "wc_variation^Wolf"
-msgstr "silvano"
+msgstr "lobo"
 
 #. [variation]
 #: data/core/units/undead/Corpse_Soulless.cfg:221

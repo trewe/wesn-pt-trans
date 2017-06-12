@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-manual)\n"
 "Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
-"POT-Creation-Date: 2017-03-23 08:39+0100\n"
-"PO-Revision-Date: 2017-01-01 12:57+0000\n"
+"POT-Creation-Date: 2017-05-29 21:54+0200\n"
+"PO-Revision-Date: 2017-06-12 10:11+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 2.0.1\n"
 
 # type: Attribute 'lang' of: <book>
 #. type: Attribute 'lang' of: <book>
@@ -1962,10 +1962,11 @@ msgstr "Ctrl+l"
 msgid "Set team label"
 msgstr "Definir legenda da equipa"
 
+# type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
 #. type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
 #: /src/wesnoth-master/doc/manual/manual.en.xml:1150
-msgid ";"
-msgstr ""
+msgid ":"
+msgstr ":"
 
 # type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
 #. type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
@@ -4668,21 +4669,13 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><simpara>
 #. type: Content of: <book><chapter><section><section><simpara>
 #: /src/wesnoth-master/doc/manual/manual.en.xml:2749
-#, fuzzy
-#| msgid ""
-#| "In particular, use your ranged weapons if the enemy has no ranged attack. "
-#| "The computer&#8217;s default choice only looks for the most damage you "
-#| "can deal, so using it will often result in your units taking more damage "
-#| "than necessary."
 msgid ""
 "In particular, use your ranged weapons if the enemy has no ranged attack. "
 "Using it will often reduce the damage which your units take until the enemy "
 "dies."
 msgstr ""
 "Em particular, usa as tuas armas de ataque à distância se o inimigo não "
-"possuir tal. A escolha padrão do computador somente vê o maior dano que "
-"poderás causar e escolher esta frequentemente resulta em que as tuas "
-"unidades sofram mais dano que necessário."
+"possuir tal. Assim poderás limitar o dano sofrido nos contra-golpes."
 
 # type: Content of: <book><chapter><section><section><title>
 #. type: Content of: <book><chapter><section><section><title>
@@ -5102,10 +5095,6 @@ msgid ""
 msgstr ""
 "Unidades avançadas têm uma maior manutenção que unidades de nível inferior "
 "(1 ouro por nível), unidades leais são excepção."
-
-# type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
-#~ msgid ":"
-#~ msgstr ":"
 
 #~ msgid "Unpoison"
 #~ msgstr "curar"
