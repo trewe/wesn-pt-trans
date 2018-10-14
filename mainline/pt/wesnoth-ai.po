@@ -59,6 +59,7 @@ msgstr ""
 #: data/ai/lua/patrol.lua:4
 msgid "Use the Patrols Micro AI instead of patrol.lua."
 msgstr ""
+"Usar Micro IA de Patrulha em vez de patrol.lua."
 
 #
 #. [test]: id=The_Elves_Besieged
@@ -163,6 +164,18 @@ msgid ""
 "[micro_ai] tag. Check out the <span color='#00A000'>Micro AI wiki page</"
 "span> at http://wiki.wesnoth.org/Micro_AIs for more information."
 msgstr ""
+"Esta é uma reencenação do cenário Elfos Cercados do enredo principal da campanha  "
+"do Herdeiro ao Trono, só que aqui a IA joga com a facção do Konrad. "
+"O objectivo é mover o Konrad até ao posto de sinalização a noroeste, mantendo "
+"tanto Konrad como Delfador vivos. Aqui utiliza-se a mesma IA do que a do cenário "
+"Proteger a Unidade.\n"
+"\n"
+"Nota: A IA Proteger a Unidade é codificada como Micro IA. Qualquer IA Micro "
+"pode ser facilmente adicionada e adaptada para a necessidade de um determinado "
+"cenário utilizando apenas WML e a etiqueta [micro_ai]. Veja a <span color='#00A000'> "
+"página wiki sobre Micro IA </span> no site http://wiki.wesnoth.org/Micro_AIs para "
+"mais informação."
+
 
 #
 #. [event]
@@ -184,6 +197,8 @@ msgid ""
 "In HttT, we would travel north now, and try to make it to the Isle of "
 "Alduin. But for this demo campaign, we'll call it good here."
 msgstr ""
+"Na campanha Herdeiro ao Trono, iríamos agora viajar para norte e tentaríamos "
+"chegar à Ilha de Alduin. Mas ficaremos por aqui nesta campanha de demostração. "
 
 #
 #. [message]: speaker=unit
@@ -201,20 +216,20 @@ msgstr "Príncipe ... tem de continuar a lutar! Nãooooo!"
 #. [message]: speaker=unit
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:276
 msgid "It is over. I am doomed..."
-msgstr "Acabou, Eu estou condenado ..."
+msgstr "Acabou, Eu estou condenado..."
 
 #
 #. [message]: speaker=unit
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:290
 msgid "I have... have failed in my duty to protect the prince! I am defeated."
 msgstr ""
-"Eu ... Eu falhei na minha tarefa para proteger o príncipe! Eu fui derrotado."
+"Eu... Eu falhei na minha tarefa para proteger o príncipe! Eu fui derrotado."
 
 #
 #. [message]: speaker=Konrad
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:294
 msgid "Don’t die, Delfador! Please, you have to stay alive!"
-msgstr "Não morra, Delfador! Por favor, tens de te manter vivo!"
+msgstr "Não morras, Delfador! Por favor, tens de te manter vivo!"
 
 #
 #. [message]: speaker=unit
@@ -254,6 +269,28 @@ msgid ""
 "Wolves Multipack AI (used in a different scenario), this Wolves AI combines "
 "all wolves of the side in the same pack."
 msgstr ""
+"<u>Geral</u>: Estas IAs são configuradas para simular (até certo ponto) a forma "
+"como estes animais se comportam na vida real. Isto inclui o facto de serem "
+"animais, isto é, não são super inteligentes. Por exemplo, os lobos geralmente "
+"caçam em matilha, mas são facilmente destraídos por presas que surjam ao seu "
+"alcance. Eles também são bons, mas não excelentes, a encurralar veados. "
+"Isto é, na sua maioria, intencional.\n"
+"\n"
+"<u>Ursos (substituídos por Gulas), Aranhas e Iétis</u> no geral vagueiam nas "
+"suas respectivas áreas do mapa. Mantém-se fora do caminho uns dos outros (e "
+"do caminho de cães), mas atacam-se uns aos outros se encurralados. Eles "
+"atacam outros animais que sejam mais fracos (veados, etc.) se estes estiverem "
+"ao seu alcance.\n"
+"\n"
+"<u>Lobos</u> caçam em matilha. Vão, activamente, atrás do veado mais próximo "
+"(desde que este se mantenha na floresta) e tentam encurralá-lo (sem que sejam "
+"sempre super bem-sucedidos), mas são facilmente distraídos por outras presas "
+"que apareçam no seu alcance. Os lobos tentam evitar entrar no alcance de ursos, "
+"aranhas, cães e iétis, excepto quando estão a iniciar um ataque. Se os deixar "
+"mover durante demasiado tempo, eles aprendem também que não é saudável atacar "
+"crias de javali. Quando não existem mais veados, os lobos vagueiam "
+"aleatoriamente. Note que, ao contrário da IA Multipacote de Lobos (usada noutro "
+"cenário) esta IA de lobos combina todos os lobos da mesma facção numa só alcateia."
 
 #
 #: data/ai/micro_ais/scenarios/animals.cfg:12
@@ -291,6 +328,43 @@ msgid ""
 "threat to each other and leave each other alone, demonstrating the enormous "
 "self control of a well trained sheep dog."
 msgstr ""
+"Cada <u>Veado (substituído por Morcegos Vampiros)</u> vaguea aleatoriamente "
+"por zonas de floresta, excepto quando inimigos surgem no seu (do veado) "
+"alcance. Nessa caso, o veado foge para o ponto mais distante que conseguir "
+"alcançar.\n"
+"\n"
+"<u>Javalis (substituídos por Ogres)</u> exibem o mesmo comportamento que os "
+"veados, excepto quando um inimigo está perto de uma das suas crias. Nessa "
+"altura, esse inimigo irá conhecer a ira total de um javali enraivecido.\n"
+"\n"
+"<u>Crias de Javali (substituídas por Ogres Jovens)</u> seguem cegamente o "
+"Javali adulto mais próximo, excepto quando não restar mais nenhum Javali, "
+"situação na qual eles agem da mesma forma que os veados.\n"
+"\n"
+"<u>Coelhos (substituídos por Ratos)</u> também vagueam aleatoriamente, mas "
+"para além disso desaparecem para as suas tocas (substituídas por fardos de "
+"palha; caso algum esteja ao seu alcance) quando existem inimigos por perto. "
+"Eles voltam a surgir das suas tocas no início do turno, caso a zona esteja "
+"segura.\n"
+"\n"
+"<u>Cães de guarda (substituídos por Salteadores)</u> tentam manter as suas "
+"ovelhas seguras. Isto consiste em mantê-las dentro da área demarcada pelo "
+"caminho que os cães tenham utilizado pelo prado, posicionando-se entre as "
+"ovelhas e os inimigos que se aproximem, e atacando os inimigos se estes se "
+"aproximarem demasiado. Pode ser necessário deixar correr este cenário durante "
+"algum tempo antes de começarem a aparecer interacções interessantes entre "
+"cães e lobos. Caso não seja necessário nenhum movimento de pastorícia ou "
+"protecção, os cães movem-se para uma localização aleatória no caminho.\n"
+"\n"
+"<u>Ovelhas (substituídas por Crias de Trogloditas)</u> vagueiam "
+"aleatoriamente, excepto se houver um cão perto delas. Nesse caso, "
+"elas fogem do cão. Os cães aproveitam-se disto, posicionando-se "
+"do lado exterior das ovelhas, se possível. As ovelhas também fogem "
+"de qualquer inimigo que se aproxime. As ovelhas, os cães e as "
+"criaturas da floresta (veados, javalis, coelhos) aprenderam que não "
+"constituem uma ameaça uns para os outros e portanto não interferem "
+"uns cons os outros, demonstrando assim o enorme auto-controlo de um "
+"cão de pastorícia bem treinado."
 
 #
 #. [test]: id=animals
@@ -399,6 +473,11 @@ msgid ""
 "Wesnoth mainline, such as bears, sheep and sheep dogs, or deer. In this test "
 "scenario, these units have been replaced by mainline units."
 msgstr ""
+"<span color='#A00000'>Importante:</span> As Micro IAs de animais neste cenário "
+"foram criadas para uma variedade de tipos de animais que não existe no enredo "
+"principal de Wesnoth, tais como ursos, ovelhas, cães de guarda ou veados. "
+"Neste cenário de teste, estas unidades foram substituídas por outras unidades "
+"do enredo principal."
 
 #
 #. [event]
@@ -408,6 +487,10 @@ msgid ""
 "for watching only. The animal AIs behave as follows:\n"
 "\n"
 msgstr ""
+"Este é um pequeno e divertido cenário com uma mão cheia de IAs de diferentes "
+"animais, maioritariamente apenas para se observar o seu comportamento. Estas "
+"IAs comportam-se da seguinte maneira:\n"
+"\n"
 
 #
 #. [message]: speaker=narrator
