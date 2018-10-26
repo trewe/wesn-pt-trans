@@ -178,6 +178,10 @@ msgid ""
 "\n"
 "The paint tool utilizes the brushes and the terrain palette."
 msgstr ""
+"Desenhar peças de terreno no mapa.\n"
+"\n"
+"Esta ferramenta de desenho utiliza os pincéis e a paleta de terrenos."
+
 
 #. [topic]: id=editor_tool_fill
 #: data/core/editor/help.cfg:39
@@ -191,6 +195,10 @@ msgid ""
 "\n"
 "The fill tool utilizes the terrain palette."
 msgstr ""
+"Enche regiões contínuas de terreno com um terreno diferente!\n"
+"\n"
+"Esta ferramenta de encher utiliza a paleta de terrenos."
+
 
 #. [topic]: id=editor_tool_select
 #: data/core/editor/help.cfg:49
@@ -204,6 +212,10 @@ msgid ""
 "\n"
 "This tool utilizes the brushes."
 msgstr ""
+"Seleciona um conjunto de campos hexagonais. A melhor "
+"ferramenta de sempre!\n"
+"\n"
+"Esta ferramenta utiliza os pincéis."
 
 #. [topic]: id=editor_tool_paste
 #: data/core/editor/help.cfg:59
@@ -228,6 +240,11 @@ msgid ""
 "This tool sets the side leaders' default starting locations, and named special "
 "locations."
 msgstr ""
+"Define a posição inicial do líder de equipa\n"
+"\n"
+"Esta ferramente define as posições iniciais, por defeito, dos líderes de equipa "
+"e de localizações especiais que tenham sido nomeadas."
+
 
 #. [topic]: id=editor_tool_label
 #: data/core/editor/help.cfg:77
@@ -251,6 +268,11 @@ msgid ""
 "\n"
 "This tool has not been implemented yet."
 msgstr ""
+"Posiciona fontes sonoras nos teus mapas!\n"
+"\n"
+"Esta ferramenta ainda não foi implementada."
+msgstr ""
+
 
 #. [topic]: id=editor_tool_village
 #: data/core/editor/help.cfg:103
@@ -291,6 +313,10 @@ msgid ""
 "\n"
 "Have a look at the addon server for easy to use additional music tracks."
 msgstr ""
+"Grava uma lista de faixas de música, definindo assim uma lista de músicas "
+"que serão todas de forma aleatória durante o cenário.\n"
+"\n"
+"Encontra no servidor addon mais faixas de música fáceis de implementar."
 
 #. [topic]: id=..editor
 #: data/core/editor/help.cfg:140
@@ -306,6 +332,11 @@ msgid ""
 "\n"
 "The editor can be launched from the <italic>text='Map Editor'</italic>"
 msgstr ""
+"O Editor de Cenários e Mapas do Wesnoth permite aos utilizadores criarem e "
+"editarem mapas de todos os cenários de Wesnoth. Também permite um conjunto "
+"limitado de ferramentas que permitem criar um cenário básico.\n"
+"\n"
+"O editor pode ser iniciado a partir do <italic>text='Editor de Mapas'</italic>"
 
 #
 #. [topic]: id=..editor
@@ -395,7 +426,7 @@ msgstr ""
 #. [topic]: id=editor_modes
 #: data/core/editor/help.cfg:185
 msgid "The editor features two separate modes of operation:"
-msgstr ""
+msgstr "O editor tem dois modos diferentes de funcionamento:"
 
 #. [topic]: id=editor_modes
 #: data/core/editor/help.cfg:187
@@ -405,6 +436,11 @@ msgid ""
 "Allows only the composing of the terrain map itself and the definition of "
 "leader starting positions."
 msgstr ""
+"\n"
+"\n"
+"Só permite a composição do terreno do mapa em si e a definição das posições "
+"iniciais dos líderes."
+
 
 #. [topic]: id=editor_modes
 #: data/core/editor/help.cfg:189
@@ -414,6 +450,9 @@ msgid ""
 "\n"
 "<bold>text='Native'</bold>"
 msgstr ""
+"\n"
+"A forma como a informação é gravada depende do ficheiro carregado:\n"
+"\n"
 
 #. [topic]: id=editor_modes
 #: data/core/editor/help.cfg:192
@@ -459,6 +498,15 @@ msgid ""
 "In this mode, terrain data is stored in the map_data attribute and saved into "
 "a file with any applicable WML."
 msgstr ""
+"\n"
+"\n"
+"O modo de cenário permite o uso de várias ferramentas extra, tais como a "
+"ferramenta de unidades. Porém, pelo menos uma equipa tem de ser definida "
+"para que se possa utilizar estas ferramentas extra."
+"\n"
+"Neste modo, a informação sobre o terreno são guardados no atributo map_data "
+"e gravados num ficheiro com qualquer WML que se aplique."
+
 
 #. [topic]: id=editor_toolkit
 #: data/core/editor/help.cfg:211
@@ -486,6 +534,24 @@ msgid ""
 "• <ref>dst='editor_tool_unit' text='Unit Tool'</ref>\n"
 "\n"
 msgstr ""
+"O editor fornece várias ferramentas para editar os teus mapas e cenários. Uma "
+"das ferramentas do editor está sempre activa. O contexto da ferramenta activa "
+"determina o conteúdo da paleta do editor e do menu de contexto.\n"
+"\n"
+"As seguintes ferramentas estão incluídas:\n"
+"\n"
+"• <ref>dst='editor_tool_paint' text='Ferramenta de desenho'</ref>\n"
+"• <ref>dst='editor_tool_fill'  text='Ferramenta de encher'</ref>\n"
+"• <ref>dst='editor_tool_select' text='Ferramenta de seleção'</ref>\n"
+"• <ref>dst='editor_tool_paste' text='Ferramenta de desenho'</ref>\n"
+"• <ref>dst='editor_tool_starting' text='Ferramenta de definição de posições iniciais'</ref>\n"
+"• <ref>dst='editor_tool_label' text='Ferramenta de legendas'</ref>\n"
+"• <ref>dst='editor_tool_item' text='Ferramenta de itens'</ref>\n"
+"• <ref>dst='editor_tool_soundsource' text='Ferramenta de fonte sonora'</ref>\n"
+"• <ref>dst='editor_tool_village' text='Ferramenta de controlo de aldeias'</ref>\n"
+"• <ref>dst='editor_tool_unit' text='Ferramenta de unidades'</ref>\n"
+"\n"
+
 
 #
 #. [topic]: id=editor_terrain
@@ -500,11 +566,15 @@ msgid ""
 "<ref>dst='editor_tool_paint' text='Paint'</ref> and "
 "<ref>dst='editor_tool_fill' text='Fill Tool'</ref>."
 msgstr ""
+"A funcionalidade do editor de terreno consiste nas ferramentas "
+"de <ref>dst='editor_tool_paint' text='desenho'</ref> e "
+"de <ref>dst='editor_tool_fill' text='encher'</ref>."
+
 
 #. [topic]: id=editor_masks
 #: data/core/editor/help.cfg:242
 msgid "Editor Mask Usage"
-msgstr ""
+msgstr "Editor de Utilização de Máscaras"
 
 #. [topic]: id=editor_masks
 #: data/core/editor/help.cfg:243
@@ -512,6 +582,8 @@ msgid ""
 "Masks can be applied to a base map for reusal in several scenarios playing at "
 "the same locations."
 msgstr ""
+"Pode-se aplicar máscaras a uma mapa base para reutilização em vários cenários "
+"que aconteçam nas mesmas localizações."
 
 #. [topic]: id=editor_time_schedule
 #: data/core/editor/help.cfg:250
@@ -521,7 +593,7 @@ msgstr "Editor do Tempo do Dia"
 #. [topic]: id=editor_palette
 #: data/core/editor/help.cfg:258
 msgid "Editor Palette"
-msgstr ""
+msgstr "Paleta de Editor"
 
 #. [topic]: id=editor_palette
 #: data/core/editor/help.cfg:259
@@ -531,11 +603,17 @@ msgid ""
 "of all available terrains, and the unit tool will provide a list of available "
 "units."
 msgstr ""
+"A paleta de editor contém os itens disponíveis que podes usar com a ferramenta "
+"que tens selecionada presentemente. Por exemplo, com a ferramenta de desenho "
+"a paleta revela a lista completa de todos os terrenos disponíveis e com a "
+"ferramenta de unidades a paleta revela a lista completa de todas as unidades "
+"disponíveis. "
+
 
 #. [topic]: id=map_format
 #: data/core/editor/help.cfg:266
 msgid "Wesnoth Map Format"
-msgstr ""
+msgstr "Formato de Mapa Wesnoth"
 
 #. [topic]: id=map_format
 #: data/core/editor/help.cfg:267
@@ -551,6 +629,19 @@ msgid ""
 "Additional information, such as teams, custom events, and complex side setups "
 "still need to be manually coded in WML."
 msgstr ""
+"O Wesnoth guarda os seus mapas em ficheiros simples de texto legíveis para "
+"humanos (e não só computadores).\n"
+"\n"
+"Um ficheiro de mapa consiste em linhas, separadas por vírgulas, de cadeias "
+"de caracteres que definem o terreno. Os ficheiros podem ser editados com um "
+"qualquer editor de texto genérico, tal como o Bloco de Notas.\n"
+"\n"
+"A única informação adicional que é fornecida pela sintaxe do mapa são as posições "
+"iniciais das equipas do cenário.\n"
+"\n"
+"Outra informação, como equipas, eventos personalizados e definições complexas "
+"das equipas, tem de ser programada manualmente em WML (Wesnoth Markup Language)."
+
 
 #. [topic]: id=scenario_format
 #: data/core/editor/help.cfg:280
