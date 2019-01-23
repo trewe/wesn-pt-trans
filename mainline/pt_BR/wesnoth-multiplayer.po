@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-03-17 18:31 UTC\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2018-09-16 07:03 UTC\n"
 "PO-Revision-Date: 2012-04-08 19:10-0300\n"
 "Last-Translator: bruno <bruno_macabeus_aquino@yahoo.com.br>\n"
 "Language-Team: Portuguese/Brazil <gnome-l10n-br@listas.cipsga.org.br>\n"
@@ -107,7 +107,12 @@ msgid "Grand total: <b>%d</b>"
 msgstr ""
 
 #. [lua]: f
-#: data/multiplayer/eras.lua:87
+#: data/multiplayer/eras.lua:93
+msgid "Sides %s and %d are tied."
+msgstr ""
+
+#. [lua]: f
+#: data/multiplayer/eras.lua:95
 msgid "<span foreground='%s'>Side %d</span> has the advantage."
 msgstr ""
 
@@ -413,7 +418,7 @@ msgstr ""
 #: data/multiplayer/scenarios/2p_Fallenstar_Lake.cfg:35
 #: data/multiplayer/scenarios/2p_Ruined_Passage.cfg:40
 #: data/multiplayer/scenarios/2p_Silverhead_Crossing.cfg:32
-#: data/multiplayer/scenarios/2p_Tombs_of_Kesorak.cfg:60
+#: data/multiplayer/scenarios/2p_Tombs_of_Kesorak.cfg:107
 #: data/multiplayer/scenarios/3p_Alirok_Marsh.cfg:31
 #: data/multiplayer/scenarios/3p_Island_of_the_Horatii.cfg:31
 #: data/multiplayer/scenarios/3p_Morituri.cfg:31
@@ -447,7 +452,7 @@ msgstr "Leste"
 #: data/multiplayer/scenarios/2p_Fallenstar_Lake.cfg:24
 #: data/multiplayer/scenarios/2p_Ruined_Passage.cfg:24
 #: data/multiplayer/scenarios/2p_Silverhead_Crossing.cfg:21
-#: data/multiplayer/scenarios/2p_Tombs_of_Kesorak.cfg:72
+#: data/multiplayer/scenarios/2p_Tombs_of_Kesorak.cfg:119
 #: data/multiplayer/scenarios/3p_Alirok_Marsh.cfg:42
 #: data/multiplayer/scenarios/3p_Island_of_the_Horatii.cfg:42
 #: data/multiplayer/scenarios/3p_Morituri.cfg:42
@@ -718,7 +723,7 @@ msgid ""
 "allegiance with the Dragon, were slaughtered. Knowing that these Drakes were "
 "innocent, Rah Ihn Mar came to Ruaskkolin Lake to hunt down and slay "
 "Terowydlithrol, who had been seen entering the region but a day ago. Burning "
-"for vengeance, Rah Ihn Mar began the hunt....."
+"for vengeance, Rah Ihn Mar began the hunt..."
 msgstr ""
 "Rah Ihn Mar, Campeão das Colinas Flamejantes, foi até a região do lago "
 "Ruaskkolin perseguindo o Herói Élfico Terowydlithrol, conhecido entre os "
@@ -834,7 +839,7 @@ msgstr "Talael Ryndoc"
 #: data/multiplayer/scenarios/2p_Caves_of_the_Basilisk.cfg:204
 msgid ""
 "General Talael Ryndoc came to this place to fight a duel with the Grand "
-"Marshal Aethec Corryn, but the two men never found one another. "
+"Marshal Aethec Corryn, but the two men never found one another."
 msgstr ""
 "O General Talael Ryndoc veio para este lugar para um duelo com o Grande "
 "Marechal Aethec Corryn, mas os dois homens nunca se encontraram. "
@@ -852,7 +857,7 @@ msgid ""
 "inform the court that you were too much of a coward to attend our duel! Your "
 "disgrace shall be more agonizing than the death I’d have given you!”\n"
 "\n"
-"Perhaps he should not have shouted quite so loudly.... "
+"Perhaps he should not have shouted quite so loudly..."
 msgstr ""
 "As últimas palavras proferidas pelo Grande Marechal Aethec Corryn foram: "
 "''Talael Rundoc! Eu cansei de procurar por você! Eu voltarei para a Corte de "
@@ -988,55 +993,55 @@ msgstr ""
 "funcionar direito."
 
 #. [side]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:22
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:34
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:21
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:33
 msgid "teamname^Revolt"
 msgstr "Revolta"
 
 #. [side]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:52
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:72
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:51
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:71
 msgid "teamname^Human"
 msgstr "Humano"
 
 #. [then]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:107
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:106
 #, fuzzy
 msgid "Death of your leader"
 msgstr "Morte dos líderes do seu time."
 
 #. [then]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:108
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:107
 msgid ""
 "Since your team has only one leader, the enemy waves will not be at full "
 "strength."
 msgstr ""
 
 #. [else]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:111
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:110
 #, fuzzy
 msgid "Death of both of your team’s leaders"
 msgstr "Morte dos líderes do seu time."
 
 #. [else]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:112
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:111
 msgid ""
 "Since your team has two leaders, the enemy waves will be at full strength."
 msgstr ""
 
 #. [objective]: condition=win
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:133
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:132
 #, fuzzy
 msgid "Survive and defeat all enemy waves"
 msgstr "Sobreviva a todos os ataques inimigos."
 
 #. [message]: speaker=narrator
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:153
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:152
 msgid "Dark Forecast — a random survival scenario"
 msgstr "Previsão Sombria - um cenário aleatório de sobrevivência"
 
 #. [message]: speaker=narrator
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:158
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:157
 #, fuzzy
 msgid ""
 "Your aim is to survive the spawning waves of units and defeat the final "
@@ -1085,13 +1090,13 @@ msgstr ""
 "- Implementação do WML"
 
 #. [message]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:178
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:177
 #, fuzzy
 msgid "So this is the accursed valley — a land ours for the taking."
 msgstr "Então esse é o vale maldito - uma terra pronta para tomarmos."
 
 #. [message]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:182
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:181
 msgid ""
 "The inhabitants are rumored to be a strange alliance of man and beast, and "
 "our claim is not going to be unopposed. We must be prepared for the "
@@ -1102,7 +1107,7 @@ msgstr ""
 "com as surpresas deste lugar."
 
 #. [message]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:186
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:185
 msgid ""
 "Then let us discover what lies in waiting and teach them not to oppose our "
 "claim."
@@ -1111,7 +1116,7 @@ msgstr ""
 "poder."
 
 #. [message]: speaker=unit
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:205
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:204
 msgid ""
 "Ugh! How can this be? Defeated by mere barbarians! My gods have forsaken "
 "me..."
@@ -1119,7 +1124,7 @@ msgstr ""
 "Ugh! Como pode? Derrotado por meros bárbaros! Meus deuses me abandonaram..."
 
 #. [message]: speaker=second_unit
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:219
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:218
 msgid ""
 "Cheers of your enemy are the last thing you hear as you slip into death..."
 "their joy fills your last moments with pure hate."
@@ -1129,7 +1134,7 @@ msgstr ""
 "puro ódio."
 
 #. [message]
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:241
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:240
 msgid ""
 "The enemy cheers as a dark mist rises from the land, engulfing you. As "
 "ghostly wisps drain away your will, you realize that your time in this land "
@@ -1140,12 +1145,12 @@ msgstr ""
 "compreende que seu tempo nesta terra acabou."
 
 #. [slider]: id=enemey_gold_factor
-#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:252
+#: data/multiplayer/scenarios/2p_Dark_Forecast.cfg:253
 msgid "Changes the gold worth of the enemy spawns by a certain percentage"
 msgstr ""
 
 #. [lua]: final_spawn
-#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:310
+#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:313
 msgid ""
 "The last and most powerful of these creatures are almost upon us. I feel "
 "that if we can finish them off in time, we shall be victorious."
@@ -1154,7 +1159,7 @@ msgstr ""
 "posição. Acredito que se pudermos derrotá-las, a vitória sera nossa."
 
 #. [lua]: final_spawn
-#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:338
+#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:341
 msgid ""
 "The screams and pleas for mercy are finally silenced, as you remove your "
 "blood soaked blade from the last of the rebels. There will be no more "
@@ -1165,27 +1170,27 @@ msgstr ""
 "resistência da ralé local. Seu reino finalmente atingiu a estabilidade."
 
 #. [lua]: weather_map
-#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:459
+#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:465
 msgid "Clear Weather"
 msgstr "Tempo Claro"
 
 #. [lua]: weather_map
-#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:465
+#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:471
 msgid "Drought"
 msgstr "Seca"
 
 #. [lua]: weather_map
-#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:477
+#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:483
 msgid "Heavy Rains"
 msgstr "Temporal"
 
 #. [lua]: weather_map
-#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:483
+#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:489
 msgid "Snowfall"
 msgstr "Nevasca"
 
 #. [lua]: weather_map
-#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:489
+#: data/multiplayer/scenarios/2p_Dark_Forecast.lua:495
 msgid "Heavy Snowfall"
 msgstr "Nevasca Pesada"
 
@@ -1630,7 +1635,7 @@ msgstr ""
 
 #. [multiplayer]: id=multiplayer_thousand_stings_garrison
 #: data/multiplayer/scenarios/2p_Thousand_Stings_Garrison.cfg:39
-msgid "A strange place. Designed by Doc Paterson"
+msgid "A strange place. Designed by Doc Paterson."
 msgstr ""
 
 #. [side]
@@ -1722,14 +1727,14 @@ msgid ""
 msgstr ""
 
 #. [note]
-#: data/multiplayer/scenarios/2p_Tombs_of_Kesorak.cfg:118
+#: data/multiplayer/scenarios/2p_Tombs_of_Kesorak.cfg:161
 msgid ""
 "The map contains mausoleums and campfires that shift the time of the day by "
 "one step toward night and day, respectively."
 msgstr ""
 
 #. [note]
-#: data/multiplayer/scenarios/2p_Tombs_of_Kesorak.cfg:121
+#: data/multiplayer/scenarios/2p_Tombs_of_Kesorak.cfg:164
 msgid ""
 "The tile in the centre, which contains the casket of the titular "
 "necromancer, is always covered in pitch black fog."
@@ -1761,12 +1766,12 @@ msgstr "3j - Pântano de Alirok"
 #. [multiplayer]: id=multiplayer_Castle_Hopping_Isle
 #. [multiplayer]: id=multiplayer_Clash
 #. [multiplayer]: id=multiplayer_4p_Hamlets
-#. [multiplayer]: id=multiplayer_Loris_River
 #. [multiplayer]: id=multiplayer_4p_Morituri
 #. [multiplayer]: id=multiplayer_Ruins_of_Terra-Dwelve
 #. [multiplayer]: id=multiplayer_4p_Underworld
 #. [multiplayer]: id=multiplayer_8p_Mokena_Prairie
 #. [multiplayer]: id=multiplayer_8p_Morituri
+#. [multiplayer]: id=multiplayer_Loris_River
 #: data/multiplayer/scenarios/3p_Alirok_Marsh.cfg:6
 #: data/multiplayer/scenarios/3p_Island_of_the_Horatii.cfg:6
 #: data/multiplayer/scenarios/3p_Morituri.cfg:6
@@ -1951,8 +1956,8 @@ msgstr "4j - A travessia de Isar"
 msgid ""
 "A very small 2 vs. 2 map. Close quarters fighting means the successful "
 "rotation of units and planning of moves is important. Teams set for players "
-"1+4 vs. 2+3 (northeast vs. southwest). Designed for 75 starting gold, 20 "
-"villages."
+"1 &amp; 4 vs. 2 &amp; 3 (northeast vs. southwest). Designed for 75 starting "
+"gold, 20 villages."
 msgstr ""
 "Um mapa 2 contra 2 muito pequeno. Lutar em um lugar apertado significa que "
 "um bom rodízio de unidades e planejamento de movimentação são importantes. "
@@ -2048,7 +2053,7 @@ msgstr "4j - Rio Lóris"
 #| "corners. Designed for players 1&4 vs. 2&3. There are 28 villages."
 msgid ""
 "2 vs. 2 map centered around a river with keeps in opposite corners. Designed "
-"for players 1+4 vs. 2+3. There are 28 villages."
+"for players 1 &amp; 4 vs. 2 &amp; 3. There are 28 villages."
 msgstr ""
 "Um mapa de 2 contra 2 com 25x25 hexágonos centrado ao redor de um rio com um "
 "par de fortes em cantos opostos. Jogadores 1 e 3 jogam contra 2 e 4. Há 28 "
@@ -2083,7 +2088,8 @@ msgstr " Recomenda-se 2 ouros por aldeia, 28 aldeias."
 #| "played east vs. west (1&4 vs. 2&3), but works well with any teams or FFA."
 msgid ""
 "A 2 vs. 2 map with 5 separate paths of engagement. Balanced to be played "
-"east vs. west (1+4 vs. 2+3), but works well with any teams or FFA."
+"east vs. west (1 &amp; 4 vs. 2 &amp; 3), but works well with any teams or "
+"FFA."
 msgstr ""
 "Um mapa de 2 contra 2 com 35x27 hexágonos e 5 frentes separadas de combate. "
 "Balanceado para um jogo de leste contra oeste (jogadores 1 e 4 contra 2 e "
@@ -2563,6 +2569,70 @@ msgid ""
 msgstr ""
 "Um benchmark para wesnoth, use as opções --no-delay --multiplayer --"
 "scenario=wesbench_shroud_walk --exit-at-end"
+
+#~ msgid ""
+#~ "Rah Ihn Mar, Champion of the Burning Hills, made his way to the "
+#~ "Ruaskkolin Lake region in pursuit of the Elvish Hero Terowydlithrol, "
+#~ "known among Elves as ‘The Dragonbane’. It was said that Terowydlithrol "
+#~ "had killed a Dragon of Fire that threatened an Elvish village, and "
+#~ "initiated a ‘counterattack’ in which some 37 Drakes, camping in a nearby "
+#~ "ravine and believed to be in allegiance with the Dragon, were "
+#~ "slaughtered. Knowing that these Drakes were innocent, Rah Ihn Mar came to "
+#~ "Ruaskkolin Lake to hunt down and slay Terowydlithrol, who had been seen "
+#~ "entering the region but a day ago. Burning for vengeance, Rah Ihn Mar "
+#~ "began the hunt....."
+#~ msgstr ""
+#~ "Rah Ihn Mar, Campeão das Colinas Flamejantes, foi até a região do lago "
+#~ "Ruaskkolin perseguindo o Herói Élfico Terowydlithrol, conhecido entre os "
+#~ "elfos como ''O Matador de Dragões''. Diz-se que Terowydlithrol matou um "
+#~ "Dragão de Fogo que ameaçava uma vila élfica e iniciou um ''contra-"
+#~ "ataque'' no qual 37 draconianos, acampados em um desfiladeiro próximo, e "
+#~ "que acreditava-se estarem aliados com o Dragão, foram chacinados. Sabendo "
+#~ "que esses draconianos eram inocentes, Rah Ihn Mar veio para o lago "
+#~ "Ruaskkolin para caçar e matar Terwydlithrol, que tinha sido visto "
+#~ "entrando na região apenas um dia atrás. Com a vingança queimando em seu "
+#~ "peito, Rah Ihn Mar começou a caçada..."
+
+#~ msgid ""
+#~ "General Talael Ryndoc came to this place to fight a duel with the Grand "
+#~ "Marshal Aethec Corryn, but the two men never found one another. "
+#~ msgstr ""
+#~ "O General Talael Ryndoc veio para este lugar para um duelo com o Grande "
+#~ "Marechal Aethec Corryn, mas os dois homens nunca se encontraram. "
+
+#~ msgid ""
+#~ "The last words spoken by Grand Marshal Aethec Corryn: “Talael Ryndoc! I "
+#~ "am through searching for you! I shall make my way back to Haldric’s Hall, "
+#~ "and inform the court that you were too much of a coward to attend our "
+#~ "duel! Your disgrace shall be more agonizing than the death I’d have given "
+#~ "you!”\n"
+#~ "\n"
+#~ "Perhaps he should not have shouted quite so loudly.... "
+#~ msgstr ""
+#~ "As últimas palavras proferidas pelo Grande Marechal Aethec Corryn foram: "
+#~ "''Talael Rundoc! Eu cansei de procurar por você! Eu voltarei para a Corte "
+#~ "de Haldric e os informarei de que você foi covarde demais para atender ao "
+#~ "nosso duelo! Sua desgraca será mais agonizante do que a morte que eu "
+#~ "estava guardando para você!''\n"
+#~ "\n"
+#~ "Talvez ele não devesse ter gritado tão alto.... "
+
+#, fuzzy
+#~| msgid ""
+#~| "A very small 2 vs. 2 map. Close quarters fighting means the successful "
+#~| "rotation of units and planning of moves is important. Teams set for "
+#~| "players 1&4 vs. 2&3 (northeast vs. southwest). Designed for 75 starting "
+#~| "gold, 20 villages."
+#~ msgid ""
+#~ "A very small 2 vs. 2 map. Close quarters fighting means the successful "
+#~ "rotation of units and planning of moves is important. Teams set for "
+#~ "players 1+4 vs. 2+3 (northeast vs. southwest). Designed for 75 starting "
+#~ "gold, 20 villages."
+#~ msgstr ""
+#~ "Um mapa 2 contra 2 muito pequeno. Lutar em um lugar apertado significa "
+#~ "que um bom rodízio de unidades e planejamento de movimentação são "
+#~ "importantes. Configure os times para jogadores 1 e 4 contra 2 e 3 "
+#~ "(nordeste contra sudoeste). Projetado para 75 ouros iniciais e 20 vilas."
 
 #, fuzzy
 #~| msgid "Age of Heroes"

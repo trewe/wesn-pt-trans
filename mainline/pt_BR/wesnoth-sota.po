@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-03-17 18:31 UTC\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2019-01-21 18:30 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #. [campaign]: id=Secrets of the Ancients
 #. [editor_group]: id=sota
 #: data/campaigns/Secrets_of_the_Ancients/_main.cfg:10
-#: data/campaigns/Secrets_of_the_Ancients/_main.cfg:80
+#: data/campaigns/Secrets_of_the_Ancients/_main.cfg:68
 msgid "Secrets of the Ancients"
 msgstr ""
 
@@ -68,7 +68,7 @@ msgid ""
 "Rediscover the secrets known by the lich lords of the Green Isle. They knew "
 "how to live forever, so why can't you?\n"
 "\n"
-"(Intermediate level, 21 scenarios.)\n"
+"(Hard level, 21 scenarios.)\n"
 msgstr ""
 
 #. [about]
@@ -171,38 +171,18 @@ msgstr ""
 msgid "Additional Artwork"
 msgstr ""
 
-#. [about]
-#: data/campaigns/Secrets_of_the_Ancients/_main.cfg:48
-msgid "Translations"
-msgstr ""
-
-#. [entry]
-#: data/campaigns/Secrets_of_the_Ancients/_main.cfg:50
-msgid "Hungarian - WhiteWolf"
-msgstr ""
-
-#. [entry]
-#: data/campaigns/Secrets_of_the_Ancients/_main.cfg:53
-msgid "Japanese - RatArmy"
-msgstr ""
-
-#. [entry]
-#: data/campaigns/Secrets_of_the_Ancients/_main.cfg:56
-msgid "Russian - iven, olga_flox, and marat"
-msgstr ""
-
 #. [scenario]: id=01_Slipping_Away
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:23
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:22
 msgid "Slipping Away"
 msgstr ""
 
 #. [part]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:41
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:40
 msgid "<i>Chapter One:</i> Unlawful Research"
 msgstr ""
 
 #. [part]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:44
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:43
 msgid ""
 "<i>From the Journal of Ardonna of Tarrynth</i>\n"
 "\n"
@@ -219,7 +199,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:55
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:54
 msgid ""
 "26 II, 23 YW:\n"
 "\n"
@@ -235,7 +215,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:64
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:63
 msgid ""
 "4 III, 23 YW:\n"
 "\n"
@@ -251,7 +231,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:73
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:72
 msgid ""
 "15 III, 23 YW:\n"
 "\n"
@@ -272,7 +252,7 @@ msgid ""
 msgstr ""
 
 #. [part]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:82
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:81
 msgid ""
 "Later:\n"
 "\n"
@@ -291,28 +271,35 @@ msgid ""
 msgstr ""
 
 #. [objective]: condition=win
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:172
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:171
 msgid "Move Ardonna to the signpost"
 msgstr ""
 
 #. [note]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:184
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:183
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:252
 msgid "This scenario takes place entirely at night."
 msgstr ""
 
+#. [note]
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:186
+msgid ""
+"Ardonna can climb over a fence for 2 movement points, but wild animals "
+"cannot."
+msgstr ""
+
 #. [label]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:190
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:192
 msgid "Llorvin"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:294
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:295
 msgid "I suspected some of the rats would show themselves."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:304
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:305
 msgid ""
 "I should get off the island in case the ethics committee is concerned about "
 "a rogue mage. I shall not be dragged back in disgrace! I should be able to "
@@ -322,7 +309,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:308
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:309
 msgid ""
 "It would be good to have even more bats as well. There was a colony in that "
 "ruined castle where we practiced conjuring fire, so I will try to find that. "
@@ -332,15 +319,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:323
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:321
 msgid ""
-"Wolves! This journey may be more dangerous than I thought. Well, we can find "
-"safety inside the sturdy fences built by farmers and woodcutters. The wild "
-"animals surely won't be able to enter."
+"A wolf! This journey may be more dangerous than I thought. If we need to, I "
+"suppose we could rest inside a farmer's or woodcutter's fence."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:346
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/01_Slipping_Away.cfg:344
 msgid ""
 "The morning has come, and I am still in the open. I will be caught for sure!"
 msgstr ""
@@ -414,7 +400,7 @@ msgstr ""
 
 #. [event]
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:279
-msgid "Gwillyn"
+msgid "Gwyllin"
 msgstr ""
 
 #. [event]
@@ -448,84 +434,123 @@ msgstr ""
 msgid "Caradoc"
 msgstr ""
 
+#. [message]: speaker=Ardonna
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:392
+msgid "Oh, hello friend! I didn't know you were hiding in there."
+msgstr ""
+
+#. [message]: speaker=Ardonna
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:398
+msgid "Oh, hello! You're a handsome one."
+msgstr ""
+
+#. [message]: speaker=Ardonna
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:415
+msgid "Hey, come back! I didn't mean to frighten you."
+msgstr ""
+
+#. [message]: speaker=Ardonna
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:419
+msgid "Maybe I could attract it if I jingled some coins."
+msgstr ""
+
 #. [message]: speaker=narrator
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:357
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:442
+#, fuzzy
+#| msgid "Right-click on your leader during your turn for help"
+msgid "Right click adjacent to your leader to summon the bat."
+msgstr "Clique com o botão direito no seu líder para obter ajuda"
+
+#. [set_menu_item]: id=summon_bat
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:450
+msgid "Summon the Bat (20 gold)"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:490
+#, fuzzy
+#| msgid "You do not have enough gold to recruit that unit"
+msgid "You don't have enough gold to summon the bat."
+msgstr "Você não tem ouro o suficiente para recrutar essa unidade"
+
+#. [message]: speaker=narrator
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:572
 msgid "You can now recruit skeletons and skeleton archers!"
 msgstr ""
 
 #. [event]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:409
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:624
 msgid "Blollyn"
 msgstr ""
 
 #. [event]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:410
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:625
 msgid "Ceoran"
 msgstr ""
 
 #. [event]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:412
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:627
 msgid "Vindry"
 msgstr ""
 
 #. [event]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:413
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:628
 msgid "Aethacyn"
 msgstr ""
 
 #. [event]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:414
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:629
 msgid "Elomyr"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:444
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:659
 msgid "You can no longer recruit skeletons and skeleton archers."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:511
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:726
 msgid ""
 "Wait, that guard said there were twelve of them, so where are the other five?"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:513
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:728
 msgid ""
 "Wait, that guard said there were seven of them, so where are the other two?"
 msgstr ""
 
 #. [message]: speaker=Syrillin
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:532
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:747
 msgid "Why are we stuck guarding a cemetery all night?"
 msgstr ""
 
 #. [message]: speaker=Veomyr
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:538
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:753
 msgid ""
 "And why <i>twelve</i> of us? Who wants to break into a cemetery that badly?"
 msgstr ""
 
 #. [message]: speaker=Veomyr
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:540
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:755
 msgid ""
 "And why <i>seven</i> of us? Who wants to break into a cemetery that badly?"
 msgstr ""
 
 #. [message]: speaker=Glant
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:545
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:760
 msgid ""
 "I don’t know, but this evening a mage from the academy was here talking to "
 "the mayor, my brother says."
 msgstr ""
 
 #. [message]: speaker=Caradoc
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:549
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:764
 msgid "Well <i>I</i> say you shouldn’t question orders, so pipe down."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:588
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:803
 msgid ""
 "They must be guarding the cemetery from <i>me</i>! Maybe Aimucasur really "
 "was suspicious. It’s a good thing I’m here already, but how am I going to "
@@ -535,90 +560,83 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:613
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:828
 msgid "Hello?"
 msgstr ""
 
 #. [message]: speaker=first_zombie
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:618
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:833
 msgid "Uhngh."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:622
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:837
 msgid "Do you remember anything?"
 msgstr ""
 
 #. [message]: speaker=first_zombie
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:627
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:842
 msgid "Uhrrr."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:631
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:846
 msgid ""
 "It seems that my first guess was correct. The poor creature is mindless."
 msgstr ""
 
 #. [message]: speaker=Veomyr
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:645
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:860
 msgid "I heard something over there!"
 msgstr ""
 
 #. [message]: speaker=Glant
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:655
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:870
 msgid "Who’s there?"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:676
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:891
 msgid "It’s only me. Is the cemetery closed then? I was about to leave."
 msgstr ""
 
 #. [message]: speaker=Syrillin
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:680
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:895
 msgid "You and that... other person. Who is that?"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:684
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:899
 msgid ""
 "Oh, him. See here, I don't want any trouble, but he is a little... ah..."
 msgstr ""
 
 #. [message]: speaker=Caradoc
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:688
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:903
 msgid ""
 "He's <i>dead</i>! This is dark sorcery like in my granddad’s time in the old "
 "country! The penalty is death. Attack and destroy them both!"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:692
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:907
 msgid "Hey! Don't do that, or I will need more of them."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:696
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:911
 msgid ""
 "I would do better if I had weapons, and I bet I can find some in the "
 "guardhouse. Go take it, my companions."
 msgstr ""
 
 #. [message]: speaker=Caradoc
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:700
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:915
 msgid "Gwyllin, don’t move from that guardhouse."
 msgstr ""
 
-#. [message]: speaker=narrator
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:705
-msgid ""
-"You can recruit or recall from your starting position on the first turn "
-"only. To get more units, raise them from their graves."
-msgstr ""
-
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:714
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/02_Dark_Business.cfg:924
 msgid ""
 "The morning has come, and we have not escaped the city. We will be caught "
 "for sure!"
@@ -1033,84 +1051,91 @@ msgstr ""
 msgid "Happened? Dead."
 msgstr ""
 
-#. [message]: speaker=Gweddyn
+#. [message]: speaker=Ardonna
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:328
+#, fuzzy
+#| msgid "We’ll see about that!"
+msgid "Keep quiet about that."
+msgstr "Isso é o que veremos!"
+
+#. [message]: speaker=Gweddyn
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:332
 msgid ""
 "Ha! Well, actually, you do look terrible. Very... gray, and your face is... "
 "But we’re speaking! You can’t actually be dead!"
 msgstr ""
 
 #. [message]: speaker=Bone Captain
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:332
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:336
 msgid "Yes. Dead."
 msgstr ""
 
 #. [message]: speaker=Gweddyn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:336
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:340
 msgid "What madness is this?"
 msgstr ""
 
 #. [message]: speaker=Bremen
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:340
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:344
 msgid "It’s sorcery my lord. Dark sorcery."
 msgstr ""
 
 #. [message]: speaker=Gweddyn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:344
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:348
 msgid ""
 "Necromancy! The penalty for that is death. Rudic, who is responsible for "
 "this?"
 msgstr ""
 
 #. [message]: speaker=Bone Captain
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:348
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:352
 msgid "She."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:352
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:356
 msgid "Ah, well. I should have known this wouldn’t be easy."
 msgstr ""
 
 #. [message]: speaker=Gweddyn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:356
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:360
 msgid "Kill her!"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:360
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:364
 msgid ""
 "We must leave no one alive to report us, or the entire country will become "
 "unsafe. We have no choice. We must kill them all."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:368
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:372
 msgid "We are finished."
 msgstr ""
 
 #. [message]: speaker=Shadow
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:385
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:389
 msgid "Girl. You will follow."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:389
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:393
 msgid "What in the world are <i>you</i>?"
 msgstr ""
 
 #. [message]: speaker=Shadow
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:393
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:397
 msgid "Spirit and shadow. You will follow."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:397
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:401
 msgid "You’re a ghost... a real ghost! I will indeed follow you. Lead on."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:423
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:427
 msgid ""
 "Blackwater Port is defeated, but we must let none escape. Finish them all."
 msgstr ""
@@ -1177,29 +1202,29 @@ msgid "Bats"
 msgstr ""
 
 #. [objective]: condition=win
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:152
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:154
 msgid "Find out where the ghost went and follow it"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:221
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:223
 msgid ""
 "Look, there is a cavern below the cave floor. What might we rouse if we go "
 "tromping about in the cave? I hope it is nothing worse than bats."
 msgstr ""
 
 #. [message]: speaker=Bone Captain
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:225
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:227
 msgid "Ghost?"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:229
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:231
 msgid "Surely the ghost would not have gone that way, where I cannot follow."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:249
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:251
 #, fuzzy
 #| msgid "Indeed, there may be orcs lurking here. We should beware of them."
 msgid "If there is one bat, there are certainly more. We should be careful."
@@ -1208,46 +1233,46 @@ msgstr ""
 "com eles."
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:271
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:273
 msgid ""
 "There is a tunnel at the back of the cave! The ghost must have gone through "
 "there."
 msgstr ""
 
 #. [objective]: condition=win
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:280
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:282
 msgid "Move Ardonna to the tunnel"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:510
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:511
 msgid "So it’s only bats, but rather a lot of them."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:529
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:530
 msgid "Now let’s see where that ghost went."
 msgstr ""
 
 #. [message]: speaker=Shadow
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:550
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:551
 msgid "Come."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:563
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:564
 msgid "Let’s follow it into the cave."
 msgstr ""
 
 #. [message]: speaker=Blaust
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:567
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:568
 msgid ""
 "I don’t know, Bogdush. The chief said he wanted stuff that was helpful for "
 "the war."
 msgstr ""
 
 #. [message]: speaker=Bogdush
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:571
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:572
 msgid ""
 "It’s a <i>mage</i>! That <i>would</i> be helpful for the war, you idiot! "
 "It’s only a pup, and unless I miss my guess, it’s a female too. It will be "
@@ -1255,29 +1280,29 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Blaust
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:575
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:576
 msgid ""
 "What about the others? They look like the dead ones back on the Green Isle."
 msgstr ""
 
 #. [message]: speaker=Bogdush
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:579
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:580
 msgid "They are. It makes our job of killing them that much easier!"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:589
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:590
 msgid "You must be Goblins. You will stand out of my way if you wish to live."
 msgstr ""
 
 #. [message]: speaker=Bogdush
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:593
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:594
 msgid "Oh, it’s a mage that makes jokes too! Let’s go."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:603
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:604
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/06_Following_the_Shadow.cfg:604
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:573
 msgid "You have no more time."
 msgstr ""
 
@@ -1296,33 +1321,33 @@ msgid ""
 "stumbling too badly. Finally I saw a brighter light up ahead."
 msgstr ""
 
-#. [unit]: type=Sacrifice, id=necromancer_on_altar
 #. [side]: type=Dark Sorcerer SotA, id=Ras-Tabahn
+#. [unit]: type=Sacrifice, id=necromancer_on_altar
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:36
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:38
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/17_Mortality.cfg:279
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:27
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:31
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:36
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:40
 msgid "Ras-Tabahn"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:160
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:162
 msgid "Oh, wow."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:164
-msgid "I am Ras-Tabahn. Welcome to my laboratory, Ardonna of Tarynth!"
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:166
+msgid "I am Ras-Tabahn. Welcome to my laboratory, Ardonna of Tarrynth!"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:168
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:170
 msgid "How do you know my name?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:172
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:174
 msgid ""
 "I know much about you. My ghosts have been watching you for some time now, "
 "and you and I share the goal of resisting death. I have been hoping several "
@@ -1333,14 +1358,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:176
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:178
 msgid ""
 "Yes, I can show you how to make your own, but have you not solved the "
 "problem already with your ghosts?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:180
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:182
 msgid ""
 "Alas, no. Ghosts can retain some memories if they are raised quickly enough, "
 "and they make good scouts and soldiers after they have some experience, but "
@@ -1352,7 +1377,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:184
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:186
 msgid ""
 "I believe I know how to get the information we seek, but it would have been "
 "too difficult to obtain myself. Therefore, we shall go on a mission, you and "
@@ -1360,12 +1385,12 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:188
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:190
 msgid "Wait. I have heard nothing yet that makes me think I should trust you."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:192
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:194
 msgid ""
 "Ah... yes, I suppose not. Let me teach you some of what I know today, and "
 "see if that informs your opinion. However, the question of trust is not the "
@@ -1378,14 +1403,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:196
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:198
 msgid ""
 "For you, you mean. I am only nineteen. Still, you make a good case. We can "
 "work together for now."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:200
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:202
 msgid ""
 "Splendid. Here is what I propose. First, we part ways for a time, and you "
 "raise a force of ghosts following my instructions. Meanwhile, I am going to "
@@ -1397,22 +1422,22 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:204
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:206
 msgid "Well I can’t smell, so I didn’t know about that."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:208
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:210
 msgid "Curious, but convenient for one such as us."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:212
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:214
 msgid "Why can’t I just raise some of the goblins outside?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:216
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:218
 msgid ""
 "Those goblins were too weak, and it would take their spirits a long time to "
 "become strong enough to be useful. You are going to raise Elvish warriors "
@@ -1424,7 +1449,7 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:220
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/07_Meeting_of_the_Minds.cfg:222
 msgid "Very well. We will do as you suggest."
 msgstr ""
 
@@ -1467,8 +1492,10 @@ msgstr ""
 
 #. [unit]: type=Shadow
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/08_Carcyn.cfg:92
-msgid "Vash Gorn"
-msgstr ""
+#, fuzzy
+#| msgid "Vashna"
+msgid "Vash-Gorn"
+msgstr "Vashna"
 
 #. [unit]: type=Mage, id=Wynran
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/08_Carcyn.cfg:114
@@ -1657,7 +1684,7 @@ msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/08_Carcyn.cfg:462
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:424
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:416
 msgid ""
 "This has taken too long. We will surely miss our meeting with Ardonna now."
 msgstr ""
@@ -1681,37 +1708,37 @@ msgid ""
 msgstr ""
 
 #. [objective]: condition=win
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:136
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:137
 msgid "(there will be three waves)"
 msgstr ""
 
 #. [objective]: condition=win
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:136
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:137
 msgid "Destroy all the undead units"
 msgstr ""
 
 #. [objective]: condition=lose
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:140
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:141
 msgid "Death of all five dark adepts"
 msgstr ""
 
 #. [objective]: condition=lose
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:144
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:491
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:99
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:111
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:145
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:530
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:108
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:120
 msgid "Death of Ras-Tabahn"
 msgstr ""
 
 #. [note]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:154
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:155
 msgid ""
 "You will not earn gold this scenario, but your gold from the previous "
 "scenario will be available in the next."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:358
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:354
 msgid ""
 "What happened here, I wonder. Well, no matter. What was bad for these "
 "families is good for us. I will animate them, and you will attack. Practice "
@@ -1721,35 +1748,42 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:366
-msgid "You kids may watch."
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:362
+msgid "plural^You may watch."
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:370
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:366
 msgid "Can we help?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:374
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:397
-msgid "As you wish. (<i>Cough, cough</i>)"
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:370
+msgid "plural^As you wish. (<i>Cough, cough</i>)"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:384
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:380
 msgid "You may watch."
 msgstr ""
 
-#. [message]: speaker=Carcyn
-#. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:389
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:393
+#. [message]: id=Carcyn,Shynal
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:384
 msgid "Can I help?"
 msgstr ""
 
+#. [message]: id=Carcyn,Shynal
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:385
+msgid "self_female^Can I help?"
+msgstr ""
+
+#. [message]: speaker=Ras-Tabahn
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:389
+msgid "As you wish. (<i>Cough, cough</i>)"
+msgstr ""
+
 #. [message]: speaker=narrator
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:405
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/09_Training_Session.cfg:397
 msgid ""
 "You can recruit from in front of each dark adept during the first turn only."
 msgstr ""
@@ -1767,10 +1801,10 @@ msgid ""
 "well."
 msgstr ""
 
-#. [side]
 #. [side]: type=Merman Triton, id=Okean
+#. [side]
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:45
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:124
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:130
 msgid "Merfolk"
 msgstr ""
 
@@ -1781,13 +1815,13 @@ msgstr ""
 
 #. [message]: speaker=$unit.id
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:130
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:159
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:158
 msgid "Bones. Claws and wings."
 msgstr ""
 
 #. [message]: speaker=$unit.id
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:137
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:166
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:165
 msgid "There are some large bones here. I can see claws and wings."
 msgstr ""
 
@@ -1819,135 +1853,141 @@ msgstr ""
 
 #. [message]: speaker=$other_human
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:261
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:242
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:242
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:241
 msgid "Oh, you were right!"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:266
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:247
 msgid "I wonder if it could carry someone light. A skeleton maybe."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:324
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:305
 msgid "Splendid! These birds could be quite useful."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:333
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:339
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:314
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:338
 msgid "You can now recruit chocobones!"
 msgstr ""
 
 #. [set_variable]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:410
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:391
 msgid "Hopefully this will be enough gold."
 msgstr ""
 
 #. [set_variable]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:421
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:402
 msgid "We have won, but I am afraid this may not be enough gold."
 msgstr ""
 
 #. [set_variable]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:434
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:415
 msgid "Good. We ended with a fair amount of gold."
 msgstr ""
 
 #. [message]: speaker=Okean
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:487
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:468
 msgid "You! You have destroyed the town of Carcyn!"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:491
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:472
 msgid "The town is hardly destroyed. I just encouraged a change of leadership."
 msgstr ""
 
 #. [message]: speaker=Okean
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:495
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:476
 msgid ""
 "Your words mock us. Those humans were valuable trading partners of ours. We "
 "will have justice!"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:499
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:480
 msgid ""
 "Actually, I expect you will follow them into the ground if you try to harm "
 "us."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:507
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:488
 msgid ""
-"This is going to cost us, but I want to keep some gold around for "
-"emergencies — I think 50 is about right. You kids help me collect some. "
-"(<i>Cough, cough</i>)"
+"addressed_plural^This is going to cost us, but I want to keep some gold "
+"around for emergencies — I think 50 is about right. You help me collect "
+"some. (<i>Cough, cough</i>)"
 msgstr ""
 
 #. [message]: speaker=Carcyn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:511
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:492
 msgid "Right away sir."
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:515
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:496
 msgid "Are you feeling well?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:519
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:558
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:500
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:534
 msgid "Yes, yes. I’m quite all right."
 msgstr ""
 
 #. [message]: speaker=Shynal
-#. [message]: speaker=Carcyn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:523
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:562
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:566
+#. [message]: id=Carcyn,Shynal
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:504
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:538
 msgid "I don’t fancy wading in the water to fight these things."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:527
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:570
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:508
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:543
 msgid "No problem. We can lure them onto land."
 msgstr ""
 
 #. [message]: speaker=Shynal
-#. [message]: speaker=Carcyn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:531
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:574
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:578
+#. [message]: id=Carcyn,Shynal
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:512
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:547
 msgid "How?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:535
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:582
-msgid "Have you never been fishing before? With bait of course."
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:516
+msgid ""
+"addressed_plural^Have you never been fishing before? With bait of course."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:545
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:526
 msgid ""
 "This is going to cost us, but I want to keep some gold around for "
 "emergencies — I think 50 is about right. Help me collect some. (<i>Cough, "
 "cough</i>)"
 msgstr ""
 
-#. [message]: speaker=Carcyn
-#. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:550
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:554
+#. [message]: id=Carcyn,Shynal
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:530
 msgid "Right away sir. Are you feeling well?"
 msgstr ""
 
+#. [message]: id=Carcyn,Shynal
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:539
+msgid "self_female^I don’t fancy wading in the water to fight these things."
+msgstr ""
+
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:592
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:551
+msgid "Have you never been fishing before? With bait of course."
+msgstr ""
+
+#. [message]: speaker=Ras-Tabahn
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/10_Merfolk_Revenge.cfg:561
 msgid ""
 "This is going to cost me, but I want to keep some gold around for "
 "emergencies — I think 50 is about right. I’d better send someone to collect "
@@ -2041,7 +2081,7 @@ msgstr ""
 #. [side]: type=Naga Myrmidon, id=Blianxkep
 #. [side]
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:79
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:148
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:154
 msgid "Nagas"
 msgstr ""
 
@@ -2051,10 +2091,10 @@ msgid "Blianxkep"
 msgstr ""
 
 #. [objective]: condition=win
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:103
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:105
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:112
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/19_Lava_and_Stone.cfg:98
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:483
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:522
 #, fuzzy
 msgid "Defeat all enemy leaders"
 msgstr ""
@@ -2123,37 +2163,32 @@ msgstr ""
 "#-#-#-#-#  99.po (wescamp-i 18n)  #-#-#-#-#\n"
 "Derrote todos os líderes inimigos"
 
-#. [message]: speaker=narrator
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:125
-msgid "You can now recruit ghosts!"
-msgstr ""
-
 #. [message]: speaker=Blianxkep
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:135
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:126
 msgid ""
 "The fish people gave good value for the last load. More metal of that type "
 "is desired."
 msgstr ""
 
 #. [message]: speaker=Krissaz
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:139
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:130
 msgid "Firssst, pay us our ssshare."
 msgstr ""
 
 #. [message]: speaker=Blianxkep
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:143
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:134
 msgid "Wait, who approaches?"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:147
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:138
 msgid ""
 "I am a mage and not a threat to you gentle... reptiles. I wish only to "
 "animate some spirits, so I won’t disturb your salvage operation."
 msgstr ""
 
 #. [message]: speaker=Krissaz
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:151
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:142
 msgid ""
 "No! You can’t make thisss place more haunted than it isss! The femalesss "
 "already won’t come here, and we are forced to rely on these ssserpents for "
@@ -2161,48 +2196,58 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:155
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:146
 msgid ""
 "I was only informing you out of courtesy. In truth, I don’t require your "
 "permission."
 msgstr ""
 
 #. [message]: speaker=Blianxkep
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:159
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:150
 msgid ""
 "We will help you drive off this foe if you will consider your share paid in "
 "full."
 msgstr ""
 
 #. [message]: speaker=Krissaz
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:163
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:154
 msgid ""
-"When the mage isss dead and her sssouls put to ressst, we agree. We will "
+"When the mage isss dead and her dead horde put to ressst, we agree. We will "
 "have been compensssated adequately."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:167
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:158
 msgid "Every time..."
 msgstr ""
 
+#. [message]: speaker=Ardonna
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:167
+msgid "Good. Now I can practice recruiting ghosts."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:173
+msgid "You can now recruit ghosts!"
+msgstr ""
+
 #. [unit]: id=Vendraxis, type=Saurian Soothsayer
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:190
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:197
 msgid "Vendraxis"
 msgstr ""
 
 #. [message]: speaker=Vendraxis
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:209
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:216
 msgid "Human, take me with you!"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:213
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:220
 msgid "Why should I allow that? Your people attacked me!"
 msgstr ""
 
 #. [message]: speaker=Vendraxis
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:217
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:224
 msgid ""
 "I tried to ssstop them! For myself, I wissshed not to attack. I wissshed to "
 "learn. My race livesss but a short time compared to yoursss. I would learn "
@@ -2210,40 +2255,40 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:221
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:228
 msgid ""
 "Actually, I am searching for that secret now. But could you follow the "
 "orders of a woman?"
 msgstr ""
 
 #. [message]: speaker=Vendraxis
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:225
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:232
 msgid ""
 "I have ssstared into the darknesss between the starsss and not been "
-"intimidated by the void, but your mind holdsss a darknesss of another kind, "
+"intimidated by the void, but your mind holds a darknesss of another kind, "
 "frightening and forbidden by my clan. I sssubmit to your power. Now that I "
-"know you are female, I will find it easier as it is the way of my kind."
+"know you are female, I will find it easier as it isss the way of my kind."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:229
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:236
 msgid "Very well, come along. I am Ardonna."
 msgstr ""
 
 #. [message]: speaker=Vendraxis
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:233
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:240
 msgid ""
 "Yesss, but the planetsss tell me your name isss now untrue. I do not "
 "underssstand thisss."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:237
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:244
 msgid "Nor do I. Your planets are quite cryptic."
 msgstr ""
 
 #. [message]: speaker=Vendraxis
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:241
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/11_Battleground.cfg:248
 msgid "They reveal what they will."
 msgstr ""
 
@@ -2273,16 +2318,17 @@ msgstr "Floresta"
 
 #. [unit]: type=Elvish Enchantress, id=Isthiniel
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:50
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:742
 msgid "Isthiniel"
 msgstr ""
 
 #. [objective]: condition=win
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:94
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:101
 msgid "Move Ardonna to the northeast corner of the map"
 msgstr ""
 
 #. [message]: speaker=Isthiniel
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:308
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:315
 msgid ""
 "I felt our dead stirring and corruption descending on the forest. When I "
 "left to investigate, I expected to find grim, veiled forces at work. Instead "
@@ -2292,14 +2338,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:312
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:319
 msgid ""
 "Well, that I won’t do. However, if you do not attack, you will be rid of me "
 "soon, as I only wish to leave these woods."
 msgstr ""
 
 #. [message]: speaker=Isthiniel
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:316
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:323
 msgid ""
 "Attack? No, I cannot. Most of my people won’t come here; it is only duty "
 "that drives me. However, the woods themselves are disturbed, and they will "
@@ -2307,34 +2353,34 @@ msgid ""
 msgstr ""
 
 #. [unit]: type=Ancient Wose, id=Dolmathengalin
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:333
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:340
 msgid "Dolmathengalin"
 msgstr ""
 
 #. [message]: speaker=Dolmathengalin
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:340
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:347
 msgid "You are greeted daughter of elves. Why does the forest moan in despair?"
 msgstr ""
 
 #. [message]: speaker=Vendraxis
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:344
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:351
 msgid "That tree can talk!"
 msgstr ""
 
 #. [message]: speaker=Isthiniel
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:348
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:355
 msgid ""
 "That dark mage has woken our dead and stifles the air with her very "
 "presence. Please wake your people, Elder, and destroy her."
 msgstr ""
 
 #. [message]: speaker=Dolmathengalin
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:352
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:359
 msgid "This shall be done."
 msgstr ""
 
 #. [message]: speaker=Isthiniel
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:356
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/12_Walking_Trees.cfg:363
 msgid "I shall leave you. I have no wish to witness this violence."
 msgstr ""
 
@@ -2355,21 +2401,21 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:111
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:113
 msgid ""
 "Greetings Ardonna! (<i>Cough</i>) I was successful, and I see that you were "
 "as well."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:115
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:117
 msgid ""
 "Well met, Ras-Tabahn. Yes I was. Now, can you explain the mission you spoke "
 "of?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:119
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:121
 msgid ""
 "Gladly. I assume you studied the great mage Crelanu in history class. He "
 "fought with King Haldric the First. Since he faced the immortal lords of the "
@@ -2378,14 +2424,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:123
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:125
 msgid ""
 "Of course I know about Crelanu. But can we force him to reveal his knowledge "
 "to us?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:127
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:129
 msgid ""
 "That shouldn’t be necessary. I have also learned that he wrote a book "
 "containing all his secrets, which must include all he knows of immortality. "
@@ -2395,35 +2441,35 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:131
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:133
 msgid ""
 "Yes, that seems like a plan with a good chance of success. I will join you "
 "in your effort."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:135
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:137
 msgid ""
 "I thought as much. We must cross the Great River, and head north into the "
 "Heart Mountains."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:144
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:146
 msgid ""
 "Before we leave, I have an unrelated question. Vendraxis here has said that "
 "my name is untrue. Do you have an idea what could that mean?"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:150
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:152
 msgid ""
 "Before we leave, I have an unrelated question. I met a mystic who said that "
 "my name was untrue. Do you have an idea what could that mean?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:156
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:158
 msgid ""
 "Possibly. When an academy mage completes his studies, he is granted "
 "syllables of power, which become his new name. You are well beyond that "
@@ -2433,21 +2479,21 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:160
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:162
 msgid ""
 "I suppose you are right. I am no longer the ordinary girl Ardonna, and "
 "Vendraxis was correct. From now I shall be... Ardryn-Na."
 msgstr ""
 
 #. [modify_unit]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:167
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:45
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:51
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:169
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:54
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:60
 msgid "Ardryn-Na"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:171
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/13_Together_Again.cfg:173
 msgid "Well then Ardryn-Na, let us head north."
 msgstr ""
 
@@ -2501,62 +2547,76 @@ msgstr ""
 msgid "Krongk"
 msgstr ""
 
+#. [message]: speaker=Vendraxis
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:170
+msgid ""
+"I have a sssense of dark foreboding regarding the sssnowy peaksss ahead. We "
+"may meet our doom if we don't have enough coinsss."
+msgstr ""
+
+#. [message]: speaker=Ras-Tabahn
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:176
+msgid ""
+"The passes to the north are the end of many travelers. We would be wise to "
+"reach them with a reserve of gold. (<i>Cough, cough</i>)"
+msgstr ""
+
 #. [message]: speaker=Krongk
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:166
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:189
 msgid "They’re attacking me!"
 msgstr ""
 
 #. [message]: speaker=Vok-Hroog
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:170
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:220
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:193
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:243
 msgid "Yeah, yeah."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:180
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:203
 msgid ""
 "We have crossed into the north. The dwarven kingdom of Knalga lies straight "
 "ahead."
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:184
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:207
 msgid ""
 "Now I’m really far from home. I’ve never been north of the river before. I "
 "hope I get to see some dwarves!"
 msgstr ""
 
 #. [message]: speaker=Vok-Hroog
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:188
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:211
 msgid ""
 "I claim this territory in the name of Krag-Ubor, the ruler of all true orcs! "
 "Leave now, Ishnak, or face the combined wrath of the five tribes."
 msgstr ""
 
 #. [message]: speaker=Rod-Ishnak
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:192
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:215
 msgid "I arrived first, Hroog. It’s mine!"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:196
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:219
 msgid "This could be trouble."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:200
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:223
 msgid ""
 "Many orcs are decent sorts (<i>cough, cough</i>). I fought alongside Krag-"
 "Ubor once, who the farther orc just mentioned."
 msgstr ""
 
 #. [message]: speaker=Vok-Hroog
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:204
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:227
 msgid "Wait who’s that?"
 msgstr ""
 
 #. [message]: speaker=Rod-Ishnak
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:208
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:231
 msgid ""
 "Wizards and deaders just like from back home! I <i>hate</i> those! I suggest "
 "a contest. Whoever kills the most wizards and skeletons and stuff takes this "
@@ -2564,23 +2624,23 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Vok-Hroog
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:212
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:235
 msgid "Huh. Fine. That sounds like good sport."
 msgstr ""
 
 #. [message]: speaker=Krongk
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:216
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:239
 msgid ""
 "I declare this competition official. I will support the claim of the winner."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:224
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:247
 msgid "I did say this was trouble."
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:228
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/14_Entering_the_Northlands.cfg:251
 msgid "But we’ll win, won’t we?"
 msgstr ""
 
@@ -2616,57 +2676,57 @@ msgid "Move Ardryn-Na and Ras-Tabahn to level ground in the northeast corner"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:146
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:145
 msgid "There are some... large bones there. Claws and wings... I think."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:175
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:174
 msgid "I wonder what are they from. A gryphon perhaps?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:179
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:178
 msgid "A large (<i>cough, cough</i>) flightless bird... would be my guess."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:183
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:182
 msgid "Well, there is an easy way to discover the truth."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:252
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:251
 msgid "I wonder... if it could carry... someone light. Vendraxis perhaps."
 msgstr ""
 
 #. [message]: speaker=Vendraxis
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:256
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:255
 msgid "I will not climb on that ridiculous thing!"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:262
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:261
 msgid "I wonder... if it could carry... someone light."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:269
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:268
 msgid "A skeleton could ride it I think."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:330
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:329
 msgid "That’s fantastic! These birds could be quite useful."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:349
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:348
 msgid "What dangers may lurk in this fog?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:353
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/15_Mountain_Pass.cfg:352
 msgid "Gryphons... live at this height. We should be cautious."
 msgstr ""
 
@@ -2701,8 +2761,8 @@ msgstr ""
 #. [note]
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/16_The_Mage.cfg:83
 msgid ""
-"Ras-Tabahn is slowed. He will also lose four hitpoints every turn unless "
-"this amount is modified by healing."
+"Ras-Tabahn is slowed and will lose four hitpoints every turn. He will die if "
+"he reaches zero."
 msgstr ""
 
 #. [note]
@@ -2795,8 +2855,7 @@ msgstr "Veremos."
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/16_The_Mage.cfg:363
 msgid ""
 "Ras-Tabahn is sick. He is slowed, and will lose four hitpoints every turn. "
-"He will die if he reaches zero. Villages will heal him four points, and he "
-"will lose only two if he is resting."
+"He will die if he reaches zero."
 msgstr ""
 
 #. [message]: speaker=Ardonna
@@ -2933,6 +2992,15 @@ msgstr ""
 
 #. [part]
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:31
+#, fuzzy
+#| msgid ""
+#| "So reads the book that Malin has reclaimed. <i>“The spells of necromancy "
+#| "bind the spirit, but only once it has been unbound from the body. To "
+#| "become a lich, the mage must make the necessary incantations with his "
+#| "dying breaths. He thus binds his own spirit in much the same way "
+#| "necromancers bind the spirits of others. Because he retains his own will, "
+#| "however, the lich can call upon the awesome powers of the spirit world.”</"
+#| "i>"
 msgid ""
 "9 VI, 23 YW\n"
 "\n"
@@ -2940,10 +3008,17 @@ msgid ""
 "spirit, but only once it has been unbound from the body. To become a lich, "
 "the mage must make the necessary incantations with his dying breaths. He "
 "thus binds his own spirit in much the same way he binds the spirits of "
-"others.... An altar serves to hold his soul in the physical plane long "
-"enough to make the transition, and a suitable object must be found to hold "
-"the consciousness for one crucial moment when the body expires."
+"others... An altar serves to hold his soul in the physical plane long enough "
+"to make the transition, and a suitable object must be found to hold the "
+"consciousness for one crucial moment when the body expires."
 msgstr ""
+"Lendo o livro que Malin conseguiu. <i>\"Os feitiços da necromancia "
+"aprisionam o espírito, mas apenas depois de ele se soltar do corpo. Para "
+"tornar-se um lich, o mago precisa recitar os encantamentos necessários com "
+"seus últimos suspiros de vida. E então ele consegue fazer com seu próprio "
+"espírito agir o que os necromantes apenas conseguem com os espíritos "
+"alheios. Como ele retém seus desejos, o lich consegue muitos poderes que "
+"apenas o mundo dos espíritos possui.\"</i>"
 
 #. [part]
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:40
@@ -3001,7 +3076,7 @@ msgid "You can only do this in a castle."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:558
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:478
 msgid ""
 "You can now advance dark sorcerers to liches! For the rest of the campaign, "
 "you can also right-click on an existing necromancer to turn it into a lich "
@@ -3010,14 +3085,14 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:563
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:483
 msgid ""
 "We have conquered death! Let us bring the news back to Wesnoth. We should to "
 "let them know that nobody ever need die again."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:567
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:487
 msgid ""
 "I was planning to go that direction myself, so I have no objection. But, let "
 "us not go over those wretched mountain passes again. These tunnels should "
@@ -3025,32 +3100,32 @@ msgid ""
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:571
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:491
 msgid "Why would the Dwarvish empire abandon an outpost like this?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:575
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:495
 msgid "We may find out. We should proceed cautiously."
 msgstr ""
 
 #. [message]: speaker=Vendraxis
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:591
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:511
 msgid "Giant spidersss! That explainsss the cobwebsss everywhere."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:597
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:517
 msgid "Giant spiders! That explains the cobwebs everywhere."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:603
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:523
 msgid "They are not moving much. Hopefully they continue to stay sleepy."
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:609
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:529
 msgid "They’re waking up now. Watch out."
 msgstr ""
 
@@ -3176,7 +3251,7 @@ msgstr ""
 #. [side]: type=Dwarvish Lord, id=Golbanduth
 #. [side]
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:38
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:86
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:91
 msgid "Dwarves"
 msgstr "Anões"
 
@@ -3191,72 +3266,72 @@ msgid "You can recruit from anywhere in the Hall of Heroes."
 msgstr ""
 
 #. [message]: speaker=Golbanduth
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:508
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:509
 msgid ""
 "The invaders approach! Fetch the last chest o’ gold. We’re equippin’ more "
 "soldiers."
 msgstr ""
 
 #. [message]: speaker=porter
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:513
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:514
 msgid "Yes, sire."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:624
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:625
 msgid ""
 "Actually, I don’t think this is the end. There is air coming through here. "
 "Help me shift these stones."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:669
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:670
 msgid "Now, where are we?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:673
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:674
 msgid ""
 "We are in a Dwarvish burial chamber it seems. That is good. We could always "
 "use some more soldiers."
 msgstr ""
 
 #. [unit]: type=Dwarvish Sentinel, id=Aigondur
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:685
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:686
 msgid "Aigondur"
 msgstr ""
 
 #. [message]: speaker=Aigondur
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:690
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:691
 msgid ""
 "Human invaders be comin’ through the Hall o’ Heroes! I’m closin’ th’ Troll "
 "Gate!"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:730
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:731
 msgid "Well, we are not going that way."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:734
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:735
 msgid ""
 "But look. There is a large crack in the wall to our left! I’m certain we "
 "could squeeze through."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:738
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:739
 msgid "We’ll just remove the statue..."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:773
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:774
 msgid "... and push the coffin out of the way."
 msgstr ""
 
 #. [message]: speaker=spotter
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:801
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/20_North_Knalga.cfg:802
 msgid "Ach! Th’ invaders have made it inna the Crystal Caves!"
 msgstr ""
 
@@ -3301,198 +3376,195 @@ msgid "Cavalry"
 msgstr ""
 
 #. [side]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:98
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:104
 msgid "Magi"
 msgstr ""
 
 #. [side]
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:111
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:117
 msgid "Elves"
 msgstr "Elfos"
 
 #. [message]: speaker=Thrigalurd
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:318
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:327
 msgid ""
 "The enemy already attempts to breach our castle walls! Up arms lads, look "
 "lively!"
 msgstr ""
 
 #. [message]: speaker=Thrigalurd
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:324
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:333
 msgid "Now we avenge the fallen of Knalga!"
 msgstr ""
 
 #. [message]: speaker=Carmyna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:347
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:356
 msgid ""
 "The enemy is already poised to attack! They must have anticipated our "
 "arrival. No rest my friends; we go to work immediately."
 msgstr ""
 
 #. [message]: speaker=Carmyna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:353
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:362
 msgid ""
 "The battle is already underway. So many of our comrades have fallen! We must "
 "incinerate these undead and rid the world of this evil."
 msgstr ""
 
-#. [message]: speaker=Galoïndrath
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:376
+#. [message]: speaker=Isthiniel
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:385
 msgid ""
 "What is this? The enemy lurking in wait in our forests? To arms! Let us "
 "immediately rid our land of this foulness!"
 msgstr ""
 
-#. [message]: speaker=Galoïndrath
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:382
+#. [message]: speaker=Isthiniel
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:391
 msgid ""
 "Never again will these monsters use the spirits of our ancestors against us. "
 "We will burn them down!"
 msgstr ""
 
 #. [objective]: condition=lose
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:487
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:107
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:526
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:116
 msgid "Death of Ardryn-Na"
 msgstr ""
 
 #. [unit]: type=Saurian Flanker, id=Fizztsars
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:525
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:564
 msgid "Fizztsars"
 msgstr ""
 
 #. [message]: speaker=Fizztsars
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:531
-msgid "We have arrived, Taxsstrimon. We will fight bessside you."
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:571
+msgid ""
+"We have arrived, Taxsstrimon. We will fight bessside you. They will pay for "
+"killing our malesss!"
 msgstr ""
 
 #. [message]: speaker=Taxtrimon
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:535
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:575
 msgid "Well met Fizztsars. Now these creatures will certainly fall."
 msgstr ""
 
 #. [unit]: type=Dwarvish Dragonguard, id=Thrigalurd
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:560
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:600
 msgid "Thrigalurd"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:574
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:615
 msgid "Look! The dwarves circled around in front of us."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:578
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:619
 msgid "That’s why getting through Knalga was so easy."
 msgstr ""
 
 #. [unit]: type=Great Mage, id=Carmyna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:634
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:677
 msgid "Carmyna"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:652
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:696
 msgid "They just keep coming! Has nobody even considered what we offer?"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:662
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:706
 msgid "Well. That was intense."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:666
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:710
 msgid "At last we are victorious!"
 msgstr ""
 
-#. [unit]: type=Elvish High Lord, id=Galoïndrath
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:698
-msgid "Galoïndrath"
-msgstr ""
-
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:716
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:761
 msgid "The whole world is against us."
 msgstr ""
 
 #. [unit]: type=Paladin, id=Gwendir
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:752
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:799
 msgid "Gwendir"
 msgstr ""
 
 #. [message]: speaker=adviser
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:776
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:823
 msgid ""
 "This is the place Crelanu’s gryphon told us to come, and yon party has an "
 "ill-favored look."
 msgstr ""
 
 #. [message]: speaker=Gwendir
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:780
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:827
 msgid "Yes, I believe that is our quarry."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:784
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:831
 msgid "Crelanu! Still he haunts us. Remind me again why we didn’t kill him."
 msgstr ""
 
 #. [message]: speaker=Gwendir
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:788
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:835
 msgid ""
 "Ardonna of Tarrynth and Rassin Tabin, you stand convicted of necromancy, and "
 "sentenced to death!"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:792
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:839
 msgid ""
 "Is that all? Death holds no terror for us as we have died already. You will "
 "follow shortly."
 msgstr ""
 
 #. [message]: speaker=Gwendir
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:796
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:843
 msgid "The blessed swords of our order will soon give you cause to fear again."
 msgstr ""
 
 #. [message]: speaker=adviser
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:800
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:847
 msgid "Sir, the magi have not yet arrived."
 msgstr ""
 
 #. [message]: speaker=Gwendir
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:804
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:851
 msgid ""
 "No matter. We need not fear this darkness, and we need not wait on the "
 "schoolteachers."
 msgstr ""
 
 #. [unit]: type=Naga Myrmidon, id=Taxtrimon
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:817
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:864
 msgid "Taxtrimon"
 msgstr ""
 
 #. [message]: speaker=Taxtrimon
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:832
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:881
 msgid ""
-"We have found them! These magi destroyed a profitable business venture, and "
-"killed our males. We will take vengeance. You horse humans can assist us."
+"We have found them! These magi destroyed a profitable business venture. We "
+"will take vengeance. You horse humans can assist us."
 msgstr ""
 
 #. [unit]: type=Merman Hoplite, id=Mauapan
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:845
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:894
 msgid "Mauapan"
 msgstr ""
 
 #. [message]: speaker=Mauapan
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:851
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:900
 msgid "I will also assist. Too many innocents have died. This ends today."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:855
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:904
 msgid "We are surrounded. We must defeat this horde."
 msgstr ""
 
@@ -3599,12 +3671,7 @@ msgid "pick"
 msgstr "espetar"
 
 #. [unit_type]: id=Ancient Lich SotA, race=undead
-#: data/campaigns/Secrets_of_the_Ancients/units/Necro_Ancient_Lich.cfg:4
-msgid "Ancient Lich"
-msgstr "Lich Ancestral"
-
-#. [unit_type]: id=Ancient Lich SotA, race=undead
-#: data/campaigns/Secrets_of_the_Ancients/units/Necro_Ancient_Lich.cfg:18
+#: data/campaigns/Secrets_of_the_Ancients/units/Necro_Ancient_Lich.cfg:20
 msgid ""
 "An experienced lich can easily tap into the power of the spirit world and "
 "throw freezing lightning to devastating effect, or drain the very life force "
@@ -3667,138 +3734,138 @@ msgid "Ardonna"
 msgstr ""
 
 #. [objective]: condition=lose
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:91
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:100
 msgid "Death of Ardonna"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:125
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:134
 msgid "No, no, NO, <i><b>NO</b></i>!"
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:146
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:155
 msgid "Urgh."
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:158
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:167
 msgid "But I don't know how to bring you back yet!"
 msgstr ""
 
 #. [message]: speaker=Carcyn
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:189
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:246
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:198
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:255
 msgid "Shynal!"
 msgstr ""
 
 #. [message]: speaker=Carcyn
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:193
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:250
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:202
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:259
 msgid "Bring her back. Please!"
 msgstr ""
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:197
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:206
 msgid "I'm not sure that's such a good..."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:201
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:210
 msgid "If you insist."
 msgstr ""
 
 #. [message]: speaker=Corpse Shynal
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:212
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:221
 msgid "Car. Cyn."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:216
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:225
 msgid "She will not know you for long, so make the most of it."
 msgstr ""
 
 #. [message]: speaker=Carcyn
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:226
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:235
 msgid "Perhaps that was for the best."
 msgstr ""
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:254
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:263
 msgid ""
 "It's not possible. She was already back from the dead. She has been utterly "
 "destroyed this time."
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:267
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:276
 msgid "Oh, my sweet Carcyn!"
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:283
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:292
 msgid "You were always so reckless."
 msgstr ""
 
 #. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:289
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:298
 msgid "I will miss you."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:457
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:466
 msgid "Aww. I wanted to be a mage like Shynal."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:463
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:472
 msgid "Aww. I wanted to be a mage like Carcyn."
 msgstr ""
 
 #. [option]
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:470
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:479
 msgid "Do not make me regret liberating you from jail. My decision is final."
 msgstr ""
 
 #. [option]
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:473
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:482
 msgid "I have reconsidered. Perhaps you will be very powerful one day."
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:484
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:493
 msgid "Thanks!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:499
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:508
 msgid ""
 "Hey, I wanted to be a wizard like you and live forever when you figure it "
 "out! I know I could be super-powerful in the end."
 msgstr ""
 
 #. [option]
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:505
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:514
 msgid "Hold your tongue. You will do as I command."
 msgstr ""
 
 #. [option]
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:514
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:523
 msgid "Very well. Having more adepts might be a good idea after all."
 msgstr ""
 
 #. [unstore_unit]
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:900
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:925
 msgid "Lich"
 msgstr "Lich"
 
 #. [set_menu_item]: id=hide-sails
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:943
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:968
 msgid "Hide Sails and Rigging"
 msgstr ""
 
 #. [set_menu_item]: id=show-sails
-#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:982
+#: data/campaigns/Secrets_of_the_Ancients/utils/sota-utils.cfg:1007
 msgid "Show Sails and Rigging"
 msgstr ""
 
@@ -3927,3 +3994,6 @@ msgstr ""
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:344
 msgid "Half Void"
 msgstr ""
+
+#~ msgid "Ancient Lich"
+#~ msgstr "Lich Ancestral"
