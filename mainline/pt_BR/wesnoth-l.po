@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-01-27 09:23 UTC\n"
+"POT-Creation-Date: 2019-03-11 13:09 UTC\n"
 "PO-Revision-Date: 2011-05-09 11:39-0300\n"
 "Last-Translator: Diego Inácio Goergen <thegoergen@gmail.com>\n"
 "Language-Team: none\n"
-"Language: pt_BR\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -70,9 +70,9 @@ msgstr ""
 #. [campaign]: id=Liberty
 #: data/campaigns/Liberty/_main.cfg:28
 #, fuzzy
-#| msgid "(Novice level, 4 scenarios.)"
+#| msgid "(Intermediate level, 8 scenarios.)"
 msgid "(Novice level, 8 scenarios.)"
-msgstr "(Nível novato, 4 cenários.)"
+msgstr "(Nível intermediário, 8 cenário.)"
 
 #. [about]
 #: data/campaigns/Liberty/_main.cfg:31
@@ -106,9 +106,15 @@ msgstr "Dallben"
 
 #. [part]
 #: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:22
+#, fuzzy
+#| msgid ""
+#| "In the Era of Turmoil, during the reign of King Garard II, the border "
+#| "towns of Delwyn and Dallben in the province of Annuvin grew increasingly "
+#| "dissatisfied with the King’s rule. Being preoccupied with the great wars, "
+#| "the King was unable to send adequate forces to protect the frontier."
 msgid ""
 "In the Era of Turmoil, during the reign of King Garard II, the border towns "
-"of Delwyn and Dallben in the province of Annuvin grew increasingly "
+"of Delwyn and Dallben in the Province of Annuvin grew increasingly "
 "dissatisfied with the King’s rule. Being preoccupied with the great wars, "
 "the King was unable to send adequate forces to protect the frontier."
 msgstr ""
@@ -479,13 +485,13 @@ msgid "Civil Disobedience"
 msgstr "Desobediência Civil"
 
 #. [side]: type=Bandit, id=Baldras
-#. [side]: type=General, id=Lord Maddock
 #. [side]: type=Rogue, id=Hans
 #. [side]: type=Highwayman, id=Baldras
-#. [side]: type=Shadow Lord, id=Helicrom
-#. [side]
 #. [side]: type=Bandit_Peasant, id=Baldras
+#. [side]
+#. [side]: type=Shadow Lord, id=Helicrom
 #. [side]: type=Highwayman_Peasant, id=Relana
+#. [side]: type=General, id=Lord Maddock
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:26
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:62
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:38
@@ -508,13 +514,13 @@ msgstr "Rebeldes"
 msgid "Tarwen"
 msgstr "Tarwen"
 
-#. [side]: type=General, id=Kestrel
 #. [side]: type=Master Bowman, id=Quentin
 #. [side]
 #. [side]: type=Royal Guard, id=Archarel
 #. [side]: type=Iron Mauler, id=Linneus
-#. [side]: type=General, id=Dommel
 #. [side]: type=Cavalier, id=Tarwen
+#. [side]: type=General, id=Kestrel
+#. [side]: type=General, id=Dommel
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:41
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:80
 #: data/campaigns/Liberty/scenarios/05_Hide_and_Seek.cfg:48
@@ -752,9 +758,15 @@ msgstr ""
 
 #. [message]: speaker=Baldras
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:188
+#, fuzzy
+#| msgid ""
+#| "You do not understand. We attacked a Wesnoth army patrol. Not only that, "
+#| "the leader was no man I had ever seen in Annuvin province before. Never "
+#| "has one been sent out here as a patrol captain who was so ruthless and "
+#| "cruel."
 msgid ""
 "You do not understand. We attacked a Wesnoth army patrol. Not only that, the "
-"leader was no man I had ever seen in Annuvin province before. Never has one "
+"leader was no man I had ever seen in Annuvin Province before. Never has one "
 "been sent out here as a patrol captain who was so ruthless and cruel."
 msgstr ""
 "Você não entende. Nós atacamos uma patrulha do exército de Wesnoth. E não é "
@@ -1017,8 +1029,13 @@ msgstr ""
 
 #. [message]: speaker=Harper
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:207
+#, fuzzy
+#| msgid ""
+#| "What can we do then? We have brought with us many from Annuvin province "
+#| "who are willing to fight, but our families are still at home. They will "
+#| "not last long if the Queen’s patrols return."
 msgid ""
-"What can we do then? We have brought with us many from Annuvin province who "
+"What can we do then? We have brought with us many from Annuvin Province who "
 "are willing to fight, but our families are still at home. They will not last "
 "long if the Queen’s patrols return."
 msgstr ""
@@ -2289,10 +2306,15 @@ msgstr "Ninguém dentro da fortaleza conseguiu sair vivo."
 
 #. [message]: speaker=narrator
 #: data/campaigns/Liberty/scenarios/08_Glory.cfg:811
+#, fuzzy
+#| msgid ""
+#| "After more than a week of fierce fighting, the main body of Asheviere’s "
+#| "host arrived from Weldyn. The battle was soon finished. Every last man "
+#| "from the province of Annuvin was executed."
 msgid ""
 "After more than a week of fierce fighting, the main body of Asheviere’s host "
 "arrived from Weldyn. The battle was soon finished. Every last man from the "
-"province of Annuvin was executed."
+"Province of Annuvin was executed."
 msgstr ""
 "Depois de mais de uma semana de luta, o exército de Aheviere chega de "
 "Weldyn. A batalha havia mesmo terminado. Todo homem da província de Annuvin "
@@ -2543,7 +2565,7 @@ msgid "Bone Knight"
 msgstr "Cavaleiro esqueleto"
 
 #. [unit_type]: id=Bone Knight, race=undead
-#: data/campaigns/Liberty/units/Bone_Knight.cfg:26
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:27
 msgid ""
 "Once great warriors across the plains, these mounted riders atop their "
 "skeletal horses were raised from the ground by unholy magic to spread fear "
@@ -2554,7 +2576,7 @@ msgstr ""
 "destruição."
 
 #. [attack]: type=impact
-#: data/campaigns/Liberty/units/Bone_Knight.cfg:41
+#: data/campaigns/Liberty/units/Bone_Knight.cfg:42
 msgid "trample"
 msgstr "esmagar"
 
@@ -2887,17 +2909,51 @@ msgstr ""
 "Era uma pequena visão do inferno,  mas como a pressão de Asheviere havia "
 "diminuído, eles viveriam para vez algo pior."
 
-#~ msgid "(Intermediate level, 8 scenarios.)"
-#~ msgstr "(Nível intermediário, 8 cenário.)"
+#. [part]
+#: data/campaigns/Liberty/scenarios/01_The_Raid.cfg:22
+msgid ""
+"In the Era of Turmoil, during the reign of King Garard II, the border towns "
+"of Delwyn and Dallben in the province of Annuvin grew increasingly "
+"dissatisfied with the King’s rule. Being preoccupied with the great wars, "
+"the King was unable to send adequate forces to protect the frontier."
+msgstr ""
+"Na 'Era de Turmoil', durante o reinado do rei Garard II, as cidades "
+"fronteiriças de Delwyn e Dallben, na província de Annuvin, cresciam "
+"insatisfeitas com as decisões do rei. Preocupado com as grandes guerras, o "
+"rei era incapaz de mandar forças adequadas para proteger a fronteira."
 
-#~ msgid ""
-#~ "We have tarried here for far too long... There is no way we can reach "
-#~ "Elensefar and return with help before the Wesnoth army destroys our "
-#~ "homes. Retreat!!"
-#~ msgstr ""
-#~ "Nós demoramos demais para decidirmos... Não tem jeito de irmos até "
-#~ "Elensefar e voltar com ajuda antes que o exército destrua nossos lares. "
-#~ "Recuar!!"
+#. [message]: speaker=Baldras
+#: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:188
+msgid ""
+"You do not understand. We attacked a Wesnoth army patrol. Not only that, the "
+"leader was no man I had ever seen in Annuvin province before. Never has one "
+"been sent out here as a patrol captain who was so ruthless and cruel."
+msgstr ""
+"Você não entende. Nós atacamos uma patrulha do exército de Wesnoth. E não é "
+"só isso, seu líder era um homem que nunca vi por essas bandas. Nunca "
+"mandaram para cá um capitão de patrulha tão rude e cruel."
+
+#. [message]: speaker=Harper
+#: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:207
+msgid ""
+"What can we do then? We have brought with us many from Annuvin province who "
+"are willing to fight, but our families are still at home. They will not last "
+"long if the Queen’s patrols return."
+msgstr ""
+"O que nós podemos fazer então? Nós trouxemos muitos dos lutadores da "
+"província de Annuvin, mas nossas famílias continuam lá. Eles não resistirão "
+"muito tempo se as forças da rainha retornarem."
+
+#. [message]: speaker=narrator
+#: data/campaigns/Liberty/scenarios/08_Glory.cfg:811
+msgid ""
+"After more than a week of fierce fighting, the main body of Asheviere’s host "
+"arrived from Weldyn. The battle was soon finished. Every last man from the "
+"province of Annuvin was executed."
+msgstr ""
+"Depois de mais de uma semana de luta, o exército de Aheviere chega de "
+"Weldyn. A batalha havia mesmo terminado. Todo homem da província de Annuvin "
+"foi executado."
 
 #~ msgid "axe"
 #~ msgstr "machado"
@@ -2927,6 +2983,18 @@ msgstr ""
 
 #~ msgid "holy ankh"
 #~ msgstr "amuleto sagrado"
+
+#~ msgid "(Intermediate level, 8 scenarios.)"
+#~ msgstr "(Nível intermediário, 8 cenário.)"
+
+#~ msgid ""
+#~ "We have tarried here for far too long... There is no way we can reach "
+#~ "Elensefar and return with help before the Wesnoth army destroys our "
+#~ "homes. Retreat!!"
+#~ msgstr ""
+#~ "Nós demoramos demais para decidirmos... Não tem jeito de irmos até "
+#~ "Elensefar e voltar com ajuda antes que o exército destrua nossos lares. "
+#~ "Recuar!!"
 
 #~ msgid "(Easy)"
 #~ msgstr "(Fácil)"
