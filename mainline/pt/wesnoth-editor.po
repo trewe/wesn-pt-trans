@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-editor)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-01-21 21:29+0300\n"
-"PO-Revision-Date: 2019-01-22 13:01+0000\n"
+"POT-Creation-Date: 2020-01-12 13:29-0300\n"
+"PO-Revision-Date: 2020-02-14 16:35+0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 "Country: PORTUGAL\n"
 
 #. [brush]: id=brush-1
@@ -169,32 +169,14 @@ msgid "Winter"
 msgstr "Inverno"
 
 #
-#. [editor_times]: id=underground
-#: data/core/editor/time-of-day.cfg:40
-msgid "Underground"
-msgstr "Subterrâneo"
-
-#
-#. [editor_times]: id=deep_underground
-#: data/core/editor/time-of-day.cfg:46
-msgid "Deep Underground"
-msgstr "Subterrâneo Profundo"
-
-#
-#. [editor_times]: id=indoors
-#: data/core/editor/time-of-day.cfg:52
-msgid "Indoors"
-msgstr "Interior"
-
-#
 #. [editor_times]: id=24
-#: data/core/editor/time-of-day.cfg:58
+#: data/core/editor/time-of-day.cfg:60
 msgid "24 Hour Schedule"
 msgstr "Formato 24-Horas"
 
 #
 #. [editor_times]: id=after_the_fall
-#: data/core/editor/time-of-day.cfg:64
+#: data/core/editor/time-of-day.cfg:66
 msgid "After the Fall"
 msgstr "Após a Queda"
 
@@ -289,31 +271,35 @@ msgstr "Lista de reprodução"
 msgid "Assign Time Schedule"
 msgstr "Definir Tempo do Dia"
 
-#: src/editor/action/mouse/mouse_action_unit.cpp:62
+#: src/editor/action/mouse/mouse_action_unit.cpp:68
+msgid "(Unknown unit type: $type)"
+msgstr "(Unidade Desconhecida: $type)"
+
+#: src/editor/action/mouse/mouse_action_unit.cpp:72
 msgid "Identifier: "
 msgstr "Identificador: "
 
 #
-#: src/editor/action/mouse/mouse_action_unit.cpp:63
+#: src/editor/action/mouse/mouse_action_unit.cpp:73
 msgid "Name: "
 msgstr "Nome: "
 
 #
-#: src/editor/action/mouse/mouse_action_unit.cpp:64
+#: src/editor/action/mouse/mouse_action_unit.cpp:74
 msgid "Type: "
 msgstr "Tipo: "
 
 #
-#: src/editor/action/mouse/mouse_action_unit.cpp:65
+#: src/editor/action/mouse/mouse_action_unit.cpp:75
 msgid "Level: "
 msgstr "Nível: "
 
 #
-#: src/editor/action/mouse/mouse_action_unit.cpp:66
+#: src/editor/action/mouse/mouse_action_unit.cpp:76
 msgid "Cost: "
 msgstr "Custo: "
 
-#: src/editor/action/mouse/mouse_action_unit.cpp:67
+#: src/editor/action/mouse/mouse_action_unit.cpp:77
 msgid "Recruit: "
 msgstr "Recrutamentos: "
 
@@ -575,12 +561,12 @@ msgid "Delete"
 msgstr "Eliminar"
 
 #
-#: src/editor/palette/terrain_palettes.cpp:231
+#: src/editor/palette/terrain_palettes.cpp:230
 msgid "FG: "
 msgstr "Frente: "
 
 #
-#: src/editor/palette/terrain_palettes.cpp:232
+#: src/editor/palette/terrain_palettes.cpp:231
 msgid "BG: "
 msgstr "Fundo: "
 
@@ -606,6 +592,18 @@ msgstr "Nenhum"
 #: src/gui/dialogs/editor/set_starting_position.cpp:97
 msgid "Player $player_number"
 msgstr "Jogador $player_number"
+
+#
+#~ msgid "Underground"
+#~ msgstr "Subterrâneo"
+
+#
+#~ msgid "Deep Underground"
+#~ msgstr "Subterrâneo Profundo"
+
+#
+#~ msgid "Indoors"
+#~ msgstr "Interior"
 
 #~ msgid "None"
 #~ msgstr "Nenhum"
