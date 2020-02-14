@@ -2,11 +2,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2019-06-30 12:14 UTC\n"
+"POT-Creation-Date: 2020-01-12 16:28 UTC\n"
 "PO-Revision-Date: 2010-10-01 19:05-0300\n"
 "Last-Translator: Diego Inácio Goergen <thegoergen@gmail.com>\n"
 "Language-Team: none\n"
-"Language: \n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -55,7 +55,7 @@ msgid "(Hard level, 18 scenarios.)"
 msgstr "(Nível intermediário, 18 cenários.)"
 
 #. [campaign]: id=LOW, type=hybrid
-#: data/campaigns/Legend_of_Wesmere/_main.cfg:55
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:58
 msgid "Easy"
 msgstr "Fácil"
 
@@ -76,12 +76,12 @@ msgid "Lord"
 msgstr "Lorde"
 
 #. [campaign]: id=LOW, type=hybrid
-#: data/campaigns/Legend_of_Wesmere/_main.cfg:56
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:59
 msgid "Normal"
 msgstr "Normal"
 
 #. [campaign]: id=LOW, type=hybrid
-#: data/campaigns/Legend_of_Wesmere/_main.cfg:57
+#: data/campaigns/Legend_of_Wesmere/_main.cfg:60
 msgid "Challenging"
 msgstr "Desafiador"
 
@@ -695,28 +695,28 @@ msgstr "T’baran"
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter5/22_Northern_Battle.cfg, line: 190
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter5/22_Northern_Battle.cfg, line: 224
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter5/23_End_of_War.cfg, line: 82
+#. [side]: type=Saurian Flanker, id=Huurgh
+#. [side]: type=Saurian Oracle, id=Shhar
+#. [side]: type=Arch Mage, id=Aquagar
+#. [side]: type=Troll Warrior, id=Trigrul
+#. [side]: type=Troll Warrior, id=Tafrul
+#. [side]
+#. [side]: type=Saurian Ambusher, id=Shurm
+#. [side]: type=Saurian Ambusher, id=Trigr
+#. [side]: type=Orcish Warlord, id=Urug-Tar
+#. [side]: type=Orcish Warlord, id=Graur-Tan
+#. [side]: type=Troll Warrior, id=Traur
+#. [side]: id=Hraurg, type=Saurian Ambusher
+#. [side]: type=Saurian Ambusher, id=Spahr
+#. [side]: type=Orcish Warlord, id=Kior-Pur
+#. [side]: type=Orcish Warlord, id=Mbiran
+#. [side]: type=Orcish Warlord, id=Tan-Durr
 #. [side]: id=Tbaran, type=Orcish Warrior
 #. [side]: id=Wrulf, type=Orcish Warrior
 #. [side]: type=Orcish Warrior, id=Qumseh
 #. [side]: type=Orcish Warrior, id=Graur-Tan
 #. [modify_side]
 #. [side]: type=Troll Hero, type=Great Troll, id=Grugl
-#. [side]
-#. [side]: id=Hraurg, type=Saurian Ambusher
-#. [side]: type=Saurian Ambusher, id=Spahr
-#. [side]: type=Orcish Warlord, id=Urug-Tar
-#. [side]: type=Orcish Warlord, id=Graur-Tan
-#. [side]: type=Troll Warrior, id=Traur
-#. [side]: type=Saurian Ambusher, id=Shurm
-#. [side]: type=Saurian Ambusher, id=Trigr
-#. [side]: type=Saurian Flanker, id=Huurgh
-#. [side]: type=Saurian Oracle, id=Shhar
-#. [side]: type=Troll Warrior, id=Tafrul
-#. [side]: type=Arch Mage, id=Aquagar
-#. [side]: type=Troll Warrior, id=Trigrul
-#. [side]: type=Orcish Warlord, id=Kior-Pur
-#. [side]: type=Orcish Warlord, id=Mbiran
-#. [side]: type=Orcish Warlord, id=Tan-Durr
 #. [side]: type=Saurian Flanker, id=Spahr
 #. [side]: type=Saurian Flanker, id=Hgyr
 #. [side]: type=Elvish Marshal, id=Crintil
@@ -781,8 +781,8 @@ msgstr "Qumseh"
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/06_Acquaintance_in_Need.cfg, line: 155
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter1/01_The_Uprooting.cfg, line: 306
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/06_Acquaintance_in_Need.cfg, line: 155
-#. [side]: type=Orcish Warrior, id=Graur-Tan
 #. [side]: type=Orcish Warlord, id=Graur-Tan
+#. [side]: type=Orcish Warrior, id=Graur-Tan
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter1/01_The_Uprooting.cfg:312
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/06_Acquaintance_in_Need.cfg:161
 msgid "Graur-Tan"
@@ -1972,8 +1972,8 @@ msgstr "Trigr"
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter3/10_Cliffs_of_Thoria.cfg, line: 194
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter4/17_Breaking_the_Siege.cfg, line: 256
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter5/22_Northern_Battle.cfg, line: 274
-#. [objectives]
 #. [objective]: condition=win
+#. [objectives]
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/04_The_Elvish_Treasury.cfg:170
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/05_The_Saurian_Treasury.cfg:210
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/05_The_Saurian_Treasury.cfg:368
@@ -3113,8 +3113,8 @@ msgstr ""
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter5/20_Council_Ruling.cfg, line: 29
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter5/20_Council_Ruling.cfg, line: 54
 # File: data/campaigns/Legend_of_Wesmere/utils/characters.cfg, line: 23
-#. [message]: speaker=narrator
 #. [part]
+#. [message]: speaker=narrator
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/07_Elves_Last_Stand.cfg:574
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/08_Council_of_Hard_Choices.cfg:41
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/08_Council_of_Hard_Choices.cfg:51
@@ -3179,8 +3179,8 @@ msgstr "Kalenz"
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter4/15_The_Treaty.cfg, line: 81
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter5/20_Council_Ruling.cfg, line: 60
 # File: data/campaigns/Legend_of_Wesmere/utils/characters.cfg, line: 41
-#. [message]: speaker=narrator
 #. [part]
+#. [message]: speaker=narrator
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/07_Elves_Last_Stand.cfg:580
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/08_Council_of_Hard_Choices.cfg:61
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/08_Council_of_Hard_Choices.cfg:81
@@ -3350,9 +3350,15 @@ msgstr "El'Isomithir"
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/08_Council_of_Hard_Choices.cfg, line: 50
 #. [part]
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/08_Council_of_Hard_Choices.cfg:46
+#, fuzzy
+#| msgid ""
+#| "Leave the Humans out of this. King Haldric has broken the treaty we "
+#| "signed with him eleven years ago, and has sent back all our emissaries. "
+#| "When he arrived on our shore he was very humble, but now his arrogance "
+#| "knows no bounds. He believes the Orcs will not dare to fight him."
 msgid ""
 "Leave the Humans out of this. King Haldric has broken the treaty we signed "
-"with him eleven years ago, and has sent back all our emissaries. When he "
+"with him eighteen years ago, and has sent back all our emissaries. When he "
 "arrived on our shore he was very humble, but now his arrogance knows no "
 "bounds. He believes the Orcs will not dare to fight him."
 msgstr ""
@@ -4260,8 +4266,8 @@ msgstr "Aquagar"
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter3/12_Revelations.cfg, line: 224
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter3/12_Revelations.cfg, line: 239
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter3/12_Revelations.cfg, line: 249
-#. [side]: type=Elder Mage, id=Crelanu
 #. [part]
+#. [side]: type=Elder Mage, id=Crelanu
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter3/11_Battle_of_the_Book.cfg:128
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter3/12_Revelations.cfg:22
 #: data/campaigns/Legend_of_Wesmere/scenarios/chapter3/12_Revelations.cfg:32
@@ -8072,18 +8078,31 @@ msgid "Oh, no! We are too late..."
 msgstr "Ah, não! Nós estamos muito atrasados..."
 
 #
+# File: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/08_Council_of_Hard_Choices.cfg, line: 50
+# File: data/campaigns/Legend_of_Wesmere/scenarios/chapter2/08_Council_of_Hard_Choices.cfg, line: 50
+#~ msgid ""
+#~ "Leave the Humans out of this. King Haldric has broken the treaty we "
+#~ "signed with him eleven years ago, and has sent back all our emissaries. "
+#~ "When he arrived on our shore he was very humble, but now his arrogance "
+#~ "knows no bounds. He believes the Orcs will not dare to fight him."
+#~ msgstr ""
+#~ "Deixe os humanos fora disso. Rei Haldric quebrou o tratado que fizemos "
+#~ "com ele onze anos atrás, e mandou todos nosso emissários de volta. Quando "
+#~ "ele chegou em nossa terra, ele era muito humilde, mas agora a sua "
+#~ "arrogância não tem limites. Ele acredita que os orcs não se atrevem a "
+#~ "enfrentá-lo."
+
+#
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter1/02_Hostile_Mountains.cfg, line: 488
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter1/02_Hostile_Mountains.cfg, line: 488
-#. [message]: id=Landar
-#: data/campaigns/Legend_of_Wesmere/scenarios/chapter1/02_Hostile_Mountains.cfg:477
-msgid ""
-"Our troubles will be yours, too, whether either of us will it or not. The "
-"orcs have come down from the north like a flood; if we squabble among "
-"ourselves they will feast on our discord."
-msgstr ""
-"Nossos problemas serão seus problemas, quer você queira, quer não. Os orcs "
-"estão vindo do norte como uma onda, se nós discutirmos entre nós, eles se "
-"beneficiarão de nossa discórdia."
+#~ msgid ""
+#~ "Our troubles will be yours, too, whether either of us will it or not. The "
+#~ "orcs have come down from the north like a flood; if we squabble among "
+#~ "ourselves they will feast on our discord."
+#~ msgstr ""
+#~ "Nossos problemas serão seus problemas, quer você queira, quer não. Os "
+#~ "orcs estão vindo do norte como uma onda, se nós discutirmos entre nós, "
+#~ "eles se beneficiarão de nossa discórdia."
 
 #
 # File: data/campaigns/Legend_of_Wesmere/scenarios/chapter3/09_Bounty_Hunters.cfg, line: 253
