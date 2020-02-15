@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-manual)\n"
 "Report-Msgid-Bugs-To: https://github.com/trewe/wesn-pt-trans/issues\n"
 "POT-Creation-Date: 2019-06-30 15:14+0300\n"
-"PO-Revision-Date: 2017-06-12 10:11+0100\n"
+"PO-Revision-Date: 2020-02-15 17:04+0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.1\n"
+"X-Generator: Poedit 2.3\n"
 
 # type: Attribute 'lang' of: <book>
 #. type: Attribute 'lang' of: <book>
@@ -262,7 +262,6 @@ msgstr ""
 
 #. type: Content of: <book><chapter><section><simpara><inlinemediaobject>
 #: doc/manual/manual.en.xml:90
-#, fuzzy
 #| msgid ""
 #| "<imageobject> <imagedata fileref=\"images/main-menu-1.11.9.jpg\"/> </"
 #| "imageobject>"
@@ -270,7 +269,7 @@ msgid ""
 "<imageobject> <imagedata fileref=\"images/main-menu-1.13.11+dev.jpg\"/> </"
 "imageobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"images/main-menu-1.11.9.jpg\"/> </"
+"<imageobject> <imagedata fileref=\"images/main-menu-1.13.11+dev.jpg\"/> </"
 "imageobject>"
 
 #. type: Content of: <book><chapter><section><simpara><inlinemediaobject><textobject><phrase>
@@ -381,13 +380,6 @@ msgstr "Carregar"
 # type: Content of: <book><chapter><section><variablelist><varlistentry><listitem><simpara>
 #. type: Content of: <book><chapter><section><variablelist><varlistentry><listitem><simpara>
 #: doc/manual/manual.en.xml:153
-#, fuzzy
-#| msgid ""
-#| "Click this button to load a previously saved game. You will be shown a "
-#| "dialogue listing saved games. Select the game and click Ok to load and "
-#| "continue, or Cancel to return to the Main Menu. If you select a replay "
-#| "game, you can check the Replay check box. The loaded game will make all "
-#| "the moves from the beginning while you watch."
 msgid ""
 "Click this button to load a previously saved game. You will be shown a "
 "dialogue listing saved games. Select the game and click Ok to load and "
@@ -395,9 +387,9 @@ msgid ""
 "you can check the \"Show replay\" check box. The loaded game will make all "
 "the moves from the beginning while you watch."
 msgstr ""
-"Clique neste botão para carregar um jogo salvo anteriormente. Irá ser "
+"Clique neste botão para carregar um jogo guardado anteriormente. Irá ser "
 "mostrado uma lista de diálogo dos jogos guardados. Seleciona o jogo e clique "
-"em Ok para carregar e continuar, ou Cancelar para retornar ao menu "
+"em Confirmar para carregar e continuar, ou Cancelar para retornar ao menu "
 "principal. Se selecionares um Replay, é possível verificar a caixa de "
 "seleção. O jogo carregado vai fazer todos os movimentos desde o início "
 "enquanto observa."
@@ -480,11 +472,6 @@ msgstr "Créditos"
 # type: Content of: <book><chapter><section><variablelist><varlistentry><listitem><simpara>
 #. type: Content of: <book><chapter><section><variablelist><varlistentry><listitem><simpara>
 #: doc/manual/manual.en.xml:215
-#, fuzzy
-#| msgid ""
-#| "Click this button for a list of major Wesnoth contributors. You will "
-#| "often be able to reach them in real time at irc.freenode.org:6667 on "
-#| "#wesnoth."
 msgid ""
 "Click this button for a list of major Wesnoth contributors. You will often "
 "be able to reach them in real time at irc.freenode.org:6667 on #wesnoth or "
@@ -493,7 +480,8 @@ msgid ""
 msgstr ""
 "Ao aceder a este botão, mostra os créditos do Jogo e lista os contribuidores "
 "diversos. Poderás na maior parte das vezes contactar-os em tempo real no "
-"canal IRC irc.freenode.org:6667 em #wesnoth."
+"canal IRC irc.freenode.org:6667 em #wesnoth ou <ulink url=\"https://discord."
+"gg/battleforwesnoth\">https://discord.gg/battleforwesnoth</ulink>"
 
 #. type: Content of: <book><chapter><section><variablelist><varlistentry><term>
 #: doc/manual/manual.en.xml:223
@@ -601,10 +589,8 @@ msgstr ""
 # type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
 #. type: Content of: <book><chapter><section><simpara>
 #: doc/manual/manual.en.xml:292
-#, fuzzy
-#| msgid "Message another player (in multiplayer)"
 msgid "There are also campaigns that can be played in multiplayer."
-msgstr "Envia uma mensagem para outro jogador (no modo em rede)"
+msgstr "Há campanhas que podem ser jogadas em rede."
 
 # type: Content of: <book><chapter><section><section><title>
 #. type: Content of: <book><chapter><section><section><title>
@@ -668,18 +654,6 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><simpara>
 #. type: Content of: <book><chapter><section><section><simpara>
 #: doc/manual/manual.en.xml:313
-#, fuzzy
-#| msgid ""
-#| "In general multiplayer games are played against other players via the "
-#| "Internet (you can also run them on your LAN if you have one). All these "
-#| "games are co-ordinated through the Wesnoth multiplayer server. "
-#| "Multiplayer games can take anywhere from 1 hour to 10 hours, depending on "
-#| "how many players there are (and the size of the map). The average time is "
-#| "between 3 to 7 hours. Games can be saved and loaded as many times as you "
-#| "like. So, it&#8217;s possible for some games to last 1 or 2 weeks, even "
-#| "though the play time is only a few hours. You cannot carry over units in "
-#| "multiplayer from one scenario to the next, so building up your army&#8217;"
-#| "s strength is possible only within the scenario."
 msgid ""
 "In general multiplayer games are played against other players via the "
 "Internet (you can also run them on your LAN if you have one). All these "
@@ -713,7 +687,6 @@ msgstr "Há várias opções possíveis quando clicares no botão “Jogo em Red
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
 #: doc/manual/manual.en.xml:326
-#, fuzzy
 #| msgid ""
 #| "<imageobject> <imagedata fileref=\"images/multiplayer-1.11.9.jpg\"/> </"
 #| "imageobject>"
@@ -721,13 +694,13 @@ msgid ""
 "<imageobject> <imagedata fileref=\"images/multiplayer-1.13.11+dev.png\"/> </"
 "imageobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"images/multiplayer-1.11.9.jpg\"/> </"
+"<imageobject> <imagedata fileref=\"images/multiplayer-1.13.11+dev.png\"/> </"
 "imageobject>"
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject><phrase>
 #: doc/manual/manual.en.xml:329
 msgid "Multiplayer dialog"
-msgstr "dialogo dos jogos em rede"
+msgstr "Dialogo dos jogos em rede"
 
 # type: Content of: <book><chapter><section><section><section><title>
 #. type: Content of: <book><chapter><section><section><section><title>
@@ -738,14 +711,6 @@ msgstr "Iniciar Sessão"
 # type: Content of: <book><chapter><section><section><section><simpara>
 #. type: Content of: <book><chapter><section><section><section><simpara>
 #: doc/manual/manual.en.xml:333
-#, fuzzy
-#| msgid ""
-#| "This will be your name on the multiplayer server. If you have an account "
-#| "on the <ulink url=\"http://www.wesnoth.org/forum\">Wesnoth forums</"
-#| "ulink>, you may use the same username and password for joining the "
-#| "official server. A password box will pop up if a password is required for "
-#| "the current username. You cannot use a registered name without the "
-#| "password."
 msgid ""
 "This will be your name on the multiplayer server. If you have an account on "
 "the <ulink url=\"https://forums.wesnoth.org/\">Wesnoth forums</ulink>, you "
@@ -754,7 +719,7 @@ msgid ""
 "You cannot use a registered name without the password."
 msgstr ""
 "Este será o teu nome no servidor. Se possuíres uma conta no <ulink url="
-"\"http://www.wesnoth.org/forum\">fórum de Wesnoth</ulink>, podes usar o teu "
+"\"https://forums.wesnoth.org/\">fórum de Wesnoth</ulink>, podes usar o teu "
 "nome de usuário e senha para aceder o servidor oficial. Uma caixa da senha "
 "irá aparecer se uma for requerida para o nome de usuário que referiste. Não "
 "podes usar um nome registado sem uma senha."
@@ -802,19 +767,14 @@ msgstr ""
 # type: Content of: <book><chapter><section><section><section><simpara>
 #. type: Content of: <book><chapter><section><section><section><simpara>
 #: doc/manual/manual.en.xml:351
-#, fuzzy
-#| msgid ""
-#| "A complete list of official and user setup servers is listed at this "
-#| "website: <ulink url=\"http://wesnoth.org/wiki/MultiplayerServers"
-#| "\">Multiplayer servers</ulink>."
 msgid ""
 "A complete list of official and user setup servers is listed at this "
 "website: <ulink url=\"https://wiki.wesnoth.org/MultiplayerServers"
 "\">Multiplayer servers</ulink>."
 msgstr ""
 "Uma lista completa dos servidores oficiais e dos usuários encontra-se nesta "
-"página: <ulink url=\"http://wesnoth.org/wiki/MultiplayerServers\">servidores "
-"remotos</ulink>."
+"página: <ulink url=\"https://wiki.wesnoth.org/MultiplayerServers"
+"\">servidores remotos</ulink>."
 
 # type: Content of: <book><chapter><section><section><section><simpara>
 #. type: Content of: <book><chapter><section><section><section><simpara>
@@ -907,7 +867,6 @@ msgstr "O ecrã de jogo"
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
 #: doc/manual/manual.en.xml:391
-#, fuzzy
 #| msgid ""
 #| "<imageobject> <imagedata fileref=\"images/game-screen-1.11.9.jpg\"/> </"
 #| "imageobject>"
@@ -915,7 +874,7 @@ msgid ""
 "<imageobject> <imagedata fileref=\"images/game-screen-1.13.11+dev.jpg\"/> </"
 "imageobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"images/game-screen-1.11.9.jpg\"/> </"
+"<imageobject> <imagedata fileref=\"images/game-screen-1.13.11+dev.jpg\"/> </"
 "imageobject>"
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject><phrase>
@@ -941,7 +900,6 @@ msgstr ""
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
 #: doc/manual/manual.en.xml:402
-#, fuzzy
 #| msgid ""
 #| "<imageobject> <imagedata fileref=\"images/top_pane-1.11.9.jpg\"/> </"
 #| "imageobject>"
@@ -949,7 +907,7 @@ msgid ""
 "<imageobject> <imagedata fileref=\"images/top_pane-1.13.11+dev.png\"/> </"
 "imageobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"images/top_pane-1.11.9.jpg\"/> </"
+"<imageobject> <imagedata fileref=\"images/top_pane-1.13.11+dev.png\"/> </"
 "imageobject>"
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject><phrase>
@@ -1021,7 +979,6 @@ msgstr "Tempo atual ou tempo restante (em jogos em rede cronometrados)"
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
 #: doc/manual/manual.en.xml:456
-#, fuzzy
 #| msgid ""
 #| "<imageobject> <imagedata fileref=\"images/right_pane-1.11.9.jpg\"/> </"
 #| "imageobject>"
@@ -1029,7 +986,7 @@ msgid ""
 "<imageobject> <imagedata fileref=\"images/right_pane-1.13.11+dev.png\"/> </"
 "imageobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"images/right_pane-1.11.9.jpg\"/> </"
+"<imageobject> <imagedata fileref=\"images/right_pane-1.13.11+dev.png\"/> </"
 "imageobject>"
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject><phrase>
@@ -1057,7 +1014,7 @@ msgid ""
 "the currently selected unit on the marked hex"
 msgstr ""
 "Posição atual (coordenadas X e Y), defesa e custo de movimento da unidade "
-"atualmente selecionada."
+"atualmente selecionada"
 
 # type: Content of: <book><chapter><section><section><orderedlist><listitem><simpara>
 #. type: Content of: <book><chapter><section><section><orderedlist><listitem><simpara>
@@ -2026,15 +1983,10 @@ msgstr ":"
 # type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
 #. type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
 #: doc/manual/manual.en.xml:1165
-#, fuzzy
-#| msgid ""
-#| "<ulink url=\"http://www.wesnoth.org/wiki/CommandMode\">Command mode</"
-#| "ulink>"
 msgid ""
 "<ulink url=\"https://wiki.wesnoth.org/CommandMode\">Command mode</ulink>"
 msgstr ""
-"<ulink url=\"http://www.wesnoth.org/wiki/CommandMode\">Modo de comando</"
-"ulink>"
+"<ulink url=\"https://wiki.wesnoth.org/CommandMode\">Modo de comando</ulink>"
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. type: Content of: <book><chapter><section><table><tgroup><tbody><row><entry>
@@ -2125,7 +2077,6 @@ msgstr "Recrutando e convocando"
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject>
 #: doc/manual/manual.en.xml:1254
-#, fuzzy
 #| msgid ""
 #| "<imageobject> <imagedata fileref=\"images/recruit-1.11.9.jpg\"/> </"
 #| "imageobject>"
@@ -2133,7 +2084,7 @@ msgid ""
 "<imageobject> <imagedata fileref=\"images/recruit-1.13.11+dev.png\"/> </"
 "imageobject>"
 msgstr ""
-"<imageobject> <imagedata fileref=\"images/recruit-1.11.9.jpg\"/> </"
+"<imageobject> <imagedata fileref=\"images/recruit-1.13.11+dev.png\"/> </"
 "imageobject>"
 
 #. type: Content of: <book><chapter><section><section><simpara><inlinemediaobject><textobject><phrase>
@@ -2794,16 +2745,12 @@ msgstr "Feroz"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: doc/manual/manual.en.xml:1650
-#, fuzzy
-#| msgid ""
-#| "Units with the Feral trait only receive 50% defense in villages "
-#| "regardless of the base terrain the village is on."
 msgid ""
 "Units with the Feral trait only receive 50% defense in villages regardless "
 "of the base terrain the village is on (Bats, Falcons)."
 msgstr ""
 "Unidades ferais só têm uma defesa de 50% em aldeias independentemente do "
-"terreno base desta."
+"terreno base desta (Morcegos e Falcões)."
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
@@ -3270,7 +3217,7 @@ msgstr ""
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #: doc/manual/manual.en.xml:1963
 msgid "Feeding"
-msgstr "canibalismo"
+msgstr "Canibalismo"
 
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #: doc/manual/manual.en.xml:1967
@@ -3331,7 +3278,7 @@ msgstr ""
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><term>
 #: doc/manual/manual.en.xml:2004
 msgid "Illuminates"
-msgstr "iluminação"
+msgstr "Iluminação"
 
 # type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
 #. type: Content of: <book><chapter><section><section><variablelist><varlistentry><listitem><simpara>
@@ -3525,7 +3472,7 @@ msgstr "bónus por morte"
 #. type: Content of: <book><chapter><section><section><table><tgroup><thead><row><entry>
 #: doc/manual/manual.en.xml:2129
 msgid "fighting bonus"
-msgstr "Bónus por combate"
+msgstr "bónus por combate"
 
 # type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
 #. type: Content of: <book><chapter><section><section><table><tgroup><tbody><row><entry>
@@ -3848,7 +3795,7 @@ msgstr "Sem esfera"
 msgid "Enemy units have no orb on the top of their energy bar"
 msgstr ""
 "Unidades inimigas não têm nenhumas esferas por cima das suas barras de "
-"energia."
+"energia"
 
 # type: Content of: <book><chapter><section><section><title>
 #. type: Content of: <book><chapter><section><section><title>
@@ -4108,7 +4055,7 @@ msgid ""
 "your chances of killing them."
 msgstr ""
 "Utilizar o melhor tipo de ataque contra unidades adversárias "
-"substancialmente aumenta as tuas hipóteses em matar-as"
+"substancialmente aumenta as tuas hipóteses em matar-as."
 
 # type: Content of: <book><chapter><section><section><title>
 #. type: Content of: <book><chapter><section><section><title>
