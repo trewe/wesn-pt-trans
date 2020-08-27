@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-ai)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-08-08 09:20 UTC\n"
+"POT-Creation-Date: 2020-08-08 09:30 UTC\n"
 "PO-Revision-Date: 2019-01-22 12:28+0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -24,9 +24,16 @@ msgstr ""
 msgid "Multiplayer_AI^Default AI (RCA)"
 msgstr "IA Padrão (RCA)"
 
+#. [ai]: id=ai_default_rca_1_14
+#: data/ai/ais/ai_default_rca_1_14.cfg:9
+#, fuzzy
+#| msgid "Multiplayer_AI^Default AI (RCA)"
+msgid "Multiplayer_AI^1.14 Default AI"
+msgstr "IA Padrão (RCA)"
+
 #
 #. [ai]: id=experimental_ai
-#: data/ai/ais/ai_generic_rush.cfg:10
+#: data/ai/ais/ai_experimental.cfg:11
 msgid "Multiplayer_AI^Experimental AI"
 msgstr "IA Experimental"
 
@@ -57,10 +64,6 @@ msgid "Multiplayer_AI^Dev AI: Default + Poisoning (Formula AI)"
 msgstr ""
 "IA em desenvolvimento: Padrão + Envenenamento (escrito em linguagem formula)"
 
-#: data/ai/lua/patrol.lua:4
-msgid "Use the Patrols Micro AI instead of patrol.lua."
-msgstr "Usar Micro IA de Patrulha em vez de patrol.lua."
-
 #
 #. [test]: id=The_Elves_Besieged
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:5
@@ -80,8 +83,8 @@ msgstr "Conrado"
 #. [side]: type=Elvish Champion, id=Galdrad
 #. [side]: type=Elvish Shyde, id=Chantal
 #: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:46
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:156
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:177
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:155
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:176
 msgid "Rebels"
 msgstr "Rebeldes"
 
@@ -93,7 +96,7 @@ msgstr "Delfador"
 
 #
 #. [side]: type=Orcish Warlord, id=Urug-Telfar
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:86
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:85
 msgid "Urug-Telfar"
 msgstr "Urug-Telfar"
 
@@ -102,40 +105,40 @@ msgstr "Urug-Telfar"
 #. [side]: type=Orcish Warlord, id=Knafa-Tan
 #. [side]: type=Orcish Warlord, id=Maga-Knafa
 #. [side]: id=Vanak, type=Orcish Ruler
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:99
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:114
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:133
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:98
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:113
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:132
 #: data/ai/micro_ais/scenarios/messenger_escort.cfg:24
 msgid "Orcs"
 msgstr "Orcs"
 
 #
 #. [side]: type=Orcish Warlord, id=Knafa-Tan
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:106
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:105
 msgid "Knafa-Tan"
 msgstr "Knafa-Tan"
 
 #
 #. [side]: type=Orcish Warlord, id=Maga-Knafa
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:125
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:124
 msgid "Maga-Knafa"
 msgstr "Maga-Knafa"
 
 #
 #. [side]: type=Elvish Champion, id=Galdrad
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:145
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:144
 msgid "Galdrad"
 msgstr "Galdrad"
 
 #
 #. [side]: type=Elvish Shyde, id=Chantal
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:163
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:162
 msgid "Chantal"
 msgstr "Chantal"
 
 #
 #. [message]: speaker=Konrad
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:214
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:213
 msgid ""
 "Master Delfador! Look, there are orcs coming from all directions! What shall "
 "we do?"
@@ -145,13 +148,13 @@ msgstr ""
 
 #
 #. [message]: speaker=Delfador
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:218
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:217
 msgid "There are too many to fight, far too many. We must escape!"
 msgstr ""
 "Existem demasiados orcs para lutar, em número excessivo. Nós temos de fugir!"
 
 #. [message]: speaker=narrator
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:224
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:223
 #, fuzzy
 #| msgid ""
 #| "This is a reenactment of scenario The Elves Besieged of the mainline "
@@ -190,20 +193,20 @@ msgstr ""
 
 #
 #. [event]
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:231
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:230
 msgid "Move Konrad here"
 msgstr "Mova Conrado para aqui"
 
 #
 #. [message]: speaker=unit
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:247
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:246
 msgid "Very well, we have made it this far! But where do we go next?"
 msgstr ""
 "Muito bem, nós conseguimos chegar até aqui! Mas para onde vamos a seguir?"
 
 #
 #. [message]: speaker=Delfador
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:252
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:251
 msgid ""
 "In HttT, we would travel north now, and try to make it to the Isle of "
 "Alduin. But for this demo campaign, we'll call it good here."
@@ -214,44 +217,44 @@ msgstr ""
 
 #
 #. [message]: speaker=unit
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:277
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:276
 msgid "I... I don’t think I can make it anymore."
 msgstr "Eu... eu não penso que consigo continuar mais..."
 
 #
 #. [message]: speaker=Delfador
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:281
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:280
 msgid "Prince... you must keep fighting! Nooooooo!"
 msgstr "Príncipe... tem de continuar a lutar! Nãooooo!"
 
 #
 #. [message]: speaker=unit
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:285
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:284
 msgid "It is over. I am doomed..."
 msgstr "Acabou, Eu estou condenado..."
 
 #
 #. [message]: speaker=unit
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:299
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:298
 msgid "I have... have failed in my duty to protect the prince! I am defeated."
 msgstr ""
 "Eu... Eu falhei na minha tarefa para proteger o príncipe! Eu fui derrotado."
 
 #
 #. [message]: speaker=Konrad
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:303
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:302
 msgid "Don’t die, Delfador! Please, you have to stay alive!"
 msgstr "Não morras, Delfador! Por favor, tens de te manter vivo!"
 
 #
 #. [message]: speaker=unit
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:307
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:306
 msgid "Ugh!"
 msgstr "Uf!"
 
 #
 #. [message]: speaker=Delfador
-#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:318
+#: data/ai/micro_ais/scenarios/The_Elves_Besieged.cfg:317
 msgid ""
 "Oh, no! We have run out of time, they have arrived with reinforcements..."
 msgstr "Oh, não! Nós não temos mais tempo, eles chegaram com reforços ..."
@@ -633,7 +636,7 @@ msgstr "Muito bem, camaradas. Precisamos de parar aqueles orcs."
 #. [message]: speaker=Big Bad Orc
 #: data/ai/micro_ais/scenarios/bottleneck_defense.cfg:93
 #: data/ai/micro_ais/scenarios/guardians.cfg:573
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:140
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:142
 msgid "They there!  We them get!"
 msgstr "Ali estão eles! Apanhamos-os!"
 
@@ -1879,7 +1882,7 @@ msgstr ""
 #
 #. [message]: speaker=narrator
 #: data/ai/micro_ais/scenarios/lurkers.cfg:474
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:151
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:153
 #: data/ai/micro_ais/scenarios/patrols.cfg:238
 #: data/ai/micro_ais/scenarios/recruiting.cfg:100
 msgid "Notes"
@@ -1984,30 +1987,30 @@ msgid "Messenger"
 msgstr "Mensageiro"
 
 #. [event]
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:123
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:125
 #, fuzzy
 #| msgid "Messenger Waypoint 2"
 msgid "Messenger Waypoint 1"
 msgstr "Ponto de patrulha do mensageiro 2"
 
 #. [event]
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:125
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:127
 msgid "Messenger Waypoint 2"
 msgstr "Ponto de patrulha do mensageiro 2"
 
 #. [event]
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:127
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:129
 msgid "Messenger Waypoint 3"
 msgstr "Ponto de patrulha do mensageiro 3"
 
 #
 #. [event]
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:130
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:132
 msgid "AI moves Messenger here"
 msgstr "O computador irá mover os mensageiros para aqui"
 
 #. [message]: speaker=messenger
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:145
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:147
 msgid ""
 "Men, I need to get to that signpost in the north, to get the message to our "
 "leader. Let's head up there as quickly as we can."
@@ -2016,7 +2019,7 @@ msgstr ""
 "mensagem ao nosso líder. Vamos para lá o mais rápido quanto possível."
 
 #. [message]: speaker=narrator
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:152
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:154
 #, fuzzy
 #| msgid ""
 #| "This is a reenactment of scenario The Elves Besieged of the mainline "
@@ -2061,30 +2064,30 @@ msgstr ""
 
 #
 #. [objective]: condition=win
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:165
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:167
 msgid "Defeat the messenger"
 msgstr "Derrota o mensageiro"
 
 #
 #. [objective]: condition=lose
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:169
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:171
 msgid "Messenger gets to the signpost"
 msgstr "O mensageiro chega ao posto de sinalização"
 
 #
 #. [objective]: condition=lose
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:173
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:175
 msgid "Death of Vanak"
 msgstr "Morte de Vanak"
 
 #
 #. [message]: speaker=messenger
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:189
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:191
 msgid "I made it!  Now our people will be safe."
 msgstr "Eu consegui! Agora o nosso povo estará a salvo."
 
 #. [message]: speaker=messenger
-#: data/ai/micro_ais/scenarios/messenger_escort.cfg:204
+#: data/ai/micro_ais/scenarios/messenger_escort.cfg:206
 msgid "Nooo!  All is lost. We will never stop the orcs now!"
 msgstr "Nãooo!  Tudo está perdido. Agora jamais derrotare-mos os orcs!"
 
@@ -2925,80 +2928,91 @@ msgstr "Uralt"
 
 #. [message]: speaker=sergeant
 #: data/ai/micro_ais/scenarios/simple_attack.cfg:125
-msgid "General Grospur, what do we do?  These undead will surely wipe us out."
+#, fuzzy
+#| msgid ""
+#| "General Grospur, what do we do?  These undead will surely wipe us out."
+msgid "General Grospur, what do we do? These undead will surely wipe us out."
 msgstr ""
 "General Grospur, o que devemos fazer?  Esses mortos-vivos vão nos matar."
 
-#
 #. [message]: speaker=Grospur
 #: data/ai/micro_ais/scenarios/simple_attack.cfg:129
 msgid ""
-"Don't be such a chicken, Sergeant!  I have placed units with lots of "
+"Don’t be such a chicken, Sergeant! I have placed units with lots of "
 "experience around the perimeter. The undead will not dare to attack them. "
 "And those few that sneak through... we can easily dispose of them once they "
-"make it inside.\n"
+"make it inside."
+msgstr ""
+
+#. [message]: speaker=sergeant
+#: data/ai/micro_ais/scenarios/simple_attack.cfg:133
+msgid ""
+"General Grospur, you’re still thinking of Wesnoth 1.12. The default AI is "
+"smarter than that now.\n"
 "\n"
-"<i>In other words, the Wesnoth AI does generally not attack units one XP "
-"from leveling if there is no chance of killing the unit with a single "
-"attack. However, some of the attacks by the undead are handled by the Simple "
-"Attack Micro AI in this scenario. General Grospur might be in for a surprise."
-"</i>"
+"<i>If you’re porting an old scenario, you may find the Simple Attack Micro "
+"AI used in a way that’s unnecessary since 1.14. The 1.12 AI generally "
+"doesn’t attack units one XP from leveling if there is no chance of killing "
+"the unit with a single attack. One way of making 1.12 do those attacks was "
+"to use the Simple Attack Micro AI.</i>"
+msgstr ""
+
+#. [message]: speaker=Uralt
+#: data/ai/micro_ais/scenarios/simple_attack.cfg:139
+msgid ""
+"Hahahahaha!! Indeed, my skeletons are smarter than General Grospur. Worse "
+"for you, I have given special instruction to my Soulless to attack all your "
+"almost-advanced units first. Also watch how those same Soulless will throw "
+"themselves mercilessly at your pitiful soldiers after that, saving my more "
+"valuable skeleton minions for later. I have taken the term ‘disposable "
+"units’ to a whole new level. Watch in awe!!\n"
+"\n"
+"<i>Translation: The undead side includes two instances of the Simple Attack "
+"Micro AI. The first makes the Soulless attack all units 1 XP from leveling "
+"up, such that they can be eliminated afterward. The second executes all "
+"remaining attacks possible by Soulless (and Walking Corpses), without regard "
+"for their own safety. Only after that does the default Wesnoth attack "
+"mechanism kick in to attack with the remaining units (skeletons), and it "
+"moves the remaining units with high caution and low aggression.</i>\n"
+"\n"
+"<i>The difference to the 1.12 version of this demo is that the 1.12 "
+"skeletons still had high aggression.</i>"
 msgstr ""
 
 #. [objectives]
-#: data/ai/micro_ais/scenarios/simple_attack.cfg:135
+#: data/ai/micro_ais/scenarios/simple_attack.cfg:147
 msgid "Watch the undead take care of business"
 msgstr "Observe os Mortos-Vivos darem cabo da situação"
 
 #. [objective]: condition=win
-#: data/ai/micro_ais/scenarios/simple_attack.cfg:137
-msgid "Don't even try. You can't reach the Lich."
+#: data/ai/micro_ais/scenarios/simple_attack.cfg:149
+#, fuzzy
+#| msgid "Don't even try. You can't reach the Lich."
+msgid "Don’t even try. You can’t reach the Lich."
 msgstr "Nem tente. Você não tem como alcançar o lich."
 
 #. [objective]: condition=lose
-#: data/ai/micro_ais/scenarios/simple_attack.cfg:141
-msgid "Death of the last of Grospur's units"
+#: data/ai/micro_ais/scenarios/simple_attack.cfg:153
+#, fuzzy
+#| msgid "Death of the last of Grospur's units"
+msgid "Death of the last of Grospur’s units"
 msgstr "Morte da última unidade de Grospur"
 
 #. [note]
-#: data/ai/micro_ais/scenarios/simple_attack.cfg:145
+#: data/ai/micro_ais/scenarios/simple_attack.cfg:157
 msgid "When your leader dies, side leadership passes on to another unit"
 msgstr "Quando o seu líder morre, a liderança passa para outra unidade"
 
-#. [message]: speaker=$second_unit.id
-#: data/ai/micro_ais/scenarios/simple_attack.cfg:172
-msgid ""
-"What the ... ?!?  They are not supposed to attack me. That just doesn't "
-"happen in Wesnoth!"
-msgstr ""
-"O que ... ?!?  Eles não deveriam me atacar. Esse não é o tipo de coisa que "
-"acontece em Wesnoth!"
-
 #. [message]: speaker=Uralt
-#: data/ai/micro_ais/scenarios/simple_attack.cfg:176
-msgid ""
-"Hahahahaha!! I have given special instruction to my Soulless to attack all "
-"your almost-advanced units first. Also watch how those same Soulless will "
-"throw themselves mercilessly at your pitiful soldiers after that, saving my "
-"more valuable skeleton minions for later. I have taken the term 'disposable "
-"units' to a whole new level. Watch in awe!!\n"
-"\n"
-"<i>Translation: The undead side includes two instances of the Simple Attack "
-"Micro AI.  The first makes the Soulless attack all units 1 XP from leveling "
-"up, such that they can be eliminated afterward.  The second executes all "
-"remaining attacks possible by Soulless (and Walking Corpses), without regard "
-"for their own safety.  Only after that does the default Wesnoth attack "
-"mechanism kick in to attack with the remaining units (skeletons).</i>"
-msgstr ""
-
-#. [message]: speaker=Uralt
-#: data/ai/micro_ais/scenarios/simple_attack.cfg:195
+#: data/ai/micro_ais/scenarios/simple_attack.cfg:188
 msgid "Rise, minions!"
 msgstr "Levantam-se, meus servos!"
 
 #. [message]: speaker=Uralt
-#: data/ai/micro_ais/scenarios/simple_attack.cfg:241
-msgid "And that's how the undead AI executes total annihilation ..."
+#: data/ai/micro_ais/scenarios/simple_attack.cfg:234
+#, fuzzy
+#| msgid "And that's how the undead AI executes total annihilation ..."
+msgid "And that’s how the undead AI executes total annihilation ..."
 msgstr "E foi assim que a AI dos Mortos-Vivos causou aniquilação total ..."
 
 #
@@ -3327,6 +3341,16 @@ msgstr "Cenáro de Teste da Lua AI (sintaxe antiga)"
 #: data/ai/scenarios/scenario-lua_ai_old_syntax.cfg:87
 msgid "Kiressh"
 msgstr "Kiressh"
+
+#~ msgid "Use the Patrols Micro AI instead of patrol.lua."
+#~ msgstr "Usar Micro IA de Patrulha em vez de patrol.lua."
+
+#~ msgid ""
+#~ "What the ... ?!?  They are not supposed to attack me. That just doesn't "
+#~ "happen in Wesnoth!"
+#~ msgstr ""
+#~ "O que ... ?!?  Eles não deveriam me atacar. Esse não é o tipo de coisa "
+#~ "que acontece em Wesnoth!"
 
 #~ msgid "Messanger Waypoint 1"
 #~ msgstr "Ponto de patrulha do mensageiro 1"
