@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-01-12 16:29 UTC\n"
-"PO-Revision-Date: 2019-11-03 16:13-0300\n"
+"POT-Creation-Date: 2021-06-20 12:00 UTC\n"
+"PO-Revision-Date: 2021-01-26 08:31-0300\n"
 "Last-Translator: Andrei Machado <andreisp.machado@yahoo.com>\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #. [campaign]: id=Liberty
 #: data/campaigns/Liberty/_main.cfg:10 data/campaigns/Liberty/_main.cfg:11
@@ -481,13 +481,13 @@ msgid "Civil Disobedience"
 msgstr "Desobediência Civil"
 
 #. [side]: type=Bandit, id=Baldras
-#. [side]: type=Highwayman_Peasant, id=Relana
-#. [side]: type=General, id=Lord Maddock
+#. [side]: type=Rogue, id=Hans
 #. [side]: type=Highwayman, id=Baldras
 #. [side]: type=Bandit_Peasant, id=Baldras
 #. [side]
 #. [side]: type=Shadow Lord, id=Helicrom
-#. [side]: type=Rogue, id=Hans
+#. [side]: type=Highwayman_Peasant, id=Relana
+#. [side]: type=General, id=Lord Maddock
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:26
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:62
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:38
@@ -510,12 +510,12 @@ msgstr "Rebeldes"
 msgid "Tarwen"
 msgstr "Tarwen"
 
-#. [side]: type=General, id=Kestrel
+#. [side]: type=Master Bowman, id=Quentin
+#. [side]
 #. [side]: type=Royal Guard, id=Archarel
 #. [side]: type=Iron Mauler, id=Linneus
 #. [side]: type=Cavalier, id=Tarwen
-#. [side]: type=Master Bowman, id=Quentin
-#. [side]
+#. [side]: type=General, id=Kestrel
 #. [side]: type=General, id=Dommel
 #: data/campaigns/Liberty/scenarios/02_Civil_Disobedience.cfg:41
 #: data/campaigns/Liberty/scenarios/04_Unlawful_Orders.cfg:80
@@ -696,11 +696,11 @@ msgstr "Relana"
 msgid "Urk Delek"
 msgstr "Urk Delek"
 
-#. [side]: type=Orcish Warrior, id=Urk Delek
-#. [side]: type=Saurian Oracle, id=Thhsthss
 #. [side]: type=Necromancer, id=Mal-Jarrof
 #. [side]: type=Necromancer, id=Mal-Jerod
 #. [side]: type=Lich, id=Sel-Mana
+#. [side]: type=Orcish Warrior, id=Urk Delek
+#. [side]: type=Saurian Oracle, id=Thhsthss
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:100
 #: data/campaigns/Liberty/scenarios/03_A_Strategy_Of_Hope.cfg:122
 #: data/campaigns/Liberty/scenarios/06_The_Grey_Woods.cfg:105
@@ -2640,7 +2640,7 @@ msgstr ""
 "Agora completamente encantados pelo poder, é comum que eles comandem "
 "pequenos grupos de capangas. Eles não são páreo em combate mágico contra "
 "outros usuários de magia preferindo, em vez disso, canalizar suas energias "
-"em devastadores ataques corpo-a-corpo. Apesar de seu poder ofensivo, a "
+"em devastadores ataques corpo a corpo. Apesar de seu poder ofensivo, a "
 "corrupção de suas almas começou a afetar negativamente sua saúde."
 
 #. [unit_type]: id=Skeleton Rider, race=undead
@@ -2855,6 +2855,35 @@ msgstr ""
 "desgraça amarga, mas conforme o julgo de Asheviere apertasse eles viveriam "
 "para ver coisas ainda piores."
 
+#~ msgid "axe"
+#~ msgstr "machado"
+
+#~ msgid "sword"
+#~ msgstr "espada"
+
+#~ msgid "short sword"
+#~ msgstr "espada curta"
+
+#~ msgid "Holy Ankh"
+#~ msgstr "Amuleto Sagrado"
+
+#~ msgid ""
+#~ "You find a hefty pendant on a strange and ominous looking altar. It glows "
+#~ "brightly when you pick it up!"
+#~ msgstr ""
+#~ "Você encontra um amuleto em um altar estranho e com aspecto ameaçador. "
+#~ "Ele brilha intensamente quando você o pega!"
+
+#~ msgid ""
+#~ "There is a strange altar here and a pendant on it. I don’t want to touch "
+#~ "it."
+#~ msgstr ""
+#~ "Tem um estranho altar, com um amuleto nele. Não estou a fim de enconstar "
+#~ "nele."
+
+#~ msgid "holy ankh"
+#~ msgstr "amuleto sagrado"
+
 #~ msgid ""
 #~ "In the Era of Turmoil, during the reign of King Garard II, the border "
 #~ "towns of Delwyn and Dallben in the province of Annuvin grew increasingly "
@@ -2893,35 +2922,6 @@ msgstr ""
 #~ "Depois de mais de uma semana de luta, o exército de Aheviere chega de "
 #~ "Weldyn. A batalha havia mesmo terminado. Todo homem da província de "
 #~ "Annuvin foi executado."
-
-#~ msgid "axe"
-#~ msgstr "machado"
-
-#~ msgid "sword"
-#~ msgstr "espada"
-
-#~ msgid "short sword"
-#~ msgstr "espada curta"
-
-#~ msgid "Holy Ankh"
-#~ msgstr "Amuleto Sagrado"
-
-#~ msgid ""
-#~ "You find a hefty pendant on a strange and ominous looking altar. It glows "
-#~ "brightly when you pick it up!"
-#~ msgstr ""
-#~ "Você encontra um amuleto em um altar estranho e com aspecto ameaçador. "
-#~ "Ele brilha intensamente quando você o pega!"
-
-#~ msgid ""
-#~ "There is a strange altar here and a pendant on it. I don’t want to touch "
-#~ "it."
-#~ msgstr ""
-#~ "Tem um estranho altar, com um amuleto nele. Não estou a fim de enconstar "
-#~ "nele."
-
-#~ msgid "holy ankh"
-#~ msgstr "amuleto sagrado"
 
 #~ msgid "(Intermediate level, 8 scenarios.)"
 #~ msgstr "(Nível intermediário, 8 cenário.)"

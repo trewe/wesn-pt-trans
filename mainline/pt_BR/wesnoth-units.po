@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2020-01-12 16:29 UTC\n"
-"PO-Revision-Date: 2019-12-21 18:34-0300\n"
+"POT-Creation-Date: 2021-06-20 12:00 UTC\n"
+"PO-Revision-Date: 2020-12-15 07:44-0300\n"
 "Last-Translator: Andrei Machado <andreisp.machado@yahoo.com>\n"
 "Language-Team: Portuguese - Brasil <gnome-l10n-br@listas.cipsga.org.br>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.2.3\n"
+"X-Generator: Poedit 2.4.2\n"
 
 #
 # File: data/core/units/monsters/Giant_Mudcrawler.cfg, line: 44
@@ -691,8 +691,8 @@ msgstr ""
 # File: data/core/units/undead/Necro_Ancient_Lich.cfg, line: 48
 # File: data/core/units/undead/Necro_Lich.cfg, line: 48
 # File: data/core/units/undead/Spirit_Ghost.cfg, line: 74
-#. [attack]: type=impact
 #. [attack]: type=arcane
+#. [attack]: type=impact
 #. [attack]: type=fire
 #. [attack]: type=cold
 #: data/campaigns/Secrets_of_the_Ancients/units/Corpse_Shynal.cfg:35
@@ -1652,6 +1652,8 @@ msgid ""
 "Compared to other drakes, Drake Arbiters have a higher resistance to "
 "‘pierce’ attacks."
 msgstr ""
+"Comparado aos outros draconatos, Draconatos árbitros são mais resistentes a "
+"ataques 'perfurantes'."
 
 #
 # File: data/core/units/drakes/Arbiter.cfg, line: 40
@@ -1666,8 +1668,8 @@ msgstr ""
 # File: data/core/units/drakes/Warden.cfg, line: 50
 # File: data/core/units/humans/Loyalist_Halberdier.cfg, line: 41
 # File: data/core/units/humans/Loyalist_Halberdier.cfg, line: 53
-#. [attack]: type=pierce
 #. [attack]: type=blade
+#. [attack]: type=pierce
 #: data/core/units/drakes/Arbiter.cfg:28 data/core/units/drakes/Arbiter.cfg:37
 #: data/core/units/drakes/Warden.cfg:29 data/core/units/drakes/Warden.cfg:38
 #: data/core/units/humans/Loyalist_Halberdier.cfg:29
@@ -2161,14 +2163,6 @@ msgstr "Draconato Celeste"
 # File: data/core/units/drakes/Sky.cfg, line: 18
 #. [unit_type]: id=Sky Drake, race=drake
 #: data/core/units/drakes/Sky.cfg:17
-#, fuzzy
-#| msgid ""
-#| "The lightweight ceramic armor that the Sky Drakes wear is a symbol of "
-#| "their rank, glazed silver to honor their connection to the air. As "
-#| "leaders of the hunt, they are often away from their homes for long "
-#| "periods of time. Each tries to bring as much game home as possible, "
-#| "competing to gain the respect of their tribe and, just possibly, time "
-#| "with one of the closely-guarded drake females."
 msgid ""
 "The lightweight ceramic armor that the Sky Drakes wear is a symbol of their "
 "rank, glazed silver to honor their connection to the air. As leaders of the "
@@ -2180,8 +2174,7 @@ msgstr ""
 "sua posição, esmaltada prata para horar sua conexão com o ar. Como líderes "
 "de caçadas, eles frequentemente passam longos períodos de tempo longo do "
 "lar. Cada um tenta trazer para casa o máximo de carne quanto possível, "
-"competindo para ganhar o respeito de sua tribo e, possivelmente, tempo a sós "
-"com uma das bem protegidas fêmeas draconatas."
+"competindo para ganhar o respeito de sua tribo."
 
 #
 # File: data/core/units/drakes/Thrasher.cfg, line: 4
@@ -2248,6 +2241,8 @@ msgid ""
 "Compared to other drakes, Drake Wardens have a higher resistance to ‘pierce’ "
 "attacks."
 msgstr ""
+"Comparado aos outros draconatos, Draconatos Guardiões são mais resistentes a "
+"ataques 'perfurantes'."
 
 #
 # File: data/core/units/drakes/Warrior.cfg, line: 4
@@ -2817,7 +2812,7 @@ msgstr "a"
 #. [unit_type]: id=Dwarvish Arcanister, race=dwarf
 #: data/core/units/dwarves/Arcanister.cfg:4
 msgid "Dwarvish Arcanister"
-msgstr "Anão arcanista"
+msgstr "Anão Arcanista"
 
 #
 # File: data/core/units/dwarves/Arcanister.cfg, line: 31
@@ -3082,7 +3077,7 @@ msgstr "Anão Trovejante"
 #. [unit_type]: id=Dwarvish Thunderguard, race=dwarf
 #: data/core/units/dwarves/Thunderguard.cfg:4
 msgid "Dwarvish Thunderguard"
-msgstr "Anão Trovejante da Guarda"
+msgstr "Anão Trovejante-Guarda"
 
 #
 # File: data/core/units/dwarves/Ulfserker.cfg, line: 4
@@ -3208,6 +3203,8 @@ msgid ""
 "Compared to other elves, Elvish Avengers have superior movement and defense "
 "on sand, shallow water, and mountains."
 msgstr ""
+"Comparado aos outros elfos, Vingadores Élficos possuem melhor movimento e "
+"defesa em desertos, água rasa e montanhas."
 
 #
 # File: data/core/units/elves/Avenger.cfg, line: 107
@@ -3689,6 +3686,8 @@ msgid ""
 "Compared to other elves, Elvish Rangers have superior movement and defense "
 "on sand, shallow water, and mountains."
 msgstr ""
+"Comparado aos outros elfos, Rangers Élficos possuem melhor movimento e "
+"defesa em desertos, água rasa e montanhas."
 
 #
 # File: data/core/units/elves/Ranger.cfg, line: 133
@@ -4450,12 +4449,6 @@ msgstr "Cavalier"
 # File: data/core/units/humans/Loyalist_Cavalier.cfg, line: 21
 #. [unit_type]: id=Cavalier, race=human
 #: data/core/units/humans/Loyalist_Cavalier.cfg:21
-#, fuzzy
-#| msgid ""
-#| "Cavaliers are masters at the use of both sword and crossbow from "
-#| "horseback. Their combination of striking power and mobility is fearsome; "
-#| "and they have a reputation for dash and aggressiveness to match it. The "
-#| "daring deeds of Cavaliers are the subject of many a tale and song."
 msgid ""
 "Cavaliers are masters at the use of both sword and crossbow from horseback. "
 "Their combination of striking power and mobility is fearsome, and they have "
@@ -4756,6 +4749,8 @@ msgid ""
 "Compared to other loyalists, Halberdiers have a higher resistance to "
 "‘pierce’ attacks."
 msgstr ""
+"Comparado aos outros lealistas, Alabardeiros são mais resistentes a ataques "
+"'perfurantes'."
 
 #
 # File: data/core/units/humans/Loyalist_Heavy_Infantryman.cfg, line: 4
@@ -5010,6 +5005,8 @@ msgid ""
 "Compared to other loyalists, Pikemen have a higher resistance to ‘pierce’ "
 "attacks."
 msgstr ""
+"Comparado aos outros lealistas, Piqueiros são mais resistentes a ataques "
+"'perfurantes'."
 
 #
 # File: data/core/units/humans/Loyalist_Pikeman.cfg, line: 44
@@ -5057,11 +5054,14 @@ msgid ""
 "Compared to other loyalists, Royal Guards have a higher resistance to "
 "‘blade’ and ‘impact’ attacks."
 msgstr ""
+"Comparado aos outros lealistas, Guardas Reais são mais resistentes a ataques "
+"'cortante' e de 'impacto'."
 
 #. [unit_type]: id=Royal Guard, race=human
 #: data/core/units/humans/Loyalist_Royal_Guard.cfg:20
 msgid "Compared to other loyalists, Royal Guards have more movepoints."
 msgstr ""
+"Comparado aos outros lealistas, Guardas Reais tem mais pontos de movimento."
 
 #
 # File: data/core/units/humans/Loyalist_Sergeant.cfg, line: 4
@@ -5184,6 +5184,8 @@ msgid ""
 "Compared to other loyalists, Swordsmen have a higher resistance to ‘blade’ "
 "and ‘impact’ attacks."
 msgstr ""
+"Comparado aos outros lealistas, Espadachins são mais resistentes a ataques "
+"'cortante' e de 'impacto'."
 
 #
 # File: data/core/units/humans/Mage.cfg, line: 4
@@ -5303,6 +5305,8 @@ msgid ""
 "Compared to other mages, Arch Mages have a higher resistance to ‘fire’ "
 "attacks."
 msgstr ""
+"Comparado aos outros magos, Arquimagos são mais resistentes a ataques do "
+"tipo 'fogo'."
 
 #
 # File: data/core/units/humans/Mage_Arch.cfg, line: 57
@@ -5400,6 +5404,8 @@ msgid ""
 "Compared to other mages, Great Mages have a higher resistance to ‘fire’ "
 "attacks."
 msgstr ""
+"Comparado aos outros magos, Grande Magos são mais resistentes a ataques do "
+"tipo 'fogo'."
 
 #
 # File: data/core/units/humans/Mage_Great.cfg, line: 100
@@ -5456,6 +5462,8 @@ msgid ""
 "Compared to other mages, Red Mages have a higher resistance to ‘fire’ "
 "attacks."
 msgstr ""
+"Comparado aos outros magos, Magos Vermelho são mais resistentes a ataques do "
+"tipo 'fogo'."
 
 #
 # File: data/core/units/humans/Mage_Red.cfg, line: 101
@@ -5576,6 +5584,8 @@ msgid ""
 "Compared to other mages, White Mages have a higher resistance to ‘arcane’ "
 "attacks."
 msgstr ""
+"Comparado aos outros magos, Magos Brancos são mais resistentes a ataques do "
+"tipo 'arcano'."
 
 #
 # File: data/core/units/humans/Mage_White.cfg, line: 108
@@ -5620,6 +5630,8 @@ msgid ""
 "Compared to other mages, Mages of Light have a higher resistance to ‘arcane’ "
 "attacks."
 msgstr ""
+"Comparado aos outros magos, Magos da Luz são mais resistentes a ataques do "
+"tipo 'arcano'."
 
 #
 # File: data/core/units/humans/Mage_of_Light.cfg, line: 112
@@ -8898,200 +8910,6 @@ msgstr ""
 "Entretanto, eles não estão acostumados e nem conseguem se mover rapidamente."
 
 #
-# File: data/core/units/drakes/Sky.cfg, line: 18
-# File: data/core/units/drakes/Sky.cfg, line: 18
-#~ msgid ""
-#~ "The lightweight ceramic armor that the Sky Drakes wear is a symbol of "
-#~ "their rank, glazed silver to honor their connection to the air. As "
-#~ "leaders of the hunt, they are often away from their homes for long "
-#~ "periods of time. Each tries to bring as much game home as possible, "
-#~ "competing to gain the respect of their tribe and, just possibly, time "
-#~ "with one of the closely-guarded drake females."
-#~ msgstr ""
-#~ "A armadura de cerâmica leve que os Draconianos Celestes usam é o símbolo "
-#~ "de sua posição, prata semi-transparente para horar sua conexão com o ar. "
-#~ "Como líderes da caçada, eles frequentemente deixam o lar por longos "
-#~ "períodos de tempo. Cada um tentando trazer para casa o máximo de coisas "
-#~ "possível, competindo para ganhar o respeito da sua tribo e, "
-#~ "possivelmente, tempo com uma das bem-guardadas fêmeas draconianas."
-
-#
-# File: data/core/units/humans/Loyalist_Cavalier.cfg, line: 21
-# File: data/core/units/humans/Loyalist_Cavalier.cfg, line: 21
-#~ msgid ""
-#~ "Cavaliers are masters at the use of both sword and crossbow from "
-#~ "horseback. Their combination of striking power and mobility is fearsome; "
-#~ "and they have a reputation for dash and aggressiveness to match it. The "
-#~ "daring deeds of Cavaliers are the subject of many a tale and song."
-#~ msgstr ""
-#~ "Uma visão triunfante no campo de batalha, a cavalaria pesada é composta "
-#~ "pelos mestres na arte de usar a espada e a besta montados num cavalo. Sua "
-#~ "potência é terrível quando combinada com sua mobilidade e tal poder se "
-#~ "tornou tema de lendas e canções."
-
-#
-# File: data/core/units/goblins/Wolf_Rider.cfg, line: 32
-# File: data/core/units/goblins/Wolf_Rider.cfg, line: 32
-#~ msgid ""
-#~ "No one is quite sure how the practice of taming and riding wolves came "
-#~ "into being, but the advantages of it for a goblin are obvious. Goblins "
-#~ "are smaller and much weaker than their orcish kin, and are often tasked "
-#~ "to the most dangerous and unwanted parts of a fight. Any who can manage "
-#~ "to win themselves a mount have a much safer, and daresay, more amusing "
-#~ "role in combat.\n"
-#~ "\n"
-#~ "Wolves, likely, could never support the weight of a man in plate, but a "
-#~ "goblin in leather armor is a simple load to bear. Quite unlike horses, "
-#~ "these mounts have a rather easy time traversing the mountains, though "
-#~ "water and woods will still slow them down."
-#~ msgstr ""
-#~ "Ninguém tem muita certeza de como começou a prática de domesticar e "
-#~ "montar lobos, mas seus benefícios para os orcs são óbvios. Os Goblins são "
-#~ "menores e muito mais fracos do que os orcs e acabam sendo empurrados para "
-#~ "as partes mais perigosas e ingratas de um combate. Assim, aqueles que de "
-#~ "alguma forma conseguirem uma montaria estarão em uma situação bem mais "
-#~ "segura, e até mesmo interessante, durante um combate.\n"
-#~ "\n"
-#~ "Os lobos, da mesma forma, nunca poderiam aguentar o peso de um homem com "
-#~ "uma armadura metálica. Mas um goblin com uma armadura de couro é uma "
-#~ "carga mais fácil de se levar. Ao contrário dos cavalos, eles atravessam "
-#~ "montanhas facilmente, embora água e florestas ainda os atrapalhem."
-
-#
-# File: data/core/units/merfolk/Entangler.cfg, line: 19
-# File: data/core/units/merfolk/Entangler.cfg, line: 19
-#, fuzzy
-#~| msgid ""
-#~| "Merfolk tend to use a combination of both nets and clubs in fishing; "
-#~| "nets to collect the fish, and clubs to finish the kill. Both of these "
-#~| "tools have seen adaptation for warfare, and are valuable enough that "
-#~| "auxilliaries who specialize in using them are deliberately brought to "
-#~| "battle.\n"
-#~| "\n"
-#~| "Mermen often find themselves in a standoff with land-based enemies; the "
-#~| "merfolk are too strong in the water, and are too weak to make any "
-#~| "offense on land. Nets are a key bit of leverage; without nets, mermen "
-#~| "can’t give any effective chase over land, and are at a great "
-#~| "disadvantage in hand-to-hand combat."
-#~ msgid ""
-#~ "Merfolk tend to use a combination of both nets and clubs in fishing; nets "
-#~ "to collect the fish, and clubs to finish the kill. Both of these tools "
-#~ "have seen adaptation for warfare, and are valuable enough that "
-#~ "auxiliaries who specialize in using them are deliberately brought to "
-#~ "battle.\n"
-#~ "\n"
-#~ "Mermen often find themselves in a standoff with land-based enemies; the "
-#~ "merfolk are too strong in the water, and are too weak to make any offense "
-#~ "on land. Nets are a key bit of leverage; without nets, mermen can’t give "
-#~ "any effective chase over land, and are at a great disadvantage in hand-to-"
-#~ "hand combat."
-#~ msgstr ""
-#~ "Os sereios tendem a usar uma combinação de redes e porretes na pesca: "
-#~ "redes para coletar os peixes e porretes para terminar de matar. Ambas "
-#~ "essas ferramentas podem ser adaptadas para a guerra, e são valiosos o "
-#~ "suficiente para auxiliar quem deliberadamente os utiliza na batalha.\n"
-#~ "\n"
-#~ "Os sereios muitas vezes se encontram em um impasse com os inimigos em "
-#~ "terra, pois são fortes demais na água e são fracos demais para fazer "
-#~ "qualquer ofensa em terra. As redes servem para equilibrar essa relação na "
-#~ "terra. Sem redes, sereios não pode fazer nenhuma perseguição efetiva na "
-#~ "terra, e estão em grande desvantagem em combates corpo a corpo."
-
-#
-# File: data/core/units/merfolk/Hunter.cfg, line: 19
-# File: data/core/units/merfolk/Hunter.cfg, line: 19
-#~ msgid ""
-#~ "The skills employed by mermen in spear-fishing are easily translated into "
-#~ "warfare, especially against those who are not at home in the water. In "
-#~ "times of need, many mermen of that occupation will volunteer to swell the "
-#~ "ranks of their military."
-#~ msgstr ""
-#~ "As habilidades empregadas pelo sereio na pesca são facilmente "
-#~ "transportadas para a guerra, especialmente contra aqueles que não estão "
-#~ "acostumados à água. Em tempos de necessidade, muitos sereios dessa "
-#~ "ocupação se voluntariam a engrossar os números de seu exército."
-
-#
-# File: data/core/units/merfolk/Javelineer.cfg, line: 19
-# File: data/core/units/merfolk/Javelineer.cfg, line: 19
-#~ msgid ""
-#~ "Those mermen who master the art of the javelin can become nearly as "
-#~ "effective as an archer — though the heft of their weapons impedes their "
-#~ "range, the impact of one is considerably greater. In the water, the "
-#~ "mobility of the mermen more than makes up for this when facing foes who "
-#~ "cannot swim."
-#~ msgstr ""
-#~ "Aqueles sereios que são mestres na arte de arremessar um arpão podem se "
-#~ "tornar tão efetivos quanto os arqueiros - embora a natureza de suas armas "
-#~ "impeçam o alcance, o impacto destes é consideravelmente maior. Na água, a "
-#~ "mobilidade do sereio dá grande vantagem frente àqueles que não podem "
-#~ "nadar."
-
-#
-# File: data/core/units/merfolk/Netcaster.cfg, line: 18
-# File: data/core/units/merfolk/Netcaster.cfg, line: 18
-#, fuzzy
-#~| msgid ""
-#~| "Fishing, as practiced by mermen, is largely a matter of chasing schools "
-#~| "of fish into waiting nets, where oar-like clubs are used to dispatch the "
-#~| "prey. The improvisation of using these against soldiers proved very "
-#~| "effective; most land-native creatures are already quite awkward when "
-#~| "waist-deep in water, and getting caught in a net can render them nearly "
-#~| "helpless.\n"
-#~| "\n"
-#~| "The effectiveness of this method led to the development of smaller, "
-#~| "weighted nets, which could be cast through the air; these were useless "
-#~| "for fishing, but were useful in both combat, and in hunting game that "
-#~| "came too close to shore. Clubs were used in combat with little or no "
-#~| "adaptation from fishing, since they were already quite deadly."
-#~ msgid ""
-#~ "Fishing, as practiced by mermen, is largely a matter of chasing schools "
-#~ "of fish into waiting nets, where oar-like clubs are used to dispatch the "
-#~ "prey. The improvisation of using these against soldiers proved very "
-#~ "effective; most land-native creatures are already quite awkward when "
-#~ "waist-deep in water, and getting caught in a net can render them nearly "
-#~ "helpless.\n"
-#~ "\n"
-#~ "The effectiveness of this method led to the development of smaller, "
-#~ "weighted nets, which could be cast through the air; these were useless "
-#~ "for fishing, but were useful both in combat and in hunting game that came "
-#~ "too close to shore. Clubs were used in combat with little or no "
-#~ "adaptation from fishing, since they were already quite deadly."
-#~ msgstr ""
-#~ "Pesca, como praticada pelos sereios, é uma questão de perseguir cardumes "
-#~ "com uma rede de pesca, onde porretes semelhantes a remos são usados para "
-#~ "afugentar as presas. A improvisação de usar isto contra inimigos se "
-#~ "provou muito efetiva. Muitas criaturas terrestres já são suficientemente "
-#~ "indefesas na água, situação que fica muito pior quando presos em uma "
-#~ "rede.\n"
-#~ "\n"
-#~ "A eficácia deste método fez com que fossem desenvolvidam redes mais leves "
-#~ "e menores, que podem ser atiradas no ar. Essas redes são inúteis para a "
-#~ "pesca, mas muito úteis no combate, e também na caça de animais que vivem "
-#~ "próximos às praias. Porretes são usados no combate com pequenas, ou "
-#~ "nenhuma, adaptações dos usados na pesca, visto que eles já são "
-#~ "suficientemente mortais."
-
-#
-# File: data/core/units/merfolk/Spearman.cfg, line: 18
-# File: data/core/units/merfolk/Spearman.cfg, line: 18
-#~ msgid ""
-#~ "Archery is little favored by the mermen, for whom use of javelins serves "
-#~ "a similar function. Though thrown javelins are of little use under the "
-#~ "water, they are extremely effective at the surface, where their weight "
-#~ "allows them to plunge several feet below the water while retaining enough "
-#~ "momentum to wreak damage. They are also useful in melee, even deep under "
-#~ "the surface, which is something that certainly cannot be said of arrows."
-#~ msgstr ""
-#~ "A arte do arco e da flecha é pouco valorizada entre as sereias, para quem "
-#~ "os arpões servem ao mesmo propósito. Apesar de arpões serem pouco úteis "
-#~ "se arremessados de dentro d'água, eles são muito eficazes na sua "
-#~ "superfície, onde seu peso permite que afundem rapidamente enquanto dura o "
-#~ "momento suficiente para causar ferimentos. Eles também são úteis em "
-#~ "combate fechado, mesmo nas profundezas do oceano, o que certamente não "
-#~ "pode ser dito das flechas."
-
-#
 # File: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Masked_Sentinel.cfg, line: 19
 # File: data/core/units/dwarves/Sentinel.cfg, line: 19
 # File: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Masked_Sentinel.cfg, line: 19
@@ -9586,6 +9404,200 @@ msgstr ""
 #~ "Pé-Grandes são humanóides gigantes que vivem nas montanhas. Poucos "
 #~ "sobreviveram a um encontro com um desses e muitos duvidam de sua "
 #~ "existência."
+
+#
+# File: data/core/units/drakes/Sky.cfg, line: 18
+# File: data/core/units/drakes/Sky.cfg, line: 18
+#~ msgid ""
+#~ "The lightweight ceramic armor that the Sky Drakes wear is a symbol of "
+#~ "their rank, glazed silver to honor their connection to the air. As "
+#~ "leaders of the hunt, they are often away from their homes for long "
+#~ "periods of time. Each tries to bring as much game home as possible, "
+#~ "competing to gain the respect of their tribe and, just possibly, time "
+#~ "with one of the closely-guarded drake females."
+#~ msgstr ""
+#~ "A armadura de cerâmica leve que os Draconianos Celestes usam é o símbolo "
+#~ "de sua posição, prata semi-transparente para horar sua conexão com o ar. "
+#~ "Como líderes da caçada, eles frequentemente deixam o lar por longos "
+#~ "períodos de tempo. Cada um tentando trazer para casa o máximo de coisas "
+#~ "possível, competindo para ganhar o respeito da sua tribo e, "
+#~ "possivelmente, tempo com uma das bem-guardadas fêmeas draconianas."
+
+#
+# File: data/core/units/humans/Loyalist_Cavalier.cfg, line: 21
+# File: data/core/units/humans/Loyalist_Cavalier.cfg, line: 21
+#~ msgid ""
+#~ "Cavaliers are masters at the use of both sword and crossbow from "
+#~ "horseback. Their combination of striking power and mobility is fearsome; "
+#~ "and they have a reputation for dash and aggressiveness to match it. The "
+#~ "daring deeds of Cavaliers are the subject of many a tale and song."
+#~ msgstr ""
+#~ "Uma visão triunfante no campo de batalha, a cavalaria pesada é composta "
+#~ "pelos mestres na arte de usar a espada e a besta montados num cavalo. Sua "
+#~ "potência é terrível quando combinada com sua mobilidade e tal poder se "
+#~ "tornou tema de lendas e canções."
+
+#
+# File: data/core/units/goblins/Wolf_Rider.cfg, line: 32
+# File: data/core/units/goblins/Wolf_Rider.cfg, line: 32
+#~ msgid ""
+#~ "No one is quite sure how the practice of taming and riding wolves came "
+#~ "into being, but the advantages of it for a goblin are obvious. Goblins "
+#~ "are smaller and much weaker than their orcish kin, and are often tasked "
+#~ "to the most dangerous and unwanted parts of a fight. Any who can manage "
+#~ "to win themselves a mount have a much safer, and daresay, more amusing "
+#~ "role in combat.\n"
+#~ "\n"
+#~ "Wolves, likely, could never support the weight of a man in plate, but a "
+#~ "goblin in leather armor is a simple load to bear. Quite unlike horses, "
+#~ "these mounts have a rather easy time traversing the mountains, though "
+#~ "water and woods will still slow them down."
+#~ msgstr ""
+#~ "Ninguém tem muita certeza de como começou a prática de domesticar e "
+#~ "montar lobos, mas seus benefícios para os orcs são óbvios. Os Goblins são "
+#~ "menores e muito mais fracos do que os orcs e acabam sendo empurrados para "
+#~ "as partes mais perigosas e ingratas de um combate. Assim, aqueles que de "
+#~ "alguma forma conseguirem uma montaria estarão em uma situação bem mais "
+#~ "segura, e até mesmo interessante, durante um combate.\n"
+#~ "\n"
+#~ "Os lobos, da mesma forma, nunca poderiam aguentar o peso de um homem com "
+#~ "uma armadura metálica. Mas um goblin com uma armadura de couro é uma "
+#~ "carga mais fácil de se levar. Ao contrário dos cavalos, eles atravessam "
+#~ "montanhas facilmente, embora água e florestas ainda os atrapalhem."
+
+#
+# File: data/core/units/merfolk/Entangler.cfg, line: 19
+# File: data/core/units/merfolk/Entangler.cfg, line: 19
+#, fuzzy
+#~| msgid ""
+#~| "Merfolk tend to use a combination of both nets and clubs in fishing; "
+#~| "nets to collect the fish, and clubs to finish the kill. Both of these "
+#~| "tools have seen adaptation for warfare, and are valuable enough that "
+#~| "auxilliaries who specialize in using them are deliberately brought to "
+#~| "battle.\n"
+#~| "\n"
+#~| "Mermen often find themselves in a standoff with land-based enemies; the "
+#~| "merfolk are too strong in the water, and are too weak to make any "
+#~| "offense on land. Nets are a key bit of leverage; without nets, mermen "
+#~| "can’t give any effective chase over land, and are at a great "
+#~| "disadvantage in hand-to-hand combat."
+#~ msgid ""
+#~ "Merfolk tend to use a combination of both nets and clubs in fishing; nets "
+#~ "to collect the fish, and clubs to finish the kill. Both of these tools "
+#~ "have seen adaptation for warfare, and are valuable enough that "
+#~ "auxiliaries who specialize in using them are deliberately brought to "
+#~ "battle.\n"
+#~ "\n"
+#~ "Mermen often find themselves in a standoff with land-based enemies; the "
+#~ "merfolk are too strong in the water, and are too weak to make any offense "
+#~ "on land. Nets are a key bit of leverage; without nets, mermen can’t give "
+#~ "any effective chase over land, and are at a great disadvantage in hand-to-"
+#~ "hand combat."
+#~ msgstr ""
+#~ "Os sereios tendem a usar uma combinação de redes e porretes na pesca: "
+#~ "redes para coletar os peixes e porretes para terminar de matar. Ambas "
+#~ "essas ferramentas podem ser adaptadas para a guerra, e são valiosos o "
+#~ "suficiente para auxiliar quem deliberadamente os utiliza na batalha.\n"
+#~ "\n"
+#~ "Os sereios muitas vezes se encontram em um impasse com os inimigos em "
+#~ "terra, pois são fortes demais na água e são fracos demais para fazer "
+#~ "qualquer ofensa em terra. As redes servem para equilibrar essa relação na "
+#~ "terra. Sem redes, sereios não pode fazer nenhuma perseguição efetiva na "
+#~ "terra, e estão em grande desvantagem em combates corpo a corpo."
+
+#
+# File: data/core/units/merfolk/Hunter.cfg, line: 19
+# File: data/core/units/merfolk/Hunter.cfg, line: 19
+#~ msgid ""
+#~ "The skills employed by mermen in spear-fishing are easily translated into "
+#~ "warfare, especially against those who are not at home in the water. In "
+#~ "times of need, many mermen of that occupation will volunteer to swell the "
+#~ "ranks of their military."
+#~ msgstr ""
+#~ "As habilidades empregadas pelo sereio na pesca são facilmente "
+#~ "transportadas para a guerra, especialmente contra aqueles que não estão "
+#~ "acostumados à água. Em tempos de necessidade, muitos sereios dessa "
+#~ "ocupação se voluntariam a engrossar os números de seu exército."
+
+#
+# File: data/core/units/merfolk/Javelineer.cfg, line: 19
+# File: data/core/units/merfolk/Javelineer.cfg, line: 19
+#~ msgid ""
+#~ "Those mermen who master the art of the javelin can become nearly as "
+#~ "effective as an archer — though the heft of their weapons impedes their "
+#~ "range, the impact of one is considerably greater. In the water, the "
+#~ "mobility of the mermen more than makes up for this when facing foes who "
+#~ "cannot swim."
+#~ msgstr ""
+#~ "Aqueles sereios que são mestres na arte de arremessar um arpão podem se "
+#~ "tornar tão efetivos quanto os arqueiros - embora a natureza de suas armas "
+#~ "impeçam o alcance, o impacto destes é consideravelmente maior. Na água, a "
+#~ "mobilidade do sereio dá grande vantagem frente àqueles que não podem "
+#~ "nadar."
+
+#
+# File: data/core/units/merfolk/Netcaster.cfg, line: 18
+# File: data/core/units/merfolk/Netcaster.cfg, line: 18
+#, fuzzy
+#~| msgid ""
+#~| "Fishing, as practiced by mermen, is largely a matter of chasing schools "
+#~| "of fish into waiting nets, where oar-like clubs are used to dispatch the "
+#~| "prey. The improvisation of using these against soldiers proved very "
+#~| "effective; most land-native creatures are already quite awkward when "
+#~| "waist-deep in water, and getting caught in a net can render them nearly "
+#~| "helpless.\n"
+#~| "\n"
+#~| "The effectiveness of this method led to the development of smaller, "
+#~| "weighted nets, which could be cast through the air; these were useless "
+#~| "for fishing, but were useful in both combat, and in hunting game that "
+#~| "came too close to shore. Clubs were used in combat with little or no "
+#~| "adaptation from fishing, since they were already quite deadly."
+#~ msgid ""
+#~ "Fishing, as practiced by mermen, is largely a matter of chasing schools "
+#~ "of fish into waiting nets, where oar-like clubs are used to dispatch the "
+#~ "prey. The improvisation of using these against soldiers proved very "
+#~ "effective; most land-native creatures are already quite awkward when "
+#~ "waist-deep in water, and getting caught in a net can render them nearly "
+#~ "helpless.\n"
+#~ "\n"
+#~ "The effectiveness of this method led to the development of smaller, "
+#~ "weighted nets, which could be cast through the air; these were useless "
+#~ "for fishing, but were useful both in combat and in hunting game that came "
+#~ "too close to shore. Clubs were used in combat with little or no "
+#~ "adaptation from fishing, since they were already quite deadly."
+#~ msgstr ""
+#~ "Pesca, como praticada pelos sereios, é uma questão de perseguir cardumes "
+#~ "com uma rede de pesca, onde porretes semelhantes a remos são usados para "
+#~ "afugentar as presas. A improvisação de usar isto contra inimigos se "
+#~ "provou muito efetiva. Muitas criaturas terrestres já são suficientemente "
+#~ "indefesas na água, situação que fica muito pior quando presos em uma "
+#~ "rede.\n"
+#~ "\n"
+#~ "A eficácia deste método fez com que fossem desenvolvidam redes mais leves "
+#~ "e menores, que podem ser atiradas no ar. Essas redes são inúteis para a "
+#~ "pesca, mas muito úteis no combate, e também na caça de animais que vivem "
+#~ "próximos às praias. Porretes são usados no combate com pequenas, ou "
+#~ "nenhuma, adaptações dos usados na pesca, visto que eles já são "
+#~ "suficientemente mortais."
+
+#
+# File: data/core/units/merfolk/Spearman.cfg, line: 18
+# File: data/core/units/merfolk/Spearman.cfg, line: 18
+#~ msgid ""
+#~ "Archery is little favored by the mermen, for whom use of javelins serves "
+#~ "a similar function. Though thrown javelins are of little use under the "
+#~ "water, they are extremely effective at the surface, where their weight "
+#~ "allows them to plunge several feet below the water while retaining enough "
+#~ "momentum to wreak damage. They are also useful in melee, even deep under "
+#~ "the surface, which is something that certainly cannot be said of arrows."
+#~ msgstr ""
+#~ "A arte do arco e da flecha é pouco valorizada entre as sereias, para quem "
+#~ "os arpões servem ao mesmo propósito. Apesar de arpões serem pouco úteis "
+#~ "se arremessados de dentro d'água, eles são muito eficazes na sua "
+#~ "superfície, onde seu peso permite que afundem rapidamente enquanto dura o "
+#~ "momento suficiente para causar ferimentos. Eles também são úteis em "
+#~ "combate fechado, mesmo nas profundezas do oceano, o que certamente não "
+#~ "pode ser dito das flechas."
 
 #~ msgid "Khalid"
 #~ msgstr "Califa"
