@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-editor)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2021-02-20 18:40-0300\n"
-"PO-Revision-Date: 2020-02-14 16:35+0000\n"
+"PO-Revision-Date: 2021-08-31 09:57+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 3.0\n"
 "Country: PORTUGAL\n"
 
 #. [brush]: id=brush-1
@@ -553,35 +553,31 @@ msgid "Delete"
 msgstr "Eliminar"
 
 #: src/editor/palette/terrain_palettes.cpp:231
-#, fuzzy
-#| msgid "Left click"
 msgid "Left-click: "
-msgstr "Clique Esquerdo"
+msgstr "Clique Esquerdo: "
 
 #: src/editor/palette/terrain_palettes.cpp:232
-#, fuzzy
-#| msgid "Right click"
 msgid "Right-click: "
-msgstr "Clique Direito"
+msgstr "Clique Direito: "
 
 #. TRANSLATORS: Similar behavior applies to shift + right-click. This message specifies left-click
 #. because the logic of whether to show the "overlay only" or "base only" version depends on the
 #. terrain currently selected for the left button.
 #: src/editor/palette/terrain_palettes.cpp:237
 msgid "Shift + left-click: paint overlay layer only"
-msgstr ""
+msgstr "Shift + botão esquerdo para usar a sobreposição"
 
 #: src/editor/palette/terrain_palettes.cpp:239
 msgid "Shift + left-click: paint base layer only"
-msgstr ""
+msgstr "Shift +botão esquerdo para escolher a base"
 
 #: src/editor/palette/terrain_palettes.cpp:242
 msgid "Cmd + click: copy terrain"
-msgstr ""
+msgstr "Cmd +  botão direito para copiar o terreno"
 
 #: src/editor/palette/terrain_palettes.cpp:244
 msgid "Ctrl + click: copy terrain"
-msgstr ""
+msgstr "Ctrl + botão direito para copiar o terreno"
 
 #: src/gui/dialogs/editor/custom_tod.cpp:92
 msgid "Clipboard support not found, contact your packager"
