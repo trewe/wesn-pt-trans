@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-units)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-06-23 15:42 UTC\n"
+"POT-Creation-Date: 2021-11-09 00:45 UTC\n"
 "PO-Revision-Date: 2021-08-31 20:59+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -65,6 +65,9 @@ msgstr "tinta"
 #: data/campaigns/Dead_Water/units/Young_King.cfg:26
 #: data/campaigns/The_South_Guard/units/Horseman_Commander.cfg:41
 #: data/campaigns/The_South_Guard/units/Mounted_General.cfg:42
+#: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Guardians.cfg:14
+#: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Guardians.cfg:34
+#: data/campaigns/Under_the_Burning_Suns/units/nagas/Naga_Guardians.cfg:53
 #: data/core/units/dunefolk/Alchemist.cfg:35
 #: data/core/units/dunefolk/Apothecary.cfg:36
 #: data/core/units/dunefolk/Cataphract.cfg:43
@@ -75,8 +78,8 @@ msgstr "tinta"
 #: data/core/units/dunefolk/Sunderer.cfg:32
 #: data/core/units/dunefolk/Windbolt.cfg:32
 #: data/core/units/humans/Loyalist_Heavy_Infantryman.cfg:23
-#: data/core/units/nagas/Guard.cfg:27 data/core/units/nagas/Guard_High.cfg:29
-#: data/core/units/nagas/Guard_Shield.cfg:27
+#: data/core/units/nagas/Guard.cfg:27 data/core/units/nagas/Guard_High.cfg:37
+#: data/core/units/nagas/Guard_Shield.cfg:35
 msgid "mace"
 msgstr "maça"
 
@@ -358,6 +361,7 @@ msgstr "sabre"
 
 #
 #. [unit_type]: id=Walking Corpse, race=undead
+#. [unit_type]: id=Walking Corpse Shynal, race=undead
 #. [unit_type]: id=SotA Walking Corpse_Human
 #. [unit_type]: id=SotA Walking Corpse_Dwarf
 #. [unit_type]: id=SotA Walking Corpse_Goblin
@@ -369,7 +373,6 @@ msgstr "sabre"
 #. [unit_type]: id=SotA Walking Corpse_Wolf Rider
 #. [unit_type]: id=SotA Walking Corpse_Spider
 #. [unit_type]: id=SotA Walking Corpse_Rat
-#. [unit_type]: id=Walking Corpse Shynal, race=undead
 #: data/campaigns/Secrets_of_the_Ancients/units/Corpse_Shynal.cfg:4
 #: data/campaigns/Secrets_of_the_Ancients/units/SotA_Corpses.cfg:110
 #: data/campaigns/Secrets_of_the_Ancients/units/SotA_Corpses.cfg:125
@@ -422,8 +425,8 @@ msgstr ""
 #. [unit_type]: id=SotA Soulless_Troll
 #. [unit_type]: id=SotA Soulless_Wose
 #. [unit_type]: id=SotA Soulless_Wolf Rider
-#. [attack]: type=cold
 #. [attack]: type=fire
+#. [attack]: type=cold
 #: data/campaigns/Secrets_of_the_Ancients/units/Corpse_Shynal.cfg:35
 #: data/campaigns/Secrets_of_the_Ancients/units/Necro_Ancient_Lich.cfg:32
 #: data/campaigns/Secrets_of_the_Ancients/units/SotA_Corpses.cfg:113
@@ -547,8 +550,8 @@ msgstr "presas"
 
 #
 #. [attack]: type=blade
-#. [attack]: type=cold
 #. [attack]: type=pierce
+#. [attack]: type=cold
 #. [variation]
 #. [unit_type]: id=SotA Walking Corpse_Rat
 #. [unit_type]: id=SotA Soulless_Rat
@@ -1241,8 +1244,8 @@ msgstr "garras de batalha"
 #: data/core/units/drakes/Inferno.cfg:40 data/core/units/drakes/Sky.cfg:59
 #: data/core/units/drakes/Warrior.cfg:34
 #: data/core/units/monsters/Fire_Dragon.cfg:50
-#: data/core/units/monsters/Fire_Guardian.cfg:37
-#: data/core/units/monsters/Fire_Wraith.cfg:59
+#: data/core/units/monsters/Fire_Guardian.cfg:58
+#: data/core/units/monsters/Fire_Wraith.cfg:67
 msgid "fire breath"
 msgstr "sopro de fogo"
 
@@ -5788,8 +5791,8 @@ msgstr ""
 
 #
 #. [attack]: type=fire
-#: data/core/units/monsters/Fire_Guardian.cfg:28
-#: data/core/units/monsters/Fire_Wraith.cfg:50
+#: data/core/units/monsters/Fire_Guardian.cfg:49
+#: data/core/units/monsters/Fire_Wraith.cfg:58
 msgid "fire claws"
 msgstr "garras de fogo"
 
@@ -5801,7 +5804,7 @@ msgstr "Guardião do Fogo"
 
 #
 #. [unit_type]: id=Fire Wraith, race=monster
-#: data/core/units/monsters/Fire_Wraith.cfg:47
+#: data/core/units/monsters/Fire_Wraith.cfg:55
 msgid ""
 "Fire Wraiths are spirits of smoke and flame. No one is exactly sure where "
 "they come from, but they are occasionally summoned by powerful mages to do "
@@ -6021,7 +6024,7 @@ msgstr "Cavalo Louro"
 #: data/core/units/monsters/Horse.cfg:19
 msgid ""
 "Bay horses are defined more by their coloration than their size or "
-"temperament, and can be found anywhere from the battlefield to the farm to "
+"temperment, and can be found anywhere from the battlefield to the farm to "
 "the wild plains and woodlands. Though an unencumbered horse will tend to "
 "flee if possible, they will fight back with a powerful kick when cornered."
 msgstr ""
@@ -6413,9 +6416,9 @@ msgid "Wolf"
 msgstr "Lobo"
 
 #
-#. [unit_type]: id=Great Wolf, race=wolf
 #. [unit_type]: id=Wolf, race=wolf
 #. [unit_type]: id=Direwolf, race=wolf
+#. [unit_type]: id=Great Wolf, race=wolf
 #: data/core/units/monsters/Wolf.cfg:34
 #: data/core/units/monsters/Wolf_Dire.cfg:19
 #: data/core/units/monsters/Wolf_Great.cfg:19
@@ -6492,7 +6495,7 @@ msgstr ""
 
 #
 #. [female]
-#: data/core/units/nagas/Dirkfang.cfg:94
+#: data/core/units/nagas/Dirkfang.cfg:93
 msgid "Nagini Dirkfang"
 msgstr "Assassina Nagini"
 
@@ -6552,7 +6555,7 @@ msgstr "Alto Guarda Naga"
 #: data/core/units/nagas/Guard_High.cfg:23
 msgid ""
 "The elite naga guards are a rigid barrier to any invaders of a naga "
-"stronghold. They have powerful strikes and, like the lesser Shield Guard, "
+"stronghold. They have powerful stikes and, like the lesser Shield Guard, "
 "they are difficult to dislodge from their posts because of effective use of "
 "a shield in melee techniques. This tactic does nothing against ranged "
 "attacks, but the nagas can usually seek better terrain advantage in such "
@@ -6560,8 +6563,8 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=impact
-#: data/core/units/nagas/Guard_High.cfg:37
-#: data/core/units/nagas/Guard_Shield.cfg:35
+#: data/core/units/nagas/Guard_High.cfg:45
+#: data/core/units/nagas/Guard_Shield.cfg:43
 msgid "shield"
 msgstr "escudo"
 
@@ -6652,13 +6655,13 @@ msgid "curved blade"
 msgstr "lâmina curvada"
 
 #. [attack]: type=pierce
-#: data/core/units/nagas/Ophidian.cfg:36 data/core/units/nagas/Sicarius.cfg:40
+#: data/core/units/nagas/Ophidian.cfg:36 data/core/units/nagas/Sicarius.cfg:41
 msgid "jarid"
 msgstr "frasco"
 
 #
 #. [female]
-#: data/core/units/nagas/Ophidian.cfg:87
+#: data/core/units/nagas/Ophidian.cfg:91
 msgid "Nagini Ophidian"
 msgstr "Nagini Olímpica"
 
@@ -6672,7 +6675,7 @@ msgid "Naga Ringcaster"
 msgstr "Anilhador Naga"
 
 #. [unit_type]: id=Naga Ringcaster, race=naga
-#: data/core/units/nagas/Ringcaster.cfg:17
+#: data/core/units/nagas/Ringcaster.cfg:18
 msgid ""
 "The chakram, a greater blade ring than the chakri, is the signature weapon "
 "of the southern Naga and their renowned Ringcasters. Well balanced chakrams "
@@ -6681,15 +6684,15 @@ msgid ""
 msgstr ""
 
 #. [attack]: type=blade
-#: data/core/units/nagas/Ringcaster.cfg:33
-#: data/core/units/nagas/Ringcaster.cfg:42 data/core/units/nagas/Zephyr.cfg:50
-#: data/core/units/nagas/Zephyr.cfg:59
+#: data/core/units/nagas/Ringcaster.cfg:34
+#: data/core/units/nagas/Ringcaster.cfg:43 data/core/units/nagas/Zephyr.cfg:51
+#: data/core/units/nagas/Zephyr.cfg:60
 msgid "chakram"
 msgstr "chacram"
 
 #
 #. [female]
-#: data/core/units/nagas/Ringcaster.cfg:93
+#: data/core/units/nagas/Ringcaster.cfg:104
 msgid "Nagini Ringcaster"
 msgstr "Anilhadora Nagini"
 
@@ -6720,7 +6723,7 @@ msgstr ""
 
 #
 #. [female]
-#: data/core/units/nagas/Sicarius.cfg:91
+#: data/core/units/nagas/Sicarius.cfg:95
 #, fuzzy
 msgid "Nagini Sicarius"
 msgstr "Sicária Nagini"
@@ -6779,7 +6782,7 @@ msgid "Naga Zephyr"
 msgstr "Zéfiro Naga"
 
 #. [unit_type]: id=Naga Zephyr, race=naga
-#: data/core/units/nagas/Zephyr.cfg:18
+#: data/core/units/nagas/Zephyr.cfg:19
 msgid ""
 "The Southern Naga commonly recount a curious story about the Wind Spirit, "
 "Zefra and the aetherial chakram:\n"
@@ -6822,7 +6825,7 @@ msgstr ""
 
 #
 #. [female]
-#: data/core/units/nagas/Zephyr.cfg:110
+#: data/core/units/nagas/Zephyr.cfg:111
 msgid "Nagini Zephyr"
 msgstr "Zéfiro Nagini"
 

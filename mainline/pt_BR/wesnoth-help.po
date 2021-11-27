@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-06-23 11:42-0400\n"
-"PO-Revision-Date: 2021-01-15 08:49-0300\n"
+"POT-Creation-Date: 2021-11-09 03:44+0300\n"
+"PO-Revision-Date: 2021-11-04 11:13-0300\n"
 "Last-Translator: Andrei Machado <andreisp.machado@yahoo.com>\n"
 "Language-Team: Portuguese - Brasil\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.4.3\n"
 
 #
 # File: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg, line: 529
@@ -28,7 +28,7 @@ msgstr ""
 # File: data/core/macros/schedules.cfg, line: 78
 #. [time]: id=underground
 #. [editor_times]: id=underground
-#: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg:495
+#: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg:496
 #: data/core/editor/time-of-day.cfg:41 data/core/macros/schedules.cfg:113
 msgid "Underground"
 msgstr "Subsolo"
@@ -95,10 +95,8 @@ msgstr ""
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:22
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:61
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:91
-#, fuzzy
-#| msgid "This unit is capable of basic healing."
 msgid "This unit is capable of basic healing and slowing dehydration."
-msgstr "Esta unidade é capaz de curar."
+msgstr "Esta unidade é capaz de curar e previnir desidratação."
 
 #
 # File: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg, line: 44
@@ -212,16 +210,12 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 20
 #. [heals]
 #: data/campaigns/Under_the_Burning_Suns/utils/abilities.cfg:97
-#, fuzzy
-#| msgid ""
-#| "This unit is capable of healing those around it, and curing them of "
-#| "poison."
 msgid ""
 "This unit is capable of healing those around it, slowing dehydration, and "
 "curing them of poison."
 msgstr ""
-"Esta unidade é capaz de curar aqueles ao seu redor, e também de remover "
-"envenenamento."
+"Esta unidade é capaz de curar aqueles ao seu redor, previnir desidratação, e "
+"também de remover envenenamento."
 
 #
 # File: data/core/macros/traits.cfg, line: 172
@@ -312,7 +306,7 @@ msgstr "curar"
 # File: src/help.cpp, line: 1607
 # File: src/help.cpp, line: 1607
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:35
-#: src/help/help_topic_generators.cpp:701
+#: src/help/help_topic_generators.cpp:702
 msgid "Defense"
 msgstr "Defesa"
 
@@ -515,7 +509,6 @@ msgstr "caçador noturno"
 #. [plague]: id=plague, type=Walking Corpse
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:98
 #: data/core/macros/abilities.cfg:430 data/core/macros/abilities.cfg:441
-#: data/scenario-test.cfg:407
 msgid "plague"
 msgstr "praga"
 
@@ -544,7 +537,7 @@ msgstr "regeneração"
 # File: src/help.cpp, line: 1567
 # File: src/help.cpp, line: 1567
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:107
-#: src/help/help_topic_generators.cpp:662
+#: src/help/help_topic_generators.cpp:663
 msgid "Resistances"
 msgstr "Resistências"
 
@@ -581,9 +574,8 @@ msgstr "lentidão"
 # File: data/core/macros/abilities.cfg, line: 94
 # File: data/core/macros/abilities.cfg, line: 94
 #. [resistance]: id=steadfast
-#. [resistance]: id=melee_steadfast
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:119
-#: data/core/macros/abilities.cfg:130 data/scenario-test.cfg:367
+#: data/core/macros/abilities.cfg:130
 msgid "steadfast"
 msgstr "posição defensiva"
 
@@ -592,7 +584,7 @@ msgstr "posição defensiva"
 # File: src/help.cpp, line: 1519
 # File: src/help.cpp, line: 1519
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:122
-#: src/help/help_topic_generators.cpp:581
+#: src/help/help_topic_generators.cpp:582
 msgid "Strikes"
 msgstr "Golpes"
 
@@ -857,7 +849,7 @@ msgstr ""
 #. [topic]: id=editor_tool_label
 #: data/core/editor/help.cfg:129
 msgid "Label Tool"
-msgstr "Ferramenta de Etiquetas"
+msgstr "Ferramenta de Rótulos"
 
 #. [topic]: id=editor_tool_label
 #: data/core/editor/help.cfg:130
@@ -872,11 +864,20 @@ msgid ""
 "This tool is only available in Scenario Mode; the decorations are "
 "implemented in the scenario using WML’s <italic>text='[label]'</italic> tag."
 msgstr ""
+"Coloca rótulos de texto no mapa.\n"
+"\n"
+"• Botão esquerdo abrirá uma caixa de diálogo para criar um novo rótulo ou "
+"editar um rótulo já existente.\n"
+"• Botão direito deleta.\n"
+"• Arraste e solte com o botão esquerdo para mover os rótulos.\n"
+"\n"
+"Esta ferramenta só está disponível no Modo de Cenário; as decorações são "
+"implementadas no cenário usando a tag WML <italic>text='[label]'</italic>."
 
 #. [topic]: id=editor_tool_scenery
 #: data/core/editor/help.cfg:145
 msgid "Item Tool (Scenery Tool)"
-msgstr ""
+msgstr "Ferramenta de Itens (Ferramenta de Decoração)"
 
 #. [topic]: id=editor_tool_scenery
 #: data/core/editor/help.cfg:146
@@ -940,6 +941,7 @@ msgstr "Áreas Nomeadas"
 
 #. [topic]: id=editor_named_area
 #: data/core/editor/help.cfg:191
+#, fuzzy
 msgid ""
 "This tool create sets of tiles that can be used in WML scripts’ Standard "
 "Location Filters (a concept explained in detail on the Wiki), by using the "
@@ -963,7 +965,7 @@ msgid ""
 "<italic>text='[time_area]'</italic> tags to the scenario. Although the tag’s "
 "name implies time, it is now more generic and can be used for other purposes "
 "without needing to change the time-of-day schedule in the area."
-msgstr ""
+msgstr "Cronograma do dia na área"
 
 #. [topic]: id=editor_playlist
 #: data/core/editor/help.cfg:212
@@ -1115,7 +1117,7 @@ msgstr ""
 #. [topic]: id=editor_separate_events_file
 #: data/core/editor/help.cfg:297
 msgid "Using a separate file for WML events"
-msgstr ""
+msgstr "Usando um arquivo separado para eventos WML"
 
 #. [topic]: id=editor_separate_events_file
 #: data/core/editor/help.cfg:298
@@ -1187,10 +1189,8 @@ msgstr ""
 #. [topic]: id=editor_time_schedule
 #. Time of Day and Schedule Editor, please use a short string as it will be used in the left-hand pane of the help browser
 #: data/core/editor/help.cfg:345
-#, fuzzy
-#| msgid "Time Schedule Editor"
 msgid "ToD and Schedule Editor"
-msgstr "Editor de Período do Dia"
+msgstr "Editor de Período do Dia e Cronograma"
 
 #. [topic]: id=editor_time_schedule
 #: data/core/editor/help.cfg:346
@@ -1343,8 +1343,8 @@ msgstr ""
 # File: data/core/macros/schedules.cfg, line: 90
 # File: data/core/macros/schedules.cfg, line: 90
 # File: data/core/macros/schedules.cfg, line: 90
-#. [time]: id=deep_underground
 #. [editor_times]: id=deep_underground
+#. [time]: id=deep_underground
 #: data/core/editor/time-of-day.cfg:47 data/core/macros/schedules.cfg:127
 msgid "Deep Underground"
 msgstr "Subsolo Profundo"
@@ -1353,8 +1353,8 @@ msgstr "Subsolo Profundo"
 # File: data/core/macros/schedules.cfg, line: 70
 # File: data/core/macros/schedules.cfg, line: 70
 # File: data/core/macros/schedules.cfg, line: 70
-#. [time]: id=indoors
 #. [editor_times]: id=indoors
+#. [time]: id=indoors
 #: data/core/editor/time-of-day.cfg:53 data/core/macros/schedules.cfg:104
 msgid "Indoors"
 msgstr "Espaço fechado"
@@ -1393,6 +1393,7 @@ msgstr "Calendário"
 
 #. [topic]: id=..calendar
 #: data/core/encyclopedia/calendar.cfg:14
+#, fuzzy
 msgid ""
 "Each year in the Wesnoth calendar is composed of 12 months. These are, in "
 "order:\n"
@@ -1411,6 +1412,21 @@ msgid ""
 "Blackfire\n"
 "\n"
 msgstr ""
+"O ano do calendário de Wesnoth é dividido em 12 meses.. Eles são, em ordem:\n"
+"\n"
+"Whitefire\n"
+"Bleeding Moon\n"
+"Scatterseed\n"
+"Deeproot\n"
+"Scryer’s Bloom\n"
+"Thorntress\n"
+"Summit Star\n"
+"Kindlefire\n"
+"Stillseed\n"
+"Reaper’s Moon\n"
+"Verglas Bloom\n"
+"Blackfire\n"
+"\n"
 
 #
 # File: data/core/encyclopedia/geography.cfg, line: 11
@@ -1522,7 +1538,7 @@ msgid ""
 msgstr ""
 "Arquipélago localizado em algum lugar do <ref>dst='great_ocean' text='Grande "
 "Oceano'</ref>, a oeste da <ref>dst='green_isle' text='Ilha Verde'</ref> e a "
-"leste do <ref>dst=great_continent text='Velho Continente'</ref>.\n"
+"leste do <ref>dst=old_continent text='Velho Continente'</ref>.\n"
 "É habitado principalmente pelos <ref>dst='..race_drake' text='draconatos'</"
 "ref>.\n"
 "Sua ilha central é chamada de ‘Morogor’."
@@ -1568,7 +1584,7 @@ msgid ""
 "<ref>dst='great_ocean' text='Great Ocean'</ref>."
 msgstr ""
 "Fica a oeste de <ref>dst='morogor' text='Morogor'</ref>, além do "
-"<ref>dst='great_ocean' text='Grande Oceano'</ref>."
+"<ref>dst='Great Ocean' text='Grande Oceano'</ref>."
 
 #
 # File: data/core/encyclopedia/geography.cfg, line: 57
@@ -2119,8 +2135,8 @@ msgstr "O Jogo"
 #. [section]: id=traits_section
 #. [topic]: id=..traits_section
 #: data/core/help.cfg:29 data/core/help.cfg:531
-#: src/help/help_topic_generators.cpp:438
-#: src/help/help_topic_generators.cpp:461
+#: src/help/help_topic_generators.cpp:439
+#: src/help/help_topic_generators.cpp:462
 msgid "Traits"
 msgstr "Características"
 
@@ -3234,6 +3250,12 @@ msgid ""
 "assuming that the player will be able to train enough troops to cope with "
 "losing some level two or level three units."
 msgstr ""
+"Os níveis de dificuldade são balanceados tendo em mente que o jogador não "
+"ficará salvando e carregando o jogo. Nas campanhas base, as dificuldades "
+"mais difíceis geralmente possuem mais inimigos e, consequentemente, mais "
+"pontos de experiência. Isso faz com que elas sejam balancedas pressupondo "
+"que o jogador será capaz de treinar unidades suficientes para lidar com a "
+"perda de algumas unidades de segundo ou terceiro nível."
 
 #. [topic]: id=saveload
 #: data/core/help.cfg:301
@@ -3930,7 +3952,7 @@ msgstr ""
 #. [topic]: id=crowns
 #: data/core/help.cfg:432
 msgid "Crowns and loyal markers"
-msgstr "Coroas e marcadores de lealdade."
+msgstr "Coroas e marcadores de lealdade"
 
 #. [topic]: id=crowns
 #: data/core/help.cfg:433
@@ -4263,7 +4285,7 @@ msgid ""
 msgstr ""
 "\n"
 "• <bold>text='Curando unidades'</bold>: Unidades com a habilidade "
-"<ref>dst='ability_curingcures' text='Curar'</ref> removerão envenemaneto de todas "
+"<ref>dst='ability_cures' text='Curar'</ref> removerão envenemaneto de todas "
 "as unidades aliadas adjacentes (se ela puder curar pontos de vida, a "
 "preferencia será em curar o envenenamento)."
 
@@ -5176,11 +5198,6 @@ msgstr ""
 # File: data/core/help.cfg, line: 874
 #. [topic]: id=general_commands
 #: data/core/help.cfg:694
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Toggle the display of the current frames per second.\n"
-#| "\n"
 msgid ""
 "\n"
 "Toggle the display of the current frames per second. Also writes these "
@@ -5188,7 +5205,8 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Alterna o mostrador do número de frames por segundo.\n"
+"Alterna o mostrador do número de frames por segundo. Também salva esses "
+"valores em um arquivo no diretório userdata.\n"
 "\n"
 
 #
@@ -5772,8 +5790,7 @@ msgstr ""
 # File: data/core/macros/abilities.cfg, line: 95
 # File: data/core/macros/abilities.cfg, line: 95
 #. [resistance]: id=steadfast
-#. [resistance]: id=melee_steadfast
-#: data/core/macros/abilities.cfg:131 data/scenario-test.cfg:368
+#: data/core/macros/abilities.cfg:131
 msgid "female^steadfast"
 msgstr "posição defensiva"
 
@@ -6010,7 +6027,7 @@ msgstr ""
 #. [hides]: id=burrow
 #: data/core/macros/abilities.cfg:302
 msgid "burrow"
-msgstr ""
+msgstr "entocar"
 
 #
 # File: data/core/macros/traits.cfg, line: 251
@@ -6018,10 +6035,8 @@ msgstr ""
 # File: data/core/macros/traits.cfg, line: 251
 #. [hides]: id=burrow
 #: data/core/macros/abilities.cfg:303
-#, fuzzy
-#| msgid "female^slow"
 msgid "female^burrow"
-msgstr "lenta"
+msgstr "entocar"
 
 #
 # File: data/core/macros/abilities.cfg, line: 408
@@ -6226,7 +6241,7 @@ msgstr ""
 # File: data/core/macros/abilities.cfg, line: 598
 # File: data/core/macros/abilities.cfg, line: 598
 #. [plague]: id=plague, type=Walking Corpse
-#: data/core/macros/abilities.cfg:442 data/scenario-test.cfg:408
+#: data/core/macros/abilities.cfg:442
 msgid ""
 "When a unit is killed by a Plague attack, that unit is replaced with a "
 "Walking Corpse on the same side as the unit with the Plague attack. This "
@@ -6291,7 +6306,7 @@ msgstr ""
 #. [chance_to_hit]: id=deflect
 #: data/core/macros/abilities.cfg:489
 msgid "deflect"
-msgstr ""
+msgstr "defletir"
 
 #
 # File: data/core/macros/abilities.cfg, line: 629
@@ -6299,16 +6314,12 @@ msgstr ""
 # File: data/core/macros/abilities.cfg, line: 629
 #. [chance_to_hit]: id=deflect
 #: data/core/macros/abilities.cfg:490
-#, fuzzy
-#| msgid ""
-#| "When used offensively, this attack always has at least a 60% chance to "
-#| "hit."
 msgid ""
 "When used defensively, this attack reduces the opponent's chance to hit by "
 "10%."
 msgstr ""
-"Quando usado ofensivamente, esse ataque sempre tem pelo menos 60% de chance "
-"de acertar."
+"Quando usado defensivamente, esse ataque reduz a chance de acerto do "
+"oponente em 10%."
 
 #. [chance_to_hit]: id=deflect
 #: data/core/macros/abilities.cfg:491
@@ -6316,6 +6327,7 @@ msgid ""
 "This unit’s defensive techniques reduce the chance of a successful enemy "
 "attack."
 msgstr ""
+"As técnicas defensivas desta unidade reduzem a chance do inimigo acertá-la."
 
 #
 # File: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg, line: 771
@@ -6374,7 +6386,7 @@ msgstr ""
 #. [damage]: id=absorb
 #: data/core/macros/abilities.cfg:542
 msgid "absorb"
-msgstr ""
+msgstr "absorver"
 
 #. [damage]: id=absorb
 #: data/core/macros/abilities.cfg:543
@@ -6382,6 +6394,8 @@ msgid ""
 "This attack puts the unit in good defensive position, and it absorbs some of "
 "the damage dealt by an enemy strike."
 msgstr ""
+"Este ataque coloca a unidade em uma boa posição defensiva, absorvendo uma "
+"parte do dano causado pelo ataque do inimigo."
 
 #. [damage]: id=absorb
 #: data/core/macros/abilities.cfg:544
@@ -6796,10 +6810,18 @@ msgid "The Long Dark (4)"
 msgstr "A Longa Noite (4)"
 
 #
+# File: data/core/macros/special-notes.cfg, line: 3
+# File: data/core/macros/special-notes.cfg, line: 3
+# File: data/core/macros/special-notes.cfg, line: 3
+#: data/core/macros/special-notes.cfg:6 src/help/help_topic_generators.cpp:565
+msgid "Special Notes:"
+msgstr "Notas Especiais:"
+
+#
 # File: data/core/macros/special-notes.cfg, line: 8
 # File: data/core/macros/special-notes.cfg, line: 8
 # File: data/core/macros/special-notes.cfg, line: 8
-#: data/core/macros/special-notes.cfg:12
+#: data/core/macros/special-notes.cfg:17
 msgid ""
 "Spirits have very unusual resistances to damage, and move quite slowly over "
 "open water."
@@ -6811,7 +6833,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 11
 # File: data/core/macros/special-notes.cfg, line: 11
 # File: data/core/macros/special-notes.cfg, line: 11
-#: data/core/macros/special-notes.cfg:15
+#: data/core/macros/special-notes.cfg:20
 msgid ""
 "This unit’s arcane attack deals tremendous damage to magical creatures, and "
 "even some to mundane creatures."
@@ -6823,7 +6845,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 14
 # File: data/core/macros/special-notes.cfg, line: 14
 # File: data/core/macros/special-notes.cfg, line: 14
-#: data/core/macros/special-notes.cfg:22
+#: data/core/macros/special-notes.cfg:27
 msgid "This unit is capable of basic healing."
 msgstr "Esta unidade é capaz de curar."
 
@@ -6831,7 +6853,7 @@ msgstr "Esta unidade é capaz de curar."
 # File: data/core/macros/special-notes.cfg, line: 17
 # File: data/core/macros/special-notes.cfg, line: 17
 # File: data/core/macros/special-notes.cfg, line: 17
-#: data/core/macros/special-notes.cfg:25
+#: data/core/macros/special-notes.cfg:30
 msgid "This unit is capable of rapid healing."
 msgstr "Esta unidade é capaz de curar rapidamente."
 
@@ -6839,7 +6861,7 @@ msgstr "Esta unidade é capaz de curar rapidamente."
 # File: data/core/macros/special-notes.cfg, line: 20
 # File: data/core/macros/special-notes.cfg, line: 20
 # File: data/core/macros/special-notes.cfg, line: 20
-#: data/core/macros/special-notes.cfg:28
+#: data/core/macros/special-notes.cfg:33
 msgid ""
 "This unit is capable of healing those around it, and curing them of poison."
 msgstr ""
@@ -6850,7 +6872,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 23
 # File: data/core/macros/special-notes.cfg, line: 23
 # File: data/core/macros/special-notes.cfg, line: 23
-#: data/core/macros/special-notes.cfg:31
+#: data/core/macros/special-notes.cfg:36
 msgid ""
 "This unit is capable of neutralizing the effects of poison in units around "
 "it."
@@ -6862,7 +6884,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 26
 # File: data/core/macros/special-notes.cfg, line: 26
 # File: data/core/macros/special-notes.cfg, line: 26
-#: data/core/macros/special-notes.cfg:34
+#: data/core/macros/special-notes.cfg:39
 msgid ""
 "This unit regenerates, which allows it to heal as though always stationed in "
 "a village."
@@ -6874,7 +6896,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 29
 # File: data/core/macros/special-notes.cfg, line: 29
 # File: data/core/macros/special-notes.cfg, line: 29
-#: data/core/macros/special-notes.cfg:37
+#: data/core/macros/special-notes.cfg:42
 msgid ""
 "The steadiness of this unit reduces damage from some attacks, but only while "
 "defending."
@@ -6886,7 +6908,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 32
 # File: data/core/macros/special-notes.cfg, line: 32
 # File: data/core/macros/special-notes.cfg, line: 32
-#: data/core/macros/special-notes.cfg:40
+#: data/core/macros/special-notes.cfg:45
 msgid ""
 "The leadership of this unit enables adjacent units of the same side to deal "
 "more damage in combat, though this only applies to units of lower level."
@@ -6899,7 +6921,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 35
 # File: data/core/macros/special-notes.cfg, line: 35
 # File: data/core/macros/special-notes.cfg, line: 35
-#: data/core/macros/special-notes.cfg:43
+#: data/core/macros/special-notes.cfg:48
 msgid ""
 "This unit’s skill at skirmishing allows it to ignore enemies’ zones of "
 "control and thus move unhindered around them."
@@ -6911,7 +6933,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 38
 # File: data/core/macros/special-notes.cfg, line: 38
 # File: data/core/macros/special-notes.cfg, line: 38
-#: data/core/macros/special-notes.cfg:46
+#: data/core/macros/special-notes.cfg:51
 msgid "Illumination increases the lighting level in adjacent areas."
 msgstr "Iluminação aumenta o nivel de luminosidade das áreas adjacentes."
 
@@ -6919,7 +6941,7 @@ msgstr "Iluminação aumenta o nivel de luminosidade das áreas adjacentes."
 # File: data/core/macros/special-notes.cfg, line: 41
 # File: data/core/macros/special-notes.cfg, line: 41
 # File: data/core/macros/special-notes.cfg, line: 41
-#: data/core/macros/special-notes.cfg:49
+#: data/core/macros/special-notes.cfg:54
 msgid ""
 "This unit can use one move to teleport between any two empty villages "
 "controlled by its side."
@@ -6931,7 +6953,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 44
 # File: data/core/macros/special-notes.cfg, line: 44
 # File: data/core/macros/special-notes.cfg, line: 44
-#: data/core/macros/special-notes.cfg:52
+#: data/core/macros/special-notes.cfg:57
 msgid ""
 "In woodlands, this unit’s ambush skill renders it invisible to enemies "
 "unless it is immediately adjacent or has revealed itself by attacking."
@@ -6944,7 +6966,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 47
 # File: data/core/macros/special-notes.cfg, line: 47
 # File: data/core/macros/special-notes.cfg, line: 47
-#: data/core/macros/special-notes.cfg:55
+#: data/core/macros/special-notes.cfg:60
 msgid "This unit is able to hide at night, leaving no trace of its presence."
 msgstr ""
 "Esta unidade pode se esconder à noite, sumindo sem deixar traço de sua "
@@ -6954,7 +6976,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 50
 # File: data/core/macros/special-notes.cfg, line: 50
 # File: data/core/macros/special-notes.cfg, line: 50
-#: data/core/macros/special-notes.cfg:58
+#: data/core/macros/special-notes.cfg:63
 msgid ""
 "This unit can hide in villages (with the exception of water villages), and "
 "remain undetected by its enemies, except by those standing next to it."
@@ -6967,7 +6989,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 53
 # File: data/core/macros/special-notes.cfg, line: 53
 # File: data/core/macros/special-notes.cfg, line: 53
-#: data/core/macros/special-notes.cfg:61
+#: data/core/macros/special-notes.cfg:66
 msgid ""
 "This unit can move unseen in deep water, requiring no air from the surface."
 msgstr ""
@@ -6978,7 +7000,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 56
 # File: data/core/macros/special-notes.cfg, line: 56
 # File: data/core/macros/special-notes.cfg, line: 56
-#: data/core/macros/special-notes.cfg:64
+#: data/core/macros/special-notes.cfg:69
 msgid ""
 "This unit gains 1 hitpoint added to its maximum whenever it kills a living "
 "unit."
@@ -6990,7 +7012,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 59
 # File: data/core/macros/special-notes.cfg, line: 59
 # File: data/core/macros/special-notes.cfg, line: 59
-#: data/core/macros/special-notes.cfg:67
+#: data/core/macros/special-notes.cfg:72
 msgid ""
 "Whenever its berserk attack is used, this unit continues to push the attack "
 "until either it or its enemy lies dead."
@@ -7002,7 +7024,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 62
 # File: data/core/macros/special-notes.cfg, line: 62
 # File: data/core/macros/special-notes.cfg, line: 62
-#: data/core/macros/special-notes.cfg:70
+#: data/core/macros/special-notes.cfg:75
 msgid ""
 "If there is an enemy of the target on the opposite side of the target while "
 "attacking it, this unit may backstab, inflicting double damage by creeping "
@@ -7015,7 +7037,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 65
 # File: data/core/macros/special-notes.cfg, line: 65
 # File: data/core/macros/special-notes.cfg, line: 65
-#: data/core/macros/special-notes.cfg:73
+#: data/core/macros/special-notes.cfg:78
 msgid ""
 "Foes who lose their life to the plague will rise again in unlife, unless "
 "they are standing on a village."
@@ -7027,7 +7049,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 68
 # File: data/core/macros/special-notes.cfg, line: 68
 # File: data/core/macros/special-notes.cfg, line: 68
-#: data/core/macros/special-notes.cfg:76
+#: data/core/macros/special-notes.cfg:81
 msgid ""
 "This unit is able to slow its enemies, halving their movement speed and "
 "attack damage until they end a turn."
@@ -7039,7 +7061,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 71
 # File: data/core/macros/special-notes.cfg, line: 71
 # File: data/core/macros/special-notes.cfg, line: 71
-#: data/core/macros/special-notes.cfg:79
+#: data/core/macros/special-notes.cfg:84
 msgid ""
 "The ability to turn the living to stone makes this unit extremely dangerous."
 msgstr ""
@@ -7050,7 +7072,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 74
 # File: data/core/macros/special-notes.cfg, line: 74
 # File: data/core/macros/special-notes.cfg, line: 74
-#: data/core/macros/special-notes.cfg:82
+#: data/core/macros/special-notes.cfg:87
 msgid ""
 "This unit’s marksmanship gives it a high chance of hitting targeted enemies, "
 "but only on the attack."
@@ -7062,7 +7084,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 77
 # File: data/core/macros/special-notes.cfg, line: 77
 # File: data/core/macros/special-notes.cfg, line: 77
-#: data/core/macros/special-notes.cfg:85
+#: data/core/macros/special-notes.cfg:90
 msgid ""
 "This unit has magical attacks, which always have a high chance of hitting an "
 "opponent."
@@ -7074,7 +7096,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 80
 # File: data/core/macros/special-notes.cfg, line: 80
 # File: data/core/macros/special-notes.cfg, line: 80
-#: data/core/macros/special-notes.cfg:88
+#: data/core/macros/special-notes.cfg:93
 msgid ""
 "The swarming attacks of this unit become less deadly whenever its members "
 "are wounded."
@@ -7086,7 +7108,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 83
 # File: data/core/macros/special-notes.cfg, line: 83
 # File: data/core/macros/special-notes.cfg, line: 83
-#: data/core/macros/special-notes.cfg:91
+#: data/core/macros/special-notes.cfg:96
 msgid ""
 "Using a charging attack doubles both damage dealt and received; this does "
 "not affect defensive retaliation."
@@ -7099,7 +7121,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 86
 # File: data/core/macros/special-notes.cfg, line: 86
 # File: data/core/macros/special-notes.cfg, line: 86
-#: data/core/macros/special-notes.cfg:94
+#: data/core/macros/special-notes.cfg:99
 msgid ""
 "During battle, this unit can drain life from victims to renew its own health."
 msgstr ""
@@ -7110,7 +7132,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 89
 # File: data/core/macros/special-notes.cfg, line: 89
 # File: data/core/macros/special-notes.cfg, line: 89
-#: data/core/macros/special-notes.cfg:97
+#: data/core/macros/special-notes.cfg:102
 msgid ""
 "The length of this unit’s weapon allows it to strike first in melee, even in "
 "defense."
@@ -7122,7 +7144,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 92
 # File: data/core/macros/special-notes.cfg, line: 92
 # File: data/core/macros/special-notes.cfg, line: 92
-#: data/core/macros/special-notes.cfg:100
+#: data/core/macros/special-notes.cfg:105
 msgid ""
 "The victims of this unit’s poison will continually take damage until they "
 "can be cured in town or by a unit which cures."
@@ -7130,7 +7152,7 @@ msgstr ""
 "As vítimas do veneno desta unidade irão levar dano a cada turno até que "
 "sejam curadas em uma aldeia ou por uma unidade que cura envenenamento."
 
-#: data/core/macros/special-notes.cfg:103
+#: data/core/macros/special-notes.cfg:108
 msgid ""
 "This unit has a defense cap on certain terrain types — it cannot achieve a "
 "higher defense rating on mixed terrains with such terrain types."
@@ -8542,10 +8564,8 @@ msgstr ""
 # File: data/core/units.cfg, line: 322
 #. [race]: id=horse
 #: data/core/units.cfg:183
-#, fuzzy
-#| msgid "race^Wose"
 msgid "race^Horse"
-msgstr "Wose"
+msgstr "Cavalo"
 
 #
 # File: data/core/units.cfg, line: 242
@@ -8553,10 +8573,8 @@ msgstr "Wose"
 # File: data/core/units.cfg, line: 242
 #. [race]: id=horse
 #: data/core/units.cfg:184
-#, fuzzy
-#| msgid "race+female^Ogre"
 msgid "race+female^Horse"
-msgstr "Ogra"
+msgstr "Égua"
 
 #
 # File: data/core/units.cfg, line: 323
@@ -8564,10 +8582,8 @@ msgstr "Ogra"
 # File: data/core/units.cfg, line: 323
 #. [race]: id=horse
 #: data/core/units.cfg:185
-#, fuzzy
-#| msgid "race^Woses"
 msgid "race^Horses"
-msgstr "Woses"
+msgstr "Cavalos"
 
 #. [race]: id=horse
 #: data/core/units.cfg:186
@@ -9869,7 +9885,7 @@ msgstr ""
 # File: src/help.cpp, line: 3273
 # File: src/help.cpp, line: 3273
 # File: src/help.cpp, line: 3273
-#: src/help/help.cpp:212
+#: src/help/help.cpp:213
 msgid "Close"
 msgstr "Fechar"
 
@@ -9877,7 +9893,7 @@ msgstr "Fechar"
 # File: src/help.cpp, line: 52
 # File: src/help.cpp, line: 52
 # File: src/help.cpp, line: 52
-#: src/help/help.cpp:215
+#: src/help/help.cpp:216
 msgid "Help"
 msgstr "Ajuda"
 
@@ -9885,15 +9901,15 @@ msgstr "Ajuda"
 # File: src/help.cpp, line: 3332
 # File: src/help.cpp, line: 3332
 # File: src/help.cpp, line: 3332
-#: src/help/help.cpp:269 src/help/help.cpp:273
+#: src/help/help.cpp:270 src/help/help.cpp:274
 msgid "Parse error when parsing help text:"
 msgstr "Erro de análise ao ler o texto de ajuda:"
 
-#: src/help/help_topic_generators.cpp:63
+#: src/help/help_topic_generators.cpp:64
 msgid "Best of"
 msgstr "Melhor de"
 
-#: src/help/help_topic_generators.cpp:63
+#: src/help/help_topic_generators.cpp:64
 msgid "Worst of"
 msgstr "Pior de"
 
@@ -9901,7 +9917,7 @@ msgstr "Pior de"
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
-#: src/help/help_topic_generators.cpp:156
+#: src/help/help_topic_generators.cpp:157
 msgid "Base Terrain: "
 msgstr "Terreno Base: "
 
@@ -9909,11 +9925,11 @@ msgstr "Terreno Base: "
 # File: src/help.cpp, line: 1608
 # File: src/help.cpp, line: 1608
 # File: src/help.cpp, line: 1608
-#: src/help/help_topic_generators.cpp:176
+#: src/help/help_topic_generators.cpp:177
 msgid "Movement properties: "
 msgstr "Propriedades do movimento: "
 
-#: src/help/help_topic_generators.cpp:180
+#: src/help/help_topic_generators.cpp:181
 msgid "Defense properties: "
 msgstr "Propriedades de defesa: "
 
@@ -9921,7 +9937,7 @@ msgstr "Propriedades de defesa: "
 # File: src/help.cpp, line: 1354
 # File: src/help.cpp, line: 1354
 # File: src/help.cpp, line: 1354
-#: src/help/help_topic_generators.cpp:260
+#: src/help/help_topic_generators.cpp:261
 msgid "Level"
 msgstr "Nível"
 
@@ -9929,7 +9945,7 @@ msgstr "Nível"
 # File: src/help.cpp, line: 1387
 # File: src/help.cpp, line: 1387
 # File: src/help.cpp, line: 1387
-#: src/help/help_topic_generators.cpp:321
+#: src/help/help_topic_generators.cpp:322
 msgid "Advances from: "
 msgstr "Avança de: "
 
@@ -9937,7 +9953,7 @@ msgstr "Avança de: "
 # File: src/help.cpp, line: 1387
 # File: src/help.cpp, line: 1387
 # File: src/help.cpp, line: 1387
-#: src/help/help_topic_generators.cpp:323
+#: src/help/help_topic_generators.cpp:324
 msgid "Advances to: "
 msgstr "Avança para: "
 
@@ -9945,7 +9961,7 @@ msgstr "Avança para: "
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
-#: src/help/help_topic_generators.cpp:352
+#: src/help/help_topic_generators.cpp:353
 msgid "Base unit: "
 msgstr "Unidade Base: "
 
@@ -9953,7 +9969,7 @@ msgstr "Unidade Base: "
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
-#: src/help/help_topic_generators.cpp:357
+#: src/help/help_topic_generators.cpp:358
 msgid "Base units: "
 msgstr "Unidades Base: "
 
@@ -9961,7 +9977,7 @@ msgstr "Unidades Base: "
 # File: src/help.cpp, line: 1422
 # File: src/help.cpp, line: 1422
 # File: src/help.cpp, line: 1422
-#: src/help/help_topic_generators.cpp:375
+#: src/help/help_topic_generators.cpp:376
 msgid "Variations: "
 msgstr "Variações: "
 
@@ -9975,7 +9991,7 @@ msgstr "Variações: "
 # File: src/help.cpp, line: 1446
 # File: src/help.cpp, line: 1818
 # File: src/help.cpp, line: 1891
-#: src/help/help_topic_generators.cpp:399
+#: src/help/help_topic_generators.cpp:400
 msgid "race^Miscellaneous"
 msgstr "Miscelânea"
 
@@ -9983,7 +9999,7 @@ msgstr "Miscelânea"
 # File: src/help.cpp, line: 1448
 # File: src/help.cpp, line: 1448
 # File: src/help.cpp, line: 1448
-#: src/help/help_topic_generators.cpp:401
+#: src/help/help_topic_generators.cpp:402
 msgid "Race: "
 msgstr "Raça: "
 
@@ -9991,7 +10007,7 @@ msgstr "Raça: "
 # File: src/help.cpp, line: 1455
 # File: src/help.cpp, line: 1455
 # File: src/help.cpp, line: 1455
-#: src/help/help_topic_generators.cpp:471
+#: src/help/help_topic_generators.cpp:472
 msgid "Abilities: "
 msgstr "Habilidades: "
 
@@ -9999,7 +10015,7 @@ msgstr "Habilidades: "
 # File: src/help.cpp, line: 1472
 # File: src/help.cpp, line: 1472
 # File: src/help.cpp, line: 1472
-#: src/help/help_topic_generators.cpp:497
+#: src/help/help_topic_generators.cpp:498
 msgid "Ability Upgrades: "
 msgstr "Habilidades Melhoradas: "
 
@@ -10010,7 +10026,7 @@ msgstr "Habilidades Melhoradas: "
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:527
+#: src/help/help_topic_generators.cpp:528
 msgid "HP:"
 msgstr "HP:"
 
@@ -10021,14 +10037,14 @@ msgstr "HP:"
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:531
+#: src/help/help_topic_generators.cpp:532
 msgid "Moves:"
 msgstr "Movimento:"
 
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:536
+#: src/help/help_topic_generators.cpp:537
 msgid "Vision:"
 msgstr "Visão:"
 
@@ -10046,7 +10062,7 @@ msgstr "Interferencia:"
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:547
+#: src/help/help_topic_generators.cpp:548
 msgid "Cost:"
 msgstr "Custo:"
 
@@ -10057,7 +10073,7 @@ msgstr "Custo:"
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:551
+#: src/help/help_topic_generators.cpp:552
 msgid "Alignment:"
 msgstr "Alinhamento:"
 
@@ -10068,23 +10084,15 @@ msgstr "Alinhamento:"
 #. TRANSLATORS: This string is used in the help page of a single unit.  It uses
 #. non-breaking spaces to prevent unpleasant line breaks (issue #3256).  In the
 #. translation use non-breaking spaces as appropriate for the target language.
-#: src/help/help_topic_generators.cpp:558
+#: src/help/help_topic_generators.cpp:559
 msgid "Required XP:"
 msgstr "XP Necessária:"
 
 #
-# File: data/core/macros/special-notes.cfg, line: 3
-# File: data/core/macros/special-notes.cfg, line: 3
-# File: data/core/macros/special-notes.cfg, line: 3
-#: src/help/help_topic_generators.cpp:564
-msgid "Special Notes:"
-msgstr "Notas Especiais:"
-
-#
 # File: src/help.cpp, line: 1510
 # File: src/help.cpp, line: 1510
 # File: src/help.cpp, line: 1510
-#: src/help/help_topic_generators.cpp:573
+#: src/help/help_topic_generators.cpp:574
 msgid "unit help^Attacks"
 msgstr "Ataques"
 
@@ -10092,7 +10100,7 @@ msgstr "Ataques"
 # File: src/help.cpp, line: 1517
 # File: src/help.cpp, line: 1517
 # File: src/help.cpp, line: 1517
-#: src/help/help_topic_generators.cpp:580
+#: src/help/help_topic_generators.cpp:581
 msgid "unit help^Name"
 msgstr "Nome"
 
@@ -10100,7 +10108,7 @@ msgstr "Nome"
 # File: src/help.cpp, line: 1520
 # File: src/help.cpp, line: 1520
 # File: src/help.cpp, line: 1520
-#: src/help/help_topic_generators.cpp:582
+#: src/help/help_topic_generators.cpp:583
 msgid "Range"
 msgstr "Distância"
 
@@ -10108,7 +10116,7 @@ msgstr "Distância"
 # File: src/help.cpp, line: 1518
 # File: src/help.cpp, line: 1518
 # File: src/help.cpp, line: 1518
-#: src/help/help_topic_generators.cpp:583
+#: src/help/help_topic_generators.cpp:584
 msgid "Type"
 msgstr "Tipo"
 
@@ -10116,7 +10124,7 @@ msgstr "Tipo"
 # File: src/help.cpp, line: 1521
 # File: src/help.cpp, line: 1521
 # File: src/help.cpp, line: 1521
-#: src/help/help_topic_generators.cpp:584
+#: src/help/help_topic_generators.cpp:585
 msgid "Special"
 msgstr "Especial"
 
@@ -10124,7 +10132,7 @@ msgstr "Especial"
 # File: src/help.cpp, line: 1571
 # File: src/help.cpp, line: 1571
 # File: src/help.cpp, line: 1571
-#: src/help/help_topic_generators.cpp:666
+#: src/help/help_topic_generators.cpp:667
 msgid "Attack Type"
 msgstr "Tipo de ataque"
 
@@ -10132,7 +10140,7 @@ msgstr "Tipo de ataque"
 # File: src/help.cpp, line: 1572
 # File: src/help.cpp, line: 1572
 # File: src/help.cpp, line: 1572
-#: src/help/help_topic_generators.cpp:667
+#: src/help/help_topic_generators.cpp:668
 msgid "Resistance"
 msgstr "Resistência"
 
@@ -10140,7 +10148,7 @@ msgstr "Resistência"
 # File: src/help.cpp, line: 1602
 # File: src/help.cpp, line: 1602
 # File: src/help.cpp, line: 1602
-#: src/help/help_topic_generators.cpp:696
+#: src/help/help_topic_generators.cpp:697
 msgid "Terrain Modifiers"
 msgstr "Modificadores de Terreno"
 
@@ -10148,7 +10156,7 @@ msgstr "Modificadores de Terreno"
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
-#: src/help/help_topic_generators.cpp:700
+#: src/help/help_topic_generators.cpp:701
 msgid "Terrain"
 msgstr "Terreno"
 
@@ -10156,7 +10164,7 @@ msgstr "Terreno"
 # File: src/help.cpp, line: 1608
 # File: src/help.cpp, line: 1608
 # File: src/help.cpp, line: 1608
-#: src/help/help_topic_generators.cpp:702
+#: src/help/help_topic_generators.cpp:703
 msgid "Movement Cost"
 msgstr "Custo de Movimento"
 
@@ -10164,11 +10172,11 @@ msgstr "Custo de Movimento"
 # File: src/help.cpp, line: 1607
 # File: src/help.cpp, line: 1607
 # File: src/help.cpp, line: 1607
-#: src/help/help_topic_generators.cpp:706
+#: src/help/help_topic_generators.cpp:707
 msgid "Defense Cap"
 msgstr "Limite de Defesa"
 
-#: src/help/help_topic_generators.cpp:711
+#: src/help/help_topic_generators.cpp:712
 msgid "Vision Cost"
 msgstr "Custo de Visão"
 

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-06-23 15:42 UTC\n"
+"POT-Creation-Date: 2021-08-22 03:31 UTC\n"
 "PO-Revision-Date: 2020-08-25 23:55 UTC\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: wesn-pt-trans\n"
@@ -189,17 +189,20 @@ msgstr ""
 
 #. [label]
 #: data/campaigns/World_Conquest/gui/settings_dialog.cfg:50
+#, fuzzy
+#| msgid "Players: "
+msgid " players: "
+msgstr "Jogadores: "
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:64
 msgid " scenario: "
 msgstr ""
 
 #. [label]
-#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:63
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:85
 msgid " map: "
 msgstr ""
-
-#: data/campaigns/World_Conquest/lua/campaign/difficulty.lua:6
-msgid "Choose difficulty level:"
-msgstr "Escolha o nível de dificuldade:"
 
 #: data/campaigns/World_Conquest/lua/campaign/enemy_themed.lua:5
 msgid "$name|'s pet"
@@ -2129,18 +2132,18 @@ msgstr ""
 
 #. [lua]: wc_ii_generate_scenario
 #. [lua]: wct_store_possible_encampment_ford
-#: data/campaigns/World_Conquest/lua/map/main.lua:138
+#: data/campaigns/World_Conquest/lua/map/main.lua:129
 #: data/campaigns/World_Conquest/lua/map/postgeneration/1A_Start.lua:146
 msgid "Start"
 msgstr "Início"
 
 #. [lua]: wc_ii_generate_scenario
-#: data/campaigns/World_Conquest/lua/map/main.lua:140
+#: data/campaigns/World_Conquest/lua/map/main.lua:131
 msgid "Scenario"
 msgstr "Cenário"
 
 #. [lua]: wc_ii_generate_scenario
-#: data/campaigns/World_Conquest/lua/map/main.lua:142
+#: data/campaigns/World_Conquest/lua/map/main.lua:133
 #, fuzzy
 #| msgid "Sea Battle"
 msgid "Final Battle"
@@ -3178,3 +3181,11 @@ msgid ""
 "difficulties.\n"
 "(Expert level, 5 scenarios.)"
 msgstr ""
+
+#. [campaign]: id=WC_II_{PLAYERS}p, description={WC_II_CAMPAIGN_DESC_{PLAYERS}P}, type=mp
+#: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:93
+msgid "WC"
+msgstr ""
+
+#~ msgid "Choose difficulty level:"
+#~ msgstr "Escolha o nível de dificuldade:"
