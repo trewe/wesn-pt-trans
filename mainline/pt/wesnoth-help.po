@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-help)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2021-11-09 03:44+0300\n"
+"POT-Creation-Date: 2022-01-17 23:52+0300\n"
 "PO-Revision-Date: 2021-08-31 10:22+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -20,7 +20,7 @@ msgstr ""
 #
 #. [time]: id=underground
 #. [editor_times]: id=underground
-#: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg:496
+#: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg:500
 #: data/core/editor/time-of-day.cfg:41 data/core/macros/schedules.cfg:113
 msgid "Underground"
 msgstr "Subterrâneo"
@@ -996,17 +996,17 @@ msgid "Show only villages"
 msgstr "Mostrar apenas aldeias"
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:377
+#: data/core/editor/help.cfg:378
 msgid "Wesnoth Map Format"
 msgstr "Formato de Mapa Wesnoth"
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:378
+#: data/core/editor/help.cfg:379
 msgid "Wesnoth stores its maps in human readable plain text files."
 msgstr ""
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:380
+#: data/core/editor/help.cfg:381
 msgid ""
 "<header>text='Native'</header>\n"
 "\n"
@@ -1037,7 +1037,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:393
+#: data/core/editor/help.cfg:394
 msgid ""
 "<header>text='Embedded'</header>\n"
 "\n"
@@ -1057,7 +1057,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:401
+#: data/core/editor/help.cfg:402
 msgid ""
 "<header>text='Files created by the Scenario Editor'</header>\n"
 "\n"
@@ -1070,7 +1070,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:405
+#: data/core/editor/help.cfg:406
 msgid ""
 "<header>text='Which scenario files use the [scenario] tag'</header>\n"
 "\n"
@@ -3059,10 +3059,10 @@ msgid ""
 "<italic>text='Under the Burning Suns'</italic>.\n"
 "• <bold>text='Blue'</bold> for allied units, except during that ally’s own "
 "turn.\n"
-"    • During the ally’s own turn, their units will be shown with the green/"
-"yellow/red/white colors; however their moves, and the corresponding orb "
-"changes, are delayed as explained in <ref>dst='shroud_and_fog' text='Shroud "
-"and Fog of War'</ref>.\n"
+"    • During the ally’s own turn, their units will be shown with the colors "
+"showing whether the units can still move and attack; however their moves, "
+"and the corresponding orb changes, are delayed as explained in "
+"<ref>dst='shroud_and_fog' text='Shroud and Fog of War'</ref>.\n"
 "• Enemy units normally don’t have orbs, however these can be enabled in the "
 "advanced preference “Customize orb colors”."
 msgstr ""
@@ -3982,7 +3982,7 @@ msgstr "Comandos Gerais"
 #. [topic]: id=general_commands
 #. [topic]: id=mp_commands
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:679 data/core/help.cfg:721 data/core/help.cfg:759
+#: data/core/help.cfg:679 data/core/help.cfg:724 data/core/help.cfg:762
 msgid ""
 "These commands can either be issued via the command line by prefixing them "
 "with ':' (as shown here) or via the chat by prefixing them with '/' (press "
@@ -3994,9 +3994,18 @@ msgstr ""
 "com “/” (carrega “m” primeiro para abrir o chat).\n"
 "\n"
 
-#
 #. [topic]: id=general_commands
 #: data/core/help.cfg:681
+msgid ""
+"\n"
+"Similar to the 'fps' command, but also forces everything to redraw instead "
+"of only things that have changed.\n"
+"\n"
+msgstr ""
+
+#
+#. [topic]: id=general_commands
+#: data/core/help.cfg:684
 msgid ""
 "\n"
 "Clear chat messages.\n"
@@ -4008,7 +4017,7 @@ msgstr ""
 
 #
 #. [topic]: id=general_commands
-#: data/core/help.cfg:684
+#: data/core/help.cfg:687
 msgid ""
 "\n"
 "Switch debug mode on (does not work in multiplayer). See "
@@ -4024,7 +4033,7 @@ msgstr ""
 "\n"
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:688
+#: data/core/help.cfg:691
 msgid ""
 "\n"
 "Switch a side between human and AI control. The second parameter can be "
@@ -4037,7 +4046,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=general_commands
-#: data/core/help.cfg:691
+#: data/core/help.cfg:694
 msgid ""
 "\n"
 "Display the controller status of a side.\n"
@@ -4049,7 +4058,7 @@ msgstr ""
 
 #
 #. [topic]: id=general_commands
-#: data/core/help.cfg:694
+#: data/core/help.cfg:697
 msgid ""
 "\n"
 "Toggle the display of the current frames per second. Also writes these "
@@ -4063,7 +4072,7 @@ msgstr ""
 
 #
 #. [topic]: id=general_commands
-#: data/core/help.cfg:697
+#: data/core/help.cfg:700
 msgid ""
 "\n"
 "Switch a log domain to a different log level.\n"
@@ -4075,7 +4084,7 @@ msgstr ""
 
 #
 #. [topic]: id=general_commands
-#: data/core/help.cfg:700
+#: data/core/help.cfg:703
 msgid ""
 "\n"
 "Redraws the screen and reloads any image files that have been changed.\n"
@@ -4087,7 +4096,7 @@ msgstr ""
 
 #
 #. [topic]: id=general_commands
-#: data/core/help.cfg:703
+#: data/core/help.cfg:706
 msgid ""
 "\n"
 "Bring up theme selection menu.\n"
@@ -4099,7 +4108,7 @@ msgstr ""
 
 #
 #. [topic]: id=general_commands
-#: data/core/help.cfg:706
+#: data/core/help.cfg:709
 msgid ""
 "\n"
 "Quit the scenario (without prompting).\n"
@@ -4111,7 +4120,7 @@ msgstr ""
 
 #
 #. [topic]: id=general_commands
-#: data/core/help.cfg:709
+#: data/core/help.cfg:712
 msgid ""
 "\n"
 "Save the game (without prompting).\n"
@@ -4123,7 +4132,7 @@ msgstr ""
 
 #
 #. [topic]: id=general_commands
-#: data/core/help.cfg:712
+#: data/core/help.cfg:715
 msgid ""
 "\n"
 "Save the game and quit the scenario (without prompting)."
@@ -4133,13 +4142,13 @@ msgstr ""
 
 #
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:720
+#: data/core/help.cfg:723
 msgid "Multiplayer Commands"
 msgstr "Comandos em Rede"
 
 #
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:723
+#: data/core/help.cfg:726
 msgid ""
 "\n"
 "Ban a user in a multiplayer game by the IP address used by that username and "
@@ -4154,7 +4163,7 @@ msgstr ""
 "\n"
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:726
+#: data/core/help.cfg:729
 msgid ""
 "\n"
 "Change the controller for side (write here the number of the side) to "
@@ -4175,7 +4184,7 @@ msgstr ""
 "\n"
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:729
+#: data/core/help.cfg:732
 msgid ""
 "\n"
 "Launch a dialog to assist the host in changing the human controllers of "
@@ -4187,7 +4196,7 @@ msgstr ""
 "\n"
 
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:732
+#: data/core/help.cfg:735
 msgid ""
 "\n"
 "Toggle the idle state for a side. The host may make a side idle after a "
@@ -4201,7 +4210,7 @@ msgstr ""
 
 #
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:735
+#: data/core/help.cfg:738
 msgid ""
 "\n"
 "Kick a user in multiplayer. They will be able to rejoin the game. If you "
@@ -4217,7 +4226,7 @@ msgstr ""
 
 #
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:738
+#: data/core/help.cfg:741
 msgid ""
 "\n"
 "Send a private message to a user. When in a game, it is not possible to send "
@@ -4233,7 +4242,7 @@ msgstr ""
 
 #
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:741
+#: data/core/help.cfg:744
 msgid ""
 "\n"
 "Mute a specific observer. If no username is supplied the muted usernames are "
@@ -4247,7 +4256,7 @@ msgstr ""
 
 #
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:744
+#: data/core/help.cfg:747
 msgid ""
 "\n"
 "Toggle muting/silencing of all observers on/off.\n"
@@ -4259,7 +4268,7 @@ msgstr ""
 
 #
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:747
+#: data/core/help.cfg:750
 msgid ""
 "\n"
 "Unban a user in a multiplayer game by the IP address used by that username. "
@@ -4273,7 +4282,7 @@ msgstr ""
 
 #
 #. [topic]: id=mp_commands
-#: data/core/help.cfg:750
+#: data/core/help.cfg:753
 msgid ""
 "\n"
 "Unmute a specific observer. If no username is supplied the list of muted "
@@ -4285,13 +4294,13 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:758
+#: data/core/help.cfg:761
 msgid "Debug Mode Commands"
 msgstr "Comandos do modo de Depuração"
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:761
+#: data/core/help.cfg:764
 msgid ""
 "\n"
 "Brings up a menu for choosing a scenario to immediately advance to in a "
@@ -4305,7 +4314,7 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:764
+#: data/core/help.cfg:767
 msgid ""
 "\n"
 "Create a unit of the specified type on the selected hex.\n"
@@ -4317,7 +4326,7 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:767
+#: data/core/help.cfg:770
 msgid ""
 "\n"
 "Toggle fog/shroud for the current side.\n"
@@ -4329,7 +4338,7 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:770
+#: data/core/help.cfg:773
 msgid ""
 "\n"
 "Adds the specified amount to the current side’s gold.\n"
@@ -4341,7 +4350,7 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:773
+#: data/core/help.cfg:776
 msgid ""
 "\n"
 "Immediately advances to the next scenario in a campaign.\n"
@@ -4353,7 +4362,7 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:776
+#: data/core/help.cfg:779
 msgid ""
 "\n"
 "Manually set a gamestate variable to value.\n"
@@ -4365,7 +4374,7 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:779
+#: data/core/help.cfg:782
 msgid ""
 "\n"
 "Show a gamestate variable.\n"
@@ -4377,7 +4386,7 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:782
+#: data/core/help.cfg:785
 msgid ""
 "\n"
 "Manually fire the specified event.\n"
@@ -4389,7 +4398,7 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:785
+#: data/core/help.cfg:788
 msgid ""
 "\n"
 "Modifies the specified property of the selected unit. Example: :unit "
@@ -4403,7 +4412,7 @@ msgstr ""
 
 #
 #. [topic]: id=debug_commands
-#: data/core/help.cfg:788
+#: data/core/help.cfg:791
 msgid ""
 "\n"
 "Makes the selected unit level up N times. Example: :unit advances=2"
@@ -4579,24 +4588,14 @@ msgstr ""
 msgid "female^leadership"
 msgstr "liderança"
 
-#
 #. [leadership]: id=leadership
 #: data/core/macros/abilities.cfg:201
 msgid ""
-"This unit can lead your own units that are next to it, making them fight "
-"better.\n"
+"This unit can lead other troops in battle.\n"
 "\n"
-"Adjacent own units of lower level will do more damage in battle. When a unit "
-"adjacent to, of a lower level than, and on the same side as a unit with "
-"Leadership engages in combat, its attacks do 25% more damage times the "
-"difference in their levels."
+"All adjacent lower-level units from the same side deal 25% more damage for "
+"each difference in level."
 msgstr ""
-"Esta unidade pode liderar aliados adjacentes, fazendo-os lutar melhor.\n"
-"\n"
-"Unidades aliadas adjacentes de nível menor do que a unidade líder causarão "
-"mais dano em batalha. Quando uma unidade da mesma equipa, de nível mais "
-"baixo, e adjacente a uma unidade com liderança entra em combate, os seus "
-"ataques têm mais 25%, vezes a diferença de nível, de dano."
 
 #
 #. [skirmisher]: id=skirmisher
@@ -5213,7 +5212,7 @@ msgid "Special Notes:"
 msgstr "Notas Especiais:"
 
 #
-#: data/core/macros/special-notes.cfg:17
+#: data/core/macros/special-notes.cfg:15
 msgid ""
 "Spirits have very unusual resistances to damage, and move quite slowly over "
 "open water."
@@ -5222,7 +5221,7 @@ msgstr ""
 "a água."
 
 #
-#: data/core/macros/special-notes.cfg:20
+#: data/core/macros/special-notes.cfg:18
 msgid ""
 "This unit’s arcane attack deals tremendous damage to magical creatures, and "
 "even some to mundane creatures."
@@ -5231,17 +5230,17 @@ msgstr ""
 "criaturas mágicas, e mesmo a criaturas mundanas."
 
 #
-#: data/core/macros/special-notes.cfg:27
+#: data/core/macros/special-notes.cfg:25
 msgid "This unit is capable of basic healing."
 msgstr "Esta unidade é capaz de sarar um pouco as feridas."
 
 #
-#: data/core/macros/special-notes.cfg:30
+#: data/core/macros/special-notes.cfg:28
 msgid "This unit is capable of rapid healing."
 msgstr "Esta unidade é capaz de sarar rapidamente as suas feridas."
 
 #
-#: data/core/macros/special-notes.cfg:33
+#: data/core/macros/special-notes.cfg:31
 msgid ""
 "This unit is capable of healing those around it, and curing them of poison."
 msgstr ""
@@ -5249,7 +5248,7 @@ msgstr ""
 "veneno."
 
 #
-#: data/core/macros/special-notes.cfg:36
+#: data/core/macros/special-notes.cfg:34
 msgid ""
 "This unit is capable of neutralizing the effects of poison in units around "
 "it."
@@ -5258,7 +5257,7 @@ msgstr ""
 "redor."
 
 #
-#: data/core/macros/special-notes.cfg:39
+#: data/core/macros/special-notes.cfg:37
 msgid ""
 "This unit regenerates, which allows it to heal as though always stationed in "
 "a village."
@@ -5267,7 +5266,7 @@ msgstr ""
 "numa aldeia."
 
 #
-#: data/core/macros/special-notes.cfg:42
+#: data/core/macros/special-notes.cfg:40
 msgid ""
 "The steadiness of this unit reduces damage from some attacks, but only while "
 "defending."
@@ -5276,7 +5275,7 @@ msgstr ""
 "ataques, mas apenas quando está a defender-se."
 
 #
-#: data/core/macros/special-notes.cfg:45
+#: data/core/macros/special-notes.cfg:43
 msgid ""
 "The leadership of this unit enables adjacent units of the same side to deal "
 "more damage in combat, though this only applies to units of lower level."
@@ -5286,7 +5285,7 @@ msgstr ""
 "unidades de nível mais baixo."
 
 #
-#: data/core/macros/special-notes.cfg:48
+#: data/core/macros/special-notes.cfg:46
 msgid ""
 "This unit’s skill at skirmishing allows it to ignore enemies’ zones of "
 "control and thus move unhindered around them."
@@ -5295,14 +5294,14 @@ msgstr ""
 "controlo dos inimigos, de maneira a poder mover-se livremente por entre eles."
 
 #
-#: data/core/macros/special-notes.cfg:51
+#: data/core/macros/special-notes.cfg:49
 msgid "Illumination increases the lighting level in adjacent areas."
 msgstr ""
 "A habilidade de iluminação aumenta o nível de luminosidade nas regiões "
 "adjacentes."
 
 #
-#: data/core/macros/special-notes.cfg:54
+#: data/core/macros/special-notes.cfg:52
 msgid ""
 "This unit can use one move to teleport between any two empty villages "
 "controlled by its side."
@@ -5311,7 +5310,7 @@ msgstr ""
 "ponto de movimento."
 
 #
-#: data/core/macros/special-notes.cfg:57
+#: data/core/macros/special-notes.cfg:55
 msgid ""
 "In woodlands, this unit’s ambush skill renders it invisible to enemies "
 "unless it is immediately adjacent or has revealed itself by attacking."
@@ -5321,13 +5320,13 @@ msgstr ""
 "tenha revelado, ao atacar."
 
 #
-#: data/core/macros/special-notes.cfg:60
+#: data/core/macros/special-notes.cfg:58
 msgid "This unit is able to hide at night, leaving no trace of its presence."
 msgstr ""
 "Esta unidade pode-se esconder à noite, sem deixar traço da sua presença."
 
 #
-#: data/core/macros/special-notes.cfg:63
+#: data/core/macros/special-notes.cfg:61
 msgid ""
 "This unit can hide in villages (with the exception of water villages), and "
 "remain undetected by its enemies, except by those standing next to it."
@@ -5337,7 +5336,7 @@ msgstr ""
 "adjacentes."
 
 #
-#: data/core/macros/special-notes.cfg:66
+#: data/core/macros/special-notes.cfg:64
 msgid ""
 "This unit can move unseen in deep water, requiring no air from the surface."
 msgstr ""
@@ -5345,7 +5344,7 @@ msgstr ""
 "voltar à superfície para respirar."
 
 #
-#: data/core/macros/special-notes.cfg:69
+#: data/core/macros/special-notes.cfg:67
 msgid ""
 "This unit gains 1 hitpoint added to its maximum whenever it kills a living "
 "unit."
@@ -5354,7 +5353,7 @@ msgstr ""
 "matar uma unidade viva."
 
 #
-#: data/core/macros/special-notes.cfg:72
+#: data/core/macros/special-notes.cfg:70
 msgid ""
 "Whenever its berserk attack is used, this unit continues to push the attack "
 "until either it or its enemy lies dead."
@@ -5363,7 +5362,7 @@ msgstr ""
 "até que ela ou o seu adversário esteja morto."
 
 #
-#: data/core/macros/special-notes.cfg:75
+#: data/core/macros/special-notes.cfg:73
 msgid ""
 "If there is an enemy of the target on the opposite side of the target while "
 "attacking it, this unit may backstab, inflicting double damage by creeping "
@@ -5374,7 +5373,7 @@ msgstr ""
 "adversário pelas costas."
 
 #
-#: data/core/macros/special-notes.cfg:78
+#: data/core/macros/special-notes.cfg:76
 msgid ""
 "Foes who lose their life to the plague will rise again in unlife, unless "
 "they are standing on a village."
@@ -5383,7 +5382,7 @@ msgstr ""
 "como mortos-vivos, a menos que estejam numa aldeia."
 
 #
-#: data/core/macros/special-notes.cfg:81
+#: data/core/macros/special-notes.cfg:79
 msgid ""
 "This unit is able to slow its enemies, halving their movement speed and "
 "attack damage until they end a turn."
@@ -5392,7 +5391,7 @@ msgstr ""
 "movimento e dano de ataque à metade até o fim do seu turno."
 
 #
-#: data/core/macros/special-notes.cfg:84
+#: data/core/macros/special-notes.cfg:82
 msgid ""
 "The ability to turn the living to stone makes this unit extremely dangerous."
 msgstr ""
@@ -5400,7 +5399,7 @@ msgstr ""
 "extremamente perigosa."
 
 #
-#: data/core/macros/special-notes.cfg:87
+#: data/core/macros/special-notes.cfg:85
 msgid ""
 "This unit’s marksmanship gives it a high chance of hitting targeted enemies, "
 "but only on the attack."
@@ -5409,7 +5408,7 @@ msgstr ""
 "nos inimigos, mas apenas quando está a atacar."
 
 #
-#: data/core/macros/special-notes.cfg:90
+#: data/core/macros/special-notes.cfg:88
 msgid ""
 "This unit has magical attacks, which always have a high chance of hitting an "
 "opponent."
@@ -5418,7 +5417,7 @@ msgstr ""
 "acertar um oponente."
 
 #
-#: data/core/macros/special-notes.cfg:93
+#: data/core/macros/special-notes.cfg:91
 msgid ""
 "The swarming attacks of this unit become less deadly whenever its members "
 "are wounded."
@@ -5427,7 +5426,7 @@ msgstr ""
 "ela é ferida."
 
 #
-#: data/core/macros/special-notes.cfg:96
+#: data/core/macros/special-notes.cfg:94
 msgid ""
 "Using a charging attack doubles both damage dealt and received; this does "
 "not affect defensive retaliation."
@@ -5436,7 +5435,7 @@ msgstr ""
 "não se aplica para contra-ataques defensivos."
 
 #
-#: data/core/macros/special-notes.cfg:99
+#: data/core/macros/special-notes.cfg:97
 msgid ""
 "During battle, this unit can drain life from victims to renew its own health."
 msgstr ""
@@ -5444,7 +5443,7 @@ msgstr ""
 "recuperando a sua própria energia."
 
 #
-#: data/core/macros/special-notes.cfg:102
+#: data/core/macros/special-notes.cfg:100
 msgid ""
 "The length of this unit’s weapon allows it to strike first in melee, even in "
 "defense."
@@ -5453,7 +5452,7 @@ msgstr ""
 "corpo a corpo, mesmo quando está a defender-se."
 
 #
-#: data/core/macros/special-notes.cfg:105
+#: data/core/macros/special-notes.cfg:103
 msgid ""
 "The victims of this unit’s poison will continually take damage until they "
 "can be cured in town or by a unit which cures."
@@ -5461,7 +5460,7 @@ msgstr ""
 "As vítimas do veneno desta unidade irão continuar tomar danos até que possam "
 "ser curadas numa aldeia ou por uma unidade com habilidades curar."
 
-#: data/core/macros/special-notes.cfg:108
+#: data/core/macros/special-notes.cfg:106
 msgid ""
 "This unit has a defense cap on certain terrain types — it cannot achieve a "
 "higher defense rating on mixed terrains with such terrain types."
@@ -6582,12 +6581,12 @@ msgstr "Equinos"
 #: data/core/units.cfg:186
 msgid ""
 "Domesticated horses come in many shapes and sizes, from mighty war chargers, "
-"to sturdy draught horses or agile stock horses.  While they are more fragile "
+"to sturdy draught horses or agile stock horses. While they are more fragile "
 "than many beasts, their speed and cunning allow feral horses to thrive in "
 "the wild, alongside their wild brethren.\n"
 "\n"
 "Horses have been an important part of many civilizations, so it is not "
-"surprising that there are many myths and stories centered around them.  "
+"surprising that there are many myths and stories centered around them. "
 "Winged horses, man-horse hybrids, and ghost horses have made their way into "
 "written history, though few can honestly claim to have seen such things."
 msgstr ""
@@ -7709,6 +7708,24 @@ msgstr "Custo da visão"
 #: src/help/help_topic_generators.cpp:716
 msgid "Jamming Cost"
 msgstr "Custo da Interferência"
+
+#
+#~ msgid ""
+#~ "This unit can lead your own units that are next to it, making them fight "
+#~ "better.\n"
+#~ "\n"
+#~ "Adjacent own units of lower level will do more damage in battle. When a "
+#~ "unit adjacent to, of a lower level than, and on the same side as a unit "
+#~ "with Leadership engages in combat, its attacks do 25% more damage times "
+#~ "the difference in their levels."
+#~ msgstr ""
+#~ "Esta unidade pode liderar aliados adjacentes, fazendo-os lutar melhor.\n"
+#~ "\n"
+#~ "Unidades aliadas adjacentes de nível menor do que a unidade líder "
+#~ "causarão mais dano em batalha. Quando uma unidade da mesma equipa, de "
+#~ "nível mais baixo, e adjacente a uma unidade com liderança entra em "
+#~ "combate, os seus ataques têm mais 25%, vezes a diferença de nível, de "
+#~ "dano."
 
 #~ msgid "TODO"
 #~ msgstr "PARA FAZER"
