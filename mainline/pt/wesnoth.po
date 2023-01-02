@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-07-05 09:17-0500\n"
+"POT-Creation-Date: 2023-01-01 18:34-0600\n"
 "PO-Revision-Date: 2022-07-07 10:34+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -113,13 +113,13 @@ msgstr ""
 
 #
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:85
+#: data/advanced_preferences.cfg:76
 msgid "Chat message aging"
 msgstr "Envelhecimento das mensagens instantâneas"
 
 #
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:86
+#: data/advanced_preferences.cfg:77
 msgid ""
 "Number of minutes to wait before clearing an ingame chat message. Set to 0 "
 "to disable."
@@ -129,24 +129,24 @@ msgstr ""
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:96
+#: data/advanced_preferences.cfg:87
 msgid "Use 12-hour clock format"
 msgstr "Usa relógio de formato de 12 horas"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:103
+#: data/advanced_preferences.cfg:94
 msgid "Confirm loading saves from a different version"
 msgstr "Confirmar ao carregar uma partida gravada de uma versão diferente"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:110
+#: data/advanced_preferences.cfg:101
 msgid "Show all unit types in help"
 msgstr "Descobre todas as unidades na ajuda"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:111
+#: data/advanced_preferences.cfg:102
 #, fuzzy
 #| msgid ""
 #| "Show all unit types in the help (requires restart). This does not alter "
@@ -159,43 +159,43 @@ msgstr ""
 "unidades encontrados"
 
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:118
+#: data/advanced_preferences.cfg:109
 msgid "Editor recent files limit"
 msgstr "Limite de ficheiros recentes no editor"
 
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:119
+#: data/advanced_preferences.cfg:110
 msgid ""
 "The maximum number of items to display on the Recent Files menu in the editor"
 msgstr "O máximo de ficheiros recentes a mostrar no editor de mapas"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:129
+#: data/advanced_preferences.cfg:120
 msgid "Show color cursors"
 msgstr "Mostrar cursor colorido"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:130
+#: data/advanced_preferences.cfg:121
 msgid "Use colored mouse cursors"
 msgstr "Mostrar cursor colorido"
 
 #. [advanced_preference]: type=custom
-#: data/advanced_preferences.cfg:137
+#: data/advanced_preferences.cfg:128
 msgid "Customize orb colors"
 msgstr "Personalizar a cor das esferas"
 
 #. [advanced_preference]: type=custom
-#: data/advanced_preferences.cfg:143
+#: data/advanced_preferences.cfg:134
 msgid "Logging"
 msgstr "Nível do Log"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:149
+#: data/advanced_preferences.cfg:140
 msgid "Allow damage calculation with Monte Carlo simulation"
 msgstr "Permite cálculo de dano pelo método de Monte Carlo"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:150
+#: data/advanced_preferences.cfg:141
 msgid ""
 "Allow the damage calculation window to simulate fights instead of using "
 "exact probability calculations"
@@ -204,12 +204,12 @@ msgstr ""
 "cálculos de probabilidade"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:157
+#: data/advanced_preferences.cfg:148
 msgid "Show deprecation messages in-game"
 msgstr "Mostra mensagens de depreciação"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:158
+#: data/advanced_preferences.cfg:149
 #, fuzzy
 msgid ""
 "Show warnings about deprecated API in the in-game chat area. These messages "
@@ -218,6 +218,23 @@ msgid ""
 msgstr "Mostra avisos sobre "
 
 #
+#. [advanced_preference]: type=int
+#: data/advanced_preferences.cfg:156
+#, fuzzy
+#| msgid "Connection timed out"
+msgid "Server disconnect timeout"
+msgstr "Conectividade expirada"
+
+#. [advanced_preference]: type=int
+#: data/advanced_preferences.cfg:157
+msgid ""
+"The amount of time in seconds before a disconnect is detected. If currently "
+"logged into the multiplayer server, you must log out and then log back in "
+"for this to take effect."
+msgstr ""
+
+#
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [unstore_unit]
 #. [lua]: set_status
 #: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg:365
@@ -241,6 +258,7 @@ msgid "Gold carryover:"
 msgstr "Ouro carregado:"
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [note]
 #. [lua]: generate_objectives
 #: data/campaigns/The_Rise_Of_Wesnoth/scenarios/15_A_New_Land.cfg:248
@@ -250,7 +268,7 @@ msgstr "Notas:"
 
 #
 #. [button]: id=ok
-#: data/campaigns/World_Conquest/gui/help_dialog.cfg:734
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:736
 msgid "Close"
 msgstr "Fechar"
 
@@ -4016,6 +4034,7 @@ msgid "Fungus"
 msgstr "Floresta de Cogumelos"
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=village
 #: data/core/team-colors.cfg:195 src/terrain/terrain.cpp:188
 msgid "Village"
@@ -4052,12 +4071,14 @@ msgid "Impassable"
 msgstr "Impassível"
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=fog
 #: data/core/team-colors.cfg:231 src/game_initialization/lobby_data.cpp:446
 msgid "Fog"
 msgstr "Nevoeiro"
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [color_range]: id=shroud
 #: data/core/team-colors.cfg:237 src/game_initialization/lobby_data.cpp:449
 #: src/game_initialization/lobby_data.cpp:452
@@ -4419,6 +4440,7 @@ msgstr "Sim"
 msgid "No"
 msgstr "Não"
 
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/screenshot_notification.cfg:95
 #: src/hotkey/command_executor.cpp:633
@@ -4450,6 +4472,7 @@ msgstr "Oldania ADF Std"
 msgid "(Note: You should use $replacement instead in new code)"
 msgstr "(Nota: Deve usar $replacement no seu novo código)"
 
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: wesnoth.deprecate_api
 #: data/lua/core/_initial.lua:28 src/deprecation.cpp:69
 msgid "Invalid deprecation level $level (should be 1-4)"
@@ -4461,30 +4484,35 @@ msgid "Invalid deprecation level (should be 1-4)"
 msgstr ""
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:126 src/actions/attack.cpp:1075
 msgid "female^poisoned"
 msgstr "envenenada"
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:128 src/actions/attack.cpp:1082
 msgid "female^slowed"
 msgstr "atrasada"
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:128 src/actions/attack.cpp:1082
 msgid "slowed"
 msgstr "atrasado"
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:129 src/actions/attack.cpp:1088
 msgid "female^petrified"
 msgstr "petrificada"
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: set_status
 #: data/lua/wml/harm_unit.lua:129 src/actions/attack.cpp:1088
 msgid "petrified"
@@ -4502,6 +4530,7 @@ msgstr "incurável"
 msgid "unhealable"
 msgstr "incurável"
 
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: wesnoth.wml_actions.message
 #: data/lua/wml/message.lua:432 src/scripting/game_lua_kernel.cpp:3019
 #: src/scripting/game_lua_kernel.cpp:3054
@@ -4509,6 +4538,7 @@ msgid "input"
 msgstr "entrada"
 
 #
+#. #-#-#-#-#  wesnoth.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [lua]: generate_objectives
 #: data/lua/wml/objectives.lua:36 src/game_initialization/mp_game_utils.cpp:76
 msgid "Victory:"
@@ -6656,59 +6686,59 @@ msgstr "%d, %b %Y"
 msgid "Invalid color in range: "
 msgstr "Gama de cor inválida: "
 
-#: src/game_config_manager.cpp:243 src/game_config_manager.cpp:253
-#: src/game_config_manager.cpp:265
+#: src/game_config_manager.cpp:244 src/game_config_manager.cpp:254
+#: src/game_config_manager.cpp:266
 msgid "Error validating data core."
 msgstr "Erro ao validar os ficheiros do módulo."
 
-#: src/game_config_manager.cpp:244
+#: src/game_config_manager.cpp:245
 msgid "Found a core without id attribute."
 msgstr "Encontrado um módulo sem identificação."
 
-#: src/game_config_manager.cpp:245 src/game_config_manager.cpp:256
-#: src/game_config_manager.cpp:269
+#: src/game_config_manager.cpp:246 src/game_config_manager.cpp:257
+#: src/game_config_manager.cpp:270
 msgid "Skipping the core."
 msgstr "Saltar o módulo."
 
-#: src/game_config_manager.cpp:254 src/game_config_manager.cpp:266
-#: src/game_config_manager.cpp:289
+#: src/game_config_manager.cpp:255 src/game_config_manager.cpp:267
+#: src/game_config_manager.cpp:290
 msgid "Core ID: "
 msgstr "ID do módulo: "
 
-#: src/game_config_manager.cpp:255
+#: src/game_config_manager.cpp:256
 msgid "The ID is already in use."
 msgstr "A ID já está em uso."
 
-#: src/game_config_manager.cpp:267
+#: src/game_config_manager.cpp:268
 msgid "Core Path: "
 msgstr "Caminho do Módulo: "
 
-#: src/game_config_manager.cpp:268
+#: src/game_config_manager.cpp:269
 msgid "File not found."
 msgstr "Ficheiro não encontrado."
 
-#: src/game_config_manager.cpp:288 src/game_config_manager.cpp:300
+#: src/game_config_manager.cpp:289 src/game_config_manager.cpp:301
 msgid "Error loading core data."
 msgstr "Erro ao carregar módulo."
 
-#: src/game_config_manager.cpp:290
+#: src/game_config_manager.cpp:291
 msgid "Error loading the core with named id."
 msgstr "Erro ao carregar o módulo com o id listado."
 
-#: src/game_config_manager.cpp:291
+#: src/game_config_manager.cpp:292
 msgid "Falling back to the default core."
 msgstr "Retornando ao módulo padrão."
 
-#: src/game_config_manager.cpp:301
+#: src/game_config_manager.cpp:302
 msgid "Can't locate the default core."
 msgstr "Não é possível localizar o módulo por padrão."
 
 #
-#: src/game_config_manager.cpp:302
+#: src/game_config_manager.cpp:303
 msgid "The game will now exit."
 msgstr "O programa vai terminar agora."
 
-#: src/game_config_manager.cpp:360
+#: src/game_config_manager.cpp:365
 msgid ""
 "Error loading custom game configuration files. The game will try without "
 "loading add-ons."
@@ -6716,7 +6746,7 @@ msgstr ""
 "Erro ao carregar ficheiros de configuração do jogo personalizados. O "
 "Programa irá tentar continuar sem carregar extras."
 
-#: src/game_config_manager.cpp:367
+#: src/game_config_manager.cpp:372
 msgid ""
 "Error loading custom game configuration files. The game will fallback to the "
 "default core files."
@@ -6724,7 +6754,7 @@ msgstr ""
 "Erro ao carregar ficheiros de configuração do jogo. O Programa irá carregar "
 "a configuração por padrão."
 
-#: src/game_config_manager.cpp:376
+#: src/game_config_manager.cpp:381
 msgid ""
 "Error loading default core game configuration files. The game will now exit."
 msgstr ""
@@ -6734,25 +6764,25 @@ msgstr ""
 #. TRANSLATORS: For example, 'Cuttle Fish' units will not be able to advance to 'Kraken'.
 #. The substituted strings are unit ids, not translated names; hopefully any add-ons
 #. that trigger this will be quickly fixed and stop triggering the warning.
-#: src/game_config_manager.cpp:527
+#: src/game_config_manager.cpp:532
 msgid ""
 "Error: [advancefrom] no longer works. ‘$lower_level’ units will not be able "
 "to advance to ‘$higher_level’; please ask the add-on author to use "
 "[modify_unit_type] instead."
 msgstr ""
 
-#: src/game_config_manager.cpp:563
+#: src/game_config_manager.cpp:568
 msgid "instead, use the macro with the same name in the [campaign] tag"
 msgstr ""
 
 #
-#: src/game_config_manager.cpp:614
+#: src/game_config_manager.cpp:619
 msgid "The following add-on had errors and could not be loaded:"
 msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] "O seguintes extra teve erro e não pode ser carregado:"
 msgstr[1] "O seguintes extras tiveram erros e não podem ser carregados:"
 
-#: src/game_config_manager.cpp:618
+#: src/game_config_manager.cpp:623
 msgid "Please report this to the author or maintainer of this add-on."
 msgid_plural ""
 "Please report this to the respective authors or maintainers of these add-ons."
@@ -7505,7 +7535,7 @@ msgid "Recruits"
 msgstr "Recrutamentos"
 
 #
-#: src/help/help_impl.cpp:770 src/units/types.cpp:490
+#: src/help/help_impl.cpp:770 src/units/types.cpp:489
 msgid "No description available."
 msgstr "Descrição não disponível."
 
@@ -8263,7 +8293,6 @@ msgid "Side '$side' controller is now fully controlled by: AI."
 msgstr "O jogador '$side' agora é controlado pela IA."
 
 #: src/menu_events.cpp:1543
-#| msgid "Side '$side' is already droided."
 msgid "Side '$side' is already fully AI controlled."
 msgstr "O jogador '$side' já é controlado pela IA."
 
@@ -8388,7 +8417,7 @@ msgid "prompt^Command:"
 msgstr "Comando:"
 
 #
-#: src/mouse_events.cpp:1169
+#: src/mouse_events.cpp:1173
 msgid ""
 "You cannot move your leader away from the keep with some planned recruits or "
 "recalls left."
@@ -8397,7 +8426,7 @@ msgstr ""
 "convocatórias planeados restantes."
 
 #
-#: src/mouse_events.cpp:1264
+#: src/mouse_events.cpp:1268
 msgid "This unit has no usable weapons."
 msgstr "Esta unidade não possui nenhuma arma usável."
 
@@ -8450,7 +8479,7 @@ msgid "Turn changed"
 msgstr "Turno mudado"
 
 #
-#: src/pathfind/pathfind.cpp:746
+#: src/pathfind/pathfind.cpp:755
 msgid "Terrain with a movement cost less than 1 encountered."
 msgstr "Encontrado um terreno com um custo de movimento menor de 1."
 
@@ -8667,7 +8696,6 @@ msgid "Race: "
 msgstr "Raça: "
 
 #: src/reports.cpp:239
-#| msgid "Side $side_number ($name)"
 msgid "Side: <b>$side_name</b> ($color_name)"
 msgstr "Equipa: <b>$side_name</b> ($color_name)"
 
@@ -9040,14 +9068,12 @@ msgstr "Contagem Regressiva do Turno"
 #
 #. TRANSLATORS: Day of week + month + day of month + year + 12-hour time, eg 'Tue Nov 02 2021, 1:59 PM'. Format for your locale.
 #: src/save_index.cpp:280
-#| msgid "%a %b %d %I:%M %p %Y"
 msgid "%a %b %d %Y, %I:%M %p"
 msgstr "%a %d de %b %Y, %I:%M %p"
 
 #
 #. TRANSLATORS: Day of week + month + day of month + year + 24-hour time, eg 'Tue Nov 02 2021, 13:59'. Format for your locale.
 #: src/save_index.cpp:282
-#| msgid "%a %b %d %H:%M %Y"
 msgid "%a %b %d %Y, %H:%M"
 msgstr "%a, %d de %b %Y, %H:%M"
 
@@ -9379,7 +9405,7 @@ msgid "A unit was created using debug mode during $player’s turn"
 msgstr ""
 "Uma unidade fora criada pelo modo de depuração durante o turno de $player"
 
-#: src/synced_user_choice.cpp:331
+#: src/synced_user_choice.cpp:339
 msgid "waiting for $desc from side $sides"
 msgid_plural "waiting for $desc from sides $sides"
 msgstr[0] "esperando por $desc da equipa $sides"
@@ -9525,22 +9551,22 @@ msgid "No advancement"
 msgstr "Sem avanço"
 
 #
-#: src/units/types.cpp:843
+#: src/units/types.cpp:842
 msgid "female^lawful"
 msgstr "diurna"
 
 #
-#: src/units/types.cpp:844
+#: src/units/types.cpp:843
 msgid "female^neutral"
 msgstr "neutra"
 
 #
-#: src/units/types.cpp:845
+#: src/units/types.cpp:844
 msgid "female^chaotic"
 msgstr "nocturna"
 
 #
-#: src/units/types.cpp:846
+#: src/units/types.cpp:845
 msgid "female^liminal"
 msgstr "liminar"
 
@@ -9616,7 +9642,7 @@ msgstr "$year AQ"
 msgid "$year AF"
 msgstr "$year DQ"
 
-#: src/wesnothd_connection.cpp:531
+#: src/wesnothd_connection.cpp:536
 msgid "Disconnected from server."
 msgstr "Desconectado do servidor."
 
@@ -9936,10 +9962,6 @@ msgstr "Opções do modo de planificação"
 #~ msgstr ""
 #~ "Quase todos os ícones e botões no jogo de Wesnoth têm uma dica. Coloca o "
 #~ "teu rato num destes para ter uma explicação ou descrição do que faz."
-
-#
-#~ msgid "Connection timed out"
-#~ msgstr "Conectividade expirada"
 
 #
 #~ msgid "Bad data received from server"

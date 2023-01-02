@@ -3,7 +3,7 @@ Portuguese translation files for « The Battle for Wesnoth »
 
 Translation progress:
 
- » PT                             —    14664    1488   18606 ( 70%) -2454
+ » PT                             —    14664    1503   18626 ( 70%) -2459
  * wesnoth-tutorial               —      279       0     279 (100%) -0
  * wesnoth-tb                     —      224       0     224 (100%) -0
  * wesnoth-multiplayer            —      299       0     299 (100%) -0
@@ -13,7 +13,7 @@ Translation progress:
  * wesnoth-lib                    —     1414       0    1449 ( 97%) -35
  * wesnoth-nr                     —     1178      28    1207 ( 95%) -1
  * wesnoth-dw                     —      458      18     476 ( 92%) -0
- * wesnoth                        —     1292      30    1378 ( 91%) -56
+ * wesnoth                        —     1292      31    1380 ( 91%) -57
  * wesnoth-trow                   —      963      43    1007 ( 91%) -1
  * wesnoth-ei                     —      545      27     572 ( 90%) -0
  * wesnoth-httt                   —     1121      37    1227 ( 88%) -69
@@ -21,12 +21,12 @@ Translation progress:
  * wesnoth-sotbe                  —      589      51     640 ( 84%) -0
  * wesnoth-utbs                   —     1727     148    1934 ( 81%) -59
  * wesnoth-help                   —      556       5     680 ( 81%) -119
- * wesnoth-units                  —      616      17     740 ( 80%) -107
+ * wesnoth-units                  —      616      18     741 ( 80%) -107
  * wesnoth-dm                     —      617     111     731 ( 69%) -3
- * wesnoth-wc                     —      154       3     458 ( 32%) -301
  * wesnoth-thot                   —      183      69     354 ( 32%) -102
+ * wesnoth-wc                     —      155      16     475 ( 29%) -304
  * wesnoth-sof                    —      328     178     669 ( 22%) -163
- * wesnoth-manpages               —      156     107     310 ( 15%) -47
+ * wesnoth-manpages               —      155     107     310 ( 15%) -48
  * wesnoth-did                    —      185     222     887 ( -4%) -480
  * wesnoth-sota                   —      114      56     647 (  8%) -477
  * wesnoth-l                      —      123      94     426 (  6%) -209

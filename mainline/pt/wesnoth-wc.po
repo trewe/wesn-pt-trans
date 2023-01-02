@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: The Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-05-08 01:42 UTC\n"
+"POT-Creation-Date: 2023-01-02 00:33 UTC\n"
 "PO-Revision-Date: 2022-07-07 10:07+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans\n"
@@ -123,31 +123,126 @@ msgid "WoCopedia"
 msgstr ""
 
 #. [label]: id=title
+#. [lua]: gui.widget.add_invest_item
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:285
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:383
+#: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:55
+msgid "Artifacts"
+msgstr ""
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:400
+msgid "Recruits"
+msgstr "Recrutamentos"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:467
+#, fuzzy
+#| msgid "Desert"
+msgid "Deserters"
+msgstr "Deserto"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:486
+#, fuzzy
+#| msgid "Commander"
+msgid "Commanders"
+msgstr "Comandante"
+
+#. [label]
+#. [lua]: gui.widget.add_invest_item
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:505
+#: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:74
+msgid "Heroes"
+msgstr "Heróis"
+
+#. [label]: id=title_random_leaders
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:524
+#, fuzzy
+#| msgid "Random Maps"
+msgid "Random Leaders"
+msgstr "Mapas Aleatórios"
+
+#. [label]: id=title
 #. [lua]: preshow
-#: data/campaigns/World_Conquest/gui/help_dialog.cfg:571
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:573
 #: data/campaigns/World_Conquest/lua/game_mechanics/wocopedia/help.lua:45
 msgid "Settings"
 msgstr "Configurações"
 
 #. [label]
-#: data/campaigns/World_Conquest/gui/help_dialog.cfg:670
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:592
+#, fuzzy
+#| msgid "World Conquest"
+msgid "Use World Conquest PYA mod"
+msgstr "Conquista do Mundo"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:612
+#, fuzzy
+#| msgid "World Conquest 1p"
+msgid "Use World Conquest Unitmarkers"
+msgstr "Conquista do Mundo 1J"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:632
+msgid "Use World Conquest experimental pickup"
+msgstr ""
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:652
+#, fuzzy
+#| msgid "Show titlescreen animation"
+msgid "Show pickup confirmation"
+msgstr "Ver Animação da Tela Principal"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:672
 msgid "Difficulty"
 msgstr "Dificuldade"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:693
+#, fuzzy
+#| msgid "World Conquest"
+msgid "World Conquest version"
+msgstr "Conquista do Mundo"
 
 #. [label]: id=title
 #: data/campaigns/World_Conquest/gui/invest_dialog.cfg:34
 msgid "Choose a bonus for your team"
 msgstr "Escolha um bónus para a tua equipa"
 
+#. [label]
+#. [lua]: gui.widget.add_invest_item
+#: data/campaigns/World_Conquest/gui/invest_dialog.cfg:240
+#: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:134
+msgid "Before:"
+msgstr "Depois:"
+
+#. [label]
+#. [lua]: gui.widget.add_invest_item
+#: data/campaigns/World_Conquest/gui/invest_dialog.cfg:259
+#: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:134
+msgid "After:"
+msgstr "Antes:"
+
+#. [button]: id=ok
+#: data/campaigns/World_Conquest/gui/invest_dialog.cfg:302
+msgid "Get This Item"
+msgstr ""
+
+#. [button]: id=ok
+#: data/campaigns/World_Conquest/gui/invest_dialog.cfg:327
+#: data/campaigns/World_Conquest/gui/invest_tellunit.cfg:58
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:236
+msgid "OK"
+msgstr "Confirmar"
+
 #. [label]: id=title
 #: data/campaigns/World_Conquest/gui/invest_tellunit.cfg:24
 msgid "You got"
 msgstr ""
-
-#. [button]: id=ok
-#: data/campaigns/World_Conquest/gui/invest_tellunit.cfg:58
-msgid "OK"
-msgstr "Confirmar"
 
 #. [label]: id=title
 #: data/campaigns/World_Conquest/gui/pickup_confirmation.cfg:24
@@ -183,6 +278,53 @@ msgstr " cenário: "
 #: data/campaigns/World_Conquest/gui/settings_dialog.cfg:85
 msgid " map: "
 msgstr " mapa: "
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:112
+#, fuzzy
+#| msgid "Map size:"
+msgid "map size"
+msgstr "Tamanho do mapa:"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:128
+msgid "village density"
+msgstr ""
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:144
+#, fuzzy
+#| msgid "Map size:"
+msgid "keep size"
+msgstr "Tamanho do mapa:"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:160
+#, fuzzy
+#| msgid "Moderation"
+msgid "iterations"
+msgstr "Moderação"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:176
+#, fuzzy
+#| msgid "Terrain Editor"
+msgid "terrain factor"
+msgstr "Editor de Terreno"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:192
+#, fuzzy
+#| msgid "Acceleration factor:"
+msgid "island factor"
+msgstr "Fator de aceleração:"
+
+#. [label]
+#: data/campaigns/World_Conquest/gui/settings_dialog.cfg:208
+#, fuzzy
+#| msgid "Number of Turns"
+msgid "number of keeps"
+msgstr "Número de turnos"
 
 #: data/campaigns/World_Conquest/lua/campaign/enemy_themed.lua:5
 msgid "$name|'s pet"
@@ -1104,16 +1246,6 @@ msgid "WC2 Invest"
 msgstr ""
 
 #. [lua]: gui.widget.add_invest_item
-#: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:55
-msgid "Artifacts"
-msgstr ""
-
-#. [lua]: gui.widget.add_invest_item
-#: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:74
-msgid "Heroes"
-msgstr "Heróis"
-
-#. [lua]: gui.widget.add_invest_item
 #: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:77
 msgid ""
 "Commanders will take your leader’s place when the leader dies, possible "
@@ -1151,16 +1283,6 @@ msgstr ""
 #: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:124
 msgid "$name Training"
 msgstr ""
-
-#. [lua]: gui.widget.add_invest_item
-#: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:134
-msgid "After:"
-msgstr "Antes:"
-
-#. [lua]: gui.widget.add_invest_item
-#: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:134
-msgid "Before:"
-msgstr "Depois:"
 
 #. [lua]: gui.widget.add_invest_item
 #: data/campaigns/World_Conquest/lua/game_mechanics/invest/invest_show_dialog.lua:139
