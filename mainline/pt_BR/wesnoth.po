@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-07-05 09:17-0500\n"
-"PO-Revision-Date: 2021-12-06 08:46-0300\n"
+"POT-Creation-Date: 2023-01-01 18:34-0600\n"
+"PO-Revision-Date: 2023-01-07 11:04-0300\n"
 "Last-Translator: Andrei Machado <andreisp.machado@yahoo.com>\n"
 "Language-Team: Portuguese - Brasil\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.1.1\n"
 
 #
 # File: src/menu_events.cpp, line: 3119
@@ -151,7 +151,7 @@ msgstr ""
 # File: data/advanced_preferences.cfg, line: 131
 # File: data/advanced_preferences.cfg, line: 131
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:85
+#: data/advanced_preferences.cfg:76
 msgid "Chat message aging"
 msgstr "Tempo máximo de mensagem no chat"
 
@@ -160,7 +160,7 @@ msgstr "Tempo máximo de mensagem no chat"
 # File: data/advanced_preferences.cfg, line: 132
 # File: data/advanced_preferences.cfg, line: 132
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:86
+#: data/advanced_preferences.cfg:77
 msgid ""
 "Number of minutes to wait before clearing an ingame chat message. Set to 0 "
 "to disable."
@@ -173,7 +173,7 @@ msgstr ""
 # File: data/advanced_preferences.cfg, line: 142
 # File: data/advanced_preferences.cfg, line: 142
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:96
+#: data/advanced_preferences.cfg:87
 msgid "Use 12-hour clock format"
 msgstr "Exibir tempo como um relógio de 12 horas"
 
@@ -182,7 +182,7 @@ msgstr "Exibir tempo como um relógio de 12 horas"
 # File: data/advanced_preferences.cfg, line: 149
 # File: data/advanced_preferences.cfg, line: 149
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:103
+#: data/advanced_preferences.cfg:94
 msgid "Confirm loading saves from a different version"
 msgstr "Confirmar ao carregar jogos salvos de uma versão diferete"
 
@@ -192,7 +192,7 @@ msgstr "Confirmar ao carregar jogos salvos de uma versão diferete"
 # File: data/advanced_preferences.cfg, line: 156
 # File: data/advanced_preferences.cfg, line: 156
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:110
+#: data/advanced_preferences.cfg:101
 msgid "Show all unit types in help"
 msgstr "Exibir todos tipos de unidades na secção de ajuda"
 
@@ -202,7 +202,7 @@ msgstr "Exibir todos tipos de unidades na secção de ajuda"
 # File: data/advanced_preferences.cfg, line: 157
 # File: data/advanced_preferences.cfg, line: 157
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:111
+#: data/advanced_preferences.cfg:102
 msgid ""
 "Show all unit types in the help (requires restart). If unset, only units "
 "that have been encountered will be shown."
@@ -212,12 +212,12 @@ msgstr ""
 "serão exibidas."
 
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:118
+#: data/advanced_preferences.cfg:109
 msgid "Editor recent files limit"
 msgstr "Limite de arquivos recentes do Editor"
 
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:119
+#: data/advanced_preferences.cfg:110
 msgid ""
 "The maximum number of items to display on the Recent Files menu in the editor"
 msgstr ""
@@ -225,32 +225,32 @@ msgstr ""
 "editor"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:129
+#: data/advanced_preferences.cfg:120
 msgid "Show color cursors"
 msgstr "Mostrar cursores coloridos"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:130
+#: data/advanced_preferences.cfg:121
 msgid "Use colored mouse cursors"
 msgstr "Usar cursores de mouse coloridos"
 
 #. [advanced_preference]: type=custom
-#: data/advanced_preferences.cfg:137
+#: data/advanced_preferences.cfg:128
 msgid "Customize orb colors"
 msgstr "Personalizar a cor das esferas"
 
 #. [advanced_preference]: type=custom
-#: data/advanced_preferences.cfg:143
+#: data/advanced_preferences.cfg:134
 msgid "Logging"
 msgstr "Logando"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:149
+#: data/advanced_preferences.cfg:140
 msgid "Allow damage calculation with Monte Carlo simulation"
 msgstr "Permite cálculo de dano pelo método de Monte Carlo"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:150
+#: data/advanced_preferences.cfg:141
 msgid ""
 "Allow the damage calculation window to simulate fights instead of using "
 "exact probability calculations"
@@ -259,12 +259,12 @@ msgstr ""
 "cálculos de probabilidade"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:157
+#: data/advanced_preferences.cfg:148
 msgid "Show deprecation messages in-game"
 msgstr "Mostrar mensagens de deprecation dentro do jogo"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:158
+#: data/advanced_preferences.cfg:149
 msgid ""
 "Show warnings about deprecated API in the in-game chat area. These messages "
 "will still be shown in the log, even if this is disabled. In addition, the "
@@ -274,6 +274,32 @@ msgstr ""
 "mensagens ainda aparecerão no log, mesmo que essa opção esteja desabilitada. "
 "Além do mais, os controles do dominio do log deprecation controlam quantas "
 "mensagens são mostradas."
+
+#
+# File: src/multiplayer.cpp, line: 235
+# File: src/multiplayer.cpp, line: 320
+# File: src/multiplayer_ui.cpp, line: 84
+# File: src/multiplayer.cpp, line: 235
+# File: src/multiplayer.cpp, line: 320
+# File: src/multiplayer_ui.cpp, line: 84
+# File: src/multiplayer.cpp, line: 235
+# File: src/multiplayer.cpp, line: 320
+# File: src/multiplayer_ui.cpp, line: 84
+#. [advanced_preference]: type=int
+#: data/advanced_preferences.cfg:156
+msgid "Server disconnect timeout"
+msgstr "Tempo limite de conexão com o servidor esgotado"
+
+#. [advanced_preference]: type=int
+#: data/advanced_preferences.cfg:157
+msgid ""
+"The amount of time in seconds before a disconnect is detected. If currently "
+"logged into the multiplayer server, you must log out and then log back in "
+"for this to take effect."
+msgstr ""
+"A quantidade de tempo em segundos antes que uma desconexão seja detectada. "
+"Se você estiver logado em um servidor multiplayer, você precisa primeiro "
+"deslogar e depois relogar para que esta opção surta efeito."
 
 #
 # File: data/campaigns/Son_Of_The_Black_Eye/scenarios/07_The_Desert_of_Death.cfg, line: 311
@@ -340,7 +366,7 @@ msgstr "Notas:"
 # File: src/menu_events.cpp, line: 166
 # File: src/statistics_dialog.cpp, line: 182
 #. [button]: id=ok
-#: data/campaigns/World_Conquest/gui/help_dialog.cfg:734
+#: data/campaigns/World_Conquest/gui/help_dialog.cfg:736
 msgid "Close"
 msgstr "Fechar"
 
@@ -1167,12 +1193,12 @@ msgstr "Machado"
 #. [item]: id=axe-small
 #: data/core/editor/items.cfg:72
 msgid "Small Axe"
-msgstr ""
+msgstr "Machado Pequeno"
 
 #. [item]: id=axe-throwing
 #: data/core/editor/items.cfg:78
 msgid "Throwing Axe"
-msgstr ""
+msgstr "Machado de Arremesso"
 
 #
 # File: data/core/team-colors.cfg, line: 32
@@ -1267,12 +1293,12 @@ msgstr "Caixa"
 #. [item]: id=branch
 #: data/core/editor/items.cfg:198
 msgid "Branch"
-msgstr ""
+msgstr "Ramo"
 
 #. [item]: id=branch-bare
 #: data/core/editor/items.cfg:204
 msgid "Bare Branch"
-msgstr ""
+msgstr "Ramo Nu"
 
 #. [item]: id=brazier
 #: data/core/editor/items.cfg:210
@@ -1281,10 +1307,8 @@ msgstr "Brazeiro"
 
 #. [item]: id=brazier-lit1
 #: data/core/editor/items.cfg:217
-#, fuzzy
-#| msgid "Brazier"
 msgid "Lit Brazier"
-msgstr "Brazeiro"
+msgstr "Brazeiro Aceso"
 
 #. [item]: id=buckler
 #. [item]: id=buckler2
@@ -1308,18 +1332,14 @@ msgstr "Cela"
 
 #. [item]: id=chest
 #: data/core/editor/items.cfg:247
-#, fuzzy
-#| msgid "Closed Plain Chest"
 msgid "Closed Chest"
-msgstr "Baú Simples Fechado"
+msgstr "Baú Fechado"
 
 #. [item]: id=chest-open
 #. Open is an adjective here, not a verb. That is, a (treasure) chest that is open, not an action to open such a chest.
 #: data/core/editor/items.cfg:254
-#, fuzzy
-#| msgid "Open Plain Chest"
 msgid "Open Chest"
-msgstr "Baú Simples Aberto"
+msgstr "Baú Aberto"
 
 #. [item]: id=chest-plain-closed
 #: data/core/editor/items.cfg:260
@@ -1346,7 +1366,7 @@ msgstr "Manto Verde"
 #. [item]: id=club
 #: data/core/editor/items.cfg:278
 msgid "Club"
-msgstr ""
+msgstr "Clava"
 
 #. [item]: id=coffin-closed
 #: data/core/editor/items.cfg:284
@@ -1356,20 +1376,18 @@ msgstr "Caixão Fechado"
 #. [item]: id=coffin-open
 #. Open is an adjective here, not a verb. That is, a coffin that is open, not an action to open a coffin.
 #: data/core/editor/items.cfg:291
-#, fuzzy
-#| msgid "Closed Coffin"
 msgid "Open Coffin"
-msgstr "Caixão Fechado"
+msgstr "Caixão Aberto"
 
 #. [item]: id=crossbow
 #: data/core/editor/items.cfg:297
 msgid "Crossbow"
-msgstr ""
+msgstr "Besta"
 
 #. [item]: id=dagger
 #: data/core/editor/items.cfg:303
 msgid "Dagger"
-msgstr ""
+msgstr "Adaga"
 
 #
 # File: data/core/macros/items.cfg, line: 242
@@ -1377,15 +1395,13 @@ msgstr ""
 # File: data/core/macros/items.cfg, line: 242
 #. [item]: id=dagger-poison
 #: data/core/editor/items.cfg:309
-#, fuzzy
-#| msgid "Poison"
 msgid "Poison Dagger"
-msgstr "Veneno"
+msgstr "Adaga Envenenada"
 
 #. [item]: id=dagger-poison-bare
 #: data/core/editor/items.cfg:315
 msgid "Poison Dagger (clean)"
-msgstr ""
+msgstr "Adaga Envenenada (limpa)"
 
 #. [item]: id=dragonstatue
 #: data/core/editor/items.cfg:321
@@ -1399,10 +1415,8 @@ msgstr "Espada Flamejante"
 
 #. [item]: id=flame-sword-bare
 #: data/core/editor/items.cfg:333
-#, fuzzy
-#| msgid "Flaming Sword"
 msgid "Unenchanted Flaming Sword"
-msgstr "Espada Flamejante"
+msgstr "Espada Flamejante não encantada"
 
 #
 # File: data/lua/wml-tags.lua, line: 11449
@@ -1447,10 +1461,8 @@ msgstr "Feixe de Grãos"
 
 #. [item]: id=hammer
 #: data/core/editor/items.cfg:393
-#, fuzzy
-#| msgid "Runic Hammer"
 msgid "Hammer"
-msgstr "Martelo Rúnico"
+msgstr "Martelo"
 
 #. [item]: id=hammer-runic
 #: data/core/editor/items.cfg:399
@@ -1479,10 +1491,8 @@ msgstr "Chave"
 # File: data/core/team-colors.cfg, line: 26
 #. [item]: id=key-dark
 #: data/core/editor/items.cfg:423
-#, fuzzy
-#| msgid "Dark Red"
 msgid "Dark Key"
-msgstr "Vermelho Escuro"
+msgstr "Chave Vermelha"
 
 #. [item]: id=leather-pack
 #: data/core/editor/items.cfg:429
@@ -1492,21 +1502,17 @@ msgstr "Mochila de Couro"
 #. [item]: id=mace
 #: data/core/editor/items.cfg:435
 msgid "Mace"
-msgstr ""
+msgstr "Maça"
 
 #. [item]: id=necklace-bone
 #: data/core/editor/items.cfg:441
-#, fuzzy
-#| msgid "Ankh Necklace"
 msgid "Bone Necklace"
-msgstr "Colar Ankh"
+msgstr "Colar de Osso"
 
 #. [item]: id=necklace-stone
 #: data/core/editor/items.cfg:447
-#, fuzzy
-#| msgid "Ankh Necklace"
 msgid "Stone Necklace"
-msgstr "Colar Ankh"
+msgstr "Colar Pedra"
 
 #. [item]: id=orcish-flag
 #: data/core/editor/items.cfg:453
@@ -1629,14 +1635,12 @@ msgstr "Cetro de Fogo"
 #. [item]: id=sling
 #: data/core/editor/items.cfg:555
 msgid "Sling"
-msgstr ""
+msgstr "Funda"
 
 #. [item]: id=spear
 #: data/core/editor/items.cfg:561
-#, fuzzy
-#| msgid "Fancy Spear"
 msgid "Spear"
-msgstr "Lança Extravagante"
+msgstr "Lança"
 
 #. [item]: id=spear-fancy
 #. [item]: id=spear-fancy2
@@ -1647,7 +1651,7 @@ msgstr "Lança Extravagante"
 #. [item]: id=spear-javelin
 #: data/core/editor/items.cfg:579
 msgid "Javelin"
-msgstr ""
+msgstr "Azagaia"
 
 #. [item]: id=staff
 #. [item]: id=staff2
@@ -1657,10 +1661,8 @@ msgstr "Cajado"
 
 #. [item]: id=staff-druid
 #: data/core/editor/items.cfg:597
-#, fuzzy
-#| msgid "Magic Staff"
 msgid "Druid Staff"
-msgstr "Cajado Mágico"
+msgstr "Cajado Druídico"
 
 #. [item]: id=staff-magic
 #. [item]: id=staff-magic2
@@ -1670,17 +1672,13 @@ msgstr "Cajado Mágico"
 
 #. [item]: id=staff-magic-wand
 #: data/core/editor/items.cfg:615
-#, fuzzy
-#| msgid "Magic Staff"
 msgid "Magic Wand"
-msgstr "Cajado Mágico"
+msgstr "Varinha Mágica"
 
 #. [item]: id=staff-plain
 #: data/core/editor/items.cfg:621
-#, fuzzy
-#| msgid "Magic Staff"
 msgid "Plain Staff"
-msgstr "Cajado Mágico"
+msgstr "Cajado Simples"
 
 #. [item]: id=stone-tablet
 #: data/core/editor/items.cfg:627
@@ -1713,56 +1711,48 @@ msgstr "Espada"
 
 #. [item]: id=sword-holy
 #: data/core/editor/items.cfg:669
-#, fuzzy
-#| msgid "Sword"
 msgid "Holy Sword"
-msgstr "Espada"
+msgstr "Espada Sagrada"
 
 #. [item]: id=sword-short
 #: data/core/editor/items.cfg:675
-#, fuzzy
-#| msgid "Sword"
 msgid "Short Sword"
-msgstr "Espada"
+msgstr "Espada curta"
 
 #. [item]: id=sword-wraith
 #: data/core/editor/items.cfg:681
-#, fuzzy
-#| msgid "Flaming Sword"
 msgid "Wraith Sword"
-msgstr "Espada Flamejante"
+msgstr "Espada Espectral"
 
 #. [item]: id=talisman-ankh
 #: data/core/editor/items.cfg:687
 msgid "Ankh Talisman"
-msgstr ""
+msgstr "Talismã Ankh"
 
 #. [item]: id=talisman-bone
 #: data/core/editor/items.cfg:693
 msgid "Bone Talisman"
-msgstr ""
+msgstr "Talismã de Osso"
 
 #. [item]: id=talisman-stone
 #: data/core/editor/items.cfg:699
-#, fuzzy
-#| msgid "Stone Tablet"
 msgid "Stone Talisman"
-msgstr "Tabuinha de Pedra"
+msgstr "Talismã de Pedra"
 
 #. [item]: id=thunderstick
 #: data/core/editor/items.cfg:705
 msgid "Thunderstick"
-msgstr ""
+msgstr "Bastão de Trovão"
 
 #. [item]: id=torch
 #: data/core/editor/items.cfg:711
 msgid "Lit Torch"
-msgstr ""
+msgstr "Tocha Acesa"
 
 #. [item]: id=torch-bare
 #: data/core/editor/items.cfg:717
 msgid "Unlit Torch"
-msgstr ""
+msgstr "Tocha Apagada"
 
 #
 # File: src/statistics_dialog.cpp, line: 225
@@ -1977,10 +1967,8 @@ msgstr "Templo"
 #. [item]: id=temple-cracked3
 #: data/core/editor/items.cfg:1069 data/core/editor/items.cfg:1075
 #: data/core/editor/items.cfg:1081
-#, fuzzy
-#| msgid "Ruined Tent"
 msgid "Ruined Temple"
-msgstr "Tenda Arruinada"
+msgstr "Templo Arruinado"
 
 #. [item]: id=tent-fancy-red
 #: data/core/editor/items.cfg:1087
@@ -8155,12 +8143,10 @@ msgid "An error occurred while downloading the add-ons list from the server."
 msgstr "Ocorreu um erro ao baixar a lista de add-ons do servidor."
 
 #: src/addon/manager_ui.cpp:318
-#, fuzzy
-#| msgid "Could not find an add-on matching id $addon_id on the add-on server."
 msgid ""
 "Could not find add-ons matching the ids $addon_ids on the add-on server."
 msgstr ""
-"Não foi possivel encontrar um add-on com o id $addon_id no servidor de add-"
+"Não foi possivel encontrar add-ons com os ids $addon_ids no servidor de add-"
 "ons."
 
 #: src/addon/validation.cpp:388
@@ -8884,30 +8870,30 @@ msgstr "%b %d %Y"
 msgid "Invalid color in range: "
 msgstr "Gama de cor inválida: "
 
-#: src/game_config_manager.cpp:243 src/game_config_manager.cpp:253
-#: src/game_config_manager.cpp:265
+#: src/game_config_manager.cpp:244 src/game_config_manager.cpp:254
+#: src/game_config_manager.cpp:266
 msgid "Error validating data core."
 msgstr "Erro ao validar os dados do core."
 
-#: src/game_config_manager.cpp:244
+#: src/game_config_manager.cpp:245
 msgid "Found a core without id attribute."
 msgstr "Um core foi encontrado sem id atribuido."
 
-#: src/game_config_manager.cpp:245 src/game_config_manager.cpp:256
-#: src/game_config_manager.cpp:269
+#: src/game_config_manager.cpp:246 src/game_config_manager.cpp:257
+#: src/game_config_manager.cpp:270
 msgid "Skipping the core."
 msgstr "Pulando o core."
 
-#: src/game_config_manager.cpp:254 src/game_config_manager.cpp:266
-#: src/game_config_manager.cpp:289
+#: src/game_config_manager.cpp:255 src/game_config_manager.cpp:267
+#: src/game_config_manager.cpp:290
 msgid "Core ID: "
 msgstr "Core ID: "
 
-#: src/game_config_manager.cpp:255
+#: src/game_config_manager.cpp:256
 msgid "The ID is already in use."
 msgstr "O ID já está em uso."
 
-#: src/game_config_manager.cpp:267
+#: src/game_config_manager.cpp:268
 msgid "Core Path: "
 msgstr "Caminho do Core: "
 
@@ -8915,23 +8901,23 @@ msgstr "Caminho do Core: "
 # File: src/menu_events.cpp, line: 2927
 # File: src/menu_events.cpp, line: 2926
 # File: src/menu_events.cpp, line: 2926
-#: src/game_config_manager.cpp:268
+#: src/game_config_manager.cpp:269
 msgid "File not found."
 msgstr "Arquivo não encontrado."
 
-#: src/game_config_manager.cpp:288 src/game_config_manager.cpp:300
+#: src/game_config_manager.cpp:289 src/game_config_manager.cpp:301
 msgid "Error loading core data."
 msgstr "Erro ao carregar os dados do core."
 
-#: src/game_config_manager.cpp:290
+#: src/game_config_manager.cpp:291
 msgid "Error loading the core with named id."
 msgstr "Erro ao carregar o core com o id listado."
 
-#: src/game_config_manager.cpp:291
+#: src/game_config_manager.cpp:292
 msgid "Falling back to the default core."
 msgstr "Retornando ao core padrão."
 
-#: src/game_config_manager.cpp:301
+#: src/game_config_manager.cpp:302
 msgid "Can't locate the default core."
 msgstr "Não foi possível localizar o core padrão."
 
@@ -8939,7 +8925,7 @@ msgstr "Não foi possível localizar o core padrão."
 # File: src/game_controller.cpp, line: 1062
 # File: src/game_controller.cpp, line: 1062
 # File: src/game_controller.cpp, line: 1062
-#: src/game_config_manager.cpp:302
+#: src/game_config_manager.cpp:303
 msgid "The game will now exit."
 msgstr "O jogo agora será fechado."
 
@@ -8947,7 +8933,7 @@ msgstr "O jogo agora será fechado."
 # File: src/game_controller.cpp, line: 1061
 # File: src/game_controller.cpp, line: 1061
 # File: src/game_controller.cpp, line: 1061
-#: src/game_config_manager.cpp:360
+#: src/game_config_manager.cpp:365
 msgid ""
 "Error loading custom game configuration files. The game will try without "
 "loading add-ons."
@@ -8959,7 +8945,7 @@ msgstr ""
 # File: src/game_controller.cpp, line: 1061
 # File: src/game_controller.cpp, line: 1061
 # File: src/game_controller.cpp, line: 1061
-#: src/game_config_manager.cpp:367
+#: src/game_config_manager.cpp:372
 msgid ""
 "Error loading custom game configuration files. The game will fallback to the "
 "default core files."
@@ -8971,7 +8957,7 @@ msgstr ""
 # File: src/game_controller.cpp, line: 1061
 # File: src/game_controller.cpp, line: 1061
 # File: src/game_controller.cpp, line: 1061
-#: src/game_config_manager.cpp:376
+#: src/game_config_manager.cpp:381
 msgid ""
 "Error loading default core game configuration files. The game will now exit."
 msgstr ""
@@ -8981,14 +8967,17 @@ msgstr ""
 #. TRANSLATORS: For example, 'Cuttle Fish' units will not be able to advance to 'Kraken'.
 #. The substituted strings are unit ids, not translated names; hopefully any add-ons
 #. that trigger this will be quickly fixed and stop triggering the warning.
-#: src/game_config_manager.cpp:527
+#: src/game_config_manager.cpp:532
 msgid ""
 "Error: [advancefrom] no longer works. ‘$lower_level’ units will not be able "
 "to advance to ‘$higher_level’; please ask the add-on author to use "
 "[modify_unit_type] instead."
 msgstr ""
+"Erro: [advancefrom] não funciona mais. Unidades como ‘$lower_level’ não mais "
+"avançarão para ‘$higher_level’; por favor, peça que o autor do add-on use "
+"[modify_unit_type]."
 
-#: src/game_config_manager.cpp:563
+#: src/game_config_manager.cpp:568
 msgid "instead, use the macro with the same name in the [campaign] tag"
 msgstr ""
 "ao invés disso, use o macro com o mesmo nome que está na tag [campaign]"
@@ -8997,13 +8986,13 @@ msgstr ""
 # File: src/game_controller.cpp, line: 1021
 # File: src/game_controller.cpp, line: 1021
 # File: src/game_controller.cpp, line: 1021
-#: src/game_config_manager.cpp:614
+#: src/game_config_manager.cpp:619
 msgid "The following add-on had errors and could not be loaded:"
 msgid_plural "The following add-ons had errors and could not be loaded:"
 msgstr[0] "O seguinte add-on não pode ser carregado corretamente:"
 msgstr[1] "Os seguintes add-ons não poderam ser carregados corretamente:"
 
-#: src/game_config_manager.cpp:618
+#: src/game_config_manager.cpp:623
 msgid "Please report this to the author or maintainer of this add-on."
 msgid_plural ""
 "Please report this to the respective authors or maintainers of these add-ons."
@@ -9428,10 +9417,8 @@ msgstr "Derrote o(s) lídere(s) inimigo(s)"
 # File: src/multiplayer_connect.cpp, line: 1816
 # File: src/multiplayer_connect.cpp, line: 1816
 #: src/game_initialization/mp_game_utils.cpp:103
-#, fuzzy
-#| msgid "Cannot find era $era"
 msgid "Cannot find era '$era'"
-msgstr "Não foi possível encontrar $era"
+msgstr "Não foi possível encontrar '$era'"
 
 #: src/game_initialization/multiplayer.cpp:237
 msgid "Invalid address specified for multiplayer server"
@@ -10286,7 +10273,7 @@ msgstr "Recrutados"
 # File: src/unit_types.cpp, line: 762
 # File: src/unit_types.cpp, line: 762
 # File: src/unit_types.cpp, line: 762
-#: src/help/help_impl.cpp:770 src/units/types.cpp:490
+#: src/help/help_impl.cpp:770 src/units/types.cpp:489
 msgid "No description available."
 msgstr "Nenhuma descrição disponível."
 
@@ -10963,6 +10950,8 @@ msgid ""
 "Similar to the 'fps' command, but also forces everything to redraw instead "
 "of only things that have changed."
 msgstr ""
+"Similar ao comando 'fps', mas também força tudo a recarregar ao invés de "
+"apenas coisas que mudaram."
 
 #
 # File: src/menu_events.cpp, line: 1977
@@ -11531,6 +11520,8 @@ msgstr "Variável não encontrada"
 #: src/menu_events.cpp:1990
 msgid "Debug command 'unit: $unit' failed: no unit selected or hovered over."
 msgstr ""
+"Comando de Debug 'unit: $unit' failed: nenhuma unidade selecionada ou com o "
+"cursor em cima."
 
 #
 # File: src/menu_events.cpp, line: 2978
@@ -11585,7 +11576,7 @@ msgstr "Comando:"
 # File: src/mouse_events.cpp, line: 725
 # File: src/mouse_events.cpp, line: 725
 # File: src/mouse_events.cpp, line: 725
-#: src/mouse_events.cpp:1169
+#: src/mouse_events.cpp:1173
 msgid ""
 "You cannot move your leader away from the keep with some planned recruits or "
 "recalls left."
@@ -11600,7 +11591,7 @@ msgstr ""
 # File: src/mouse_events.cpp, line: 842
 # File: src/attack_prediction_display.cpp, line: 260
 # File: src/mouse_events.cpp, line: 842
-#: src/mouse_events.cpp:1264
+#: src/mouse_events.cpp:1268
 msgid "This unit has no usable weapons."
 msgstr "Esta unidade não possui nenhuma arma utilizavel."
 
@@ -11665,7 +11656,7 @@ msgstr "Turno mudou"
 # File: src/pathfind/pathfind.cpp, line: 681
 # File: src/pathfind/pathfind.cpp, line: 681
 # File: src/pathfind/pathfind.cpp, line: 681
-#: src/pathfind/pathfind.cpp:746
+#: src/pathfind/pathfind.cpp:755
 msgid "Terrain with a movement cost less than 1 encountered."
 msgstr "Encontrado terreno com um custo de movimento menor de 1."
 
@@ -12614,10 +12605,8 @@ msgstr "Contagem Regressiva do Turno"
 # File: src/savegame.cpp, line: 306
 #. TRANSLATORS: Day of week + month + day of month + year + 12-hour time, eg 'Tue Nov 02 2021, 1:59 PM'. Format for your locale.
 #: src/save_index.cpp:280
-#, fuzzy
-#| msgid "%a %b %d %I:%M %p %Y"
 msgid "%a %b %d %Y, %I:%M %p"
-msgstr "%a %b %d %I:%M %p %Y"
+msgstr "%a %d %b %Y, %I:%M %p"
 
 #
 # File: src/dialogs.cpp, line: 809
@@ -12628,10 +12617,8 @@ msgstr "%a %b %d %I:%M %p %Y"
 # File: src/savegame.cpp, line: 306
 #. TRANSLATORS: Day of week + month + day of month + year + 24-hour time, eg 'Tue Nov 02 2021, 13:59'. Format for your locale.
 #: src/save_index.cpp:282
-#, fuzzy
-#| msgid "%a %b %d %H:%M %Y"
 msgid "%a %b %d %Y, %H:%M"
-msgstr "%a %b %d %H:%M %Y"
+msgstr "%a %d %b %Y, %H:%M"
 
 #
 # File: src/savegame.cpp, line: 1063
@@ -13184,7 +13171,7 @@ msgstr "Comando de Debug Usado"
 msgid "A unit was created using debug mode during $player’s turn"
 msgstr "Uma unidade foi criada usando o modo de debug durante $player’s turn"
 
-#: src/synced_user_choice.cpp:331
+#: src/synced_user_choice.cpp:339
 msgid "waiting for $desc from side $sides"
 msgid_plural "waiting for $desc from sides $sides"
 msgstr[0] "esperando por $desc do lado $sides"
@@ -13402,7 +13389,7 @@ msgstr "Sem avanços"
 # File: src/unit_types.cpp, line: 819
 # File: src/unit_types.cpp, line: 819
 # File: src/unit_types.cpp, line: 819
-#: src/units/types.cpp:843
+#: src/units/types.cpp:842
 msgid "female^lawful"
 msgstr "ordeira"
 
@@ -13410,7 +13397,7 @@ msgstr "ordeira"
 # File: src/unit_types.cpp, line: 819
 # File: src/unit_types.cpp, line: 819
 # File: src/unit_types.cpp, line: 819
-#: src/units/types.cpp:844
+#: src/units/types.cpp:843
 msgid "female^neutral"
 msgstr "neutra"
 
@@ -13418,7 +13405,7 @@ msgstr "neutra"
 # File: src/unit_types.cpp, line: 819
 # File: src/unit_types.cpp, line: 819
 # File: src/unit_types.cpp, line: 819
-#: src/units/types.cpp:845
+#: src/units/types.cpp:844
 msgid "female^chaotic"
 msgstr "caótica"
 
@@ -13426,7 +13413,7 @@ msgstr "caótica"
 # File: src/unit_types.cpp, line: 819
 # File: src/unit_types.cpp, line: 819
 # File: src/unit_types.cpp, line: 819
-#: src/units/types.cpp:846
+#: src/units/types.cpp:845
 msgid "female^liminal"
 msgstr "liminar"
 
@@ -13534,7 +13521,7 @@ msgstr "$year AF"
 # File: src/multiplayer.cpp, line: 194
 # File: src/multiplayer.cpp, line: 151
 # File: src/multiplayer.cpp, line: 194
-#: src/wesnothd_connection.cpp:531
+#: src/wesnothd_connection.cpp:536
 msgid "Disconnected from server."
 msgstr "Desconectado do servidor."
 
@@ -15007,19 +14994,6 @@ msgstr "%a %b %d %H:%M %Y"
 #~ msgid "Request a list of details you can set for your registered nickname."
 #~ msgstr ""
 #~ "Solicita a lista de detalhes que você pode definir para o seu apelido."
-
-#
-# File: src/multiplayer.cpp, line: 235
-# File: src/multiplayer.cpp, line: 320
-# File: src/multiplayer_ui.cpp, line: 84
-# File: src/multiplayer.cpp, line: 235
-# File: src/multiplayer.cpp, line: 320
-# File: src/multiplayer_ui.cpp, line: 84
-# File: src/multiplayer.cpp, line: 235
-# File: src/multiplayer.cpp, line: 320
-# File: src/multiplayer_ui.cpp, line: 84
-#~ msgid "Connection timed out"
-#~ msgstr "A conexão expirou"
 
 #
 # File: src/dialogs.cpp, line: 945
@@ -19096,6 +19070,19 @@ msgstr "%a %b %d %H:%M %Y"
 #, fuzzy
 #~ msgid "AI Location:"
 #~ msgstr "Local inválido"
+
+#
+# File: src/multiplayer.cpp, line: 235
+# File: src/multiplayer.cpp, line: 320
+# File: src/multiplayer_ui.cpp, line: 84
+# File: src/multiplayer.cpp, line: 235
+# File: src/multiplayer.cpp, line: 320
+# File: src/multiplayer_ui.cpp, line: 84
+# File: src/multiplayer.cpp, line: 235
+# File: src/multiplayer.cpp, line: 320
+# File: src/multiplayer_ui.cpp, line: 84
+#~ msgid "Connection timed out"
+#~ msgstr "A conexão expirou"
 
 #~ msgid "Could not find an add-on matching id $addon_id on the add-on server."
 #~ msgstr ""
