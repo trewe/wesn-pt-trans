@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-manpages)\n"
-"POT-Creation-Date: 2023-01-01 18:33-0600\n"
+"POT-Creation-Date: 2023-04-15 20:06-0500\n"
 "PO-Revision-Date: 2022-07-07 10:35+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -27,7 +27,7 @@ msgstr "WESNOTH"
 #: doc/man/wesnoth.6:16 doc/man/wesnothd.6:16
 #, no-wrap
 msgid "2022"
-msgstr ""
+msgstr "2022"
 
 #
 # type: TH
@@ -139,6 +139,8 @@ msgid ""
 "Show all translations in the in-game language selection list, even if they "
 "are deemed insufficiently complete."
 msgstr ""
+"Mostra todas as traduções na lista de seleção de línguas do jogo, mesmo que "
+"elas não sejam consideradas como suficientemente completas."
 
 #
 # type: TP
@@ -202,6 +204,8 @@ msgid ""
 "goes directly to the campaign with id I<id_campaign>.  A selection menu will "
 "appear if no id was specified."
 msgstr ""
+"vai diretamente para a campanha com o id I<id_campaign>. Um menu de seleção "
+"aparecerá se nenhum id for especificado."
 
 #
 #. type: TP
@@ -242,12 +246,12 @@ msgstr ""
 #: doc/man/wesnoth.6:73
 #, no-wrap
 msgid "B<--campaign-skip-story>"
-msgstr ""
+msgstr "B<--campaign-skip-story>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:78
 msgid "Skip [story] screens and dialog through the end of the B<start> event."
-msgstr ""
+msgstr "Pula as [história] janelas e diálogos ate o fim pelo B<start> evento."
 
 #. type: TP
 #: doc/man/wesnoth.6:78
@@ -259,7 +263,7 @@ msgstr "Bloquear"
 #. type: Plain text
 #: doc/man/wesnoth.6:81
 msgid "Adds the option to show a clock for testing the drawing timer."
-msgstr ""
+msgstr "Adiciona a opção para mostrar um relógio para testar o cronômetro."
 
 #. type: TP
 #: doc/man/wesnoth.6:81
@@ -271,7 +275,7 @@ msgstr "B<--userconfig-dir>I<\\ nome>"
 #. type: Plain text
 #: doc/man/wesnoth.6:85
 msgid "Deprecated, use B<--userdata-dir>."
-msgstr ""
+msgstr "Depreciação, usa B<--userdata-dir>."
 
 # type: TP
 #. type: TP
@@ -371,7 +375,7 @@ msgstr "B<-d, --debug>"
 #. type: Plain text
 #: doc/man/wesnoth.6:106
 msgid "enables some Lua debugging mechanisms"
-msgstr ""
+msgstr "habilita alguns mecanismos de deb da Lua"
 
 #
 #. type: TP
@@ -384,13 +388,13 @@ msgstr "B<--strict-validation>"
 #. type: Plain text
 #: doc/man/wesnoth.6:109
 msgid "disallow deprecated Lua API calls"
-msgstr ""
+msgstr "proibi chamadas de depreciação de Lua API"
 
 #. type: TP
 #: doc/man/wesnoth.6:109
 #, no-wrap
 msgid "B<-D,--diff>I<\\ left-file>B<\\ >I<right-file>"
-msgstr ""
+msgstr "B<-D,--diff>I<\\ left-file>B<\\ >I<right-file>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:115
@@ -399,6 +403,9 @@ msgid ""
 "them through B<-p> first). Outputs the diff as DiffWML on standard output or "
 "to the file indicated by I<--output>."
 msgstr ""
+"diffs os dois arquivos WML; não pre-processa eles primeiro (para fazer isso, "
+"primeiro use B<-p>). Diff sai como DiffWML na saída padrão ou para o arquivo "
+"indicado por I<--output>."
 
 #
 # type: TP
@@ -561,6 +568,8 @@ msgid ""
 "uses language I<lang> (symbol) this session.  Example: B<--language "
 "ang_GB@latin>"
 msgstr ""
+"usa língua I<lang> (símbolo) essa sessão.  Exemplo: B<--language "
+"ang_GB@latin>"
 
 #
 # type: TP
@@ -603,7 +612,7 @@ msgstr "B<--nogui>"
 #. type: Plain text
 #: doc/man/wesnoth.6:181
 msgid "shows the timestamps in log output with more precision."
-msgstr ""
+msgstr "mostra as timestamps no log de saída com mais precisão."
 
 #
 # type: TP
@@ -621,6 +630,10 @@ msgid ""
 "this level or more severe will cause the unit test to fail regardless of the "
 "victory result. Only relevant when used with B<-u>."
 msgstr ""
+"define o nível strict para o logger. Qualquer mensagem enviada para os log "
+"domains deste nível, ou de níveis mais severos, fará com que o teste de "
+"unidade falhe independentemente do resultado da vitória. Apenas relevante "
+"quando usado juto de B<-u>."
 
 #
 #. type: TP
@@ -725,6 +738,10 @@ msgid ""
 "experimental, don't fill bug reports since most are known. Parts of the "
 "library are deemed stable and will work without this switch."
 msgstr ""
+"há um novo kit de ferramentas widget experimental, esta opção habilita-o. "
+"Isto é muito experimental, portanto não relate bugs pois a maioria deles já "
+"são conhecidos. Partes da biblioteca são consideradas estáveis e funcionarão "
+"sem esta troca."
 
 #
 # type: TP
@@ -791,6 +808,8 @@ msgid ""
 "runs the game without the GUI. Only available in combination with B<--"
 "multiplayer> or B<--screenshot> or B<--plugin>."
 msgstr ""
+"roda o jogo sem a GUI. Só está disponível em combinação com B<--multiplayer> "
+"ou B<--screenshot> ou B<--plugin>."
 
 #
 # type: TP
@@ -804,7 +823,7 @@ msgstr "B<--nocache>"
 #. type: Plain text
 #: doc/man/wesnoth.6:232
 msgid "suppress the startup banner."
-msgstr ""
+msgstr "suprime o banner de início."
 
 #
 # type: TP
@@ -836,6 +855,8 @@ msgid ""
 "don't try to validate replay of unit test. Only relevant when used with B<-"
 "u>."
 msgstr ""
+"não tente validar os replays de teste de unidade. Apenas relevante quando "
+"usado com B<-u>."
 
 #
 # type: TP
@@ -865,6 +886,7 @@ msgstr "B<--gzip>I<\\ infile>"
 #: doc/man/wesnoth.6:245
 msgid "output to the specified file. Applicable to diffing operations."
 msgstr ""
+"aloca para o arquivo especificado. Aplicável para diferentes operações."
 
 #
 #. type: TP
@@ -904,6 +926,9 @@ msgid ""
 "B<--script>, but Lua file should return a function which will be run as a "
 "coroutine and periodically woken up with updates."
 msgstr ""
+"(experimental)carrega um I<script> que define um plugin para o wesnoth. "
+"Identico ao B<--script>, mas arquivos Lua devem retornar uma função que irá "
+"agir como uma co-rotina e periodicamente despertar com atualizações."
 
 #
 #. type: TP
@@ -920,6 +945,9 @@ msgid ""
 "files.  Outputs the patched WML to standard output or to the file indicated "
 "by I<--output>."
 msgstr ""
+"aplica um patch DiffWML para um arquivo WML; não pré-processa nenhum dos "
+"dois arquivos.  Aloca o WML patched para a saída padrão ou para o arquivo "
+"indicado por I<--output>."
 
 #
 #. type: TP
@@ -1057,7 +1085,7 @@ msgstr "configura a resolução do ecrã. Por exemplo: B<-r 800x600>"
 #: doc/man/wesnoth.6:302
 #, no-wrap
 msgid "B<--render-image>I<\\ image>B<\\ >I<output>"
-msgstr ""
+msgstr "B<--render-image>I<\\ image>B<\\ >I<output>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:305
@@ -1066,6 +1094,9 @@ msgid ""
 "outputs to a .png file. Image path functions are documented at https://wiki."
 "wesnoth.org/ImagePathFunctionWML."
 msgstr ""
+"pega um \"caminho de string de imagem\" válido de wesnoth com função de "
+"caminho de imagem, e produz um arquivo .png. As funções do caminho de imagem "
+"são documentados na página https://wiki.wesnoth.org/ImagePathFunctionWML."
 
 #. type: TP
 #: doc/man/wesnoth.6:305
@@ -1080,6 +1111,8 @@ msgid ""
 "initializes game directories, prints build information suitable for use in "
 "bug reports, and exits."
 msgstr ""
+"inicia os diretórios do jogo, imprime informações da build para bug reports "
+"e depois sai."
 
 # type: TP
 #. type: TP
@@ -1095,18 +1128,20 @@ msgid ""
 "seeds the random number generator with I<number>.  Example: B<--rng-seed> "
 "B<0>."
 msgstr ""
+"preenche o gerador de números aleatórios com I<number>.  Exemplo: B<--rng-"
+"seed> B<0>."
 
 #. type: TP
 #: doc/man/wesnoth.6:315
 #, no-wrap
 msgid "B<--screenshot>I<\\ map>B<\\ >I<output>"
-msgstr ""
+msgstr "B<--screenshot>I<\\ map>B<\\ >I<output>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:322
 msgid ""
 "saves a screenshot of I<map> to I<output> without initializing a screen."
-msgstr ""
+msgstr "salva uma screenshot de I<map> para I<output> sem iniciar a tela."
 
 #
 # type: TP
@@ -1120,7 +1155,7 @@ msgstr "B<--gzip>I<\\ infile>"
 #. type: Plain text
 #: doc/man/wesnoth.6:327
 msgid "(experimental)  I<file> containing a Lua script to control the client."
-msgstr ""
+msgstr "(experimental)  I<file> contem um script Lua para controlar o cliente."
 
 #
 # type: TP
@@ -1158,7 +1193,7 @@ msgstr "B<--nogui>"
 #. type: Plain text
 #: doc/man/wesnoth.6:336
 msgid "runs the game with the GUI, overriding any implicit B<--nogui>."
-msgstr ""
+msgstr "roda o jogo sem GUI, substituindo qualquer B<--nogui> implícito."
 
 #
 #. type: TP
@@ -1177,7 +1212,7 @@ msgstr "erros de validação são tratados como fatais."
 #: doc/man/wesnoth.6:339
 #, no-wrap
 msgid "B<-t[>I<scenario_id>B<],\\ --test[>I<=scenario_id>B<]>"
-msgstr ""
+msgstr "B<-t[>I<scenario_id>B<],\\ --test[>I<=scenario_id>B<]>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:351
@@ -1187,12 +1222,15 @@ msgid ""
 "B<[micro_ai]> feature can be started with B<micro_ai_test>.  Implies B<--"
 "nogui>."
 msgstr ""
+"roda o jogo num pequeno cenário de teste. Este cenário deve ser definido com "
+"uma B<[test]> WML tag. O padrão é B<test>.  Uma demonstração da "
+"B<[micro_ai]> pode ser iniciada por B<micro_ai_test>.  Implica B<--nogui>."
 
 #. type: TP
 #: doc/man/wesnoth.6:351
 #, no-wrap
 msgid "B<--translations-over>I<\\ percent>"
-msgstr ""
+msgstr "B<--translations-over>I<\\ percent>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:357
@@ -1200,6 +1238,9 @@ msgid ""
 "Set the standard for deeming a translation is complete enough to show in the "
 "in-game language list to I<percent>.  Valid values are 0 to 100."
 msgstr ""
+"Define o padrão para considerar uma tradução como completa o suficiente para "
+"aparecer na lista de línguas dentro do jogo para I<percent>.  Valores entre "
+"0 e 100."
 
 #
 # type: TP
@@ -1214,6 +1255,8 @@ msgstr "B<-e,\\ --editor>I<\\ file>"
 #: doc/man/wesnoth.6:361
 msgid "runs the specified test scenario as a unit test. Implies B<--nogui>."
 msgstr ""
+"roda o cenário teste especificado como um teste de unidade. Implica B<--"
+"nogui>."
 
 #. type: TP
 #: doc/man/wesnoth.6:361
@@ -1229,6 +1272,10 @@ msgid ""
 "arbitrary packages. Do not do this with untrusted scripts! This action gives "
 "lua the same permissions as the wesnoth executable."
 msgstr ""
+"torna o pacote B<package> disponível para scripts lua, permitindo que eles "
+"possam carregar pacotes arbitrários. Não use isso com scripts não "
+"confiáveis! Esta ação faz dá ao lua o mesmo nível de permissão que o "
+"executável do wesnoth."
 
 #
 # type: TP
@@ -1242,7 +1289,7 @@ msgstr "B<--scenario=>I<valor>"
 #. type: Plain text
 #: doc/man/wesnoth.6:370
 msgid "sets the WML schema for use with B<-V,--validate>."
-msgstr ""
+msgstr "configura o WML schema para ser usado com B<-V,--validate>."
 
 #. type: TP
 #: doc/man/wesnoth.6:370
@@ -1359,18 +1406,18 @@ msgstr "B<--data-path>"
 #. type: Plain text
 #: doc/man/wesnoth.6:404
 msgid "validates a file against the WML schema."
-msgstr ""
+msgstr "valida um arquivo contra um WML schema."
 
 #. type: TP
 #: doc/man/wesnoth.6:404
 #, no-wrap
 msgid "B<--validate-addon>I<\\ addon_id>"
-msgstr ""
+msgstr "B<--validate-addon>I<\\ addon_id>"
 
 #. type: Plain text
 #: doc/man/wesnoth.6:407
 msgid "validates the WML of the given addon as you play."
-msgstr ""
+msgstr "valida o WML do addon enquanto você joga."
 
 #
 # type: TP
@@ -1384,7 +1431,7 @@ msgstr "B<--validcache>"
 #. type: Plain text
 #: doc/man/wesnoth.6:410
 msgid "validates the core WML as you play."
-msgstr ""
+msgstr "valida o core WML enquanto você joga."
 
 #
 # type: TP
@@ -1398,7 +1445,7 @@ msgstr "B<--validcache>"
 #. type: Plain text
 #: doc/man/wesnoth.6:413
 msgid "validates a file as a WML schema."
-msgstr ""
+msgstr "valida um arquivo como WML schema."
 
 #
 # type: TP
@@ -1536,6 +1583,10 @@ msgid ""
 "either in \"data/ai/ais\" or \"data/ai/dev\" or an algorithm defined by an "
 "addon. Available values include: B<idle_ai> and B<experimental_ai>."
 msgstr ""
+"seleciona um algorismo não padrão para ser usado para o controlador da AI "
+"deste lado. O algorismo é definido por uma B<[ai]> tag, que pode ser uma "
+"core ou na \"data/ai/ais\" ou \"data/ai/dev\" ou um algorismo definido por "
+"um addon. Valores disponíveis incluem: B<idle_ai> e B<experimental_ai>."
 
 #
 # type: TP
@@ -1633,7 +1684,7 @@ msgstr "B<--era=>I<valor>"
 #. type: Plain text
 #: doc/man/wesnoth.6:477
 msgid "sets the I<label> for AIs."
-msgstr ""
+msgstr "define o I<label> para AIs."
 
 # type: TP
 #. type: TP
@@ -1770,6 +1821,12 @@ msgid ""
 "passed, but the replay produced errors. These latter two are only returned "
 "if B<--noreplaycheck> is not passed."
 msgstr ""
+"Quando rodando testes de unidades (withB<\\ -u>), o status da saída é "
+"diferente. Um status de saída de 0 indica que o teste passou, e 1 que o "
+"teste falhou. Um status de saída de 3 indica que o teste passou, mas "
+"produziu um arquivo de replay inválido. Um status de saída de 4 indica que o "
+"teste passou, mas o replay produziu erros. Estes dois últimos só voltam se "
+"B<--noreplaycheck> não passar."
 
 #
 # type: SH
@@ -2470,7 +2527,7 @@ msgstr "Exemplo: B<versions_accepted=\"*\"> aceita qualquer versão."
 #: doc/man/wesnothd.6:168
 #, no-wrap
 msgid "B<deny_unregistered_login>"
-msgstr ""
+msgstr "B<deny_unregistered_login>"
 
 #. type: Plain text
 #: doc/man/wesnothd.6:173
@@ -2478,6 +2535,8 @@ msgid ""
 "Whether to prevent users who are not registered with the B<user_handler> "
 "being used from logging in. (default: false)"
 msgstr ""
+"Se quiser previnir usuários que não estão registrados com o B<user_handler> "
+"logando. (padrão:falso)"
 
 #
 # type: SS
@@ -2806,7 +2865,7 @@ msgstr ""
 #: doc/man/wesnothd.6:251
 #, no-wrap
 msgid "B<db_game_modification_info_table>"
-msgstr ""
+msgstr "B<db_game_modification_info_table>"
 
 #
 # type: Plain text
@@ -2853,7 +2912,7 @@ msgstr ""
 #: doc/man/wesnothd.6:257
 #, no-wrap
 msgid "B<mp_mod_group>"
-msgstr ""
+msgstr "B<mp_mod_group>"
 
 #
 # type: Plain text
