@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-lib)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-07-22 22:50-0500\n"
+"POT-Creation-Date: 2023-12-03 22:20-0600\n"
 "PO-Revision-Date: 2023-07-30 13:03+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -855,13 +855,13 @@ msgid ""
 "fungus are wanted, 'Tb' is a mushroom base terrain, which can be used with "
 "or without '^Tf' on top."
 msgstr ""
-"As sobreposições '^Uf' e '^Ufi' estão descontinuadas porque, apesar de "
+"As sobreposições “^Uf” e “^Ufi” estão descontinuadas porque, apesar de "
 "graficamente mostrar uma sobreposição com um terreno por baixo, as "
 "estatísticas de defesa e movimento são puramente do terreno de fungos, "
-"ignorando o terreno que está por baixo. Recomenda-se substituí-las por '^Tf' "
-"e '^Tfi', que são visualmente idênticas e usam as estatísticas dos gráficos. "
-"Para hexágonos em que se queira apenas as estatísticas dos fungos, 'Tb' é um "
-"terreno base de cogumelo que pode ser usado com ou sem '^Tf' por cima."
+"ignorando o terreno que está por baixo. Recomenda-se substituí-las por “^Tf” "
+"e “^Tfi”, que são visualmente idênticas e usam as estatísticas dos gráficos. "
+"Para hexágonos em que se queira apenas as estatísticas dos fungos, “Tb” é um "
+"terreno base de cogumelo que pode ser usado com ou sem “^Tf” por cima."
 
 #. [terrain_type]: id=fungus_grove_old
 #. [terrain_type]: id=fungus_beam_old
@@ -2471,6 +2471,7 @@ msgstr "Instalar extra"
 msgid "Update add-on"
 msgstr "Atualizar extra"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=single_publish
 #. [button]: id=publish
 #: data/gui/widget/addon_list.cfg:412 data/gui/window/addon_manager.cfg:337
@@ -2478,6 +2479,7 @@ msgstr "Atualizar extra"
 msgid "Publish add-on"
 msgstr "Publicar extra"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=single_uninstall
 #. [button]: id=uninstall
 #: data/gui/widget/addon_list.cfg:435 data/gui/window/addon_manager.cfg:314
@@ -2546,6 +2548,7 @@ msgid "Save password locally (encrypted)"
 msgstr "Guardar a senha localmente (encriptado)"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/addon_auth.cfg:139 data/gui/window/custom_tod.cfg:431
 #: data/gui/window/depcheck_select_new.cfg:151
@@ -2571,6 +2574,7 @@ msgid "OK"
 msgstr "Confirmar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #: data/gui/window/addon_auth.cfg:153 data/gui/window/addon_connect.cfg:211
 #: data/gui/window/addon_license_prompt.cfg:114
@@ -2689,6 +2693,7 @@ msgid "Select the add-on version"
 msgstr "Escolhe a versão do extra"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [scroll_label]: id=description
 #: data/gui/window/addon_manager.cfg:227
 #: src/gui/dialogs/multiplayer/mp_create_game.cpp:576
@@ -2750,6 +2755,7 @@ msgid "Dependencies:"
 msgstr "Dependências:"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=dependencies
 #: data/gui/window/addon_manager.cfg:620 src/gui/dialogs/addon/manager.cpp:1016
 msgid "addon_dependencies^None"
@@ -2762,6 +2768,7 @@ msgid "Translations:"
 msgstr "Traduções:"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=translations
 #: data/gui/window/addon_manager.cfg:654 src/gui/dialogs/addon/manager.cpp:1030
 msgid "translations^None"
@@ -2792,6 +2799,7 @@ msgstr "Ordem:"
 msgid "Add-ons Manager"
 msgstr "Gestor de extras"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=details_toggle
 #: data/gui/window/addon_manager.cfg:1013 src/gui/dialogs/addon/manager.cpp:511
 #: src/gui/dialogs/addon/manager.cpp:747
@@ -2992,6 +3000,7 @@ msgid "Select difficulty:"
 msgstr "Escolha o nível de dificuldade:"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/chat_log.cfg:36 src/hotkey/hotkey_command.cpp:276
 msgid "Chat Log"
@@ -3053,6 +3062,7 @@ msgid "Load Core"
 msgstr "Carregar módulo"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/core_dialog.cfg:228 src/preferences/display.cpp:171
 msgid "Select"
@@ -3099,6 +3109,7 @@ msgid "Edit Time Schedule"
 msgstr "Editar Período do Dia"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/custom_tod.cfg:177
 #: data/gui/window/editor_edit_scenario.cfg:106
@@ -3171,6 +3182,7 @@ msgstr "Novo TdD"
 msgid "Delete ToD"
 msgstr "Eliminar TdD"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/depcheck_confirm_change.cfg:40
 #: src/gui/dialogs/addon/manager.cpp:907 src/gui/dialogs/file_dialog.cpp:303
@@ -3185,6 +3197,7 @@ msgid "Would you like to apply the changes?"
 msgstr "Desejas guardar as tuas alterações?"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/depcheck_confirm_change.cfg:128
 #: data/gui/window/game_delete.cfg:107
@@ -3196,6 +3209,7 @@ msgid "Yes"
 msgstr "Sim"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #: data/gui/window/depcheck_confirm_change.cfg:142
 #: data/gui/window/game_delete.cfg:121
@@ -3284,6 +3298,7 @@ msgstr "Identificador:"
 msgid "Description:"
 msgstr "Descrição:"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_edit_scenario.cfg:170
 #: src/gui/dialogs/multiplayer/lobby.cpp:513
@@ -3346,6 +3361,7 @@ msgstr "Esconder na tabela de estado"
 msgid "Gold:"
 msgstr "Ouro:"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_edit_side.cfg:276
 #: src/gui/dialogs/multiplayer/lobby.cpp:514
@@ -3367,6 +3383,7 @@ msgstr "Suporte por aldeia:"
 msgid "Controller:"
 msgstr "Controlador:"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [row]
 #: data/gui/window/editor_edit_side.cfg:372 src/gui/dialogs/game_stats.cpp:70
 msgid "controller^Human"
@@ -3405,6 +3422,7 @@ msgid "vision^None"
 msgstr "Nenhuma"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_generate_map.cfg:43 src/hotkey/hotkey_command.cpp:240
 msgid "Generate Map"
@@ -3416,6 +3434,7 @@ msgid "Choose a map generator:"
 msgstr "Escolha o gerador de mapas aleatório:"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=settings
 #. [button]: id=random_map_settings
 #: data/gui/window/editor_generate_map.cfg:128
@@ -3436,6 +3455,7 @@ msgid "Generate"
 msgstr "Gerar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/editor_new_map.cfg:36 src/hotkey/hotkey_command.cpp:172
 msgid "New Map"
@@ -3464,6 +3484,7 @@ msgid "Create"
 msgstr "Criar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_resize_map.cfg:35 src/hotkey/hotkey_command.cpp:239
 msgid "Resize Map"
@@ -3711,6 +3732,7 @@ msgid "Date"
 msgstr "Data"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #. [button]: id=load_game
 #: data/gui/window/game_load.cfg:292 data/gui/window/mp_create_game.cfg:898
@@ -3772,12 +3794,14 @@ msgid "Load"
 msgstr "Retomar Partida"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/window/game_save.cfg:42 data/gui/window/game_save_message.cfg:42
 #: data/gui/window/game_save_oos.cfg:42 src/hotkey/hotkey_command.cpp:100
 msgid "Save Game"
 msgstr "Guardar o Jogo"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. [button]: id=save
 #: data/gui/window/game_save.cfg:120
@@ -3820,12 +3844,14 @@ msgstr "Líder"
 msgid "Team"
 msgstr "Equipa"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_2
 #: data/gui/window/game_stats.cfg:63
 #: src/gui/dialogs/multiplayer/mp_join_game.cpp:438
 msgid "Gold"
 msgstr "Ouro"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_3
 #: data/gui/window/game_stats.cfg:76
 #: src/generators/default_map_generator.cpp:198
@@ -3842,6 +3868,7 @@ msgstr "Unidades"
 msgid "Upkeep"
 msgstr "Manutenção"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_6
 #. [image]: id=income_icon
 #. [label]: id=side_income
@@ -3893,6 +3920,7 @@ msgstr ""
 "Suporte por\n"
 "aldeia"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/game_stats.cfg:705 src/gui/dialogs/game_stats.cpp:254
 msgid "Current Status"
@@ -3904,6 +3932,7 @@ msgstr "Estado atual"
 msgid "Game Stats"
 msgstr "Estatísticas da partida"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [widget]: id=tab_label
 #: data/gui/window/game_stats.cfg:793 src/gui/dialogs/game_stats.cpp:254
 msgid "Scenario Settings"
@@ -4208,6 +4237,7 @@ msgid "Create Game"
 msgstr "Criar Partida"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=join_global
 #: data/gui/window/lobby_main.cfg:419 data/gui/window/lobby_main.cfg:677
 #: src/gui/dialogs/multiplayer/lobby.cpp:1019
@@ -4215,6 +4245,7 @@ msgid "Join"
 msgstr "Entrar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=observe_global
 #: data/gui/window/lobby_main.cfg:431 data/gui/window/lobby_main.cfg:700
 #: src/gui/dialogs/multiplayer/lobby.cpp:985
@@ -4229,6 +4260,7 @@ msgid "Announcements"
 msgstr "Noticias"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=show_preferences
 #. [label]: id=title
 #. [grid]
@@ -4775,6 +4807,7 @@ msgstr "Bónus de Ação"
 msgid "Time for each attack, recruit, and capture"
 msgstr "Tempo para cada ataque, recrutamento, e captura"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [widget]: id=tab_label
 #. [widget]: id=label
 #: data/gui/window/mp_create_game.cfg:533 data/gui/window/preferences.cfg:292
@@ -4858,6 +4891,7 @@ msgstr ""
 "Configurar a senha que os jogadores que querem entrar na partida devem usar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/mp_create_game/default_resolution.cfg:176
 #: data/gui/window/mp_create_game/small_resolution.cfg:181
@@ -4882,6 +4916,7 @@ msgstr "Masculino"
 msgid "Female"
 msgstr "Feminino"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/mp_faction_select.cfg:206
 #: src/gui/dialogs/statistics_dialog.cpp:369
@@ -4940,6 +4975,7 @@ msgstr "Sair"
 msgid "Game Lobby"
 msgstr "Sala de espera"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=status_label
 #: data/gui/window/mp_join_game.cfg:491 data/gui/window/mp_staging.cfg:614
 #: data/gui/window/mp_staging.cfg:806
@@ -4972,6 +5008,7 @@ msgid "Login:"
 msgstr "Registo:"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. [widget]: id=label
 #. [grid]
@@ -5281,6 +5318,7 @@ msgstr "Ação"
 msgid "Hotkey"
 msgstr "Atalhos"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_2
 #. Translate G as the initial letter for Game
 #: data/gui/window/preferences/02_hotkeys.cfg:118
@@ -5293,6 +5331,7 @@ msgstr "G"
 msgid "Available in game"
 msgstr "Disponível na partida"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_3
 #. Translate E as the initial letter for Editor
 #: data/gui/window/preferences/02_hotkeys.cfg:131
@@ -5305,6 +5344,7 @@ msgstr "E"
 msgid "Available in editor"
 msgstr "Disponível no editor"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_4
 #. Translate M as the initial letter for Main Menu
 #: data/gui/window/preferences/02_hotkeys.cfg:144
@@ -5799,6 +5839,7 @@ msgstr ""
 msgid "Overall"
 msgstr "Geral"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/statistics_dialog.cfg:490 src/hotkey/hotkey_command.cpp:122
 msgid "Statistics"
@@ -5862,6 +5903,7 @@ msgstr ""
 "Valores em vermelho indicam que o lado se saiu pior do que o esperado."
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/window/surrender_quit.cfg:40 src/hotkey/hotkey_command.cpp:125
 msgid "Surrender Game"
@@ -5947,6 +5989,7 @@ msgid "Choose Theme"
 msgstr "Escolha o tema"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=help
 #: data/gui/window/title_screen.cfg:174 src/hotkey/hotkey_command.cpp:274
 msgid "Help"
@@ -6116,6 +6159,7 @@ msgstr "Nível"
 msgid "XP"
 msgstr "XP"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_6
 #. [toggle_button]: id=sort_4
 #: data/gui/window/unit_list.cfg:176 data/gui/window/unit_recall.cfg:89
@@ -6124,6 +6168,7 @@ msgstr "XP"
 msgid "Traits"
 msgstr "Caraterísticas"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/unit_list.cfg:367 src/hotkey/hotkey_command.cpp:121
 msgid "Unit List"
@@ -6151,6 +6196,7 @@ msgstr "Renomear"
 msgid "Dismiss"
 msgstr "Demitir"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/unit_recall.cfg:450 src/hotkey/hotkey_command.cpp:106
 msgid "Recall"
@@ -6161,12 +6207,14 @@ msgstr "Convocar"
 msgid "Recruit Unit"
 msgstr "Recrutar Unidade"
 
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/unit_recruit.cfg:231 src/hotkey/hotkey_command.cpp:104
 msgid "Recruit"
 msgstr "Recrutar"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/wml_error.cfg:40 src/gui/dialogs/message.cpp:211
 #: src/gui/dialogs/preferences_dialog.cpp:236
@@ -6175,6 +6223,7 @@ msgid "Error"
 msgstr "Erro"
 
 #
+#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=details_heading
 #: data/gui/window/wml_error.cfg:112 src/gui/dialogs/multiplayer/lobby.cpp:239
 #: src/gui/dialogs/multiplayer/lobby.cpp:255 src/gui/dialogs/wml_error.cpp:161
@@ -6811,7 +6860,7 @@ msgstr "Nenhuma"
 
 #: src/gui/dialogs/chat_log.cpp:404 src/gui/dialogs/game_cache_options.cpp:68
 #: src/gui/dialogs/game_version_dialog.cpp:154
-#: src/gui/dialogs/gamestate_inspector.cpp:410
+#: src/gui/dialogs/gamestate_inspector.cpp:411
 #: src/gui/dialogs/lua_interpreter.cpp:479
 #: src/gui/dialogs/screenshot_notification.cpp:69
 #: src/gui/dialogs/wml_error.cpp:193

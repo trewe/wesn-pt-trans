@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-07-22 22:50-0500\n"
+"POT-Creation-Date: 2023-12-25 11:39-0600\n"
 "PO-Revision-Date: 2022-07-07 10:34+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -735,50 +735,58 @@ msgstr "Tradução para o Eslovaco"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1645
+#: data/core/about_i18n.cfg:1648
 msgid "Slovenian Translation"
 msgstr "Tradução para o Esloveno"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1661
+#: data/core/about_i18n.cfg:1664
 msgid "Spanish Translation"
 msgstr "Tradução para o Espanhol"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1751
+#: data/core/about_i18n.cfg:1754
 msgid "Swedish Translation"
 msgstr "Tradução para o Sueco"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1796
+#: data/core/about_i18n.cfg:1799
 msgid "Turkish Translation"
 msgstr "Tradução para o Turco"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1821
+#: data/core/about_i18n.cfg:1824
 msgid "Ukrainian Translation"
 msgstr "Tradução para o Ucraniano"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1837
+#: data/core/about_i18n.cfg:1840
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Tradução para o Valenciano (Catalão do sul)"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1850
+#: data/core/about_i18n.cfg:1853
 msgid "Vietnamese Translation"
 msgstr "Tradução para o Vietnamita"
 
 #
 #. [about]
+#: data/core/about_i18n.cfg:1872
+#, fuzzy
+#| msgid "Polish Translation"
+msgid "Welsh Translation"
+msgstr "Tradução para o Polaco"
+
+#
+#. [about]
 #. Real Acadèmia de Cultura Valenciana
-#: data/core/about_i18n.cfg:1870
+#: data/core/about_i18n.cfg:1881
 msgid "RACV’s Translation"
 msgstr "Tradução para o RACV"
 
@@ -5773,7 +5781,7 @@ msgid "waiting for^an advancement choice"
 msgstr "escolha de avanço"
 
 #
-#: src/actions/attack.cpp:603 src/actions/attack.cpp:1375
+#: src/actions/attack.cpp:603 src/actions/attack.cpp:1377
 msgid "An invalid attacker weapon got selected."
 msgstr "O atacante selecionou uma arma inválida."
 
@@ -8552,7 +8560,7 @@ msgid "current local time"
 msgstr "hora local"
 
 #
-#: src/play_controller.cpp:1076
+#: src/play_controller.cpp:1078
 msgid ""
 "The game is out of sync. It might not make much sense to continue. Do you "
 "want to save your game?"
@@ -8561,17 +8569,17 @@ msgstr ""
 "continuar. Queres guardar-a?"
 
 #
-#: src/play_controller.cpp:1077
+#: src/play_controller.cpp:1079
 msgid "Error details:"
 msgstr "Detalhes do erro:"
 
-#: src/play_controller.cpp:1259
+#: src/play_controller.cpp:1261
 msgid "Warning: broken campaign branches"
 msgstr "Aviso: ramificações da campanha não funcionando"
 
 #. TRANSLATORS: This is an error that will hopefully only be seen by UMC authors and by players who have already
 #. said "okay" to a "loading saves from an old version might not work" dialog.
-#: src/play_controller.cpp:1265
+#: src/play_controller.cpp:1267
 msgid ""
 "The next scenario is missing, you will not be able to finish this campaign."
 msgid_plural ""
@@ -8580,7 +8588,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/play_controller.cpp:1272
+#: src/play_controller.cpp:1274
 msgid ""
 "Please report the following missing scenario to the campaign’s author:\n"
 "$unknown_list|"
@@ -8590,12 +8598,12 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/play_controller.cpp:1276
+#: src/play_controller.cpp:1278
 msgid "Once this is fixed, you will need to restart this scenario."
 msgstr "Quando isso for consertado, você precisará reiniciar o cenário."
 
 #
-#: src/play_controller.cpp:1456
+#: src/play_controller.cpp:1458
 msgid "No objectives available"
 msgstr "Nenhum objetivo disponível"
 
