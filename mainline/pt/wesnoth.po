@@ -6054,7 +6054,7 @@ msgid ""
 "The add-on '$addon|' is already installed and contains additional "
 "information that will be permanently lost if you continue:"
 msgstr ""
-"O extra ‘$addon|’ já está instalado e contém informações adicionais que irão "
+"O extra “$addon|” já está instalado e contém informações adicionais que irão "
 "ser perdidos para sempre se continuares:"
 
 #
@@ -6308,10 +6308,10 @@ msgstr ""
 "Nomes não podem conte white-space, caracteres de controle ou qualquer um dos "
 "seguintes símbolos:\n"
 "\n"
-"    \" * / : < > ? \\ | ~\n"
+"    “ * / : < > ? \\ | ~\n"
 "\n"
-"Além disso, nomes não podem ser maiores do que 255 caracteres, conter \".."
-"\", ou terminar em \".\"."
+"Além disso, nomes não podem ser maiores do que 255 caracteres, conter ”..“, "
+"ou terminar em ”.\"."
 
 #
 #: src/addon/validation.cpp:435
@@ -6629,7 +6629,7 @@ msgstr "Limpa o histórico das mensagens."
 #
 #: src/chat_events.cpp:60
 msgid "Unknown debug level: '$level'."
-msgstr "Nível de depuração desconhecido: ‘$level’."
+msgstr "Nível de depuração desconhecido: “$level”."
 
 #
 #: src/chat_events.cpp:62 src/chat_events.cpp:71
@@ -6639,12 +6639,12 @@ msgstr "erro"
 #
 #: src/chat_events.cpp:69
 msgid "Unknown debug domain: '$domain'."
-msgstr "Domínio de depuração desconhecido: ‘$domain’."
+msgstr "Domínio de depuração desconhecido: “$domain”."
 
 #
 #: src/chat_events.cpp:79
 msgid "Switched domain: '$domain' to level: '$level'."
-msgstr "Alterado domínio ‘$domain’ para nível: ‘$level’."
+msgstr "Alterado domínio “$domain” para nível: “$level”."
 
 #
 #: src/chat_events.cpp:148
@@ -6812,8 +6812,8 @@ msgid ""
 "to advance to ‘$higher_level’; please ask the add-on author to use "
 "[modify_unit_type] instead."
 msgstr ""
-"Erro: [advancefrom] não funciona mais. Unidades como ‘$lower_level’ não mais "
-"avançarão para ‘$higher_level’; por favor, peça que o autor do add-on use "
+"Erro: [advancefrom] não funciona mais. Unidades como “$lower_level” não mais "
+"avançarão para “$higher_level”; por favor, peça que o autor do add-on use "
 "[modify_unit_type]."
 
 #: src/game_config_manager.cpp:568
@@ -7070,7 +7070,7 @@ msgstr "Derrota o(s) líder(es) inimigo(s)"
 #
 #: src/game_initialization/mp_game_utils.cpp:103
 msgid "Cannot find era '$era'"
-msgstr "Não é possível encontrar a era \"$era\""
+msgstr "Não é possível encontrar a era “$era”"
 
 #: src/game_initialization/multiplayer.cpp:237
 msgid "Invalid address specified for multiplayer server"
@@ -7097,7 +7097,7 @@ msgid ""
 "nickname until you activate your account via email or ask an administrator "
 "to do it for you."
 msgstr ""
-"A alcunha ‘$nick’ está inativa. Não podes pedir a posse deste nome até "
+"A alcunha “$nick” está inativa. Não podes pedir a posse deste nome até "
 "ativar a tua conta via email ou solicitar a um administrador para fazer isto."
 
 #
@@ -7124,7 +7124,7 @@ msgstr "Tens de te registar primeiro."
 #
 #: src/game_initialization/multiplayer.cpp:413
 msgid "The nickname ‘$nick’ is already taken."
-msgstr "O usuário ‘$nick’ já é usado."
+msgstr "O usuário “$nick” já é usado."
 
 #
 #: src/game_initialization/multiplayer.cpp:415
@@ -7132,25 +7132,25 @@ msgid ""
 "The nickname ‘$nick’ contains invalid characters. Only alpha-numeric "
 "characters (one at minimum), underscores and hyphens are allowed."
 msgstr ""
-"A alcunha ‘$nick’ contem carateres inválidos. Só carateres alfanuméricos "
+"A alcunha “$nick” contem carateres inválidos. Só carateres alfanuméricos "
 "(pelo menos um), sublinhados e hífenes são permitidos."
 
 #
 #: src/game_initialization/multiplayer.cpp:419
 msgid "The nickname ‘$nick’ is too long. Nicks must be 20 characters or less."
 msgstr ""
-"A alcunha ‘$nick’ é muito grande. Alcunhas devem conter 20 ou menos "
+"A alcunha “$nick” é muito grande. Alcunhas devem conter 20 ou menos "
 "carateres."
 
 #
 #: src/game_initialization/multiplayer.cpp:421
 msgid "The nickname ‘$nick’ is reserved and cannot be used by players."
-msgstr "A alcunha ‘$nick’ é reservado e não pode ser usado por jogadores."
+msgstr "A alcunha “$nick” é reservado e não pode ser usado por jogadores."
 
 #
 #: src/game_initialization/multiplayer.cpp:423
 msgid "The nickname ‘$nick’ is not registered on this server."
-msgstr "A alcunha ‘$nick’ não está registado neste servidor."
+msgstr "A alcunha “$nick” não está registado neste servidor."
 
 #
 #: src/game_initialization/multiplayer.cpp:424
@@ -7160,12 +7160,12 @@ msgstr " Este servidor não autoriza usuários não registados."
 #
 #: src/game_initialization/multiplayer.cpp:427
 msgid "The nickname ‘$nick’ is banned on this server’s forums for $duration|."
-msgstr "A alcunha ‘$nick’ foi banida deste servidor por $duration|."
+msgstr "A alcunha “$nick” foi banida deste servidor por $duration|."
 
 #
 #: src/game_initialization/multiplayer.cpp:429
 msgid "The nickname ‘$nick’ is banned on this server’s forums."
-msgstr "A alcunha ‘$nick’ foi banida deste servidor."
+msgstr "A alcunha “$nick” foi banida deste servidor."
 
 #
 #: src/game_initialization/multiplayer.cpp:433
@@ -7182,20 +7182,20 @@ msgid ""
 "The email address for the nickname ‘$nick’ is banned on this server’s forums "
 "for $duration|."
 msgstr ""
-"O endereço de email para a alcunha ‘$nick’ foi banida deste servidor "
+"O endereço de email para a alcunha “$nick” foi banida deste servidor "
 "$duration|."
 
 #
 #: src/game_initialization/multiplayer.cpp:441
 msgid ""
 "The email address for the nickname ‘$nick’ is banned on this server’s forums."
-msgstr "O endereço de email para a alcunha ‘$nick’ foi banida deste servidor."
+msgstr "O endereço de email para a alcunha “$nick” foi banida deste servidor."
 
 #
 #: src/game_initialization/multiplayer.cpp:444
 #: src/game_initialization/multiplayer.cpp:446
 msgid "The nickname ‘$nick’ is registered on this server."
-msgstr "A alcunha ‘$nick’ está registado neste servidor."
+msgstr "A alcunha “$nick” está registado neste servidor."
 
 #
 #: src/game_initialization/multiplayer.cpp:447
@@ -7214,7 +7214,7 @@ msgstr "A senha que forneceste foi incorreta."
 #
 #: src/game_initialization/multiplayer.cpp:452
 msgid "You have made too many login attempts."
-msgstr "Fizeste demasiadas tentativas de ‘login’."
+msgstr "Fizeste demasiadas tentativas de “login”."
 
 #: src/game_initialization/multiplayer.cpp:454
 #, fuzzy
@@ -7370,7 +7370,7 @@ msgstr "Este cenário terminou. Desejas continuar a campanha?"
 #
 #: src/game_initialization/playcampaign.cpp:421
 msgid "Unknown scenario: '$scenario|'"
-msgstr "Cenário desconhecido: ‘$scenario|’"
+msgstr "Cenário desconhecido: “$scenario|”"
 
 #
 #: src/game_initialization/singleplayer.cpp:44
@@ -7420,7 +7420,7 @@ msgid ""
 "check the 'max hill size' parameter)"
 msgstr ""
 "Não há uma localização válida para um castelo. Demasiados ou muito poucos "
-"hexágonos de montanha? (verifique o parâmetro ‘Tamanho máximo das montanhas’)"
+"hexágonos de montanha? (verifique o parâmetro “Tamanho máximo das montanhas”)"
 
 #: src/gui/core/linked_group_definition.cpp:40
 msgid "Linked group '$id' needs a 'fixed_width' or 'fixed_height' key."
@@ -7737,7 +7737,7 @@ msgid ""
 "Unknown command '$command', try $help_command for a list of available "
 "commands."
 msgstr ""
-"Comando ‘$command|’ desconhecido, tenta $help_command para uma lista de "
+"Comando “$command|” desconhecido, tenta $help_command para uma lista de "
 "comandos disponíveis."
 
 #
@@ -8106,7 +8106,7 @@ msgstr "<id>"
 #
 #: src/menu_events.cpp:1260
 msgid "Advance to the next scenario, or scenario identified by 'id'"
-msgstr "Avançar para o próximo cenário, ou cenário identificado pela ‘id’"
+msgstr "Avançar para o próximo cenário, ou cenário identificado pela “id”"
 
 #
 #: src/menu_events.cpp:1262
@@ -8230,7 +8230,7 @@ msgstr "Descobre todas as unidades na ajuda."
 #
 #: src/menu_events.cpp:1296
 msgid "'Undiscover' all units in help."
-msgstr "‘Oculta’ todas as unidades na ajuda."
+msgstr "“Oculta” todas as unidades na ajuda."
 
 #: src/menu_events.cpp:1297
 msgid "<unit type id>"
@@ -8297,7 +8297,7 @@ msgstr "Acesa o diálogo de opções do modo de planificação."
 
 #: src/menu_events.cpp:1435
 msgid "Could not find label or unit containing the string ‘$search’."
-msgstr "Não é possível encontrar uma legenda ou unidade contendo ‘$search’."
+msgstr "Não é possível encontrar uma legenda ou unidade contendo “$search”."
 
 #
 #: src/menu_events.cpp:1482
@@ -8360,7 +8360,7 @@ msgstr ""
 
 #: src/menu_events.cpp:1610
 msgid "Can't idle invalid side: '$side'."
-msgstr "Não foi possível tirar o controlo da equipa: ‘$side’."
+msgstr "Não foi possível tirar o controlo da equipa: “$side”."
 
 #
 #: src/menu_events.cpp:1615
@@ -8369,28 +8369,28 @@ msgstr "Não é possível automatizar equipa inativa: '$side|."
 
 #: src/menu_events.cpp:1620
 msgid "Can't idle local ai side: '$side'."
-msgstr "Não foi possível tirar o controlo da equipa: ‘$side’."
+msgstr "Não foi possível tirar o controlo da equipa: “$side”."
 
 #
 #: src/menu_events.cpp:1681
 msgid "Can't change control of invalid side: '$side'."
-msgstr "Não é possível alterar o controlo da equipa: ‘$side’ é invalido."
+msgstr "Não é possível alterar o controlo da equipa: “$side” é invalido."
 
 #
 #: src/menu_events.cpp:1691
 msgid "Can't change control of out-of-bounds side: '$side'."
 msgstr ""
-"Não é possível alterar o controlo da equipa fora dos limites: ‘$side’ é "
+"Não é possível alterar o controlo da equipa fora dos limites: “$side” é "
 "invalido."
 
 #: src/menu_events.cpp:1708
 msgid "Can't query control of invalid side: '$side'."
-msgstr "Não foi possível verificar o controlo da equipa: ‘$side’."
+msgstr "Não foi possível verificar o controlo da equipa: “$side”."
 
 #: src/menu_events.cpp:1715
 msgid "Can't query control of out-of-bounds side: '$side'."
 msgstr ""
-"Não foi possível verificar o controlo da equipa fora dos limites: ‘$side’."
+"Não foi possível verificar o controlo da equipa fora dos limites: “$side”."
 
 #
 #: src/menu_events.cpp:1836
@@ -8452,7 +8452,7 @@ msgid ""
 "Invalid alignment: '$alignment', needs to be one of lawful, neutral, "
 "chaotic, or liminal."
 msgstr ""
-"Alinhamento inválido: ‘$alignment’, tem de ser um de diurno, neutro, "
+"Alinhamento inválido: “$alignment”, tem de ser um de diurno, neutro, "
 "nocturno ou liminar."
 
 #
@@ -8806,7 +8806,7 @@ msgid ""
 msgstr ""
 "Esta unidade está envenenada. Perderá 8 pontos de vida (PV) cada turno até "
 "que seja curada do veneno numa aldeia ou de uma unidade aliada com a "
-"habilidade ‘curar’.\n"
+"habilidade “curar”.\n"
 "\n"
 "Unidades não morrem pelo veneno em si. O veneno não vai reduzir os pontos de "
 "vida (PV) a menos de 1."
@@ -9230,7 +9230,7 @@ msgstr "Sobrescrever?"
 msgid ""
 "Save names should not end on '.gz' or '.bz2'. Please remove the extension."
 msgstr ""
-"O nome das partidas guardados não pode terminar em ‘.gz’ ou ‘.bz2’. Por "
+"O nome das partidas guardados não pode terminar em “.gz” ou “.bz2”. Por "
 "favor escolha outro nome."
 
 #: src/savegame.cpp:443
@@ -9354,7 +9354,7 @@ msgstr "em $pos"
 
 #: src/serialization/parser.cpp:484
 msgid "Value: '$value' Previous: '$previous_value'"
-msgstr "Valor: ‘$value’ Antes: ‘$previous_value’"
+msgstr "Valor: “$value” Antes: “$previous_value”"
 
 #
 #: src/serialization/string_utils.cpp:551
@@ -9808,7 +9808,7 @@ msgstr "Opções do modo de planificação"
 #~ "percentagem de acerto e erro observada com a percentagem mostrada nos "
 #~ "ataques.\n"
 #~ "\n"
-#~ "Nota: essa opção só afeta campanhas e a opção \"Salvar seed aleatória\" "
+#~ "Nota: essa opção só afeta campanhas e a opção “Salvar seed aleatória” "
 #~ "deve estar ativada quando o jogo for criado para que essa opção funciona."
 
 #, fuzzy
@@ -10048,7 +10048,7 @@ msgstr "Opções do modo de planificação"
 #~ msgid ""
 #~ "Error in the login procedure (the server had no seed for your connection)."
 #~ msgstr ""
-#~ "Erro no procedimento de login (o servidor não tem uma ‘seed’ para a tua "
+#~ "Erro no procedimento de login (o servidor não tem uma “seed” para a tua "
 #~ "conexão)."
 
 #~ msgid "Battle for Wesnoth"
@@ -10190,8 +10190,8 @@ msgstr "Opções do modo de planificação"
 #~ msgid ""
 #~ "Update details for your nickname. For possible details see '/details'."
 #~ msgstr ""
-#~ "Atualizar detalhes do teu usuário. Para detalhes possíveis veja ‘/"
-#~ "details’."
+#~ "Atualizar detalhes do teu usuário. Para detalhes possíveis veja “/"
+#~ "details”."
 
 #
 #~ msgid "<detail> <value>"
@@ -10536,7 +10536,7 @@ msgstr "Opções do modo de planificação"
 #~ "would instantly take over your computer. You have been warned."
 #~ msgstr ""
 #~ "Estás prestes a abrir uma brecha de segurança em Wesnoth. Tens a certeza "
-#~ "que queres continuar? Se baixaste extras, NÃO clique em ‘ok’! Podem "
+#~ "que queres continuar? Se baixaste extras, NÃO clique em “confirmar”! Podem "
 #~ "instantaneamente tomar o controlo do teu computador. Foste avisado."
 
 #
@@ -10644,7 +10644,7 @@ msgstr "Opções do modo de planificação"
 #~ "Deleting '$addon|' will permanently erase its download and upload counts "
 #~ "on the add-ons server. Do you really wish to continue?"
 #~ msgstr ""
-#~ "Apagar ‘$addon|’ irá repor permanentemente o seu número de Downloads e "
+#~ "Apagar “$addon|” irá repor permanentemente o seu número de Downloads e "
 #~ "Upload do servidor. Queres mesmo continuar?"
 
 #
@@ -10711,11 +10711,11 @@ msgstr "Opções do modo de planificação"
 
 #
 #~ msgid "The add-on '$addon_title|' has been successfully installed."
-#~ msgstr "O extra ‘$addon_title|’ foi instalado com sucesso."
+#~ msgstr "O extra “$addon_title|” foi instalado com sucesso."
 
 #
 #~ msgid "The add-on '$addon_title|' has been successfully updated."
-#~ msgstr "O extra ‘$addon_title|’ foi atualizado com sucesso."
+#~ msgstr "O extra “$addon_title|” foi atualizado com sucesso."
 
 #
 #~ msgid "Add-ons Installed"
@@ -12237,7 +12237,7 @@ msgstr "Opções do modo de planificação"
 
 #
 #~ msgid "$error, value '$value' at $pos"
-#~ msgstr "$error, ‘$value’ em $pos"
+#~ msgstr "$error, valor “$value” em $pos"
 
 #
 #~ msgid "(side $temp_i|)"
