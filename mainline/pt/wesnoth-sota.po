@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.13.6+dev\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2023-01-02 00:33 UTC\n"
+"POT-Creation-Date: 2024-02-20 02:52 UTC\n"
 "PO-Revision-Date: 2019-01-03 00:34+0000\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: none\n"
@@ -94,14 +94,14 @@ msgid "Additional Artwork"
 msgstr "Trabalho artístico adicional"
 
 #. [label]
-#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:108
+#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:106
 #, fuzzy
 #| msgid "Lvl $lvl"
 msgid "Lvl 0"
 msgstr "Nível $lvl"
 
 #. [label]
-#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:130
+#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:128
 #, fuzzy
 msgid "Undead"
 msgstr ""
@@ -188,24 +188,24 @@ msgstr ""
 "Morto-Vivos"
 
 #. [label]
-#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:173
+#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:171
 msgid "Traits"
 msgstr "Caraterísticas"
 
 #. [label]
-#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:211
+#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:209
 msgid "Attacks"
 msgstr "Ataques"
 
 #. [label]
-#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:281
+#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:278
 #, fuzzy
 #| msgid "Choose a File to Open"
 msgid "Choose a Corpse"
 msgstr "Escolha um ficheiro para abrir"
 
 #. [button]
-#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:347
+#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:343
 #, fuzzy
 msgid "Recruit"
 msgstr ""
@@ -225,7 +225,7 @@ msgstr ""
 "Recrutar"
 
 #. [button]: id=cancel
-#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:353
+#: data/campaigns/Secrets_of_the_Ancients/gui/zombie_recruit_dialog.cfg:349
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -896,7 +896,7 @@ msgstr ""
 msgid "Garcyn"
 msgstr "Garcyn"
 
-#. [unit]: type=Outlaw, id=Mossa
+#. [unit]: type=Outlaw, gender=female, id=Mossa
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/03_Bandits.cfg:48
 msgid "Mossa"
 msgstr "Mossa"
@@ -1319,7 +1319,7 @@ msgstr "Guarda"
 msgid "Gweddyn"
 msgstr "Gweddyn"
 
-#. [unit]: type=Mage, id=Bremen
+#. [unit]: type=Mage, gender=male, id=Bremen
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/05_Blackwater.cfg:75
 msgid "Bremen"
 msgstr "Bremen"
@@ -1903,7 +1903,7 @@ msgstr "Captura todas as aldeias"
 msgid "Wynran"
 msgstr "Wynran"
 
-#. [unit]: type=Mage, id=Raydah
+#. [unit]: type=Mage, id=Raydah, gender=female
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/08_Carcyn.cfg:105
 msgid "Raydah"
 msgstr "Raydah"
@@ -3711,7 +3711,7 @@ msgstr ""
 "Você só pode fazer isso em um castelo."
 
 #. [message]: speaker=narrator
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:424
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:423
 msgid ""
 "You can now advance dark sorcerers to liches! For the rest of the campaign, "
 "you can also right-click on an existing necromancer to turn it into a lich "
@@ -3725,7 +3725,7 @@ msgstr ""
 "imediatamente em um lich ancião!"
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:429
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:428
 msgid ""
 "We have conquered death! Let us bring the news back to Wesnoth! Let all in "
 "this world know that nobody ever need die again."
@@ -3734,7 +3734,7 @@ msgstr ""
 "Todos saberão que ninguém jamais precisará morrer."
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:433
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:432
 msgid ""
 "I was planning to go that direction myself, so I have no objection. But, let "
 "us not go over those wretched mountain passes again. These tunnels should "
@@ -3746,35 +3746,35 @@ msgstr ""
 "diretamente para o nosso destino."
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:437
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:436
 msgid "Why would the dwarvish empire abandon an outpost like this?"
 msgstr "Por que o império dos anões abandonaria este posto avançado?"
 
 #. [message]: speaker=Ras-Tabahn
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:441
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:440
 msgid "We may find out. We should proceed cautiously."
 msgstr "Talvez descobriremos o porquê. Devemos proceder com cautela."
 
 #. [message]: speaker=Vendraxis
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:457
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:456
 msgid "Giant spidersss! That explainsss the cobwebsss everywhere."
 msgstr ""
 "Aranhasss Gigantess! Isssto explica asss teiasss de aranha por todosss os "
 "ladosss."
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:463
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:462
 msgid "Giant spiders! That explains the cobwebs everywhere."
 msgstr "Aranhas Gigantes! Isto explica as teias de aranha por todos os lados."
 
 #. [message]: speaker=Ardonna
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:469
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:468
 msgid "They are not moving much. Hopefully they continue to stay sleepy."
 msgstr ""
 "Elas não estão se mexendo muito. Com sorte, elas contiruarão sonolentas."
 
 #. [message]: speaker=Shynal
-#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:475
+#: data/campaigns/Secrets_of_the_Ancients/scenarios/18_Abandoned_Outpost.cfg:474
 msgid "They’re waking up now. Watch out."
 msgstr "Elas estão acordando. Cuidado."
 
@@ -4192,7 +4192,7 @@ msgstr "Veja! Os anões deram a volta e estão na nossa frente."
 msgid "That’s why getting through Knalga was so easy."
 msgstr "Por isso que foi fácil passar por Knalga."
 
-#. [unit]: type=Great Mage, id=Carmyna
+#. [unit]: type=Great Mage, gender=female, id=Carmyna
 #: data/campaigns/Secrets_of_the_Ancients/scenarios/21_Against_the_World.cfg:696
 msgid "Carmyna"
 msgstr "Carmyna"
@@ -4418,12 +4418,12 @@ msgstr ""
 "exalando autoridade mesmo que todas suas outras memórias tenham sido "
 "esquecidas."
 
-#. [unit_type]: id=Delinquent, race=human
+#. [unit_type]: id=Delinquent, gender=female, race=human
 #: data/campaigns/Secrets_of_the_Ancients/units/Delinquent.cfg:4
 msgid "Delinquent"
 msgstr "Delinquente"
 
-#. [unit_type]: id=Delinquent, race=human
+#. [unit_type]: id=Delinquent, gender=female, race=human
 #: data/campaigns/Secrets_of_the_Ancients/units/Delinquent.cfg:18
 msgid ""
 "Some girls shun the typical life planned for them by society, and fall in "
@@ -4441,33 +4441,6 @@ msgstr ""
 #: data/campaigns/Secrets_of_the_Ancients/units/Noble.cfg:5
 msgid "Passenger"
 msgstr "Passageiro"
-
-#. [unit_type]: id=Dwarvish Miner, race=dwarf
-#: data/campaigns/Secrets_of_the_Ancients/units/Dwarvish_Miner.cfg:4
-msgid "Dwarvish Miner"
-msgstr "Mineiro Anão"
-
-#. [unit_type]: id=Dwarvish Miner, race=dwarf
-#: data/campaigns/Secrets_of_the_Ancients/units/Dwarvish_Miner.cfg:17
-#, fuzzy
-#| msgid ""
-#| "Dwarvish miners are the grunt workers of Dwarvish society. They take the "
-#| "precious ores out of the ground, but do not ever take part in the "
-#| "crafting of weapons or artifacts."
-msgid ""
-"Dwarvish miners are the grunt workers of dwarvish society. They take the "
-"precious ores out of the ground, but do not ever take part in the crafting "
-"of weapons or artifacts. They have no military training, but they can still "
-"do some damage with their picks."
-msgstr ""
-"Mineiros Anões são os trabalhadores básicos da sociedade anã. Tomam os "
-"minérios preciosos da terra, mas nunca participam na elaboração de armas ou "
-"artefactos."
-
-#. [attack]: type=pierce
-#: data/campaigns/Secrets_of_the_Ancients/units/Dwarvish_Miner.cfg:22
-msgid "pick"
-msgstr "picareta"
 
 #. [unit_type]: id=SotA Ancient Lich, race=undead
 #: data/campaigns/Secrets_of_the_Ancients/units/Necro_Ancient_Lich.cfg:20
@@ -4776,160 +4749,110 @@ msgstr "Esconder Velas e Cordames"
 msgid "Show Sails and Rigging"
 msgstr "Mostrar Velas e Cordames"
 
-#. [terrain_type]: id=zgrave
 #. [terrain_type]: id=grave
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:19
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:15
 msgid "Grave"
 msgstr "Túmulo"
 
-#. [terrain_type]: id=zgrave
 #. [terrain_type]: id=grave
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:20
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:16
 msgid "Grave Overlay"
 msgstr "Túmulo Sobreposição"
 
-#. [terrain_type]: id=znot_here
 #. [terrain_type]: id=not_here
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:31
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:27
 msgid "Not Here Overlay"
 msgstr "Não Aqui Sobreposição"
 
-#. [terrain_type]: id=zcrystal
 #. [terrain_type]: id=crystal
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:50
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:46
 msgid "Crystal Caves"
 msgstr "Cavernas de Cristal"
 
-#. [terrain_type]: id=zpassageway
 #. [terrain_type]: id=passageway
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:60
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:56
 msgid "Passageway"
 msgstr "Passagem"
 
-#. [terrain_type]: id=zgate_open
-#. [terrain_type]: id=zgate_closed
 #. [terrain_type]: id=gate_open
 #. [terrain_type]: id=gate_closed
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:69
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:79
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:65
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:75
 msgid "Gate"
 msgstr "Portão"
 
-#. [terrain_type]: id=zweb
 #. [terrain_type]: id=web
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:89
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:85
 msgid "Spiderweb"
 msgstr "Teia de aranha"
 
-#. [terrain_type]: id=zgraveyard-fence-top
 #. [terrain_type]: id=graveyard-fence-top
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:99
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:95
 msgid "Fence-Top"
 msgstr "Topo da Cerca"
 
-#. [terrain_type]: id=zgraveyard-fence-bottom
 #. [terrain_type]: id=graveyard-fence-bottom
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:108
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:104
 msgid "Fence"
 msgstr "Cerca"
 
-#. [terrain_type]: id=zgraveyard-fence-bottom
 #. [terrain_type]: id=graveyard-fence-bottom
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:109
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:105
 msgid "Fence-Bottom"
 msgstr "Base da Cerca"
 
-#. [terrain_type]: id=zship--forecastle
 #. [terrain_type]: id=ship--forecastle
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:128
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:124
 msgid "Ship Forecastle"
 msgstr "Castelo de Proa do Navio"
 
-#. [terrain_type]: id=zship--main-deck
 #. [terrain_type]: id=ship--main-deck
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:141
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:137
 msgid "Ship Main Deck"
 msgstr "Convés Principal do Navio"
 
-#. [terrain_type]: id=zship--poop-deck
 #. [terrain_type]: id=ship--poop-deck
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:151
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:147
 msgid "Ship Poop Deck"
 msgstr "Popa do Navio"
 
-#. [terrain_type]: id=zship--hull
-#. [terrain_type]: id=zship--railing
 #. [terrain_type]: id=ship--hull
 #. [terrain_type]: id=ship--railing
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:164
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:256
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:274
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:160
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:252
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:270
 msgid "Ship Hull"
 msgstr "Casco do Navio"
 
-#. [terrain_type]: id=zship--rigging-and-sails
 #. [terrain_type]: id=ship--rigging-and-sails
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:173
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:169
 msgid "Ship Rigging and Sails"
 msgstr "Velas e Cordames do Navio"
 
-#. [terrain_type]: id=zship--railing
 #. [terrain_type]: id=ship--railing
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:182
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:178
 msgid "Ship Railing"
 msgstr "Amurada do Navio"
 
-#. [terrain_type]: id=zship--bits-and-pieces
 #. [terrain_type]: id=ship--bits-and-pieces
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:191
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:187
 msgid "Ship Pieces"
 msgstr "Pedaços do Navio"
 
-#. [terrain_type]: id=zship--lower-deck
 #. [terrain_type]: id=ship--lower-deck
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:200
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:196
 msgid "Ship Lower Deck"
 msgstr "Convés Inferior do Navio"
 
-#. [terrain_type]: id=zship--lower-deck-edge
 #. [terrain_type]: id=ship--lower-deck-edge
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:209
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:205
 msgid "Ship Lower Deck Edge"
 msgstr "Ponta do Convés Inferior do Navio"
 
-#. [terrain_type]: id=zship--forecastle
-#. [terrain_type]: id=ship--main-deck
-#. [terrain_type]: id=zship--poop-deck
-#. [terrain_type]: id=zship--lower-deck
 #. [terrain_type]: id=ship--forecastle
+#. [terrain_type]: id=ship--main-deck
 #. [terrain_type]: id=ship--poop-deck
 #. [terrain_type]: id=ship--lower-deck
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:220
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:233
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:243
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:305
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:216
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:229
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:239
@@ -4937,23 +4860,17 @@ msgstr "Ponta do Convés Inferior do Navio"
 msgid "Ship"
 msgstr "Navio"
 
-#. [terrain_type]: id=zfull-void
 #. [terrain_type]: id=full-void
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:327
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:323
 msgid "Full Void"
 msgstr "Vazio Total"
 
-#. [terrain_type]: id=zfull-void-overlay
 #. [terrain_type]: id=full-void-overlay
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:337
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:333
 msgid "Void Overlay"
 msgstr "Vazio Sobreposto"
 
-#. [terrain_type]: id=zhalf-void-overlay
 #. [terrain_type]: id=half-void-overlay
-#: data/campaigns/Secrets_of_the_Ancients/utils/terrain-compat.cfg:347
 #: data/campaigns/Secrets_of_the_Ancients/utils/terrain.cfg:343
 msgid "Half Void"
 msgstr "Meio Vazio"
@@ -5162,33 +5079,54 @@ msgid "A lua error has occurred, and a corpse cannot be recruited."
 msgstr "Ocorreu um erro lua e um corpo não pode ser gerado."
 
 #. [lua]: select
-#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:24
+#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:23
 msgid "HP: "
 msgstr "PV: "
 
 #. [lua]: select
-#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:24
+#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:23
 msgid "MP: "
 msgstr "Mov: "
 
 #. [lua]: select
-#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:24
+#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:23
 msgid "XP: "
 msgstr "XP: "
 
 #. [lua]: postshow
-#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:89
+#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:88
 #, fuzzy
 #| msgid "There are no alternative video modes available"
 msgid "There are no corpses available."
 msgstr "Não estão disponíveis modos de vídeo alternativos"
 
 #. [lua]: postshow
-#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:97
+#: data/campaigns/Secrets_of_the_Ancients/utils/zombie_recruit_dialog.lua:96
 #, fuzzy
 #| msgid "You don't have enough gold to raise that unit."
 msgid "You do not have enough gold to recruit that unit"
 msgstr "Não tens ouro suficiente para reanimar essa unidade."
+
+#~ msgid "Dwarvish Miner"
+#~ msgstr "Mineiro Anão"
+
+#, fuzzy
+#~| msgid ""
+#~| "Dwarvish miners are the grunt workers of Dwarvish society. They take the "
+#~| "precious ores out of the ground, but do not ever take part in the "
+#~| "crafting of weapons or artifacts."
+#~ msgid ""
+#~ "Dwarvish miners are the grunt workers of dwarvish society. They take the "
+#~ "precious ores out of the ground, but do not ever take part in the "
+#~ "crafting of weapons or artifacts. They have no military training, but "
+#~ "they can still do some damage with their picks."
+#~ msgstr ""
+#~ "Mineiros Anões são os trabalhadores básicos da sociedade anã. Tomam os "
+#~ "minérios preciosos da terra, mas nunca participam na elaboração de armas "
+#~ "ou artefactos."
+
+#~ msgid "pick"
+#~ msgstr "picareta"
 
 #~ msgid "You can now recruit skeletons and skeleton archers!"
 #~ msgstr "Podes agora recrutar esqueletos e esqueletos arqueiros!"
