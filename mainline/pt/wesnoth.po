@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-02 16:44-0600\n"
-"PO-Revision-Date: 2024-03-09 09:41+0000\n"
+"PO-Revision-Date: 2024-05-26 10:46+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -6008,10 +6008,8 @@ msgstr "Gestor de extras"
 
 #
 #: src/addon/client.cpp:350
-#, fuzzy
-#| msgid "Sending add-on <i>$addon_title</i>..."
 msgid "Installing add-on <i>$addon_title</i>..."
-msgstr "A enviar o extra: <i>$addon_title|</i>..."
+msgstr "A instalar o extra: <i>$addon_title</i>…"
 
 #
 #: src/addon/client.cpp:362 src/addon/client.cpp:388
@@ -7549,10 +7547,8 @@ msgid "No game history found."
 msgstr "Nenhuma partida encontrada."
 
 #: src/gui/dialogs/multiplayer/match_history.cpp:267
-#, fuzzy
-#| msgid "Connection timed out"
 msgid "Request timed out."
-msgstr "Conectividade expirada"
+msgstr "Conectividade expirada."
 
 #: src/gui/dialogs/multiplayer/match_history.cpp:277
 msgid "Request encountered an unexpected error, please check the logs."
@@ -7604,10 +7600,8 @@ msgstr "Erro"
 
 #
 #: src/gui/dialogs/unit_attack.cpp:163 src/gui/dialogs/unit_attack.cpp:178
-#, fuzzy
-#| msgid "With specials: "
 msgid "Other aspects: "
-msgstr "Com as especialidades: "
+msgstr "Outros aspetos: "
 
 #
 #: src/gui/dialogs/unit_attack.cpp:190 src/gui/dialogs/unit_attack.cpp:203
@@ -7740,34 +7734,24 @@ msgstr "Alinhamento: "
 #. TRANSLATORS: this is expected to say "[Dunefolk are] a group of units, all of whom are Humans",
 #. or "[Quenoth Elves are] a group of units, all of whom are Elves".
 #: src/help/help_impl.cpp:1149
-#, fuzzy
-#| msgid ""
-#| "This is a group of units, all of whom are <ref>dst='$topic_id' "
-#| "text='$help_taxonomy'</ref>"
 msgid ""
 "This is a group of units, all of whom are <ref>dst='$topic_id' "
 "text='$help_taxonomy'</ref>."
 msgstr ""
 "Esse é um grupo de unidades, todas as quais são <ref>dst='$topic_id' "
-"text='$help_taxonomy'</ref>"
+"text='$help_taxonomy'</ref>."
 
 #: src/help/help_impl.cpp:1154
-#, fuzzy
-#| msgid "<header>text='Units with this ability'</header>"
 msgid "<header>text='Subgroups of units within this group'</header>"
-msgstr "<header>text='Units com esta habilidade'</header>"
+msgstr "<header>text='Subconjunto de unidades neste grupo'</header>"
 
 #: src/help/help_impl.cpp:1156
-#, fuzzy
-#| msgid "<header>text='Units of this race'</header>"
 msgid "<header>text='Groups of units within this race'</header>"
-msgstr "<header>text='Unidades desta raça'</header>"
+msgstr "<header>text='Unidades nesta raça'</header>"
 
 #: src/help/help_impl.cpp:1165
-#, fuzzy
-#| msgid "<header>text='Units of this race'</header>"
 msgid "<header>text='Units of this group'</header>"
-msgstr "<header>text='Unidades desta raça'</header>"
+msgstr "<header>text='Unidades deste grupo'</header>"
 
 #: src/help/help_impl.cpp:1167
 msgid "<header>text='Units of this race'</header>"
@@ -7840,24 +7824,19 @@ msgid "Planning mode deactivated!"
 msgstr "Modo de planificação desativado!"
 
 #: src/hotkey/hotkey_handler_sp.cpp:322
-#, fuzzy
-#| msgid "Do you want to die, dwarf?"
 msgid "Do you want to load it anyway?"
-msgstr "Desejas morrer, anão?"
+msgstr "Queres carregar mesmo assim?"
 
 #
 #: src/hotkey/hotkey_handler_sp.cpp:338
-#, fuzzy
-#| msgid "The file you have tried to load is corrupt"
 msgid "The file you have tried to load has no replay information. "
-msgstr "O ficheiro que tentaste carregar está corrompido"
+msgstr ""
+"O ficheiro que tentaste carregar não contem informações de reprodução. "
 
 #
 #: src/hotkey/hotkey_handler_sp.cpp:342
-#, fuzzy
-#| msgid "The file you have tried to load is corrupt"
 msgid "The file you have tried to load is not from the current session."
-msgstr "O ficheiro que tentaste carregar está corrompido"
+msgstr "O ficheiro que tentaste carregar não pertence à sessão atual."
 
 #
 #: src/language.cpp:115
@@ -7895,16 +7874,12 @@ msgstr "Este comando está atualmente indisponível."
 
 #
 #: src/map_command_handler.hpp:225
-#, fuzzy
-#| msgid ""
-#| "Unknown command '$command', try $help_command for a list of available "
-#| "commands."
 msgid ""
 "Unknown command '$command', did you mean '$command_proposal'? try "
 "$help_command for a list of available commands."
 msgstr ""
-"Comando “$command|” desconhecido, tenta $help_command para uma lista de "
-"comandos disponíveis."
+"Comando “$command” desconhecido, querias dizer “$command_proposal”? Tenta "
+"“$help_command” para uma lista de comandos disponíveis."
 
 #
 #: src/map_command_handler.hpp:229
@@ -8170,18 +8145,14 @@ msgstr "Muda o lado de/para controlo IA."
 #. which must be a side-number and then optionally one of "on", "off" or "full".
 #. As with the command's name, "on", "off" and "full" are hardcoded, and shouldn't change in the translation.
 #: src/menu_events.cpp:1231
-#, fuzzy
-#| msgid ""
-#| "[<side> [on/off]]\n"
-#| "“on” = enable control by the AI, “off” = side is controlled by the player"
 msgid ""
 "[<side> [on/off/full]]\n"
 "“on” = enable but retain vision, “full” = as if it’s controlled by another "
 "player"
 msgstr ""
-"[<side> [on/off]]\n"
-"“on” = liga o controlo da equipa para a IA, “off” = a equipa é controlada "
-"pelo jogador"
+"[<side> [on/off/full]]\n"
+"“on” = transfere o controlo ao computador mas mantém a visão, “full” = a "
+"equipa é controlada pelo computador como fosse um jogador independente"
 
 #: src/menu_events.cpp:1232
 msgid "Change terrain type of current hex"
@@ -8705,13 +8676,12 @@ msgstr "Turno mudado"
 #
 #: src/network_download_file.cpp:64 src/network_download_file.cpp:79
 #: src/network_download_file.cpp:87
-#, fuzzy
-#| msgid ""
-#| "An error occurred while downloading the add-ons list from the server."
 msgid ""
 "An error occurred when downloading the file. Check the game logs for more "
 "information."
-msgstr "Um erro ocorreu ao baixar a lista de extras do servidor."
+msgstr ""
+"Um erro ocorreu ao transferir o ficheiro. Verifica os ficheiros de logs para "
+"mais informações."
 
 #
 #: src/network_download_file.cpp:64 src/network_download_file.cpp:79
@@ -9747,12 +9717,12 @@ msgstr "Possuído: "
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
 #: src/units/abilities.cpp:974
 msgid "Taught: "
-msgstr ""
+msgstr "Instruído: "
 
 #. TRANSLATORS: Past-participle of "teach", used for an ability similar to leadership
 #: src/units/abilities.cpp:978
 msgid "Taught: (by an enemy): "
-msgstr ""
+msgstr "Instruído (por um inimigo): "
 
 #: src/units/abilities.cpp:991
 msgid "Used by opponent: "
@@ -9836,14 +9806,10 @@ msgstr[1] "$number ataques usados"
 #
 #. TRANSLATORS: Current value for WML code increase_attacks_used, documented in https://wiki.wesnoth.org/EffectWML
 #: src/units/attack_type.cpp:564
-#, fuzzy
-#| msgid "<span color=\"$color\">$number_or_percent</span> attack per turn"
-#| msgid_plural ""
-#| "<span color=\"$color\">$number_or_percent</span> attacks per turn"
 msgid "<span color=\"$color\">$number_or_percent</span> attack used"
 msgid_plural "<span color=\"$color\">$number_or_percent</span> attacks used"
-msgstr[0] "<span color=\"$color\">$number_or_percent</span> ataque por turno"
-msgstr[1] "<span color=\"$color\">$number_or_percent</span> ataques por turno"
+msgstr[0] "<span color=\"$color\">$number_or_percent</span> ataque usado"
+msgstr[1] "<span color=\"$color\">$number_or_percent</span> ataques usados"
 
 #
 #: src/units/helper.cpp:59
@@ -9979,10 +9945,8 @@ msgid ""
 msgstr ""
 
 #: src/wesnoth.cpp:804
-#, fuzzy
-#| msgid "Logging in"
 msgid "Logging Failure"
-msgstr "Entrando"
+msgstr "Falha no Log"
 
 #: src/wesnothd_connection.cpp:549
 msgid "Disconnected from server."
@@ -10186,13 +10150,8 @@ msgstr "Opções do modo de planificação"
 #~ msgid " resistance vs "
 #~ msgstr " resistência contra "
 
-#, fuzzy
 #~ msgid "strike"
-#~ msgstr ""
-#~ "#-#-#-#-#  31.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-#~ "golpe\n"
-#~ "#-#-#-#-#  32.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-#~ "ataque"
+#~ msgstr "golpe"
 
 #, fuzzy
 #~| msgid "World Conquest II"

@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth-lib)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-03-02 16:44-0600\n"
-"PO-Revision-Date: 2023-07-30 13:03+0100\n"
+"PO-Revision-Date: 2024-05-26 10:50+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. [ai]: id=ai_default_rca
 #: data/ai/ais/ai_default_rca.cfg:9
@@ -171,10 +171,8 @@ msgstr "Pântano"
 #
 #. [terrain_type]: id=sea_kelp
 #: data/core/terrain.cfg:135
-#, fuzzy
-#| msgid "Palm Forest"
 msgid "Kelp Forest"
-msgstr "Floresta de Palmeiras"
+msgstr "Floresta de algas"
 
 #. [terrain_type]: id=swamp_water_reed
 #: data/core/terrain.cfg:150
@@ -288,10 +286,8 @@ msgstr "Pedras Cinzentas Limpas"
 #
 #. [terrain_type]: id=road_desert
 #: data/core/terrain.cfg:274
-#, fuzzy
-#| msgid "Beach Sands"
 msgid "Rocky Sands"
-msgstr "Areias de praia"
+msgstr "Areias rochosas"
 
 #
 #. [terrain_type]: id=stone_path
@@ -482,15 +478,13 @@ msgstr "Cerca de ferro"
 #. [terrain_type]: id=fence_palisade
 #: data/core/terrain.cfg:534
 msgid "Palisade"
-msgstr ""
+msgstr "Paliçada"
 
 #
 #. [terrain_type]: id=fence_palisade
 #: data/core/terrain.cfg:535
-#, fuzzy
-#| msgid "Wooden Bridge"
 msgid "Wooden Palisade"
-msgstr "Ponte de Madeira"
+msgstr "Paliçada de madeira"
 
 #
 #. [terrain_type]: id=sand_drifts
@@ -513,7 +507,7 @@ msgstr "Florescimento dos lírios de água"
 #. [terrain_type]: id=seashells
 #: data/core/terrain.cfg:573
 msgid "Seashells"
-msgstr ""
+msgstr "Conchas"
 
 #. [terrain_type]: id=detritus_trash
 #: data/core/terrain.cfg:584
@@ -1007,10 +1001,8 @@ msgstr ""
 #
 #. [terrain_type]: id=high_canyon_obst
 #: data/core/terrain.cfg:1237
-#, fuzzy
-#| msgid "Unwalkable Overlay"
 msgid "Unwalkable Ravine"
-msgstr "Sobreposição impassível"
+msgstr "Ravina impassível"
 
 #. [terrain_type]: id=high_border_woods
 #: data/core/terrain.cfg:1250
@@ -1146,10 +1138,8 @@ msgstr "Parede de Caverna Natural"
 #
 #. [terrain_type]: id=cavewall_damaged
 #: data/core/terrain.cfg:1423
-#, fuzzy
-#| msgid "Hewn Cave Wall"
 msgid "Damaged Cave Wall"
-msgstr "Parede da caverna talhada"
+msgstr "Parede de caverna danificada"
 
 #. [terrain_type]: id=wall_hedge
 #: data/core/terrain.cfg:1433
@@ -1238,18 +1228,14 @@ msgstr "Muro de pedra coberta"
 #
 #. [terrain_type]: id=wall_stone_damaged
 #: data/core/terrain.cfg:1552
-#, fuzzy
-#| msgid "Stone Wall"
 msgid "Damaged Stone Wall"
-msgstr "Parede de pedra"
+msgstr "Muro em pedra danificado"
 
 #
 #. [terrain_type]: id=wall_stone_ruins
 #: data/core/terrain.cfg:1562
-#, fuzzy
-#| msgid "Mine Wall"
 msgid "Ruined Wall"
-msgstr "Muro de mina"
+msgstr "Muro arruinado"
 
 #. [terrain_type]: id=portal_gate_rusty_sw
 #. [terrain_type]: id=portal_gate_rusty_se
@@ -1504,10 +1490,8 @@ msgstr "Aldeia Drago"
 #
 #. [terrain_type]: id=drake_snow_village
 #: data/core/terrain.cfg:2051
-#, fuzzy
-#| msgid "Drake Village"
 msgid "Snowy Drake Village"
-msgstr "Aldeia Drago"
+msgstr "Aldeia Drago congelada"
 
 #
 #. [terrain_type]: id=underground_village
@@ -2056,10 +2040,8 @@ msgstr "Ponte em pedra básica"
 #. [terrain_type]: id=snow_stone_bridgediag2
 #: data/core/terrain.cfg:2930 data/core/terrain.cfg:2942
 #: data/core/terrain.cfg:2955
-#, fuzzy
-#| msgid "Basic Stone Bridge"
 msgid "Snowy Stone Bridge"
-msgstr "Ponte em pedra básica"
+msgstr "Ponte em pedra congelada"
 
 #
 #. [terrain_type]: id=bridgechasm
@@ -2110,9 +2092,8 @@ msgstr ""
 #. [terrain_type]: id=mark_low
 #: data/core/terrain.cfg:3160
 #, fuzzy
-#| msgid "Market"
 msgid "Marker Low"
-msgstr "Mercado"
+msgstr "Marcador de baixo relevo"
 
 #. [terrain_type]: id=mark_low2
 #: data/core/terrain.cfg:3170
@@ -2555,15 +2536,11 @@ msgstr ""
 #: data/core/terrain.cfg:3476 data/core/terrain.cfg:3487
 #: data/core/terrain.cfg:3498 data/core/terrain.cfg:3509
 #: data/core/terrain.cfg:3520
-#, fuzzy
-#| msgid "Deprecated Terrain"
 msgid "Deprecated"
-msgstr "Terreno obsoleto: "
+msgstr "Obsoleto"
 
 #. [settings]
 #: data/gui/default.cfg:23
-#, fuzzy
-#| msgid " (Press '$hotkey' for more information)"
 msgid " (Press ‘$hotkey’ for more information)"
 msgstr " (carrega “$hotkey” para mais informações)"
 
@@ -2654,7 +2631,6 @@ msgstr "Instalar extra"
 msgid "Update add-on"
 msgstr "Atualizar extra"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=single_publish
 #. [button]: id=publish
 #: data/gui/widget/addon_list.cfg:412 data/gui/window/addon_manager.cfg:645
@@ -2662,7 +2638,6 @@ msgstr "Atualizar extra"
 msgid "Publish add-on"
 msgstr "Publicar extra"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=single_uninstall
 #. [button]: id=uninstall
 #: data/gui/widget/addon_list.cfg:435 data/gui/window/addon_manager.cfg:622
@@ -2711,15 +2686,12 @@ msgstr "Fechar"
 msgid "Profile"
 msgstr "Descrição"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. [grid]
 #: data/gui/window/achievements_dialog.cfg:79
 #: data/gui/window/title_screen.cfg:261 src/hotkey/hotkey_command.cpp:97
-#, fuzzy
-#| msgid "Advancements"
 msgid "Achievements"
-msgstr "Avanços"
+msgstr "Proezas"
 
 #. [label]
 #: data/gui/window/addon_auth.cfg:41
@@ -2728,10 +2700,8 @@ msgstr "Autenticar"
 
 #. [label]
 #: data/gui/window/addon_auth.cfg:67
-#, fuzzy
-#| msgid "B<username>"
 msgid "Username:"
-msgstr "B<username>"
+msgstr "Nome de utilizador:"
 
 #
 #. [label]
@@ -2751,7 +2721,6 @@ msgid "Save password locally (encrypted)"
 msgstr "Guardar a senha localmente (encriptado)"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/addon_auth.cfg:167 data/gui/window/custom_tod.cfg:471
 #: data/gui/window/depcheck_select_new.cfg:151
@@ -2780,7 +2749,6 @@ msgid "OK"
 msgstr "Confirmar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #. [button]: id=placeholder
 #: data/gui/window/addon_auth.cfg:181 data/gui/window/addon_connect.cfg:211
@@ -2880,11 +2848,11 @@ msgstr "Concordo"
 
 #: data/gui/window/addon_manager.cfg:9
 msgid "Traffic between the game and server is not secure"
-msgstr "O tráfego entre o servidor e o cliente de jogo não é seguro."
+msgstr "O tráfego entre o servidor e o cliente de jogo não é seguro"
 
 #: data/gui/window/addon_manager.cfg:13
 msgid "Traffic between the game and server is encrypted"
-msgstr "O tráfego entre o servidor e o cliente de jogo é encriptado."
+msgstr "O tráfego entre o servidor e o cliente de jogo é encriptado"
 
 #
 #. [label]
@@ -2927,7 +2895,6 @@ msgid "date^Updated:"
 msgstr "Atualizado:"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [scroll_label]: id=description
 #: data/gui/window/addon_manager.cfg:415
 #: src/gui/dialogs/multiplayer/mp_create_game.cpp:559
@@ -2955,7 +2922,6 @@ msgstr "Página Web:"
 #
 #. [label]
 #: data/gui/window/addon_manager.cfg:521
-#, fuzzy
 #| msgid "ID:"
 msgid "Id:"
 msgstr "ID:"
@@ -2974,7 +2940,6 @@ msgid "Dependencies:"
 msgstr "Dependências:"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=dependencies
 #: data/gui/window/addon_manager.cfg:713 src/gui/dialogs/addon/manager.cpp:1084
 msgid "addon_dependencies^None"
@@ -2989,7 +2954,6 @@ msgid "Translations:"
 msgstr "Traduções:"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=translations
 #: data/gui/window/addon_manager.cfg:748 src/gui/dialogs/addon/manager.cpp:1098
 msgid "translations^None"
@@ -3033,7 +2997,6 @@ msgstr "Ordem:"
 msgid "Add-ons Manager"
 msgstr "Gestor de extras"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=details_toggle
 #: data/gui/window/addon_manager.cfg:1099 src/gui/dialogs/addon/manager.cpp:540
 #: src/gui/dialogs/addon/manager.cpp:814
@@ -3218,7 +3181,6 @@ msgid "game^Play"
 msgstr "Jogar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #. [slider]: id=enemey_gold_factor
 #. [slider]: id=enemy_gold_factor
@@ -3236,7 +3198,6 @@ msgid "Select difficulty:"
 msgstr "Escolha o nível de dificuldade:"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/chat_log.cfg:36 src/hotkey/hotkey_command.cpp:285
 msgid "Chat Log"
@@ -3298,7 +3259,6 @@ msgid "Load Core"
 msgstr "Carregar módulo"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/core_dialog.cfg:228 src/preferences/display.cpp:119
 msgid "Select"
@@ -3345,7 +3305,6 @@ msgid "Edit Time Schedule"
 msgstr "Editar Período do Dia"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. [label]: id=id_label
 #: data/gui/window/custom_tod.cfg:177
@@ -3430,7 +3389,6 @@ msgstr "Novo TdD"
 msgid "Delete ToD"
 msgstr "Eliminar TdD"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/depcheck_confirm_change.cfg:40
 #: src/gui/dialogs/addon/manager.cpp:979 src/gui/dialogs/file_dialog.cpp:306
@@ -3445,7 +3403,6 @@ msgid "Would you like to apply the changes?"
 msgstr "Desejas guardar as tuas alterações?"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/depcheck_confirm_change.cfg:128
 #: data/gui/window/game_delete.cfg:107
@@ -3457,7 +3414,6 @@ msgid "Yes"
 msgstr "Sim"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=cancel
 #: data/gui/window/depcheck_confirm_change.cfg:142
 #: data/gui/window/game_delete.cfg:121
@@ -3499,11 +3455,8 @@ msgstr "Só para a própria equipa"
 
 #. [label]
 #: data/gui/window/editor_choose_addon.cfg:45
-#, fuzzy
-#| msgid "Add-on Deleted"
-#| msgid_plural "Add-ons Deleted"
 msgid "Add-on selection"
-msgstr "Extra apagado"
+msgstr "Seleção do extra"
 
 #. [label]
 #: data/gui/window/editor_choose_addon.cfg:62
@@ -3516,18 +3469,14 @@ msgstr ""
 #
 #. [label]: id=existing_addon_id
 #: data/gui/window/editor_choose_addon.cfg:98
-#, fuzzy
-#| msgid "Add-ons"
 msgid "Add-on ID"
-msgstr "Extras"
+msgstr "ID do extra"
 
 #
 #. [label]
 #: data/gui/window/editor_choose_addon.cfg:172
-#, fuzzy
-#| msgid "Show ally orb"
 msgid "Show all"
-msgstr "Mostrar esferas aliadas"
+msgstr "Mostrar todas"
 
 #. [toggle_button]: id=show_all
 #: data/gui/window/editor_choose_addon.cfg:184
@@ -3574,39 +3523,35 @@ msgstr ""
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:150
-#, fuzzy
-#| msgid "The name of the database"
 msgid "The name of the add-on displayed in-game."
-msgstr "O nome da database"
+msgstr "O nome do extra mostrada no jogo."
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:150
 msgid "Title:"
-msgstr ""
+msgstr "Titulo:"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:151
 msgid "The description of the add-on to display in the add-ons manager."
-msgstr ""
+msgstr "A descrição do extra a mostrar no servidor."
 
 #. [label]: id=icon_label
 #: data/gui/window/editor_edit_pbl.cfg:162
 msgid "Icon:"
-msgstr ""
+msgstr "Imagem:"
 
 #. [button]: id=select_icon
 #: data/gui/window/editor_edit_pbl.cfg:182
-#, fuzzy
-#| msgid "Select None"
 msgid "Select an icon file"
-msgstr "Selecionar Nada"
+msgstr "Selecionar uma imagem"
 
 #. [text_box]: id=icon
 #: data/gui/window/editor_edit_pbl.cfg:195
 msgid ""
 "The path to the icon image to display in the add-ons manager. Must be an "
 "image from mainline."
-msgstr ""
+msgstr "Uma imagem para mostrar no servidor. Tem de ser do jogo padrão."
 
 #
 #. [grid]
@@ -3649,7 +3594,7 @@ msgstr ""
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:212
 msgid "Forum URL"
-msgstr ""
+msgstr "URL do fórum"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:212
@@ -3658,10 +3603,8 @@ msgstr ""
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:213
-#, fuzzy
-#| msgid "Authenticate"
 msgid "Forum Authentication:"
-msgstr "Autenticar"
+msgstr "Autenticação no fórum:"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:213
@@ -3679,21 +3622,8 @@ msgstr ""
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:214
-#, fuzzy
 msgid "Secondary Authors:"
-msgstr ""
-"#-#-#-#-#  113.po (Battle for Wesnoth 1.12 (wesnoth-help))  #-#-#-#-#\n"
-"Segundo Crépusculo\n"
-"#-#-#-#-#  28.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Segundo Anoitecer\n"
-"#-#-#-#-#  35.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Segundo Anoitecer\n"
-"#-#-#-#-#  59.po (Battle for Wesnoth 1.12 (wesnoth-help))  #-#-#-#-#\n"
-"Segundo Crépusculo\n"
-"#-#-#-#-#  6.po (Battle for Wesnoth 1.12 (wesnoth-help))  #-#-#-#-#\n"
-"Segundo Crépusculo\n"
-"#-#-#-#-#  86.po (Battle for Wesnoth 1.12 (wesnoth-help))  #-#-#-#-#\n"
-"Segundo Crépusculo"
+msgstr "Outros autores:"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:215
@@ -3703,10 +3633,8 @@ msgstr ""
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:215
-#, fuzzy
-#| msgid "Gaxmail"
 msgid "Email:"
-msgstr "Gaxmail"
+msgstr "Email:"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl.cfg:216
@@ -3718,7 +3646,7 @@ msgstr ""
 #. [label]: id=translations_title
 #: data/gui/window/editor_edit_pbl.cfg:274
 msgid "Title"
-msgstr ""
+msgstr "Titulo"
 
 #. [label]: id=translations_description
 #: data/gui/window/editor_edit_pbl.cfg:291
@@ -3743,12 +3671,9 @@ msgstr "Eliminar"
 
 #. [button]: id=validate
 #: data/gui/window/editor_edit_pbl.cfg:451
-#, fuzzy
-#| msgid "Valid"
 msgid "Validate"
-msgstr "Válido"
+msgstr "Validar"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #. [button]: id=save
 #: data/gui/window/editor_edit_pbl.cfg:463 data/gui/window/game_save.cfg:120
@@ -3759,25 +3684,19 @@ msgstr "Guardar"
 
 #. [label]: id=title
 #: data/gui/window/editor_edit_pbl_translation.cfg:69
-#, fuzzy
-#| msgid "Translations"
 msgid "Translation"
-msgstr "Traduções"
+msgstr "Tradução"
 
 #. [label]
 #: data/gui/window/editor_edit_pbl_translation.cfg:84
-#, fuzzy
-#| msgid "Required XP: "
 msgid "* Required"
-msgstr "XP necessário: "
+msgstr "* Necessário"
 
 #
 #. [grid]
 #: data/gui/window/editor_edit_pbl_translation.cfg:97
-#, fuzzy
-#| msgid "Language"
 msgid "* Language:"
-msgstr "Idioma"
+msgstr "* Idioma:"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl_translation.cfg:97
@@ -3789,17 +3708,17 @@ msgstr ""
 #. [grid]
 #: data/gui/window/editor_edit_pbl_translation.cfg:98
 msgid "* Title:"
-msgstr ""
+msgstr "* Título:"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl_translation.cfg:98
 msgid "The translation of the add-on’s title."
-msgstr ""
+msgstr "Tradução do título do extra"
 
 #. [grid]
 #: data/gui/window/editor_edit_pbl_translation.cfg:99
 msgid "The translation of the add-on’s description."
-msgstr ""
+msgstr "Traduçao da descrição do extra"
 
 #. [label]: id=title
 #: data/gui/window/editor_edit_scenario.cfg:42
@@ -3811,7 +3730,6 @@ msgstr "Editar definições de cenário"
 msgid "Identifier:"
 msgstr "Identificador:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_edit_scenario.cfg:170
 #: src/gui/dialogs/multiplayer/lobby.cpp:455
@@ -3855,10 +3773,8 @@ msgstr "Nome da equipa:"
 
 #. [label]
 #: data/gui/window/editor_edit_side.cfg:164
-#, fuzzy
-#| msgid "Recruitment list"
 msgid "Recruit list:"
-msgstr "Lista de recrutas"
+msgstr "Lista de recrutas:"
 
 #. [toggle_button]: id=no_leader
 #: data/gui/window/editor_edit_side.cfg:218
@@ -3881,7 +3797,6 @@ msgstr "Esconder na tabela de estado"
 msgid "Gold:"
 msgstr "Ouro:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_edit_side.cfg:303
 #: src/gui/dialogs/multiplayer/lobby.cpp:456
@@ -3903,7 +3818,6 @@ msgstr "Suporte por aldeia:"
 msgid "Controller:"
 msgstr "Controlador:"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [row]
 #: data/gui/window/editor_edit_side.cfg:399 src/gui/dialogs/game_stats.cpp:71
 msgid "controller^Human"
@@ -3942,7 +3856,6 @@ msgid "vision^None"
 msgstr "Nenhuma"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_generate_map.cfg:43 src/hotkey/hotkey_command.cpp:246
 msgid "Generate Map"
@@ -3954,7 +3867,6 @@ msgid "Choose a map generator:"
 msgstr "Escolha o gerador de mapas aleatório:"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=settings
 #. [button]: id=random_map_settings
 #: data/gui/window/editor_generate_map.cfg:128
@@ -3975,7 +3887,6 @@ msgid "Generate"
 msgstr "Gerar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/editor_new_map.cfg:36 src/hotkey/hotkey_command.cpp:178
 msgid "New Map"
@@ -4004,7 +3915,6 @@ msgid "Create"
 msgstr "Criar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/editor_resize_map.cfg:35 src/hotkey/hotkey_command.cpp:245
 msgid "Resize Map"
@@ -4228,7 +4138,6 @@ msgid "Date"
 msgstr "Data"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #. [button]: id=load_game
 #: data/gui/window/game_load.cfg:317 data/gui/window/mp_create_game.cfg:944
@@ -4290,7 +4199,6 @@ msgid "Load"
 msgstr "Retomar Partida"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/window/game_save.cfg:42 data/gui/window/game_save_message.cfg:42
 #: data/gui/window/game_save_oos.cfg:42 src/hotkey/hotkey_command.cpp:106
@@ -4331,14 +4239,12 @@ msgstr "Líder"
 msgid "Team"
 msgstr "Equipa"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_2
 #: data/gui/window/game_stats.cfg:63
 #: src/gui/dialogs/multiplayer/mp_join_game.cpp:435
 msgid "Gold"
 msgstr "Ouro"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_3
 #: data/gui/window/game_stats.cfg:76
 #: src/generators/default_map_generator.cpp:198
@@ -4355,7 +4261,6 @@ msgstr "Unidades"
 msgid "Upkeep"
 msgstr "Manutenção"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_6
 #. [image]: id=income_icon
 #. [label]: id=side_income
@@ -4407,7 +4312,6 @@ msgstr ""
 "Suporte por\n"
 "aldeia"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/game_stats.cfg:705 src/gui/dialogs/game_stats.cpp:255
 msgid "Current Status"
@@ -4419,7 +4323,6 @@ msgstr "Estado atual"
 msgid "Game Stats"
 msgstr "Estatísticas da partida"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [widget]: id=tab_label
 #: data/gui/window/game_stats.cfg:793 src/gui/dialogs/game_stats.cpp:255
 msgid "Scenario Settings"
@@ -4473,10 +4376,8 @@ msgstr "Registos:"
 
 #. [grid]
 #: data/gui/window/game_version.cfg:141
-#, fuzzy
-#| msgid "Screenshot"
 msgid "Screenshots:"
-msgstr "Captura do ecrã"
+msgstr "Capturas do ecrã:"
 
 #. [label]
 #: data/gui/window/game_version.cfg:171
@@ -4486,7 +4387,7 @@ msgstr "Nome"
 #. [label]
 #: data/gui/window/game_version.cfg:182
 msgid "library^Build version"
-msgstr "Versão na compilação"
+msgstr "Versão da compilação"
 
 #. [label]
 #: data/gui/window/game_version.cfg:194
@@ -4535,19 +4436,17 @@ msgstr "Copiar o relatório completo para a área de transferência"
 
 #. [button]: id=open_stderr
 #: data/gui/window/game_version.cfg:622
-#, fuzzy
-#| msgid "Open Log File"
 msgid "Log File"
-msgstr "Abrir Arquivo de Log"
+msgstr "Feicheiro de log"
 
 #. [button]: id=open_stderr
 #: data/gui/window/game_version.cfg:623
-#, fuzzy
-#| msgid "Opens the log file, which may contain useful debug information"
 msgid ""
 "Opens the log file pertaining to the current session, which may contain "
 "useful debug information"
-msgstr "Abre o arquivo de Log que pode conter informações úteis para o debug"
+msgstr ""
+"Abre o ficheiro de Log  da sessão atual, que pode conter informações úteis "
+"para deburação"
 
 #. [label]
 #: data/gui/window/gamestate_inspector.cfg:16
@@ -4745,7 +4644,6 @@ msgid "Create Game"
 msgstr "Criar Partida"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=join_global
 #: data/gui/window/lobby_main.cfg:532 data/gui/window/lobby_main.cfg:796
 #: src/gui/dialogs/multiplayer/lobby.cpp:872
@@ -4753,7 +4651,6 @@ msgid "Join"
 msgstr "Entrar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=observe_global
 #: data/gui/window/lobby_main.cfg:544 data/gui/window/lobby_main.cfg:819
 #: src/gui/dialogs/multiplayer/lobby.cpp:838
@@ -4768,7 +4665,6 @@ msgid "Announcements"
 msgstr "Noticias"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=show_preferences
 #. [label]: id=title
 #. [grid]
@@ -5044,7 +4940,6 @@ msgstr "Quando um Jogador sai do saguão ou no jogo"
 msgid "When a whisper is received"
 msgstr "Quando receber um sussurro"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [grid]
 #: data/gui/window/mp_alerts_options.cfg:186
 #: src/gui/dialogs/multiplayer/mp_report.cpp:49
@@ -5145,7 +5040,7 @@ msgstr "Mudar Controlo"
 #. [label]
 #: data/gui/window/mp_connect.cfg:71
 msgid "Choose or enter the address of a multiplayer server."
-msgstr "Escolha um servidor em rede"
+msgstr "Escolha um endereço de um servidor em rede."
 
 #
 #. [label]
@@ -5172,7 +5067,7 @@ msgstr "Opções de fações aleatórias:"
 #. [label]
 #: data/gui/window/mp_create_game.cfg:156
 msgid "Allow for mirror matchups when random factions are chosen"
-msgstr "Permitir partida espelhada quando facões aleatórias forem escolhidas."
+msgstr "Permitir partida espelhada quando facões aleatórias forem escolhidas"
 
 #. [option]
 #: data/gui/window/mp_create_game.cfg:177
@@ -5343,7 +5238,6 @@ msgstr "Bónus de Ação"
 msgid "Time for each attack, recruit, and capture"
 msgstr "Tempo para cada ataque, recrutamento, e captura"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [widget]: id=tab_label
 #. [widget]: id=label
 #: data/gui/window/mp_create_game.cfg:579 data/gui/window/preferences.cfg:292
@@ -5427,7 +5321,6 @@ msgstr ""
 "Configurar a senha que os jogadores que querem entrar na partida devem usar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/mp_create_game/default_resolution.cfg:176
 #: data/gui/window/mp_create_game/small_resolution.cfg:181
@@ -5514,7 +5407,6 @@ msgstr "Sair"
 msgid "Game Lobby"
 msgstr "Sala de espera"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=status_label
 #: data/gui/window/mp_join_game.cfg:491 data/gui/window/mp_staging.cfg:623
 #: data/gui/window/mp_staging.cfg:815
@@ -5548,10 +5440,8 @@ msgstr "Registo:"
 
 #. [button]: id=replay_download
 #: data/gui/window/mp_match_history.cfg:159
-#, fuzzy
-#| msgid "Downloads"
 msgid "Download"
-msgstr "Transferências"
+msgstr "Transferência"
 
 #. [label]: id=players
 #. [label]: id=modifications
@@ -5562,20 +5452,15 @@ msgstr "Nenhum"
 
 #. [widget]: id=tab_label
 #: data/gui/window/mp_match_history.cfg:375
-#, fuzzy
-#| msgid "Info: "
 msgid "Info"
-msgstr "Info: "
+msgstr "Informação"
 
 #
 #. [widget]: id=tab_label
 #: data/gui/window/mp_match_history.cfg:388
-#, fuzzy
-#| msgid "Players:"
 msgid "Players"
-msgstr "Jogadores:"
+msgstr "Jogadores"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [widget]: id=tab_label
 #: data/gui/window/mp_match_history.cfg:401
 #: src/gui/dialogs/multiplayer/lobby.cpp:433
@@ -5585,10 +5470,8 @@ msgstr "Modificações"
 #
 #. [label]
 #: data/gui/window/mp_match_history.cfg:450
-#, fuzzy
-#| msgid "Players:"
 msgid "Player:"
-msgstr "Jogadores:"
+msgstr "Jogador:"
 
 #. [text_box]: id=search_player
 #. [text_box]: id=search_game_name
@@ -5602,20 +5485,15 @@ msgstr ""
 #
 #. [label]
 #: data/gui/window/mp_match_history.cfg:474
-#, fuzzy
-#| msgid "Contents"
 msgid "Content Type:"
-msgstr "Conteúdos"
+msgstr "Tipo de conteúdo:"
 
 #. [label]
 #: data/gui/window/mp_match_history.cfg:494
-#, fuzzy
-#| msgid "Team name:"
 msgid "Game name:"
-msgstr "Nome da equipa:"
+msgstr "Nome da partida:"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #. [widget]: id=label
 #. [grid]
@@ -5679,47 +5557,39 @@ msgstr "Jogo local"
 #. [label]
 #: data/gui/window/mp_report.cfg:50
 msgid "* Player being reported:"
-msgstr ""
+msgstr "* Jogador a ser reportado:"
 
 #. [label]
 #: data/gui/window/mp_report.cfg:82
 msgid "* Reason for report:"
-msgstr ""
+msgstr "* Razão pela ocorrência:"
 
 #. [label]
 #: data/gui/window/mp_report.cfg:114
-#, fuzzy
-#| msgid "Potion of resilience"
 msgid "Location of occurrence:"
-msgstr "Poção da resistência"
+msgstr "Local de ocorrência:"
 
 #. [label]
 #: data/gui/window/mp_report.cfg:146
-#, fuzzy
-#| msgid "Additional thanks to"
 msgid "Additional information:"
-msgstr "Agradecimentos adicionais a"
+msgstr "Informações adicionais:"
 
 #. [label]
 #: data/gui/window/mp_report.cfg:191
 msgid "* required fields"
-msgstr ""
+msgstr "* Campos obrigatórios"
 
 #
 #. [menu_button]: id=controller
 #: data/gui/window/mp_staging.cfg:245
-#, fuzzy
-#| msgid "Change the side's controller"
 msgid "Change the side’s controller"
-msgstr "Mudar controlador da equipa"
+msgstr "Alterar o controlador da equipa"
 
 #
 #. [menu_button]: id=ai_controller
 #: data/gui/window/mp_staging.cfg:261
-#, fuzzy
-#| msgid "Change the AI side's behaviour"
 msgid "Change the AI side’s behaviour"
-msgstr "Mudar comportamento da IA"
+msgstr "Alterar o comportamento da IA"
 
 #. [menu_button]: id=side_team
 #: data/gui/window/mp_staging.cfg:288
@@ -5958,7 +5828,6 @@ msgstr "Ação"
 msgid "Hotkey"
 msgstr "Atalhos"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_2
 #. Translate G as the initial letter for Game
 #: data/gui/window/preferences/02_hotkeys.cfg:118
@@ -5971,7 +5840,6 @@ msgstr "G"
 msgid "Available in game"
 msgstr "Disponível na partida"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_3
 #. Translate E as the initial letter for Editor
 #: data/gui/window/preferences/02_hotkeys.cfg:131
@@ -5984,7 +5852,6 @@ msgstr "E"
 msgid "Available in editor"
 msgstr "Disponível no editor"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_4
 #. Translate M as the initial letter for Main Menu
 #: data/gui/window/preferences/02_hotkeys.cfg:144
@@ -6011,10 +5878,8 @@ msgstr "Apagar o Atalho"
 
 #. [label]
 #: data/gui/window/preferences/03_display.cfg:15
-#, fuzzy
-#| msgid "Window"
 msgid "Window size:"
-msgstr "Janela"
+msgstr "Tamanho da janela:"
 
 #. [label]: id=help_text
 #: data/gui/window/preferences/03_display.cfg:39
@@ -6024,10 +5889,8 @@ msgstr ""
 #
 #. [menu_button]: id=resolution_set
 #: data/gui/window/preferences/03_display.cfg:73
-#, fuzzy
-#| msgid "Change the buffer size"
 msgid "Change the game window size"
-msgstr "Muda o tamanho do buffer"
+msgstr "Alterar o tamanho da janela do jogo"
 
 #. [slider]: id=pixel_scale_slider
 #: data/gui/window/preferences/03_display.cfg:87
@@ -6060,7 +5923,7 @@ msgstr ""
 #. [toggle_button]: id=vsync
 #: data/gui/window/preferences/03_display.cfg:129
 msgid "VSync"
-msgstr ""
+msgstr "VSync"
 
 #. [toggle_button]: id=vsync
 #: data/gui/window/preferences/03_display.cfg:130
@@ -6097,24 +5960,20 @@ msgstr ""
 
 #. [toggle_button]: id=show_floating_labels
 #: data/gui/window/preferences/03_display.cfg:200
-#, fuzzy
-#| msgid "Time of day indicator"
 msgid "Combat damage indicators"
-msgstr "Indicador do tempo de dia"
+msgstr "Indicadores de combate"
 
 #. [toggle_button]: id=show_floating_labels
 #: data/gui/window/preferences/03_display.cfg:201
-#, fuzzy
-#| msgid "Show damage and healing amounts above a unit"
 msgid "Show amount of damage inflicted or healed as fading labels above units"
-msgstr "Mostrar a quantidade de dano e cura a cima da unidade"
+msgstr ""
+"Mostrar a quantidade de dano e cura por cima das unidades como marcadores "
+"flutuantes"
 
 #. [toggle_button]: id=show_ellipses
 #: data/gui/window/preferences/03_display.cfg:214
-#, fuzzy
-#| msgid "Time of day indicator"
 msgid "Team color indicators"
-msgstr "Indicador do tempo de dia"
+msgstr "Indicadores de equipa"
 
 #
 #. [toggle_button]: id=show_ellipses
@@ -6166,10 +6025,8 @@ msgstr "Exibir gráficos animados da água (pode atrasar o computador)"
 #
 #. [toggle_button]: id=animate_units_standing
 #: data/gui/window/preferences/03_display.cfg:293
-#, fuzzy
-#| msgid "Show unit standing animations"
 msgid "Unit standing animations"
-msgstr "Mostra animações das unidades"
+msgstr "Animações das unidades"
 
 #
 #. [toggle_button]: id=animate_units_standing
@@ -6180,10 +6037,8 @@ msgstr "Animar continuamente unidades no campo de batalha"
 #
 #. [toggle_button]: id=animate_units_idle
 #: data/gui/window/preferences/03_display.cfg:312
-#, fuzzy
-#| msgid "Show unit idle animations"
 msgid "Unit idle animations"
-msgstr "Mostra animações de unidades inativas"
+msgstr "Animações de unidades inativas"
 
 #
 #. [toggle_button]: id=animate_units_idle
@@ -6392,10 +6247,6 @@ msgstr "Encontrar e definir atalho para o servidor para manter jogos LAN"
 #
 #. [button]: id=add_friend
 #: data/gui/window/preferences/05_multiplayer.cfg:264
-#, fuzzy
-#| msgid ""
-#| "Add this username to your friends list (add optional notes, e.g., "
-#| "'player_name notes on friend')"
 msgid ""
 "Add this username to your friends list (add optional notes, e.g., "
 "‘player_name notes on friend’)"
@@ -6406,10 +6257,6 @@ msgstr ""
 # Looks broken
 #. [button]: id=add_ignored
 #: data/gui/window/preferences/05_multiplayer.cfg:277
-#, fuzzy
-#| msgid ""
-#| "Add this username to your ignore list (add optional reason, e.g., "
-#| "'player_name reason ignored')"
 msgid ""
 "Add this username to your ignore list (add optional reason, e.g., "
 "‘player_name reason ignored’)"
@@ -6493,7 +6340,7 @@ msgstr "Mostrar esferas aliadas"
 msgid "During ally’s turn, use a two-color orb to show movement"
 msgstr ""
 "Durante o turno de um aliado usa uma esfera com duas cores para mostrar o "
-"seu movimento."
+"seu movimento"
 
 #. [grid]
 #: data/gui/window/select_orb_colors.cfg:154
@@ -6533,7 +6380,6 @@ msgstr ""
 msgid "Overall"
 msgstr "Geral"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=title
 #: data/gui/window/statistics_dialog.cfg:490 src/hotkey/hotkey_command.cpp:128
 msgid "Statistics"
@@ -6563,7 +6409,7 @@ msgstr ""
 #. [column]
 #: data/gui/window/statistics_dialog.cfg:561
 msgid "stats dialog^Ratio of actual to expected"
-msgstr "Proporção entre real e esperado"
+msgstr "Proporção entre o real e esperado"
 
 #. [column]
 #: data/gui/window/statistics_dialog.cfg:576
@@ -6597,7 +6443,6 @@ msgstr ""
 "Valores em vermelho indicam que o lado se saiu pior do que o esperado."
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=lblTitle
 #: data/gui/window/surrender_quit.cfg:40 src/hotkey/hotkey_command.cpp:131
 msgid "Surrender Game"
@@ -6683,7 +6528,6 @@ msgid "Choose Theme"
 msgstr "Escolha o tema"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=help
 #: data/gui/window/title_screen.cfg:177 src/hotkey/hotkey_command.cpp:283
 msgid "Help"
@@ -6766,10 +6610,8 @@ msgstr "Configurar as configurações do jogo"
 
 #. [grid]
 #: data/gui/window/title_screen.cfg:261
-#, fuzzy
-#| msgid "View: Each Team"
 msgid "View achievements"
-msgstr "Visualizar: todas as equipas"
+msgstr "Ver proezas"
 
 #
 #. [grid]
@@ -6860,7 +6702,6 @@ msgstr "Nível"
 msgid "XP"
 msgstr "XP"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [toggle_button]: id=sort_6
 #. [toggle_button]: id=sort_4
 #: data/gui/window/unit_list.cfg:176 data/gui/window/unit_recall.cfg:89
@@ -6869,7 +6710,6 @@ msgstr "XP"
 msgid "Traits"
 msgstr "Caraterísticas"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/unit_list.cfg:367 src/hotkey/hotkey_command.cpp:127
 msgid "Unit List"
@@ -6897,7 +6737,6 @@ msgstr "Renomear"
 msgid "Dismiss"
 msgstr "Demitir"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/unit_recall.cfg:450 src/hotkey/hotkey_command.cpp:112
 msgid "Recall"
@@ -6908,14 +6747,12 @@ msgstr "Convocar"
 msgid "Recruit Unit"
 msgstr "Recrutar Unidade"
 
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [button]: id=ok
 #: data/gui/window/unit_recruit.cfg:231 src/hotkey/hotkey_command.cpp:110
 msgid "Recruit"
 msgstr "Recrutar"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]
 #: data/gui/window/wml_error.cfg:40 src/gui/dialogs/message.cpp:209
 #: src/gui/dialogs/preferences_dialog.cpp:253
@@ -6924,7 +6761,6 @@ msgid "Error"
 msgstr "Erro"
 
 #
-#. #-#-#-#-#  wesnoth-lib.wml.pot (PACKAGE VERSION)  #-#-#-#-#
 #. [label]: id=details_heading
 #: data/gui/window/wml_error.cfg:112 src/gui/dialogs/multiplayer/lobby.cpp:181
 #: src/gui/dialogs/multiplayer/lobby.cpp:197 src/gui/dialogs/wml_error.cpp:160
@@ -6972,10 +6808,8 @@ msgid "filesystem_path_game^User preferences"
 msgstr "Preferências do Utilizador"
 
 #: src/desktop/paths.cpp:227
-#, fuzzy
-#| msgid "filesystem_path_game^Game data"
 msgid "filesystem_path_game^Editor maps"
-msgstr "Data do Jogo"
+msgstr "Editor de mapa"
 
 #: src/desktop/paths.cpp:240
 msgid "filesystem_path_system^Home"
@@ -7034,7 +6868,7 @@ msgstr "pt,pt_PT,pt_BR"
 #
 #: src/font/text.cpp:886
 msgid "The text contains invalid Pango markup: "
-msgstr "O texto contem código pango inválido:"
+msgstr "O texto contem código pango inválido: "
 
 #. TRANSLATORS: Formats a two-element conjunctive list.
 #: src/formula/string_utils.cpp:265
@@ -7141,10 +6975,8 @@ msgid "Text has a font size of 0."
 msgstr "Texto tem um tamanho nulo."
 
 #: src/gui/core/widget_definition.cpp:29
-#, fuzzy
-#| msgid "No state or draw section defined."
 msgid "No draw section defined for state."
-msgstr "Nenhum estado ou seção de desenho definida."
+msgstr "Nenhum estado ou secção de desenho definida."
 
 #
 #: src/gui/core/widget_definition.cpp:67 src/gui/core/window_builder.cpp:133
@@ -7173,10 +7005,8 @@ msgstr ""
 "encontradas, $expected esperadas)"
 
 #: src/gui/dialogs/achievements_dialog.cpp:138
-#, fuzzy
-#| msgid "Study Complete"
 msgid "Completed"
-msgstr "Estudo Completo"
+msgstr "Completado"
 
 #
 #: src/gui/dialogs/addon/manager.cpp:162
@@ -7524,17 +7354,13 @@ msgstr "Queres realmente remover “$addon|”?"
 
 #. TRANSLATORS: Month + day of month + year + 12-hour time, eg 'November 02 2021, 1:59 PM'. Format for your locale.
 #: src/gui/dialogs/addon/manager.cpp:1038
-#, fuzzy
-#| msgid "%a %b %d %Y, %I:%M %p"
 msgid "%B %d %Y, %I:%M %p"
-msgstr "%a %d de %b %Y, %I:%M %p"
+msgstr "%d de %B %Y, %I:%M %p"
 
 #. TRANSLATORS: Month + day of month + year + 24-hour time, eg 'November 02 2021, 13:59'. Format for your locale.
 #: src/gui/dialogs/addon/manager.cpp:1040
-#, fuzzy
-#| msgid "%a %b %d %Y, %H:%M"
 msgid "%B %d %Y, %H:%M"
-msgstr "%a, %d de %b %Y, %H:%M"
+msgstr "%d de %B %Y %H:%M"
 
 #: src/gui/dialogs/addon/manager.cpp:1101
 msgid "url^None"
@@ -7561,10 +7387,8 @@ msgid "Attacker vulnerability vs"
 msgstr " vulnerabilidade do atacante contra"
 
 #: src/gui/dialogs/campaign_selection.cpp:354
-#, fuzzy
-#| msgid "Campaigns"
 msgid "Missing Campaigns"
-msgstr "Campanhas"
+msgstr "Campanhas em falta"
 
 #. TRANSLATORS: "more than 15" gives a little leeway to add or remove one without changing the translatable text.
 #. It's already ambiguous, 1.18 has 19 campaigns, if you include the tutorial and multiplayer-only World Conquest.
@@ -7629,10 +7453,8 @@ msgstr ""
 
 #
 #: src/gui/dialogs/editor/edit_pbl.cpp:173
-#, fuzzy
-#| msgid "Cores"
 msgid "Core"
-msgstr "Suplementos"
+msgstr "Núcleo"
 
 #
 #: src/gui/dialogs/editor/edit_pbl.cpp:174
@@ -7640,17 +7462,13 @@ msgid "Campaign"
 msgstr "Campanha"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:175
-#, fuzzy
-#| msgid "Mystery Campaign"
 msgid "Hybrid Campaign"
-msgstr "Campanha Misteriosa"
+msgstr "Campanha Híbrida"
 
 #
 #: src/gui/dialogs/editor/edit_pbl.cpp:176
-#, fuzzy
-#| msgid "Multiplayer Campaigns"
 msgid "Multiplayer Campaign"
-msgstr "Campanhas em rede"
+msgstr "Campanha em rede"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:177
 msgid "Scenario"
@@ -7658,16 +7476,12 @@ msgstr "Cenário"
 
 #
 #: src/gui/dialogs/editor/edit_pbl.cpp:178
-#, fuzzy
-#| msgid "Multiplayer Alerts"
 msgid "Multiplayer Scenario"
-msgstr "Alertas do Jogo em Rede"
+msgstr "Cenário em rede"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:179
-#, fuzzy
-#| msgid "Factions"
 msgid "Faction"
-msgstr "Fações"
+msgstr "Fação"
 
 #
 #: src/gui/dialogs/editor/edit_pbl.cpp:180
@@ -7676,74 +7490,52 @@ msgid "Era"
 msgstr "Era"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:181
-#, fuzzy
-#| msgid "Ice Pack"
 msgid "Map Pack"
-msgstr "Bocados de gelo"
+msgstr "Pacote de mapa"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:182
-#, fuzzy
-#| msgid "Modifications"
 msgid "Modification"
-msgstr "Modificações"
+msgstr "Modificação"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:183
-#, fuzzy
-#| msgid "Medium"
 msgid "Media"
-msgstr "Médio"
+msgstr "Média"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:184
 msgid "Other"
 msgstr "Outro"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:190
-#, fuzzy
-#| msgid "addon_tag^Cooperative"
 msgid "Cooperative"
 msgstr "Cooperativo"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:191
-#, fuzzy
-#| msgid "addon_tag^Cosmetic"
 msgid "Cosmetic"
 msgstr "Cosmético"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:193
-#, fuzzy
-#| msgid "WARNING"
 msgid "RNG"
-msgstr "AVISO"
+msgstr "NGA"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:194
-#, fuzzy
-#| msgid "Survivors"
 msgid "Survival"
-msgstr "Sobreviventes"
+msgstr "Sobrevivência"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:195
-#, fuzzy
-#| msgid "Terrain"
 msgid "Terraforming"
-msgstr "Terreno"
+msgstr "Terraplanagem"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:374
-#, fuzzy
-#| msgid "Network communication error."
 msgid "No validation errors"
-msgstr "Erro de comunicação com a rede."
+msgstr "Sem erros de validação"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:374
-#, fuzzy
-#| msgid "Success."
 msgid "Success"
-msgstr "Sucesso."
+msgstr "Sucesso"
 
 #: src/gui/dialogs/editor/edit_pbl.cpp:404
-#, fuzzy
-#| msgid "Choose weapon:"
 msgid "Choose an icon"
-msgstr "Escolha a arma:"
+msgstr "Escolha uma imagem"
 
 #
 #: src/gui/dialogs/editor/generator_settings.cpp:71
@@ -7873,7 +7665,7 @@ msgstr "Wesnoth $version"
 #. TRANSLATORS: "reserve" refers to units on the recall list
 #: src/gui/dialogs/game_load.cpp:235
 msgid "$active active, $reserve reserve"
-msgstr ""
+msgstr "$active ativos, $reserve na reserva"
 
 #: src/gui/dialogs/game_load.cpp:284
 msgid "The selected file is corrupt: "
@@ -7937,10 +7729,8 @@ msgid "controller^Idle"
 msgstr "Vago"
 
 #: src/gui/dialogs/game_stats.cpp:71
-#, fuzzy
-#| msgid "controller^None"
 msgid "controller^Reserved"
-msgstr "Ninguém"
+msgstr "Reservado"
 
 #
 #: src/gui/dialogs/game_stats.cpp:110 src/gui/dialogs/label_settings.cpp:78
@@ -8307,10 +8097,8 @@ msgstr "Sala"
 
 #
 #: src/gui/dialogs/multiplayer/mp_report.cpp:50
-#, fuzzy
-#| msgid "Games"
 msgid "Game"
-msgstr "Partidas"
+msgstr "Partida"
 
 #: src/gui/dialogs/multiplayer/mp_staging.cpp:518
 msgid "Waiting for players to choose factions..."
@@ -8416,8 +8204,6 @@ msgstr ""
 "ataques acertados infligidos/recebidos."
 
 #: src/gui/dialogs/statistics_dialog.cpp:368
-#, fuzzy
-#| msgid "Recruits"
 msgid "stats^Recruits"
 msgstr "Recrutamentos"
 
@@ -8456,10 +8242,8 @@ msgid "Screenshot"
 msgstr "Captura do ecrã"
 
 #: src/gui/dialogs/title_screen.cpp:471 src/hotkey/hotkey_command.cpp:301
-#, fuzzy
-#| msgid "Choose next scenario"
 msgid "Choose Test Scenario"
-msgstr "Escolha o próximo cenário"
+msgstr "Escolha o cenário de teste"
 
 #: src/gui/dialogs/unit_create.cpp:196
 msgid "unit_variation^Default Variation"
@@ -9445,14 +9229,12 @@ msgstr "Adicionar nova área"
 
 #: src/hotkey/hotkey_command.cpp:270
 msgid "Add-on Publishing Editor"
-msgstr ""
+msgstr "Editor para publicação"
 
 #
 #: src/hotkey/hotkey_command.cpp:271
-#, fuzzy
-#| msgid "Manage Add-ons"
 msgid "Change Add-on ID"
-msgstr "Administrar Complementos"
+msgstr "Mudar ID do extra"
 
 #: src/hotkey/hotkey_command.cpp:273
 msgid "Edit Scenario"

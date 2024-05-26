@@ -3,69 +3,66 @@ Portuguese translation files for « The Battle for Wesnoth »
 
 Translation progress:
 
- » PT                             —    16691    2190   21326 ( 67%) -2445
- * wesnoth-trow                   —     1010       0    1010 (100%) -0
- * wesnoth-manual                 —      433       0     433 (100%) -0
- * wesnoth-anl                    —      124       0     124 (100%) -0
- * wesnoth-ei                     —      167     417    1832 (-13%) -1248
- * wesnoth-low                    —      718       1     719 ( 99%) -0
- * wesnoth-dw                     —      463       1     464 ( 99%) -0
- * wesnoth-tutorial               —      279       2     282 ( 98%) -1
- * wesnoth-sotbe                  —      636       4     640 ( 98%) -0
- * wesnoth-httt                   —     1222       7    1229 ( 98%) -0
- * wesnoth-tb                     —      218       6     224 ( 94%) -0
- * wesnoth-help                   —      671      21     706 ( 92%) -14
- * wesnoth-editor                 —      107       3     115 ( 90%) -5
- * wesnoth                        —     1338      70    1431 ( 88%) -23
- * wesnoth-lib                    —     1427      83    1559 ( 86%) -49
- * wesnoth-multiplayer            —      287      16     329 ( 82%) -26
- * wesnoth-sota                   —      588      56     644 ( 82%) -0
- * wesnoth-units                  —      734      69     831 ( 80%) -28
- * wesnoth-nr                     —     1070     131    1210 ( 77%) -9
- * wesnoth-utbs                   —     1773     203    2019 ( 77%) -43
- * wesnoth-wc                     —      441      51     514 ( 75%) -22
- * wesnoth-dm                     —      620     111     731 ( 69%) -0
- * wesnoth-thot                   —      283      70     353 ( 60%) -0
- * wesnoth-sof                    —      482     184     667 ( 44%) -1
- * wesnoth-did                    —      665     249     956 ( 43%) -42
- * wesnoth-l                      —      303     118     434 ( 42%) -13
- * wesnoth-tsg                    —      430     199     629 ( 36%) -0
- * wesnoth-manpages               —      202     118     332 ( 25%) -12
- * wesnoth-tools                  —        0       0      96 (  0%) -96
- * wesnoth-wof                    —        0       0     813 (  0%) -813
+ » PT                             —    17145    1839   21355 ( 71%) -2399
+ * wesnoth-tutorial               —      283       0     283 (100%) -0
+ * wesnoth-trow                   —     1011       0    1011 (100%) -0
+ * wesnoth-tb                     —      225       0     225 (100%) -0
+ * wesnoth-sotbe                  —      641       0     641 (100%) -0
+ * wesnoth-multiplayer            —      330       0     330 (100%) -0
+ * wesnoth-manual                 —      434       0     434 (100%) -0
+ * wesnoth-low                    —      720       0     720 (100%) -0
+ * wesnoth-httt                   —     1230       0    1230 (100%) -0
+ * wesnoth-editor                 —      116       0     116 (100%) -0
+ * wesnoth-dw                     —      465       0     465 (100%) -0
+ * wesnoth-anl                    —      125       0     125 (100%) -0
+ * wesnoth-ei                     —      197     389    1833 (-10%) -1249
+ * wesnoth-help                   —      695       0     707 ( 98%) -13
+ * wesnoth-lib                    —     1522       7    1560 ( 97%) -33
+ * wesnoth-sota                   —      639       7     645 ( 97%) -0
+ * wesnoth                        —     1386      30    1432 ( 94%) -18
+ * wesnoth-wc                     —      488      13     515 ( 92%) -16
+ * wesnoth-units                  —      780      27     832 ( 90%) -27
+ * wesnoth-utbs                   —     1780     198    2020 ( 78%) -44
+ * wesnoth-nr                     —     1071     132    1211 ( 77%) -10
+ * wesnoth-dm                     —      621     112     732 ( 69%) -0
+ * wesnoth-thot                   —      289      65     354 ( 63%) -2
+ * wesnoth-sof                    —      488     177     668 ( 46%) -5
+ * wesnoth-l                      —      308     115     435 ( 44%) -14
+ * wesnoth-did                    —      667     248     957 ( 43%) -44
+ * wesnoth-tsg                    —      431     200     630 ( 36%) -0
+ * wesnoth-manpages               —      203     119     333 ( 25%) -13
+ * wesnoth-tools                  —        0       0      97 (  0%) -97
+ * wesnoth-wof                    —        0       0     814 (  0%) -814
 
-
-
- » PT_BR                          —    17958     927   21326 ( 79%) -2441
- * wesnoth-trow                   —     1010       0    1010 (100%) -0
- * wesnoth-sota                   —      644       0     644 (100%) -0
- * wesnoth-manual                 —      433       0     433 (100%) -0
- * wesnoth-dm                     —      731       0     731 (100%) -0
- * wesnoth-anl                    —      124       0     124 (100%) -0
- * wesnoth-ei                     —      162     401    1832 (-13%) -1269
- * wesnoth-tsg                    —      628       1     629 ( 99%) -0
- * wesnoth-thot                   —      352       1     353 ( 99%) -0
- * wesnoth-low                    —      718       1     719 ( 99%) -0
- * wesnoth-dw                     —      463       1     464 ( 99%) -0
- * wesnoth-httt                   —     1217       9    1229 ( 98%) -3
- * wesnoth-tutorial               —      279       2     282 ( 98%) -1
- * wesnoth-sotbe                  —      636       4     640 ( 98%) -0
- * wesnoth-sof                    —      659       7     667 ( 97%) -1
- * wesnoth-tb                     —      218       6     224 ( 94%) -0
- * wesnoth                        —     1375      37    1431 ( 93%) -19
- * wesnoth-utbs                   —     1922      50    2019 ( 92%) -47
- * wesnoth-help                   —      673      19     706 ( 92%) -14
- * wesnoth-editor                 —      107       3     115 ( 90%) -5
- * wesnoth-did                    —      887      27     956 ( 89%) -42
- * wesnoth-manpages               —      306      14     332 ( 87%) -12
- * wesnoth-lib                    —     1422      81    1559 ( 86%) -56
- * wesnoth-l                      —      393      28     434 ( 84%) -13
- * wesnoth-units                  —      747      53     831 ( 83%) -31
- * wesnoth-multiplayer            —      288      13     329 ( 83%) -28
- * wesnoth-wc                     —      457      34     514 ( 82%) -23
- * wesnoth-nr                     —     1070     131    1210 ( 77%) -9
- * wesnoth-tools                  —        7       3      96 (  4%) -86
- * wesnoth-wof                    —       30       1     813 (  3%) -782
-
+ » PT_BR                          —    17987     951   21355 ( 79%) -2459
+ * wesnoth-trow                   —     1011       0    1011 (100%) -0
+ * wesnoth-sota                   —      645       0     645 (100%) -0
+ * wesnoth-manual                 —      434       0     434 (100%) -0
+ * wesnoth-dm                     —      732       0     732 (100%) -0
+ * wesnoth-anl                    —      125       0     125 (100%) -0
+ * wesnoth-ei                     —      163     402    1833 (-13%) -1270
+ * wesnoth-tsg                    —      629       2     630 ( 99%) -0
+ * wesnoth-thot                   —      353       2     354 ( 99%) -0
+ * wesnoth-low                    —      719       2     720 ( 99%) -0
+ * wesnoth-dw                     —      464       2     465 ( 99%) -0
+ * wesnoth-httt                   —     1218      10    1230 ( 98%) -4
+ * wesnoth-sotbe                  —      637       5     641 ( 98%) -0
+ * wesnoth-tutorial               —      280       3     283 ( 97%) -2
+ * wesnoth-sof                    —      660       8     668 ( 97%) -2
+ * wesnoth-tb                     —      219       7     225 ( 94%) -0
+ * wesnoth                        —     1376      38    1432 ( 93%) -20
+ * wesnoth-utbs                   —     1923      51    2020 ( 92%) -48
+ * wesnoth-help                   —      674      20     707 ( 92%) -15
+ * wesnoth-editor                 —      108       4     116 ( 89%) -6
+ * wesnoth-did                    —      888      28     957 ( 89%) -43
+ * wesnoth-manpages               —      307      15     333 ( 87%) -13
+ * wesnoth-lib                    —     1423      82    1560 ( 85%) -57
+ * wesnoth-units                  —      748      54     832 ( 83%) -32
+ * wesnoth-multiplayer            —      289      14     330 ( 83%) -29
+ * wesnoth-l                      —      394      29     435 ( 83%) -14
+ * wesnoth-wc                     —      458      35     515 ( 82%) -24
+ * wesnoth-nr                     —     1071     132    1211 ( 77%) -10
+ * wesnoth-tools                  —        8       4      97 (  4%) -87
+ * wesnoth-wof                    —       31       2     814 (  3%) -783
 
  © wesn-pt-trans

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: The Battle for Wesnoth\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2024-02-20 02:52 UTC\n"
-"PO-Revision-Date: 2022-07-07 10:07+0100\n"
+"PO-Revision-Date: 2024-05-26 11:11+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans\n"
 "Language: pt\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. [era]: id=world_conquest_era
 #: data/campaigns/World_Conquest/_main.cfg:41
@@ -109,10 +109,8 @@ msgstr ""
 
 #. [multiplayer_side]: id=The_Artisans, type=random
 #: data/campaigns/World_Conquest/era/factions/The_Artisans.cfg:8
-#, fuzzy
-#| msgid "The Alliance"
 msgid "The Artisans"
-msgstr "A Aliança"
+msgstr "Os artesãos"
 
 #. [multiplayer_side]: id=The Cult, type=random
 #: data/campaigns/World_Conquest/era/factions/The_Cult.cfg:6
@@ -178,10 +176,8 @@ msgstr ""
 
 #. [multiplayer_side]: id=The_Marauders, type=random
 #: data/campaigns/World_Conquest/era/factions/The_Marauders.cfg:8
-#, fuzzy
-#| msgid "Dune Marauder"
 msgid "The Marauders"
-msgstr "Saqueador"
+msgstr "Os saqueadores"
 
 #. [multiplayer_side]: id=The Militia, type=random
 #: data/campaigns/World_Conquest/era/factions/The_Militia.cfg:6
@@ -225,17 +221,13 @@ msgstr "Recrutamentos"
 
 #. [label]
 #: data/campaigns/World_Conquest/gui/help_dialog.cfg:463
-#, fuzzy
-#| msgid "Desert"
 msgid "Deserters"
-msgstr "Deserto"
+msgstr "Desertores"
 
 #. [label]
 #: data/campaigns/World_Conquest/gui/help_dialog.cfg:482
-#, fuzzy
-#| msgid "Commander"
 msgid "Commanders"
-msgstr "Comandante"
+msgstr "Comandantes"
 
 #. [label]
 #. [lua]: gui.widget.add_invest_item
@@ -246,10 +238,8 @@ msgstr "Heróis"
 
 #. [label]: id=title_random_leaders
 #: data/campaigns/World_Conquest/gui/help_dialog.cfg:520
-#, fuzzy
-#| msgid "Random Maps"
 msgid "Random Leaders"
-msgstr "Mapas Aleatórios"
+msgstr "Líderes Aleatórios"
 
 #. [label]: id=title
 #. [lua]: preshow
@@ -355,10 +345,8 @@ msgstr " mapa: "
 
 #. [label]
 #: data/campaigns/World_Conquest/gui/settings_dialog.cfg:112
-#, fuzzy
-#| msgid "Map size:"
 msgid "map size"
-msgstr "Tamanho do mapa:"
+msgstr "tamanho do mapa"
 
 #. [label]
 #: data/campaigns/World_Conquest/gui/settings_dialog.cfg:128
@@ -367,10 +355,8 @@ msgstr "densidade de aldeias"
 
 #. [label]
 #: data/campaigns/World_Conquest/gui/settings_dialog.cfg:144
-#, fuzzy
-#| msgid "Map size:"
 msgid "keep size"
-msgstr "Tamanho do mapa:"
+msgstr "tamanho do castelo"
 
 #. [label]
 #: data/campaigns/World_Conquest/gui/settings_dialog.cfg:160
@@ -395,10 +381,8 @@ msgstr "Fator de aceleração:"
 
 #. [label]
 #: data/campaigns/World_Conquest/gui/settings_dialog.cfg:208
-#, fuzzy
-#| msgid "Number of Turns"
 msgid "number of keeps"
-msgstr "Número de turnos"
+msgstr "número de castelos"
 
 #: data/campaigns/World_Conquest/lua/campaign/enemy_themed.lua:5
 msgid "$name|'s pet"
@@ -2285,16 +2269,12 @@ msgstr "Maneiro. Mais poder aéreo é sempre bem vindo."
 
 #. a Drake Fighter joins a player's side; they will have their standard weapon (a "war blade" in English)
 #: data/campaigns/World_Conquest/lua/game_mechanics/unittypedata.lua:252
-#, fuzzy
-#| msgid ""
-#| "The ancient spirits tell me my destiny lies with yours. My sword is at "
-#| "your command."
 msgid ""
 "The ancient spirits tell me my destiny lies with yours. My blade is at your "
 "command."
 msgstr ""
-"Os espiritos anciões dizem que o meu destino reside com vocês. Minha espada "
-"está às suas ordens."
+"Os espíritos anciões dizem que o meu destino reside com vocês. A minha "
+"espada está às suas ordens."
 
 #. a Drake Clasher joins a player's side
 #: data/campaigns/World_Conquest/lua/game_mechanics/unittypedata.lua:258
@@ -2638,16 +2618,6 @@ msgstr "Fações"
 
 #. [lua]: preshow
 #: data/campaigns/World_Conquest/lua/game_mechanics/wocopedia/help.lua:44
-#, fuzzy
-#| msgid ""
-#| "The World Conquest II era consists of factions that are built from pairs "
-#| "of mainline factions. One faction will have a healer available (Drakes, "
-#| "Rebels and Loyalists) and one will not (Orcs, Dwarves and Undead). The "
-#| "recruit list is also organized in pairs so that sometimes you will have "
-#| "to recruit a different unit before you can recruit the units that you "
-#| "want. The available heroes, deserters, and random leaders also depend on "
-#| "your factions; the items you can get do not depend on the faction you "
-#| "choose."
 msgid ""
 "The World Conquest era consists of factions that are built from pairs of "
 "mainline factions. One faction will have a healer available (Drakes, "
@@ -2657,14 +2627,14 @@ msgid ""
 "The available heroes, deserters, and random leaders also depend on your "
 "factions; the items you can get do not depend on the faction you choose."
 msgstr ""
-"A era Conquistando o Mundo II consiste de facções que são montadas a partir "
-"de pares de facções do jogo base. Uma facção terá um um curandeiro "
-"disponível (Draconatos, Rebeldes e Lealistas), e a outra não (Orcs, Anões e "
-"Mortos-vivos). A lista de recrutamento também está organizada em pares, "
-"fazendo com que as vezes você tenha que recrutar uma unidade diferente antes "
-"que você possa recrutar a unidade que você queira. Os heróis disponíveis, "
-"desertores e líderes aleatórios também dependem da sua facção; os itens que "
-"você pode vir a conseguir não dependem da facção que você escolheu."
+"A era Conquistando o Mundo II consiste de facões que são montadas a partir "
+"de pares de facões do jogo base. Uma facão terá um um curandeiro disponível "
+"(Dragos, Rebeldes e Leais), e a outra não (Orcs, Anões e Mortos-vivos). A "
+"lista de recrutamento também está organizada em pares, fazendo com que as "
+"vezes você tenha que recrutar uma unidade diferente antes que possa recrutar "
+"a unidade que queira. Os heróis disponíveis, desertores e líderes aleatórios "
+"também dependem da sua fação; os itens que pode vir a conseguir não dependem "
+"da fação que escolheste."
 
 #. [lua]: type_icon
 #: data/campaigns/World_Conquest/lua/game_mechanics/wocopedia/help.lua:169
@@ -3019,10 +2989,8 @@ msgstr "Anel dos Assasinos"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:30
-#, fuzzy
-#| msgid "backstab"
 msgid "melee: backstab"
-msgstr "golpe sorrateiro"
+msgstr "ataque curto: golpe sorrateiro"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:31
@@ -3088,10 +3056,8 @@ msgstr "Anel sangrento"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:138
-#, fuzzy
-#| msgid "drains"
 msgid "melee: drains"
-msgstr "drenar"
+msgstr "ataque curto: drenar"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:139
@@ -3109,10 +3075,8 @@ msgstr "Ponta cruel"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:157
-#, fuzzy
-#| msgid "melee: optional charge"
 msgid "melee: charge"
-msgstr "corpo-a-corpo: carga opcional"
+msgstr "ataque curto: carga"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:158
@@ -3132,10 +3096,8 @@ msgstr "Símbolo da Vida Amaldiçoado"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:176
-#, fuzzy
-#| msgid "+1 ranged damage"
 msgid "ranged: drains"
-msgstr "+1 de dano à distância"
+msgstr "ataque de longe: +1 de dano"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:177
@@ -3152,10 +3114,8 @@ msgstr "Arco longo Olho d' águia"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:195
-#, fuzzy
-#| msgid "$range|: arcane and +25% damage"
 msgid "ranged: marksman and +25% damage"
-msgstr "$range|: arcano e +25% de dano"
+msgstr "ataque de longe: +25% de dano e precisão"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:196
@@ -3175,10 +3135,8 @@ msgstr "Floresta Proibida"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:219
-#, fuzzy
-#| msgid "melee: optional charge"
 msgid "melee: plague"
-msgstr "corpo-a-corpo: carga opcional"
+msgstr "ataque curto: praga"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:220
@@ -3228,10 +3186,8 @@ msgstr "Tutano de Ghast"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:268
-#, fuzzy
-#| msgid "feeding"
 msgid "feeding, +3 HP"
-msgstr "canibalismo"
+msgstr "canibalismo e +3 PV"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:269
@@ -3314,7 +3270,7 @@ msgstr "Arco de gelo"
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:374
 msgid "19-1 ranged-cold slows"
-msgstr ""
+msgstr "ataque de longe com 19-1 frio e atarsar"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:375
@@ -3342,10 +3298,8 @@ msgstr "Ervas medicinais"
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:420
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:5
-#, fuzzy
-#| msgid "heals +8"
 msgid "heals +8, cures"
-msgstr "sarar +8"
+msgstr "sarar +8, curar"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:421
@@ -3408,7 +3362,7 @@ msgstr "Anel de queimadura por frio"
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:491
 msgid "melee: cold and slows"
-msgstr ""
+msgstr "ataque curto: frio e atrasa"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:492
@@ -3429,7 +3383,7 @@ msgstr "Anel do poder"
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:511
 msgid "arcane/cold/fire: disengage"
-msgstr ""
+msgstr "ataques arcano/gelado/fogo: desenganchar"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:512
@@ -3464,10 +3418,8 @@ msgstr "Espada rúnica"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:545
-#, fuzzy
-#| msgid "magical"
 msgid "melee: magical"
-msgstr "mágico"
+msgstr "ataque curto: mágico"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:546
@@ -3486,7 +3438,7 @@ msgstr "Cajado da radiância"
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:564
 msgid "11-3 ranged-arcane magical"
-msgstr ""
+msgstr "ataque de longe com 11-3 arcano e mágico"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:565
@@ -3506,10 +3458,8 @@ msgstr "Presságio da Tempestade"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:610
-#, fuzzy
-#| msgid "melee"
 msgid "melee: fury"
-msgstr "curto"
+msgstr "ataque curto: fúria"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:611
@@ -3545,6 +3495,7 @@ msgstr "Arco da Silfa"
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:635
 msgid "ranged-blade/impact/pierce: +60% strikes and +1 damage"
 msgstr ""
+"ataques de impacto/cortante/perfurante: +60% de golpes e +1 ponto de dano"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:636
@@ -3628,10 +3579,8 @@ msgstr "Tomo dos segredos"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:725
-#, fuzzy
-#| msgid "XP to advance"
 msgid "-50% XP to advance"
-msgstr "XP para avançar"
+msgstr "-50% XP para avançar"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:726
@@ -3647,7 +3596,7 @@ msgstr "Tridente das tempestades"
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:736
 msgid "17-2 ranged-fire magical"
-msgstr ""
+msgstr "ataque de longe com 17-2 fogo e mágico"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:737
@@ -3742,7 +3691,7 @@ msgstr "Flor invernal"
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:843
 msgid "+15 HP, up to 20% resistance vs cold"
-msgstr ""
+msgstr "+15 PV e até 20% mais resistente ao frio"
 
 #. [artifact]
 #: data/campaigns/World_Conquest/resources/data/artifacts.cfg:844
@@ -3832,10 +3781,8 @@ msgstr ""
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:102
-#, fuzzy
-#| msgid "pommel strike"
 msgid "melee: +1 strikes"
-msgstr "punho espada"
+msgstr "ataque curto: +1 golpe"
 
 #. [trainer]: type=Elvish Ranger
 #: data/campaigns/World_Conquest/resources/data/training.cfg:120
@@ -3890,31 +3837,13 @@ msgstr ""
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:220
-#, fuzzy
 msgid "ranged: disengage"
-msgstr ""
-"#-#-#-#-#  105.po (wescamp-i 18n)  #-#-#-#-#\n"
-"desengajar\n"
-"#-#-#-#-#  106.po  #-#-#-#-#\n"
-"recuar\n"
-"#-#-#-#-#  49.po (wescamp-i 18n)  #-#-#-#-#\n"
-"desengajar\n"
-"#-#-#-#-#  51.po  #-#-#-#-#\n"
-"recuar"
+msgstr "ataque de longe: desenganchar"
 
 #. [dummy]: id=wc2_disengage
 #: data/campaigns/World_Conquest/resources/data/training.cfg:234
-#, fuzzy
 msgid "disengage"
-msgstr ""
-"#-#-#-#-#  105.po (wescamp-i 18n)  #-#-#-#-#\n"
-"desengajar\n"
-"#-#-#-#-#  106.po  #-#-#-#-#\n"
-"recuar\n"
-"#-#-#-#-#  49.po (wescamp-i 18n)  #-#-#-#-#\n"
-"desengajar\n"
-"#-#-#-#-#  51.po  #-#-#-#-#\n"
-"recuar"
+msgstr "desenganchar"
 
 #. [dummy]: id=wc2_disengage
 #: data/campaigns/World_Conquest/resources/data/training.cfg:235
@@ -3967,10 +3896,8 @@ msgstr ""
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:468
-#, fuzzy
-#| msgid "heals +4"
 msgid "heals +4, cures"
-msgstr "sarar +4"
+msgstr "sarar +4 e cura"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:544
@@ -3984,17 +3911,8 @@ msgstr "$range|: +$boost| de dano"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:574
-#, fuzzy
 msgid "$range|: +1 damage per level"
-msgstr ""
-"#-#-#-#-#  106.po  #-#-#-#-#\n"
-"$range|: +1 dano por nível\n"
-"#-#-#-#-#  107.po (Battle for Wesnoth 0.8.2-CVS)  #-#-#-#-#\n"
-"$range|: +1 de dano por nível\n"
-"#-#-#-#-#  51.po  #-#-#-#-#\n"
-"$range|: +1 dano por nível\n"
-"#-#-#-#-#  53.po (Battle for Wesnoth 0.8.2-CVS)  #-#-#-#-#\n"
-"$range|: +1 de dano por nível"
+msgstr "$range|: +1 de dano por nível"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:590
@@ -4003,17 +3921,8 @@ msgstr "+$hitpoints| pontos de vida"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:605
-#, fuzzy
 msgid "+$hitpoints| hitpoints per level"
-msgstr ""
-"#-#-#-#-#  106.po  #-#-#-#-#\n"
-"+$hitpoints| pontos de vida por nível\n"
-"#-#-#-#-#  107.po (Battle for Wesnoth 0.8.2-CVS)  #-#-#-#-#\n"
-"+$hitpoints| pontos por nível\n"
-"#-#-#-#-#  51.po  #-#-#-#-#\n"
-"+$hitpoints| pontos de vida por nível\n"
-"#-#-#-#-#  53.po (Battle for Wesnoth 0.8.2-CVS)  #-#-#-#-#\n"
-"+$hitpoints| pontos por nível"
+msgstr "+$hitpoints| pontos por nível"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:621
@@ -4027,17 +3936,8 @@ msgstr "manutenção gratuita"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:645
-#, fuzzy
 msgid "Village/Castle: +5 defense"
-msgstr ""
-"#-#-#-#-#  106.po  #-#-#-#-#\n"
-"Aldeia/Castelo: +5 defesa\n"
-"#-#-#-#-#  107.po (Battle for Wesnoth 0.8.2-CVS)  #-#-#-#-#\n"
-"Aldeia/Castelo: +5 de defesa\n"
-"#-#-#-#-#  51.po  #-#-#-#-#\n"
-"Aldeia/Castelo: +5 defesa\n"
-"#-#-#-#-#  53.po (Battle for Wesnoth 0.8.2-CVS)  #-#-#-#-#\n"
-"Aldeia/Castelo: +5 de defesa"
+msgstr "Aldeia/Castelo: +5 de defesa"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:677
@@ -4054,10 +3954,8 @@ msgstr "$terrain|: +10 de defesa e sem penalidade de movimento"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:717
-#, fuzzy
-#| msgid "Be more defensive"
 msgid "+moves defense"
-msgstr "Seja mais defensivo"
+msgstr "mais pontos de movimento e defesa"
 
 #. [chance]
 #: data/campaigns/World_Conquest/resources/data/training.cfg:727
@@ -4082,67 +3980,45 @@ msgid "World Conquest 3p"
 msgstr "Conquista do Mundo 3J"
 
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:14
-#, fuzzy
-#| msgid "World Conquest 1p"
 msgid "World Conquest 4p"
-msgstr "Conquista do Mundo 1J"
+msgstr "Conquista do Mundo 4J"
 
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:17
-#, fuzzy
-#| msgid ""
-#| "A randomly generated campaign for 1 player. It has 6 level of "
-#| "difficulties.\n"
-#| "(Expert level, 5 scenarios.)"
 msgid ""
 "A randomly generated campaign for 1 player. It has 6 levels of difficulty.\n"
 "(Expert level, 5 scenarios.)"
 msgstr ""
-"Uma campanha gerada aleatóriamente para 1 jogador. Possui 6 níveis de "
+"Uma campanha gerada aleatoriamente para 1 jogador. Possui 6 níveis de "
 "dificuldade.\n"
 "(Nível Experiente, 5 cenários.)"
 
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:21
-#, fuzzy
-#| msgid ""
-#| "A randomly generated cooperative campaign for 2 players. It has 6 level "
-#| "of difficulties.\n"
-#| "(Expert level, 5 scenarios.)"
 msgid ""
 "A randomly generated cooperative campaign for 2 players. It has 6 levels of "
 "difficulty.\n"
 "(Expert level, 5 scenarios.)"
 msgstr ""
-"Uma campanha gerada aleatóriamente para 2 jogadores. Possui 6 níveis de "
+"Uma campanha gerada aleatoriamente para 2 jogadores. Possui 6 níveis de "
 "dificuldade.\n"
 "(Nível Experiente, 5 cenários.)"
 
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:25
-#, fuzzy
-#| msgid ""
-#| "A randomly generated cooperative campaign for 3 players. It has 6 level "
-#| "of difficulties.\n"
-#| "(Expert level, 5 scenarios.)"
 msgid ""
 "A randomly generated cooperative campaign for 3 players. It has 6 levels of "
 "difficulty.\n"
 "(Expert level, 5 scenarios.)"
 msgstr ""
-"Uma campanha gerada aleatóriamente para 3 jogadores. Possui 6 níveis de "
+"Uma campanha gerada aleatoriamente para 3 jogadores. Possui 6 níveis de "
 "dificuldade.\n"
 "(Nível Experiente, 5 cenários.)"
 
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:29
-#, fuzzy
-#| msgid ""
-#| "A randomly generated cooperative campaign for 2 players. It has 6 level "
-#| "of difficulties.\n"
-#| "(Expert level, 5 scenarios.)"
 msgid ""
 "A randomly generated cooperative campaign for 4 players. It has 6 level of "
 "difficulties.\n"
 "(Expert level, 5 scenarios.)"
 msgstr ""
-"Uma campanha gerada aleatóriamente para 2 jogadores. Possui 6 níveis de "
+"Uma campanha gerada aleatoriamente para 4 jogadores. Possui 6 níveis de "
 "dificuldade.\n"
 "(Nível Experiente, 5 cenários.)"
 
@@ -4213,279 +4089,28 @@ msgstr "Pesadelo"
 
 #. [about]
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:113
-#, fuzzy
 msgid "Campaign Design"
-msgstr ""
-"#-#-#-#-#  102.po (Battle for Wesnoth 1.12 (wesnoth-utbs))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  104.po (Battle for Wesnoth 1.12 (wesnoth))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  107.po (Battle for Wesnoth 1.12 (wesnoth-aoi))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  112.po (Battle for Wesnoth 1.12 (wesnoth-ei))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  114.po (Battle for Wesnoth 1.12 (wesnoth-httt))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  115.po (Battle for Wesnoth 1.12 (wesnoth-l))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  121.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Design da Campanha\n"
-"#-#-#-#-#  122.po (Battle for Wesnoth 1.12 (wesnoth-sof))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  124.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  125.po (Battle for Wesnoth 1.12 (wesnoth-tb))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  128.po (Battle for Wesnoth 1.12 (wesnoth-trow))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  129.po (Battle for Wesnoth 1.12 (wesnoth-tsg))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  132.po (Battle for Wesnoth 1.12 (wesnoth-utbs))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  134.po (Battle for Wesnoth 1.12 (wesnoth))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  14.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Design da Campanha\n"
-"#-#-#-#-#  15.po (Battle for Wesnoth 1.12 (wesnoth-sof))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  17.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  18.po (Battle for Wesnoth 1.12 (wesnoth-tb))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  20.po (Battle for Wesnoth 1.12 (wesnoth-trow))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  21.po (Battle for Wesnoth 1.12 (wesnoth-tsg))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  24.po (Battle for Wesnoth 1.12 (wesnoth-utbs))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  26.po (Battle for Wesnoth 1.12 (wesnoth))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  32.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Projeto da Campanha\n"
-"#-#-#-#-#  36.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Projecto de Campanha\n"
-"#-#-#-#-#  41.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Projecto de Campanha\n"
-"#-#-#-#-#  42.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Projecto da Campanha\n"
-"#-#-#-#-#  46.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Projecto de Campanha\n"
-"#-#-#-#-#  5.po (Battle for Wesnoth 1.12 (wesnoth-ei))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  50.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Projecto da Campanha\n"
-"#-#-#-#-#  58.po (Battle for Wesnoth 1.12 (wesnoth-ei))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  60.po (Battle for Wesnoth 1.12 (wesnoth-httt))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  67.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Design da Campanha\n"
-"#-#-#-#-#  68.po (Battle for Wesnoth 1.12 (wesnoth-sof))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  7.po (Battle for Wesnoth 1.12 (wesnoth-httt))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  70.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  71.po (Battle for Wesnoth 1.12 (wesnoth-tb))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  73.po (Battle for Wesnoth 1.12 (wesnoth-trow))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  74.po (Battle for Wesnoth 1.12 (wesnoth-tsg))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  77.po (Battle for Wesnoth 1.12 (wesnoth-utbs))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  79.po (Battle for Wesnoth 1.12 (wesnoth))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  85.po (Battle for Wesnoth 1.12 (wesnoth-ei))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  87.po (Battle for Wesnoth 1.12 (wesnoth-httt))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  92.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Design da Campanha\n"
-"#-#-#-#-#  93.po (Battle for Wesnoth 1.12 (wesnoth-sof))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  95.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  96.po (Battle for Wesnoth 1.12 (wesnoth-tb))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  98.po (Battle for Wesnoth 1.12 (wesnoth-trow))  #-#-#-#-#\n"
-"Projeto de Campanha\n"
-"#-#-#-#-#  99.po (Battle for Wesnoth 1.12 (wesnoth-tsg))  #-#-#-#-#\n"
-"Projeto de Campanha"
+msgstr "Projeto de Campanha"
 
 #. [about]
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:120
-#, fuzzy
 msgid "Prose, Grammatical and Text Assistance"
-msgstr ""
-"#-#-#-#-#  121.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Prosa, Assistência Gramatical e WML\n"
-"#-#-#-#-#  124.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"História, Diálogos e Assistência WML\n"
-"#-#-#-#-#  14.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Prosa, Assistência Gramatical e WML\n"
-"#-#-#-#-#  17.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"História, Diálogos e Assistência WML\n"
-"#-#-#-#-#  67.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Prosa, Assistência Gramatical e WML\n"
-"#-#-#-#-#  70.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"História, Diálogos e Assistência WML\n"
-"#-#-#-#-#  92.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Prosa, Assistência Gramatical e WML\n"
-"#-#-#-#-#  95.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"História, Diálogos e Assistência WML"
+msgstr "História e Assistência de texto e gramática"
 
 #. [about]
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:136
-#, fuzzy
-#| msgid "WML Contributors"
 msgid "Minor Code Contributors"
-msgstr "Contribuidores diversos"
+msgstr "Contribuidores diversos de código"
 
 #. [about]
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:146
-#, fuzzy
-#| msgid "Resting"
 msgid "Playtesting"
-msgstr "Descansando"
+msgstr "Testes"
 
 #. [about]
 #: data/campaigns/World_Conquest/scenarios/WC_II_scenario.cfg:165
-#, fuzzy
 msgid "Campaign Maintenance"
-msgstr ""
-"#-#-#-#-#  1.po (Battle for Wesnoth 1.12 (wesnoth-did))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  10.po (Battle for Wesnoth 1.12 (wesnoth-low))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  102.po (Battle for Wesnoth 1.12 (wesnoth-utbs))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  109.po (Battle for Wesnoth 1.12 (wesnoth-dm))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  112.po (Battle for Wesnoth 1.12 (wesnoth-ei))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  114.po (Battle for Wesnoth 1.12 (wesnoth-httt))  #-#-#-#-#\n"
-"manutenção da Campanha\n"
-"#-#-#-#-#  115.po (Battle for Wesnoth 1.12 (wesnoth-l))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  117.po (Battle for Wesnoth 1.12 (wesnoth-low))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  121.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  122.po (Battle for Wesnoth 1.12 (wesnoth-sof))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  123.po (1.13.6+dev)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  124.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  125.po (Battle for Wesnoth 1.12 (wesnoth-tb))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  127.po (Battle for Wesnoth 1.12 (wesnoth-thot))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  128.po (Battle for Wesnoth 1.12 (wesnoth-trow))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  129.po (Battle for Wesnoth 1.12 (wesnoth-tsg))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  132.po (Battle for Wesnoth 1.12 (wesnoth-utbs))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  14.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  15.po (Battle for Wesnoth 1.12 (wesnoth-sof))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  16.po (1.13.6+dev)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  17.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  18.po (Battle for Wesnoth 1.12 (wesnoth-tb))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  19.po (Battle for Wesnoth 1.12 (wesnoth-thot))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  2.po (Battle for Wesnoth 1.12 (wesnoth-dm))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  20.po (Battle for Wesnoth 1.12 (wesnoth-trow))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  21.po (Battle for Wesnoth 1.12 (wesnoth-tsg))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  24.po (Battle for Wesnoth 1.12 (wesnoth-utbs))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  28.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  32.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  35.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"manutenção da Campanha\n"
-"#-#-#-#-#  40.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  42.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  46.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"manutenção da Campanha\n"
-"#-#-#-#-#  47.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"manutenção da Campanha\n"
-"#-#-#-#-#  49.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  5.po (Battle for Wesnoth 1.12 (wesnoth-ei))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  50.po (Battle for Wesnoth 1.12)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  55.po (Battle for Wesnoth 1.12 (wesnoth-dm))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  58.po (Battle for Wesnoth 1.12 (wesnoth-ei))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  60.po (Battle for Wesnoth 1.12 (wesnoth-httt))  #-#-#-#-#\n"
-"manutenção da Campanha\n"
-"#-#-#-#-#  61.po (Battle for Wesnoth 1.12 (wesnoth-l))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  63.po (Battle for Wesnoth 1.12 (wesnoth-low))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  67.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  68.po (Battle for Wesnoth 1.12 (wesnoth-sof))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  69.po (1.13.6+dev)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  7.po (Battle for Wesnoth 1.12 (wesnoth-httt))  #-#-#-#-#\n"
-"manutenção da Campanha\n"
-"#-#-#-#-#  70.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  71.po (Battle for Wesnoth 1.12 (wesnoth-tb))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  72.po (Battle for Wesnoth 1.12 (wesnoth-thot))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  73.po (Battle for Wesnoth 1.12 (wesnoth-trow))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  74.po (Battle for Wesnoth 1.12 (wesnoth-tsg))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  77.po (Battle for Wesnoth 1.12 (wesnoth-utbs))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  8.po (Battle for Wesnoth 1.12 (wesnoth-l))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  82.po (Battle for Wesnoth 1.12 (wesnoth-dm))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  85.po (Battle for Wesnoth 1.12 (wesnoth-ei))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  87.po (Battle for Wesnoth 1.12 (wesnoth-httt))  #-#-#-#-#\n"
-"manutenção da Campanha\n"
-"#-#-#-#-#  88.po (Battle for Wesnoth 1.12 (wesnoth-l))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  90.po (Battle for Wesnoth 1.12 (wesnoth-low))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  92.po (Battle for Wesnoth 1.12 (wesnoth-nr))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  93.po (Battle for Wesnoth 1.12 (wesnoth-sof))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  94.po (1.13.6+dev)  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  95.po (Battle for Wesnoth 1.12 (wesnoth-sotbe))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  96.po (Battle for Wesnoth 1.12 (wesnoth-tb))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  97.po (Battle for Wesnoth 1.12 (wesnoth-thot))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  98.po (Battle for Wesnoth 1.12 (wesnoth-trow))  #-#-#-#-#\n"
-"Manutenção da Campanha\n"
-"#-#-#-#-#  99.po (Battle for Wesnoth 1.12 (wesnoth-tsg))  #-#-#-#-#\n"
-"Manutenção da Campanha"
+msgstr "Manutenção da Campanha"
 
 #, fuzzy
 #~| msgid "World Conquest"
