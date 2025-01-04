@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-03-02 16:44-0600\n"
+"POT-Creation-Date: 2024-10-28 12:38-0500\n"
 "PO-Revision-Date: 2022-10-30 11:00-0300\n"
 "Last-Translator: Andrei Machado <andreisp.machado@yahoo.com>\n"
 "Language-Team: Portuguese - Brasil\n"
@@ -19,6 +19,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 3.1.1\n"
 
+#. [damage_type]: id=arcane_damage
+#: data/core/macros/weapon_specials.cfg:208
+msgid "arcane"
+msgstr "arcano"
+
+#. [damage_type]: id=arcane_damage
+#: data/campaigns/Eastern_Invasion/utils/abilities.cfg:549
+#: data/core/macros/weapon_specials.cfg:209
+msgid ""
+"This attack combines the arcane type with the type of weapon used so that "
+"resistance to the arcane type does not penalize the user."
+msgstr ""
+
+#. [damage_type]: id=arcane_damage
+#: data/campaigns/Eastern_Invasion/utils/abilities.cfg:550
+#: data/core/macros/weapon_specials.cfg:210
+msgid ""
+"This unit can use the arcane type when the opponent is particularly "
+"sensitive to it in relation to the weapon on which it is applied."
+msgstr ""
+
 #
 # File: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg, line: 529
 # File: data/core/macros/schedules.cfg, line: 78
@@ -28,7 +49,7 @@ msgstr ""
 # File: data/core/macros/schedules.cfg, line: 78
 #. [time]: id=underground
 #. [editor_times]: id=underground
-#: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg:500
+#: data/campaigns/Heir_To_The_Throne/utils/httt_utils.cfg:501
 #: data/core/editor/time-of-day.cfg:41 data/core/macros/schedules.cfg:113
 msgid "Underground"
 msgstr "Subsolo"
@@ -365,7 +386,7 @@ msgstr "apunhalada"
 #. [chance]
 #. [dummy]: id=feeding
 #: data/campaigns/World_Conquest/resources/data/training.cfg:500
-#: data/core/macros/abilities.cfg:387
+#: data/core/macros/abilities.cfg:389
 msgid "feeding"
 msgstr "devorar"
 
@@ -430,7 +451,7 @@ msgstr "Caverna"
 # File: data/core/macros/abilities.cfg, line: 457
 #. [hides]: id=concealment
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:21
-#: data/core/macros/abilities.cfg:346
+#: data/core/macros/abilities.cfg:348
 msgid "concealment"
 msgstr "camuflagem"
 
@@ -509,7 +530,7 @@ msgstr "Colônia de Cogumelos"
 # File: data/core/macros/abilities.cfg, line: 433
 #. [hides]: id=nightstalk
 #: data/campaigns/World_Conquest/resources/strings/mainline.cfg:45
-#: data/core/macros/abilities.cfg:326 data/core/macros/abilities.cfg:327
+#: data/core/macros/abilities.cfg:328 data/core/macros/abilities.cfg:329
 msgid "nightstalk"
 msgstr "caçador noturno"
 
@@ -580,13 +601,13 @@ msgstr "Editor de Mapa e Cenário"
 # File: src/help.cpp, line: 1602
 #. [section]: id=editor_mode_terrain
 #. [topic]: id=..editor_mode_terrain
-#: data/core/editor/help.cfg:13 data/core/editor/help.cfg:372
+#: data/core/editor/help.cfg:13 data/core/editor/help.cfg:377
 msgid "Terrain Editor"
 msgstr "Editor de Terreno"
 
 #. [section]: id=editor_mode_scenario
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:20 data/core/editor/help.cfg:384
+#: data/core/editor/help.cfg:20 data/core/editor/help.cfg:389
 msgid "Scenario Editor"
 msgstr "Editor de Cenários"
 
@@ -803,12 +824,12 @@ msgid ""
 "Defines the side leader starting position.\n"
 "\n"
 "This tool sets the side leaders’ default starting locations, and named "
-"special locations. Both types of location are enabled in both <ref>dst='.."
-"editor_mode_terrain' text='Terrain Editor'</ref> and <ref>dst='.."
-"editor_mode_scenario' text='Scenario Editor'</ref> modes. The location names "
-"are shown as a list in the editor palette, clicking on the map will place "
-"that name on a hex, each location can only be placed on a single hex, and "
-"the editor will only allow one location per hex.\n"
+"special locations. Both types of location are enabled in both "
+"<ref>dst='..editor_mode_terrain' text='Terrain Editor'</ref> and "
+"<ref>dst='..editor_mode_scenario' text='Scenario Editor'</ref> modes. The "
+"location names are shown as a list in the editor palette, clicking on the "
+"map will place that name on a hex, each location can only be placed on a "
+"single hex, and the editor will only allow one location per hex.\n"
 "\n"
 "To add named special locations, click “Add” at the bottom of the editor "
 "palette, and enter the name. These names must start with a letter and may "
@@ -886,10 +907,10 @@ msgstr ""
 msgid ""
 "editor^<bold>text='Movement Overlays'</bold>\n"
 "\n"
-"<img>src='terrain/grass/green.png~BLIT(terrain/impassable-editor."
-"png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/green."
-"png~BLIT(terrain/unwalkable-editor.png~O(0.5))' align=here box=yes</img> "
-"Impassable and Unwalkable\n"
+"<img>src='terrain/grass/green.png~BLIT(terrain/impassable-"
+"editor.png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/"
+"green.png~BLIT(terrain/unwalkable-editor.png~O(0.5))' align=here box=yes</"
+"img> Impassable and Unwalkable\n"
 "\n"
 "While easily noticeable in the editor, these are invisible in the game, so "
 "the mixed terrains created by them look like the base terrain. They create a "
@@ -898,10 +919,10 @@ msgid ""
 msgstr ""
 "editor^<bold>text='Sobreposição de Movimento'</bold>\n"
 "\n"
-"<img>src='terrain/grass/green.png~BLIT(terrain/impassable-editor."
-"png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/green."
-"png~BLIT(terrain/unwalkable-editor.png~O(0.5))' align=here box=yes</img> "
-"Impassável e Intransponível\n"
+"<img>src='terrain/grass/green.png~BLIT(terrain/impassable-"
+"editor.png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/"
+"green.png~BLIT(terrain/unwalkable-editor.png~O(0.5))' align=here box=yes</"
+"img> Impassável e Intransponível\n"
 "\n"
 "Embora no editor seja fácil de vê-los, dentro do jogo são invisíveis, "
 "fazendo com que a mistura do terreno que eles criam pareça com um terreno "
@@ -915,10 +936,10 @@ msgstr ""
 msgid ""
 "editor^<bold>text='Castle Overlays'</bold>\n"
 "\n"
-"<img>src='terrain/grass/green.png~BLIT(terrain/castle/castle-overlay-editor."
-"png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/green."
-"png~BLIT(terrain/castle/keep-overlay-editor.png~O(0.5))' align=here box=yes</"
-"img>\n"
+"<img>src='terrain/grass/green.png~BLIT(terrain/castle/castle-overlay-"
+"editor.png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/"
+"green.png~BLIT(terrain/castle/keep-overlay-editor.png~O(0.5))' align=here "
+"box=yes</img>\n"
 "\n"
 "Adding either of these overlays to a passable hex allows units to be "
 "recruited onto a hex. The keep also allows a leader to recruit from there.\n"
@@ -931,10 +952,10 @@ msgid ""
 msgstr ""
 "editor^<bold>text='Sobreposições de Castelo'</bold>\n"
 "\n"
-"<img>src='terrain/grass/green.png~BLIT(terrain/castle/castle-overlay-editor."
-"png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/green."
-"png~BLIT(terrain/castle/keep-overlay-editor.png~O(0.5))' align=here box=yes</"
-"img>\n"
+"<img>src='terrain/grass/green.png~BLIT(terrain/castle/castle-overlay-"
+"editor.png~O(0.5))' align=here box=yes</img> <img>src='terrain/grass/"
+"green.png~BLIT(terrain/castle/keep-overlay-editor.png~O(0.5))' align=here "
+"box=yes</img>\n"
 "\n"
 "Adicionar uma destas sobreposições para um hexágono de terreno transponível "
 "permite que unidades sejam recrutadas nesse hexágono.\n"
@@ -985,14 +1006,14 @@ msgstr ""
 "de ver um hexâgono."
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:171
+#: data/core/editor/help.cfg:172
 #, fuzzy
 #| msgid "Editor Terrain-Overlay Graphics"
 msgid "Terrain Elevation Graphics"
 msgstr "Editor de Sopreposição de gráficos de Terreno"
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:172
+#: data/core/editor/help.cfg:173
 #, fuzzy
 #| msgid ""
 #| "editor^Maps generally look similar in the editor to their appearance in "
@@ -1010,7 +1031,7 @@ msgstr ""
 "na paleta de terreno no grupo \"especial\"."
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:175
+#: data/core/editor/help.cfg:176
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -1023,7 +1044,7 @@ msgstr ""
 "<bold>text='Avançado'</bold>"
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:177
+#: data/core/editor/help.cfg:178
 msgid ""
 "Bluffs and Gulch\n"
 "\n"
@@ -1034,7 +1055,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:182
+#: data/core/editor/help.cfg:183
 #, fuzzy
 #| msgid ""
 #| "\n"
@@ -1047,12 +1068,12 @@ msgstr ""
 "<bold>text='Avançado'</bold>"
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:184
+#: data/core/editor/help.cfg:185
 msgid "Raised elevation on-map marker"
 msgstr ""
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:185
+#: data/core/editor/help.cfg:186
 msgid ""
 "Raised elevation editor palette icon\n"
 "\n"
@@ -1070,7 +1091,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:192
+#: data/core/editor/help.cfg:193
 msgid ""
 "editor^<bold>text='How to Use'</bold>\n"
 "\n"
@@ -1091,7 +1112,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=editor_terrain_elevation
-#: data/core/editor/help.cfg:203
+#: data/core/editor/help.cfg:204
 msgid ""
 "editor^<format>text='Note for UMC authors: The flood-filled tiles do not "
 "have their terrain codes changed, or any other properties affected, so "
@@ -1104,17 +1125,17 @@ msgstr ""
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
 #. [topic]: id=editor_deprecated_overlay
-#: data/core/editor/help.cfg:208
+#: data/core/editor/help.cfg:210
 msgid "Deprecated Terrain"
 msgstr "Terreno Preterido"
 
 #. [topic]: id=editor_deprecated_overlay
 #. The main reason for choosing “D” is that the hole in the middle of the letter makes it easier to see which terrain is underneath it. This uses a hardcoded image and doesn’t expect the image to be translated.
 #. The Xol and ^Efs terrains’ help pages aren’t given hyperlinks, because they both have hide_help enabled. Even when on a map with Xol on it, ctrl+t will show the hidden page but the ref still won’t link to it.
-#: data/core/editor/help.cfg:211
+#: data/core/editor/help.cfg:213
 msgid ""
-"editor^<img>src='terrain/grass/green.png~BLIT(terrain/deprecated-editor."
-"png)' align=left box=yes</img>The magenta ‘D’ (for “Deprecated”).\n"
+"editor^<img>src='terrain/grass/green.png~BLIT(terrain/deprecated-"
+"editor.png)' align=left box=yes</img>The magenta ‘D’ (for “Deprecated”).\n"
 "\n"
 "This is shown in the editor over deprecated terrain codes. Examples are:\n"
 "• the <ref>dst='terrain_fungus_grove_old' text='“^Uf” mushroom terrain'</"
@@ -1138,12 +1159,12 @@ msgstr ""
 "aparece no editor, descrevendo a descontinuação e recomendando substitutos."
 
 #. [topic]: id=editor_tool_label
-#: data/core/editor/help.cfg:224
+#: data/core/editor/help.cfg:226
 msgid "Label Tool"
 msgstr "Ferramenta de Rótulos"
 
 #. [topic]: id=editor_tool_label
-#: data/core/editor/help.cfg:225
+#: data/core/editor/help.cfg:227
 msgid ""
 "Put text labels on the map.\n"
 "\n"
@@ -1166,19 +1187,32 @@ msgstr ""
 "implementadas no cenário usando a tag WML <italic>text='[label]'</italic>."
 
 #. [topic]: id=editor_tool_scenery
-#: data/core/editor/help.cfg:240
+#: data/core/editor/help.cfg:242
 msgid "Item Tool (Scenery Tool)"
 msgstr "Ferramenta de Itens (Ferramenta de Decoração)"
 
 #. [topic]: id=editor_tool_scenery
-#: data/core/editor/help.cfg:241
+#: data/core/editor/help.cfg:243
+#, fuzzy
+#| msgid ""
+#| "The Item Tool allows placing decorations such as windmills, bookcases and "
+#| "monoliths. Multiple items can be placed on the same hex.\n"
+#| "\n"
+#| "<bold>text='Note:'</bold> the tool doesn’t support deleting items once "
+#| "placed, nor does it support undo. Mistakes can currently only be fixed by "
+#| "editing the generated WML file.\n"
+#| "\n"
+#| "This tool is only available in Scenario Mode; the decorations are not "
+#| "part of the terrain and are implemented in the scenario using WML’s "
+#| "<italic>text='[item]'</italic> tag."
 msgid ""
 "The Item Tool allows placing decorations such as windmills, bookcases and "
 "monoliths. Multiple items can be placed on the same hex.\n"
 "\n"
-"<bold>text='Note:'</bold> the tool doesn’t support deleting items once "
-"placed, nor does it support undo. Mistakes can currently only be fixed by "
-"editing the generated WML file.\n"
+"• Left-click will place a decoration on the clicked hex.\n"
+"• Right-click will remove the decoration.\n"
+"\n"
+"<bold>text='Note:'</bold> the tool doesn’t support undo.\n"
 "\n"
 "This tool is only available in Scenario Mode; the decorations are not part "
 "of the terrain and are implemented in the scenario using WML’s "
@@ -1197,12 +1231,12 @@ msgstr ""
 "<italic>text='[item]'</italic>."
 
 #. [topic]: id=editor_tool_village
-#: data/core/editor/help.cfg:254
+#: data/core/editor/help.cfg:259
 msgid "Village Ownership Tool"
 msgstr "Ferramento de Comando da Aldeia"
 
 #. [topic]: id=editor_tool_village
-#: data/core/editor/help.cfg:255
+#: data/core/editor/help.cfg:260
 msgid ""
 "This tool assigns ownership of villages at the start of a scenario. The "
 "villages must first be placed on the terrain with the "
@@ -1228,12 +1262,12 @@ msgstr ""
 "italic> ao <italic>text='[side]'</italic> apropriado."
 
 #. [topic]: id=editor_tool_unit
-#: data/core/editor/help.cfg:269
+#: data/core/editor/help.cfg:274
 msgid "Unit Tool"
 msgstr "Ferramenta de Unidades"
 
 #. [topic]: id=editor_tool_unit
-#: data/core/editor/help.cfg:270
+#: data/core/editor/help.cfg:275
 msgid ""
 "Place units belonging to the currently-selected side.\n"
 "\n"
@@ -1259,12 +1293,12 @@ msgstr ""
 "apropriado."
 
 #. [topic]: id=editor_named_area
-#: data/core/editor/help.cfg:285
+#: data/core/editor/help.cfg:290
 msgid "Named Areas"
 msgstr "Áreas Nomeadas"
 
 #. [topic]: id=editor_named_area
-#: data/core/editor/help.cfg:286
+#: data/core/editor/help.cfg:291
 msgid ""
 "This tool create sets of tiles that can be used in WML scripts’ Standard "
 "Location Filters (a concept explained in detail on the Wiki), by using the "
@@ -1314,12 +1348,12 @@ msgstr ""
 "em uma determinada área."
 
 #. [topic]: id=editor_playlist
-#: data/core/editor/help.cfg:307
+#: data/core/editor/help.cfg:312
 msgid "Playlist Manager"
 msgstr "Gerenciador de Playlist"
 
 #. [topic]: id=editor_playlist
-#: data/core/editor/help.cfg:308
+#: data/core/editor/help.cfg:313
 msgid ""
 "Shows a list of music tracks known to the editor, with toggle-boxes to "
 "enable them.\n"
@@ -1333,15 +1367,19 @@ msgstr ""
 "Essa ferramenta só está disponível no Modo de Cenário; Adiciona as tags WML "
 "<italic>text='[music]'</italic> ao cenário."
 
+#
+# File: data/core/help.cfg, line: 804
+# File: data/core/help.cfg, line: 804
+# File: data/core/help.cfg, line: 804
 #. [topic]: id=editor_addon_id
-#: data/core/editor/help.cfg:319
+#: data/core/editor/help.cfg:324
 #, fuzzy
-#| msgid "Manage Add-ons"
+#| msgid "Using Add-ons"
 msgid "Change Add-on ID"
-msgstr "Administrar Add-ons"
+msgstr "Usando Add-ons"
 
 #. [topic]: id=editor_addon_id
-#: data/core/editor/help.cfg:320
+#: data/core/editor/help.cfg:325
 msgid ""
 "Allows changing the ID of an add-on, which is the name of the folder it’s "
 "in. This will only rename that folder and update any references to it in the "
@@ -1349,12 +1387,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=editor_pbl_editor
-#: data/core/editor/help.cfg:329
+#: data/core/editor/help.cfg:334
 msgid "Add-on Publishing Editor"
 msgstr ""
 
 #. [topic]: id=editor_pbl_editor
-#: data/core/editor/help.cfg:330
+#: data/core/editor/help.cfg:335
 msgid ""
 "Allows setting up an add-on’s _server.pbl file, which is required for "
 "publishing an add-on to the add-ons server for other players to download. "
@@ -1362,12 +1400,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..editor
-#: data/core/editor/help.cfg:338
+#: data/core/editor/help.cfg:343
 msgid "Map/Scenario Editor"
 msgstr "Editor de Mapas/Cenários"
 
 #. [topic]: id=..editor
-#: data/core/editor/help.cfg:339
+#: data/core/editor/help.cfg:344
 #, fuzzy
 #| msgid ""
 #| "Wesnoth’s Map and Scenario Editor allows users to create and edit the "
@@ -1458,7 +1496,7 @@ msgstr ""
 "playlist'</ref> para as músicas."
 
 #. [topic]: id=..editor
-#: data/core/editor/help.cfg:351
+#: data/core/editor/help.cfg:356
 msgid ""
 "In either mode, you will be prompted to choose an add-on to use for the "
 "scenarios you create. This can be an existing add-on or a brand new add-on. "
@@ -1470,7 +1508,7 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=..editor
-#: data/core/editor/help.cfg:353
+#: data/core/editor/help.cfg:358
 msgid ""
 "<header>text='What you do *not* get'</header>\n"
 "\n"
@@ -1517,7 +1555,7 @@ msgstr ""
 "precisarão do add-on específico para que o editor saiba qual terreno usar."
 
 #. [topic]: id=..editor_mode_terrain
-#: data/core/editor/help.cfg:373
+#: data/core/editor/help.cfg:378
 msgid ""
 "The terrain editor’s functionality is similar to a simple paint "
 "application.\n"
@@ -1541,7 +1579,7 @@ msgstr ""
 "multiplayer \"Criar Jogo\"."
 
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:385
+#: data/core/editor/help.cfg:390
 msgid ""
 "The scenario editor mode adds support for some map-related WML features, "
 "such as areas and scenery items. Most scenarios will still require "
@@ -1554,7 +1592,7 @@ msgstr ""
 "editor de cenário não suporta sripts para os eventos do cenário."
 
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:387
+#: data/core/editor/help.cfg:392
 msgid ""
 "<header>text='Checking whether the editor is in scenario mode'</header>\n"
 "\n"
@@ -1572,7 +1610,7 @@ msgstr ""
 "• No modo de terreno os menus \"Áreas\" e \"Lado\" estão acinzentados."
 
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:394
+#: data/core/editor/help.cfg:399
 msgid ""
 "<header>text='Entering scenario mode'</header>\n"
 "\n"
@@ -1598,7 +1636,7 @@ msgstr ""
 "arquivo .map)."
 
 #. [topic]: id=..editor_mode_scenario
-#: data/core/editor/help.cfg:402
+#: data/core/editor/help.cfg:407
 #, fuzzy
 #| msgid ""
 #| "<header>text='The files: .map and .cfg'</header>\n"
@@ -1621,10 +1659,10 @@ msgid ""
 "The map editor saves one file when in terrain mode (a .map) or two files "
 "when in scenario mode (both a .map and a .cfg).\n"
 "\n"
-"Loading a .cfg file has different results depending on the contents of the ."
-"cfg file. For .cfg files that were created by the scenario editor, it will "
-"open the .cfg in the scenario editor. However, for .cfg files that cannot be "
-"opened by the scenario editor, the editor will attempt to find the "
+"Loading a .cfg file has different results depending on the contents of "
+"the .cfg file. For .cfg files that were created by the scenario editor, it "
+"will open the .cfg in the scenario editor. However, for .cfg files that "
+"cannot be opened by the scenario editor, the editor will attempt to find the "
 "scenario's map data and open the corresponding .map file in terrain-only "
 "mode, as if the .map file was chosen in the file selector. It is recommended "
 "in those cases to simply load the .map file directly instead."
@@ -1647,12 +1685,12 @@ msgstr ""
 "selecionado."
 
 #. [topic]: id=editor_separate_events_file
-#: data/core/editor/help.cfg:414
+#: data/core/editor/help.cfg:419
 msgid "Using a separate file for WML events"
 msgstr "Usando um arquivo separado para eventos WML"
 
 #. [topic]: id=editor_separate_events_file
-#: data/core/editor/help.cfg:415
+#: data/core/editor/help.cfg:420
 msgid ""
 "When loading a .cfg file, the scenario editor understands files created by "
 "the scenario editor, but is likely to have difficulty with files that have "
@@ -1686,12 +1724,12 @@ msgid ""
 msgstr ""
 
 #. [topic]: id=editor_masks
-#: data/core/editor/help.cfg:438
+#: data/core/editor/help.cfg:443
 msgid "Editor Mask Usage"
 msgstr "Uso das Máscaras do Editor"
 
 #. [topic]: id=editor_masks
-#: data/core/editor/help.cfg:439
+#: data/core/editor/help.cfg:444
 msgid ""
 "Masks can be applied to a base map for reusal in several scenarios playing "
 "at the same locations."
@@ -1701,12 +1739,12 @@ msgstr ""
 
 #. [topic]: id=editor_time_schedule
 #. Time of Day and Schedule Editor, please use a short string as it will be used in the left-hand pane of the help browser
-#: data/core/editor/help.cfg:447
+#: data/core/editor/help.cfg:452
 msgid "ToD and Schedule Editor"
 msgstr "Editor de Período do Dia e Cronograma"
 
 #. [topic]: id=editor_time_schedule
-#: data/core/editor/help.cfg:448
+#: data/core/editor/help.cfg:453
 msgid ""
 "This button at the top-right of the screen accesses the time-of-day preview "
 "and the schedule editor.\n"
@@ -1727,13 +1765,13 @@ msgstr ""
 "o <ref>dst='editor_named_area' text='período nas áreas'</ref>."
 
 #. [topic]: id=editor_palette
-#: data/core/editor/help.cfg:459
+#: data/core/editor/help.cfg:464
 msgid "Editor Palette"
 msgstr "Paleta do Editor"
 
 #. [topic]: id=editor_palette
 #. the “Player 1”, “Player 2”, ... list is translated using "Player $side_num" in the wesnoth-editor textdomain
-#: data/core/editor/help.cfg:461
+#: data/core/editor/help.cfg:466
 msgid ""
 "The editor palette contains the applicable items you may use with the "
 "currently selected tool. For example, the Paint tool will display a full "
@@ -1761,33 +1799,33 @@ msgstr ""
 "Exemplos:"
 
 #. [topic]: id=editor_palette
-#: data/core/editor/help.cfg:466
+#: data/core/editor/help.cfg:471
 msgid "Show all kinds of terrain"
 msgstr "Mostrar todos os tipos de terrenos"
 
 #. [topic]: id=editor_palette
-#: data/core/editor/help.cfg:467
+#: data/core/editor/help.cfg:472
 msgid "Show only water terrains"
 msgstr "Mostrar apenas terrenos aquáticos"
 
 #. [topic]: id=editor_palette
-#: data/core/editor/help.cfg:468
+#: data/core/editor/help.cfg:473
 msgid "Show only villages"
 msgstr "Mostar apenas aldeias"
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:480
+#: data/core/editor/help.cfg:485
 msgid "Wesnoth Map Format"
 msgstr "Formato dos Mapas de Wesnoth"
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:481
+#: data/core/editor/help.cfg:486
 msgid "Wesnoth stores its maps in human readable plain text files."
 msgstr ""
 "Wesnoth salva os mapas em arquivos de texto simples legíveis para humanos."
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:483
+#: data/core/editor/help.cfg:488
 msgid ""
 "<header>text='Native'</header>\n"
 "\n"
@@ -1846,7 +1884,7 @@ msgstr ""
 "pré-processador incluso."
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:496
+#: data/core/editor/help.cfg:501
 msgid ""
 "<header>text='Embedded'</header>\n"
 "\n"
@@ -1880,7 +1918,7 @@ msgstr ""
 "(E) no menu."
 
 #. [topic]: id=editor_map_format
-#: data/core/editor/help.cfg:504
+#: data/core/editor/help.cfg:509
 #, fuzzy
 #| msgid ""
 #| "<header>text='Files created by the Scenario Editor'</header>\n"
@@ -2653,8 +2691,8 @@ msgstr "O Jogo"
 #. [section]: id=traits_section
 #. [topic]: id=..traits_section
 #: data/core/help.cfg:29 data/core/help.cfg:531
-#: src/help/help_topic_generators.cpp:477
-#: src/help/help_topic_generators.cpp:500
+#: src/help/help_topic_generators.cpp:478
+#: src/help/help_topic_generators.cpp:501
 msgid "Traits"
 msgstr "Características"
 
@@ -4943,11 +4981,11 @@ msgid ""
 "<italic>text='Heir to the Throne'</italic> campaign. Have fun, and good luck!"
 msgstr ""
 "Assim concluímos os fundamentos de Wesnoth. Talvez você queira ler mais "
-"sobre estratégias básicas, ou se familiarizar com as <ref>dst='.."
-"traits_section' text='Características'</ref> e <ref>dst='.."
-"abilities_section' text='Habilidades'</ref>, mas você já sabe tudo o que "
-"precisa para jogar a campanha <italic>text='O Herdeiro do Trono'</italic>. "
-"Boa sorte e divirta-se!"
+"sobre estratégias básicas, ou se familiarizar com as "
+"<ref>dst='..traits_section' text='Características'</ref> e "
+"<ref>dst='..abilities_section' text='Habilidades'</ref>, mas você já sabe "
+"tudo o que precisa para jogar a campanha <italic>text='O Herdeiro do Trono'</"
+"italic>. Boa sorte e divirta-se!"
 
 #
 # File: data/core/help.cfg, line: 350
@@ -5465,13 +5503,13 @@ msgstr ""
 msgid ""
 "\n"
 "\n"
-"You can see what eras you have loaded in the <ref>text='eras' dst='.."
-"eras_section'</ref> of the help."
+"You can see what eras you have loaded in the <ref>text='eras' "
+"dst='..eras_section'</ref> of the help."
 msgstr ""
 "\n"
 "\n"
-"Você pode ver quais eras você carregou na <ref>text='eras' dst='.."
-"eras_section'</ref> na seção de ajuda."
+"Você pode ver quais eras você carregou na <ref>text='eras' "
+"dst='..eras_section'</ref> na seção de ajuda."
 
 #
 # File: data/core/help.cfg, line: 248
@@ -5718,8 +5756,8 @@ msgstr "Comandos Gerais"
 #, fuzzy
 #| msgid ""
 #| "These commands can either be issued via the command line by prefixing "
-#| "them with ':' (as shown here) or via the chat by prefixing them with "
-#| "'/' (press 'm' first to open the chat line).\n"
+#| "them with ':' (as shown here) or via the chat by prefixing them with '/' "
+#| "(press 'm' first to open the chat line).\n"
 #| "\n"
 msgid ""
 "These commands can either be issued via the command line by prefixing them "
@@ -5728,8 +5766,8 @@ msgid ""
 "\n"
 msgstr ""
 "Estes comandos podem ser dados pela linha de comando adicionando o prefixo "
-"\":\" (como mostrado aqui) ou pela janela de chat adicionando o prefixo "
-"'/' (a tecla 'm' abre a janela de chat).\n"
+"\":\" (como mostrado aqui) ou pela janela de chat adicionando o prefixo '/' "
+"(a tecla 'm' abre a janela de chat).\n"
 "\n"
 
 #. [topic]: id=general_commands
@@ -6624,7 +6662,7 @@ msgstr ""
 "de movimento restantes."
 
 #. [hides]: id=burrow
-#: data/core/macros/abilities.cfg:305
+#: data/core/macros/abilities.cfg:306
 msgid "burrow"
 msgstr "entocar"
 
@@ -6633,7 +6671,7 @@ msgstr "entocar"
 # File: data/core/macros/traits.cfg, line: 251
 # File: data/core/macros/traits.cfg, line: 251
 #. [hides]: id=burrow
-#: data/core/macros/abilities.cfg:306
+#: data/core/macros/abilities.cfg:307
 msgid "female^burrow"
 msgstr "entocar"
 
@@ -6645,7 +6683,7 @@ msgstr "entocar"
 # File: data/core/macros/abilities.cfg, line: 408
 # File: data/core/macros/abilities.cfg, line: 411
 #. [hides]: id=burrow
-#: data/core/macros/abilities.cfg:307
+#: data/core/macros/abilities.cfg:308
 msgid ""
 "This unit can hide in forest or sand if it is resting (has not moved for a "
 "turn), and remain undetected by its enemies.\n"
@@ -6671,7 +6709,7 @@ msgstr ""
 # File: data/core/macros/abilities.cfg, line: 430
 # File: data/core/macros/abilities.cfg, line: 435
 #. [hides]: id=nightstalk
-#: data/core/macros/abilities.cfg:328
+#: data/core/macros/abilities.cfg:330
 msgid ""
 "The unit becomes invisible during night.\n"
 "\n"
@@ -6693,7 +6731,7 @@ msgstr ""
 # File: data/core/macros/abilities.cfg, line: 453
 # File: data/core/macros/abilities.cfg, line: 458
 #. [hides]: id=concealment
-#: data/core/macros/abilities.cfg:347
+#: data/core/macros/abilities.cfg:349
 msgid "female^concealment"
 msgstr "camuflagem"
 
@@ -6705,7 +6743,7 @@ msgstr "camuflagem"
 # File: data/core/macros/abilities.cfg, line: 454
 # File: data/core/macros/abilities.cfg, line: 459
 #. [hides]: id=concealment
-#: data/core/macros/abilities.cfg:348
+#: data/core/macros/abilities.cfg:350
 #, fuzzy
 #| msgid ""
 #| "This unit can hide in villages (with the exception of water villages), "
@@ -6740,7 +6778,7 @@ msgstr ""
 # File: data/core/macros/abilities.cfg, line: 476
 # File: data/core/macros/abilities.cfg, line: 481
 #. [hides]: id=submerge
-#: data/core/macros/abilities.cfg:366
+#: data/core/macros/abilities.cfg:368
 msgid "submerge"
 msgstr "submergir"
 
@@ -6752,7 +6790,7 @@ msgstr "submergir"
 # File: data/core/macros/abilities.cfg, line: 477
 # File: data/core/macros/abilities.cfg, line: 482
 #. [hides]: id=submerge
-#: data/core/macros/abilities.cfg:367
+#: data/core/macros/abilities.cfg:369
 msgid "female^submerge"
 msgstr "submergir"
 
@@ -6764,7 +6802,7 @@ msgstr "submergir"
 # File: data/core/macros/abilities.cfg, line: 478
 # File: data/core/macros/abilities.cfg, line: 483
 #. [hides]: id=submerge
-#: data/core/macros/abilities.cfg:368
+#: data/core/macros/abilities.cfg:370
 msgid ""
 "This unit can hide in deep water, and remain undetected by its enemies.\n"
 "\n"
@@ -6785,7 +6823,7 @@ msgstr ""
 # File: data/core/macros/abilities.cfg, line: 504
 # File: data/core/macros/abilities.cfg, line: 504
 #. [dummy]: id=feeding
-#: data/core/macros/abilities.cfg:388
+#: data/core/macros/abilities.cfg:390
 msgid "female^feeding"
 msgstr "devorar"
 
@@ -6794,7 +6832,7 @@ msgstr "devorar"
 # File: data/core/macros/abilities.cfg, line: 505
 # File: data/core/macros/abilities.cfg, line: 505
 #. [dummy]: id=feeding
-#: data/core/macros/abilities.cfg:389
+#: data/core/macros/abilities.cfg:391
 msgid ""
 "This unit gains 1 hitpoint added to its maximum whenever it kills a unit, "
 "except units that are immune to plague."
@@ -8619,25 +8657,6 @@ msgid ""
 msgstr ""
 "Esta unidade é capaz de atordoar seus inimigos, interrompendo sua zona de "
 "controle."
-
-#. [damage_type]: id=arcane_damage
-#: data/core/macros/weapon_specials.cfg:208
-msgid "arcane"
-msgstr "arcano"
-
-#. [damage_type]: id=arcane_damage
-#: data/core/macros/weapon_specials.cfg:209
-msgid ""
-"This attack combines the arcane type with the type of weapon used so that "
-"resistance to the arcane type does not penalize the user."
-msgstr ""
-
-#. [damage_type]: id=arcane_damage
-#: data/core/macros/weapon_specials.cfg:210
-msgid ""
-"This unit can use the arcane type when the opponent is particularly "
-"sensitive to it in relation to the weapon on which it is applied."
-msgstr ""
 
 #: data/core/units.cfg:4
 msgid ""
@@ -10776,7 +10795,7 @@ msgstr ""
 # File: data/core/macros/special-notes.cfg, line: 3
 # File: data/core/macros/special-notes.cfg, line: 3
 #: src/help/help_topic_generators.cpp:184
-#: src/help/help_topic_generators.cpp:603
+#: src/help/help_topic_generators.cpp:604
 msgid "Special Notes:"
 msgstr "Notas Especiais:"
 
@@ -10812,7 +10831,7 @@ msgstr "Nível"
 # File: src/help.cpp, line: 1387
 # File: src/help.cpp, line: 1387
 # File: src/help.cpp, line: 1387
-#: src/help/help_topic_generators.cpp:360
+#: src/help/help_topic_generators.cpp:361
 msgid "Advances from: "
 msgstr "Avança de: "
 
@@ -10820,7 +10839,7 @@ msgstr "Avança de: "
 # File: src/help.cpp, line: 1387
 # File: src/help.cpp, line: 1387
 # File: src/help.cpp, line: 1387
-#: src/help/help_topic_generators.cpp:362
+#: src/help/help_topic_generators.cpp:363
 msgid "Advances to: "
 msgstr "Avança para: "
 
@@ -10828,7 +10847,7 @@ msgstr "Avança para: "
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
-#: src/help/help_topic_generators.cpp:391
+#: src/help/help_topic_generators.cpp:392
 msgid "Base unit: "
 msgstr "Unidade Base: "
 
@@ -10836,7 +10855,7 @@ msgstr "Unidade Base: "
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
-#: src/help/help_topic_generators.cpp:396
+#: src/help/help_topic_generators.cpp:397
 msgid "Base units: "
 msgstr "Unidades Base: "
 
@@ -10844,7 +10863,7 @@ msgstr "Unidades Base: "
 # File: src/help.cpp, line: 1422
 # File: src/help.cpp, line: 1422
 # File: src/help.cpp, line: 1422
-#: src/help/help_topic_generators.cpp:414
+#: src/help/help_topic_generators.cpp:415
 msgid "Variations: "
 msgstr "Variações: "
 
@@ -10858,7 +10877,7 @@ msgstr "Variações: "
 # File: src/help.cpp, line: 1446
 # File: src/help.cpp, line: 1818
 # File: src/help.cpp, line: 1891
-#: src/help/help_topic_generators.cpp:438
+#: src/help/help_topic_generators.cpp:439
 msgid "race^Miscellaneous"
 msgstr "Miscelânea"
 
@@ -10866,7 +10885,7 @@ msgstr "Miscelânea"
 # File: src/help.cpp, line: 1448
 # File: src/help.cpp, line: 1448
 # File: src/help.cpp, line: 1448
-#: src/help/help_topic_generators.cpp:440
+#: src/help/help_topic_generators.cpp:441
 msgid "Race: "
 msgstr "Raça: "
 
@@ -10874,7 +10893,7 @@ msgstr "Raça: "
 # File: src/help.cpp, line: 1455
 # File: src/help.cpp, line: 1455
 # File: src/help.cpp, line: 1455
-#: src/help/help_topic_generators.cpp:510
+#: src/help/help_topic_generators.cpp:511
 msgid "Abilities: "
 msgstr "Habilidades: "
 
@@ -10882,7 +10901,7 @@ msgstr "Habilidades: "
 # File: src/help.cpp, line: 1472
 # File: src/help.cpp, line: 1472
 # File: src/help.cpp, line: 1472
-#: src/help/help_topic_generators.cpp:536
+#: src/help/help_topic_generators.cpp:537
 msgid "Ability Upgrades: "
 msgstr "Habilidades Melhoradas: "
 
@@ -10893,7 +10912,7 @@ msgstr "Habilidades Melhoradas: "
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:566
+#: src/help/help_topic_generators.cpp:567
 msgid "HP:"
 msgstr "HP:"
 
@@ -10904,14 +10923,14 @@ msgstr "HP:"
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:570
+#: src/help/help_topic_generators.cpp:571
 msgid "Moves:"
 msgstr "Movimento:"
 
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:575
+#: src/help/help_topic_generators.cpp:576
 msgid "Vision:"
 msgstr "Visão:"
 
@@ -10922,7 +10941,7 @@ msgstr "Visão:"
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:581
+#: src/help/help_topic_generators.cpp:582
 msgid "Jamming:"
 msgstr "Interferência:"
 
@@ -10933,7 +10952,7 @@ msgstr "Interferência:"
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:586
+#: src/help/help_topic_generators.cpp:587
 msgid "Cost:"
 msgstr "Custo:"
 
@@ -10944,7 +10963,7 @@ msgstr "Custo:"
 #. TRANSLATORS: This string is used in the help page of a single unit.  If the translation
 #. uses spaces, use non-breaking spaces as appropriate for the target language to prevent
 #. unpleasant line breaks (issue #3256).
-#: src/help/help_topic_generators.cpp:590
+#: src/help/help_topic_generators.cpp:591
 msgid "Alignment:"
 msgstr "Alinhamento:"
 
@@ -10955,7 +10974,7 @@ msgstr "Alinhamento:"
 #. TRANSLATORS: This string is used in the help page of a single unit.  It uses
 #. non-breaking spaces to prevent unpleasant line breaks (issue #3256).  In the
 #. translation use non-breaking spaces as appropriate for the target language.
-#: src/help/help_topic_generators.cpp:597
+#: src/help/help_topic_generators.cpp:598
 msgid "Required XP:"
 msgstr "XP Necessária:"
 
@@ -10963,7 +10982,7 @@ msgstr "XP Necessária:"
 # File: src/help.cpp, line: 1510
 # File: src/help.cpp, line: 1510
 # File: src/help.cpp, line: 1510
-#: src/help/help_topic_generators.cpp:615
+#: src/help/help_topic_generators.cpp:616
 msgid "unit help^Attacks"
 msgstr "Ataques"
 
@@ -10971,7 +10990,7 @@ msgstr "Ataques"
 # File: src/help.cpp, line: 1517
 # File: src/help.cpp, line: 1517
 # File: src/help.cpp, line: 1517
-#: src/help/help_topic_generators.cpp:622
+#: src/help/help_topic_generators.cpp:623
 msgid "unit help^Name"
 msgstr "Nome"
 
@@ -10979,7 +10998,7 @@ msgstr "Nome"
 # File: src/help.cpp, line: 1519
 # File: src/help.cpp, line: 1519
 # File: src/help.cpp, line: 1519
-#: src/help/help_topic_generators.cpp:623
+#: src/help/help_topic_generators.cpp:624
 msgid "Strikes"
 msgstr "Golpes"
 
@@ -10987,7 +11006,7 @@ msgstr "Golpes"
 # File: src/help.cpp, line: 1520
 # File: src/help.cpp, line: 1520
 # File: src/help.cpp, line: 1520
-#: src/help/help_topic_generators.cpp:624
+#: src/help/help_topic_generators.cpp:625
 msgid "Range"
 msgstr "Distância"
 
@@ -10995,7 +11014,7 @@ msgstr "Distância"
 # File: src/help.cpp, line: 1518
 # File: src/help.cpp, line: 1518
 # File: src/help.cpp, line: 1518
-#: src/help/help_topic_generators.cpp:625
+#: src/help/help_topic_generators.cpp:626
 msgid "Type"
 msgstr "Tipo"
 
@@ -11003,7 +11022,7 @@ msgstr "Tipo"
 # File: src/help.cpp, line: 1521
 # File: src/help.cpp, line: 1521
 # File: src/help.cpp, line: 1521
-#: src/help/help_topic_generators.cpp:626
+#: src/help/help_topic_generators.cpp:627
 msgid "Special"
 msgstr "Especial"
 
@@ -11011,7 +11030,7 @@ msgstr "Especial"
 # File: src/help.cpp, line: 1567
 # File: src/help.cpp, line: 1567
 # File: src/help.cpp, line: 1567
-#: src/help/help_topic_generators.cpp:701
+#: src/help/help_topic_generators.cpp:702
 msgid "Resistances"
 msgstr "Resistências"
 
@@ -11019,7 +11038,7 @@ msgstr "Resistências"
 # File: src/help.cpp, line: 1571
 # File: src/help.cpp, line: 1571
 # File: src/help.cpp, line: 1571
-#: src/help/help_topic_generators.cpp:705
+#: src/help/help_topic_generators.cpp:706
 msgid "Attack Type"
 msgstr "Tipo de ataque"
 
@@ -11027,7 +11046,7 @@ msgstr "Tipo de ataque"
 # File: src/help.cpp, line: 1572
 # File: src/help.cpp, line: 1572
 # File: src/help.cpp, line: 1572
-#: src/help/help_topic_generators.cpp:706
+#: src/help/help_topic_generators.cpp:707
 msgid "Resistance"
 msgstr "Resistência"
 
@@ -11035,7 +11054,7 @@ msgstr "Resistência"
 # File: src/help.cpp, line: 1602
 # File: src/help.cpp, line: 1602
 # File: src/help.cpp, line: 1602
-#: src/help/help_topic_generators.cpp:736
+#: src/help/help_topic_generators.cpp:737
 msgid "Terrain Modifiers"
 msgstr "Modificadores de Terreno"
 
@@ -11043,7 +11062,7 @@ msgstr "Modificadores de Terreno"
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
 # File: src/help.cpp, line: 1606
-#: src/help/help_topic_generators.cpp:740
+#: src/help/help_topic_generators.cpp:741
 msgid "Terrain"
 msgstr "Terreno"
 
@@ -11051,7 +11070,7 @@ msgstr "Terreno"
 # File: src/help.cpp, line: 1607
 # File: src/help.cpp, line: 1607
 # File: src/help.cpp, line: 1607
-#: src/help/help_topic_generators.cpp:741
+#: src/help/help_topic_generators.cpp:742
 msgid "Defense"
 msgstr "Defesa"
 
@@ -11059,7 +11078,7 @@ msgstr "Defesa"
 # File: src/help.cpp, line: 1608
 # File: src/help.cpp, line: 1608
 # File: src/help.cpp, line: 1608
-#: src/help/help_topic_generators.cpp:742
+#: src/help/help_topic_generators.cpp:743
 msgid "Movement Cost"
 msgstr "Custo de Movimento"
 
@@ -11067,31 +11086,67 @@ msgstr "Custo de Movimento"
 # File: src/help.cpp, line: 1607
 # File: src/help.cpp, line: 1607
 # File: src/help.cpp, line: 1607
-#: src/help/help_topic_generators.cpp:746
+#: src/help/help_topic_generators.cpp:747
 msgid "Defense Cap"
 msgstr "Limite de Defesa"
 
-#: src/help/help_topic_generators.cpp:751
+#: src/help/help_topic_generators.cpp:752
 msgid "Vision Cost"
 msgstr "Custo de Visão"
 
-#: src/help/help_topic_generators.cpp:755
+#: src/help/help_topic_generators.cpp:756
 msgid "Jamming Cost"
 msgstr "Custo de Interferência"
 
-#
-# File: data/core/help.cfg, line: 501
-# File: data/core/help.cfg, line: 501
-# File: data/core/help.cfg, line: 501
-#~ msgid "Flat"
-#~ msgstr "Planície"
+#. [topic]: id=editor_tool_scenery
+#: data/core/editor/help.cfg:241
+msgid ""
+"The Item Tool allows placing decorations such as windmills, bookcases and "
+"monoliths. Multiple items can be placed on the same hex.\n"
+"\n"
+"<bold>text='Note:'</bold> the tool doesn’t support deleting items once "
+"placed, nor does it support undo. Mistakes can currently only be fixed by "
+"editing the generated WML file.\n"
+"\n"
+"This tool is only available in Scenario Mode; the decorations are not part "
+"of the terrain and are implemented in the scenario using WML’s "
+"<italic>text='[item]'</italic> tag."
+msgstr ""
+"A Ferramenta de Itens permite colocar decorações, rais quais moinhos de "
+"vento, estantes de lívros e monólitos. Múltiplos itens podem ser colocados "
+"no mesmo hexágono.\n"
+"\n"
+"<bold>text='Nota:'</bold> a ferramenta não é capaz de deletar itens uma vez "
+"que eles tenham sido colocados, nem suporta a ação de desfazer. No presente "
+"momento, erros só tem como ser consertados editando o arquivo WML.\n"
+"\n"
+"Essa ferramenta só está disponível no Modo de Cenário; as decorações não são "
+"parte do cenário e são implementadas no cenário usando a tag WML "
+"<italic>text='[item]'</italic>."
 
 #
-# File: data/core/help.cfg, line: 700
-# File: data/core/help.cfg, line: 700
-# File: data/core/help.cfg, line: 700
-#~ msgid "Village"
-#~ msgstr "Vila"
+# File: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg, line: 783
+# File: data/core/macros/abilities.cfg, line: 686
+# File: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg, line: 783
+# File: data/core/macros/abilities.cfg, line: 686
+# File: data/campaigns/Under_the_Burning_Suns/scenarios/03_Stirring_in_the_Night.cfg, line: 783
+# File: data/core/macros/abilities.cfg, line: 686
+#, fuzzy
+#~| msgid "first strike"
+#~ msgid "first verse"
+#~ msgstr "iniciativa"
+
+#
+# File: data/core/help.cfg, line: 286
+# File: data/core/macros/schedules.cfg, line: 58
+# File: data/core/help.cfg, line: 286
+# File: data/core/macros/schedules.cfg, line: 58
+# File: data/core/help.cfg, line: 286
+# File: data/core/macros/schedules.cfg, line: 58
+#, fuzzy
+#~| msgid "Second Dusk"
+#~ msgid "second verse"
+#~ msgstr "Segundo Anoitecer"
 
 #~ msgid ""
 #~ "When loading a .cfg file, the scenario editor understands files created "
@@ -11192,8 +11247,8 @@ msgstr "Custo de Interferência"
 #~ "• maps/map_from_01.cfg\n"
 #~ "  ◦ este é o arquivo criado pelo editor de cenário\n"
 #~ "• scenarios/01_Forest.cfg\n"
-#~ "  ◦ dentro do elemento cenário [scenario], usa “map_file=\"map_from_01."
-#~ "cfg\"” para carregar o arquivo"
+#~ "  ◦ dentro do elemento cenário [scenario], usa "
+#~ "“map_file=\"map_from_01.cfg\"” para carregar o arquivo"
 
 #~ msgid ""
 #~ "<header>text='Which scenario files use the [scenario] tag'</header>\n"
@@ -11235,177 +11290,19 @@ msgstr "Custo de Interferência"
 #~ "(ou [multiplayer]...[/multiplayer]) para saber qual WML é parte de qual "
 #~ "cenário."
 
-#~ msgid ""
-#~ "<header>text='The files: .map and .cfg'</header>\n"
-#~ "\n"
-#~ "The map editor saves exactly one file, either a .map (for terrain mode) "
-#~ "or a .cfg (for scenario mode). In scenario mode the terrain map is saved "
-#~ "inside the .cfg file; there is no separate .map file. If you start "
-#~ "editing in terrain mode and then switch to scenaro mode then an old .map "
-#~ "file might remain, but this is not updated by the scenario editor.\n"
-#~ "\n"
-#~ "Loading a .cfg file has different results depending on the contents of "
-#~ "the .cfg file. For .cfg files that were created by the scenario editor, "
-#~ "it will open the .cfg in the scenario editor. However, for .cfg files "
-#~ "that use a separate .map file (which can't be created by the scenario "
-#~ "editor), the editor may follow the link and open the corresponding .map "
-#~ "in terrain-only mode, as if the .map file was chosen in the file selector."
-#~ msgstr ""
-#~ "<header>text='Os arquivos: .map e .cfg'</header>\n"
-#~ "\n"
-#~ "O editor de mapas salva exatamente um arquivo, ou um .map (para o modo de "
-#~ "terreno), ou um .cfg (para o modo de cenário). No modo de cenário o mapa "
-#~ "do terreno é salvo dentro do arquivo .cfg; não há um arquivo .map "
-#~ "separado. Se você começar editando no modo de terreno antes de mudar para "
-#~ "o modo de cenário, um arquivo .map antigo permanecerá, mas isso não é "
-#~ "atualizado pelo edito de cenário.\n"
-#~ "\n"
-#~ "Carregar um arquivo .cfg possui resultados diferentes dependendo dos "
-#~ "conteúdos do arquivo .cfg. Para arquivos .cfg que foram criados pelo "
-#~ "editor de cenário, ele abritá o .cfg no editor de cenário. Entretanto, "
-#~ "para arquivos .cfg que usam um arquivo .map separado (o qual não pode ser "
-#~ "criado pelo editor de cenário), o editor seguirá o link e abrirá o "
-#~ "arquivo .map correspondente no modo de terreno, como se o arquivo .map "
-#~ "tivesse sido selecionado."
+#
+# File: data/core/help.cfg, line: 501
+# File: data/core/help.cfg, line: 501
+# File: data/core/help.cfg, line: 501
+#~ msgid "Flat"
+#~ msgstr "Planície"
 
-#~ msgid ""
-#~ "Drakes are large, winged and fire-breathing creatures, reminiscent of "
-#~ "true dragons. On average, an adult drake stands around three meters tall "
-#~ "and easily weighs more than a man and a horse combined. Their skin is "
-#~ "made up of hard scales, resistant to most physical strikes except "
-#~ "piercing and cold damage. Most drakes are capable of true flight and can "
-#~ "travel long distances quickly. However, their sheer weight and bulk "
-#~ "limits their flight ability somewhat, making them ungainly in the air. "
-#~ "Where possible, they make use of terrain features such as hills, "
-#~ "mountains and trees as launch points in order to gain greater height and "
-#~ "speed. Fortunately for their enemies, they are still quite clumsy "
-#~ "creatures and surprisingly slow in combat. This, combined with their "
-#~ "large size, renders them easy targets for those who dare attack them.\n"
-#~ "\n"
-#~ "Drakes are inherently magical creatures, with a mysterious internal fire "
-#~ "fueling their very lives. This can easily be witnessed when one of their "
-#~ "kind perishes in combat; its internal fire is released, burning their "
-#~ "remains in to ashes. Their internal fire is also their greatest weakness; "
-#~ "it makes them extremely vulnerable to cold attacks. Despite their magical "
-#~ "nature, drakes are incapable of channeling magic in a controlled manner. "
-#~ "While the magic imbued within a drake’s body enables it to spit fire and "
-#~ "gives it life, they have no willful control over the functions of this "
-#~ "magic.\n"
-#~ "\n"
-#~ "<header>text='Society'</header>\n"
-#~ "Drakes are a relatively warlike race and their societies can be best "
-#~ "described as cultured martial societies. The core of a drake tribe is a "
-#~ "small group of veteran warriors headed by a mutually respected — or "
-#~ "simply feared — dominant who rules the society with an iron fist. Every "
-#~ "drake is expected to earn their place in the strict hierarchy, to obey "
-#~ "their superiors and command their inferiors. Entry to the ruling elite is "
-#~ "only possible through challenging and defeating a superior in single "
-#~ "combat, which is the way the hierarchy within the elite itself is "
-#~ "established. The use of deception of any kind towards any fellow drake "
-#~ "is, without exception, seen as cowardly and unacceptable.\n"
-#~ "\n"
-#~ "While their warlike nature and sense of territory drives them to defend "
-#~ "their territories savagely, drakes rarely invade or trespass on areas "
-#~ "already occupied by the other major races. Instead, they settle in "
-#~ "unpopulated areas to establish their own territory there. They primarily "
-#~ "feed on large game they hunt in the lowlands around their homes, but "
-#~ "hatchlings and lower caste drakes are known to feed also on certain kinds "
-#~ "of moss and fungi they cultivate deep in their caverns. Drakes value "
-#~ "armor- and weapon-smithing, but neither know nor need other science and "
-#~ "culture besides this. Nonetheless, the few implements they do fashion are "
-#~ "almost unrivaled in quality, only matched by those produced in the finest "
-#~ "Dwarvish foundries.\n"
-#~ "\n"
-#~ "Drakes hatch from eggs and usually live naturally between 20 to 30 years. "
-#~ "Death in battle is the most preferred way for a drake to leave this "
-#~ "world. Unlike the elder members of other races, drakes naturally grow "
-#~ "more aggressive and reckless towards the ends of their natural lives, "
-#~ "perhaps to help ensure their place in the heroic legends of their kind.\n"
-#~ "\n"
-#~ "<header>text='Geography'</header>\n"
-#~ "Drakes originated from an archipelago of volcanic islands called "
-#~ "<ref>dst='morogor' text='Morogor'</ref> in the <ref>dst='great_ocean' "
-#~ "text='Great Ocean'</ref>. A combination of population pressure and the "
-#~ "subsidence of many of their home islands has caused colonies of drakes to "
-#~ "spread to the <ref>dst='great_continent' text='Great Continent'</ref>. "
-#~ "Drakes tend to make their homes in mountain caverns near volcanoes to "
-#~ "protect their eggs, hatchings and forges. While drakes naturally prefer "
-#~ "warmth, their internal fire is more than capable of sustaining them even "
-#~ "in a relatively cold climate, a feature which has allowed them to "
-#~ "populate even some of the mountains of the far north of the Great "
-#~ "Continent."
-#~ msgstr ""
-#~ "Draconatos são grandes criaturas aladas que cospem fogo, remanescentes "
-#~ "dos verdadeiros dragões. Em média, um draconato adulto mede três metros "
-#~ "de altura e facilmente pesa mais do que um humano e um cavalo juntos. Sua "
-#~ "pele é feita de escamadas duras que são resistentes conta a maioria dos "
-#~ "tipos de danos físicos, exceto contra ataques perfurantes e gélidos. A "
-#~ "maioria dos draconatos é capaz de voar e podem percorrer longas "
-#~ "distâncias rapidamente. No entanto, seu peso e tamanho limitam um pouco a "
-#~ "sua capacidade de voo, tornando-os desajeitados no ar. Quando possível, "
-#~ "fazem uso do terreno, tais quais; colinas, montanhas e árvores, como "
-#~ "pontos de decolagem para alcançarem maiores alturas e velocidades no voo. "
-#~ "Felizmente para seus inimigos, eles são um tanto quanto desajeitados e "
-#~ "incrivelmente lentos em combate. Isto, combinado com sua grande estatura, "
-#~ "torna-os alvos fáceis para quem ousar ataca-los.\n"
-#~ "\n"
-#~ "Draconatos são inerentemente criaturas mágicas, possuindo uma misteriosa "
-#~ "chama interna que alimenta as suas vidas. Isto pode ser facilmente "
-#~ "observado quando um deles morre em combate; sua chama interna é liberada, "
-#~ "queimando seus restos mortais até que sobre apenas cinzas. Sua chama "
-#~ "interna também é sua maior fraqueza, pois ela os torna extremamente "
-#~ "vulneráveis contra ataques a base de frio. Apesar de sua natureza mágica, "
-#~ "draconatos são incapazes de canalizar magia e controlar magia. A magia "
-#~ "que existe dentro do corpo de cada draconato lhes anima e permite que "
-#~ "cuspam fogo, mas eles não possuem nenhum controle consciente sobre ela.\n"
-#~ "\n"
-#~ "<header>text='Sociedade'</header>\n"
-#~ "Draconatos são uma raça relativamente belicosa e suas sociedades podem "
-#~ "ser melhores descritas como sociedades marciais refinadas. O núcleo de "
-#~ "uma tribo dracônica é um pequeno grupo de guerreiros veteranos liderados "
-#~ "por um líder respeitado — ou simplesmente temido — que domina a sociedade "
-#~ "com um pulso firme. É esperado que cada draconato faça por merecer seu "
-#~ "lugar na estrita ordem hierárquica social, obedecendo seus superiores e "
-#~ "comandando seus inferiores. A única forma de acesso para a elite "
-#~ "dominante é por meio de vitória ao desafiar um superior para um combate, "
-#~ "que é a forma com que a hierarquia dentro do círculo da elite é "
-#~ "estabelecida. O uso de ardis de qualquer tipo contra outros draconatos é, "
-#~ "sem exceção, visto como um ato covarde e inaceitável.\n"
-#~ "\n"
-#~ "Apesar de sua natureza belicosa e seu senso de territorialidade fazer com "
-#~ "que eles defendam seus territórios com selvageria, draconatos raramente "
-#~ "invadem ou violam áreas que já estão ocupadas pelas outras grandes raças. "
-#~ "Ao invés disso, eles colonizam zonas inóspitas para formar seus "
-#~ "territórios. Eles se alimentam principalmente de animais de grande porte "
-#~ "que eles caçam nas regiões ao nível do mar nas proximidades dos seus "
-#~ "lares, mas sabe-se que recém-nascidos e draconatos de castas inferiores "
-#~ "se alimentam de certos tipos de fungos e musgos que eles cultivam nas "
-#~ "entranhas de suas cavernas. Draconatos prezam muito pela arte da forja de "
-#~ "armas e armaduras, mas desconhecem e não possuem necessidade para outras "
-#~ "áreas de conhecimento ou cultura que não esta. Não obstante, os poucos "
-#~ "utensílios que eles produzem são da mais alta qualidade, a ponto de "
-#~ "competirem com aqueles produzidos nas melhores fundições dos anões.\n"
-#~ "\n"
-#~ "Draconatos nascem de ovos e geralmente vivem entre 20 e 30 anos. Morte em "
-#~ "batalha é a forma preferida para que um draconato deixe esse mundo. Ao "
-#~ "contrário dos membros anciões das outras raças, draconatos naturalmente "
-#~ "tornam-se mais agressivos e descuidados conforme se aproximam do final de "
-#~ "suas vidas, possivelmente para ajudar a garantir seu lugar nas lendas "
-#~ "heroicas de sua espécie.\n"
-#~ "\n"
-#~ "<header>text='Geografia'</header>\n"
-#~ "Draconatos são originários de um arquipélago de ilhas vulcânicas "
-#~ "conhecido como <ref>dst='morogor' text='Morogor'</ref> no "
-#~ "<ref>dst='great_ocean' text='Grande Oceana'</ref>. Uma combinação de "
-#~ "pressão populacional e submersão de várias das ilhas por eles habitadas "
-#~ "fez com que colônias de draconatos se espalhassem pelo "
-#~ "<ref>dst='great_continent' text='Grande Continente'</ref>. Draconatos "
-#~ "costumam a fazer suas moradias em cavernas próximas a vulcões para "
-#~ "proteger seus ovos, suas ninhadas e suas forjas. Embora draconatos "
-#~ "naturalmente prefiram locais de clima quente, eles possuem uma chama "
-#~ "interior que é mais do que capaz de mantê-los aquecidos em regiões de "
-#~ "clima relativamente frio. Esta característica lhes permitiu popular "
-#~ "algumas das montanhas do distante norte no Grande Continente."
+#
+# File: data/core/help.cfg, line: 700
+# File: data/core/help.cfg, line: 700
+# File: data/core/help.cfg, line: 700
+#~ msgid "Village"
+#~ msgstr "Vila"
 
 #
 # File: data/core/macros/abilities.cfg, line: 111
@@ -13472,6 +13369,178 @@ msgstr "Custo de Interferência"
 #~ "mesmo o mais forte troll pode destruir um sólido muro de pedras."
 
 #~ msgid ""
+#~ "<header>text='The files: .map and .cfg'</header>\n"
+#~ "\n"
+#~ "The map editor saves exactly one file, either a .map (for terrain mode) "
+#~ "or a .cfg (for scenario mode). In scenario mode the terrain map is saved "
+#~ "inside the .cfg file; there is no separate .map file. If you start "
+#~ "editing in terrain mode and then switch to scenaro mode then an old .map "
+#~ "file might remain, but this is not updated by the scenario editor.\n"
+#~ "\n"
+#~ "Loading a .cfg file has different results depending on the contents of "
+#~ "the .cfg file. For .cfg files that were created by the scenario editor, "
+#~ "it will open the .cfg in the scenario editor. However, for .cfg files "
+#~ "that use a separate .map file (which can't be created by the scenario "
+#~ "editor), the editor may follow the link and open the corresponding .map "
+#~ "in terrain-only mode, as if the .map file was chosen in the file selector."
+#~ msgstr ""
+#~ "<header>text='Os arquivos: .map e .cfg'</header>\n"
+#~ "\n"
+#~ "O editor de mapas salva exatamente um arquivo, ou um .map (para o modo de "
+#~ "terreno), ou um .cfg (para o modo de cenário). No modo de cenário o mapa "
+#~ "do terreno é salvo dentro do arquivo .cfg; não há um arquivo .map "
+#~ "separado. Se você começar editando no modo de terreno antes de mudar para "
+#~ "o modo de cenário, um arquivo .map antigo permanecerá, mas isso não é "
+#~ "atualizado pelo edito de cenário.\n"
+#~ "\n"
+#~ "Carregar um arquivo .cfg possui resultados diferentes dependendo dos "
+#~ "conteúdos do arquivo .cfg. Para arquivos .cfg que foram criados pelo "
+#~ "editor de cenário, ele abritá o .cfg no editor de cenário. Entretanto, "
+#~ "para arquivos .cfg que usam um arquivo .map separado (o qual não pode ser "
+#~ "criado pelo editor de cenário), o editor seguirá o link e abrirá o "
+#~ "arquivo .map correspondente no modo de terreno, como se o arquivo .map "
+#~ "tivesse sido selecionado."
+
+#~ msgid ""
+#~ "Drakes are large, winged and fire-breathing creatures, reminiscent of "
+#~ "true dragons. On average, an adult drake stands around three meters tall "
+#~ "and easily weighs more than a man and a horse combined. Their skin is "
+#~ "made up of hard scales, resistant to most physical strikes except "
+#~ "piercing and cold damage. Most drakes are capable of true flight and can "
+#~ "travel long distances quickly. However, their sheer weight and bulk "
+#~ "limits their flight ability somewhat, making them ungainly in the air. "
+#~ "Where possible, they make use of terrain features such as hills, "
+#~ "mountains and trees as launch points in order to gain greater height and "
+#~ "speed. Fortunately for their enemies, they are still quite clumsy "
+#~ "creatures and surprisingly slow in combat. This, combined with their "
+#~ "large size, renders them easy targets for those who dare attack them.\n"
+#~ "\n"
+#~ "Drakes are inherently magical creatures, with a mysterious internal fire "
+#~ "fueling their very lives. This can easily be witnessed when one of their "
+#~ "kind perishes in combat; its internal fire is released, burning their "
+#~ "remains in to ashes. Their internal fire is also their greatest weakness; "
+#~ "it makes them extremely vulnerable to cold attacks. Despite their magical "
+#~ "nature, drakes are incapable of channeling magic in a controlled manner. "
+#~ "While the magic imbued within a drake’s body enables it to spit fire and "
+#~ "gives it life, they have no willful control over the functions of this "
+#~ "magic.\n"
+#~ "\n"
+#~ "<header>text='Society'</header>\n"
+#~ "Drakes are a relatively warlike race and their societies can be best "
+#~ "described as cultured martial societies. The core of a drake tribe is a "
+#~ "small group of veteran warriors headed by a mutually respected — or "
+#~ "simply feared — dominant who rules the society with an iron fist. Every "
+#~ "drake is expected to earn their place in the strict hierarchy, to obey "
+#~ "their superiors and command their inferiors. Entry to the ruling elite is "
+#~ "only possible through challenging and defeating a superior in single "
+#~ "combat, which is the way the hierarchy within the elite itself is "
+#~ "established. The use of deception of any kind towards any fellow drake "
+#~ "is, without exception, seen as cowardly and unacceptable.\n"
+#~ "\n"
+#~ "While their warlike nature and sense of territory drives them to defend "
+#~ "their territories savagely, drakes rarely invade or trespass on areas "
+#~ "already occupied by the other major races. Instead, they settle in "
+#~ "unpopulated areas to establish their own territory there. They primarily "
+#~ "feed on large game they hunt in the lowlands around their homes, but "
+#~ "hatchlings and lower caste drakes are known to feed also on certain kinds "
+#~ "of moss and fungi they cultivate deep in their caverns. Drakes value "
+#~ "armor- and weapon-smithing, but neither know nor need other science and "
+#~ "culture besides this. Nonetheless, the few implements they do fashion are "
+#~ "almost unrivaled in quality, only matched by those produced in the finest "
+#~ "Dwarvish foundries.\n"
+#~ "\n"
+#~ "Drakes hatch from eggs and usually live naturally between 20 to 30 years. "
+#~ "Death in battle is the most preferred way for a drake to leave this "
+#~ "world. Unlike the elder members of other races, drakes naturally grow "
+#~ "more aggressive and reckless towards the ends of their natural lives, "
+#~ "perhaps to help ensure their place in the heroic legends of their kind.\n"
+#~ "\n"
+#~ "<header>text='Geography'</header>\n"
+#~ "Drakes originated from an archipelago of volcanic islands called "
+#~ "<ref>dst='morogor' text='Morogor'</ref> in the <ref>dst='great_ocean' "
+#~ "text='Great Ocean'</ref>. A combination of population pressure and the "
+#~ "subsidence of many of their home islands has caused colonies of drakes to "
+#~ "spread to the <ref>dst='great_continent' text='Great Continent'</ref>. "
+#~ "Drakes tend to make their homes in mountain caverns near volcanoes to "
+#~ "protect their eggs, hatchings and forges. While drakes naturally prefer "
+#~ "warmth, their internal fire is more than capable of sustaining them even "
+#~ "in a relatively cold climate, a feature which has allowed them to "
+#~ "populate even some of the mountains of the far north of the Great "
+#~ "Continent."
+#~ msgstr ""
+#~ "Draconatos são grandes criaturas aladas que cospem fogo, remanescentes "
+#~ "dos verdadeiros dragões. Em média, um draconato adulto mede três metros "
+#~ "de altura e facilmente pesa mais do que um humano e um cavalo juntos. Sua "
+#~ "pele é feita de escamadas duras que são resistentes conta a maioria dos "
+#~ "tipos de danos físicos, exceto contra ataques perfurantes e gélidos. A "
+#~ "maioria dos draconatos é capaz de voar e podem percorrer longas "
+#~ "distâncias rapidamente. No entanto, seu peso e tamanho limitam um pouco a "
+#~ "sua capacidade de voo, tornando-os desajeitados no ar. Quando possível, "
+#~ "fazem uso do terreno, tais quais; colinas, montanhas e árvores, como "
+#~ "pontos de decolagem para alcançarem maiores alturas e velocidades no voo. "
+#~ "Felizmente para seus inimigos, eles são um tanto quanto desajeitados e "
+#~ "incrivelmente lentos em combate. Isto, combinado com sua grande estatura, "
+#~ "torna-os alvos fáceis para quem ousar ataca-los.\n"
+#~ "\n"
+#~ "Draconatos são inerentemente criaturas mágicas, possuindo uma misteriosa "
+#~ "chama interna que alimenta as suas vidas. Isto pode ser facilmente "
+#~ "observado quando um deles morre em combate; sua chama interna é liberada, "
+#~ "queimando seus restos mortais até que sobre apenas cinzas. Sua chama "
+#~ "interna também é sua maior fraqueza, pois ela os torna extremamente "
+#~ "vulneráveis contra ataques a base de frio. Apesar de sua natureza mágica, "
+#~ "draconatos são incapazes de canalizar magia e controlar magia. A magia "
+#~ "que existe dentro do corpo de cada draconato lhes anima e permite que "
+#~ "cuspam fogo, mas eles não possuem nenhum controle consciente sobre ela.\n"
+#~ "\n"
+#~ "<header>text='Sociedade'</header>\n"
+#~ "Draconatos são uma raça relativamente belicosa e suas sociedades podem "
+#~ "ser melhores descritas como sociedades marciais refinadas. O núcleo de "
+#~ "uma tribo dracônica é um pequeno grupo de guerreiros veteranos liderados "
+#~ "por um líder respeitado — ou simplesmente temido — que domina a sociedade "
+#~ "com um pulso firme. É esperado que cada draconato faça por merecer seu "
+#~ "lugar na estrita ordem hierárquica social, obedecendo seus superiores e "
+#~ "comandando seus inferiores. A única forma de acesso para a elite "
+#~ "dominante é por meio de vitória ao desafiar um superior para um combate, "
+#~ "que é a forma com que a hierarquia dentro do círculo da elite é "
+#~ "estabelecida. O uso de ardis de qualquer tipo contra outros draconatos é, "
+#~ "sem exceção, visto como um ato covarde e inaceitável.\n"
+#~ "\n"
+#~ "Apesar de sua natureza belicosa e seu senso de territorialidade fazer com "
+#~ "que eles defendam seus territórios com selvageria, draconatos raramente "
+#~ "invadem ou violam áreas que já estão ocupadas pelas outras grandes raças. "
+#~ "Ao invés disso, eles colonizam zonas inóspitas para formar seus "
+#~ "territórios. Eles se alimentam principalmente de animais de grande porte "
+#~ "que eles caçam nas regiões ao nível do mar nas proximidades dos seus "
+#~ "lares, mas sabe-se que recém-nascidos e draconatos de castas inferiores "
+#~ "se alimentam de certos tipos de fungos e musgos que eles cultivam nas "
+#~ "entranhas de suas cavernas. Draconatos prezam muito pela arte da forja de "
+#~ "armas e armaduras, mas desconhecem e não possuem necessidade para outras "
+#~ "áreas de conhecimento ou cultura que não esta. Não obstante, os poucos "
+#~ "utensílios que eles produzem são da mais alta qualidade, a ponto de "
+#~ "competirem com aqueles produzidos nas melhores fundições dos anões.\n"
+#~ "\n"
+#~ "Draconatos nascem de ovos e geralmente vivem entre 20 e 30 anos. Morte em "
+#~ "batalha é a forma preferida para que um draconato deixe esse mundo. Ao "
+#~ "contrário dos membros anciões das outras raças, draconatos naturalmente "
+#~ "tornam-se mais agressivos e descuidados conforme se aproximam do final de "
+#~ "suas vidas, possivelmente para ajudar a garantir seu lugar nas lendas "
+#~ "heroicas de sua espécie.\n"
+#~ "\n"
+#~ "<header>text='Geografia'</header>\n"
+#~ "Draconatos são originários de um arquipélago de ilhas vulcânicas "
+#~ "conhecido como <ref>dst='morogor' text='Morogor'</ref> no "
+#~ "<ref>dst='great_ocean' text='Grande Oceana'</ref>. Uma combinação de "
+#~ "pressão populacional e submersão de várias das ilhas por eles habitadas "
+#~ "fez com que colônias de draconatos se espalhassem pelo "
+#~ "<ref>dst='great_continent' text='Grande Continente'</ref>. Draconatos "
+#~ "costumam a fazer suas moradias em cavernas próximas a vulcões para "
+#~ "proteger seus ovos, suas ninhadas e suas forjas. Embora draconatos "
+#~ "naturalmente prefiram locais de clima quente, eles possuem uma chama "
+#~ "interior que é mais do que capaz de mantê-los aquecidos em regiões de "
+#~ "clima relativamente frio. Esta característica lhes permitiu popular "
+#~ "algumas das montanhas do distante norte no Grande Continente."
+
+#~ msgid ""
 #~ "Named Areas are sets of gamefields which can be addressed during scenario "
 #~ "scripting by a given name.\n"
 #~ "\n"
@@ -14440,11 +14509,11 @@ msgstr "Custo de Interferência"
 #~ "the Throne</i> campaign. Have fun, and good luck!"
 #~ msgstr ""
 #~ "Assim concluímos os fundamentos de Wesnoth. Você talvez queira ler mais "
-#~ "sobre estratégia básica, ou se familiarizar com <ref>dst='.."
-#~ "traits_section' text='Características'</ref> e <ref>dst='.."
-#~ "abilities_section' text='Habilidades'</ref>, mas você já sabe tudo o que "
-#~ "precisa para jogar a campanha O Herdeiro do Trono. Divirta-se, e boa "
-#~ "sorte!"
+#~ "sobre estratégia básica, ou se familiarizar com "
+#~ "<ref>dst='..traits_section' text='Características'</ref> e "
+#~ "<ref>dst='..abilities_section' text='Habilidades'</ref>, mas você já sabe "
+#~ "tudo o que precisa para jogar a campanha O Herdeiro do Trono. Divirta-se, "
+#~ "e boa sorte!"
 
 #
 # File: data/core/encyclopedia/geography.cfg, line: 32

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 0.8.2-CVS\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-03-02 22:44 UTC\n"
+"POT-Creation-Date: 2024-03-18 00:07 UTC\n"
 "PO-Revision-Date: 2023-01-06 17:50-0300\n"
 "Last-Translator: Andrei Machado <andreisp.machado@yahoo.com>\n"
 "Language-Team: Portuguese - Brasil <gnome-l10n-br@listas.cipsga.org.br>\n"
@@ -474,6 +474,7 @@ msgstr "mangual"
 #: data/campaigns/Eastern_Invasion/units/Human_Owaec_Horse_Lord.cfg:38
 #: data/campaigns/Eastern_Invasion/units/Human_Owaec_Princeling.cfg:37
 #: data/campaigns/Eastern_Invasion/units/Human_Terraent_Paladin.cfg:38
+#: data/campaigns/Eastern_Invasion/units/Undead_Horse_Barrow_Wight.cfg:48
 #: data/campaigns/Eastern_Invasion/units/Undead_Horse_Pyre_Wight.cfg:45
 #: data/campaigns/Eastern_Invasion/units/Undead_Horse_Pyre_Wight.cfg:57
 #: data/campaigns/Heir_To_The_Throne/units/Battle_Princess.cfg:34
@@ -683,6 +684,11 @@ msgstr ""
 #: data/core/units/ogres/Ogre.cfg:28 data/core/units/ogres/Young_Ogre.cfg:27
 msgid "cleaver"
 msgstr "cutelo"
+
+#. [attack]: type=impact
+#: data/core/units/undead/Skele_Bone_Knight.cfg:77
+msgid "trample"
+msgstr "atropelar"
 
 #
 # File: data/campaigns/The_Hammer_of_Thursagan/units/Dwarvish_Rune_Lord.cfg, line: 44
@@ -1765,10 +1771,8 @@ msgstr "boleadeira"
 
 #. [effect]: type=blade
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:156
-#, fuzzy
-#| msgid "Hunting Ogre"
 msgid "taunting strike"
-msgstr "Ogro Caçador"
+msgstr ""
 
 #. [advancement]: id=run_by_taunt
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:183
@@ -1777,24 +1781,18 @@ msgstr ""
 
 #. [advancement]: id=strength_training
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:201
-#, fuzzy
-#| msgid "Battle Training"
 msgid "Strength Training"
-msgstr "Treinamento de Batalha"
+msgstr ""
 
 #. [advancement]: id=bowmanship_training
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:213
-#, fuzzy
-#| msgid "Battle Training"
 msgid "Bowmanship Training"
-msgstr "Treinamento de Batalha"
+msgstr ""
 
 #. [advancement]: id=strong_shots
 #: data/campaigns/Under_the_Burning_Suns/units/quenoth/Youth.cfg:230
-#, fuzzy
-#| msgid "Strong"
 msgid "Strong Shots"
-msgstr "Forte"
+msgstr ""
 
 #
 # File: data/core/units/humans/Loyalist_Bowman.cfg, line: 4
@@ -2376,12 +2374,15 @@ msgstr ""
 msgid "war blade"
 msgstr "lâmina de guerra"
 
+#
+# File: data/core/units/drakes/Fighter.cfg, line: 4
+# File: data/core/units/drakes/Fighter.cfg, line: 4
 #. [female]: gender=female
 #: data/core/units/drakes/Fighter.cfg:64
 #, fuzzy
-#| msgid "female^Fighter"
+#| msgid "Drake Fighter"
 msgid "female^Drake Fighter"
-msgstr "Guerreira"
+msgstr "Draconato Guerreiro"
 
 #
 # File: data/core/units/drakes/Fire.cfg, line: 4
@@ -2667,12 +2668,15 @@ msgstr ""
 "lar. Cada um tenta trazer para casa o máximo de carne quanto possível, "
 "competindo para ganhar o respeito de sua tribo."
 
+#
+# File: data/core/units/drakes/Sky.cfg, line: 4
+# File: data/core/units/drakes/Sky.cfg, line: 4
 #. [female]: gender=female
 #: data/core/units/drakes/Sky.cfg:98
 #, fuzzy
-#| msgid "race+female^Drake"
+#| msgid "Sky Drake"
 msgid "female^Sky Drake"
-msgstr "Draconata"
+msgstr "Draconato Celeste"
 
 #
 # File: data/core/units/drakes/Thrasher.cfg, line: 4
@@ -2791,12 +2795,15 @@ msgstr ""
 "de cerâmica e portando a tradicional lâmina de guerra montada no dorso de "
 "suas mãos."
 
+#
+# File: data/core/units/drakes/Warrior.cfg, line: 4
+# File: data/core/units/drakes/Warrior.cfg, line: 4
 #. [female]: gender=female
 #: data/core/units/drakes/Warrior.cfg:58
 #, fuzzy
-#| msgid "female^Warrior"
+#| msgid "Drake Warrior"
 msgid "female^Drake Warrior"
-msgstr "Soldada"
+msgstr "Draconato Soldado"
 
 #
 # File: data/core/units/drakes/Blademaster.cfg, line: 4
@@ -4085,22 +4092,12 @@ msgstr "Anão Minerador"
 
 #. [unit_type]: id=Dwarvish Miner, race=dwarf
 #: data/core/units/dwarves/Miner.cfg:17
-#, fuzzy
-#| msgid ""
-#| "Dwarvish miners are the grunt workers of Dwarvish society. They take the "
-#| "precious ores out of the ground, but do not ever take part in the "
-#| "crafting of weapons or artifacts. They have no military training, but "
-#| "they can still do some damage with their picks."
 msgid ""
 "Dwarvish miners are the grunt workers of dwarvish society. They take the "
 "precious ores out of the ground, but do not ever take part in the crafting "
 "of weapons or artifacts. They have no military training, but they can still "
 "do some damage with their picks."
 msgstr ""
-"Anões mineradores são os trabalhadores que formam a base da sociedade dos "
-"Anões. Eles retiram os metais preciosos da terra, mas nunca trabalham na "
-"manufatura de armas ou artefatos. Eles não possuem treinamento militar, mas "
-"ainda assim podem causar certo estrago com as suas picaretas."
 
 #. [attack]: type=pierce
 #: data/core/units/dwarves/Miner.cfg:22
@@ -8062,12 +8059,15 @@ msgid ""
 "nourishing, they can host an ant egg."
 msgstr ""
 
+#
+# File: data/core/units/monsters/Fire_Dragon.cfg, line: 4
+# File: data/core/units/monsters/Fire_Dragon.cfg, line: 4
 #. [unit_type]: id=Soldier Ant, race=monster
 #: data/core/units/monsters/Ant_Soldier.cfg:4
 #, fuzzy
-#| msgid "Soldier King"
+#| msgid "Fire Ant"
 msgid "Soldier Ant"
-msgstr "Rei Soldado"
+msgstr "Formiga de Fogo"
 
 #. [unit_type]: id=Soldier Ant, race=monster
 #: data/core/units/monsters/Ant_Soldier.cfg:19
@@ -8164,10 +8164,8 @@ msgstr ""
 
 #. [unit_type]: id=Hunter Caribe, race=monster
 #: data/core/units/monsters/Caribe_Hunter.cfg:8
-#, fuzzy
-#| msgid "Hunter"
 msgid "Hunter Caribe"
-msgstr "Caçador"
+msgstr ""
 
 #. [unit_type]: id=Hunter Caribe, race=monster
 #: data/core/units/monsters/Caribe_Hunter.cfg:29
@@ -8178,21 +8176,8 @@ msgstr ""
 
 #. [unit_type]: id=Nibbler, race=monster
 #: data/core/units/monsters/Caribe_Nibbler.cfg:8
-#, fuzzy
 msgid "Nibbler"
 msgstr ""
-"#-#-#-#-#  26.po (Battle for Wesnoth 0.8.2-CVS)  #-#-#-#-#\n"
-"Destroços\n"
-"#-#-#-#-#  36.po (Battle for Wesnoth 0.9.5-CVS)  #-#-#-#-#\n"
-"Pedregulho\n"
-"#-#-#-#-#  53.po (Battle for Wesnoth 0.8.2-CVS)  #-#-#-#-#\n"
-"Destroços\n"
-"#-#-#-#-#  63.po (Battle for Wesnoth 0.9.5-CVS)  #-#-#-#-#\n"
-"Pedregulho\n"
-"#-#-#-#-#  78.po (Battle for Wesnoth 0.8.2-CVS)  #-#-#-#-#\n"
-"Destroços\n"
-"#-#-#-#-#  9.po (Battle for Wesnoth 0.9.5-CVS)  #-#-#-#-#\n"
-"Pedregulho"
 
 #. [unit_type]: id=Nibbler, race=monster
 #: data/core/units/monsters/Caribe_Nibbler.cfg:43
@@ -8303,10 +8288,13 @@ msgstr "tentáculo"
 msgid "ink"
 msgstr "tinta"
 
+#
+# File: data/core/units/humans/Loyalist_Dragoon.cfg, line: 4
+# File: data/core/units/humans/Loyalist_Dragoon.cfg, line: 4
 #. [unit_type]: id=Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly.cfg:5
 #, fuzzy
-#| msgid "Dragon"
+#| msgid "Dragoon"
 msgid "Dragonfly"
 msgstr "Dragão"
 
@@ -8321,14 +8309,14 @@ msgid ""
 msgstr ""
 
 #
-# File: data/core/units/humans/Loyalist_Grand_Marshal.cfg, line: 4
-# File: data/core/units/humans/Loyalist_Grand_Marshal.cfg, line: 4
+# File: data/core/units/humans/Loyalist_Dragoon.cfg, line: 4
+# File: data/core/units/humans/Loyalist_Dragoon.cfg, line: 4
 #. [unit_type]: id=Grand Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly_Grand.cfg:5
 #, fuzzy
-#| msgid "Grand Marshal"
+#| msgid "Dragoon"
 msgid "Grand Dragonfly"
-msgstr "Grande Marechal"
+msgstr "Dragão"
 
 #. [unit_type]: id=Grand Dragonfly, race=monster
 #: data/core/units/monsters/Dragonfly_Grand.cfg:28
@@ -9031,12 +9019,15 @@ msgid ""
 "and cries, a reliable sign that war is imminent."
 msgstr ""
 
+#
+# File: data/core/units/undead/Necro_Dark_Sorcerer.cfg, line: 4
+# File: data/core/units/undead/Necro_Dark_Sorcerer.cfg, line: 4
 #. [unit_type]: id=Dark Omen, race=raven
 #: data/core/units/monsters/Raven_Omen.cfg:4
 #, fuzzy
-#| msgid "Dark Red"
+#| msgid "Dark Horse"
 msgid "Dark Omen"
-msgstr "Vermelho Escuro"
+msgstr "Cavalo Preto"
 
 #. [unit_type]: id=Dark Omen, race=raven
 #: data/core/units/monsters/Raven_Omen.cfg:18
@@ -9222,10 +9213,8 @@ msgstr ""
 
 #. [unit_type]: id=Shadow Jumping Spider, race=monster
 #: data/core/units/monsters/Shadow_Jumping_Spider.cfg:4
-#, fuzzy
-#| msgid "Shadows in the Dark"
 msgid "Shadow Jumping Spider"
-msgstr "Sombras na Escuridão"
+msgstr ""
 
 #. [unit_type]: id=Shadow Jumping Spider, race=monster
 #: data/core/units/monsters/Shadow_Jumping_Spider.cfg:29
@@ -10523,12 +10512,15 @@ msgstr ""
 "eles são inegavelmente poderosos nas estranhas magias que a sua raça possui, "
 "e são serem com os quais deve-se ter cautela caso sejam avistados."
 
+#
+# File: data/core/units/saurians/Soothsayer.cfg, line: 4
+# File: data/core/units/saurians/Soothsayer.cfg, line: 4
 #. [unit_type]: id=Saurian Seer, race=lizard
 #: data/core/units/saurians/Seer.cfg:4
 #, fuzzy
-#| msgid "Saurian Slavers"
+#| msgid "Saurian Soothsayer"
 msgid "Saurian Seer"
-msgstr "Lagartos Escravizadores"
+msgstr "Lagarto Vidente"
 
 #
 # File: data/core/units/saurians/Soothsayer.cfg, line: 19
@@ -11290,61 +11282,23 @@ msgstr ""
 "importar com o seu propósito ou alvo. Eles são motivados apenas pela malícia "
 "nascida da angústia de sua existência vazia e torturante."
 
+#
+# File: data/core/units/goblins/Knight.cfg, line: 4
+# File: data/core/units/goblins/Knight.cfg, line: 4
 #. [unit_type]: id=Bone Knight, race=undead
 #: data/core/units/undead/Skele_Bone_Knight.cfg:5
 #, fuzzy
+#| msgid "Goblin Knight"
 msgid "Bone Knight"
-msgstr ""
-"#-#-#-#-#  32.po (pt_BR)  #-#-#-#-#\n"
-"Cavaleiro Esquelético\n"
-"#-#-#-#-#  35.po (0.1)  #-#-#-#-#\n"
-"Cavaleiro Esqueleto\n"
-"#-#-#-#-#  5.po (pt_BR)  #-#-#-#-#\n"
-"Cavaleiro Esquelético\n"
-"#-#-#-#-#  59.po (pt_BR)  #-#-#-#-#\n"
-"Cavaleiro Esquelético\n"
-"#-#-#-#-#  62.po (0.1)  #-#-#-#-#\n"
-"Cavaleiro Esqueleto\n"
-"#-#-#-#-#  8.po (0.1)  #-#-#-#-#\n"
-"Cavaleiro Esqueleto"
+msgstr "Góblin Cavaleiro"
 
 #. [unit_type]: id=Bone Knight, race=undead
 #: data/core/units/undead/Skele_Bone_Knight.cfg:60
-#, fuzzy
 msgid ""
 "Once great warriors across the plains, these mounted riders atop their "
 "skeletal horses were raised from the ground by unholy magic to spread fear "
 "and destruction."
 msgstr ""
-"#-#-#-#-#  32.po (pt_BR)  #-#-#-#-#\n"
-"Outrora grandes guerreiros que percorriam as planíces, estes cavaleiros "
-"montados em seus cavalos esqueléticos foram reanimados por meio de magia "
-"profana para espalhar medo e destruição.\n"
-"#-#-#-#-#  35.po (0.1)  #-#-#-#-#\n"
-"Grandes guerreiros das planícies de tempos passados, estes soldados montados "
-"sobre seus cavalos esqueléticos foram animados por magia negra para espalhar "
-"medo e destruição.\n"
-"#-#-#-#-#  5.po (pt_BR)  #-#-#-#-#\n"
-"Outrora grandes guerreiros que percorriam as planíces, estes cavaleiros "
-"montados em seus cavalos esqueléticos foram reanimados por meio de magia "
-"profana para espalhar medo e destruição.\n"
-"#-#-#-#-#  59.po (pt_BR)  #-#-#-#-#\n"
-"Outrora grandes guerreiros que percorriam as planíces, estes cavaleiros "
-"montados em seus cavalos esqueléticos foram reanimados por meio de magia "
-"profana para espalhar medo e destruição.\n"
-"#-#-#-#-#  62.po (0.1)  #-#-#-#-#\n"
-"Grandes guerreiros das planícies de tempos passados, estes soldados montados "
-"sobre seus cavalos esqueléticos foram animados por magia negra para espalhar "
-"medo e destruição.\n"
-"#-#-#-#-#  8.po (0.1)  #-#-#-#-#\n"
-"Grandes guerreiros das planícies de tempos passados, estes soldados montados "
-"sobre seus cavalos esqueléticos foram animados por magia negra para espalhar "
-"medo e destruição."
-
-#. [attack]: type=impact
-#: data/core/units/undead/Skele_Bone_Knight.cfg:77
-msgid "trample"
-msgstr "atropelar"
 
 #
 # File: data/core/units/undead/Skele_Bone_Shooter.cfg, line: 4
@@ -11579,36 +11533,11 @@ msgstr "Esqueleto Montado"
 
 #. [unit_type]: id=Skeleton Rider, race=undead
 #: data/core/units/undead/Skeleton_Rider.cfg:79
-#, fuzzy
 msgid ""
 "Once great warriors thundering across the plains, these mounted riders atop "
 "their skeletal horses were raised from the grave by unholy magic to spread "
 "fear and destruction."
 msgstr ""
-"#-#-#-#-#  32.po (pt_BR)  #-#-#-#-#\n"
-"Outrora grandes guerreiros que percorriam incessantemente as planíces, estes "
-"cavaleiros montados em seus cavalos esqueléticos foram reanimados por meio "
-"de magia profana para espalhar medo e destruição.\n"
-"#-#-#-#-#  35.po (0.1)  #-#-#-#-#\n"
-"Grandes guerreiros das planícies de tempos passados, estes soldados montados "
-"sobre seus cavalos esqueléticos foram animados de seus túmulos por magia "
-"negra para espalhar medo e destruição.\n"
-"#-#-#-#-#  5.po (pt_BR)  #-#-#-#-#\n"
-"Outrora grandes guerreiros que percorriam incessantemente as planíces, estes "
-"cavaleiros montados em seus cavalos esqueléticos foram reanimados por meio "
-"de magia profana para espalhar medo e destruição.\n"
-"#-#-#-#-#  59.po (pt_BR)  #-#-#-#-#\n"
-"Outrora grandes guerreiros que percorriam incessantemente as planíces, estes "
-"cavaleiros montados em seus cavalos esqueléticos foram reanimados por meio "
-"de magia profana para espalhar medo e destruição.\n"
-"#-#-#-#-#  62.po (0.1)  #-#-#-#-#\n"
-"Grandes guerreiros das planícies de tempos passados, estes soldados montados "
-"sobre seus cavalos esqueléticos foram animados de seus túmulos por magia "
-"negra para espalhar medo e destruição.\n"
-"#-#-#-#-#  8.po (0.1)  #-#-#-#-#\n"
-"Grandes guerreiros das planícies de tempos passados, estes soldados montados "
-"sobre seus cavalos esqueléticos foram animados de seus túmulos por magia "
-"negra para espalhar medo e destruição."
 
 #
 # File: data/core/units/undead/Spirit_Ghost.cfg, line: 4
@@ -11907,15 +11836,6 @@ msgstr ""
 "Estes woses são capazes de comandar plantas das florestas, como cipós e "
 "trepadeiras, para prender seus inimigos."
 
-#
-# File: data/core/units/monsters/Giant_Rat.cfg, line: 4
-# File: data/core/units/monsters/Giant_Rat.cfg, line: 4
-#~ msgid "Giant Stoat"
-#~ msgstr "Arminho Gigante"
-
-#~ msgid "Giant Stoats are obsolete, use Frost Stoat."
-#~ msgstr "Arminhos Gigantes são obsoletos, use Arminho Gélido."
-
 #~ msgid ""
 #~ "Far from human cities in the great desert mountains, the large birds of "
 #~ "prey known as Rocs can sometimes be found rapidly scouring the sands on "
@@ -11941,33 +11861,13 @@ msgstr ""
 #~ "dificuldades, geralmente em troca de uma buginganda brilhante."
 
 #
-# File: data/core/units/humans/Mage_Silver.cfg, line: 24
-# File: data/core/units/humans/Mage_Silver.cfg, line: 24
-#~ msgid ""
-#~ "SPECIAL_NOTE^ Silver Magi are well-attuned to their magical natures and "
-#~ "are highly resistant to non-physical damage."
-#~ msgstr ""
-#~ "Magos Prateados vivem em harmonia com a sua natureza mágica e, por isto, "
-#~ "são altamente resistentes a dano não-físico."
+# File: data/core/units/monsters/Giant_Rat.cfg, line: 4
+# File: data/core/units/monsters/Giant_Rat.cfg, line: 4
+#~ msgid "Giant Stoat"
+#~ msgstr "Arminho Gigante"
 
-#, fuzzy
-#~| msgid ""
-#~| "Bay horses are defined more by their coloration than their size or "
-#~| "temperament, and can be found anywhere from the battlefield to the farm "
-#~| "to the wild plains and woodlands. Though an unencumbered horse will tend "
-#~| "to flee if possible, they will fight back with a powerful kick when "
-#~| "cornered."
-#~ msgid ""
-#~ "Bay horses are defined more by their coloration than their size or "
-#~ "temperment, and can be found anywhere from the battlefield to the farm to "
-#~ "the wild plains and woodlands. Though an unencumbered horse will tend to "
-#~ "flee if possible, they will fight back with a powerful kick when cornered."
-#~ msgstr ""
-#~ "Cavalos Baios são definidos mais pela sua coloração do que pelo seu "
-#~ "tamanho ou temperamento, e podem ser encontrados em qualquer lugar, desde "
-#~ "o campo de batalha até às fazendas, terras selvagens e bosques. Cavalos "
-#~ "livres tendem a fugir se possível, já cavalos acuados tendem a atacar com "
-#~ "um poderoso coice."
+#~ msgid "Giant Stoats are obsolete, use Frost Stoat."
+#~ msgstr "Arminhos Gigantes são obsoletos, use Arminho Gélido."
 
 #~ msgid "Bite"
 #~ msgstr "Mordida"
@@ -13083,6 +12983,35 @@ msgstr ""
 #~ "Pé-Grandes são humanóides gigantes que vivem nas montanhas. Poucos "
 #~ "sobreviveram a um encontro com um desses e muitos duvidam de sua "
 #~ "existência."
+
+#
+# File: data/core/units/humans/Mage_Silver.cfg, line: 24
+# File: data/core/units/humans/Mage_Silver.cfg, line: 24
+#~ msgid ""
+#~ "SPECIAL_NOTE^ Silver Magi are well-attuned to their magical natures and "
+#~ "are highly resistant to non-physical damage."
+#~ msgstr ""
+#~ "Magos Prateados vivem em harmonia com a sua natureza mágica e, por isto, "
+#~ "são altamente resistentes a dano não-físico."
+
+#, fuzzy
+#~| msgid ""
+#~| "Bay horses are defined more by their coloration than their size or "
+#~| "temperament, and can be found anywhere from the battlefield to the farm "
+#~| "to the wild plains and woodlands. Though an unencumbered horse will tend "
+#~| "to flee if possible, they will fight back with a powerful kick when "
+#~| "cornered."
+#~ msgid ""
+#~ "Bay horses are defined more by their coloration than their size or "
+#~ "temperment, and can be found anywhere from the battlefield to the farm to "
+#~ "the wild plains and woodlands. Though an unencumbered horse will tend to "
+#~ "flee if possible, they will fight back with a powerful kick when cornered."
+#~ msgstr ""
+#~ "Cavalos Baios são definidos mais pela sua coloração do que pelo seu "
+#~ "tamanho ou temperamento, e podem ser encontrados em qualquer lugar, desde "
+#~ "o campo de batalha até às fazendas, terras selvagens e bosques. Cavalos "
+#~ "livres tendem a fugir se possível, já cavalos acuados tendem a atacar com "
+#~ "um poderoso coice."
 
 #
 # File: data/core/units/saurians/Skirmisher.cfg, line: 4
