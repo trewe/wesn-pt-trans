@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Battle for Wesnoth 1.12 (wesnoth)\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2024-10-28 12:38-0500\n"
+"POT-Creation-Date: 2025-12-21 21:26-0600\n"
 "PO-Revision-Date: 2024-05-26 10:46+0100\n"
 "Last-Translator: trewe <sjrs456@yandex.com>\n"
 "Language-Team: wesn-pt-trans <wesn-pt-trans-users@lists.sourceforge.net>\n"
@@ -59,51 +59,67 @@ msgstr "Sem"
 msgid "save_compression_desc^Large plain text files"
 msgstr "Arquivos enormes de texto simples"
 
-#
 #. [advanced_preference]: type=boolean
 #: data/advanced_preferences.cfg:26
+#, fuzzy
+#| msgid "The description of the add-on to display in the add-ons manager."
+msgid "Whether to show icons in the add-ons list on the add-ons manager"
+msgstr "A descrição do extra a mostrar no servidor."
+
+#. [advanced_preference]: type=boolean
+#: data/advanced_preferences.cfg:27
+#, fuzzy
+#| msgid "The description of the add-on to display in the add-ons manager."
+msgid ""
+"Disabling saves bandwidth by not sending icons for the add-ons list in the "
+"add-ons manager"
+msgstr "A descrição do extra a mostrar no servidor."
+
+#
+#. [advanced_preference]: type=boolean
+#: data/advanced_preferences.cfg:34
 msgid "Confirm deleting saves"
 msgstr "Confirmar eliminação da partida guardada"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:33
+#: data/advanced_preferences.cfg:41
 msgid "Mouse scrolling"
 msgstr "Rolar com o rato"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:40
+#: data/advanced_preferences.cfg:48
 msgid "Middle-click scrolling"
 msgstr "Rolar com o botão central do rato"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:47
+#: data/advanced_preferences.cfg:55
 msgid "Keep scrolling when mouse leaves window"
 msgstr "Manter o deslocamento quando o rato deixa a janela"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:54
+#: data/advanced_preferences.cfg:62
 msgid "Show combat"
 msgstr "Mostrar Combate"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:61
+#: data/advanced_preferences.cfg:69
 msgid "Auto-open whisper windows in lobby"
 msgstr "Abrir automaticamente sussurros na Sala"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:68
+#: data/advanced_preferences.cfg:76
 msgid "Follow unit actions"
 msgstr "Acompanhar Ações das Unidades"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:69
+#: data/advanced_preferences.cfg:77
 msgid ""
 "Choose whether the map view should scroll to a unit when an action or move "
 "is animated"
@@ -113,13 +129,13 @@ msgstr ""
 
 #
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:76
+#: data/advanced_preferences.cfg:84
 msgid "Chat message aging"
 msgstr "Envelhecimento das mensagens instantâneas"
 
 #
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:77
+#: data/advanced_preferences.cfg:85
 msgid ""
 "Number of minutes to wait before clearing an ingame chat message. Set to 0 "
 "to disable."
@@ -129,24 +145,24 @@ msgstr ""
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:87
+#: data/advanced_preferences.cfg:95
 msgid "Use 12-hour clock format"
 msgstr "Usa relógio de formato de 12 horas"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:94
+#: data/advanced_preferences.cfg:102
 msgid "Confirm loading saves from a different version"
 msgstr "Confirmar ao carregar uma partida gravada de uma versão diferente"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:101
+#: data/advanced_preferences.cfg:109
 msgid "Show all unit types in help"
 msgstr "Descobre todas as unidades na ajuda"
 
 #
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:102
+#: data/advanced_preferences.cfg:110
 #, fuzzy
 #| msgid ""
 #| "Show all unit types in the help (requires restart). This does not alter "
@@ -159,43 +175,43 @@ msgstr ""
 "unidades encontrados"
 
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:109
+#: data/advanced_preferences.cfg:117
 msgid "Editor recent files limit"
 msgstr "Limite de ficheiros recentes no editor"
 
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:110
+#: data/advanced_preferences.cfg:118
 msgid ""
 "The maximum number of items to display on the Recent Files menu in the editor"
 msgstr "O máximo de ficheiros recentes a mostrar no editor de mapas"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:120
+#: data/advanced_preferences.cfg:128
 msgid "Show color cursors"
 msgstr "Mostrar cursor colorido"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:121
+#: data/advanced_preferences.cfg:129
 msgid "Use colored mouse cursors"
 msgstr "Mostrar cursor colorido"
 
 #. [advanced_preference]: type=custom
-#: data/advanced_preferences.cfg:128
+#: data/advanced_preferences.cfg:136
 msgid "Customize orb colors"
 msgstr "Personalizar a cor das esferas"
 
 #. [advanced_preference]: type=custom
-#: data/advanced_preferences.cfg:134
+#: data/advanced_preferences.cfg:142
 msgid "Logging"
 msgstr "Nível do Log"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:140
+#: data/advanced_preferences.cfg:148
 msgid "Allow damage calculation with Monte Carlo simulation"
 msgstr "Permite cálculo de dano pelo método de Monte Carlo"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:141
+#: data/advanced_preferences.cfg:149
 msgid ""
 "Allow the damage calculation window to simulate fights instead of using "
 "exact probability calculations"
@@ -204,12 +220,12 @@ msgstr ""
 "cálculos de probabilidade"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:148
+#: data/advanced_preferences.cfg:156
 msgid "Show deprecation messages in-game"
 msgstr "Mostra mensagens de depreciação"
 
 #. [advanced_preference]: type=boolean
-#: data/advanced_preferences.cfg:149
+#: data/advanced_preferences.cfg:157
 #, fuzzy
 msgid ""
 "Show warnings about deprecated API in the in-game chat area. These messages "
@@ -218,14 +234,14 @@ msgid ""
 msgstr "Mostra avisos sobre "
 
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:156
+#: data/advanced_preferences.cfg:164
 #, fuzzy
 #| msgid "Biased RNG (experimental)"
 msgid "Font size scale (experimental)"
 msgstr "RNG tendenciosa (experimental)"
 
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:157
+#: data/advanced_preferences.cfg:165
 msgid ""
 "Scales all text up or down from the standard size for your resolution. "
 "Warning: Scaling text up may cause issues in the in-game sidebar."
@@ -233,14 +249,14 @@ msgstr ""
 
 #
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:167
+#: data/advanced_preferences.cfg:175
 #, fuzzy
 #| msgid "Connection timed out"
 msgid "Server disconnect timeout"
 msgstr "Conectividade expirada"
 
 #. [advanced_preference]: type=int
-#: data/advanced_preferences.cfg:168
+#: data/advanced_preferences.cfg:176
 msgid ""
 "The amount of time in seconds before a disconnect is detected. If currently "
 "logged into the multiplayer server, you must log out and then log back in "
@@ -462,296 +478,296 @@ msgstr "Tradução Catalã"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:159
+#: data/core/about_i18n.cfg:163
 msgid "Chinese Translation"
 msgstr "Tradução Chinesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:257
+#: data/core/about_i18n.cfg:261
 msgid "Chinese (Taiwan) Translation"
 msgstr "Tradução Chinesa (Taiwan)"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:270
+#: data/core/about_i18n.cfg:274
 msgid "Croatian Translation"
 msgstr "Tradução Croata"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:280
+#: data/core/about_i18n.cfg:284
 msgid "Czech Translation"
 msgstr "Tradução Checa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:352
+#: data/core/about_i18n.cfg:356
 msgid "Danish Translation"
 msgstr "Tradução Dinamarquesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:383
+#: data/core/about_i18n.cfg:387
 msgid "Dutch Translation"
 msgstr "Tradução Holandesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:454
+#: data/core/about_i18n.cfg:461
 msgid "English (GB) Translation"
 msgstr "Tradução para o Inglês Britânico"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:479
+#: data/core/about_i18n.cfg:486
 msgid "English (Shaw) Translation"
 msgstr "Tradução para o Inglês (Shaw)"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:497
+#: data/core/about_i18n.cfg:504
 msgid "Esperanto Translation"
 msgstr "Tradução para o Esperanto"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:516
+#: data/core/about_i18n.cfg:533
 msgid "Estonian Translation"
 msgstr "Tradução Estónia"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:526
+#: data/core/about_i18n.cfg:543
 msgid "Filipino Translation"
 msgstr "Tradução Filipina"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:536
+#: data/core/about_i18n.cfg:553
 msgid "Finnish Translation"
 msgstr "Tradução Finlandesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:601
+#: data/core/about_i18n.cfg:618
 msgid "French Translation"
 msgstr "Tradução Francesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:769
+#: data/core/about_i18n.cfg:786
 msgid "Friulian Translation"
 msgstr "Tradução Friuli"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:773
+#: data/core/about_i18n.cfg:790
 msgid "Galician Translation"
 msgstr "Tradução Galega"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:809
+#: data/core/about_i18n.cfg:826
 msgid "German Translation"
 msgstr "Tradução Alemã"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:934
+#: data/core/about_i18n.cfg:951
 msgid "Greek Translation"
 msgstr "Tradução Grega"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:977
+#: data/core/about_i18n.cfg:994
 msgid "Hebrew Translation"
 msgstr "Tradução Hebreu"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:990
+#: data/core/about_i18n.cfg:1007
 msgid "Hungarian Translation"
 msgstr "Tradução Húngara"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1051
+#: data/core/about_i18n.cfg:1068
 msgid "Icelandic Translation"
 msgstr "Tradução Islandesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1061
+#: data/core/about_i18n.cfg:1078
 msgid "Indonesian Translation"
 msgstr "Tradução Indonésia"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1089
+#: data/core/about_i18n.cfg:1106
 msgid "Irish Translation"
 msgstr "Tradução Irlandesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1096
+#: data/core/about_i18n.cfg:1113
 msgid "Italian Translation"
 msgstr "Tradução Italiana"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1143
+#: data/core/about_i18n.cfg:1160
 msgid "Japanese Translation"
 msgstr "Tradução Japonesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1236
+#: data/core/about_i18n.cfg:1253
 msgid "Korean Translation"
 msgstr "Tradução Coreana"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1244
+#: data/core/about_i18n.cfg:1261
 msgid "Latin Translation"
 msgstr "Tradução Latim"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1270
+#: data/core/about_i18n.cfg:1287
 msgid "Latvian Translation"
 msgstr "Tradução Letã"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1285
+#: data/core/about_i18n.cfg:1302
 msgid "Lithuanian Translation"
 msgstr "Tradução Lituana"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1310
+#: data/core/about_i18n.cfg:1327
 msgid "Macedonian Translation"
 msgstr "Tradução Macedónica"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1317
+#: data/core/about_i18n.cfg:1334
 msgid "Marathi Translation"
 msgstr "Tradução Marathi"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1326
+#: data/core/about_i18n.cfg:1343
 msgid "Norwegian Translation"
 msgstr "Tradução Norueguesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1355
+#: data/core/about_i18n.cfg:1372
 msgid "Old English Translation"
 msgstr "Tradução Inglesa (Antigo)"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1373
+#: data/core/about_i18n.cfg:1390
 msgid "Polish Translation"
 msgstr "Tradução Polaca"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1448
+#: data/core/about_i18n.cfg:1465
 msgid "Portuguese Translation"
 msgstr "Tradução Portuguesa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1462
+#: data/core/about_i18n.cfg:1479
 msgid "Portuguese (Brazil) Translation"
 msgstr "Tradução Portuguesa (Brasil)"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1520
+#: data/core/about_i18n.cfg:1537
 msgid "Romanian Translation"
 msgstr "Tradução Romena"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1528
+#: data/core/about_i18n.cfg:1545
 msgid "Russian Translation"
 msgstr "Tradução Russa"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1635
+#: data/core/about_i18n.cfg:1652
 msgid "Scottish Gaelic Translation"
 msgstr "Tradução para o Escocês Galaico"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1644
+#: data/core/about_i18n.cfg:1661
 msgid "Serbian Translation"
 msgstr "Tradução Sérvia"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1663
+#: data/core/about_i18n.cfg:1680
 msgid "Slovak Translation"
 msgstr "Tradução Eslovaca"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1698
+#: data/core/about_i18n.cfg:1715
 msgid "Slovenian Translation"
 msgstr "Tradução Eslovena"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1714
+#: data/core/about_i18n.cfg:1731
 msgid "Spanish Translation"
 msgstr "Tradução Espanhola"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1804
+#: data/core/about_i18n.cfg:1825
 msgid "Swedish Translation"
 msgstr "Tradução Sueca"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1849
+#: data/core/about_i18n.cfg:1870
 msgid "Turkish Translation"
 msgstr "Tradução Turca"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1874
+#: data/core/about_i18n.cfg:1895
 msgid "Ukrainian Translation"
 msgstr "Tradução Ucraniana"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1908
+#: data/core/about_i18n.cfg:1929
 msgid "Valencian (southern Catalan) Translation"
 msgstr "Tradução Valenciana (Catalão do sul)"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1921
+#: data/core/about_i18n.cfg:1942
 msgid "Vietnamese Translation"
 msgstr "Tradução Vietnamita"
 
 #
 #. [about]
-#: data/core/about_i18n.cfg:1940
+#: data/core/about_i18n.cfg:1961
 msgid "Welsh Translation"
 msgstr "Tradução Galesa"
 
 #
 #. [about]
 #. Real Acadèmia de Cultura Valenciana
-#: data/core/about_i18n.cfg:1949
+#: data/core/about_i18n.cfg:1970
 msgid "RACV’s Translation"
 msgstr "Tradução da Real Academia Catalã de Valência"
 
@@ -5350,17 +5366,17 @@ msgid "Connecting to $server_address|..."
 msgstr "A ligar ao servidor $server_address|..."
 
 #
-#: src/addon/client.cpp:128
+#: src/addon/client.cpp:132
 msgid "Downloading list of add-ons..."
 msgstr "Requisitando a lista de extras..."
 
 #
-#: src/addon/client.cpp:149
+#: src/addon/client.cpp:153
 msgid "Requesting distribution terms..."
 msgstr "A solicitar termos de distribuição..."
 
 #
-#: src/addon/client.cpp:173
+#: src/addon/client.cpp:177
 msgid ""
 "The add-on <i>$addon_title</i> has an invalid id '$addon_id' and cannot be "
 "published."
@@ -5369,7 +5385,7 @@ msgstr ""
 "pode ser publicado."
 
 #
-#: src/addon/client.cpp:185
+#: src/addon/client.cpp:189
 msgid ""
 "The add-on <i>$addon_title</i> has a file or directory containing invalid "
 "characters and cannot be published."
@@ -5377,7 +5393,7 @@ msgstr ""
 "O extra <i>$addon_title</i> tem um ficheiro ou nome de pasta inválido e não "
 "pode ser publicado."
 
-#: src/addon/client.cpp:193
+#: src/addon/client.cpp:197
 msgid ""
 "The add-on <i>$addon_title</i> has an invalid file or directory name and "
 "cannot be published. File or directory names may not contain '..' or end "
@@ -5395,7 +5411,7 @@ msgstr ""
 "&quot; * / : &lt; &gt; ? \\ | ~"
 
 #
-#: src/addon/client.cpp:204
+#: src/addon/client.cpp:208
 msgid ""
 "The add-on <i>$addon_title</i> contains files or directories with case "
 "conflicts. File or directory names may not be differently-cased versions of "
@@ -5405,53 +5421,53 @@ msgstr ""
 "de capitalização. O nome dos ficheiros e pastas não podem ser os mesmos "
 "ignorando regras de capitalização."
 
-#: src/addon/client.cpp:211
+#: src/addon/client.cpp:215
 msgid ""
 "The connection to the remote server is not secure. The add-on "
 "<i>$addon_title</i> cannot be uploaded."
 msgstr ""
 
 #
-#: src/addon/client.cpp:224
+#: src/addon/client.cpp:228
 #, fuzzy
 #| msgid "Requesting distribution terms..."
 msgid "Requesting file index..."
 msgstr "A solicitar termos de distribuição..."
 
 #
-#: src/addon/client.cpp:240
+#: src/addon/client.cpp:244
 #, fuzzy
 #| msgid "Sending add-on <i>$addon_title</i>..."
 msgid "Sending an update pack for the add-on <i>$addon_title</i>..."
 msgstr "A enviar o extra: <i>$addon_title|</i>..."
 
 #
-#: src/addon/client.cpp:261
+#: src/addon/client.cpp:265
 msgid "Sending add-on <i>$addon_title</i>..."
 msgstr "A enviar o extra: <i>$addon_title|</i>..."
 
 #
-#: src/addon/client.cpp:310
+#: src/addon/client.cpp:314
 msgid "Removing add-on <i>$addon_title</i> from the server..."
 msgstr "A remover o extra: <i>$addon_title|</i> do servidor..."
 
 #
-#: src/addon/client.cpp:338
+#: src/addon/client.cpp:342
 msgid "Downloading add-on <i>$addon_title</i>..."
 msgstr "A carregar o extra: <i>$addon_title|</i>..."
 
 #
-#: src/addon/client.cpp:350 src/addon/client.cpp:711
+#: src/addon/client.cpp:354 src/addon/client.cpp:715
 msgid "Add-ons Manager"
 msgstr "Gestor de extras"
 
 #
-#: src/addon/client.cpp:350
+#: src/addon/client.cpp:354
 msgid "Installing add-on <i>$addon_title</i>..."
 msgstr "A instalar o extra: <i>$addon_title</i>…"
 
 #
-#: src/addon/client.cpp:362 src/addon/client.cpp:388
+#: src/addon/client.cpp:366 src/addon/client.cpp:392
 msgid ""
 "The add-on <i>$addon_title</i> has an invalid file or directory name and "
 "cannot be installed."
@@ -5460,7 +5476,7 @@ msgstr ""
 "pode ser instalado."
 
 #
-#: src/addon/client.cpp:367 src/addon/client.cpp:393
+#: src/addon/client.cpp:371 src/addon/client.cpp:397
 msgid ""
 "The add-on <i>$addon_title</i> has file or directory names with case "
 "conflicts. This may cause problems."
@@ -5469,12 +5485,12 @@ msgstr ""
 "de capitalização. Isto pode causar problemas."
 
 #
-#: src/addon/client.cpp:426 src/gui/dialogs/multiplayer/match_history.cpp:250
+#: src/addon/client.cpp:430 src/gui/dialogs/multiplayer/match_history.cpp:250
 msgid "The server responded with an error:"
 msgstr "O servidor respondeu com um erro:"
 
 #
-#: src/addon/client.cpp:481
+#: src/addon/client.cpp:485
 msgid ""
 "The selected add-on has the following dependency, which is not currently "
 "installed or available from the server. Do you wish to continue?"
@@ -5489,12 +5505,12 @@ msgstr[1] ""
 "foram publicados ou disponíveis do servidor. Queres mesmo assim instalar-os?"
 
 #
-#: src/addon/client.cpp:490
+#: src/addon/client.cpp:494
 msgid "Broken Dependencies"
 msgstr "Dependências que não funcionam"
 
 #
-#: src/addon/client.cpp:530
+#: src/addon/client.cpp:534
 msgid ""
 "The following dependency could not be installed. Do you still wish to "
 "continue?"
@@ -5508,12 +5524,12 @@ msgstr[1] ""
 "continuar?"
 
 #
-#: src/addon/client.cpp:534
+#: src/addon/client.cpp:538
 msgid "Dependencies Installation Failed"
 msgstr "Instalação falhada das dependências"
 
 #
-#: src/addon/client.cpp:557
+#: src/addon/client.cpp:561
 msgid ""
 "The add-on '$addon|' is already installed and contains additional "
 "information that will be permanently lost if you continue:"
@@ -5522,92 +5538,92 @@ msgstr ""
 "ser perdidos para sempre se continuares:"
 
 #
-#: src/addon/client.cpp:561
+#: src/addon/client.cpp:565
 msgid "Publishing information file (.pbl)"
 msgstr "Ficheiro de informações de publicação (.pbl)"
 
 #
-#: src/addon/client.cpp:565
+#: src/addon/client.cpp:569
 msgid "Version control system (VCS) information"
 msgstr "Informação do sistema de controlo de versão (VCS)"
 
 #
-#: src/addon/client.cpp:569
+#: src/addon/client.cpp:573
 msgid "Do you really wish to continue?"
 msgstr "Queres mesmo continuar?"
 
 #
-#: src/addon/client.cpp:571 src/addon/manager_ui.cpp:171
+#: src/addon/client.cpp:575 src/addon/manager_ui.cpp:171
 #: src/game_initialization/multiplayer.cpp:362
 msgid "Confirm"
 msgstr "Confirmar"
 
 #
-#: src/addon/info.cpp:253
+#: src/addon/info.cpp:251
 msgid "addon_type^Campaign"
 msgstr "Campanha"
 
 #
-#: src/addon/info.cpp:255
+#: src/addon/info.cpp:253
 msgid "addon_type^Scenario"
 msgstr "Cenário"
 
-#: src/addon/info.cpp:257
+#: src/addon/info.cpp:255
 msgid "addon_type^SP/MP Campaign"
 msgstr "Campanha Híbrida"
 
 #
-#: src/addon/info.cpp:259
+#: src/addon/info.cpp:257
 msgid "addon_type^MP era"
 msgstr "Era"
 
 #
-#: src/addon/info.cpp:261
+#: src/addon/info.cpp:259
 msgid "addon_type^MP faction"
 msgstr "Fação"
 
 #
-#: src/addon/info.cpp:263
+#: src/addon/info.cpp:261
 msgid "addon_type^MP map-pack"
 msgstr "Pacote de mapas"
 
 #
-#: src/addon/info.cpp:265
+#: src/addon/info.cpp:263
 msgid "addon_type^MP scenario"
 msgstr "Cenário em rede"
 
 #
-#: src/addon/info.cpp:267
+#: src/addon/info.cpp:265
 msgid "addon_type^MP campaign"
 msgstr "Campanha em rede"
 
 #
-#: src/addon/info.cpp:269
+#: src/addon/info.cpp:267
 msgid "addon_type^Modification"
 msgstr "Modificações"
 
 #
-#: src/addon/info.cpp:271
+#: src/addon/info.cpp:269
 msgid "addon_type^Core"
 msgstr "Módulo"
 
 #
-#: src/addon/info.cpp:273
+#: src/addon/info.cpp:271
 msgid "addon_type^Resources"
 msgstr "Recursos"
 
 #
-#: src/addon/info.cpp:275
+#: src/addon/info.cpp:273
 msgid "addon_type^Other"
 msgstr "Outro"
 
 #
-#: src/addon/info.cpp:277
+#: src/addon/info.cpp:275
 msgid "addon_type^(unknown)"
 msgstr "(desconhecido)"
 
 #
-#: src/addon/info.cpp:314
+#: src/addon/info.cpp:312
 msgid "unit_byte^B"
 msgstr "B"
 
@@ -6421,7 +6437,7 @@ msgstr[0] "Por favor reporta isto ao responsável por este extra."
 msgstr[1] "Por favor reporta isto aos responsáveis por estes extras."
 
 #
-#: src/game_events/pump.cpp:392 src/game_launcher.cpp:960
+#: src/game_events/pump.cpp:392 src/game_launcher.cpp:971
 msgid "Error: "
 msgstr "Erro: "
 
@@ -6808,22 +6824,22 @@ msgid "Password hashing failed."
 msgstr "A nossa missão falhou."
 
 #
-#: src/game_initialization/playcampaign.cpp:157 src/game_launcher.cpp:913
+#: src/game_initialization/playcampaign.cpp:157 src/game_launcher.cpp:924
 msgid "The game could not be loaded: "
 msgstr "Não foi possível guardar a partida: "
 
 #
-#: src/game_initialization/playcampaign.cpp:163 src/game_launcher.cpp:915
+#: src/game_initialization/playcampaign.cpp:163 src/game_launcher.cpp:926
 msgid "Error while playing the game: "
 msgstr "Ocorreu um erro ao jogar a partida: "
 
 #
-#: src/game_initialization/playcampaign.cpp:166 src/game_launcher.cpp:952
+#: src/game_initialization/playcampaign.cpp:166 src/game_launcher.cpp:963
 msgid "The game map could not be loaded: "
 msgstr "O mapa da partida não pôde ser guardado: "
 
-#: src/game_initialization/playcampaign.cpp:169 src/game_launcher.cpp:917
-#: src/game_launcher.cpp:1038
+#: src/game_initialization/playcampaign.cpp:169 src/game_launcher.cpp:928
+#: src/game_launcher.cpp:1049
 msgid "Map generator error: "
 msgstr "Erro do gerador do mapa: "
 
@@ -6854,34 +6870,34 @@ msgid "No campaigns are available."
 msgstr "Nenhuma campanha está disponível."
 
 #
-#: src/game_launcher.cpp:719 src/game_launcher.cpp:738 src/replay.cpp:666
+#: src/game_launcher.cpp:730 src/game_launcher.cpp:749 src/replay.cpp:666
 msgid "The file you have tried to load is corrupt"
 msgstr "O ficheiro que tentaste carregar está corrompido"
 
 #
-#: src/game_launcher.cpp:721 src/game_launcher.cpp:740
+#: src/game_launcher.cpp:732 src/game_launcher.cpp:751
 #: src/hotkey/hotkey_handler_sp.cpp:334 src/savegame.cpp:153
 #: src/savegame.cpp:314
 msgid "The file you have tried to load is corrupt: '"
 msgstr "O ficheiro que tentaste carregar está corrompido:'"
 
 #
-#: src/game_launcher.cpp:730
+#: src/game_launcher.cpp:741
 msgid "File I/O Error while reading the game"
 msgstr "Erro de E/S ao ler o jogo"
 
 #
-#: src/game_launcher.cpp:732
+#: src/game_launcher.cpp:743
 msgid "File I/O Error while reading the game: '"
 msgstr "Erro de E/S ao ler o jogo: '"
 
 #
-#: src/game_launcher.cpp:911
+#: src/game_launcher.cpp:922
 msgid "Error while starting server: "
 msgstr "Erro ao iniciar o servidor: "
 
 #
-#: src/game_launcher.cpp:933
+#: src/game_launcher.cpp:944
 msgid "Connection failed: "
 msgstr "A conexão falhou: "
 
@@ -7044,7 +7060,7 @@ msgstr "Outros aspetos: "
 
 #
 #: src/gui/dialogs/unit_attack.cpp:190 src/gui/dialogs/unit_attack.cpp:203
-#: src/reports.cpp:822 src/reports.cpp:1086 src/reports.cpp:1098
+#: src/reports.cpp:823 src/reports.cpp:1087 src/reports.cpp:1099
 msgid "Weapon: "
 msgstr "Arma: "
 
@@ -7056,13 +7072,13 @@ msgstr "Tipo: "
 
 #
 #: src/gui/dialogs/unit_attack.cpp:192 src/gui/dialogs/unit_attack.cpp:205
-#: src/reports.cpp:823 src/reports.cpp:1087
+#: src/reports.cpp:824 src/reports.cpp:1088
 msgid "Damage: "
 msgstr "Dano: "
 
 #
 #: src/gui/dialogs/unit_attack.cpp:193 src/gui/dialogs/unit_attack.cpp:206
-#: src/reports.cpp:844
+#: src/reports.cpp:845
 msgid "Attacks: "
 msgstr "Ataques: "
 
@@ -7166,7 +7182,7 @@ msgid "race^Miscellaneous"
 msgstr "Diversos"
 
 #
-#: src/help/help_impl.cpp:1130 src/reports.cpp:393
+#: src/help/help_impl.cpp:1130 src/reports.cpp:394
 msgid "Alignment: "
 msgstr "Alinhamento: "
 
@@ -8348,7 +8364,7 @@ msgid "Do you really want to quit?"
 msgstr "Queres realmente sair?"
 
 #
-#: src/reports.cpp:174 src/savegame.cpp:429
+#: src/reports.cpp:175 src/savegame.cpp:429
 msgid "Name: "
 msgstr "Nome: "
 
@@ -8357,38 +8373,38 @@ msgid "Special Notes:"
 msgstr "Notas Especiais:"
 
 #
-#: src/reports.cpp:221
+#: src/reports.cpp:222
 msgid "Race: "
 msgstr "Raça: "
 
-#: src/reports.cpp:240
+#: src/reports.cpp:241
 msgid "Side: <b>$side_name</b> ($color_name)"
 msgstr "Equipa: <b>$side_name</b> ($color_name)"
 
 #
-#: src/reports.cpp:318
+#: src/reports.cpp:319
 msgid "Trait: "
 msgstr "Feição: "
 
 #
-#: src/reports.cpp:341
+#: src/reports.cpp:342
 msgid "invisible: "
 msgstr "invisível: "
 
 #
-#: src/reports.cpp:342
+#: src/reports.cpp:343
 msgid "This unit is invisible. It cannot be seen or attacked by enemy units."
 msgstr ""
 "Esta unidade está invisível. Não pode ser vista ou atacada por unidades "
 "inimigas."
 
 #
-#: src/reports.cpp:345
+#: src/reports.cpp:346
 msgid "slowed: "
 msgstr "atrasado: "
 
 #
-#: src/reports.cpp:346
+#: src/reports.cpp:347
 msgid ""
 "This unit has been slowed. It will only deal half its normal damage when "
 "attacking and its movement cost is doubled."
@@ -8397,12 +8413,12 @@ msgstr ""
 "atacar e o custo de movimento é o dobro."
 
 #
-#: src/reports.cpp:349
+#: src/reports.cpp:350
 msgid "poisoned: "
 msgstr "envenenado: "
 
 #
-#: src/reports.cpp:350
+#: src/reports.cpp:351
 msgid ""
 "This unit is poisoned. It will lose 8 HP every turn until it can seek a cure "
 "to the poison in a village or from a friendly unit with the ‘cures’ "
@@ -8419,235 +8435,235 @@ msgstr ""
 "vida (PV) a menos de 1."
 
 #
-#: src/reports.cpp:353
+#: src/reports.cpp:354
 msgid "petrified: "
 msgstr "petrificado: "
 
 #
-#: src/reports.cpp:354
+#: src/reports.cpp:355
 msgid "This unit has been petrified. It may not move or attack."
 msgstr "Esta unidade esta petrificada. Não se pode mover ou atacar."
 
 #
-#: src/reports.cpp:357
+#: src/reports.cpp:358
 msgid "unhealable: "
 msgstr "incurável: "
 
-#: src/reports.cpp:358
+#: src/reports.cpp:359
 msgid ""
 "This unit is unhealable. It cannot be healed by healers or villages and "
 "doesn’t benefit from resting."
 msgstr ""
 
 #
-#: src/reports.cpp:361
+#: src/reports.cpp:362
 msgid "invulnerable: "
 msgstr "invulnerável: "
 
 #
-#: src/reports.cpp:362
+#: src/reports.cpp:363
 msgid "This unit is invulnerable. It cannot be harmed by any attack."
 msgstr "Esta unidade é invulnerável. Não pode ser afetada por nenhum ataque."
 
 #
-#: src/reports.cpp:440
+#: src/reports.cpp:441
 msgid "Ability: "
 msgstr "Habilidade: "
 
 #
-#: src/reports.cpp:442 src/reports.cpp:997
+#: src/reports.cpp:443 src/reports.cpp:998
 msgid " (inactive)"
 msgstr " (inativo)"
 
 #
-#: src/reports.cpp:510
+#: src/reports.cpp:511
 msgid "Resistances: "
 msgstr "Resistências: "
 
 #
-#: src/reports.cpp:512
+#: src/reports.cpp:513
 msgid "(Att / Def)"
 msgstr "(Ata / Def)"
 
 #
-#: src/reports.cpp:543
+#: src/reports.cpp:544
 msgid "Experience Modifier: "
 msgstr "Modificador de Experiência: "
 
 #
-#: src/reports.cpp:593
+#: src/reports.cpp:594
 msgid "Terrain: "
 msgstr "Terreno: "
 
 #
-#: src/reports.cpp:610
+#: src/reports.cpp:611
 msgid "maximum^max."
 msgstr "máx."
 
 #
-#: src/reports.cpp:610
+#: src/reports.cpp:611
 msgid "minimum^min."
 msgstr "min."
 
 #
-#: src/reports.cpp:615
+#: src/reports.cpp:616
 msgid "Defense: "
 msgstr "Defesa: "
 
 #
-#: src/reports.cpp:650 src/reports.cpp:651
+#: src/reports.cpp:651 src/reports.cpp:652
 msgid "vision:"
 msgstr "visão:"
 
-#: src/reports.cpp:655 src/reports.cpp:656
+#: src/reports.cpp:656 src/reports.cpp:657
 msgid "jamming:"
 msgstr "interferência:"
 
 #
-#: src/reports.cpp:685
+#: src/reports.cpp:686
 msgid "Movement Costs:"
 msgstr "Custos de Movimentos:"
 
 #
-#: src/reports.cpp:827
+#: src/reports.cpp:828
 msgid "Base damage: "
 msgstr "Dano base: "
 
 #
-#: src/reports.cpp:829 src/reports.cpp:863 src/reports.cpp:873
+#: src/reports.cpp:830 src/reports.cpp:864 src/reports.cpp:874
 msgid "With specials: "
 msgstr "Com as especialidades: "
 
 #
-#: src/reports.cpp:832
+#: src/reports.cpp:833
 msgid "Time of day: "
 msgstr "Tempo do Dia: "
 
 #
-#: src/reports.cpp:836
+#: src/reports.cpp:837
 msgid "Leadership: "
 msgstr "Liderança: "
 
 #
-#: src/reports.cpp:840
+#: src/reports.cpp:841
 msgid "Slowed: "
 msgstr "Atrasado: "
 
 #
-#: src/reports.cpp:848
+#: src/reports.cpp:849
 msgid "Max swarm bonus: "
 msgstr "Bónus máximo do enxame: "
 
 #
-#: src/reports.cpp:849 src/reports.cpp:868
+#: src/reports.cpp:850 src/reports.cpp:869
 msgid "Swarm: "
 msgstr "Enxame: "
 
 #
-#: src/reports.cpp:850 src/reports.cpp:861 src/reports.cpp:872
+#: src/reports.cpp:851 src/reports.cpp:862 src/reports.cpp:873
 msgid "Base attacks: "
 msgstr "Ataques base: "
 
 #
-#: src/reports.cpp:856
+#: src/reports.cpp:857
 msgid "Specials: "
 msgstr "Especialidades: "
 
 #
 # where is that used?
 # 'swarm' refers to the weapon special...?
-#: src/reports.cpp:866
+#: src/reports.cpp:867
 msgid "Subject to swarm: "
 msgstr "Bónus máximo do enxame: "
 
 #
-#: src/reports.cpp:900
+#: src/reports.cpp:901
 msgid "Weapon range: "
 msgstr "Alcance da arma: "
 
 #
-#: src/reports.cpp:901
+#: src/reports.cpp:902
 msgid "Damage type: "
 msgstr "Tipo de dano: "
 
 #
-#: src/reports.cpp:902
+#: src/reports.cpp:903
 msgid "Damage versus: "
 msgstr "Dano contra: "
 
 #
-#: src/reports.cpp:964
+#: src/reports.cpp:965
 msgid "Accuracy:"
 msgstr "Precisão:"
 
 #
-#: src/reports.cpp:969
+#: src/reports.cpp:970
 msgid "Parry:"
 msgstr "Esquivar:"
 
 #
-#: src/reports.cpp:995
+#: src/reports.cpp:996
 msgid "Weapon special: "
 msgstr "Efeitos das Armas: "
 
-#: src/reports.cpp:1070
+#: src/reports.cpp:1071
 msgid "weapon^None"
 msgstr "Nenhuma"
 
 #
-#: src/reports.cpp:1099
+#: src/reports.cpp:1100
 msgid "Total damage"
 msgstr "Dano total"
 
-#: src/reports.cpp:1163
+#: src/reports.cpp:1164
 msgid "Attack"
 msgid_plural "Attacks"
 msgstr[0] "Ataque"
 msgstr[1] "Ataques"
 
 #. TRANSLATORS: This string is shown in the sidebar beneath the word "Attacks" when a unit can attack multiple times per turn
-#: src/reports.cpp:1171
+#: src/reports.cpp:1172
 msgid "Remaining: $left/$max"
 msgstr "Restantes: $left/$max"
 
-#: src/reports.cpp:1175
+#: src/reports.cpp:1176
 msgid "This unit can attack multiple times per turn."
 msgstr "Esta unidade pode atacar mais do que uma vez por turno."
 
-#: src/reports.cpp:1267
+#: src/reports.cpp:1268
 msgid "Time of day schedule:"
 msgstr "Cronograma de período do dia:"
 
 #
-#: src/reports.cpp:1316
+#: src/reports.cpp:1317
 msgid "Time of day:"
 msgstr "Tempo do Dia:"
 
 #
-#: src/reports.cpp:1317 src/reports.cpp:1371
+#: src/reports.cpp:1318 src/reports.cpp:1372
 msgid "Lawful units: "
 msgstr "Unidades diurnas: "
 
 #
-#: src/reports.cpp:1319 src/reports.cpp:1373
+#: src/reports.cpp:1320 src/reports.cpp:1374
 msgid "Neutral units: "
 msgstr "Unidades neutras: "
 
 #
-#: src/reports.cpp:1320 src/reports.cpp:1374
+#: src/reports.cpp:1321 src/reports.cpp:1375
 msgid "Chaotic units: "
 msgstr "Unidades nocturnas: "
 
 #
-#: src/reports.cpp:1322 src/reports.cpp:1376
+#: src/reports.cpp:1323 src/reports.cpp:1377
 msgid "Liminal units: "
 msgstr "Unidades limiares: "
 
-#: src/reports.cpp:1435
+#: src/reports.cpp:1436
 msgid "Turn Number"
 msgstr "Número do Turno"
 
-#: src/reports.cpp:1437
+#: src/reports.cpp:1438
 msgid ""
 "When the game exceeds the number of turns indicated by the second number, it "
 "will end."
@@ -8656,33 +8672,33 @@ msgstr ""
 "terminará."
 
 #
-#: src/reports.cpp:1462
+#: src/reports.cpp:1463
 msgid "Gold"
 msgstr "Ouro"
 
-#: src/reports.cpp:1462
+#: src/reports.cpp:1463
 msgid ""
 "The amount of gold currently available to recruit and maintain your army."
 msgstr "A ouro disponível para recrutar e manter o teu exército."
 
-#: src/reports.cpp:1481
+#: src/reports.cpp:1482
 msgid "The fraction of known villages that your side has captured."
 msgstr "A parte das aldeias conhecidas que a tua equipa controla."
 
 #
-#: src/reports.cpp:1481
+#: src/reports.cpp:1482
 msgid "Villages"
 msgstr "Aldeias"
 
-#: src/reports.cpp:1486
+#: src/reports.cpp:1487
 msgid "The total number of units on your side."
 msgstr "O total das unidades na tua equipa."
 
-#: src/reports.cpp:1486
+#: src/reports.cpp:1487
 msgid "Units"
 msgstr "Unidades"
 
-#: src/reports.cpp:1496
+#: src/reports.cpp:1497
 msgid ""
 "The expenses incurred at the end of every turn to maintain your army. The "
 "first number is the amount of gold that will be deducted. It is equal to the "
@@ -8698,16 +8714,16 @@ msgstr ""
 "controlasses nenhuma aldeia."
 
 #
-#: src/reports.cpp:1496
+#: src/reports.cpp:1497
 msgid "Upkeep"
 msgstr "Manutenção"
 
 #
-#: src/reports.cpp:1533
+#: src/reports.cpp:1534
 msgid "Net Income"
 msgstr "Rendimento positivo"
 
-#: src/reports.cpp:1533
+#: src/reports.cpp:1534
 msgid ""
 "The net amount of gold you gain or lose each turn, taking into account "
 "income from controlled villages and payment of upkeep."
@@ -8717,23 +8733,23 @@ msgstr ""
 "manutenção."
 
 #
-#: src/reports.cpp:1733
+#: src/reports.cpp:1734
 msgid "Observers:"
 msgstr "Observadores:"
 
-#: src/reports.cpp:1753
+#: src/reports.cpp:1754
 msgid "Clock"
 msgstr "Relógio"
 
-#: src/reports.cpp:1764
+#: src/reports.cpp:1765
 msgid "Battery"
 msgstr "Bateria"
 
-#: src/reports.cpp:1795
+#: src/reports.cpp:1796
 msgid "Countdown until your turn automatically ends."
 msgstr "Contagem Regressiva até que o seu turno termine automaticamente."
 
-#: src/reports.cpp:1795
+#: src/reports.cpp:1796
 msgid "Turn Countdown"
 msgstr "Contagem Regressiva do Turno"
 
@@ -9168,21 +9184,21 @@ msgid "Used by opponent: "
 msgstr "Usado pelo adversário: "
 
 #. TRANSLATORS: Current value for WML code increase_damage, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:536
+#: src/units/attack_type.cpp:537
 msgid "<span color=\"$color\">$number_or_percent</span> damage"
 msgid_plural "<span color=\"$color\">$number_or_percent</span> damage"
 msgstr[0] "<span color=\"$color\">$number_or_percent</span> dano"
 msgstr[1] "<span color=\"$color\">$number_or_percent</span> danos"
 
 #
-#: src/units/attack_type.cpp:545
+#: src/units/attack_type.cpp:546
 msgid "$number damage"
 msgid_plural "$number damage"
 msgstr[0] "$number dano"
 msgstr[1] "$number danos"
 
 #. TRANSLATORS: Current value for WML code increase_attacks, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:554
+#: src/units/attack_type.cpp:555
 msgid "<span color=\"$color\">$number_or_percent</span> strike"
 msgid_plural "<span color=\"$color\">$number_or_percent</span> strikes"
 msgstr[0] "<span color=\"$color\">$number_or_percent</span> ataque"
@@ -9190,7 +9206,7 @@ msgstr[1] "<span color=\"$color\">$number_or_percent</span> ataques"
 
 #
 #. TRANSLATORS: Current value for WML code set_attacks, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:563
+#: src/units/attack_type.cpp:564
 msgid "$number strike"
 msgid_plural "$number strikes"
 msgstr[0] "$number ataque"
@@ -9198,28 +9214,28 @@ msgstr[1] "$number ataques"
 
 #
 #. TRANSLATORS: Current value for WML code set_accuracy, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:572
+#: src/units/attack_type.cpp:573
 msgid "$number| accuracy"
 msgstr "$number| precisão"
 
 #. TRANSLATORS: Current value for WML code increase_accuracy, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:579
+#: src/units/attack_type.cpp:580
 msgid "<span color=\"$color\">$number_or_percent|%</span> accuracy"
 msgstr "<span color=\"$color\">$number_or_percent</span> precisão"
 
 #
 #. TRANSLATORS: Current value for WML code set_parry, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:586
+#: src/units/attack_type.cpp:587
 msgid "$number parry"
 msgstr "$number esquiva"
 
 #. TRANSLATORS: Current value for WML code increase_parry, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:593
+#: src/units/attack_type.cpp:594
 msgid "<span color=\"$color\">$number_or_percent</span> parry"
 msgstr "<span color=\"$color\">$number_or_percent</span> esquiva"
 
 #. TRANSLATORS: Current value for WML code set_movement_used, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:600
+#: src/units/attack_type.cpp:601
 msgid "$number movement point"
 msgid_plural "$number movement points"
 msgstr[0] "$number ponto de movimento"
@@ -9227,7 +9243,7 @@ msgstr[1] "$number pontos de movimento"
 
 #
 #. TRANSLATORS: Current value for WML code increase_movement_used, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:609
+#: src/units/attack_type.cpp:610
 msgid "<span color=\"$color\">$number_or_percent</span> movement point"
 msgid_plural "<span color=\"$color\">$number_or_percent</span> movement points"
 msgstr[0] "<span color=\"$color\">$number_or_percent</span> ponto de movimento"
@@ -9236,7 +9252,7 @@ msgstr[1] ""
 
 #
 #. TRANSLATORS: Current value for WML code set_attacks_used, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:618
+#: src/units/attack_type.cpp:619
 msgid "$number attack used"
 msgid_plural "$number attacks used"
 msgstr[0] "$number ataque usado"
@@ -9244,7 +9260,7 @@ msgstr[1] "$number ataques usados"
 
 #
 #. TRANSLATORS: Current value for WML code increase_attacks_used, documented in https://wiki.wesnoth.org/EffectWML
-#: src/units/attack_type.cpp:627
+#: src/units/attack_type.cpp:628
 msgid "<span color=\"$color\">$number_or_percent</span> attack used"
 msgid_plural "<span color=\"$color\">$number_or_percent</span> attacks used"
 msgstr[0] "<span color=\"$color\">$number_or_percent</span> ataque usado"
